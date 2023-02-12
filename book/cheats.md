@@ -35,7 +35,7 @@
 ## Container Deployments
 - [Docker](https://cheatography.com/achang/cheat-sheets/docker-tools-and-terms/)
 - [Docker Compose](https://cheatography.com/gauravpandey44/cheat-sheets/docker-compose/)
-- [Lando](book/images/media/lando.html)
+- [Lando](/images/media/lando.html)
 - [Composer (Packagist)](https://devhints.io/composer)
 - [Drush](https://drushcommands.com/drush-9x/cache/cache:rebuild/)
 - [Drush Summary Sheet](https://cheatography.com/fluxsauce/cheat-sheets/drush-commands/)
