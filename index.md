@@ -4,7 +4,7 @@
 
 You have found your way to ARMTEC's Technical Support Division.  You will find welcoming references to the many tools we use ourselves.  We help you learn business, financial, operational, tactical approaches and the technical tools to support your efforts.  Rather than silo of sophistication gobbeldygook maybe just some straight forward help.  
 
-ARMTEC is a huge supporter of what are known as "Open Source" tools.  People volunteer their time to build things that the public has free access to.  In exchange, you  donate time, resources, or what you can back to the Open Source community.  Don't worry, you don't have tocompete with some rocket scientist programmer in building tools.  It's 'ok' if you are just a good explainer.  In fact, you are probably just what Open Source software developers need...
+ARMTEC is a huge supporter of what are known as "Open Source" tools.  People volunteer their time to build things that the public has free access to.  In exchange, you  donate time, resources, or what you can back to the Open Source community.  Don't worry, you don't have to compete with some rocket scientist programmer in building tools.  It's 'ok' if you are just a good explainer.  In fact, you are probably just what Open Source software developers need...
 
 ["Free software is suffering because coders don’t know how to write documentation", The Next Web, June 2, 2017
 ](https://thenextweb.com/news/free-software-is-suffering-because-coders-dont-know-how-to-write-documentation)
@@ -19,6 +19,7 @@ You are invited to contribute (in the open source way) by making edits and pull 
 ![visitors](https://page-views.glitch.me/badge?page_id=selwynpolit.d9book-gh-pages-index)
 
 ### Chapters
+- [Cheatsheets](book/cheats.html)
 - [Batch and Queue - Batch API](book/bq.html)
 - [Blocks - Generate the code to create blocks, dependency injection, blocks with config forms, block permissions](book/blocks.html)
 - [Caching - Cache tags, disabling caching, caching REST resources, development setup, various caching tips](book/caching.html)
