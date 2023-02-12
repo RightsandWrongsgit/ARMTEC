@@ -1,6 +1,6 @@
 # Success is found here!
 ### Starting a business, learning to code, need some hints ...
-#### by Your Chief Demand Officer
+#### Consider us Your Chief Performance Officer
 
 You have found your way to ARMTEC's Technical Support Division.  What you will find here are welcoming references to the many tools we use ourselves.  There are many things readily available through a search that will help you learn business financial, operational, tactical approaches and the extensive technical tools to support your efforts.  The problem is that these are often highly complex for those not within a particular silo of sophistication.  You aren't trying to invent the next object oriented programming block to interface with your telephony js code trigger from the call center to your CMS; whatever all that gobbeldygook means.  But it sure would be nice if you could at least work on your own website now and then.  Or maybe you just need some help in how to make a presentation to an important customer and need some help.  
 
