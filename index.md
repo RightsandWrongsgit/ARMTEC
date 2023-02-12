@@ -1,8 +1,11 @@
-## Success is found here!
+# Success is found here!
 ### Starting a business, learning to code, need some hints ...
 #### by Your Chief Demand Officer
 
-You have found your way to ARMTEC's Technical Support Division.
+You have found your way to ARMTEC's Technical Support Division.  What you will find here are welcoming references to the many tools we use ourselves.  There are many things readily available through a search that will help you learn business financial, operational, tactical approaches and the extensive technical tools to support your efforts.  The problem is that these are often highly complex for those not within a particular silo of sophistication.  You aren't trying to invent the next object oriented programming block to interface with your telephony js code trigger from the call center to your CMS; whatever all that gobbeldygook means.  But it sure would be nice if you could at least work on your own website now and then.  Or maybe you just need some help in how to make a presentation to an import customer and need some help.  
+
+ARMTEC is a huge supporter of what are known as "Open Source" tools.  These are where people volunteer there time to build things that the public has free access to.  The expectation is that in exchange, you also will donate time, resources, or what you can back to the Open Source community effort.  Now don't worry that you don't compete with some rocket scientist programmer in building tools like you will find.  That is 'ok' because that same programmer probably isn't the world's best explainer and would appreciate your help in writing better instruction; something you may be in a great position to do right at the same time you are first learning something.  Also, you don't always need to think of every Open Source tool as a giant, full fledged software system; although many are.  The way ARMTEC looks at it is that there are also big opportunity gaps on where to find stuff and how to put the many parts together into a meaningful whole.
+
 
 During my hunting through examples on [Drupal.org](https://www.drupal.org/), [Stack Overflow](https://stackoverflow.com/questions/tagged/drupal) and many other places, I often wished there was a succinct set of current annotated code samples explaining how to do things the [Drupal way](https://events.drupal.org/neworleans2016/sessions/drupal-way-philosophy).  Of course, there is the excellent [examples module](https://www.drupal.org/project/examples), which is very handy. But this book is designed to otherwise fill that gap. Please forgive the `todo` items, but I've found that if I want to get it perfect, it won't ever get published. 
 
