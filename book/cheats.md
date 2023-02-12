@@ -7,7 +7,7 @@
 ## Put them on your Desktop
 - [Make a Desktop Link](https://www.wikihow.com/Put-a-Shortcut-to-a-Website-on-Your-Desktop)
 
-## Work the Terminal Command Line Interface (CLI)
+## Terminal Command Line Interface (CLI)
 - [Command Line Syntax](https://github.com/you-dont-need/You-Dont-Need-GUI#quick-links)
 - [Command Line Interface (CLI)](https://cheatography.com/mmorykan/cheat-sheets/common-commands/)
 - [Terminal Commands](https://cheatography.com/yuvrajverma01/cheat-sheets/terminal-linux-commands/)
@@ -16,7 +16,7 @@
 - [GREP](https://ryanstutorials.net/linuxtutorial/cheatsheetgrep.php)
 - [VIM (Also good to tweak inside containers)](https://www.craft.do/s/5FNcLxAUdJbab0)
 
-## IDE (Integrated Development Environment) and Version Control
+## IDE and Version Control
 - [VSCode](https://cheatography.com/jungledeer/cheat-sheets/visual-studio-code/)
 - [Video of how to do Git-GitHub with VSCode](https://www.youtube.com/watch?v=S7TbHDN8EXA)
 - [Git Key Commands](https://cheatography.com/samcollett/cheat-sheets/git/)
