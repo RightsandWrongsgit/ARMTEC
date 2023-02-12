@@ -1,5 +1,7 @@
 ---
 ---
+
+@import "{{ site.theme }}";
 body {
     background-color: #252525;
     padding:50px;
@@ -7,4 +9,3 @@ body {
     color:#fcfcfc;
     font-weight:400;
   }
-@import "{{ site.theme }}";
