@@ -19,7 +19,7 @@ You are invited to contribute (in the open source way) by making edits and pull 
 ![visitors](https://page-views.glitch.me/badge?page_id=selwynpolit.d9book-gh-pages-index)
 
 ### Chapters
-- [Cheatsheets](book/cheats.html)
+- [Cheatsheets](book/cheats.md)
 - [Batch and Queue - Batch API](book/bq.html)
 - [Blocks - Generate the code to create blocks, dependency injection, blocks with config forms, block permissions](book/blocks.html)
 - [Caching - Cache tags, disabling caching, caching REST resources, development setup, various caching tips](book/caching.html)
