@@ -1,8 +1,8 @@
-## Drupal at your fingertips
-### Drupal 9 & 10 developer's quick code reference
-#### by Selwyn Polit
+## Success is found here!
+### Starting a business, learning to code, need some hints ...
+#### by Your Chief Demand Officer
 
-This book is a quick reference for developers creating Drupal sites. While working on such sites during my career, I have gathered a large collection of notes and code which I use for my reference.  I hope it will be useful for you, too.
+You have found your way to ARMTEC's Technical Support Division.
 
 During my hunting through examples on [Drupal.org](https://www.drupal.org/), [Stack Overflow](https://stackoverflow.com/questions/tagged/drupal) and many other places, I often wished there was a succinct set of current annotated code samples explaining how to do things the [Drupal way](https://events.drupal.org/neworleans2016/sessions/drupal-way-philosophy).  Of course, there is the excellent [examples module](https://www.drupal.org/project/examples), which is very handy. But this book is designed to otherwise fill that gap. Please forgive the `todo` items, but I've found that if I want to get it perfect, it won't ever get published. 
 
