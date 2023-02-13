@@ -12,5 +12,5 @@ Git is the part of this you will put on your local computer.  A Git Repository i
 
 
 ### Git Repository
-- [Video of Git with GitHub](<iframe width="100%" height="500px" src="://www.youtube.com/watch?v=21Gl97tkbHU&t=8s"></iframe>
+- [Video of Git with GitHub](<iframe width="100%" height="500px" src="://www.youtube.com/watch?v=21Gl97tkbHU&t=8s"></iframe>)
 - [Where you find GitHub](https://github.com/)
