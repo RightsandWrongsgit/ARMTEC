@@ -17,9 +17,11 @@ said, it is still a little harder than just driving around existing applications
 'command line interface' (CLI) to the guts of your computer.  Therefore, this SUPERNOVICE section is provided to give you some guidance in the basics.  It is stuck here at
 the end because many people who will use this GITHUB repository will be experienced developers who don't want to read through a bunch of stuff that they already know.
 
+-[What are Operating Systems and Shells?](operating&shells.md)
+
 -[What Directory, Project Git Branch, User Profile am I in?](WhereAmI.md)
 
--[Something seems broken, what should I look to fix it?](Diagnostics.md)
+-[Something seems broken, what should I look to fix it?](diagnostics.md)
 
 ## SETTING UP YOUR BASIC SYSTEM BEFORE YOU GET STARTED
 ### WITH THE DRUPAL DOCKER CONTAINER 
