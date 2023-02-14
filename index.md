@@ -77,7 +77,7 @@ Last Updated on: 2-4-2023
 <p Site by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.drupal.org/u/emofsnead">ARMTEC</a> </p>
 ---
 <script src="https://giscus.app/client.js"
-        data-repo="selwynpolit/d9book"
+        data-repo="RightsandWrongsgit/ARMTEC"
         data-repo-id="MDEwOlJlcG9zaXRvcnkzMjUxNTQ1Nzg="
         data-category="Q&A"
         data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyMjY2NDE4"
