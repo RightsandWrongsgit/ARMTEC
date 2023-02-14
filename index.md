@@ -73,7 +73,7 @@ If you are inspired, please be a part of this project by contributing your own b
 Last Updated on: 2-4-2023
 
 ---------
-#####[Site by ARMTEC](https://github.com/](https://www.drupal.org/u/emofsnead){:target="_blank"}
+[Site by ARMTEC](https://github.com/](https://www.drupal.org/u/emofsnead){:target="_blank"}
 
 ---
 
