@@ -9,7 +9,7 @@ Most people have enjoyed using their computer via GUI (Graphical User Interface)
 
 - [What Directory, Project Git Branch, User Profile am I in?](WhereAmI.md)
 
-- [Integrated Development Environment (IDE): VSCode](ide.html)
+- [Integrated Development Environment (IDE): VSCode](ide.md)
 
 - [Something seems broken, what should I look to fix it?](diagnostics.md)
 
