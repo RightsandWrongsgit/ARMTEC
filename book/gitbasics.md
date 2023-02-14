@@ -7,10 +7,10 @@ You probably feel like the last thing you need is to learn one more thing in all
 Git is the part of this you will put on your local computer.  A Git Repository if hosted on some other computers that you link to as a way to have a copy of your work or code tucked safely away.  You will link your local to this hosted copy of your code and interact back and forth as you work.
 
 ### Git
-- [Overview of Top Git Commands](https://levelup.gitconnected.com/top-30-git-commands-you-should-know-to-master-git-cli-f04e041779bc)
-- [Where you find Git](https://git-scm.com/)
+- [Overview of Top Git Commands](https://levelup.gitconnected.com/top-30-git-commands-you-should-know-to-master-git-cli-f04e041779bc){:target="_blank"}
+- [Where you find Git](https://git-scm.com/){:target="_blank"}
 
 
 ### Git Repository
 - [Git with GitHub Video](https://www.youtube.com/watch?v=21Gl97tkbHU&t=8s){:target="_blank"}
-- [Where you find GitHub](https://github.com/)
+- [Where you find GitHub](https://github.com/){:target="_blank"}
