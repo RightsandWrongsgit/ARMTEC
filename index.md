@@ -21,6 +21,8 @@ You are invited to contribute (in the open source way) by making edits and pull 
 ### Chapters
 - [Cheatsheets](book/cheats.md)
 - [It May be Basic but sometimes you need a boost!](book/Novice.md)
+- [Hosting: How with Others see my website?](book/hosting.md)
+
 - [Blocks - Generate the code to create blocks, dependency injection, blocks with config forms, block permissions](book/blocks.html)
 - [Caching - Cache tags, disabling caching, caching REST resources, development setup, various caching tips](book/caching.html)
 - [Composer, updates and patches](book/composer.md)
