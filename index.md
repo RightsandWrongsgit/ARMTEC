@@ -74,6 +74,6 @@ Last Updated on: 2-4-2023
 
 ---------
 
-<p> Site by <a>rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.drupal.org/u/emofsnead">ARMTEC</a> </p>
+<p> Site by <a>href="https://www.drupal.org/u/emofsnead">ARMTEC</a> </p>
 ---
 
