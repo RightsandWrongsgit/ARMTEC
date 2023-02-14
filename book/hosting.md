@@ -15,6 +15,7 @@ Containers themselves are NOT the CMS.  Rather, the container is the 'environmen
 Docker is the foundation behind the most common approach to using containers. Docker and Docker-Compose will be installed for you when you install the local container tool called Lando and you really need to let Lando do that job for you because it assure the versions are properly aligned.  Once it these Docker elements are up and running, it can pay dividends to at least jump into Docker-Composer for a visual perspective on what container(s) are running; and sometimes stopping and removing them at this level is a helpful cleanup if you are doing a container rebuild on your machine (and don't freakout about that, because it typically only takes a few minutes).  All that said, this Docker Tutorial video is two hours long so you won't be blamed it you don't watch it. 
 
 - [Docker Tutorial video](https://www.youtube.com/watch?v=1eVy_iWrc20){:target="_blank"}
+- [Docker Tutorial video 3hr option](https://www.youtube.com/watch?v=iARL7iFyasE&list=PLVx1qovxj-amqyqHceAhkcsopzi4PFcKc&index=2){:target="_blank"}
 
 
 ### Running Containers Locally (Lando and alternatives)
