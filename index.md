@@ -74,20 +74,6 @@ Last Updated on: 2-4-2023
 
 ---------
 
-<p Site by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.drupal.org/u/emofsnead">ARMTEC</a> </p>
+<p> Site by <a>rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.drupal.org/u/emofsnead">ARMTEC</a> </p>
 ---
-<script src="https://giscus.app/client.js"
-        data-repo="RightsandWrongsgit/ARMTEC"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkzMjUxNTQ1Nzg="
-        data-category="Q&A"
-        data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyMjY2NDE4"
-        data-mapping="title"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script>
+
