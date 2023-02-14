@@ -9,6 +9,7 @@ Git is the part of this you will put on your local computer.  A Git Repository i
 ### Git
 - [Overview of Top Git Commands](https://levelup.gitconnected.com/top-30-git-commands-you-should-know-to-master-git-cli-f04e041779bc){:target="_blank"}
 - [Where you find Git](https://git-scm.com/){:target="_blank"}
+- [Concept of Git Workflow](https://www.youtube.com/watch?v=wbB7_s4OI8g)
 - [Git Complete Tutorial video 2hrs](https://www.youtube.com/watch?v=eeuNAIZoWRU){:target="_blank"}
 
 ### Git Repository
