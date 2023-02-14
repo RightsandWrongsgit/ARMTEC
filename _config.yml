@@ -2,3 +2,5 @@ remote_theme: RightsandWrongsgit/minimal
 logo: /book/images/media/ARMTEC Logo Medium+.png
 title: [Move Forward with...]
 description: [This is Our Technical Support Division]
+plugins:
+  - jekyll-target-blank
