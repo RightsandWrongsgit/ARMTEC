@@ -16,7 +16,7 @@ During my hunting through examples on [Drupal.org](https://www.drupal.org/), [St
 
 You are invited to contribute (in the open source way) by making edits and pull requests in [github](https://github.com/selwynpolit/d9book/tree/gh-pages/book).  There is a very simple editor in github which automatically forks the repo and lets you type your changes directly in your browser in [markdown format](https://github.github.com/gfm/). Try it by editing a chapter of interest to you.
 
-![visitors](https://page-views.glitch.me/badge?page_id=selwynpolit.d9book-gh-pages-index)
+![visitors](https://page-views.glitch.me/badge?page_id=RightsandWrongsgit.ARMTEC-gh-pages-index)
 
 ### Chapters
 - [Cheatsheets](book/cheats.md)
