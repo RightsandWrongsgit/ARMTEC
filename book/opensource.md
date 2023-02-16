@@ -16,31 +16,20 @@ You may already have something from Microsoft or Apple that you got when you bou
 It is pretty much standard practice to design your first website using some sort of easy tools before you start actually programming it.  You might go through this in steps with increasing levels of sophistication.  A napkin at the bar isn't off the table as a first level option.  Pencil and pad are pretty easy to rough something out and change.  You might move to a drawing tool in your Office Suite to make something to show others and get a first reaction.  The pictures your use in your mockup might come from free internet images, your own camera, or illustrations you do.  Here are some options to look at -
 
 - [Universal Document Converter (Software)](https://pandoc.org/){:target="_blank"}
-
 - [Markup Editor (Online & Download)](https://readme.so/editor){:target="_blank"}
-
 - [Find a Quote (Online)](https://metaphor.systems/){:target="_blank"}
-
 - [Remove a Photo Background](https://www.remove.bg/upload){:target="_blank"}
-
 - [Edit a Photo (Software)](https://www.gimp.org/){:target="_blank"}
-
 - [Compress an Image (Online)](https://compressor.io/){:target="_blank"}
-
 - [Edit a Video (Software)](https://www.vlognow.me){:target="_blank"}
-
 - [Make a Formal Mockup (Online)](https://penpot.app/){:target="_blank"}
-
 
 
 ### Front-end:
 
 - [Animation with CSS (Online)](https://animista.net/){:target="_blank"}
-
 - [CSS Tricks](https://css-tricks.com/){:target="_blank"}
-
 - [HyperLink Parts of a Graphic](http://www.javascriptkit.com/howto/imagemap.shtml){:target="_blank"}
-
 
 
 ### Developer:
@@ -54,12 +43,11 @@ It is pretty much standard practice to design your first website using some sort
 - [PHP Code Checker (Online)](https://extendsclass.com/php-tester.html){:target="_blank"}
 
 
-
 ### Handy Utilities:
 
 - [Sticky Notes (part of Mac)](https://support.apple.com/guide/stickies/welcome/mac){:target="_blank"}
 - [Calculators for EVERYTHING](https://www.omnicalculator.com/){:target="_blank"}
-- [Clipboard on Steroids](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12{:target="_blank"}
+- [Clipboard on Steroids](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12){:target="_blank"}
 
 
 ### Other Open Source tools
@@ -67,5 +55,4 @@ It is pretty much standard practice to design your first website using some sort
 There are websites where people concentrate on listing all sorts of Open Source tools.  Sometimes you find some good ones, other times you find a bust.  But if you have time to waste, go for it -
 
 - [Open Source Alternative](https://www.opensourcealternative.to/){:target="_blank"}
-
 - [Tiny Wow](https://tinywow.com/){:target="_blank"}
