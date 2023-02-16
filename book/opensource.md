@@ -35,10 +35,10 @@ It is pretty much standard practice to design your first website using some sort
 ### Developer:
 
 - [Composer (coordinate Drupal modules)](https://getcomposer.org/){:target="_blank"}
-- [npm (Node Package Manager, JavaScript Library/Registry ](https://www.npmjs.com/){:target="_blank"}
-- [vim (ultralight editor useful within a container](https://www.vim.org/){:target="_blank"}
+- [npm (Node Package Manager, JavaScript Library/Registry)](https://www.npmjs.com/){:target="_blank"}
+- [vim (ultralight editor useful within a container)](https://www.vim.org/){:target="_blank"}
 - [VSCode- IDE](https://code.visualstudio.com/){:target="_blank"}
-- [Lando (containers locally](https://lando.dev/){:target="_blank"}
+- [Lando (containers locally)](https://lando.dev/){:target="_blank"}
 - [Docker & Docker-Compose](book/docker)
 - [PHP Code Checker (Online)](https://extendsclass.com/php-tester.html){:target="_blank"}
 
