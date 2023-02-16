@@ -4,7 +4,7 @@
 
 You have found your way to ARMTEC's Technical Support Division.  You will find welcoming references to the many tools we use ourselves.  We help you learn business, financial, operational, tactical approaches and the technical tools to support your efforts.  Rather than silo of sophistication gobbeldygook maybe just some straight forward help.  
 
-ARMTEC is a huge supporter of what are known as "Open Source" tools.  People volunteer their time to build things that the public has free access to.  In exchange, you  donate time, resources, or what you can back to the Open Source community.  Don't worry, you don't have to compete with some rocket scientist programmer in building tools.  It's 'ok' if you are just a good explainer.  In fact, you are probably just what Open Source software developers need...
+ARMTEC is a huge supporter of what are known as "[Open Source](book/opensource.md)" tools.  People volunteer their time to build things that the public has free access to.  In exchange, you  donate time, resources, or what you can back to the Open Source community.  Don't worry, you don't have to compete with some rocket scientist programmer in building tools.  It's 'ok' if you are just a good explainer.  In fact, you are probably just what Open Source software developers need...
 
 ["Free software is suffering because coders don’t know how to write documentation", The Next Web, June 2, 2017
 ](https://thenextweb.com/news/free-software-is-suffering-because-coders-dont-know-how-to-write-documentation)
@@ -20,6 +20,7 @@ You are invited to contribute (in the open source way) by making edits and pull 
 
 ### Chapters
 - [Cheatsheets](book/cheats.md)
+- [Open Source Tools](book/opensource.md)
 - [It May be Basic but sometimes you need a boost!](book/Novice.md)
 - [Hosting: How with Others see my website?](book/hosting.md)
 
@@ -52,21 +53,6 @@ You are invited to contribute (in the open source way) by making edits and pull 
 - [Taxonomy](book/taxonomy.md)
 
 - [Attribution - See who contributed to the masterpiece](book/attribution.html)
-
-If you are inspired, please be a part of this project by contributing your own brilliance and add your name on the attribution page.
-
-### Chapters I'm working on
-- Email
-- Events
-- Javascript
-- Media image files
-- Migration
-- Miscellaneous
-- Paragraphs
-- Security and Preventing attacks
-- Single sign on
-- Twig
-- Views
 
 ----------
 
