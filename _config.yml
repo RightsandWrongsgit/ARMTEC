@@ -1,7 +1,11 @@
-remote_theme: RightsandWrongsgit/minimal
+# Site Settings
 logo: /book/images/media/ARMTEC Logo Medium+.png
 title: [Move Forward with...]
 description: [This is Our Technical Support Division]
+
+# Build Settings
+markdown: kramdown
+remote_theme: RightsandWrongsgit/minimal
 plugins:
   - jekyll-target-blank
 
