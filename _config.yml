@@ -4,3 +4,11 @@ title: [Move Forward with...]
 description: [This is Our Technical Support Division]
 plugins:
   - jekyll-target-blank
+
+# Enable safe mode
+safe: true
+
+# Whitelist plugins under safe mode.
+# Note that if `some-other-jekyll-plugin` is not listed here it will not be loaded under safe mode.
+whitelist:
+  - jekyll-target-blank
