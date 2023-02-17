@@ -23,6 +23,7 @@ You are invited to contribute (in the open source way) by making edits and pull 
 - [Open Source Tools](book/opensource.md)
 - [It May be Basic but sometimes you need a boost!](book/Novice.md)
 - [Hosting: How with Others see my website?](book/hosting.md)
+- [Drupal CI/CD Base Project](book/drupalcicd.md)
 
 - [Blocks - Generate the code to create blocks, dependency injection, blocks with config forms, block permissions](book/blocks.html)
 - [Caching - Cache tags, disabling caching, caching REST resources, development setup, various caching tips](book/caching.html)
