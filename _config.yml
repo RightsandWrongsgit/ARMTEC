@@ -2,6 +2,7 @@
 logo: /book/images/media/ARMTEC Logo Medium+.png
 title: [Move Forward with...]
 description: [This is Our Technical Support Division]
+baseurl: /ARMTEC
 
 # Build Settings
 markdown: kramdown
