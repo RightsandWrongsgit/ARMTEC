@@ -1,4 +1,4 @@
-## Integrated Development Environment (IDE)
+# Integrated Development Environment (IDE)
 
 You will want to look at where your project files are in a view of the directory structure.  You will want to look into your files to see what they say inside; like the code to do things.  And you will want to run things from the command line or terminal.  An integrated development environment has these things and more in one spot on your computer screen.  
 
