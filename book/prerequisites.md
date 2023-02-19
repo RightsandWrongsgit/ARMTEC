@@ -45,18 +45,18 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
     You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now -
 
-        - Github Pull Request and Issues, provides a GUI alternative to most commands you would have to type
+- [Github Pull Request and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) provides a GUI alternative to most commands you would have to type
 
-        - Git History, helps make it easy to compare files and commits to see what was changed
+- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) helps make it easy to compare files and commits to see what was changed
 
-        - Git Lens-Git Supercharged, visualize code authorship at a glance, seamlessly navigate and explore Git repositories, gain valuable insights via rich visualizations of branches, and powerful comparison commands
+- [Git Lens-Git Supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) visualize code authorship at a glance, seamlessly navigate and explore Git repositories, gain valuable insights via rich visualizations of branches, and powerful comparison commands
 
-        - Remote – SSH, lets you use any remote machine with a SSH server as your development environment
+- [Remote – SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) lets you use any remote machine with a SSH server as your development environment
 
-        - Docker, makes it easy to build, manage, and deploy containerized applications
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker) makes it easy to build, manage, and deploy containerized applications
 
-        - Dev Containers, Quickly swap between different, separate development environments and safely make updates without worrying about impacting your local machine
+- [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) Quickly swap between different, separate development environments and safely make updates without worrying about impacting your local machine
 
-        - Indent Rainbow, colorizes the indentation in front of your text, alternating four different colors on each step
+- [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) colorizes the indentation in front of your text, alternating four different colors on each step
 
-        - JSON, adds json support
+- [JSON](https://marketplace.visualstudio.com/items?itemName=ZainChen.json) adds json support
