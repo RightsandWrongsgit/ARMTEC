@@ -4,8 +4,7 @@
 
 Some of these aren't mandatory. However, you really will benefit from and eventually need each of these. Easiest to install them right up front.
 
-### SOFTWARE TOOLS:
-<sub><sup>(run these from your computer's top level directory)</sup></sub>
+### SOFTWARE TOOLS: <sub><sup>(run these from your computer's top level directory)</sup></sub>
 
 - npm
 
