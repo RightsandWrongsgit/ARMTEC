@@ -1,6 +1,6 @@
 # Prerequisites
 
-## You may have this stuff, but if not, do this)
+## You may have this stuff, but if not, do this
 
 Some of these aren't mandatory. However, you really will benefit from and eventually need each of these. Easiest to install them right up front.
 
