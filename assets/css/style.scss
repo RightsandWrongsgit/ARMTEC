@@ -39,3 +39,11 @@ h2 {
 h3, h4, h5, h6 {
   color:#C0C0C0;
 }
+
+code, pre {
+    font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+    color: black;
+    background-color: #c0c0c0;
+    padding-inline: 0.5em;
+    font-style: italic;
+}
