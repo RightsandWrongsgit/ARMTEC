@@ -45,8 +45,7 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
     You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now -
 
-<ul>
-  <li>
+
     - [Github Pull Request and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) provides a GUI alternative to most commands you would have to type
 
     - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) helps make it easy to compare files and commits to see what was changed
@@ -62,7 +61,4 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
     - [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) colorizes the indentation in front of your text, alternating four different colors on each step
 
     - [JSON](https://marketplace.visualstudio.com/items?itemName=ZainChen.json) adds json support
-
-  </li>
-</ul> 
     
