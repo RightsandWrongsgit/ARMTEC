@@ -45,7 +45,7 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
     You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now -
 
-
+#### VSCode Extensions
     - [Github Pull Request and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) provides a GUI alternative to most commands you would have to type
 
     - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) helps make it easy to compare files and commits to see what was changed
@@ -62,3 +62,4 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
     - [JSON](https://marketplace.visualstudio.com/items?itemName=ZainChen.json) adds json support
     
+    - [Market Place of Extensions](https://marketplace.visualstudio.com/search?target=VSCode&category=Extension%20Packs&sortBy=Installs)
