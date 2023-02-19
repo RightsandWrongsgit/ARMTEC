@@ -1,6 +1,6 @@
-# **Prerequisites**
+# Prerequisites
 
-(READY?: You may have this stuff, but if not, do this)
+## You may have this stuff, but if not, do this)
 
 You probably can get some of the immediately following steps running without doing these prerequisites. However, you really will benefit from and eventually need each of these. Easiest to install them right up front.
 
@@ -8,50 +8,42 @@ SOFTWARE TOOLS:
 
 (from your computer's top level directory)
 
-- - npm
+- npm
 
-![Shape1](RackMultipart20230219-1-dxav6g_html_4df7efbba43fc12e.gif)
+    `install npm`
 
-_install npm_
 
-- - Yarn
+- Yarn
 
-![Shape2](RackMultipart20230219-1-dxav6g_html_58f7639b92cab695.gif)
+    `Sudo npm install --global yarn`
 
-_Sudo npm install --global yarn_
+- Homebrew
 
-- - Homebrew
-
-![Shape3](RackMultipart20230219-1-dxav6g_html_bbaed06663676e4.gif)
-
-_bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"_
+'bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
 
 _/_
 
-_/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"_
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"`
 
 You may have to do a 'brew link --overwrite git' to simply redo some directories that were not cleared of the prior files and get them updated.
 
- ![Shape4](RackMultipart20230219-1-dxav6g_html_bfa1a7a68c5ea8c3.gif)
+- Nodejs
 
-_https://nodejs.org/en/download/_
+    `https://nodejs.org/en/download/`
 
-- - Node.js
 
 - composer (To make sure the parts of Drupal have compatible version pleases use Composer)
- ![Shape5](RackMultipart20230219-1-dxav6g_html_e2d2ae1dd7a0b11d.gif)
 
-_sudo mv composer.phar /usr/local/bin/composer_
+    `sudo mv composer.phar /usr/local/bin/composer`
 
-```
 
-```
-
-The above command is to install composer globally so it works across all your directories and thus projects. More on installing composer here … _https://getcomposer.org/download/_
+The above command is to install composer globally so it works across all your directories and thus projects. [More on installing composer here …](https://getcomposer.org/download/)
 
 - docker Docker is under the containers that both platform.sh uses as a host and Lando for your local development environment. The basic Docker things you need will come automatically with the Platform.sh project recipe/template you initially pull. If you already have Docker installed, you may need to let the version step backward to a prior version since you should use the version from the Platform.sh-Lando recipe.
 
-- ![Shape6](RackMultipart20230219-1-dxav6g_html_bfa1a7a68c5ea8c3.gif)_https://code.visualstudio.com/_VSCode is an IDE (Integrated Development Environment); at least with some extensions.
+- [VSCode](book/ide.md) is an IDE (Integrated Development Environment); at least with some extensions.
+
+    `https://code.visualstudio.com/` 
 
 VSCode is a great iIDE that has view panes that show you your project directory structure and files, show the content/code for files you highlight, and provide a terminal where you can run your command lines (CLI). You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now:
 
