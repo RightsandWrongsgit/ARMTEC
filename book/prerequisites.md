@@ -45,7 +45,7 @@ You may have to do a `brew link --overwrite git` to simply redo some directories
 
     `https://code.visualstudio.com/` 
 
-    You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now:
+    You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now -
 
         - <u>Github Pull Request and Issues</u>, provides a GUI alternative to most commands you would have to type
 
