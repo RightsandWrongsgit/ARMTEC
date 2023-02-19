@@ -58,6 +58,6 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
         - Dev Containers, Quickly swap between different, separate development environments and safely make updates without worrying about impacting your local machine
 
-        - <u>Indent Rainbow</u>, colorizes the indentation in front of your text, alternating four different colors on each step
+        - Indent Rainbow, colorizes the indentation in front of your text, alternating four different colors on each step
 
-        - <u>JSON</u>, adds json support
+        - JSON, adds json support
