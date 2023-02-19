@@ -17,12 +17,12 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
 - Homebrew
 
-    `bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+   <sub><sup>`bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`</sup></sub>
 
-<sub><sup>There are times running uninstall and then install clears some issues</sup></sub>
-    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"`
+   <sub><sup>There are times running uninstall and then install clears some issues</sup></sub>
+   <sub><sup>`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"`</sup></sub>
 
-<sub><sup>You may have to do a `brew link --overwrite git` to simply redo some directories that were not cleared of the prior files and get them updated.</sup></sub>
+   <sub><sup>You may have to do a `brew link --overwrite git` to simply redo some directories that were not cleared of the prior files and get them updated.</sup></sub>
 
 
 - Nodejs
@@ -46,6 +46,7 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
     You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now -
 
 #### VSCode Extensions
+
     - [Github Pull Request and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) provides a GUI alternative to most commands you would have to type
 
     - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory) helps make it easy to compare files and commits to see what was changed
