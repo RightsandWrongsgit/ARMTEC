@@ -16,7 +16,7 @@ You may already have something from Microsoft or Apple that you got when you bou
 It is pretty much standard practice to design your first website using some sort of easy tools before you start actually programming it.  You might go through this in steps with increasing levels of sophistication.  A napkin at the bar isn't off the table as a first level option.  Pencil and pad are pretty easy to rough something out and change.  You might move to a drawing tool in your Office Suite to make something to show others and get a first reaction.  The pictures your use in your mockup might come from free internet images, your own camera, or illustrations you do.  Here are some options to look at -
 
 ### Text
-- [Universal Document Converter (Software)](https://pandoc.org/){:target="_blank"}
+- [Doc/DocX to Markup Converter (Online)](https://word2md.com/){:target="_blank"}
 - [Markup Editor (Online & Download)](https://readme.so/editor){:target="_blank"}
 - [Find a Quote (Online)](https://metaphor.systems/){:target="_blank"}
 
