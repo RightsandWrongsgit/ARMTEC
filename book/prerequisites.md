@@ -43,7 +43,7 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
     `https://code.visualstudio.com/` 
 
-#### VSCode Extensions
+
     You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now -
 
     - [Github Pull Request and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) provides a GUI alternative to most commands you would have to type
