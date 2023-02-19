@@ -4,7 +4,7 @@ Most people tend to want to build their website on their own computer.  You can 
 
 ## A Free Static Website for Practice
 - [Building your site on GitHub pages](https://moezmustafa.medium.com/free-website-hosting-with-github-pages-4ebeedbd8d82){:target="_blank"}
-
+- [Getting Started with Jekyll and GitHub pages](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/){:target="_blank"}
 
 ## Using Containers to Run your Site
 Most people probably stopped here because of an interest is a Content Management System (CMS) site; Drupal being the powerhouse option.  With a CMS, you have the option of constantly updating content with the least effort. In fact, once built, such a site might be fed content updates automatically from other sites on the internet.  Imagine stories from your favorite sources flowing in to update you on topics you feature.  Imagine data flowing in and your site integrating and displaying a unique perspective on it.  From Blogs, to Newspapers, to E-Commerce, to collections of Universities, Museums, Governments, and more are things you might find built with a Drupal CMS.  Your plans don't need to start out so grand; but it is nice to know you have selected a CMS platform with Drupal that can expand as you do.
