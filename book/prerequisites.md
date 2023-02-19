@@ -46,17 +46,17 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
     You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now -
 
-        - <u>Github Pull Request and Issues</u>, provides a GUI alternative to most commands you would have to type
+        - Github Pull Request and Issues, provides a GUI alternative to most commands you would have to type
 
-        - <u>Git History</u>, helps make it easy to compare files and commits to see what was changed
+        - Git History, helps make it easy to compare files and commits to see what was changed
 
-        - <u>Git Lens-Git Supercharged</u>, <b>visualize code authorship</b> at a glance, <b>seamlessly navigate and explore</b> Git repositories, <b>gain valuable insights</b> via rich visualizations of branches, and powerful comparison commands
+        - Git Lens-Git Supercharged, visualize code authorship at a glance, seamlessly navigate and explore Git repositories, gain valuable insights via rich visualizations of branches, and powerful comparison commands
 
-        - <u>Remote – SSH</u>, lets you use any remote machine with a SSH server as your development environment
+        - Remote – SSH, lets you use any remote machine with a SSH server as your development environment
 
-        - <u>Docker</u>, makes it easy to build, manage, and deploy containerized applications
+        - Docker, makes it easy to build, manage, and deploy containerized applications
 
-        - <u>Dev Containers, Quickly swap between different, separate development environments and safely make updates without worrying about impacting your local machine
+        - Dev Containers, Quickly swap between different, separate development environments and safely make updates without worrying about impacting your local machine
 
         - <u>Indent Rainbow</u>, colorizes the indentation in front of your text, alternating four different colors on each step
 
