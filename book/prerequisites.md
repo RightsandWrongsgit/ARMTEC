@@ -2,11 +2,11 @@
 
 ## You may have this stuff, but if not, do this)
 
-You probably can get some of the immediately following steps running without doing these prerequisites. However, you really will benefit from and eventually need each of these. Easiest to install them right up front.
+Some of these aren't mandatory. However, you really will benefit from and eventually need each of these. Easiest to install them right up front.
 
-SOFTWARE TOOLS:
+### SOFTWARE TOOLS:
 
-(from your computer's top level directory)
+<sub><sup>(run these from your computer's top level directory)</sup></sub>
 
 - npm
 
@@ -19,46 +19,46 @@ SOFTWARE TOOLS:
 
 - Homebrew
 
-'bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
+    `bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-_/_
-
+<sub><sup>There are times running uninstall and then install clears some issues
 `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"`
 
-You may have to do a 'brew link --overwrite git' to simply redo some directories that were not cleared of the prior files and get them updated.
+You may have to do a `brew link --overwrite git` to simply redo some directories that were not cleared of the prior files and get them updated.</sup></sub>
+
 
 - Nodejs
 
     `https://nodejs.org/en/download/`
 
 
-- composer (To make sure the parts of Drupal have compatible version pleases use Composer)
+- Composer (To make sure the parts of Drupal have compatible version pleases use Composer)
 
     `sudo mv composer.phar /usr/local/bin/composer`
 
 
-The above command is to install composer globally so it works across all your directories and thus projects. [More on installing composer here …](https://getcomposer.org/download/)
+    The above command is to install composer globally so it works across all your directories and thus projects. [More on installing composer here …](https://getcomposer.org/download/)
 
-- docker Docker is under the containers that both platform.sh uses as a host and Lando for your local development environment. The basic Docker things you need will come automatically with the Platform.sh project recipe/template you initially pull. If you already have Docker installed, you may need to let the version step backward to a prior version since you should use the version from the Platform.sh-Lando recipe.
+- Docker Docker is under the containers that both platform.sh uses as a host and Lando for your local development environment. The basic Docker things you need will come automatically with the Platform.sh project recipe/template you initially pull. If you already have Docker installed, you may need to let the version step backward to a prior version since you should use the version from the Platform.sh-Lando recipe.
 
-- [VSCode](book/ide.md) is an IDE (Integrated Development Environment); at least with some extensions.
+- VSCode is an [IDE](book/ide.md)(Integrated Development Environment); use it with at least with some of the extra extensions.
 
     `https://code.visualstudio.com/` 
 
-VSCode is a great iIDE that has view panes that show you your project directory structure and files, show the content/code for files you highlight, and provide a terminal where you can run your command lines (CLI). You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now:
+    You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now:
 
-Github Pull Request and Issues, provides a GUI alternative to most commands you would have to type
+        - <u>Github Pull Request and Issues</u>, provides a GUI alternative to most commands you would have to type
 
-Git History, helps make it easy to compare files and commits to see what was changed
+        - <u>Git History</u>, helps make it easy to compare files and commits to see what was changed
 
-Git Lens-Git Supercharged, **visualize code authorship** at a glance, **seamlessly navigate and explore** Git repositories, **gain valuable insights** via rich visualizations of branches, and powerful comparison commands
+        - <u>Git Lens-Git Supercharged</u>, <b>visualize code authorship</b> at a glance, <b>seamlessly navigate and explore</b> Git repositories, <b>gain valuable insights</b> via rich visualizations of branches, and powerful comparison commands
 
-Remote – SSH, lets you use any remote machine with a SSH server as your development environment
+        - <u>Remote – SSH</u>, lets you use any remote machine with a SSH server as your development environment
 
-Docker, makes it easy to build, manage, and deploy containerized applications
+        - <u>Docker</u>, makes it easy to build, manage, and deploy containerized applications
 
-Dev Containers, Quickly swap between different, separate development environments and safely make updates without worrying about impacting your local machine
+        - <u>Dev Containers, Quickly swap between different, separate development environments and safely make updates without worrying about impacting your local machine
 
-Indent Rainbow, colorizes the indentation in front of your text, alternating four different colors on each step
+        - <u>Indent Rainbow</u>, colorizes the indentation in front of your text, alternating four different colors on each step
 
-JSON, adds json support
+        - <u>JSON</u>, adds json support
