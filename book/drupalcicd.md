@@ -15,7 +15,7 @@ When we talk about versions, you might think much more incrementally than say a 
 
 -  [Prepare my computer setup](cicd/prerequisites.md)
 -  [How to use it]()
--  [Install Drupal with Platform.sh Template](/ARMTEC/cicd/platfromshdrupal.md)
+-  [Install Drupal with Platform.sh Template](/cicd/platfromshdrupal.md)
 -  [Tell me how it is put together]()
 
 
