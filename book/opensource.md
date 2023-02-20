@@ -19,16 +19,19 @@ It is pretty much standard practice to design your first website using some sort
 - [Doc/DocX to Markup Converter (Online)](https://word2md.com/){:target="_blank"}
 - [Markup Editor (Online & Download)](https://readme.so/editor){:target="_blank"}
 - [Find a Quote (Online)](https://metaphor.systems/){:target="_blank"}
+- [AI Content Writer (Online)](https://rytr.me){:target="_blank"}
 
 ### Graphical
-- [Remove a Photo Background](https://www.remove.bg/upload){:target="_blank"}
+- [Remove a Photo Background (Online)](https://www.remove.bg/upload){:target="_blank"}
+- [Object Eraser (Online)](https://magicstudio.com/magiceraser){:target="_blank"}
 - [Edit a Photo (Software)](https://www.gimp.org/){:target="_blank"}
+- [AI Image Generator (Software)](https://diffusionbee.com/){:target="_blank"}
 - [Compress an Image (Online)](https://compressor.io/){:target="_blank"}
 - [Edit a Video (Software)](https://www.vlognow.me){:target="_blank"}
 
 ### Layout
+- [AI Color Palatte Generator (Online)](https://huemint.com/){:target="_blank"}
 - [Make a Formal Mockup (Online)](https://penpot.app/){:target="_blank"}
-
 
 ## Front-end:
 
@@ -48,15 +51,14 @@ It is pretty much standard practice to design your first website using some sort
 - [Docker & Docker-Compose](book/docker)
 - [PHP Code Checker (Online)](https://extendsclass.com/php-tester.html){:target="_blank"}
 
-
 ## Handy Utilities:
 
 - [Sticky Notes (part of Mac)](https://support.apple.com/guide/stickies/welcome/mac){:target="_blank"}
 - [Calculators for EVERYTHING](https://www.omnicalculator.com/){:target="_blank"}
 - [Clipboard on Steroids](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12){:target="_blank"}
+- [AI Code Documentation/Generation (Online)](https://www.figstack.com/){:target="_blank"}
 
-
-### Other Open Source tools
+## Other Open Source tools
 
 There are websites where people concentrate on listing all sorts of Open Source tools.  Sometimes you find some good ones, other times you find a bust.  But if you have time to waste, go for it -
 
