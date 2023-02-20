@@ -17,6 +17,7 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
 - Homebrew
 
+   <sub><sup>The basic install syntax</sup></sub>
    <sub><sup>`bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`</sup></sub>
 
    <sub><sup>There are times running uninstall and then install clears some issues</sup></sub>
