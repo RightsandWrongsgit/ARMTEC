@@ -15,6 +15,7 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
     `Sudo npm install --global yarn`
 
+
 - Homebrew 
 
     <sub><sup>Some of these long lines wrap but you want the whole thing.  You can slide your browser view and the responsive views will open to a single line for these long ones. </sup></sub>
@@ -31,14 +32,20 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
     `https://nodejs.org/en/download/`
 
 
+- Git (install 'globally' to use local {version control](/gitbasics.md))
+
+    `https://git-scm.com/downloads)`
+ 
+ 
 - Composer (To make sure the parts of Drupal have compatible version pleases use Composer)
 
     `sudo mv composer.phar /usr/local/bin/composer`
 
+    <sub><sup>The above command is to install composer globally so it works across all your directories and thus projects. [More on installing composer here …](https://getcomposer.org/download/)</sup></sub>
 
-    The above command is to install composer globally so it works across all your directories and thus projects. [More on installing composer here …](https://getcomposer.org/download/)
 
 - Docker Docker is under the containers that both platform.sh uses as a host and Lando for your local development environment. The basic Docker things you need will come automatically with the Platform.sh project recipe/template you initially pull. If you already have Docker installed, you may need to let the version step backward to a prior version since you should use the version from the Platform.sh-Lando recipe.
+
 
 - VSCode is an [IDE](book/ide.md) (Integrated Development Environment); use it with at least with some of the extra extensions.
 
@@ -64,3 +71,12 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
     - [JSON](https://marketplace.visualstudio.com/items?itemName=ZainChen.json){:target="_blank"} adds json support
     
     - [Market Place of Extensions](https://marketplace.visualstudio.com/search?target=VSCode&category=Extension%20Packs&sortBy=Installs){:target="_blank"}
+
+
+### Sign up for these
+
+
+- Sign up for a [GitHub account](github.com) and ideally know how to use the [SSH connection](https://www.youtube.com/watch?v=snCP3c7wXw0)
+
+- Sign up for Platform.sh and authenticate an account. Install the Platform.sh Command Line Interface (CLI), on a MacBook run `curl -sS https://platform.sh/cli/installer | php`
+    [CLI Documentation:](https://docs.platform.sh/development/cli.html#autocomplete-commands)
