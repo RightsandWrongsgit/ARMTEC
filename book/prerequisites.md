@@ -78,7 +78,7 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
 - Sign up for a [GitHub account](github.com) and ideally know how to use the [SSH connection](https://www.youtube.com/watch?v=snCP3c7wXw0)
 
-- Sign up for [Platform.sh](https://platform.sh/)and authenticate an account. Install the Platform.sh Command Line Interface (CLI), on a MacBook run `curl -sS https://platform.sh/cli/installer | php`
+- Sign up for [Platform.sh](https://platform.sh/) and authenticate an account. Install the Platform.sh Command Line Interface (CLI), on a MacBook run `curl -sS https://platform.sh/cli/installer | php`
 
     [Platform.sh CLI Documentation:](https://docs.platform.sh/development/cli.html#autocomplete-commands)
     
