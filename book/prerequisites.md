@@ -15,7 +15,8 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
     `Sudo npm install --global yarn`
 
-- Homebrew
+- Homebrew 
+<sub><sup>Some of these long lines wrap but you want the whole thing.  You can slide your browser view and the responsive views will open to a single line for these long ones. </sup></sub>
    
    `bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
