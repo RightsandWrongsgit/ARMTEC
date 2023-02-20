@@ -17,8 +17,7 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
 - Homebrew 
 
-<sub><sup>Some of these long lines wrap but you want the whole thing.  You can slide your browser view and the responsive views will open to a single line for these long ones. </sup></sub>
-   
+    <sub><sup>Some of these long lines wrap but you want the whole thing.  You can slide your browser view and the responsive views will open to a single line for these long ones. </sup></sub>
    `bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
    <sub><sup>There are times running uninstall and then install clears some issues</sup></sub> 
