@@ -45,6 +45,6 @@ D) At the CLI, now enter:   `platform url -p <Project ID>`
 
 A new browser window will open where you see an install screen for the Drupal9 application. Should look something like this:
 
-<img src="../cicd/captures/drupalinstall1.png"  width="600" height="300">
+<img src="../cicd/captures/drupalinstall2.png"  width="600" height="300">
 <sub><sup>From that Drupal screen, setting up your Drupal site is pretty much like all the tutorials out there on Drupal. And, it is pretty much follow the prompts and answer the questions.  The exception is that the "Set up database" step just sort of flies by automatically because the Platform.sh container recipes are doing it for you.</sup></sub>
 
