@@ -2,9 +2,13 @@
 
 In 1993, "The ARMTEC Report on Breast Cancer: The Disease, The Market and The Opportunity" was produced as a syndicated study book in Cooperation with ELM Services, Inc. after founding The National Oncology Data Base.  This involved computerizing the tumor registries of 200 US Hospitals.  The published study including findings from 41,000 cases; perhaps still the largest sample size study analyzed. 
 
+<table align="center"><tr><td align="center" width="9999">
+<img src="images/media/me_when-.png" align="center" width="330" height="500" alt="ARMTEC Founder">
+# Founder
+</td></tr></table>
 
-<center><img src="images/media/me_when-.png"  width="330" height="500"></center>
-<center>Our Founder<center>
+  
+  
 Founding ARMTEC, Inc. lead to many more opportunities.  The intersection of business, analytics, health, knowledge management, full stack development, DevOps, P&L optimization, promotional effectiveness, aviation, and research has provided fertile ground.  Partners and clients have enjoyed mutual success.  You can too!
 
   
