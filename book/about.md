@@ -5,7 +5,7 @@ In 1993, "The ARMTEC Report on Breast Cancer: The Disease, The Market and The Op
 <table align="center"><tr><td align="center" width="9999">
 <img src="images/media/me_when-.png" align="center" width="330" height="500" alt="ARMTEC Founder">
 
-# Founder
+Our Founder
 </td></tr></table>
 
   
@@ -17,8 +17,6 @@ If your [Mötley Crüe](https://www.youtube.com/watch?v=kXt5NWY5Ay0&t=59s) isn't
 Try ours  
 <table align="center"><tr><td align="center" width="9999">
 <img src="images/media/Nehmer_Goon_Rocky.png" align="center" width="450" height="350" alt="ARMTEC Leadership">
-
-# Leadership
 
 Our Motley Crew
 </td></tr></table>
