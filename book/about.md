@@ -7,4 +7,4 @@ In 1993, "The ARMTEC Report on Breast Cancer: The Disease, The Market and The Op
 <center>Our Founder<center>
 
   <right><img src="images/media/Nehmer_Goon_Rocky.png" width="400" height="350"></right>
-  <right>Our Leadership</right>
+  <right>Leadership</right>
