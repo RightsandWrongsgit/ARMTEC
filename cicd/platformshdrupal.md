@@ -39,7 +39,7 @@ A new browser window will open where you see an install screen for the Drupal9 a
 
 <sub><sup>A) Go over to this repository on GitHub and you will find the Platform.sh template for Drupal 9 `https://github.com/platformsh-templates/drupal9/sup></sub>
 	
-<sub><sup>B) Click on the button at the top of the repository that looks like this -></sup></sub><img src="../cicd/captures/deployonplatformbutton.png"  width="300" height="60">	
+<sub><sup>B) Click on the button at the top of the repository that looks like this -></sup></sub><img src="../cicd/captures/deployonplatformbutton.png"  width="200" height="40">	
 
 <sub><sup>C) Follow the on-line instructions to bring up the hosted Drupal site/sup></sub>	
 	
