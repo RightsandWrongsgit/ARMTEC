@@ -5,6 +5,17 @@ In 1993, "The ARMTEC Report on Breast Cancer: The Disease, The Market and The Op
 
 <center><img src="images/media/me_when-.png"  width="330" height="500"></center>
 <center>Our Founder<center>
+Founding ARMTEC, Inc. lead to many more opportunities.  The intersection of business, analytics, health, knowledge management, full stack development, DevOps, P&L optimization, promotional effectiveness, aviation, and research has provided fertile ground.  Partners and clients have enjoyed mutual success.  You can too!
 
-<right><img src="images/media/Nehmer_Goon_Rocky.png" width="450" height="350"></right>
-<right>Leadership</right>
+  
+If your [Mötley Crüe](https://www.youtube.com/watch?v=kXt5NWY5Ay0&t=59s){:target="_blank"} isn't getting it done ...
+Try ours  
+<table align="center"><tr><td align="center" width="9999">
+<img src="images/media/Nehmer_Goon_Rocky.png" align="center" width="450" height="350" alt="ARMTEC Leadership">
+
+# Leadership
+
+Our Motley Crew
+</td></tr></table>
+
+  
