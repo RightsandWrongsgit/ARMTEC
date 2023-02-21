@@ -18,7 +18,6 @@ Try ours
 <table align="center"><tr><td align="center" width="9999">
 <img src="images/media/Nehmer_Goon_Rocky.png" align="center" width="450" height="350" alt="ARMTEC Leadership">
 
-Our Motley Crew
 </td></tr></table>
 
   
