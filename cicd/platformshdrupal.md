@@ -30,4 +30,4 @@ E) At the CLI, now enter:
 
 A new browser window will open where you see an install screen for the Drupal9 application. Should look something like this:
 
-<img src="ARMTEC/cicd/captures/drupalinstall1.png"  width="600" height="300">
+<img src="../cicd/captures/drupalinstall1.png"  width="600" height="300">
