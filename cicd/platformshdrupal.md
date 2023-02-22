@@ -66,7 +66,7 @@ They don't want to surprise you on costs, so you will be shown the pricing plan.
 
 <img src="../cicd/captures/platformsignup3.png"  width="250">
 
-They will tell you that your 'Free trial' is starting.  And basically you have 30 days to work with the Platform.sh host to see how you like it.   Your project is being saved and assuming you are happy, you put in your billing details at the end of the trial to keep it running. WARNING:  DON'T LET A PROJECT YOU WANT TO SAVE HIT THAT 30 DAY PERIOD WITHOUT CONVERTING IT TO PAID OUR YOU MAY NOT BE ABLE TO GET IT BACK.
+They will tell you that your 'Free trial' is starting.  And basically you have 30 days to work with the Platform.sh host to see how you like it.   Your project is being saved and assuming you are happy, you put in your billing details at the end of the trial to keep it running. <font color="red">WARNING:  DON'T LET A PROJECT YOU WANT TO SAVE HIT THAT 30 DAY PERIOD WITHOUT CONVERTING IT TO PAID OUR YOU MAY NOT BE ABLE TO GET IT BACK.</font>
 
 <img src="../cicd/captures/platformsignup4.png"  width="200">
 
