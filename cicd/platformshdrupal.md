@@ -11,9 +11,9 @@
 
 <sub><sup>C) Follow the on-line instructions to bring up the hosted Drupal site</sup></sub>	
 	
-<sub><sup>D) Back to the Github template site and follow the [Drupal: using Lando section](https://github.com/platformsh-templates/drupal9#:~:text=Drupal%3A using Lando-,Note,-%3A)</sup></sub>
+<sub><sup>D) Back to the Github template site and follow the  [Drupal: using Lando section](https://github.com/platformsh-templates/drupal9#:~:text=Drupal%3A using Lando-,Note,-%3A)</sup></sub>
 	
-<sub><sup>E) In the "Migrate" section in the Github template for a totally new site follow the [Getting started instructions](https://github.com/platformsh-templates/drupal9#getting-started-1)</sup></sub>
+<sub><sup>E) In the "Migrate" section in the Github template for a totally new site follow the  [Getting started instructions](https://github.com/platformsh-templates/drupal9#getting-started-1)</sup></sub>
 	
 
 ## Regular approach: 
@@ -22,7 +22,7 @@ You should have gone to Platform.sh, signed up for an account and installed thei
 
 A) From the Platform.sh CLI enter: `platform create`
 
-This will prompt you for-→ 
+This will prompt you for 
 				– a project title
 				– your hosting region (e.g. us-2.platform.sh)		
 				– the plan size (use 'Development' until you want to go live)
@@ -54,19 +54,19 @@ A new browser window will open where you see an install screen for the Drupal9 a
 
 From the main screen at Platform.sh you first sign up.  I did this with the GitHub account I had established earlier rather than using just an email address; this approach giving you a head start on coordinating Platform.sh and GitHub. 
 
-<img src="../cicd/captures/platformsignup1.png"  width="450">
+<img src="../cicd/captures/platformsignup1.png"  width="250">
 
 Then you will indicate you are starting a 'New project' and will fill in the Project name, the Production environment name (USE "main" for our CI/CD workflow approach rather than master, prod, or whatever else you might call it), and select the geographic region for your location.
 
-<img src="../cicd/captures/platformsignup2.png"  width="450">
+<img src="../cicd/captures/platformsignup2.png"  width="300">
 
 They don't want to surprise you on costs, so you will be shown the pricing plan.  But if you are just starting out to see how it goes, you will be in the 'free trial' and don't even have to put in any credit card or that type of information.  So just hit 'Continue'.
 
-<img src="../cicd/captures/platformsignup3.png"  width="450">
+<img src="../cicd/captures/platformsignup3.png"  width="250">
 
 They will tell you that your 'Free trial' is starting.  And basically you have 30 days to work with the Platform.sh host to see how you like it.   Your project is being saved and assuming you are happy, you put in your billing details at the end of the trial to keep it running. WARNING:  DON'T LET A PROJECT YOU WANT TO SAVE HIT THAT 30 DAY PERIOD WITHOUT CONVERTING IT TO PAID OUR YOU MAY NOT BE ABLE TO GET IT BACK.
 
-<img src="../cicd/captures/platformsignup4.png"  width="450">
+<img src="../cicd/captures/platformsignup4.png"  width="200">
 
 At that point your new project is actually building.  Remember, you are using a Drupal template supplied right by Platform.sh to do that build.  The template is driven by a Composer file that coordinates the installation of all the package parts into a 'container' environment; Docker is underneath all this but you don't have to specifically know Docker since the system is all set up for you.
 
@@ -82,7 +82,7 @@ As you look further down the page, on the left you see our Project, that it is o
 
 What you care about at this point is at the bottom of that left box with the Project name, Plan, Geographic location…  You see a URL at the very bottom and you are going to want to open that in another browser window ('Control-Click' on a Mac).
 
-<img src="../cicd/captures/platformsignup8.png"  width="450">
+<img src="../cicd/captures/platformsignup8.png"  width="250">
 
 ChaChing!  When you open it, you sort of see the beginnings of your Drupal site running on the Platform.sh host.  We are going to have to do the Drupal site set up steps but the actual host environment is already running.  
 
@@ -126,21 +126,21 @@ One the page for the second step you just copy the short code block (via clickin
 
 You need somewhere to 'Paste' what you copied and we are going to open the 'Terminal' to use the Command Line in it.  If your look in your files under the "Applications" directory, near the bottom you will see a "Utilities" sub-directory.  Toward the bottom of that list you will see and select 'Terminal'.  (In Windows it is the command prompt and you can move your mouse pointer to the bottom-left corner of the screen and right-click, or you can press Windows key + X to get there).
 
-<img src="../cicd/captures/findyourterminal.png"  width="200">
+<img src="../cicd/captures/findyourterminal.png"  width="170">
 
 You want to be at the 'root' of your user account because we are going to install the Platform CLI globally; the logic being that you probably will work on other projects with different names and locations on your hard-drive in the future and want it available as you expand your development work.  In the example below, my 'User' is Armtec and I am at the My-Laptop root level.  So I 'Paste' what I copied on that line and hit enter.  The Platform CLI tool install is pretty automatic but you might have to answer a question (pick the defaults).
 
-<img src="../cicd/captures/platformCLIinstall1.png"  width="450">
+<img src="../cicd/captures/platformCLIinstall1.png"  width="425">
 
-<img src="../cicd/captures/platformCLIinstall2.png"  width="450">
+<img src="../cicd/captures/platformCLIinstall2.png"  width="170">
 
 Back at your command prompt you will see above it the CLI install process ended by telling you to start running it …  type 'platform' and hit enter.
 
-<img src="../cicd/captures/platformCLIinstall3.png"  width="450">
+<img src="../cicd/captures/platformCLIinstall3.png"  width="170">
 
 
 As Platform.sh starts, it ask you if you want to Log in via a browser and you select the default 'Y' that you do want to use the browser.
 
-<img src="../cicd/captures/platformCLIinstall4.png"  width="450">
+<img src="../cicd/captures/platformCLIinstall4.png"  width="170">
 
 Since we signed up for Platform.sh with GitHub it is already SSH connected, recognizes our Username and Email Address.  Plus it see our list of projects as the one we just set up..
