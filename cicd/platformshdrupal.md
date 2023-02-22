@@ -22,7 +22,7 @@ You should have gone to Platform.sh, signed up for an account and installed thei
 
 A) From the Platform.sh CLI enter: `platform create` <br>
 
-As prompted, here are your answers
+As prompted, here are your answers  <br>
 
 				* a project title (whatever your want to call it)
 				* your hosting region (e.g. us-2.platform.sh)		
