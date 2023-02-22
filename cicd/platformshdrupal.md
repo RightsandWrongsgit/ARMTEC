@@ -132,15 +132,17 @@ You need somewhere to 'Paste' what you copied and we are going to open the 'Term
 
 <img src="../cicd/captures/findyourterminal.png"  width="170">
 
+##### Local copy coming down
+
 You want to be at the 'root' of your user account because we are going to install the Platform CLI globally; the logic being that you probably will work on other projects with different names and locations on your hard-drive in the future and want it available as you expand your development work.  In the example below, my 'User' is Armtec and I am at the My-Laptop root level.
 
 Copy this `curl -fsS https://platform.sh/cli/installer | php1`
 
-'Paste' what you copied on that command line and hit enter.  The Platform CLI tool install is pretty automatic but you might have to answer a question (pick the defaults).
+'Paste' what you copied on that command line and hit enter.  The Platform CLI tool install is pretty automatic but you might have to answer a question (pick the defaults).  Again, you are doing this from your 'root' directory; mine in the example is ARMTEC.
 
 <img src="../cicd/captures/platformCLIinstall1.png"  width="425">
 
-The system basically tells you want to run next. Do these two things at the prompt and hit enter.
+The system basically tells you want to run next. Do these two things at the prompt and hit enter.  Your are doing this from the 'root' and that is important because the hosted project will be brought down as a local copy in a directory off that 'root' unless you tell it otherwise in an upcoming step.
 
 <img src="../cicd/captures/platformCLIinstall2.png"  width="170">
 
@@ -155,7 +157,7 @@ Since we signed up for Platform.sh with GitHub it is already SSH connected, reco
 
 <img src="../cicd/captures/platformCLIinstall5.png"  width="425">
 
-We need to choose the project we want to use. Since we only have the one project at this point, selecting it as number '0' from the list is easy.  And since we haven't set up any branches yet, our only environment is 'main'.  It also notes the name of what will be our default directory; and since we invoked all this off of the root, it will just be at the level of a sub-directory right off of the root.
+We need to choose the project we want to use. Since we only have the one project at this point, selecting it as number '0' from the list is easy.  And since we haven't set up any branches yet, our only environment is 'main'.  **It also notes the name of what will be our default directory; and since we invoked all this off of the root, it will just be at the level of a sub-directory right off of the root.**
 
 <img src="../cicd/captures/platformCLIinstall6.png"  width="300">
 
