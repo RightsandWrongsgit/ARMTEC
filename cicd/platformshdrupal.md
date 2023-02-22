@@ -54,11 +54,11 @@ A new browser window will open where you see an install screen for the Drupal9 a
 
 ## <a name="stepbystep"></a>Step-by-Step
 
-From the main screen at Platform.sh you first sign up.  I did this with the GitHub account I had established earlier rather than using just an email address; this approach giving you a head start on coordinating Platform.sh and GitHub. 
+If you prefer a cookbook recipe approach this alternative shows you how you establish a Platform.sh account and bring up your Drupal project step-by-step.  From the main screen at Platform.sh you first sign up.  **Sign up with the GitHub account** rather than using just an email address; this approach giving you a head start on coordinating Platform.sh and GitHub. 
 
 <img src="../cicd/captures/platformsignup1.png"  width="250">
 
-Then you will indicate you are starting a 'New project' and will fill in the Project name, the Production environment name (USE "main" for our CI/CD workflow approach rather than master, prod, or whatever else you might call it), and select the geographic region for your location.
+Then you will indicate you are starting a 'New project' and will fill in the Project name, the Production environment name (<font color="red">USE 'main'</font> for our CI/CD workflow approach rather than master, prod, or whatever else you might call it), and select the geographic region for your location.
 
 <img src="../cicd/captures/platformsignup2.png"  width="300">
 
