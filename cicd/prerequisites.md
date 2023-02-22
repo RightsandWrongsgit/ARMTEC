@@ -82,4 +82,4 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
     [Platform.sh CLI Documentation:](https://docs.platform.sh/development/cli.html#autocomplete-commands)
     
-    For a detailed, cookbook style, sign up that moves directly to establishing your Drupal project [Click Here](../cicd/platformshdrupal.md(#stepbystep))
+    For a detailed, cookbook style, sign up that moves directly to establishing your Drupal project [Click Here](../cicd/platformshdrupal.md#stepbystep)
