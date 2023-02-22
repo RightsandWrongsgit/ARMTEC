@@ -24,12 +24,12 @@ A) From the Platform.sh CLI enter: `platform create`
 
 As prompted, here are your answers
 
-				- a project title (whatever your want to call it)
-				- your hosting region (e.g. us-2.platform.sh)		
-				- the plan size (use 'Development' until you want to go live)
-				- Number of Environments (default 3)
-				- Amount of Storage (default 5 Gig)
-				- Confirm "Y" to continue
+				* a project title (whatever your want to call it)
+				* your hosting region (e.g. us-2.platform.sh)		
+				* the plan size (use 'Development' until you want to go live)
+				* Number of Environments (default 3)
+				* Amount of Storage (default 5 Gig)
+				* Confirm "Y" to continue
 
 B) A Project ID will be assigned and shown.  Copy and save it somewhere safe.
 
