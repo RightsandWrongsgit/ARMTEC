@@ -20,7 +20,7 @@ E) In the "Migrate" section in the Github template for a totally new site follow
 
 You should have gone to Platform.sh, signed up for an account and installed their command line interface (CLI) tool. If not, jump back to the end of the Prerequisites and follow those instructions.
 
-A) From the Platform.sh CLI enter `platform create`
+A) From the Platform.sh CLI enter ```platform create```
 
 As prompted, here are your answers
 
