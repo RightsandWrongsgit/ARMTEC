@@ -11,7 +11,7 @@ B) Click on the button at the top of the repository that looks like this <img sr
 
 C) Follow the on-line instructions to bring up the hosted Drupal site	
 	
-D) Back to the Github template site and follow the  [Drupal: using Lando section](https://github.com/platformsh-templates/drupal9#:~:text=Drupal%3A using Lando-,Note,-%3A)
+D) Back to the Github template site and follow the  [Drupal: using Lando section](https://github.com/platformsh-templates/drupal9#:~:text=Drupal%3A-,using,-Lando)
 	
 E) In the "Migrate" section in the Github template for a totally new site follow the  [Getting started instructions](https://github.com/platformsh-templates/drupal9#getting-started-1)
 	
