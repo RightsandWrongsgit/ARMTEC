@@ -39,7 +39,7 @@ C) At the CLI enter:  `platform environment:init <Project ID> -e main https://gi
 
 &nbsp;&nbsp;&nbsp;&nbsp;<sub><sup>NOTE: you can replace 'drupal9' with whatever other template version is available from this source.</sup></sub><br>
 
-This is now building your project on the platform.sh host.
+This is now building your project on the platform.sh host.<br>
 <sub><sup>(What is happening in this step is that the system is looking at the platform.app.yaml file in that template's project root and the routes.yaml and services.yaml file that that template has in a next level down subdirectory called .platform to create a host system environment your project is running in.  Eventually you might edit these files to tweak your environment to improve performance.  But to start out the template being pulled has all you need.)</sup></sub>
 
 D) At the CLI, now enter:   `platform url -p <Project ID>`
