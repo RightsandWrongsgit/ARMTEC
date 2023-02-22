@@ -20,16 +20,16 @@ E) In the "Migrate" section in the Github template for a totally new site follow
 
 You should have gone to Platform.sh, signed up for an account and installed their command line interface (CLI) tool. If not, jump back to the end of the Prerequisites and follow those instructions.
 
-A) From the Platform.sh CLI enter: `platform create` <br>
+A) From the Platform.sh CLI enter: `platform create`
 
-As prompted, here are your answers  <br>
+As prompted, here are your answers
 
-				* a project title (whatever your want to call it)
-				* your hosting region (e.g. us-2.platform.sh)		
-				* the plan size (use 'Development' until you want to go live)
-				* Number of Environments (default 3)
-				* Amount of Storage (default 5 Gig)
-				* Confirm "Y" to continue
+&nbsp;&nbsp;&nbsp;&nbsp;* a project title (whatever your want to call it)
+&nbsp;&nbsp;&nbsp;&nbsp;* your hosting region (e.g. us-2.platform.sh)		
+&nbsp;&nbsp;&nbsp;&nbsp;* the plan size (use 'Development' until you want to go live)
+&nbsp;&nbsp;&nbsp;&nbsp;* Number of Environments (default 3)
+&nbsp;&nbsp;&nbsp;&nbsp;* Amount of Storage (default 5 Gig)
+&nbsp;&nbsp;&nbsp;&nbsp;* Confirm "Y" to continue
 
 B) A Project ID will be assigned and shown.  Copy and save it somewhere safe.
 
