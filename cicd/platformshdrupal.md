@@ -96,7 +96,7 @@ Choose profile; most likely 'Standard' if you are aiming to establish your own s
 
 <img src="../cicd/captures/drupalinstall2.png"  width="450">
 
-Here is where that container based approach and a starting template really pay off.  You will see the install process has skipped the 'Verify requirements' and 'Set up database' steps because these are already handled.  So just watch that 'Installing Drupal' bar whiz by...
+Here is where that container based approach and a starting template really pay off.  You will see the install process has skipped the 'Verify requirements' and 'Set up database' steps because these are already handled.  So just watched that 'Installing Drupal' bar whiz by...
 
 <img src="../cicd/captures/drupalinstall3.png"  width="450">
 
