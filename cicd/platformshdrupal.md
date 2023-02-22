@@ -70,7 +70,7 @@ They will tell you that your 'Free trial' is starting.  And basically you have 3
 
 <img src="../cicd/captures/platformsignup4.png"  width="200">
 
-At that point your new project is actually building.  Remember, you are using a Drupal template supplied right by Platform.sh to do that build.  The template is driven by a [Composer](https://getcomposer.org/) file that coordinates the installation of all the package parts into a 'container' environment; Docker is underneath all this but you don't have to specifically know Docker since the system is all set up for you.
+At that point your new project is actually building.  Remember, you are using a Drupal template supplied right by Platform.sh to do that build.  The template is driven by a [Composer](https://getcomposer.org/) file that coordinates the installation of all the package parts into a [container](../book/hosting.md#Using-Containers-to-Run-your-Site) environment; Docker is underneath all this but you don't have to specifically know Docker since the system is all set up for you.
 
 <img src="../cicd/captures/platformsignup5.png"  width="450">
 
