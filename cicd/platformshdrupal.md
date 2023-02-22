@@ -166,3 +166,5 @@ As it runs, you can see the name of your 'Downloading project …'  and you can 
 <img src="../cicd/captures/platformCLIinstall7.png"  width="300">
 
 You should be able to see the local copy of your project at that sub-directory if you go look in your 'Finder' on a Mac (believe it is 'Explorer' on Windows).
+
+[- Next -](../cicd/vscodedrupallocal.md)
