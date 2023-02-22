@@ -12,19 +12,25 @@ ARMTEC is a huge supporter of what are known as "[Open Source](book/opensource.m
 Also, you don't always need to think of every Open Source tool as a giant, full fledged software system; although many are.  The way ARMTEC looks at it is that there are also big 'opportunity gaps' on where to find stuff and how to put the many parts together into a meaningful whole.  This site is offered to help you do that!
 
 
-During my hunting through examples on [Drupal.org](https://www.drupal.org/), [Stack Overflow](https://stackoverflow.com/questions/tagged/drupal) and many other places, I often wished there was a succinct set of current annotated code samples explaining how to do things the [Drupal way](https://events.drupal.org/neworleans2016/sessions/drupal-way-philosophy).  Of course, there is the excellent [examples module](https://www.drupal.org/project/examples), which is very handy. But this book is designed to otherwise fill that gap. Please forgive the `todo` items, but I've found that if I want to get it perfect, it won't ever get published. 
-
-You are invited to contribute (in the open source way) by making edits and pull requests in [github](https://github.com/selwynpolit/d9book/tree/gh-pages/book).  There is a very simple editor in github which automatically forks the repo and lets you type your changes directly in your browser in [markdown format](https://github.github.com/gfm/). Try it by editing a chapter of interest to you.
 
 ![visitors](https://page-views.glitch.me/badge?page_id=RightsandWrongsgit.ARMTEC-gh-pages-index)
 
-### Chapters
+### Chapter
 - [Cheatsheets](book/cheats.md)
 - [Open Source Tools](book/opensource.md)
 - [It May be Basic but sometimes you need a boost!](book/Novice.md)
 - [Hosting: How with Others see my website?](book/hosting.md)
 - [Drupal CI/CD Base Project](book/drupalcicd.md)
 
+
+### Chapter 
+
+
+
+### Chapter
+
+
+### Chapters from Selwynpolit's Drupal 9 book
 - [Blocks - Generate the code to create blocks, dependency injection, blocks with config forms, block permissions](book/blocks.html)
 - [Caching - Cache tags, disabling caching, caching REST resources, development setup, various caching tips](book/caching.html)
 - [Composer, updates and patches](book/composer.md)
@@ -54,6 +60,11 @@ You are invited to contribute (in the open source way) by making edits and pull 
 - [Taxonomy](book/taxonomy.md)
 
 - [Attribution - See who contributed to the masterpiece](book/attribution.html)
+
+
+During my hunting through examples on [Drupal.org](https://www.drupal.org/), [Stack Overflow](https://stackoverflow.com/questions/tagged/drupal) and many other places, I often wished there was a succinct set of current annotated code samples explaining how to do things the [Drupal way](https://events.drupal.org/neworleans2016/sessions/drupal-way-philosophy).  Of course, there is the excellent [examples module](https://www.drupal.org/project/examples), which is very handy. But this book is designed to otherwise fill that gap. Please forgive the `todo` items, but I've found that if I want to get it perfect, it won't ever get published. 
+
+You are invited to contribute (in the open source way) by making edits and pull requests in [github](https://github.com/selwynpolit/d9book/tree/gh-pages/book).  There is a very simple editor in github which automatically forks the repo and lets you type your changes directly in your browser in [markdown format](https://github.github.com/gfm/). Try it by editing a chapter of interest to you.
 
 ----------
 
