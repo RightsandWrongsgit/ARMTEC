@@ -16,7 +16,7 @@ When we talk about versions, you might think much more incrementally than say a 
 -  [Tell me how it is put together](../cicd/cicdoverview.md)
 -  [Prepare my computer setup](../cicd/prerequisites.md)
 -  [Install Drupal with Platform.sh Template](../cicd/platformshdrupal.md)
--  [Let's Take Advantage of VSCode with out local Lando Copy](../cicd/vscodedrupallocal#Let's Take Advantage of VSCode)
+-  [Let's Take Advantage of VSCode with out local Lando Copy](../cicd/vscodedrupallocal.md#Let's Take Advantage of VSCode)
 
 
 
