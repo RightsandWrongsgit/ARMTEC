@@ -2,7 +2,7 @@
 ## Our Drupal Code is Local
 # Let's Take Advantage of VSCode
 
-VSCode will become your go to place while working on your website. This is because you can see your directory structure, your files, a terminal command, do git/github actions, and much more from an integrated development view.  We will just start by seeing where that local copy of your website project is located and then how you can use a terminal right from within the same tool.
+VSCode will become your go to place while working on your website. This is because you can see your directory structure, your files, a terminal command, do git/github actions, and much more from an integrated development view.  We will just start by seeing where that local copy of your website project is located and then how you can use a terminal right from within the same tool. Remember, a local copy of the Platform.sh hosted 'main' branch is brought down with the Platform Command Line in the [process outlined at the end of the prior step](../cicd/platformshdrupal.md#Local-copy-coming-down).
 
 <img src="../cicd/captures/vscodelocaldrupal1.png"  width="450">
 
