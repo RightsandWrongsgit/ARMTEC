@@ -23,8 +23,10 @@ If you look in the very top level menu bar of your screen you will see all sorts
 
 <img src="../cicd/captures/vscodelocaldrupal5.png"  width="450">
 
-DON'T Do this yet: You should see something like is in that terminal but without the 'lando init' filled in.  You are going to run that in a moment but you need to be prepared to answer some questions.
+You should see a command line in that terminal area of the VSCode screen.  It lists 'who you are', 'what machine you are on', and follwing the word 'in' should be the name of the directory you put your local project.  Thus you are pointing at the local copy of your project, seeing the subdirectories on the left, and looking inside any open files in the upper right section.  Please, even if you think you know how to use Lando, <font color=red>DON'T Do a 'lando init' yet:<font> from that open terminal. You are going to run that command in a moment but first we need to do a few things: 
+  
+  [Next]()
 
-<img src="../cicd/captures/vscodelocaldrupal6.png"  width="250">
+
 
 
