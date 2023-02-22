@@ -52,7 +52,7 @@ A new browser window will open where you see an install screen for the Drupal9 a
 <sub><sup>From that Drupal screen, setting up your Drupal site is pretty much like all the tutorials out there on Drupal. And, it is pretty much follow the prompts and answer the questions.  The exception is that the "Set up database" step just sort of flies by automatically because the Platform.sh container recipes are doing it for you.</sup></sub>
 
 
-[## Step-by-Step](#stepbystep)
+## <a name="stepbystep"></a>Step-by-Step
 
 From the main screen at Platform.sh you first sign up.  I did this with the GitHub account I had established earlier rather than using just an email address; this approach giving you a head start on coordinating Platform.sh and GitHub. 
 
