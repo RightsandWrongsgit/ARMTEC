@@ -23,12 +23,12 @@ You should have gone to Platform.sh, signed up for an account and installed thei
 A) From the Platform.sh CLI enter: `platform create`
 
 This will prompt you for 
-– a project title
-– your hosting region (e.g. us-2.platform.sh)		
-– the plan size (use 'Development' until you want to go live)
-– Number of Environments (default 3)
-– Amount of Storage (default 5 Gig)
-– Confirm "Y" to continue
+				a project title
+				your hosting region (e.g. us-2.platform.sh)		
+				the plan size (use 'Development' until you want to go live)
+				Number of Environments (default 3)
+				Amount of Storage (default 5 Gig)
+				Confirm "Y" to continue
 
 B) A Project ID will be assigned and shown.  Copy and save it somewhere safe.
 
