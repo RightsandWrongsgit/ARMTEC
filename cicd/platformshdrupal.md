@@ -74,7 +74,7 @@ At that point your new project is actually building.  Remember, you are using a 
 
 <img src="../cicd/captures/platformsignup5.png"  width="450">
 
-If you look back at the overall main screen you can see at the top menu bar who you are; since I used my GitHub account as how I signed up you see that noted; "rightsandwrongsgit".  Yours will show your user name in that spot.  Then you see the Project we started "Initial Test of Platform…." and a box to select the 'environment' or branch; we only have 'main' that we started with at this point (and we don't want to create more just yet).
+If you look back at the overall main screen you can see at the top menu bar who you are; since I used my GitHub account as how I signed up you see that noted; "rightsandwrongsgit".  Yours will show your user name in that spot.  Then you see the Project we started "Initial Test of Platform…." and a box to select the 'environment' or branch; we only have 'main' that we started with at this point (**and we don't want to create more just yet**).
 
 <img src="../cicd/captures/platformsignup6.png"  width="450">
 
