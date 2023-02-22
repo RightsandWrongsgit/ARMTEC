@@ -5,9 +5,9 @@
 <sub><sup>NOTE: You may want to review the Regular Approach section before you run the "Short-cut approach" so you know what it is doing behind the scenes.  And if you are going to do other projects or migrate an existing project to Platform.sh having this process understanding is helpful.</sup></sub>
 
 
-<sub><sup>A) Go over to this repository on GitHub and you will find the Platform.sh template for Drupal 9 `https://github.com/platformsh-templates/drupal9</sup></sub>
+<sub><sup>A) Go over to this repository on GitHub and you will find the Platform.sh template for Drupal 9 `https://github.com/platformsh-templates/drupal9`</sup></sub>
 	
-<sub><sup>B) Click on the button at the top of the repository that looks like this -></sup></sub><img src="../cicd/captures/deployonplatformbutton.png"  width="200" height="40">	
+<sub><sup>B) Click on the button at the top of the repository that looks like this </sup></sub><img src="../cicd/captures/deployonplatformbutton.png"  width="200" height="40">	
 
 <sub><sup>C) Follow the on-line instructions to bring up the hosted Drupal site</sup></sub>	
 	
