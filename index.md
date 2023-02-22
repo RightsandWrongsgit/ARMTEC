@@ -11,16 +11,12 @@ ARMTEC is a huge supporter of what are known as "[Open Source](book/opensource.m
 
 Also, you don't always need to think of every Open Source tool as a giant, full fledged software system; although many are.  The way ARMTEC looks at it is that there are also big 'opportunity gaps' on where to find stuff and how to put the many parts together into a meaningful whole.  This site is offered to help you do that!
 
-
+Most would expect 'Open Source' to apply just to software and maybe extend to online information systems or developer applications.  ARMTEC aims for a broader perspective in the tools provided here.  Key things related to effectively running a business or organization are also presented.  Revenue projection, Profit & Loss (P&L) statement analyses, Advertising & Proprotion (A&P) performance, Market Research, Customer Relationship Management, and more are part of our foundation.  Therefore our technical tools in these areas may be of interest to a broader community shared in an open source manner.
 
 ![visitors](https://page-views.glitch.me/badge?page_id=RightsandWrongsgit.ARMTEC-gh-pages-index)
 
 ### Chapter
-- [Cheatsheets](book/cheats.md)
-- [Open Source Tools](book/opensource.md)
-- [It May be Basic but sometimes you need a boost!](book/Novice.md)
-- [Hosting: How with Others see my website?](book/hosting.md)
-- [Drupal CI/CD Base Project](book/drupalcicd.md)
+
 
 
 ### Chapter 
@@ -28,6 +24,17 @@ Also, you don't always need to think of every Open Source tool as a giant, full 
 
 
 ### Chapter
+
+
+
+### Chapter: Awaiting Categorization
+- [Cheatsheets](book/cheats.md)
+- [Open Source Tools](book/opensource.md)
+- [It May be Basic but sometimes you need a boost!](book/Novice.md)
+- [Hosting: How with Others see my website?](book/hosting.md)
+- [Drupal CI/CD Base Project](book/drupalcicd.md)
+
+
 
 
 ### Chapters from Selwynpolit's Drupal 9 book
