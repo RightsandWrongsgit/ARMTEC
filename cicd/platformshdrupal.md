@@ -100,13 +100,15 @@ Here is where that container based approach and a starting template really pay o
 
 <img src="../cicd/captures/drupalinstall3.png"  width="450">
 
-The Drupal install has you interacting with that site you just watch loading by telling the system your Site name, Site email address, and the your basic site credentials. These things can be edited within the site under the 'Admin' menu once you start using your Drupal site; so don't freak over doing this step.
+Tell the system your Site name, Site email address, and the your basic site credentials. These things can be edited within the site under the 'Admin' menu once you start using your Drupal site; so don't freak over doing this step.
 
 <img src="../cicd/captures/drupalinstall4.png"  width="450">
 
-Now what you will see at that browser address Platform.sh pointed you to is an actual Drupal website running on a host.  And notice you are also logged in; see the upper right corner of the page.  Make sure you record your 'Credentials' from what you put in on that last step.  You will need these next time you want to log in.
+The browser address Platform.sh pointed you now shows an actual Drupal website running on a host.  And notice you are also logged in; see the upper right corner of the page.  <font color="red">Make sure you record your 'Credentials'</font> from what you put in on that last step.  You will need these next time you want to log in.
 
-You actually have a hosted Drupal site on the internet at this point.  If you you gave someone else that web address they could also get to it; which you may later do with your 'staged' environment for a client review in a testing step.  You haven't assigned a DNS (Domain Name System) address to the location yet but you could do so on Platform.sh and make this a fully live site.  You could also actually go in with your administrator credentials, and work directly on the hosted site.  That is NOT something that is recommended because you may mess things up and not have a good way to back out of your problems; and you likely know that as one reason you are reading this setup documentation to do some amount of a CI/CD type of process. Plus, you probably know that working on your local machine is faster, or more comfortable.  
+You actually have a hosted Drupal site on the internet at this point.  If you you gave someone else that web address they could also get to it.  Later you might share such an odd address for your website's 'staged' environment to allow a client review as a testing step.  Eventually you will assign a DNS (Domain Name System) address to the Platform.sh hosted site and make your fully live site have a typical address.  More on that later.
+
+You could also actually go into the hosted website with your administrator credentials and work directly on it; **BAD IDEA**.  That is NOT something that is recommended because you may mess things up and not have a good way to back out of your problems; and you likely know that as one reason you are reading this setup documentation to do some amount of a CI/CD type of process. Plus, you probably know that working on your local machine is faster, or more comfortable than working on the hosted copy directly.
 
 <img src="../cicd/captures/drupalinstall5.png"  width="450">
 
