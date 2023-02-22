@@ -84,4 +84,4 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
     
     For a detailed, cookbook style, sign up that moves directly to establishing your Drupal project [Click Here](../cicd/platformshdrupal.md#stepbystep)
     
-    [Next](../cicd/platformshlocal.md)
+    [- Next -](../cicd/platformshlocal.md)
