@@ -1,6 +1,6 @@
 
 #### Where we stand at this point
-We have our base Drupal 9 project with 'main' branch set up on our Platform.sh host.  We have a local version of that project available on our own machine within a Lando supported container.  We have a GitHub account and Git installed globally plus VSCode installed from our [Prerequisites](../cicd/prerequisites.md).   A .gitignore file is at the root of our 'local' project that came as a standard part of the Platform.sh Lando template.  
+We have our base Drupal 9 project with 'main' branch set up on our Platform.sh host.  We have a local version of that project available on our own machine within a Lando supported container.  We have a GitHub account and Git installed globally plus VSCode installed from our [Prerequisites](../cicd/prerequisites.md).    A .gitignore file is at the root of our 'local' project that came as a standard part of the Platform.sh Lando template.  
 
 You probably will find it convenient to use [VSCode](../book/vscodedrupallocal.md) at this point to start working with your local project.  
 
@@ -20,39 +20,39 @@ That is a good start for a plain vanilla Drupal site that isn't being worked on 
 
 Make a space line at 25, then below that lets ignore all packages required by JavaScript with:
 
-26     `# Ignore mode modules`<br>
-27      `node_modules`<br>
+`26     # Ignore mode modules`<br>
+`27      node_modules`<br>
 
 Space, and since we may use SASS in CSS generation we can ignore some of the files used in its debugging:
 
-29      `# Ignore some CSS related stuff`<br>
-30      ` *.css.map`<br>
-31      ` *.css.map.map`<br>
+`29      # Ignore some CSS related stuff`<br>
+`30       *.css.map`<br>
+`31       *.css.map.map`<br>
 
 Space and since we have no reason we want to push our log files to the repository:
 
-33     ` # Ignore all log files`<br>
-34     `  *.log`<br>
+`33      # Ignore all log files`<br>
+`34       *.log`<br>
 
 Finally, at the end, lets just avoid pushing up unnecessary text files by adding these:
 
-`# Ignore default text files`<br>
-			`	/CHANGELOG.txt`<br>
-			`	/COPYRIGHT.txt`<br>
-			`	/INSTALL*.txt`<br>
-			`	/LICENSE.txt`<br>
-			`	/MAINTAINERS.txt`<br>
-			`	/UPGRADE.txt`<br>
-			`	/README.txt`<br>
-			`	sites/README.txt`<br>
-			`	sites/all/modules/README.txt`<br>
-			`	sites/all/themes/README.txt`<br>
+ `# Ignore default text files`<br>
+			/CHANGELOG.txt
+			/COPYRIGHT.txt
+			/INSTALL*.txt
+			/LICENSE.txt
+			/MAINTAINERS.txt
+			/UPGRADE.txt
+			/README.txt
+			sites/README.txt
+			sites/all/modules/README.txt
+			sites/all/themes/README.txt
 
 Since we are storing our site content in the database at the Platform.sh host and will have a backup procedure at that host site, we don't want to be pushing potentially voluminous content to the repository and want to add these final lines:
 
-`# Ignore path that contain user-generated content.
-			`	sites/*/files`<br>
-			`	sites/*/private`<br>
+`# Ignore path that contain user-generated content.`
+			sites/*/files
+			sites/*/private
 
 You should basically end up with something that looks a lot like this.  Of course if you know of other tools you might use you might add more.  If you want to make a public facing repository you might want to keep a README or a MAINTAINER text file to help people.  
 
@@ -67,7 +67,7 @@ As a quick reference note, you might have done a 'git init' and pushed some file
 
 
 What does this do?<br>
-<sup><sub>-r flag makes sure the command is applied recursively to all files and subdirectories in the node_modules directory</sub></sup><br>
+<sup><sub>-r flag assure command is applied recursively to all files and subdirectories in node_modules directory</sub></sup><br>
 <sup><sub>--cached makes sure we remove the files only from git index and keep them in the working directory.</sub></sup><br> 
 
 ## Now let's do that 'git init'
