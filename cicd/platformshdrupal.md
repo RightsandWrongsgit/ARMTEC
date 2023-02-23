@@ -117,4 +117,4 @@ We have our Drupal site running on Platform.sh and we really need to think of th
 <img src="../cicd/captures/platformrunning1.png"  width="450">
 
 
-[- Next -](../cicd/connectplatformtolando.md)
+[- Next -](../cicd/platformshcli.md)
