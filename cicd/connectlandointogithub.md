@@ -31,41 +31,34 @@ Details if you need them:
 
 Remember this basic page on Platform.sh?  We want to go back there.
 
-
+<img src="../cicd/captures/landotogithub1.png"  width="450">
 
 
 Shouldn't be real hard to remember which project since we only have the one and only the 'Main' branch environment for it. 
 
-
-
-
+<img src="../cicd/captures/landotogithub2.png"  width="350">
 
 But what we do need to make sure we do is over in the upper right corner there is a little pulldown carrot with 'My Profile' as an option under it that we want to go into:
 
-
-
-
+<img src="../cicd/captures/landotogithub3.png"  width="250">
 
 Once you are in there, the My Profile is just the left most option on a new sub-menu bar.  And you want to scroll on over to the 'API Tokens' option where you will find a Token you want to Copy (click that blue Copy button).
 
-
-
-
+<img src="../cicd/captures/landotogithub4.png"  width="450">
 
 Now run that 'lando init' from the terminal within VSCode (making sure you are in that local sub-directory for your project):
 
-
-
-
+<img src="../cicd/captures/landotogithub5.png"  width="250">
 
 You should be able to answer the questions:
         - You are getting your codebase from = platformsh
         - You 'Paste' that token in we just copied
         -  Your project is the name of the project we just created.
-        
+  
+ <img src="../cicd/captures/landotogithub6.png"  width="450"> 
+  
 Once your local copy of the project is full installed by the prior actions, you should be able to type 'lando start' at the terminal command line, hit enter, and a local copy of your Drupal site will install.  It will be just like you saw with the host copy on Platform.sh:        
-
-
-
-
-
+<img src="../cicd/captures/landotogithub7.png"  width="250">
+<img src="../cicd/captures/drupalinstall1.png"  width="250">
+<img src="../cicd/captures/drupalinstall2.png"  width="250">
+<img src="../cicd/captures/drupalinstall3.png"  width="250">
