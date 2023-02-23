@@ -70,9 +70,7 @@ Once your local copy of the project is full installed by the prior actions, you 
 
 ## The Token: Platformsh-GitHub
 
-Git is a version management tool.  If you aren't familiar with it, go look at some videos and read some basics about it before continuing.   Git is an absolute requirement of using the Platform.sh approach to CI/CD, so installing it was listed as a prerequisite.  This is because Platform.sh uses a GitOps approach to DevOps.   GitHub is listed as a prerequisite too; although a purest would point out you could get away without it. If you ever have a possibility you want to involve others in developing or helping you with your website you will be really glad you used it.  There is more detail later about how you will use these but it really makes good sense to get your Platform.sh project linked into GitHub right as you first set things up, so here we go -
-
-[Git & GitHub](../book/gitbasics.md)
+Git is a version management tool.  If you aren't familiar with it, go [here](../book/gitbasics.md) before continuing.   Git is an absolute requirement of using the Platform.sh approach to CI/CD, so installing it was listed as a prerequisite.  This is because Platform.sh uses a GitOps approach to DevOps.   GitHub is listed as a prerequisite too; although a purest would point out you could get away without it. If you ever have a possibility you want to involve others in developing or helping you with your website you will be really glad you used it.  Let's do it now.
 
 #### Connecting Platform.sh to a GitHub repository- 
 <sup><sub>(this is NOT mandatory to be able to use Git with Platform.sh itself but is still advised)</sub></sup>
@@ -102,7 +100,12 @@ Now your platform.sh project "mirrors" your Github project repository and every 
  * For more details and options on this integration with GitHub [see this documentation](https://docs.platform.sh/integrations/source/github.html#1-generate-a-token) on Platform.sh
 
 
-[- Next -]()
+<font color=red>HOLD YOUR HORSES!!!</font>As tempting as it might be if your know Git to do it, <font color=red>DO NOT do a 'Git init'</font>yet.
+
+The reason you don't want to do that and then start pushing stuff back and forth between your local machine and your 'own' GitHub repository is because Drupal in a container environment builds a ton if its workings from a recipe.  We will talk more about the recipe later and how {Composer]() is where and how this is done.  For now, just think that there are a ton of files you don't want to be moving back and forth; and others would point up there are potential "secrets" that you also don't want to push up to a GitHub repository where they might be seen.  The way GitHub works, stuff there changes, but the earliest version history remains.  Thus, right from the get-go, we want to limit what is to move.  This is where 'gitignore' comes into play.
+
+
+[- Next -](gitignore.md)
 
 
   
