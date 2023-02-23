@@ -9,16 +9,16 @@ For now, what you want to do is connect the copies of your site on Platform.sh a
 
 a) # Go through interactive prompts to get your site from platform.sh by typing this on your command line:
 
-       `lando init --source platformsh`
+`lando init --source platformsh`
 
 b) # OR do it non-interactively
     # NOTE: You will want to make sure you set $PLATFORMSH_CLI_TOKEN
     # and $PLATFORMSH_SITE_NAME to values that make sense for you
 
-`lando init\
-  --source platformsh\
-  --platformsh-auth "$PLATFORMSH_CLI_TOKEN"\
-  --platformsh-site "$PLATFORMSH_SITE_NAME"`
+  `lando init\
+    --source platformsh\
+    --platformsh-auth "$PLATFORMSH_CLI_TOKEN"\
+    --platformsh-site "$PLATFORMSH_SITE_NAME"`
 
 
 Details if you need them:
@@ -63,7 +63,7 @@ You should be able to answer the questions:
         - You 'Paste' that token in we just copied
         -  Your project is the name of the project we just created.
         
-        Once your local copy of the project is full installed by the prior actions, you should be able to type 'lando start' at the terminal command line, hit enter, and a local copy of your Drupal site will install.  It will be just like you saw with the host copy on Platform.sh:        
+Once your local copy of the project is full installed by the prior actions, you should be able to type 'lando start' at the terminal command line, hit enter, and a local copy of your Drupal site will install.  It will be just like you saw with the host copy on Platform.sh:        
 
 
 
