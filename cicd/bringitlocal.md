@@ -8,7 +8,7 @@ For now, lets use the Terminal to use the [Command Line](../book/cheats.md#Termi
 <img src="../cicd/captures/findyourterminal.png"  width="170">
 
 
-**You want to be at the 'root' of your user account** because we are going to install the Platform CLI globally; the logic being that you probably will work on other projects with different names and locations on your hard-drive in the future and want it available as you expand your development work.  In the example below, my 'User' is Armtec and I am at the My-Laptop root level.  If you don't have your own Terminal set up to show you your User, Location, and Git Project location you should consider enhancing its [Where am I](../book/WhereAmI.md) information.
+<font color=red>You want to be at the 'root' of your user account</font> because we are going to install the Platform CLI globally; the logic being that you probably will work on other projects with different names and locations on your hard-drive in the future and want it available as you expand your development work.  In the example below, my 'User' is Armtec and I am at the My-Laptop root level.  If you don't have your own Terminal set up to show you your User, Location, and Git Project location you should consider enhancing its [Where am I](../book/WhereAmI.md) information.
 
 Copy this `curl -fsS https://platform.sh/cli/installer | php1`
 
@@ -18,7 +18,7 @@ The first part of your coordinating integration is you want Platform.sh to easil
 
 <img src="../cicd/captures/platformCLIinstall1.png"  width="425">
 
-The Platform CLI is installed.  You are going to use it right away.  And again, **You want to be at the 'root' of your user account**.  You can see right from the system as it comes back to a prompt, itbasically tells you want to run next. Do these two things at the prompt and hit enter.  Your are doing this from the 'root' and that is important because the hosted project will be brought down as a local copy in a directory off that 'root' **unless you tell it otherwise** in an upcoming step.
+The Platform CLI is installed.  You are going to use it right away.  And again, <font color=red>You want to be at the 'root' of your user account</font>.  You can see right from the system as it comes back to a prompt, itbasically tells you want to run next. Do these two things at the prompt and hit enter.  Your are doing this from the 'root' and that is important because the hosted project will be brought down as a local copy in a directory off that 'root' <font color=red>unless you tell it otherwise</font> in an upcoming step.
 
 <img src="../cicd/captures/platformCLIinstall2.png"  width="170">
 
