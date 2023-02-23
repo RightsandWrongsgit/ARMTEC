@@ -64,9 +64,9 @@ As a quick reference note, you might have done a 'git init' and pushed some file
 `git rm -r --cached node_modules`
 
 
-What does this do?
-<sup><sub>-r flag makes sure the command is applied recursively to all files and subdirectories in the node_modules directory</sub></sup>
-<sup><sub>--cached makes sure we remove the files only from git index and keep them in the working directory.</sub></sup> 
+What does this do?<br>
+<sup><sub>-r flag makes sure the command is applied recursively to all files and subdirectories in the node_modules directory</sub></sup><br>
+<sup><sub>--cached makes sure we remove the files only from git index and keep them in the working directory.</sub></sup><br> 
 
 ## Now let's do that 'git init'
 
