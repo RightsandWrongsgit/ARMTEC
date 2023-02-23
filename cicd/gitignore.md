@@ -5,3 +5,14 @@ So we have our base Drupal 9 project with 'main' branch set up on our Platform.s
 # Do more with .gitignore
 
 Earlier it was noted that the standard templates we used to establish our local and hosted site initial environment had a default .gitignore file already present.  Look for it as the very top level of your project on your local machine; the same level as the composer.json and composer.lock files.  Don't be surprised there there are other .gitignore files in various subdirectories that we also automatically installed from the template; but you want to use that top one.  It should look pretty close to this:
+
+<img src="../cicd/captures/gitignore1.png"  width="300">
+
+
+
+
+
+
+
+
+<img src="../cicd/captures/gitignore1.png"  width="300">
