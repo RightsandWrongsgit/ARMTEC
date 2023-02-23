@@ -51,9 +51,9 @@ Now run that 'lando init' from the terminal within VSCode (making sure you are i
 <img src="../cicd/captures/landotogithub5.png"  width="400">
 
 You should be able to answer the questions:<br>
-        - You are getting your codebase from = platformsh<br>
-        - You 'Paste' that token in we just copied<br>
-        - Your project is the name of the project we just created<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- You are getting your codebase from = platformsh<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- You 'Paste' that token in we just copied<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Your project is the name of the project we just created<br>
   
  <img src="../cicd/captures/landotogithub6.png"  width="450"> 
   
