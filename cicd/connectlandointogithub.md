@@ -85,14 +85,26 @@ B) At the Platform.sh CLI enter:
 
 You modify the above command by putting in your own Token and entering your User & Repository. After you hit "Enter" the system will ask you (and answer you should give are) –
 
-&nbsp;&nbsp;&nbsp;&nbsp;- Build every pull request?  Y
-&nbsp;&nbsp;&nbsp;&nbsp;- Build pull requests based on their post-merge status? N  (see POST-MERGE NOTE below)
-&nbsp;&nbsp;&nbsp;&nbsp;- Clone the parent environment data for pull request? Y
-&nbsp;&nbsp;&nbsp;&nbsp;- Fetch all branches from the remote (as inactive environment)? Y
-&nbsp;&nbsp;&nbsp;&nbsp;- Delete branches that do not exist on the remote? Y
+&nbsp;&nbsp;&nbsp;&nbsp;- Build every pull request?  Y<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Build pull requests based on their post-merge status? N  (see POST-MERGE NOTE below)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Clone the parent environment data for pull request? Y<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Fetch all branches from the remote (as inactive environment)? Y<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Delete branches that do not exist on the remote? Y<br>
 
 <sup><sub><font color=red>POST-MERGE NOTE:</font>You may want to think about making the pull request post-merge a Y if your routine 		development process includes doing this really frequently; and thus you would wait until the branch merger 		you were working on into its parent branch is done.  Only consider doing it that way if you are working on say 		something like a feature branch who has a development branch parent; never do it if the parent branch is the 		Main (Master or production) branch.)</sub></sup>
   
+<sup><sub><font color=red> ADDITIONAL TECHNICAL NOTE: Handling an issue/understanding a process:</font> After you answer those questions, the system 	will check webhooks, create the integration, and output a Property:Value summary table where you see all the status attributes of 	your connected environment.</sub></sup>
+  
+<sup><sub> If you get a 'failed to read or write webhooks' message, the automatic set up didn't get this part done, so look at the bottom part of that summary table for the 'hook_url' value and copy it into your clipboard.  Then go to your GitHub repository and find the 'settings' tab in the upper right, open it and find the 'webhooks' menu item on the left menu bar, open that and hit 'add webhook'.  There you will see a box labeled 'payload URL' and paste that 'hook_url' value in there.  Click the 'Send Everything' radio button and then the 'add button' on the bottom.</sub></sup>
+  
+Now your platform.sh project "mirrors" your Github project repository and every 'pull request' from the Github repository becomes a live environment on platform.sh; so you can run tests or share for client approvals.  After that you 'Push to release to Production' by doing a "Merge Pull Request" on Github for that branch to merge into its Parent (Assuming the parent is "Main[Master]" at that point).  The branch you are merging from gets inactivated on Platform.sh where this merger into a parent occurs; but unless you have some odd setup on Github the old branch is in history there like normal.
+  
+ * For more details and options on this integration with GitHub [see this documentation](https://docs.platform.sh/integrations/source/github.html#1-generate-a-token) on Platform.sh
+
+
+[- Next -]()
+
+
   
   
   
