@@ -11,9 +11,16 @@ You want to be at the 'root' of your user account because we are going to instal
 
 Copy this `curl -fsS https://platform.sh/cli/installer | php1`
 
-'Paste' what you copied on that command line and hit enter.  The Platform CLI tool install is pretty automatic but you might have to answer a question (pick the defaults).  Again, you are doing this from your 'root' directory; mine in the example is ARMTEC.
+The first part of your coordinating integration is you want Platform.sh to easily interact with your local machine and to do that your are going to install its CLI tool.  To do that 'Paste' what you copied on that Terminal command line and hit enter.  The Platform CLI tool install is pretty automatic but you might have to answer a question (pick the defaults).  Again, you are doing this from your 'root' directory; mine in the example is ARMTEC.
 
 <img src="../cicd/captures/platformCLIinstall1.png"  width="425">
+
+
+
+
+
+
+
 
 The system basically tells you want to run next. Do these two things at the prompt and hit enter.  Your are doing this from the 'root' and that is important because the hosted project will be brought down as a local copy in a directory off that 'root' unless you tell it otherwise in an upcoming step.
 
