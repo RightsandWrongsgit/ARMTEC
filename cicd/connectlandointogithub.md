@@ -12,13 +12,13 @@ a) # Go through interactive prompts to get your site from platform.sh by typing 
 `lando init --source platformsh`
 
 b) # OR do it non-interactively<br>
-    # NOTE: You will want to make sure you set $PLATFORMSH_CLI_TOKEN<br>
-    # and $PLATFORMSH_SITE_NAME to values that make sense for you<br>
+&nbsp;&nbsp;&nbsp;&nbsp;# NOTE: You will want to make sure you set $PLATFORMSH_CLI_TOKEN<br>
+&nbsp;&nbsp;&nbsp;&nbsp;# and $PLATFORMSH_SITE_NAME to values that make sense for you<br>
 
-  `lando init\<br>
-    --source platformsh\<br>
-    --platformsh-auth "$PLATFORMSH_CLI_TOKEN"\<br>
-    --platformsh-site "$PLATFORMSH_SITE_NAME"`<br>
+  `lando init\`
+&nbsp;&nbsp;&nbsp;&nbsp;`--source platformsh\`
+&nbsp;&nbsp;&nbsp;&nbsp;`--platformsh-auth "$PLATFORMSH_CLI_TOKEN"\`
+&nbsp;&nbsp;&nbsp;&nbsp;`--platformsh-site "$PLATFORMSH_SITE_NAME"`
 
 
 Details if you need them:
