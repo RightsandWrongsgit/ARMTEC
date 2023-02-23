@@ -23,7 +23,24 @@ The Platform CLI is installed.  You are going to use it right away.  And again, 
 
 <img src="../cicd/captures/platformCLIinstall3.png"  width="170">
 
+As Platform.sh starts, it ask you if you want to Log in via a browser and you select the default 'Y' that you do want to use the browser.
 
+<img src="../cicd/captures/platformCLIinstall4.png"  width="170">
 
+Since we signed up for Platform.sh with GitHub it is already SSH connected, recognizes our Username and Email Address.  Plus it see our list of projects as the one we just set up..
+
+<img src="../cicd/captures/platformCLIinstall5.png"  width="425">
+
+We need to choose the project we want to use. Since we only have the one project at this point, selecting it as number '0' from the list is easy.  And since we haven't set up any branches yet, our only environment is 'main'.  **It also notes the name of what will be our default directory; and since we invoked all this off of the root, it will just be at the level of a sub-directory right off of the root.**
+
+<img src="../cicd/captures/platformCLIinstall6.png"  width="300">
+
+As it runs, you can see the name of your 'Downloading project …'  and you can see where it is cloning it too as a sub-directory destination.  None of that should surprise you but if it doesn't look familiar to what you would have expected, write it down to go look for it.
+
+<img src="../cicd/captures/platformCLIinstall7.png"  width="300">
+
+You should be able to see the local copy of your project at that sub-directory if you go look in your 'Finder' on a Mac (believe it is 'Explorer' on Windows).
+
+[- Next -](../cicd/vscodedrupallocal.md)
 
 
