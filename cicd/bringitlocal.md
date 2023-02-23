@@ -12,6 +12,8 @@ For now, lets use the Terminal to use the [Command Line](../book/cheats.md#Termi
 
 Copy this `curl -fsS https://platform.sh/cli/installer | php1`
 
+<sup><sub>NOTE: [See more on Platform.sh CLI](../cicd/platformshcli.md)</sub></sup>
+
 The first part of your coordinating integration is you want Platform.sh to easily interact with your local machine and by installing its CLI tool.  To do that 'Paste' what you copied on that Terminal command line and hit enter.  The Platform CLI tool install is pretty automatic but you might have to answer a question (pick the defaults).  Again, you are doing this from your 'root' directory; mine in the example is ARMTEC.
 
 <img src="../cicd/captures/platformCLIinstall1.png"  width="425">
