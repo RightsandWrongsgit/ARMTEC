@@ -1,10 +1,12 @@
 
-#### The practical steps by example -
-So we have our base Drupal 9 project with 'main' branch set up on our Platform.sh host.  We have made a local version of that project available on our own machine within a Lando supported matching container.  If we have Git installed globally, and with Platform.sh and Lando a 'GitOp' type of workflow, that local copy of the project should be under GIT version control.   Do a 'Git Status' from within your project top level directory to see if it already is.  Otherwise doing more to your .gitignore file than what comes as a standard part of the Platform.sh Lando template.  (Note: you can do these updates to your .gitignore file either way, it is just that you might have to actively remove stuff that got sent to your repository before hand.)
+#### Where we stand at this point
+We have our base Drupal 9 project with 'main' branch set up on our Platform.sh host.  We have a local version of that project available on our own machine within a Lando supported container.  We have a GitHub account and Git installed globally plus VSCode installed from our [Prerequisites](../cicd/prerequisites.md).   A .gitignore file is at the root of our 'local' project that came as a standard part of the Platform.sh Lando template.  
+
+You probably will find it convenient to use [VSCode](../book/vscodedrupallocal.md) at this point to start working with your local project.  
 
 # Do more with .gitignore
 
-Earlier it was noted that the standard templates we used to establish our local and hosted site initial environment had a default .gitignore file already present.  Look for it as the very top level of your project on your local machine; the same level as the composer.json and composer.lock files.  Don't be surprised there there are other .gitignore files in various subdirectories that we also automatically installed from the template; but you want to use that top one.  It should look pretty close to this:
+Look at the standard default .gitignore file already present at our project root.  It should be at the very top level of your project on your local machine; the same level as the composer.json and composer.lock files.  Don't be surprised there there are other .gitignore files in various subdirectories that we also automatically installed from the template; but you want to use that top one.  It should look pretty close to this:
 
 <img src="../cicd/captures/gitignore1.png"  width="300">
 
@@ -70,7 +72,7 @@ What does this do?<br>
 
 ## Now let's do that 'git init'
 
-It is assumed you had installed the basic prerequisite of'Git' itself on your machine before you started.  While GitHub is talking to Platform.sh and Lando's recipe pull from Platform.sh has the project local, you need to make sure that the local project is talking to the GitHub and Platform.sh repositories of that project; this is where your local copy of Git comes into play.  Move into the top directory level of the project (not the lower level 'web' directory itself but the very top) and run a 'Git Init' command. You could do this my using the terminal in the lower right of your VSCode IDE or using its GUI this way:
+It is assumed you had installed the basic prerequisite of'Git' itself on your machine before you started.  While GitHub is talking to Platform.sh and Lando's recipe pull from Platform.sh has the project local, you need to make sure that the local project is talking to the GitHub and Platform.sh repositories of that project; this is where your local copy of Git comes into play.  Move into the top directory level of the project (not the lower level 'web' directory itself but the very top) and run a 'Git Init' command. You could do this by using the terminal in the lower right of your VSCode IDE or using its GUI this way:
 
     • Open Visual Studio Code.
     • Put your cursor in and 'click' on the top level director of your project
