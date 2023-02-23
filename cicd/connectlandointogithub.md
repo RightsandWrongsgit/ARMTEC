@@ -48,7 +48,7 @@ Once you are in there, the My Profile is just the left most option on a new sub-
 
 Now run that 'lando init' from the terminal within VSCode (making sure you are in that local sub-directory for your project):
 
-<img src="../cicd/captures/landotogithub5.png"  width="250">
+<img src="../cicd/captures/landotogithub5.png"  width="400">
 
 You should be able to answer the questions:
         - You are getting your codebase from = platformsh
@@ -58,7 +58,7 @@ You should be able to answer the questions:
  <img src="../cicd/captures/landotogithub6.png"  width="450"> 
   
 Once your local copy of the project is full installed by the prior actions, you should be able to type 'lando start' at the terminal command line, hit enter, and a local copy of your Drupal site will install.  It will be just like you saw with the host copy on Platform.sh:        
-<img src="../cicd/captures/landotogithub7.png"  width="350">
+<img src="../cicd/captures/landotogithub7.png"  width="450">
 
 <img src="../cicd/captures/drupalinstall1.png"  width="250">
 
