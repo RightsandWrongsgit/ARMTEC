@@ -7,18 +7,18 @@ You want to connect your Drupal9 starting point project to a local development v
 
 For now, what you want to do is connect the copies of your site on Platform.sh and GitHub with a copy on your local machine.  To do that use either of these two optional approaches:
 
-a) # Go through interactive prompts to get your site from platform.sh by typing this on your command line:
+a) Go through interactive prompts to get your site from platform.sh by typing this on your command line:
 
 `lando init --source platformsh`
 
-b) # OR do it non-interactively<br>
-&nbsp;&nbsp;&nbsp;&nbsp;# NOTE: You will want to make sure you set $PLATFORMSH_CLI_TOKEN<br>
-&nbsp;&nbsp;&nbsp;&nbsp;# and $PLATFORMSH_SITE_NAME to values that make sense for you<br>
+b) OR do it non-interactively<br>
+&nbsp;&nbsp;&nbsp;&nbsp;NOTE: You will want to make sure you set $PLATFORMSH_CLI_TOKEN<br>
+&nbsp;&nbsp;&nbsp;&nbsp;and $PLATFORMSH_SITE_NAME to values that make sense for you<br>
 
-  `lando init\`
-&nbsp;&nbsp;&nbsp;&nbsp;`--source platformsh\`
-&nbsp;&nbsp;&nbsp;&nbsp;`--platformsh-auth "$PLATFORMSH_CLI_TOKEN"\`
-&nbsp;&nbsp;&nbsp;&nbsp;`--platformsh-site "$PLATFORMSH_SITE_NAME"`
+  `lando init\`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`--source platformsh\`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`--platformsh-auth "$PLATFORMSH_CLI_TOKEN"\`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`--platformsh-site "$PLATFORMSH_SITE_NAME"`<br>
 
 
 Details if you need them:
