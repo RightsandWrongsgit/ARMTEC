@@ -37,22 +37,22 @@ Space and since we have no reason we want to push our log files to the repositor
 Finally, at the end, lets just avoid pushing up unnecessary text files by adding these:
 
  `# Ignore default text files`<br>
-			/CHANGELOG.txt
-			/COPYRIGHT.txt
-			/INSTALL*.txt
-			/LICENSE.txt
-			/MAINTAINERS.txt
-			/UPGRADE.txt
-			/README.txt
-			sites/README.txt
-			sites/all/modules/README.txt
-			sites/all/themes/README.txt
+&nbsp;&nbsp;&nbsp;&nbsp;`/CHANGELOG.txt`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`/COPYRIGHT.txt`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`/INSTALL*.txt`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`/LICENSE.txt`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`/MAINTAINERS.txt`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`/UPGRADE.txt`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`/README.txt`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`sites/README.txt`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`sites/all/modules/README.txt`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`sites/all/themes/README.txt`<br>
 
 Since we are storing our site content in the database at the Platform.sh host and will have a backup procedure at that host site, we don't want to be pushing potentially voluminous content to the repository and want to add these final lines:
 
 `# Ignore path that contain user-generated content.`
-			sites/*/files
-			sites/*/private
+&nbsp;&nbsp;&nbsp;&nbsp;`sites/*/files`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`sites/*/private`<br>
 
 You should basically end up with something that looks a lot like this.  Of course if you know of other tools you might use you might add more.  If you want to make a public facing repository you might want to keep a README or a MAINTAINER text file to help people.  
 
@@ -74,10 +74,10 @@ What does this do?<br>
 
 It is assumed you had installed the basic prerequisite of'Git' itself on your machine before you started.  While GitHub is talking to Platform.sh and Lando's recipe pull from Platform.sh has the project local, you need to make sure that the local project is talking to the GitHub and Platform.sh repositories of that project; this is where your local copy of Git comes into play.  Move into the top directory level of the project (not the lower level 'web' directory itself but the very top) and run a 'Git Init' command. You could do this by using the terminal in the lower right of your VSCode IDE or using its GUI this way:
 
-    • Open Visual Studio Code.
-    • Put your cursor in and 'click' on the top level director of your project
-    • Select 'shift-command-P' and the command pallet will open
-    • Start typing `git init` and you will see “Initialize Git Repository” appear in the bar; select it and let it run.
+&nbsp;&nbsp;&nbsp;&nbsp;• Open Visual Studio Code.
+&nbsp;&nbsp;&nbsp;&nbsp;• Put your cursor in and 'click' on the top level director of your project
+&nbsp;&nbsp;&nbsp;&nbsp;• Select 'shift-command-P' and the command pallet will open
+&nbsp;&nbsp;&nbsp;&nbsp;• Start typing `git init` and you will see “Initialize Git Repository” appear in the bar; select it and let it run.
 
 
 [- Next -]()
