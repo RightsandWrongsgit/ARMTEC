@@ -7,7 +7,8 @@
 
 - We are working with our local Lando based site through a VSCode interface that allows us …<br>
 -- To see the sub-directories and file list on the left<br>
--- To see a 'Terminal' on the lower right to run 'Command Line' stuff<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ To see the actual content and syntax in any file we click on from the left panel to show up in a view pane on the upper right.  And we can edit files right there when we want.<br>
+-- To see a 'Terminal' on the lower right to run 'Command Line' stuff<br>
+-- To see the actual content and syntax in any file we click on from the left panel to show up in a view pane on the upper right.  And we can edit files right there when we want.<br>
 -- In the bottom left menu bar we see an indicator that tells us we are on the Git main branch locally too. <img src="../cicd/captures/midpoint1.png"  width="50"><br> 
 -- We remember that we can hit 'Shift', 'Command', 'P' to open the Command Palette to do stuff <img src="../cicd/captures/midpoint2.png"  width="150"><br> 
 
