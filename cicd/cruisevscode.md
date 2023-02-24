@@ -43,6 +43,9 @@ And, you should be able to actually look in that project and see all the sub-dir
 
 <img src="../cicd/captures/cruisevscode9.png"  width="650">
 
+See Platform.sh own documentation for more detail on how to [Integrate with GitHub](https://docs.platform.sh/integrations/source/github.html).
+
+
 ## NOTE ABOUT THE TOOL CALLED "DRUSH"
 
 Using your VSCode, look in the left panel at the subdirectory list for your project. You will likelysee .ddev, github, platform, and config/sync subdirectories.  You will also see Drush and then Web; Web being where your actual site stuff operates.  Drush is a tool used for a lot of Command Line actions when working with Drupal.  Even something as simple as `drush cr` to clear the cache is much faster than searching it down in the GUI interface of the Drupal Administration tabs.  The good news is that the Platform.sh Drupal 9 recipe or template includes a Drush installation automatically. You can anticipate you will use Drush a lot as your comfort grows with Drupal development.
