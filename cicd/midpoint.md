@@ -7,10 +7,9 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;• We are working with our local Lando based site through a VSCode interface that allows us …<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ To see the sub-directories and file list on the left<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ To see a 'Terminal' on the lower right to run 'Command Line' stuff
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ To see the actual content and syntax in any file we click on from the left panel to show up in a view pane on the upper right.  And we can edit files right there when we want.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ In the bottom left menu bar we see an indicator that tells us we are on the Git main branch locally too. <img src="../cicd/captures/midpoint1.png"  width="75"><br> 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ We remember that we can hit 'Shift', 'Command', 'P' to open the Command Palette to do stuff <img src="../cicd/captures/midpoint2.png"  width="200"><br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ To see a 'Terminal' on the lower right to run 'Command Line' stuff<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ To see the actual content and syntax in any file we click on from the left panel to show up in a view pane on the upper right.  And we can edit files right there when we want.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ In the bottom left menu bar we see an indicator that tells us we are on the Git main branch locally too. <img src="../cicd/captures/midpoint1.png"  width="50"><br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ We remember that we can hit 'Shift', 'Command', 'P' to open the Command Palette to do stuff <img src="../cicd/captures/midpoint2.png"  width="150"><br> 
 
 &nbsp;&nbsp;&nbsp;&nbsp;• We are headed toward setting up additional 'environments' so we have 'develop', and 'staged' in addition to our 'main' as workflow branches.  We will use standard Git branching to create the additional environments.  First we will branch 'staged' off of 'main'.  Then we will branch 'develop' off of 'staged'.  This sequence allows us to merge back up the chain.  In a situation where multiple developers are working together on a common site and are assigned to develop specific features, it can be as simple as branching 'feature1name' and 'feature2name' off of 'develop' and having each developer work on their specific feature branch before merging them back up the chain.  We aren't going to detail this multiple developer-feature further but it is pretty parallel in most ways if you need it for some reason.<br> 
 
