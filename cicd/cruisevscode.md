@@ -17,11 +17,11 @@ Look down here in the lower left corner and click on that little wheel.
 
 When the menu list opens up, select the 'Command Palette' option.
 
-<img src="../cicd/captures/cruisevscode3.png"  width="450">
+<img src="../cicd/captures/cruisevscode3.png"  width="550">
 
 At the very top of VSCode, a little box will open up and start typing 'Publish in GitHub' at least until that option is easily selected in the list box options.
 
-<img src="../cicd/captures/cruisevscode4.png"  width="300">
+<img src="../cicd/captures/cruisevscode4.png"  width="250">
 
 More than likely, VSCode will pop up a window to test if you really want to shake hands with GitHub on this project.  You should select 'Allow'.
 
