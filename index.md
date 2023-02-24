@@ -26,10 +26,10 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 ### Chapter: Drupal Template with CI/CD Workflow
 - [What is it](book/drupalcicd.md)
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;Using it
+#### &nbsp;&nbsp;&nbsp;&nbsp;* Using it
 - [Overview](../cicd/howtouseit.md)
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;How it works
+#### &nbsp;&nbsp;&nbsp;&nbsp;* How it works
 - [Overview](../cicd/cicdoverview.md)
 - [Prerequisites](../cicd/prerequisites.md)
 - [Install 'main' on Host](../cicd/platformshdrupal.md)
