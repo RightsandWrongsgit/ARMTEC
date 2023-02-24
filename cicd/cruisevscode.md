@@ -43,27 +43,34 @@ And, you should be able to actually look in that project and see all the sub-dir
 
 <img src="../cicd/captures/cruisevscode9.png"  width="450">
 
-NOTE ABOUT THE TOOL CALLED "DRUSH":
-If you look at the subdirectory list for your project (above) you will see .ddev which is a Lando like tool alternative Platform.sh used.  You will see github for the repository stuff we already talked about.  You will see platform for Platform.sh files and we will dive in there later.  You will see config/sync and we will spend a bunch of time in there shortly.  You will see Drush and then Web; Web being where your actual site stuff operates.  Drush is a tool used for a lot of Command Line actions in working with Drupal.  Even something as simple as `drush cr` to clear the cache is much faster than searching it down in the GUI interface of the Drupal Administration tabs.  The good news is that the Platform.sh Drupal 9 recipe or template includes a Drush installation automatically. You can anticipate you will use Drush a lot as your comfort grows with Drupal development.  If, for some reason, you found Drush wasn't installed, all you need to do is run the following at the CLI (Command Line Interface) in your respective environment (e.g. locally or on the host).
+## NOTE ABOUT THE TOOL CALLED "DRUSH"
 
+Using your VSCode, look in the left panel at the subdirectory list for your project. You will likelysee .ddev, github, platform, and config/sync subdirectories.  You will also see Drush and then Web; Web being where your actual site stuff operates.  Drush is a tool used for a lot of Command Line actions when working with Drupal.  Even something as simple as `drush cr` to clear the cache is much faster than searching it down in the GUI interface of the Drupal Administration tabs.  The good news is that the Platform.sh Drupal 9 recipe or template includes a Drush installation automatically. You can anticipate you will use Drush a lot as your comfort grows with Drupal development.
+
+<sup><sub>If, for some reason, you found Drush wasn't installed, all you need to do is run the following at the CLI (Command Line Interface).</sub></sup> 
 `composer require drush/drush`
 
-Remember, that when you are doing composer things in your local Lando environment you need to precede the commands with `lando composer require drush/drush`
+<sup><sub>Remember, that when you are doing composer things in your local Lando environment you need to precede the commands with lando; thus</sub></sup>
+`lando composer require drush/drush`
 
-Don't get too excited that drush install is in the composer file required of the standard lando template install of Drupal by Platform.sh  You see, just because it is there, it won't do all it should if it is only stuck in a container you need to pry your way into.  What the standard template does is generically notes drush tooling as a service in the 'app'.  Go click on the lando.upstream.yml file and look at he lines toward the bottom of it.  See how it says "service: app"?   If you happen to know how to use Docker Dashboard you can go take a look at your running containers and aren't going to find one ending in 'app'.
+Don't get too excited that the Drush was part of the standard lando Drupal Platform.sh template install.  You see, what the standard template does is generically notes Drush tooling as a service in the 'app'.  Go click on the lando.upstream.yml file that is also in the root of your project and look at the lines toward the bottom of it.  See how it says "service: app"?  Like in the image below.   If you happen to know how to use Docker Dashboard you can go take a look at your running containers and aren't going to find one ending in 'app'.
 
+<img src="../cicd/captures/containerdrush1.png"  width="450">
 
+In the [Lando documentation](https://docs.lando.dev/core/v3/) you will find information on the 'order' Lando executes instructions.  You will find that .lando.upstream.yml precedes a .lando.yml file; in other words, you can tell Lando to do something different in your .lando.yml file and that will out-rule what is said in that  .lando.upstream.yml file.
 
-If you go over to the Lando documentation you will find information on the 'order' with which some instructions to Lando execute.   https://docs.lando.dev/core/v3/   You will find that .lando.upstream.yml precedes a .lando.yml file; in other words, you can tell Lando to do something different in your .lando.yml file and that will out-rule what is said in that  .lando.upstream.yml file
+<img src="../cicd/captures/containerdrush2.png"  width="200">
 
+We are going to make a .lando.yml file to do that over-ruling and establish the tooling for Drush service in Drupal.  This is what the file you create should look like and it goes at the same level as the .lando.upstream.yml file.
 
+<img src="../cicd/captures/containerdrush3.png"  width="350">
 
-We are going to make a .lando.yml file to do that out-ruling and establish the tooling for drush service in drupal.  This is what the file you create should look like and it goes at the same level as the .lando.upstream.yml file.
+See how under `tooling` under `drush:` we change `service: app` to `service: drupal` in your lando.yml file
 
+Put this new .lando.yml file in the top level or root of our project directory where the .lando.upstream.yml file it over-rides is located; like this -
 
+<img src="../cicd/captures/containerdrush4.png"  width="200">
 
-Put is in the top level project directory like this -
-
-
-
-
+<font color=red>See, you are already brilliant.  You have done VSCode, worked with a lando yml file, and learned about Drush!<font>
+  
+  [- Next -]()
