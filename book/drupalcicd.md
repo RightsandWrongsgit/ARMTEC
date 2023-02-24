@@ -25,5 +25,5 @@ When we talk about versions, you might think much more incrementally than say a 
 -  [Using our IDE](../cicd/vscodedrupallocal.md)
 -  [Safely Connect](../cicd/gitignore.md)
 -  [GitHub Too](../cicd/cruisevscode.md)
--  [Safely Connect](../cicd/gitignore.md)
+-  [Mid-Point Check](../cicd/midpoint.md)
 
