@@ -23,7 +23,20 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 
 
 
-### Chapter
+### Chapter: Drupal Template with CI/CD Workflow
+- [What is it](book/drupalcicd.md)
+#### Using it
+- [Overview](../cicd/howtouseit.md)
+
+#### How it works
+- [Overview](../cicd/cicdoverview.md)
+- [Prerequisites](../cicd/prerequisites.md)
+- [Install 'main' on Host](../cicd/platformshdrupal.md)
+- [Local Copy](../cicd/bringitlocal.md)
+- [Using our IDE](../cicd/vscodedrupallocal.md)
+- [Safely Connect](../cicd/gitignore.md)
+- [GitHub Too](../cicd/cruisevscode.md)
+- [Overview](../cicd/cicdoverview.md)
 
 
 
@@ -32,7 +45,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Open Source Tools](book/opensource.md)
 - [It May be Basic but sometimes you need a boost!](book/Novice.md)
 - [Hosting: How with Others see my website?](book/hosting.md)
-- [Drupal CI/CD Base Project](book/drupalcicd.md)
+
 
 
 
