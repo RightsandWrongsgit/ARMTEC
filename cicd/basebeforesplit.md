@@ -1,33 +1,29 @@
 
-Don't Split it Just Yet
-(Before getting to the 'develop', 'staged', 'main' environments)
+## Don't Split it Just Yet
 
-Since you are just starting the site, the easiest thing is to get a bunch of stuff in place BEFORE you split environments.  It just saves a little because you don't have to merge upstream the things you put in place now.  Don't be uptight about it if you don't get everything in place at this point because you can easily add stuff in 'develop' later and just let your git workflow processes do what they are intended to do.
+We indicated we are going to set up 'develop' and 'staged' along with our 'main' environment.  However, just starting a new site, the easiest thing is to get a bunch of stuff in place BEFORE you split environments.  It saves a little because you don't have to merge upstream the things you put in place now.  Don't be uptight about it if you don't get everything in place at this point because you can easily add stuff in 'develop' later and just let your Git workflow processes do what it is intended to do.
+
+## Get things updated first
 
 One of the most basic things you might do that this point is some updates.  If you happened to drive around in that Drupal site we had up, you will probably have noticed under the Configuration menu item that it may have a pink bar with a status report notice saying something about "available updates".   Since you just installed Drupal and probably no modules except those which came with Core, the update notice is probably about updates to Core itself.  Drupal is working toward a GUI Core update process but if that isn't ready for prime time, the best way remains to do it with composer.  Here are the commands: 
-Quick Lookup 
-		      lando start
- 
-chmod u+w web/sites/default
+*Quick Lookup* 
+&nbsp;&nbsp;&nbsp;&nbsp;lando start`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`chmod u+w web/sites/default`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`lando composer config --global process-timeout 2000`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`lando composer update "drupal/core-*" --with-all-dependencies`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`git push -u platform update`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`platform e:activate -y`<br>
 
-lando composer config --global process-timeout 2000
-
-lando composer update "drupal/core-*" --with-all-dependencies
-
-git push -u platform update
-
-platform e:activate -y
-
-NOTE: Make sure Platform CLI is installed and SSH connection established.
+<sup><sub>NOTE: Make sure Platform CLI is installed and SSH connection established.</sub></sup><br>
 
 That first line makes sure the subdirectory you are doing this in can be written to.  Once your site is moving to the active deployment state, probably around associating the DNS, make sure you 'harden' the site and that your approach makes this subdirectory read only again. As long as you are updating Drupal, you might want to update lando on your local machine.  To do that, you will also work from a command line interface like your VSCode terminal and do the following:
 
-lando poweroff
-Then - 
-Turn off Docker (probably from its icon in your upper right menu bar)
-Install lando from its GitHub repository (download appropriate to your machines operating system)
+&nbsp;&nbsp;&nbsp;&nbsp;`lando poweroff`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Then -<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;Turn off Docker (probably from its icon in your upper right menu bar)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Install lando from its GitHub repository (download appropriate to your machines operating system)<br>
 
-Let's tryout our base workflow:
+#### Let's tryout our base workflow:
 You are a little invested in what you have worked on so far, but no where near what you will be after you spend a bunch of time really building out a website.  So now is a good time to take the initial parts of the workflow process for a test drive.  In fact, while you are first learning to use all this stuff, it really makes sense to practice the Git-GitHub-Platform.sh coordination steps with each little increment you do.  Soon it will become a natural instinct in how you work.
 
 After you do the gitignore changes, add the .lando.yml file and Drupal updates to the base site that the Platform.sh Lando template pretty much put in place for you, you will see in your VSCode to the left of the directory list, that a little blue ball with a number in it shows up by the Git version control symbol.
