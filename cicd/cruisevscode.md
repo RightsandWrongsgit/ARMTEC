@@ -41,7 +41,7 @@ Pick which one you want for your project. Then it will do its thing.  To prove t
 
 And, you should be able to actually look in that project and see all the sub-directories and files (excepting the ones you '.gitignore' marked).  You might also notice an interesting note at the top of the list that tells you that Platform.sh Bot is who initialized the environment and where it got it.
 
-<img src="../cicd/captures/cruisevscode9.png"  width="450">
+<img src="../cicd/captures/cruisevscode9.png"  width="650">
 
 ## NOTE ABOUT THE TOOL CALLED "DRUSH"
 
@@ -63,7 +63,7 @@ In the [Lando documentation](https://docs.lando.dev/core/v3/) you will find info
 
 We are going to make a .lando.yml file to do that over-ruling and establish the tooling for Drush service in Drupal.  This is what the file you create should look like and it goes at the same level as the .lando.upstream.yml file.
 
-<img src="../cicd/captures/containerdrush3.png"  width="550">
+<img src="../cicd/captures/containerdrush3.png"  width="750">
 
 See how under `tooling` under `drush:` we change `service: app` to `service: drupal` in your lando.yml file
 
