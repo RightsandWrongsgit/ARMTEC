@@ -18,11 +18,12 @@ When we talk about versions, you might think much more incrementally than say a 
 
 
 ## I kind of need to know how it works
--  [Tell me how it is put together](../cicd/cicdoverview.md)
--  [Prepare my computer setup](../cicd/prerequisites.md)
--  [Install Drupal with Platform.sh Template](../cicd/platformshdrupal.md)
--  [Let's Take Advantage of VSCode with out local Lando Copy](../cicd/vscodedrupallocal.md#Let's-Take-Advantage-of-VSCode)
-
-
-
+-  [Overview](../cicd/cicdoverview.md)
+-  [Prerequisites](../cicd/prerequisites.md)
+-  [Install 'main' on Host](../cicd/platformshdrupal.md)
+-  [Local Copy](../cicd/bringitlocal.md)
+-  [Using our IDE](../cicd/vscodedrupallocal.md)
+-  [Safely Connect](../cicd/gitignore.md)
+-  [GitHub Too](../cicd/cruisevscode.md)
+-  [Safely Connect](../cicd/gitignore.md)
 
