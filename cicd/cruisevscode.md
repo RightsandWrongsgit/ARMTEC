@@ -9,7 +9,7 @@ First, don't be confused if you are looking at this section in isolation and hav
 
 Back in VSCode you have the project in one window with all the sub-directories and files; and you are at the very top level.  You have a 'Terminal' window open too and you can click on the menu bar in the upper left to open one if you don't.
 
-<img src="../cicd/captures/cruisevscode1.png"  width="550">
+<img src="../cicd/captures/cruisevscode1.png"  width="750">
 
 Look down here in the lower left corner and click on that little wheel.
 
@@ -63,7 +63,7 @@ In the [Lando documentation](https://docs.lando.dev/core/v3/) you will find info
 
 We are going to make a .lando.yml file to do that over-ruling and establish the tooling for Drush service in Drupal.  This is what the file you create should look like and it goes at the same level as the .lando.upstream.yml file.
 
-<img src="../cicd/captures/containerdrush3.png"  width="450">
+<img src="../cicd/captures/containerdrush3.png"  width="550">
 
 See how under `tooling` under `drush:` we change `service: app` to `service: drupal` in your lando.yml file
 
