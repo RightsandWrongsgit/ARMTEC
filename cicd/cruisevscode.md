@@ -13,7 +13,7 @@ Back in VSCode you have the project in one window with all the sub-directories a
 
 Look down here in the lower left corner and click on that little wheel.
 
-<img src="../cicd/captures/cruisevscode2.png"  width="350">
+<img src="../cicd/captures/cruisevscode2.png"  width="250">
 
 When the menu list opens up, select the 'Command Palette' option.
 
