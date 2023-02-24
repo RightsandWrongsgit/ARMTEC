@@ -3,9 +3,9 @@
 
 ## Where are we and What's Next?
 
-&nbsp;&nbsp;&nbsp;&nbsp;• At this point, we have Platform.sh running our 'main' site as host, we have a copy of that locally running on Lando, and the two are linked to each other as well as GitHub.<br>
+- At this point, we have Platform.sh running our 'main' site as host, we have a copy of that locally running on Lando, and the two are linked to each other as well as GitHub.<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;• We are working with our local Lando based site through a VSCode interface that allows us …<br>
+- We are working with our local Lando based site through a VSCode interface that allows us …<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ To see the sub-directories and file list on the left<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ To see a 'Terminal' on the lower right to run 'Command Line' stuff<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ To see the actual content and syntax in any file we click on from the left panel to show up in a view pane on the upper right.  And we can edit files right there when we want.<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ In the bottom left menu bar we see an indicator that tells us we are on the Git main branch locally too. <img src="../cicd/captures/midpoint1.png"  width="50"><br> 
