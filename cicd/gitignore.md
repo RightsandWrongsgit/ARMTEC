@@ -80,4 +80,4 @@ It is assumed you had installed the basic prerequisite of'Git' itself on your ma
 &nbsp;&nbsp;&nbsp;&nbsp;• Start typing `git init` and you will see “Initialize Git Repository” appear in the bar; select it and let it run.<br>
 
 
-[- Next -]()
+[- Next -](../cicd/cruisevscode.md)
