@@ -28,6 +28,6 @@ When we talk about versions, you might think much more incrementally than say a 
 -  [Mid-Point Check](../cicd/midpoint.md)
 -  [Split Preparation](../cicd/basebeforesplit.md)
 -  [Directory Map](../cicd/directorymap.md)
-
+-  [Protect Config at root](../cicd/configatroot.md)
 
 
