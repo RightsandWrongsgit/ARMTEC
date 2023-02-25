@@ -2,7 +2,7 @@
 ## Starting a business, learning to code, need some hints ...
 #### Consider us Your Chief Performance Officer
 
-Take the first step to success with ARMTEC today!  You will find welcoming references to the many tools we use ourselves.  We help you learn business, financial, operational, tactical approaches and the technical tools to support your efforts.  Rather than silo of sophistication gobbeldygook maybe just some straight forward help.  
+Take the first step to success with ARMTEC today!  You will find welcoming references to the many tools we use ourselves.  We help you learn business, financial, operational, tactical approaches and the technical tools to support your efforts.  Get straightforward help now!  
 
 ARMTEC is a huge supporter of what are known as "[Open Source](book/opensource.md)" tools.  People volunteer their time to build things that the public has free access to.  In exchange, you  donate time, resources, or what you can back to the Open Source community.  Don't worry, you don't have to compete with some rocket scientist programmer in building tools.  It's 'ok' if you are just a good explainer.  In fact, you are probably just what Open Source software developers need...
 
