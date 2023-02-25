@@ -2,7 +2,7 @@
 
 ## What is CI/CD?
 
-Continuous integration and continuous deployment is a fancy way of saying "instead of building everything at once, launch your website and enhance it in steps".   Sure you have a brilliant [design]() because you put in the effort in advance of starting to program things.  Even if you think it is perfection now, any website grows better with feedback and improvement steps.  But you don't want to "break" what is out there now to add a new feature.  So people work on a copy of their site, test the full updated site, and then deploy or replace what was out there with the new, improved version.
+Are you tired of spending countless hours manually deploying your website? Or maybe your don't even know how. With our continuous integration and deployment solution, you can launch your website quickly and easily. Our solution allows you to build, test, and deploy your website in stages, so you can make sure that everything is working correctly before launching and keep your base site running while you develop enhancements. Plus, our platform is designed to be user-friendly so that even the most novice user can get up and running quickly.  We even lead you to open source tools to help you have a brilliant [design](book/opensource.md#Design-Your-Site: )for your website before you put in the effort to start programming things. 
 
 ## Version Control
 
