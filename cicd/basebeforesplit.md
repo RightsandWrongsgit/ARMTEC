@@ -62,9 +62,9 @@ Platform.sh is referencing the GitHub 'main' branch through the SSH connection y
 
 <img src="../cicd/captures/basebeforesplit8.png"  width="500">
 
-<font color=red>If you see your project update from local Git to GitHub but it doesn't seem to show up in Platform.sh, the Token behind their integration may have expired.  For security reasons, most times the integration Tokens are set to expire in 30, 60, or 90 days.  See the Appendix: Reestablishing your GitHub-Platform.sh Integration to fix this.</font>  
-
-
+<sup><sub><font color=red>If you see your project update from local Git to GitHub but it doesn't seem to show up in Platform.sh, the Token behind their integration may have expired.  For security reasons, most times the integration Tokens are set to expire in 30, 60, or 90 days.  See the Appendix: Reestablishing your GitHub-Platform.sh Integration to fix this.</font></sub></sup><br>  
+<br>
+<br>
 
 ## Let's do a Platform.sh backup:
 
