@@ -20,8 +20,8 @@ That first line makes sure the subdirectory you are doing this in can be written
 
 &nbsp;&nbsp;&nbsp;&nbsp;`lando poweroff`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Then -<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;Turn off Docker (probably from its icon in your upper right menu bar)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Install lando from its GitHub repository (download appropriate to your machines operating system)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Turn off Docker <sup><sub>(probably from its icon in your upper right menu bar)</sub></sup><br>
+&nbsp;&nbsp;&nbsp;&nbsp;Install lando from its GitHub repository <sup><sub>(download appropriate to your machines operating system)</sub></sup><br>
 
 #### Let's tryout our base workflow:
 You are a little invested in what you have worked on so far, but no where near what you will be after you spend a bunch of time really building out a website.  So now is a good time to take the initial parts of the workflow process for a test drive.  In fact, while you are first learning to use all this stuff, it really makes sense to practice the Git-GitHub-Platform.sh coordination steps with each little increment you do.  Soon it will become a natural instinct in how you work.
