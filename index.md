@@ -39,9 +39,9 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Using our IDE](cicd/vscodedrupallocal.md)
 - [Safely Connect](cicd/gitignore.md)
 - [GitHub Too](cicd/cruisevscode.md)
-- [Mid-Point Check](../cicd/midpoint.md)
-- [Split Preparation](../cicd/basebeforesplit.md)
-
+- [Mid-Point Check](cicd/midpoint.md)
+- [Split Preparation](cicd/basebeforesplit.md)
+- [Directory Map](cicd/directorymap.md)
 
 
 ### Chapter: Awaiting Categorization
