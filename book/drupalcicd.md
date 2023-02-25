@@ -26,4 +26,8 @@ When we talk about versions, you might think much more incrementally than say a 
 -  [Safely Connect](../cicd/gitignore.md)
 -  [GitHub Too](../cicd/cruisevscode.md)
 -  [Mid-Point Check](../cicd/midpoint.md)
+-  [Split Preparation](../cicd/basebeforesplit.md)
+
+
+
 
