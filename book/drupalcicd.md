@@ -2,7 +2,7 @@
 
 ## What is CI/CD?
 
-Are you tired of spending countless hours manually deploying your website? Or maybe your don't even know how. With our continuous integration and deployment solution, you can launch your website quickly and easily. Our solution allows you to build, test, and deploy your website in stages, so you can make sure that everything is working correctly before launching and keep your base site running while you develop enhancements. Plus, our platform is designed to be user-friendly so that even the most novice user can get up and running quickly.  We even lead you to open source tools to help you have a brilliant [design](book/opensource.md#Design-Your-Site: )for your website before you put in the effort to start programming things. 
+Are you tired of spending countless hours manually deploying your website? Or maybe your don't even know how. With our continuous integration and deployment solution, you can launch your website quickly and easily. Our solution allows you to build, test, and deploy your website in stages, so you can make sure that everything is working correctly before launching and keep your base site running while you develop enhancements. Plus, our platform is designed to be user-friendly so that even the most novice user can get up and running quickly.  We even lead you to open source tools to help you have a brilliant [design](book/opensource.md#Design-Your-Site:) for your website before you put in the effort to start programming things. 
 
 ## Version Control
 
