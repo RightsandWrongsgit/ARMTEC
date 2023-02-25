@@ -5,8 +5,8 @@ We indicated we are going to set up 'develop' and 'staged' along with our 'main'
 
 ## Get things updated first
 
-One of the most basic things you might do that this point is some updates.  If you happened to drive around in that Drupal site we had up, you will probably have noticed under the Configuration menu item that it may have a pink bar with a status report notice saying something about "available updates".   Since you just installed Drupal and probably no modules except those which came with Core, the update notice is probably about updates to Core itself.  Drupal is working toward a GUI Core update process but if that isn't ready for prime time, the best way remains to do it with composer.  Here are the commands: 
-*Quick Lookup* 
+One of the most basic things you might do that this point is some updates.  If you happened to drive around in that Drupal site we had up, you will probably have noticed under the Configuration menu item that it may have a pink bar with a status report notice saying something about "available updates".   Since you just installed Drupal and probably no modules except those which came with Core, the update notice is probably about updates to Core itself.  Drupal is working toward a GUI Core update process but if that isn't ready for prime time, the best way remains to do it with composer.  Here are the commands:<br>
+Quick Lookup<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;lando start`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`chmod u+w web/sites/default`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;`lando composer config --global process-timeout 2000`<br>
@@ -16,7 +16,7 @@ One of the most basic things you might do that this point is some updates.  If y
 
 <sup><sub>NOTE: Make sure Platform CLI is installed and SSH connection established.</sub></sup><br>
 
-That first line makes sure the subdirectory you are doing this in can be written to.  Once your site is moving to the active deployment state, probably around associating the DNS, make sure you 'harden' the site and that your approach makes this subdirectory read only again. As long as you are updating Drupal, you might want to update lando on your local machine.  To do that, you will also work from a command line interface like your VSCode terminal and do the following:
+That first line makes sure the subdirectory you are doing this in can be written to.  Once your site is moving to the active deployment state, probably around associating the DNS, make sure you 'harden' the site and that your approach makes this subdirectory read only again. As long as you are updating Drupal, you might want to update lando on your local machine.  To do that, you will also work from a command line interface like your VSCode terminal and do the following:<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;`lando poweroff`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;Then -<br> 
