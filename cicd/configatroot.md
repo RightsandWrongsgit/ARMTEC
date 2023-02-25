@@ -56,7 +56,7 @@ We talked briefly about how multiple environments exist with slightly unique, ma
 
 To understand the Drupal 'application differences' it first makes sense to understand a little more about how Drupal itself manages its 'Configuration'.  Since Drupal is a Content Management System (CMS) it will come as no surprise it has a Database element; and you also knew this from the initial set up screen when you moved through the step setting up the database.  Obviously, like any application, Drupal has Code.  We had a pretty good feel for the existence of lots of Code from the directories, sub-directories and all their files when we walked through some of the Git-GitHub discussion.  Life is NOT as simple as "Content = Database" and "Function = Code".  Drupal stores a number of key configuration files in its database.  And, importantly, it keeps representations of the application configuration in YAML files that it stores in the `/sites/default/files/configwithahashcode/sync` subdirectory (example below).
 
-image
+<img src="../cicd/captures/configatroot1.png"  width="500">
 
 Because Drupal is a PHP application, one of its most fundamentally central files is the settings.php file which is also located in the /sites/default/files sub-directory.  If you look inside that file, typically toward the end of the file, you will see a line of code similar to this …
 
@@ -73,32 +73,32 @@ Drupal supports basic configuration management mainly in the sense of sharing co
 
 You can find the standard way that Drupal supports configuration management as part of the 'Configuration' menu in the 'Administration' portion of the developer tools in every site. In the section called 'Development' you will find an option for 'Configuration synchronization'.
 
-image
+<img src="../cicd/captures/configatroot2.png"  width="300">
 
 You will find a page with options for Synchronization, Import, and Export.  Oddly, they really probably should have followed the alphabet in the order presented because you want to 'Export' the configuration of your site as the starting point.  This turns all the configuration definitions for your site into YAML files that can be copied and moved to where needed (e.g. other environments, machines, locations). 
 
-image
+<img src="../cicd/captures/configatroot3.png"  width="500">
 
 Most people who use Drupal find that this configuration export-import stuff is better handled at the command line.  It is fast and it shows pretty clearly what is going on with the underlying YAML files.  This is especially true as you get into the config_split world.  So let's charge down this rabbit hole.  The first thing you need to understand is how your Drupal application points to where these configuration files are actually located; and there are a ton of files controlling everything you can think of.  To know where Drupal is going to look, go under that 'web' subdirectory, down to the 'sites' and then 'default' and find your `settings.php` file.  
 
-image
+<img src="../cicd/captures/configatroot4.png"  width="300">
 
 `settings.php` is sort of the holy grail of files in a Drupal system.  So at some point you will want to drive around in it and look through all the stuff if is doing.  But for now, shuffle on down and look for the line that says "//This is defined inside the read-only "config" directory, deployed via Git" and just below that comment line you will see a $settings line that says where the directory the configuration YAML files with read and write from.
 
-image
+<img src="../cicd/captures/configatroot5.png"  width="800">
 
 Looking back at the directory list on the left part of your VSCode IDE you will see that directory near the top:
 
-image
+<img src="../cicd/captures/configatroot6.png"  width="250">
 
 Go to your terminal in the lower right panel of your VSCode IDE and at the command line enter 
 `lando drush config-export` 
 
-image
+<img src="../cicd/captures/configatroot7.png"  width="600">
 
 ChaChing…  you will see all sorts of YAML files show up under that config/sync directory that the settings.php file told the system where it wanted to find the configuration files.
 
-image
+<img src="../cicd/captures/configatroot8.png"  width="400">
 
 For more on [Configuration Synchronization via traditional](https://www.youtube.com/watch?v=tHyXIbgoUtw) way in Drupal.
 
