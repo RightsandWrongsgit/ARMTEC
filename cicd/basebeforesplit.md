@@ -76,11 +76,11 @@ Go your the Platform.sh site and then click on your project.  You will see the e
 
 Click on the 'Environment' pull down in the second box from the left in that top black tab and select 'main'.
 
-<img src="../cicd/captures/basebeforesplit10.png"  width="300">
+<img src="../cicd/captures/basebeforesplit10.png"  width="200">
 
 Slide over from 'OVERVIEW' to that 'BACKUPS' option in the grey area.  That will show any backups you already have & more importantly at this stage, pop up that blue "Backup" button on the far right.
 
-<img src="../cicd/captures/basebeforesplit11.png"  width="400">
+<img src="../cicd/captures/basebeforesplit11.png"  width="600">
 
 When you click that blue backup button it brings up this modal. You don't need to check the "Create live backup" option because your site isn't really live with content being dynamically updated while this is going on.  You probably don't want to bother copying and using that command line syntax; you can just hit the 'Yes' and run it directly.
 
@@ -88,15 +88,15 @@ When you click that blue backup button it brings up this modal. You don't need t
 
 You will see a backup listed with a little spinning wheel over the right of that line.  Since you really don't have anything but the basic code for the starting point of a new website yet, this backup should probably take under a minute to run.  I have found that if it seems to take longer, just refresh your browser and it will be done.  Yours won't say 'rightsandwrongsgit' at the start; rather your own GitHub repository name.
 
-<img src="../cicd/captures/basebeforesplit13.png"  width="400">
+<img src="../cicd/captures/basebeforesplit13.png"  width="600">
 
 Mine took 48 seconds -
 
-<img src="../cicd/captures/basebeforesplit14.png"  width="400">
+<img src="../cicd/captures/basebeforesplit14.png"  width="600">
 
 As long as you are in the Backups list section, move over from the 'HISTORY' option to the 'STORED' option.  If you click on the three stacked dots on the end of any backup's line, it will allow you to restore from it or to delete it.
 
-<img src="../cicd/captures/basebeforesplit15.png"  width="400">
+<img src="../cicd/captures/basebeforesplit15.png"  width="600">
 
 
 [- Next -]()
