@@ -5,17 +5,17 @@
 
 We have mainly done this so far by selecting options and running commands in our terminal while pointed at the 'root'.  VSCode gives us a view into the many directories supporting our project.  Soon we are going to be finding files in some of those directories and clicking on them to open and edit them.  For that reason it makes sense to have a general understanding of what stuff is where and a little about what that stuff does.  
 
-<font color=red, size=large>This is important!</font>  Knowing where to look for things in a Drupal project will be very helpful with certain things.  You might jump back to look at this map occassionally even after your basic set up is behind you.
+<font color=red, size=large> This is important!</font>  Knowing where to look for things in a Drupal project will be very helpful with certain things.  You might jump back to look at this map occassionally even after your basic set up is behind you.
 
 <font color=green>Green line</font> If you look down the directory list top left, you move past Drush and GitHub which we have already discussed.  You see Platform and that directory is opened to show some of its subdirectories.  This is where Platform.sh has put most of what it needs as your host talks to your local project.  Notice the 'routes.yaml' and the 'services.yaml' files tucked here under the '/platform/local' subdirectory.  You will also see the 'platform.app.yaml' file right at your project root.  These three files are fundamental and we will talk further about them in a future section.
 
-<font color=red>Red line</font>We see files under the '/sites/default' subdirectory with a php extension on them.  To a large extent Drupal is written in php and these files are central to the basic workings of your website.  Soon we are going to send some significant time working on the 'settings.php' and related files.
+<font color=red>Red line</font> We see files under the '/sites/default' subdirectory with a php extension on them.  To a large extent Drupal is written in php and these files are central to the basic workings of your website.  Soon we are going to send some significant time working on the 'settings.php' and related files.
 
-<font color=pink>Pink line</font>We found this [.gitignore](../cicd/gitignore.md) file already and did come important edits in it. 
+<font color=pink>Pink line</font> We found this [.gitignore](../cicd/gitignore.md) file already and did come important edits in it. 
 
-<font color=yellow>Yellow line</font>We also noted the 'lando.upstream.yml' and earlier showed how to override it with our own ['lando.yml' file](../cicd/cruisevscode#NOTE-ABOUT-THE-TOOL-CALLED-"DRUSH")
+<font color=yellow>Yellow line</font> We also noted the 'lando.upstream.yml' and earlier showed how to override it with our own ['lando.yml' file](../cicd/cruisevscode#NOTE-ABOUT-THE-TOOL-CALLED-"DRUSH")
 
-<font color=orange>Orange line</font>[Composer](../book/opensource.md#Developer:) is fundamental to modern Drupal.  You will run Composer commands from your [VSCode](../book/ide.md) terminal as you install new modules to enhance your project.  Composer is a critical coordinator of how parts fit together with compatible versions of Drupal Core and modules.
+<font color=orange>Orange line</font> [Composer](../book/opensource.md#Developer:) is fundamental to modern Drupal.  You will run Composer commands from your [VSCode](../book/ide.md) terminal as you install new modules to enhance your project.  Composer is a critical coordinator of how parts fit together with compatible versions of Drupal Core and modules.
 <img src="../cicd/captures/directorymap.png"  width="900">
 
 
