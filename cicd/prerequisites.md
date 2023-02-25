@@ -44,7 +44,7 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
     <sub><sup>The above command is to install composer globally so it works across all your directories and thus projects. [More on installing composer here …](https://getcomposer.org/download/)</sup></sub>
 
 
-- Docker Docker is under the containers that both platform.sh uses as a host and Lando for your local development environment. The basic Docker things you need will come automatically with the Platform.sh project recipe/template you initially pull. If you already have Docker installed, you may need to let the version step backward to a prior version since you should use the version from the Platform.sh-Lando recipe.
+- Docker underlies the containers that both Platform.sh uses as a host and Lando uses for your local development environment. The basic Docker things you need will come automatically with the Platform.sh project recipe/template you initially pull. If you already have Docker installed, you may need to let the version step backward to a prior version since you should use the version from the Platform.sh-Lando recipe.
 
 
 - VSCode is an [IDE](book/ide.md) (Integrated Development Environment); use it with at least with some of the extra extensions.
