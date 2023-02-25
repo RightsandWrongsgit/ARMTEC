@@ -6,7 +6,7 @@ Are you tired of spending countless hours manually deploying your website? Or ma
 
 ## Version Control
 
-When we talk about versions, you might think much more incrementally than say a version reprint of a book.  That is perhaps a good analogy for full fledged updates of your published or 'production' website.  But version control is also used a sort of an incremental backup process as you code or install new features while you are working.  You don't want to go to bed at night or even to lunch worrying if what you just invested a bunch of effort in is going to be safe.  People use ['Git](book/gitbasics.md)' and its related connecting parts to manage this version control process. 
+When we talk about versions, you might think much more incrementally than say a version reprint of a book.  That is perhaps a good analogy for full fledged updates of your published or 'production' website.  But version control is also used a sort of an incremental backup process as you code or install new features while you are working.  You don't want to go to bed at night or even to lunch worrying if what you just invested a bunch of effort in is going to be safe.  People use [Git](book/gitbasics.md) and its related connecting parts to manage this version control process. 
 
 
 ## Drupal development with CI/CD version control
