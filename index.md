@@ -42,6 +42,8 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Mid-Point Check](cicd/midpoint.md)
 - [Split Preparation](cicd/basebeforesplit.md)
 - [Directory Map](cicd/directorymap.md)
+- [Protect Config at root](cicd/configatroot.md)
+
 
 
 ### Chapter: Awaiting Categorization
