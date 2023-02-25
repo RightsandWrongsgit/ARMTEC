@@ -72,7 +72,7 @@ Since we updated the code behind our website, it might be a good time to do a ba
 
 Go your the Platform.sh site and then click on your project.  You will see the environments you have. 
 
-<img src="../cicd/captures/basebeforesplit9.png"  width="400">
+<img src="../cicd/captures/basebeforesplit9.png"  width="600">
 
 Click on the 'Environment' pull down in the second box from the left in that top black tab and select 'main'.
 
