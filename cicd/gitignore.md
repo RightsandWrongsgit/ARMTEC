@@ -75,7 +75,7 @@ What does this do?<br>
 It is assumed you had installed the basic prerequisite of 'Git' itself on your machine before you started.  While GitHub is talking to Platform.sh and Lando's recipe pull from Platform.sh has the project local, you need to make sure that the local project is talking to the GitHub and Platform.sh repositories of that project; this is where your local copy of Git comes into play.  Move into the top directory level of the project (not the lower level 'web' directory itself but the very top) and run a 'Git Init' command. You could do this by using the terminal in the lower right of your VSCode IDE or using its GUI this way:
 
 &nbsp;&nbsp;&nbsp;&nbsp;• Open Visual Studio Code.<br>
-&nbsp;&nbsp;&nbsp;&nbsp;• Put your cursor in and 'click' on the top level director of your project<br>
+&nbsp;&nbsp;&nbsp;&nbsp;• Put your cursor in and 'click' on the top level directory of your project<br>
 &nbsp;&nbsp;&nbsp;&nbsp;• Select 'shift-command-P' and the command pallet will open<br>
 &nbsp;&nbsp;&nbsp;&nbsp;• Start typing `git init` and you will see “Initialize Git Repository” appear in the bar; select it and let it run.<br>
 
