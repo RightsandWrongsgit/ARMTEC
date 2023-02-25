@@ -108,7 +108,7 @@ The browser address Platform.sh pointed you now shows an actual Drupal website r
 
 You actually have a hosted Drupal site on the internet at this point.  If you you gave someone else that web address they could also get to it.  Later you might share such an odd address for your website's 'staged' environment to allow a client review as a testing step.  Eventually you will assign a DNS (Domain Name System) address to the Platform.sh hosted site and make your fully live site have a typical address.  More on that later.
 
-You could also actually go into the hosted website with your administrator credentials and work directly on it; **BAD IDEA**.  That is NOT something that is recommended because you may mess things up and not have a good way to back out of your problems; and you likely know that as one reason you are reading this setup documentation to do some amount of a CI/CD type of process. Plus, you probably know that working on your local machine is faster, or more comfortable than working on the hosted copy directly.
+You could also actually go into the hosted website with your administrator credentials and work directly on it; <font color=yellow>BAD IDEA</font>.  That is NOT something that is recommended because you may mess things up and not have a good way to back out of your problems; and you likely know that as one reason you are reading this setup documentation to do some amount of a CI/CD type of process. Plus, you probably know that working on your local machine is faster, or more comfortable than working on the hosted copy directly.
 
 <img src="../cicd/captures/drupalinstall5.png"  width="450">
 
