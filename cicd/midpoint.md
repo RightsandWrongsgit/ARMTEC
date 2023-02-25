@@ -24,4 +24,4 @@
   - Automatically, that is, unless we <u>Don't Want</u> them to be.  What we will be learning about is how Drupal has something called [Configuration](https://mikemadison.net/blog/2020/6/26/drupal-configuration-introduction) and this tells how an environment is set up.  So that we can achieve having differences between our environments, we will be installing a Config_Split module.  Think about Config_Split as basically <font color=yellow> turning off </font> stuff we don't want operating in a specific environment; so, think that we really have all stuff present everywhere but just not always active in each environment.<br> 
 
   
-  [- Next -](../cicd/midpoint.md)
+  [- Next -](../cicd/basebeforesplit.md)
