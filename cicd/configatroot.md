@@ -96,7 +96,7 @@ Most people who use Drupal find that this configuration export-import stuff is b
 
 <img src="../cicd/captures/configatroot4.png"  width="300">
 
-`settings.php` is sort of the holy grail of files in a Drupal system.  So at some point you will want to drive around in it and look through all the stuff if is doing.  But for now, shuffle on down and look for the line that says `//This is defined inside the read-only "config" directory, deployed via Git` and just below that comment line you will see a $settings line that indicates which directory the configuration YAML files read and write from.  If that line in your `settings.php` file points to somewhere else, edit that line so it says `$settings[\`config_sync_directory`] = \`../config/sync`;`
+`settings.php` is sort of the holy grail of files in a Drupal system.  So at some point you will want to drive around in it and look through all the stuff if is doing.  But for now, shuffle on down and look for the line that says `//This is defined inside the read-only "config" directory, deployed via Git` and just below that comment line you will see a $settings line that indicates which directory the configuration YAML files read and write from.  If that line in your `settings.php` file points to somewhere else, edit that line so it says `$settings[\`config_sync_directory\`] = \`../config/sync\`;`
 
 <img src="../cicd/captures/configatroot5.png"  width="800">
 
