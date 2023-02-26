@@ -31,5 +31,5 @@ VSCode integrates with that 'Git' version control stuff.  'Git' version control 
 -  [Split Preparation](../cicd/basebeforesplit.md)
 -  [Directory Map](../cicd/directorymap.md)
 -  [Protect Config at root](../cicd/configatroot.md)
-
+-  [Intro to Split Configuration](../cicd/configsplit.md)
 
