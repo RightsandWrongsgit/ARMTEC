@@ -60,11 +60,11 @@ Don't get too excited that the Drush was part of the standard lando Drupal Platf
 
 <img src="../cicd/captures/containerdrush1.png"  width="450">
 
-In the [Lando documentation](https://docs.lando.dev/core/v3/) you will find information on the 'order' Lando executes instructions.  You will find that .lando.upstream.yml precedes a .lando.yml file; in other words, you can tell Lando to do something different in your .lando.yml file and that will out-rule what is said in that  .lando.upstream.yml file.
+In the [Lando documentation](https://docs.lando.dev/core/v3/) you will find information on the 'order' Lando executes instructions.  You will find that .lando.upstream.yml precedes a `.lando.yml` file; in other words, you can tell Lando to do something different in your .lando.yml file and that will over-rule what is said in that  `.lando.upstream.yml` file.
 
 <img src="../cicd/captures/containerdrush2.png"  width="200">
 
-We are going to make a .lando.yml file to do that over-ruling and establish the tooling for Drush service in Drupal.  This is what the file you create should look like and it goes at the same level as the .lando.upstream.yml file.
+We are going to make a `.lando.yml` file to do that over-ruling and establish the tooling for Drush service in Drupal.  This is what the file you create should look like and it goes at the same level as the `.lando.upstream.yml` file.
 
 <img src="../cicd/captures/containerdrush3.png"  width="750">
 
