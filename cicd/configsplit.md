@@ -4,7 +4,7 @@
 <font color=yellow>"Active" is what's in your running project</font><br>
 The easiest way to wrap your mind around configuration is to know that the ACTIVE configuration is what is in your site's database and running your Drupal site.  What doing the 'export' is accomplishing is grabbing the underlying definition of that configuration, tuning it into a whole bunch of YAML files, and putting those files somewhere outside your database.
 
-<font color=yellow>YAML files with different 'versions'</font><br>
+<font color=yellow>YAML files with different 'versions' set the basis for "workflow"</font><br>
 Why you want to think of it in this very basic way is that you could have different versions of your Drupal site with slightly different configurations and you could put the YAML files from those different versions into uniquely named locations.   Where this comes into play is that you have a 'main' (Production) copy of your site but you also have a copy you are working on changes and enhancements, like a 'develop' (Development) version.  Hopefully this begins to clarify how one might do a 'workflow' utilizing a sequence of copies of your website; copies from your individual local developers, individual feature builds, merged development builds, staged testing builds, in addition to your 'main' production environment.  
 
 <font color=yellow>Enhance Configuration Management with the "Config_Split" module</font><br>
