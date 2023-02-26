@@ -4,7 +4,7 @@
 # The Database
 
 ## MANAGE ENVIRONMENTS:
-``$settings[`config_sync_directory`] = `../config/sync`;``
+
 We have talked about how using a container based approach with Platform.sh and Lando (both of which use Docker containers) is aimed at coordinating the environments upon which your applications run.  You hear people say it gets rid of the "Well it ran on my machine' issue.  We also talked about how the GitOp workflow of Platform.sh and your local development environment, e.g. Lando plus the parallel Git-GitHub version control, also aim to coordinate application consistency between the environments.  Noble goals…  Now let's talk about breaking these rules!  If you give some thought to it, there are a few situations where you intentionally DON'T WANT CONSISTENCY. 
 
 ## THE OPERATING ENVIRONMENTS
@@ -96,7 +96,7 @@ Most people who use Drupal find that this configuration export-import stuff is b
 
 <img src="../cicd/captures/configatroot4.png"  width="300">
 
-`settings.php` is sort of the holy grail of files in a Drupal system.  So at some point you will want to drive around in it and look through all the stuff if is doing.  But for now, shuffle on down and look for the line that says `//This is defined inside the read-only "config" directory, deployed via Git` and just below that comment line you will see a $settings line that indicates which directory the configuration YAML files read and write from.  If that line in your `settings.php` file points to somewhere else, edit that line so it says `$settings[\`config_sync_directory`] = `../config/sync`;`
+`settings.php` is sort of the holy grail of files in a Drupal system.  So at some point you will want to drive around in it and look through all the stuff if is doing.  But for now, shuffle on down and look for the line that says `//This is defined inside the read-only "config" directory, deployed via Git` and just below that comment line you will see a $settings line that indicates which directory the configuration YAML files read and write from.  If that line in your `settings.php` file points to somewhere else, edit that line so it says ``$settings[`config_sync_directory`] = `../config/sync`;``
 
 <img src="../cicd/captures/configatroot5.png"  width="800">
 
@@ -115,9 +115,7 @@ ChaChing…  you will see all sorts of YAML files show up under that config/sync
 
 For more on [Configuration Synchronization via traditional](https://www.youtube.com/watch?v=tHyXIbgoUtw) way in Drupal.
 
-There is a good, but long video on both basic configuration and config_split noted below.  Around 55 minutes in is the point where they show some scenarios with basic config management that demonstrate things like how a new module shows up, how there is an 'active' and 'staged' state that might allow you to back out of something you did by just doing a config-import that pulls from a staged copy that you haven't exported to.
-
-Good but [long Configuration Synchronization video](https://www.youtube.com/watch?v=t7MRvQwqeDA)
+Good but [long Configuration Synchronization video](https://www.youtube.com/watch?v=t7MRvQwqeDA).  Around 55 minutes in shows scenarios with basic config management that demonstrate things like how a new module shows up, how there is an 'active' and 'staged' state that might allow you to back out of something you did by just doing a config-import that pulls from a staged copy that you haven't exported to.
 
 #### SPLIT CONFIGURATION 'EXPORT' AND 'IMPORT'
 The easiest way to wrap your mind around configuration is to know that the ACTIVE configuration is what is in your site's database and running your Drupal site.  What doing the 'export' is accomplishing is grabbing the underlying definition of that configuration, tuning it into a whole bunch of YAML files, and putting those files somewhere outside your database. Why you want to think of it in this very basic way is that you could have different versions of your Drupal site with slightly different configurations and you could put the YAML files from those different versions into uniquely named locations.   Where this comes into play is that you have a 'main' (Production) copy of your site but you also have a copy you are working on changes and enhancements, like a 'develop' (Development) version.  Hopefully this begins to clarify how one might do a 'workflow' utilizing a sequence of copies of your website; copies from your individual local developers, individual feature builds, merged development builds, staged testing builds, in addition to 'main'.  
