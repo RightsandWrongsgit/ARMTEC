@@ -7,7 +7,7 @@
 
 We have talked about how using a container based approach with Platform.sh and Lando (both of which use Docker containers) is aimed at coordinating the environments upon which your applications run.  You hear people say it gets rid of the "Well it ran on my machine' issue.  We also talked about how the GitOp workflow of Platform.sh and your local development environment, e.g. Lando plus the parallel Git-GitHub version control, also aim to coordinate application consistency between the environments.  Noble goals…  Now let's talk about breaking these rules!  If you give some thought to it, there are a few situations where you intentionally DON'T WANT CONSISTENCY. 
 
-### DIFFERENCES IN THE OPERATING ENVIRONMENTS
+## DIFFERENCES IN THE OPERATING ENVIRONMENTS
 
 Start this process by thinking about Platform.sh as your host being the most sane controller of the most critical environment; 'main' (Production).  Then think about the three YAML files that Platform.sh installed in our project which control the definition of the Production environment for your project. <font color=green>Don't worry  that Platform.sh uses 'yaml' files and Lando uses 'yml files; they are the same thing.</font>
 
@@ -58,9 +58,10 @@ Well if this is all the same, why does that .lando.yml file even exist?  Because
 
 The override is saying in an .app you have variables, one of which is the APP_ENV that you want set to 'develop' for Development.  And your app has a variable telling us it is using d8settings: which contains a variable called skip_permissions_hardening that you want set to 1 (which is TRUE).  What this is doing is turning off some security lockdowns that are in your 'main' (Production) site to protect it but that needs to be turned off in your 'develop' (Development) site so that you can actually work on it.  The db entry shows how you can even change database properties like the size of the packet it will exchange (I believe this property is 64 in Platform.sh and the above syntax is just showing a 1MB change as an example).
 
-The example file above is the .lando.yml plug-in file from the GitHub Lando/Platformsh repository.  You can go to that repository and [review the README](https://github.com/lando/platformsh) for an express summary of a basic Platform.sh site creation followed by creating its associated Lando local counterpart.  
-
-### DRUPAL IN DIFFERENT ENVIRONMENTS
+The example file above is the .lando.yml plug-in file from the GitHub Lando/Platformsh repository.  You can go to that repository and [review the README](https://github.com/lando/platformsh) for an express summary of a basic Platform.sh site creation followed by creating its associated Lando local counterpart.<br>  
+<br>
+<br>
+## DRUPAL IN DIFFERENT ENVIRONMENTS
 
 <font color=red>YOU CARE ABOUT THIS ONE NOW</font><br>
 We talked briefly about how multiple environments exist with slightly unique, managed differences between 'main' (production), 'staged', and 'develop' (Development) of the same site.  Things that differ at the environment level might be having a 'cache' on in Platform.sh hosted 'main' but off in Lando local while you work; or having Google Analytics running in 'main' but not while you are testing in staged; or including a bunch of tools like Devel Generate, or CSS compliers or CSS and JS code disaggregated.  Well some of these are environment differences and but some are actually slight differences in the Drupal application like having the Devel module enabled or not.
@@ -76,9 +77,10 @@ Because Drupal is a PHP application, one of its most fundamentally central files
 Thus, in a typical Drupal installation that line of code is telling your application where to look for the key files that define your configuration.  Without going way into it, that configuration would be things like modules, menu structure, site name, etc.  Obviously, the people who built Drupal know you would logically want to have a copy of what is defining your site configuration in more than one place; so  they arranged for you to be able to 'export' your configuration and then 'import' it to another instance.
 
 <sup><sub>NOTE OF KEY INTEREST ABOUT THIS CONFIGURATION STUFF – Remember how we did a Git to GitHub to Platform.sh copy of our work to that point where we updated Drupal Core and enhanced that gitignore file?  We even did a practice backup on Platform.sh.  You might think that if you had to dig yourself out of a mess at that point you could just Clone your 'main' from GitHub into your 'main' on your Lando local copy on your hard drive and we good to go. Well sort of, but only partially.  The gitignore file changes would be there.  Even the Drupal version would be updated because it was changed in the recipe for your project in the composer.lock and composer.json files.  But when you ran Lando start, you would be prompted to run Drupal set up again and input a new user ID, password, email address, time zone, etc.  That is because we never produced, or exported, a file of the site's configuration.  And the files defining your configuration were not there to backup.  We will do that export next.</sub></sup>
-
-
-### BASIC SITE CONFIGURATION 'EXPORT' AND 'IMPORT'
+<br>
+<br>
+<br>
+## BASIC SITE CONFIGURATION 'EXPORT' AND 'IMPORT'
 
 Drupal supports basic configuration management mainly in the sense of sharing configuration definitions between environments.  Please be aware that the underlying YAML files which define all sorts of configuration elements are only about sharing 'THE SAME SITE' between environments and NOT using these exports to jumpstart a new site.  This is because every configuration file has a unique UUID specific to one and only one site but that might be shared across dozens of instances (e.g. globally deployed copies of your site fully synchronized as a high traffic site).
 
