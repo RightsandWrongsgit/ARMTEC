@@ -13,7 +13,7 @@ We have mainly done this so far by selecting options and running commands in our
 
 <font color=pink>Pink line</font> We found this [.gitignore](../cicd/gitignore.md) file already and did some important edits in it. 
 
-<font color=yellow>Yellow line</font> We also noted the 'lando.upstream.yml' and earlier showed how to override it with our own ['lando.yml' file](../cicd/cruisevscode#NOTE-ABOUT-THE-TOOL-CALLED-"DRUSH")
+<font color=yellow>Yellow line</font> We also noted the 'lando.upstream.yml' and earlier showed how to override it with our own ['lando.yml' file](../cicd/cruisevscode#note-about-the-tool-called-drush)
 
 <font color=orange>Orange line</font> [Composer](../book/opensource.md#Developer:) is fundamental to modern Drupal.  You will run Composer commands from your [VSCode](../book/ide.md) terminal as you install new modules to enhance your project.  Composer is a critical coordinator of how parts fit together with compatible versions of Drupal Core and modules.<br>
 
