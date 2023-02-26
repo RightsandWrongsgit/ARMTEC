@@ -6,7 +6,7 @@ You probably will find it convenient to use [VSCode](../book/vscodedrupallocal.m
 
 # Do more with .gitignore
 
-Look at the standard default .gitignore file already present at our project root.  It should be at the very top level of your project on your local machine; the same level as the composer.json and composer.lock files.  Don't be surprised there there are other .gitignore files in various subdirectories that we also automatically installed from the template; but you want to use that top one.  It should look pretty close to this:
+Look at the standard default .gitignore file already present at our project root.  It should be at the very top level of your project on your local machine; the same level as the composer.json and composer.lock files.  Don't be surprised that there are other .gitignore files in various subdirectories that we also automatically installed from the template; but you want to use that top one.  It should look pretty close to this:
 
 <img src="../cicd/captures/gitignore1.png"  width="300">
 
