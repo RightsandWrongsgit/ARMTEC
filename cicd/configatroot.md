@@ -11,7 +11,8 @@ We have talked about how using a container based approach with Platform.sh and L
 
 Start this process by thinking about Platform.sh as your host being the most sane controller of the most critical environment; 'main' (Production).  Then think about the three YAML files that Platform.sh installed in our project which control the definition of the Production environment for your project. <font color=green>Don't worry  that Platform.sh uses 'yaml' files and Lando uses 'yml files; they are the same thing.</font>
 
-<font color=red>THIS IS FOR INFORMATION LATER, AS YOUR PROJECT ADVANCES</font><br>
+<font color=red>THIS IS FOR INFORMATION LATER, AS YOUR PROJECT ADVANCES
+But, if you skip reading it now make sure to move down the page to the next section!</font><br>
 <font color=yellow>The Operating Environments are how your containers work</font><br>
 The easiest way to wrap your mind around containers is to thing of them like a server or [LAMP/WAMP/MAMP stack](https://aws.amazon.com/what-is/lamp-stack/#:~:text=A%20LAMP%20stack%20is%20a,and%20the%20programming%20language%2C%20PHP.) in a physical environment world.
 
