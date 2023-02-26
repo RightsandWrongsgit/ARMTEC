@@ -4,7 +4,7 @@
 # The Database
 
 ## MANAGE ENVIRONMENTS:
-`$settings[`config_sync_directory`] = `../config/sync`;`
+`$settings[\`config_sync_directory`] = `../config/sync`;`
 We have talked about how using a container based approach with Platform.sh and Lando (both of which use Docker containers) is aimed at coordinating the environments upon which your applications run.  You hear people say it gets rid of the "Well it ran on my machine' issue.  We also talked about how the GitOp workflow of Platform.sh and your local development environment, e.g. Lando plus the parallel Git-GitHub version control, also aim to coordinate application consistency between the environments.  Noble goals…  Now let's talk about breaking these rules!  If you give some thought to it, there are a few situations where you intentionally DON'T WANT CONSISTENCY. 
 
 ## THE OPERATING ENVIRONMENTS
