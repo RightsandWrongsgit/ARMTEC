@@ -1,5 +1,7 @@
 
-# The Environment, The Application, The Database:
+# The Environments
+# The Application
+# The Database
 
 ## MANAGED DIFFERENCES BETWEEN DRUPAL ENVIRONMENTS:
 
@@ -76,7 +78,7 @@ Thus, in a typical Drupal installation that line of code is telling your applica
 <sup><sub>NOTE OF KEY INTEREST ABOUT THIS CONFIGURATION STUFF – Remember how we did a Git to GitHub to Platform.sh copy of our work to that point where we updated Drupal Core and enhanced that gitignore file?  We even did a practice backup on Platform.sh.  You might think that if you had to dig yourself out of a mess at that point you could just Clone your 'main' from GitHub into your 'main' on your Lando local copy on your hard drive and we good to go. Well sort of, but only partially.  The gitignore file changes would be there.  Even the Drupal version would be updated because it was changed in the recipe for your project in the composer.lock and composer.json files.  But when you ran Lando start, you would be prompted to run Drupal set up again and input a new user ID, password, email address, time zone, etc.  That is because we never produced, or exported, a file of the site's configuration.  And the files defining your configuration were not there to backup.  We will do that export next.</sub></sup>
 
 
-### BASIC SITE CONFIGURATION 'EXPORT' AND 'IMPORT':
+### BASIC SITE CONFIGURATION 'EXPORT' AND 'IMPORT'
 
 Drupal supports basic configuration management mainly in the sense of sharing configuration definitions between environments.  Please be aware that the underlying YAML files which define all sorts of configuration elements are only about sharing 'THE SAME SITE' between environments and NOT using these exports to jumpstart a new site.  This is because every configuration file has a unique UUID specific to one and only one site but that might be shared across dozens of instances (e.g. globally deployed copies of your site fully synchronized as a high traffic site).
 
