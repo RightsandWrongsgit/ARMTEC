@@ -31,7 +31,7 @@ Oddly, since you started this from VSCode, it will ask you if you want to Open V
 
 <img src="../cicd/captures/cruisevscode6.png"  width="300">
 
-Back up in that box for the 'Command Pallet' you will see the name you have given your project locally and below it the option to Publish it to GitHub as either a 'private' or 'public' repository. 
+Back up in that box for the 'Command Palette' you will see the name you have given your project locally and below it the option to Publish it to GitHub as either a 'private' or 'public' repository. 
 
 <img src="../cicd/captures/cruisevscode7.png"  width="450">
 
