@@ -43,6 +43,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Split Preparation](cicd/basebeforesplit.md)
 - [Directory Map](cicd/directorymap.md)
 - [Protect Config at root](cicd/configatroot.md)
+- [Intro to Split Configuration](cicd/configsplit.md)
 
 
 
