@@ -70,7 +70,7 @@ Platform.sh is referencing the GitHub 'main' branch through the SSH connection y
 
 Since we updated the code behind our website, it might be a good time to do a backup to secure what we did.  Since we are working directly on 'main' at this point we will just secure that main production branch as the only one we have on Platform.sh (once you really get going you will work on 'develop' push to 'staged' and after testing push to 'main').  It is good practice.  Even after you have the other branches in your workflow, it will logically be 'main' that you are going to routinely backup. 
 
-Go your the Platform.sh site and then click on your project.  You will see the environments you have. 
+Go to your the Platform.sh site and then click on your project.  You will see the environments you have. 
 
 <img src="../cicd/captures/basebeforesplit9.png"  width="600">
 
