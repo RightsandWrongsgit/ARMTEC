@@ -61,7 +61,7 @@ You should basically end up with something that looks a lot like this.  Of cours
 
 
 #### Removing something you already added to a repository:
-As a quick reference note, you might have done a 'git init' and pushed some files that you now wish you hadn't and plan to edit your .gitignore so they don't go up in the future.  You might try this to remove items; 'mode_modules' is the example.
+As a quick reference note, you might have done a 'git init' and pushed some files that you now wish you hadn't and plan to edit your .gitignore so they don't go up in the future.  You might try this to remove items; 'node_modules' is the example.
 
 `git rm -r --cached node_modules`
 
