@@ -3,11 +3,11 @@
 # The Application
 # The Database
 
-## MANAGED DIFFERENCES BETWEEN ENVIRONMENTS:
+## MANAGE ENVIRONMENTS:
 
 We have talked about how using a container based approach with Platform.sh and Lando (both of which use Docker containers) is aimed at coordinating the environments upon which your applications run.  You hear people say it gets rid of the "Well it ran on my machine' issue.  We also talked about how the GitOp workflow of Platform.sh and your local development environment, e.g. Lando plus the parallel Git-GitHub version control, also aim to coordinate application consistency between the environments.  Noble goals…  Now let's talk about breaking these rules!  If you give some thought to it, there are a few situations where you intentionally DON'T WANT CONSISTENCY. 
 
-## DIFFERENCES IN THE OPERATING ENVIRONMENTS
+## THE OPERATING ENVIRONMENTS
 
 Start this process by thinking about Platform.sh as your host being the most sane controller of the most critical environment; 'main' (Production).  Then think about the three YAML files that Platform.sh installed in our project which control the definition of the Production environment for your project. <font color=green>Don't worry  that Platform.sh uses 'yaml' files and Lando uses 'yml files; they are the same thing.</font>
 
@@ -61,7 +61,7 @@ The override is saying in an .app you have variables, one of which is the APP_EN
 The example file above is the .lando.yml plug-in file from the GitHub Lando/Platformsh repository.  You can go to that repository and [review the README](https://github.com/lando/platformsh) for an express summary of a basic Platform.sh site creation followed by creating its associated Lando local counterpart.<br>  
 <br>
 <br>
-## DRUPAL IN DIFFERENT ENVIRONMENTS
+## DRUPAL ENVIRONMENTS
 
 <font color=red>YOU CARE ABOUT THIS ONE NOW</font><br>
 We talked briefly about how multiple environments exist with slightly unique, managed differences between 'main' (production), 'staged', and 'develop' (Development) of the same site.  Things that differ at the environment level might be having a 'cache' on in Platform.sh hosted 'main' but off in Lando local while you work; or having Google Analytics running in 'main' but not while you are testing in staged; or including a bunch of tools like Devel Generate, or CSS compliers or CSS and JS code disaggregated.  Well some of these are environment differences and but some are actually slight differences in the Drupal application like having the Devel module enabled or not.
@@ -80,7 +80,7 @@ Thus, in a typical Drupal installation that line of code is telling your applica
 <br>
 <br>
 <br>
-## BASIC SITE CONFIGURATION 'EXPORT' AND 'IMPORT'
+## SITE CONFIGURATION 'EXPORT' AND 'IMPORT'
 
 Drupal supports basic configuration management mainly in the sense of sharing configuration definitions between environments.  Please be aware that the underlying YAML files which define all sorts of configuration elements are only about sharing 'THE SAME SITE' between environments and NOT using these exports to jumpstart a new site.  This is because every configuration file has a unique UUID specific to one and only one site but that might be shared across dozens of instances (e.g. globally deployed copies of your site fully synchronized as a high traffic site).
 
