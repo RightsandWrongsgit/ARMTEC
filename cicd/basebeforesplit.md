@@ -40,7 +40,7 @@ If we simply move our cursor over the line showing that 'composer.lock' file and
 
 <img src="../cicd/captures/basebeforesplit3.png"  width="150">
 
-If we move our cursor over the line showing 'Changes' instead, it offer  a curved arrow with a plus sign (to 'stash' the changes for now rather than stage them),and an arrow by itself to discard all the changes from any file(s) or a plus sign to stage all the changed files.  We hit the plus sign and we see the composer.lock file is now a staged change.
+If we move our cursor over the line showing 'Changes' instead, it offer  a curved arrow with a plus sign (to 'stash' the changes for now rather than stage them), and an arrow by itself to discard all the changes from any file(s) or a plus sign to stage all the changed files.  We hit the plus sign and we see the composer.lock file is now a staged change.
 
 <img src="../cicd/captures/basebeforesplit4.png"  width="500">
 
