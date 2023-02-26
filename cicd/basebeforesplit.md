@@ -24,7 +24,7 @@ That first line makes sure the subdirectory you are doing this in can be written
 &nbsp;&nbsp;&nbsp;&nbsp;Install lando from its GitHub repository <sup><sub>(download appropriate to your machines operating system)</sub></sup><br>
 
 #### Let's tryout our base workflow:
-You are a little invested in what you have worked on so far, but no where near what you will be after you spend a bunch of time really building out a website.  So now is a good time to take the initial parts of the workflow process for a test drive.  In fact, while you are first learning to use all this stuff, it really makes sense to practice the Git-GitHub-Platform.sh coordination steps with each little increment you do.  Soon it will become a natural instinct in how you work.
+You are a little invested in what you have worked on so far, but nowhere near what you will be after you spend a bunch of time really building out a website.  So now is a good time to take the initial parts of the workflow process for a test drive.  In fact, while you are first learning to use all this stuff, it really makes sense to practice the Git-GitHub-Platform.sh coordination steps with each little increment you do.  Soon it will become a natural instinct in how you work.
 
 After you do the gitignore changes, add the .lando.yml file and Drupal updates to the base site that the Platform.sh Lando template pretty much put in place for you, you will see in your VSCode to the left of the directory list, that a little blue ball with a number in it shows up by the Git version control symbol.
 
