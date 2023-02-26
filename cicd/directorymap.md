@@ -11,7 +11,7 @@ We have mainly done this so far by selecting options and running commands in our
 
 <font color=red>Red line</font> We see files under the '/sites/default' subdirectory with a php extension on them.  To a large extent Drupal is written in php and these files are central to the basic workings of your website.  Soon we are going to spend some significant time working on the 'settings.php' and related files.
 
-<font color=pink>Pink line</font> We found this [.gitignore](../cicd/gitignore.md) file already and did come important edits in it. 
+<font color=pink>Pink line</font> We found this [.gitignore](../cicd/gitignore.md) file already and did some important edits in it. 
 
 <font color=yellow>Yellow line</font> We also noted the 'lando.upstream.yml' and earlier showed how to override it with our own ['lando.yml' file](../cicd/cruisevscode#NOTE-ABOUT-THE-TOOL-CALLED-"DRUSH")
 
