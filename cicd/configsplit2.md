@@ -5,11 +5,11 @@ Remember that your setting.php file tells your system to look for your configura
 
 Go toward the top of the directory list on the left portion of your project in your VSCode IDE and highlight the 'config' director (not the 'sync' right next to it.  Then go over to the upper right and the second icon in is the 'New Folder' option; click it.
 
-image
+<img src="../cicd/captures/configsplit1.png"  width="500">
 
 First, you put in a 'develop', 'main' and 'staged'  subdirectory under 'config'.  DON'T put it under 'sync'.
 
-image
+<img src="../cicd/captures/configsplit2.png"  width="500">
 
 You can see your 'sync' directory with all the YAML files and its new sibling level 'develop', 'local', 'main', and 'staged' directories ready to hold your split off alternative YML files.  Think about the config_split module working like most Drupal stuff does by going to a unique starting place directory to find something and if what it needs isn't there, it will work its way up to a default directory to find a file.  Your 'sync' directory is your default location for files that your splits don't contain.  So once you get going, you can anticipate that 'develop', 'main', and 'staged' won't have very many YAML files, only those that you tell the config_split module you want something unique for that given environment.
 
@@ -40,44 +40,44 @@ Install and enable the Config_Split module -
 At the terminal, you install the config_split module with this command.
 `lando composer require 'drupal/config_split'` 
 
-image
+<img src="../cicd/captures/configsplit3.png"  width="500">
 
 After that runs you will be back at the prompt …
 
-image
+<img src="../cicd/captures/configsplit4.png"  width="500">
 
 Having a Drupal module installed doesn't mean it is functional.  Rather, you need to enable it.  To do that you use this command at the terminal.
 `lando drush en config_split`
 
-image
+<img src="../cicd/captures/configsplit5.png"  width="500">
 
 Be aware, that this won't run until you confirm you want to continue.  The reason it has this extra step is that config_split has what are known as dependencies on other modules and the system confirms you agree to install those too.  Say yes!
 
-image
+<img src="../cicd/captures/configsplit6.png"  width="500">
 
 After it runs a moment, the system will declare success.
 
-image
+<img src="../cicd/captures/configsplit7.png"  width="500">
 
 I like to confirm the success by having Lando rebuild the local container and bring back up the Drupal site locally.
 
-image
+<img src="../cicd/captures/configsplit8.png"  width="500">
 
 The rebuild take a little while so go get a cup of coffee.  When you come back you will see the usual list of URLs where you can bring the local site into your browser.
 
-image
+<img src="../cicd/captures/configsplit9.png"  width="500">
 
 I like to pop in the one for 'localhost' and log into the Drupal application to take a look. From the administration menu, first click on the 'Extend' option.  In the little search box if you type 'config' it will take you to a list of modules that include that in their name; or you can just scroll down until you see them.  There you will see the Config Filter and Configuration Split modules you installed and the fact they have a check in their checkbox shows they are enabled.
 
-image
+<img src="../cicd/captures/configsplit10.png"  width="500">
 
 From that administration menu, go over to the 'Configuration' option and click into it.  Now look down into the 'Development' group and you will see the 'Configuration Split settings' option has been added just above the original 'Configuration synchronization' option that came with Drupal Core.  Success confirmed!
 
-image
+<img src="../cicd/captures/configsplit11.png"  width="500">
 
 If you go into the 'Configuration Split settings' option you will find a statement that "There are not configuration split setting entities yet." and a big blue button that says "+ Add Configuration Split settings".  We aren't going to do that just yet.  First, save your files in your VSCode editor, click the blue ball with the number to bring up the message box and type "Config_split module installed and enabled", stage it, commit it, and sync it to your GitHub account.
 
-image
+<img src="../cicd/captures/configsplit12.png"  width="500">
 
 You might want to consider exporting your updated configuration after installing and enabling a module with --   
 				`lando drush cex`
