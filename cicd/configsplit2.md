@@ -34,7 +34,7 @@ If you happen to be a command line person, assuming you are in the project top l
 At the terminal, you install the config_split module with this command.
 `lando composer require 'drupal/config_split'` 
 
-<img src="../cicd/captures/configsplit3.png"  width="500">
+<img src="../cicd/captures/configsplit3.png"  width="350">
 
 After that runs you will be back at the prompt …
 
