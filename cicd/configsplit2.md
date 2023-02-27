@@ -43,23 +43,23 @@ After that runs you will be back at the prompt …
 Having a Drupal module installed doesn't mean it is functional.  Rather, you need to enable it.  To do that you use this command at the terminal.
 `lando drush en config_split`
 
-<img src="../cicd/captures/configsplit5.png"  width="350">
+<img src="../cicd/captures/configsplit5.png"  width="400">
 
 Be aware, that this won't run until you confirm you want to continue.  The reason it has this extra step is that config_split has what are known as dependencies on other modules and the system confirms you agree to install those too.  Say yes!
 
-<img src="../cicd/captures/configsplit6.png"  width="500">
+<img src="../cicd/captures/configsplit6.png"  width="400">
 
 After it runs a moment, the system will declare success.
 
-<img src="../cicd/captures/configsplit7.png"  width="500">
+<img src="../cicd/captures/configsplit7.png"  width="400">
 
 I like to confirm the success by having Lando rebuild the local container and bring back up the Drupal site locally.
 
-<img src="../cicd/captures/configsplit8.png"  width="500">
+<img src="../cicd/captures/configsplit8.png"  width="400">
 
 The rebuild take a little while so go get a cup of coffee.  When you come back you will see the usual list of URLs where you can bring the local site into your browser.
 
-<img src="../cicd/captures/configsplit9.png"  width="500">
+<img src="../cicd/captures/configsplit9.png"  width="400">
 
 I like to pop in the one for 'localhost' and log into the Drupal application to take a look. From the administration menu, first click on the 'Extend' option.  In the little search box if you type 'config' it will take you to a list of modules that include that in their name; or you can just scroll down until you see them.  There you will see the Config Filter and Configuration Split modules you installed and the fact they have a check in their checkbox shows they are enabled.
 
