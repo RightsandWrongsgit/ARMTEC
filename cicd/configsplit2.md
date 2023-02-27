@@ -20,12 +20,12 @@ Go ahead and in VSCode, click that blue ball with the number to bring up the mes
 <sub><sup>Side Notes: 
 If you happen to be a command line person, assuming you are in the project top level directory do this.
 
-`cd config`<br>
+<sub><sup>`cd config`</sup></sub><br>
 `mkdir develop`<br>
 `mkdir local`<br>
 `mkdir staged`<br>
 `mkdir main`<br>
-	</sup></sub>
+	
 	
 Ultimately you are going to be pointing the Config_Split module to the name and location of the splits you create.  So it is possible to deviate from this suggested directory structure.  This is discussed in the documentation for the module on the Drupal.org website.
 
