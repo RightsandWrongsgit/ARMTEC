@@ -1,11 +1,12 @@
 
-## Create subdirectories for the additional environment configurations -
+#### For each of the additional environment configuration YAML files
+## Create additional subdirectories 
 
 Remember that your setting.php file tells your system to look for your configuration files in the ../config/sync directory.  You saw the huge list of the YAMl files that represent all the parts of your configuration after you did that lando drush config-export command.  Think of that location as the home of your common configuration in the config_split world and if you listen to other sources around setting up config_split they even name their directory common; don't you do that because you are trying to stay aligned with the Lando-Platform.sh standard template as much as possible. 
 
-Go toward the top of the directory list on the left portion of your project in your VSCode IDE and highlight the 'config' director (not the 'sync' right next to it.  Then go over to the upper right and the second icon in is the 'New Folder' option; click it.
+Go toward the top of the directory list on the left portion of your project in your VSCode IDE and highlight the 'config' directory (not the 'sync' right next to it.  Then go over to the upper right and the second icon in is the 'New Folder' option; click it.
 
-<img src="../cicd/captures/configsplit1.png"  width="350">
+<img src="../cicd/captures/configsplit1.png"  width="500">
 
 First, you put in a 'develop', 'main' and 'staged'  subdirectory under 'config'.  DON'T put it under 'sync'.
 
