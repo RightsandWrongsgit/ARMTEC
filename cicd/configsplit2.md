@@ -13,11 +13,11 @@ First, you put in a 'develop', 'main' and 'staged'  subdirectory under 'config'.
 
 You can see your 'sync' directory with all the YAML files and its new sibling level 'develop', 'local', 'main', and 'staged' directories ready to hold your split off alternative YML files.  Think about the config_split module working like most Drupal stuff does by going to a unique starting place directory to find something and if what it needs isn't there, it will work its way up to a default directory to find a file.  Your 'sync' directory is your default location for files that your splits don't contain.  So once you get going, you can anticipate that 'develop', 'main', and 'staged' won't have very many YAML files, only those that you tell the config_split module you want something unique for that given environment.
 
-NOTE: See that .gitkeep file at the top of your /config/sync directory?  YOU NEED TO POINT AT IT IN VSCode AND COPY IT.  NOW PASTE A COPY INTO EACH OF THE 'local', 'develop', 'staged', and 'main' DIRECTORIES YOU MADE.  This will result in these directories being acknowledge as new and picked up my Git so they indicate as changes for you to stage, commit, and sync. 
+<font color=yellow>NOTE: See that .gitkeep file at the top of your /config/sync directory?  YOU NEED TO POINT AT IT IN VSCode AND COPY IT.  NOW PASTE A COPY INTO EACH OF THE 'local', 'develop', 'staged', and 'main' DIRECTORIES YOU MADE.  This will result in these directories being acknowledge as new and picked up my Git so they indicate as changes for you to stage, commit, and sync.</font><br> 
 
 Go ahead and in VSCode, click that blue ball with the number to bring up the message entry box where you will put in something along the lines of "Exported configuration to sync and added sibling directories for workflow environments".  Look for the Plus sign to stage all the changed items as a group (and there will be over a hundred files because you exported all those YAML files to the sync directory with the config-export).  Once staged, hit the blue bar that says 'Commit' and after that, it changes to 'Sync' and you click it again to push the changes to GitHub.  Remember, Git locally is connected to GitHub via SSH and then GitHub is SSH connected to Platform.sh so they will populate that environment shortly.  Wouldn't hurt to run another backup in Platform.sh at this time.
 
-Side Notes: 
+<sub><sup>Side Notes: 
 If you happen to be a command line person, assuming you are in the project top level directory do this.
 
 `cd config`
@@ -27,7 +27,8 @@ If you happen to be a command line person, assuming you are in the project top l
 
 `mkdir staged`
 `mkdir main`
-
+	</sup></sub>
+	
 Ultimately you are going to be pointing the Config_Split module to the name and location of the splits you create.  So it is possible to deviate from this suggested directory structure.  This is discussed in the documentation for the module on the Drupal.org website.
 
 https://www.drupal.org/docs/contributed-modules/configuration-split/split-directory-structure
