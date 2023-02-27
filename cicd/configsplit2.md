@@ -26,14 +26,10 @@ If you happen to be a command line person, assuming you are in the project top l
 <sub><sup>`mkdir main`</sup></sub><br>
 	
 	
-Ultimately you are going to be pointing the Config_Split module to the name and location of the splits you create.  So it is possible to deviate from this suggested directory structure.  This is discussed in the documentation for the module on the Drupal.org website.
+<sub><sup>Ultimately you are going to be pointing the Config_Split module to the name and location of the splits you create.  It is possible to [deviate from this suggested directory structure](https://www.drupal.org/docs/contributed-modules/configuration-split/split-directory-structure) if you have some reason. But before you change your approach, make sure you understand a couple limitations on what NOT to do with those subdirectories since there are a couple approaches are simply won't work.  Read that documentation and do some searching to assure yourself.</sup></sub><br>
 
-https://www.drupal.org/docs/contributed-modules/configuration-split/split-directory-structure
-
-But before you change your approach, make sure you understand a couple limitations on what NOT to do with those subdirectories since there are a couple approaches are simply won't work.  Read that documentation and do some searching to assure yourself.
-
-Subdirectories in place …
-Install and enable the Config_Split module -
+### Subdirectories in place …
+## Install and enable the Config_Split module -
 
 At the terminal, you install the config_split module with this command.
 `lando composer require 'drupal/config_split'` 
