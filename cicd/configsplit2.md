@@ -63,15 +63,15 @@ The rebuild take a little while so go get a cup of coffee.  When you come back y
 
 I like to pop in the one for 'localhost' and log into the Drupal application to take a look. From the administration menu, first click on the 'Extend' option.  In the little search box if you type 'config' it will take you to a list of modules that include that in their name; or you can just scroll down until you see them.  There you will see the Config Filter and Configuration Split modules you installed and the fact they have a check in their checkbox shows they are enabled.
 
-<img src="../cicd/captures/configsplit10.png"  width="500">
+<img src="../cicd/captures/configsplit10.png"  width="250">
 
 From that administration menu, go over to the 'Configuration' option and click into it.  Now look down into the 'Development' group and you will see the 'Configuration Split settings' option has been added just above the original 'Configuration synchronization' option that came with Drupal Core.  Success confirmed!
 
-<img src="../cicd/captures/configsplit11.png"  width="500">
+<img src="../cicd/captures/configsplit11.png"  width="250">
 
 If you go into the 'Configuration Split settings' option you will find a statement that "There are not configuration split setting entities yet." and a big blue button that says "+ Add Configuration Split settings".  We aren't going to do that just yet.  First, save your files in your VSCode editor, click the blue ball with the number to bring up the message box and type "Config_split module installed and enabled", stage it, commit it, and sync it to your GitHub account.
 
-<img src="../cicd/captures/configsplit12.png"  width="500">
+<img src="../cicd/captures/configsplit12.png"  width="250">
 
 You might want to consider exporting your updated configuration after installing and enabling a module with --   
 				`lando drush cex`
