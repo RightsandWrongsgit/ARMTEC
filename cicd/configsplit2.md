@@ -18,13 +18,12 @@ You can see your 'sync' directory with all the YAML files and its new sibling le
 Go ahead and in VSCode, click that blue ball with the number to bring up the message entry box where you will put in something along the lines of "Exported configuration to sync and added sibling directories for workflow environments".  Look for the Plus sign to stage all the changed items as a group (and there will be over a hundred files because you exported all those YAML files to the sync directory with the config-export).  Once staged, hit the blue bar that says 'Commit' and after that, it changes to 'Sync' and you click it again to push the changes to GitHub.  Remember, Git locally is connected to GitHub via SSH and then GitHub is SSH connected to Platform.sh so they will populate that environment shortly.  Wouldn't hurt to run another backup in Platform.sh at this time.
 
 <sub><sup>Side Notes: 
-If you happen to be a command line person, assuming you are in the project top level directory do this.
-
+If you happen to be a command line person, assuming you are in the project top level directory do this.</sup></sub>
 <sub><sup>`cd config`</sup></sub><br>
-`mkdir develop`<br>
-`mkdir local`<br>
-`mkdir staged`<br>
-`mkdir main`<br>
+<sub><sup>`mkdir develop`</sup></sub>br>
+<sub><sup>`mkdir local`</sup></sub><br>
+<sub><sup>`mkdir staged`</sup></sub><br>
+<sub><sup>`mkdir main`</sup></sub><br>
 	
 	
 Ultimately you are going to be pointing the Config_Split module to the name and location of the splits you create.  So it is possible to deviate from this suggested directory structure.  This is discussed in the documentation for the module on the Drupal.org website.
