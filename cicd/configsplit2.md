@@ -9,7 +9,7 @@ Go toward the top of the directory list on the left portion of your project in y
 
 First, you put in a 'develop', 'main' and 'staged'  subdirectory under 'config'.  DON'T put it under 'sync'.
 
-<img src="../cicd/captures/configsplit2.png"  width="350">
+<img src="../cicd/captures/configsplit2.png"  width="250">
 
 You can see your 'sync' directory with all the YAML files and its new sibling level 'develop', 'local', 'main', and 'staged' directories ready to hold your split off alternative YML files.  Think about the config_split module working like most Drupal stuff does by going to a unique starting place directory to find something and if what it needs isn't there, it will work its way up to a default directory to find a file.  Your 'sync' directory is your default location for files that your splits don't contain.  So once you get going, you can anticipate that 'develop', 'main', and 'staged' won't have very many YAML files, only those that you tell the config_split module you want something unique for that given environment.
 
