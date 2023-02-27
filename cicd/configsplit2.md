@@ -43,7 +43,7 @@ After that runs you will be back at the prompt …
 Having a Drupal module installed doesn't mean it is functional.  Rather, you need to enable it.  To do that you use this command at the terminal.
 `lando drush en config_split`
 
-<img src="../cicd/captures/configsplit5.png"  width="500">
+<img src="../cicd/captures/configsplit5.png"  width="350">
 
 Be aware, that this won't run until you confirm you want to continue.  The reason it has this extra step is that config_split has what are known as dependencies on other modules and the system confirms you agree to install those too.  Say yes!
 
