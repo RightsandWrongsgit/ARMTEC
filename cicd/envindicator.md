@@ -31,7 +31,7 @@ After you install and enable the environment_indicator module you can go to the 
 
 <img src="../cicd/captures/envindicator1.png"  width="250">
 
-Since you haven't named your environment yet, nor set up alternatives, if you look at the top bar on your site you will probably see some long-string-of-letters-and-numbers that represent a container build environment.  We will be doing configuration of the environment_indicator module and this will being to move toward a more sane environment name.
+Since you haven't named your environment yet, nor set up alternatives, if you look at the top bar on your site you will probably see some long-string-of-letters-and-numbers that represent a container build environment.  We will be doing configuration of the environment_indicator module and this will begin to move toward a more sane environment name. Plus, you can set the module so it even color codes the favion to make it easy to find tabs you have open for different environments.  Pretty cool!
 
 <img src="../cicd/captures/envindicator2.png"  width="350">
 <br>
