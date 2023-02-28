@@ -5,9 +5,9 @@
 
 Any time you are running multiple environments, there is always a risk of not being clear where the heck you are looking and working.   There is a contributed module that we are going to install and enable that is meant to give you signals to tell you which environment you are seeing; it is called the Environment_Indicator module.  We have a first level safety net to avoid confusions simply because we should really only be working directly in the Lando local environment and we will soon show how we detect that fact and set the development features we want in that configuration split.   However, when you are in the Platform.sh machine environment you still would want to be make sure you know if you are looking at the 'develop' environment, watching tests or evaluating the 'staged' environment, or looking at your 'main' production site.  The Environment_Indicator module shows the names you have given the environments, and color bands some of the things like toolbars to send a strong message of where you are.  You install and enable the module with composer as usual.
 
-		`lando composer require 'drupal/environment_indicator'`<br>
+`lando composer require 'drupal/environment_indicator'`
 
-		`lando drush en environment_indicator`
+`lando drush en environment_indicator`
 
 <sup><sub>NOTE: remember `lando drush cex` either now or after the additional setup to export the updated configuration to YML files.</sub></sup><br>
 
