@@ -11,7 +11,7 @@ The Environment_Indicator module shows the names you have given the environments
 
 <img src="../cicd/captures/envindicator.png"  width="550">
 
-For our 'develop' environment we see that name in a green band signaling it is clear to work in here.
+For our 'local' environment we see that name in a green band signaling it is clear to work in here.
 
 <img src="../cicd/captures/envindicator0.png"  width="550">
 
