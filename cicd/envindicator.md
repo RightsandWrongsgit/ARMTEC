@@ -3,7 +3,19 @@
 # Environment Indicator
 
 
-Any time you are running multiple environments, there is always a risk of not being clear where the heck you are looking and working.   There is a contributed module that we are going to install and enable that is meant to give you signals to tell you which environment you are seeing; it is called the Environment_Indicator module.  We have a first level safety net to avoid confusions simply because we should really only be working directly in the Lando local environment and we will soon show how we detect that fact and set the development features we want in that configuration split.   However, when you are in the Platform.sh machine environment you still would want to be make sure you know if you are looking at the 'develop' environment, watching tests or evaluating the 'staged' environment, or looking at your 'main' production site.  The Environment_Indicator module shows the names you have given the environments, and color bands some of the things like toolbars to send a strong message of where you are.  You install and enable the module with composer as usual.
+Any time you are running multiple environments, there is always a risk of not being clear where the heck you are looking and working.   There is a contributed module that we are going to install and enable that is meant to give you signals to tell you which environment you are seeing; it is called the Environment_Indicator module.
+<br>
+We have a first level safety net to avoid confusions simply because we should really only be working directly in the Lando local environment and we will soon show how we detect that fact and set the development features we want in that configuration split.   However, when you are in the Platform.sh machine environment you still would want to be make sure you know if you are looking at the 'develop' environment, watching tests or evaluating the 'staged' environment, or looking at your 'main' production site.
+
+The Environment_Indicator module shows the names you have given the environments, and color bands some of the things like toolbars to send a strong message of where you are. In the first example you see how our 'main' environment shows that name in a red band.  Don't worry this is only when logged in as the Administrator; users see a normal site. 
+
+<img src="../cicd/captures/envindicator.png"  width="550">
+
+For our 'develop' environment we see that name in a green band signaling it is clear to work in here.
+
+<img src="../cicd/captures/envindicator0.png"  width="550">
+
+You install and enable the module with composer as usual.
 
 `lando composer require 'drupal/environment_indicator'`
 
@@ -29,7 +41,7 @@ Right now, the only one who can config the Environment_Indicator is the 'Adminis
 
 <img src="../cicd/captures/envindicator4.png"  width="650">
 
-For more on the [Environment Indicator Module"]( https://www.drupal.org/project/environment_indicator) you can watch this [video]9https://www.youtube.com/watch?v=8WbP9ZYxAx0)
+For more on the [Environment Indicator Module"]( https://www.drupal.org/project/environment_indicator) you can watch this [video](https://www.youtube.com/watch?v=8WbP9ZYxAx0)
 
 
 
