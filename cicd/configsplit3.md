@@ -2,7 +2,9 @@
 ## Configurations by split
 
 We have the `config/sync` directory for the common configuration across all environments.  Drupal Core modules are installed; although not all are enabled.  We can add contributed modules and enable modules anytime we want.  There are some advantages to doing so before we branch our splits in the sense that we don't have to commit/synch/merge to assure they are in all environments.  Therefore, you may want to add others you know you will use across all environments to the table below.  The table shows the environment_indicator and the structure_sync module as examples; because we know we are going to use them as part of our CI/CD setup.<br>
+<br>
 The table also shows the four split names that we set up directory homes for configuration files; uniquely for 'main', 'staged', 'develop' and 'local'.  Under each named split are modules you should consider installing for that unique environment.  Remember that the easiest way to think about config_split is that is ADDS what you put in it TO THE BASE configuration in 'sync'.<br>
+<br>
 What you need to do is the classic `lando composer require 'drupal/insertmodulename'` for each of the modules to be added to your system just like we did when we installed the config_split module itself.  <font color=yellow>But DO NOT ENABLE these modules like we previously did!  We are going to take a special approach to doing that only within the split where we want them.</font><br>
 
 <img src="../cicd/captures/configtable.png"  width="1000">
