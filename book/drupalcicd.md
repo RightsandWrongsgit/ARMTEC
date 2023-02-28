@@ -32,4 +32,8 @@ VSCode integrates with that 'Git' version control stuff.  'Git' version control 
 -  [Directory Map](../cicd/directorymap.md)
 -  [Protect Config at root](../cicd/configatroot.md)
 -  [Intro to Split Configuration](../cicd/configsplit.md)
+-  [Configuration Directories & Module](../cicd/configsplit2.md)
+-  [Configurations by Split: Table](../cicd/configsplit3.md)
+-  [Environment Indicator](../cicd/envindicator.md)
+
 
