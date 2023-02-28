@@ -7,7 +7,9 @@ What you need to do is the classic lando composer require 'drupal/insertmodulena
 
 
 <img src="../cicd/captures/configtable.png"  width="1000">
+TABLE KEY:  S = Site Builder,  B = Beginning Developer,   D = Developer
 
+Some of the customizations in the local and develop splits may be fore more advanced developers.  Drupal is built using an Object Oriented Programming language, to a large extent a Symfony framework version of PHP.  You can do stuff at an extremely low level where you are leveraging some unique strengths of how Drupal database structures are organized and OOP programming allows reuse of fundamental function calls to literally 'create' not only your own modules but even core entities below those represented in Content Type which are made up of multiple bundles.  If you are a developer familiar with OOP and PHP you might want to turn on the "D" items in the above table.  The "B" items are for beginning developer and would be something that those who want to glimpse under the hood for a gain in understanding.  The "S" items are for site builders who are mainly oriented toward using all that is core which Drupal itself and the tens of thousands of contributed modules others have already written to assemble their site;  this later group is for the normal humans like you and me to do 99% of anything we really want.
 
 
 
