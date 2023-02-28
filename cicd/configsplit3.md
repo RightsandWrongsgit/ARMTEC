@@ -12,8 +12,8 @@ What you need to do is the classic `lando composer require 'drupal/insertmodulen
 <br>
 <br>
 Some of the customizations in the 'local' and 'develop' splits may be for more advanced developers.  Drupal is built using an Object Oriented Programming language, to a large extent a [Symfony framework](https://symfony.com/) version of PHP.  You can do stuff at an extremely low level where you are leveraging some unique strengths of how Drupal database structures are organized and OOP programming allows reuse of fundamental function calls to literally 'create' not only your own modules but even core entities below those represented in [Content Types](https://www.drupal.org/docs/8/modules/allow-a-content-type-only-once-only-one/configuring-content-types) made up of multiple bundles.  If you are a developer familiar with OOP and PHP you might want to turn on the "D" items in the above table.  The "B" items are for beginning developer and would be something that those who want to glimpse under the hood to gain in understanding.  The "S" items are for site builders who are mainly oriented toward using all that is core to Drupal itself and the tens of thousands of contributed modules others have already written.  This later group is for the normal humans like you and me to do 99% of anything we really want.
-
-
-
+<br>
+<br>
+<br>
 
 [- Next -](../cicd/envindicator.md)
