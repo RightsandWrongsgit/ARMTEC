@@ -4,7 +4,7 @@
 
 
 Any time you are running multiple environments, there is always a risk of not being clear where the heck you are looking and working.   There is a contributed module that we are going to install and enable that is meant to give you signals to tell you which environment you are seeing; it is called the Environment_Indicator module.
-<br>
+
 We have a first level safety net to avoid confusions simply because we should really only be working directly in the Lando local environment and we will soon show how we detect that fact and set the development features we want in that configuration split.   However, when you are in the Platform.sh machine environment you still would want to be make sure you know if you are looking at the 'develop' environment, watching tests or evaluating the 'staged' environment, or looking at your 'main' production site.
 
 The Environment_Indicator module shows the names you have given the environments, and color bands some of the things like toolbars to send a strong message of where you are. In the first example you see how our 'main' environment shows that name in a red band.  Don't worry this is only when logged in as the Administrator; users see a normal site. 
