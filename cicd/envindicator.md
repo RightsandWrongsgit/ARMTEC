@@ -2,7 +2,7 @@
 ### Know where you are -
 # Environment Indicator
 
-
+## What they do and look like
 Any time you are running multiple environments, there is always a risk of not being clear where the heck you are looking and working.   There is a contributed module that we are going to install and enable that is meant to give you signals to tell you which environment you are seeing; it is called the Environment_Indicator module.
 
 The Environment_Indicator module shows the names you have given the environments, and color bands some of the things like toolbars to send a strong message of where you are. In the first example you see how our 'main' environment shows that name in a red band.  Don't worry this is only when logged in as the Administrator; users see a normal site. 
@@ -13,6 +13,9 @@ For our 'local' environment we see that name in a green band signaling it is saf
 
 <img src="../cicd/captures/envindicator0.png"  width="550">
 
+
+
+## How you install
 You install and enable the module with composer as usual.
 
 `lando composer require 'drupal/environment_indicator'`
@@ -30,6 +33,8 @@ After you install and enable the environment_indicator module you can go to the 
 Since you haven't named your environment yet, nor set up alternatives, if you look at the top bar on your site you will probably see some long-string-of-letters-and-numbers that represent a container build environment.  We will be doing configuration of the environment_indicator module and this will being to move toward a more sane environment name.
 
 <img src="../cicd/captures/envindicator2.png"  width="350">
+
+
 
 ## Who sees these indicators
 
