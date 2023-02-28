@@ -15,6 +15,7 @@ For our 'local' environment we see that name in a green band signaling it is saf
 <br>
 <br>
 <br>
+
 ## How you install
 You install and enable the module with composer as usual.
 
@@ -36,6 +37,7 @@ Since you haven't named your environment yet, nor set up alternatives, if you lo
 <br>
 <br>
 <br>
+
 ## Who sees these indicators
 
 Before we get into configuring the names and color indicators of different environments, lets take a look at an area we haven't talked about so far.  There is a menu item under Administration called 'People' and what this addresses if the 'who can do and see what' on a Drupal site.  There are four default standard roles; you can make more if you need, but that is beyond the scope of the immediate need.  An 'Anonymous User' is self explanatory.  An 'Authenticated User' is someone who is logged in.  A 'Content Editor' typically is granted permissions to do lots of other stuff on a site and putting in text, images, etc. would be common.  You are the 'Administrator' and you have permission to do everything. 
