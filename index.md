@@ -44,6 +44,10 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Directory Map](cicd/directorymap.md)
 - [Protect Config at root](cicd/configatroot.md)
 - [Intro to Split Configuration](cicd/configsplit.md)
+- [Configuration Directories & Module](cicd/configsplit2.md)
+- [Configurations by Split: Table](cicd/configsplit3.md)
+- [Environment Indicator](cicd/envindicator.md)
+
 
 
 
