@@ -6,8 +6,7 @@ The table also shows the four split names that we set up directory homes for con
 What you need to do is the classic lando composer require 'drupal/insertmodulename' for each of the modules to be added to your system just like we did when we installed the config_split module itself.  But DO NOT ENABLE these modules like we previously did!  We are going to take a special approach to doing that only within the split where we want them.
 
 
-
-
+<img src="../cicd/captures/configtable.png"  width="1000">
 
 
 
