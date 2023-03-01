@@ -2,7 +2,7 @@
 ### Modify the settings.php
 ## Point application to different environments
 
-We have locations for our base configuration (sync) and sibling directories for unique configuration differences we may want in 'main', 'staged', and 'develop' environments.  Within that config_split module we just installed there are ways to name and point to those environments plus a checkbox to indicate when one is 'active'.  However, it is sort of a pain to try to remember which one we are in and to then jump to the right split and check the box in the right one.  Therefore, we want to set things up to do that automatically.  To do that we will tweak our `settings.php` file by inserting some code right after the line  `$settings['config_sync_directory'] = '../config/sync';`.  Look in that file and find this line -
+We have locations for our base configuration (sync) and sibling directories for unique configuration differences we may want in 'main', 'staged', and 'develop' environments.  Within that config_split module we just installed there are ways to name and point to those environments plus a checkbox to indicate when one is 'active'.  However, it is sort of a pain to try to remember which one we are in and to then jump to the right split and check the box in the right one.  Therefore, we want to set things up to do that automatically.  To accomplish this we will tweak our `settings.php` file by inserting some code right after the line  `$settings['config_sync_directory'] = '../config/sync';`.  Look in that file and find this line -
 
 <img src="../cicd/captures/envsettings1.png"  width="300">
 
