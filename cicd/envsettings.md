@@ -50,104 +50,104 @@ Go ahead and delete the current copy of `settings.local.php` file in your Lando 
 ### A 'settings.local.php' of your own making
 ##### ... with the benefit of `example.settings.local.php`  
 <font color=##252525>(NEW SITE ITEM)</font><br>
-The `settings.local.php` file that comes with the Platform.sh Lando Drupal 9 template came via that template's reliance on what is known as Drupal scaffolding.  Just above we deleted the existing `settings.local.php` file because you don't need the database stuff in it; Lando shares information from Platform.sh's credentials.   The "Base Project" we built in the GitHub repository associated with this documenation has a file called `my-example.settings.local.php` that you will now copy and rename `settings.local.php` in your local Lando copy of your project.
+The `settings.local.php` file that comes with the Platform.sh Lando Drupal 9 template came via that template's reliance on what is known as Drupal scaffolding.  Just above we deleted the existing `settings.local.php` file because you don't need the database stuff in it; Lando shares information from Platform.sh's credentials.   The "Base Project" we built in the GitHub repository associated with this documenation has a file called <br> `my-example.settings.local.php` that you will now copy and rename `settings.local.php` in your local Lando copy of your project.
 
-<font color=red>NOTE: You will do this any time you need to pull down a new copy of the "Base project" and want to set up your local environment for Development.  To be clear, we are not talking about having to do this every time you do a Git-GitHub 'stage/commit/sync' update between local and host.  First, that would be a pain.  Second, remember that `settings.local.php` is marked as a local only file in the way you have your `.gitignore` set; so, you are only going to get one on your local machine by pulling that `my-example.settings.local.php` from the host and renaming it.</font><br>
+<font color=red>NOTE: You will do this any time you need to pull down a new copy of the "Base project" and want to set up your local environment for Development.  In fact, think of this as the purpose of the Base Project; to have a running start when setting up a new website build.  To be clear, we are not talking about having to do the `settings.local.php` update every time you do a Git-GitHub 'stage/commit/sync' update between local and host.  First, that would be a pain.  Second, remember that `settings.local.php` is marked as a local only file in the way you have your `.gitignore` set; so, you are only going to get one on your local machine by pulling that `my-example.settings.local.php` from the host and renaming it.</font><br>
 
 If you jumped here from the instructions in the code repository README, you can [go back there and continue](https://github.com/RightsandWrongsgit/initial-test-of-platform-ci-with-lando).  If you want to know more about the 'how and why' of this 'local' environment being accomplished with the `settings.local.php` file, continue reading below.
 
-#### What's in this magic `settings.local.php` file
+### What's in this magic `settings.local.php` file
 
 What follows outlines the way that we set up things for development work in our 'local' environment.  To be clear, you can "do more/other stuff" in this file by personal preferences.  And you can "not do some of the stuff" in the example by just commenting it out.  But here is what it has ...
 <br>
 The normally positive things about how Drupal is set up for security and performance are actually things that work against development.  So we need to flip some switches the other way.  If you were starting before the `my-example.settings.local.php` file was provided from the "Base Project" we are documenting, you would find the `example.settings.local.php` file. In a local copy you would edit as follows ...<br>
 
-#### Point it to development.services.yml
+### Point it to development.services.yml
 You will want to see a call to the `development.services.yml` file.  Some things to provide a development environment are set at the php level but others can be handled in yml form.  We call this file to make sure to do those `YML` driven things.
 
-               /**
-               * Enable local development services.
-               */
-               $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
+`/**`
+`* Enable local development services.`
+`*/`
+`$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';`
 
-#### Point that to my-development.services.yml
+### Point that to my-development.services.yml
 Now we are going to deal with an idiosyncrasy you might not find a lot of information about elsewhere. The Platform.sh Lando Drupal template uses the Drupal "Scaffold build" process.  A scaffold build moves files to certain subdirectory locations to benefit specific situational needs and maintains 'pointers' to their typical locations so that processes that need them can find them.  However, in our case what happens during the scaffold build is every time you do a composer update or a container rebuild, the scaffold instructions overwrite the `development.services.yml` file with a fresh copy from the template.  While that sort of sounds good, being fresh and all, what it means is that any customization you have done to that file gets overwritten.<br>
 
 We are doing some customization for the local environment so having our work overwritten is a problem.  There is a fancy way and a workaround  way to suppressing the overwrite.  If you want to go that way look at [Appendix: Drupal Scaffold ("overwrite": false) solution](../cicd/scaffold).
 <br>
 We are going to do the workaround.  That just adds the following code just below to the 'settings.local.php` file.  Just put it right below the previous code we added to call to the standard `development.services.yml` file.  This calls our personalized `my-development.services.yml` file after the basic `development.services.yml` file to apply any of our customizations. Since the 'my-development.services.yml` file is NOT in our `.gitignore` it <font color=yellow>is</font> secured in your GitHub repository and since it is not part of the Drupal scaffolding process it <font color=yellow>is NOT</font> overwritten on update or rebuild.
 
-               /**
-               * Enable our personalized local development services. Not subject to the idiosyncrasy of
-               * Drupal scaffolding update or rebuild overwrites.
-               */
-               $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/my-development.services.yml';
+`/**`
+`* Enable our personalized local development services. Not subject to the idiosyncrasy of`
+`* Drupal scaffolding update or rebuild overwrites.`
+`*/`
+`$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/my-development.services.yml';`
 
 We will be revisiting this rename workaround approach to deal with Drupal scaffolding overwrites one more time when we save our work here and below in an `example.settings.local.php` copy we which to secure.
 
 In the process of site development you are likely to want to look at logs that are generated by Drupal to figure out why something you did isn't working the way you thought it should.  Logs can be cryptic.  So turn on a more narrative version of them.
 
-               /**
-               * Show all error messages, with backtrace information.
-               */
-               $config['system.logging']['error_level'] = 'verbose';
+`/**`
+`* Show all error messages, with backtrace information.`
+`*/`
+`$config['system.logging']['error_level'] = 'verbose';`
 
 CSS is used to pretty up HTML and JS (JavaScript) adds some functionality, perhaps like animation or logic, to that.  Front-end developer use both, in combination with TWIG, to make your website design come to life.  Code for both of these is pretty narrative with open spaces and a reasonably understandable style.  The tradeoff is that the code doesn't tend to be very compact and aggregation is sort like the ZIP file of these two types of code.  You don't want to try to read and work with a compressed and minified version of either during the development of your site, so you want to turn this aggregation off on the 'local' machine-environment. See also Appendix: Using Advanced Aggregation Alternative.
 
-               /**
-               * Disable CSS and JS aggregation.
-               */
-               $config['system.performance']['css']['preprocess'] = FALSE;
-               $config['system.performance']['js']['preprocess'] = FALSE;
+`/**`
+`* Disable CSS and JS aggregation.`
+`*/`
+`$config['system.performance']['css']['preprocess'] = FALSE;`
+`$config['system.performance']['js']['preprocess'] = FALSE;`
 
 Drupal using a number of cache strategies to improve performance. If you want to dive down a rabbit hole for a week or so, go to the [Drupal](http://Drupal.org) site and read the extensive detail about all the things you can do.  For our purposes however, we just want to uncomment the render cache, internal page cache, and dynamic page cache lines in the `example.settings.local.php` file (or add them if they don't exist)
 
-               /**
-               * Disable the render cache.
-               *
-               * Note: you should test with the render cache enabled, to ensure the correct
-               * cacheability metadata is present. However, in the early stages of
-               * development, you may want to disable it.
-               *
-               * This setting disables the render cache by using the Null cache back-end
-               * defined by the development.services.yml file above.
-               *
-               * Only use this setting once the site has been installed.
-               */
-               $settings['cache']['bins']['render'] = 'cache.backend.null';
+`/**`
+`* Disable the render cache.`
+`*`
+`* Note: you should test with the render cache enabled, to ensure the correct`
+`* cacheability metadata is present. However, in the early stages of`
+`* development, you may want to disable it.`
+`*`
+`* This setting disables the render cache by using the Null cache back-end`
+`* defined by the development.services.yml file above.`
+`*`
+`* Only use this setting once the site has been installed.`
+`*/`
+`$settings['cache']['bins']['render'] = 'cache.backend.null';`
 
-               * Disable Internal Page Cache.
-               *
-               * Note: you should test with Internal Page Cache enabled, to ensure the correct
-               * cacheability metadata is present. However, in the early stages of
-               * development, you may want to disable it.
-               *
-               * This setting disables the page cache by using the Null cache back-end
-               * defined by the development.services.yml file above.
-               *
-               * Only use this setting once the site has been installed.
-               */
-               $settings['cache']['bins']['page'] = 'cache.backend.null';
+`* Disable Internal Page Cache.`
+`*`
+`* Note: you should test with Internal Page Cache enabled, to ensure the correct`
+`* cacheability metadata is present. However, in the early stages of`
+`* development, you may want to disable it.`
+`*`
+`* This setting disables the page cache by using the Null cache back-end`
+`* defined by the development.services.yml file above.`
+`*`
+`* Only use this setting once the site has been installed.`
+`*/`
+`$settings['cache']['bins']['page'] = 'cache.backend.null';`
 
-               /**
-               * Disable Dynamic Page Cache.
-               *
-               * Note: you should test with Dynamic Page Cache enabled, to ensure the correct
-               * cacheability metadata is present (and hence the expected behavior). However,
-               * in the early stages of development, you may want to disable it.
-               */
-               $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
+`/**`
+`* Disable Dynamic Page Cache.`
+`*`
+`* Note: you should test with Dynamic Page Cache enabled, to ensure the correct`
+`* cacheability metadata is present (and hence the expected behavior). However,`
+`* in the early stages of development, you may want to disable it.`
+`*/`
+`$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';`
 
 We are going to be installing and enabling a bunch of modules as we work on site building in Drupal.  We are going to be running tests as we do development to make sure stuff works.  We want to allow this in the 'local' Lando machine-environment.
 
-               /**
-               * Allow test modules and themes to be installed.
-               *
-               * Drupal ignores test modules and themes by default for performance reasons.
-               * During development it can be useful to install test extensions for debugging
-               * purposes.
-               */
-               $settings['extension_discovery_scan_tests'] = FALSE;
+`/**`
+`* Allow test modules and themes to be installed.`
+`*`
+`* Drupal ignores test modules and themes by default for performance reasons.`
+`* During development it can be useful to install test extensions for debugging`
+`* purposes.`
+`*/`
+`$settings['extension_discovery_scan_tests'] = FALSE;`
 
 
 A you potentially going to mess things up in development at some point that your site won't come up and you therefore can't get to the Administration page to clear caches and fix it and rebuild?  Probably. You know "drush cr" so after you do some code fixes you can do that and rebuild.  But another option has been established for rebuild access if you set your configuration to TRUE.  Here is more exploration about it https://www.drupaleasy.com/quicktips/just-case-drupal-8s-corerebuildphp
