@@ -2,18 +2,18 @@
 ### Modify the settings.php
 ## Tell the application about different environments
 
-We have homes for our base configuration (sync) and sibling directories for unique configuration differences we may want in 'main', 'staged', and 'develop' environments.  Within that config_split module we just installed there are ways to name and point to those environments plus a checkbox to indicate when one is 'active'.  However, it is sort of a pain to try to remember which one we are in and to then jump to the right split and check the box in the right one.  Therefore, we want to set things up to do that automatically.  To do that we will tweak our `settings.php` file by inserting the following code right after the line  `$settings['config_sync_directory'] = '../config/sync';`
+We have homes for our base configuration (sync) and sibling directories for unique configuration differences we may want in 'main', 'staged', and 'develop' environments.  Within that config_split module we just installed there are ways to name and point to those environments plus a checkbox to indicate when one is 'active'.  However, it is sort of a pain to try to remember which one we are in and to then jump to the right split and check the box in the right one.  Therefore, we want to set things up to do that automatically.  To do that we will tweak our `settings.php` file by inserting some code right after the line  `$settings['config_sync_directory'] = '../config/sync';`.  Look in that file and find this line -
 
 <img src="../cicd/captures/envsettings1.png"  width="300">
 
-This code you  insert first assures the 'active' checkbox for all config_splits are unchecked, then detects the environment you are in, and based on that environment flips the checkbox to 'active'. 
+The first section of the code below assures the 'active' checkbox for all config_splits are unchecked. The remainder of the code detects which environment you are in, and based on that environment flips the checkbox to 'active'. 
 
 <img src="../cicd/captures/envsettingscode1.png"  width="600">
 <img src="../cicd/captures/envsettingscode2.png"  width="600">
 
-The above syntax sets all the splits to 'inactive' as the starting point.  Then it grabs the branch name from Platform.sh once detecting you are in that environment and checks that in the "switch case" checks to set the correct environment indicator colors and name plus active that environment in the config_split module.  NOTE:  Two key "watch outs" if you want to edit any of this.  Like any code syntax, make sure you use and actual editor tool or terminal and NOT a word processor; a word processor using slightly different characters underlying those things that look like single or double quotes and will mess you up. Second, if you add more "case" conditions, it is critical that those sections end in a "break" statement; with a "break", once a condition is found it stops searching but without the "break" it will likely 'activate' the found case condition PLUS the default local Lando case even if you aren't local. 
-"Configuring the Environment Indicator for Drupal" video instructions:
-https://www.youtube.com/watch?v=8WbP9ZYxAx0
+The above code grabs the branch name from Platform.sh detecting the environment you are in and checks that in the "switch case" condition.  There it sets the correct environment indicator colors and name plus set the flag to 'active' in the correct environment of the config_split module.
+<sup><sub>NOTE:  Two key "watch outs" if you want to edit any of this.  Like any code syntax, make sure you use and actual editor tool or terminal and NOT a word processor; a word processor uses a slightly different characters set and those things that look like single or double quotes wouldn't be backticks like they need to be. Second, if you add more "case" conditions, it is critical that each sections ends in a "break" statement; with a "break", once a condition is found it stops searching but without the "break" it will likely 'activate' the found case condition PLUS the default local Lando case even if you aren't local.</sub></sup><br> 
+Video instructions on [Configuring the Environment Indicator for Drupal](https://www.youtube.com/watch?v=8WbP9ZYxAx0)
 
 ## While in the settings.php file, check this
 As long as you are in and editing your settings.php file, take a look at the end of it and see if you find these lines of code:
