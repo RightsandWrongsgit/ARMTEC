@@ -3,7 +3,7 @@
 
 We have homes for our base configuration (sync) and sibling directories for unique configuration differences we may want in 'main', 'staged', and 'develop' environments.  Within that config_split module we just installed there are ways to name and point to those environments plus a checkbox to indicate when one is 'active'.  However, it is sort of a pain to try to remember which one we are in and to then jump to the right split and check the box in the right one.  Therefore, we want to set things up to do that automatically.  To do that we will tweak our settings.php file by inserting the following code right after the line  $settings['config_sync_directory'] = '../config/sync';
 
-<img src="../cicd/captures/envsettings1.png"  width="450">
+<img src="../cicd/captures/envsettings1.png"  width="350">
 
 This code you  insert first assures the 'active' checkbox for all config_splits are unchecked, then detects the environment you are in, and based on that environment flips the checkbox to 'active'. 
 
