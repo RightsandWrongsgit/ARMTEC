@@ -15,13 +15,15 @@ The above code grabs the branch name from Platform.sh detecting the environment 
 
 <sup><sub>NOTE:  Two key "watch outs" if you want to edit any of this.  Like any code syntax, make sure you use and actual editor tool or terminal and NOT a word processor; a word processor uses a slightly different characters set and those things that look like single or double quotes wouldn't be backticks like they need to be. Second, if you add more "case" conditions, it is critical that each sections ends in a "break" statement; with a "break", once a condition is found it stops searching but without the "break" it will likely 'activate' the found case condition PLUS the default local Lando case even if you aren't local.</sub></sup><br> 
 Video instructions on [Configuring the Environment Indicator for Drupal](https://www.youtube.com/watch?v=8WbP9ZYxAx0)
-
+<br>
+<br>
 ## While in the settings.php file, check this
-As long as you are in and editing your settings.php file, take a look at the end of it and see if you find these lines of code:
-// Local settings. These come last so that they can override anything.
-if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-include $app_root . '/' . $site_path . '/settings.local.php';
-}
+As long as you are in and editing your `settings.php` file, take a look at the end of it and see if you find these lines of code:<br>
+
+  // Local settings. These come last so that they can override anything.
+  if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+  }
 
 Good likelihood they are there and just make sure they are NOT commented out.  If not there, just add it at the very end of the file; for now, because we are going to put one item even later.  The role of this syntax is to call the settings.local.php file for any customizations that are unique to your local environment.  Be aware, some local changes can be handled by your  'yml' files but a couple, like 'css' and 'js' aggregation settings, are handled more directly in a settings.local.php file. 
 Remember that we really only want the stuff in settings.local.php to happen within the 'local' machine-environment.  But if it sat over in our GitHub repository, it could be found by the call being made at the end of that settings.php file.  So the way to handle that problem is NOT to have a copy of it over on GitHub.  If you remember our gitignore file at the root of our total project (e.g. same level as composer.json and composer.lock), somewhere about line 14 we had already instructed NOT to save this file in our GitHub repository.  You can go look in your repository under the /web/sites directory on GitHub for your project to assure it is not there. 
