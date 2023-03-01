@@ -37,57 +37,53 @@ Let's also run another clean up step on our local Lando copy of the project we b
 
 <img src="../cicd/captures/envsettings2.png"  width="350">
 
-We have already been using our local Lando copy of the Platform.sh 'main' environment of our project, so I didn't see a need for the "$databases …" code block in here but thought I would check with Platform.sh personnel on their Slack channel and heard confirmation;  "If you use Lando’s Platform.sh recipe, Lando will recreate the PLATFORM_*  environmental variables, as well as read your .platform.app.yaml configuration file so your project will be set up and run the same as on Platform.sh without having to change settings. I believe the settings.local.php is only used if you aren't using the platform.sh recipe and was created from before the platform.sh was developed."  
-Go ahead and delete the current settings.local.php file on your Lando local environment copy of your environment.  We are going to make a new one with the benefit of the goodies in your example.settings.local.php file instead.   Just so you are thinking about how to manage it, if like me you get a denial from VSCode trying to delete it directly to trash and then an "EACCES: permission denied, unlink" error when to try to force the issue, instead just try revealing it in 'finder' and you should be able to trash can it there after a request to enter your 'Mac' password. 
+We have already been using our local Lando copy of the Platform.sh 'main' environment of our project, so I didn't see a need for the "$databases …" code block in here but thought I would check with Platform.sh personnel on their Slack channel and heard confirmation;  "If you use Lando’s Platform.sh recipe, Lando will recreate the PLATFORM_*  environmental variables, as well as read your `.platform.app.yaml` configuration file so your project will be set up and run the same as on Platform.sh without having to change settings. I believe the `settings.local.php` is only used if you aren't using the platform.sh recipe and was created from before the platform.sh was developed."  
+Go ahead and delete the current `settings.local.php` file on your Lando local environment copy of your environment.  We are going to make a new one with the benefit of the goodies in your `example.settings.local.php` file instead.   Just so you are thinking about how to manage it, if like me you get a denial from VSCode trying to delete it directly to trash and then an "EACCES: permission denied, unlink" error when to try to force the issue, instead just try revealing it in 'finder' and you should be able to trash can it there after a request to enter your 'Mac' password. 
 
-But you are going to call settings.local.php, but one of your own making -
+But you are going to call `settings.local.php`, but one of your own making -
 (REVISIT LOOKUP ITEM)
-The settings.local.php file that comes with the Platform.sh Lando Drupal 9 template is arriving via a reliance of that template on what is known as Drupal scaffolding.  Sort of a good thing, just not for one of the things we want to do.  In the prior section we deleted the existing settings.local.php file because you don't need the database stuff in it the way Lando shares information from Platform.sh's credentials.    What you will find in the same location is another file called my-example.settings.local.php and you can just copy it and rename it to settings.local.php in your local Lando copy of your project.  NOTE: You will do this any time you need to pull down a new copy of your project and want to set up your local environment for Development.  To be clear, we are not talking about having to do this every time you do a Git-GitHub 'stage/commit/sync' update between local and host.  First, that would be a pain.  Second, remember that settings.local.php is marked as a local only file in the way you have your gitignore set so it is only going to come from the host up to your local machine with a complete project pull from the host. 
+The `settings.local.php` file that comes with the Platform.sh Lando Drupal 9 template is arriving via a reliance of that template on what is known as Drupal scaffolding.  Sort of a good thing, just not for one of the things we want to do.  In the prior section we deleted the existing `settings.local.php` file because you don't need the database stuff in it the way Lando shares information from Platform.sh's credentials.    What you will find in the same location is another file called my-`example.settings.local.php` and you can just copy it and rename it to `settings.local.php` in your local Lando copy of your project.  NOTE: You will do this any time you need to pull down a new copy of your project and want to set up your local environment for Development.  To be clear, we are not talking about having to do this every time you do a Git-GitHub 'stage/commit/sync' update between local and host.  First, that would be a pain.  Second, remember that `settings.local.php` is marked as a local only file in the way you have your `.gitignore` set so it is only going to come from the host up to your local machine with a complete project pull from the host. 
 
-What's in this magic settings.local.php file -
+What's in this magic `settings.local.php` file -
 
-To be clear, you can do other stuff in this file that are your personal preferences.  And you can not do some of the stuff in the example by just commenting it out.  But here is what it has ...
-Remember that we are fundamentally doing this so the Lando local machine-environment is set up for development.  Normally the positive things about how Drupal is set up for security and performance are actually things that work against development.  So we need to flip some switches the other way.  Ideally find the example.settings.local.php file in your local copy of the project and edit as follows; otherwise create your own new file with the examples name version of this file and put this stuff in it.
-You will want to see a call to the development.services.yml file.  Some stuff needs to be set here at the php level but others can be handled in yml form and we call this file to make sure to do those things.
-/**
-* Enable local development services.
-*/
-$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
+To be clear, you can "do other stuff" in this file that are your personal preferences.  And you can "not do some of the stuff" in the example by just commenting it out.  But here is what it has ...
+Remember that we are fundamentally doing this so the Lando local machine-environment is set up for development.  Normally the positive things about how Drupal is set up for security and performance are actually things that work against development.  So we need to flip some switches the other way.  Ideally find the `example.settings.local.php` file in your local copy of the project and edit as follows; otherwise create your own new file with the examples name version of this file and put this stuff in it.
+You will want to see a call to the `development.services.yml` file.  Some stuff needs to be set here at the php level but others can be handled in yml form and we call this file to make sure to do those things.
 
-
-Now we are going to deal with an idiosyncrasy you might not find a lot of information about elsewhere; an artifact of the Platform.sh Lando Drupal template using the Drupal Scaffold build process.  What happens with the scaffold build is that every time your do a composer update or a container rebuild, the scaffold instructions overwrite the development.services.yml file with a fresh copy from the template.  While that sort of sounds good, being fresh and all, what it means is that any customization you have done to that file gets overwritten.  And we are planning to do some customization for the local environment so this would be a problem.  There is a fancy way around this by suppressing the overwrite in composer and if you want to go that way look at "Appendix: Drupal Scaffold ("overwrite": false) solution".  What we are going to do is add the statement below just following the call to the standard development.services.yml file noted previously in our  settings.local.php file.  What this will do is call our personalized my-development.services.yml file that is NOT in our gitignore (thus secured in your GitHub repository) and it not part of the Drupal scaffolding process (so is not overwritten on update or rebuild).
+               /**
+               * Enable local development services.
+               */
+               $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
 
 
-/**
-* Enable our personalized local development services. Not subject to the idiosyncrasy of
-* Drupal scaffolding update or rebuild overwrites.
-*/
-$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/my-development.services.yml';
+Now we are going to deal with an idiosyncrasy you might not find a lot of information about elsewhere; an artifact of the Platform.sh Lando Drupal template using the Drupal Scaffold build process.  What happens with the scaffold build is that every time you do a composer update or a container rebuild, the scaffold instructions overwrite the `development.services.yml` file with a fresh copy from the template.  While that sort of sounds good, being fresh and all, what it means is that any customization you have done to that file gets overwritten.  And we are planning to do some customization for the local environment so this would be a problem.  There is a fancy way around this by suppressing the overwrite in composer and if you want to go that way look at [Appendix: Drupal Scaffold ("overwrite": false) solution]().  What we are going to do is add the statement below just following the call to the standard `development.services.yml` file noted previously in our `settings.local.php` file.  What this will do is call our personalized `my-development.services.yml` file that is NOT in our `.gitignore` (thus secured in your GitHub repository) and it not part of the Drupal scaffolding process (so is not overwritten on update or rebuild).
 
 
-We will be revisiting this rename workaround approach to deal with Drupal scaffolding overwrites one more time when we save our work here and below in an example.settings.local.php copy we which to secure.
+               /**
+               * Enable our personalized local development services. Not subject to the idiosyncrasy of
+               * Drupal scaffolding update or rebuild overwrites.
+               */
+               $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/my-development.services.yml';
+
+We will be revisiting this rename workaround approach to deal with Drupal scaffolding overwrites one more time when we save our work here and below in an `example.settings.local.php` copy we which to secure.
 
 In the process of site development you are likely to want to look at logs that are generated by Drupal to figure out why something you did isn't working the way you thought it should.  Logs can be cryptic.  So turn on a more narrative version of them.
-/**
-* Show all error messages, with backtrace information.
-*/
-$config['system.logging']['error_level'] = 'verbose';
 
+               /**
+               * Show all error messages, with backtrace information.
+               */
+               $config['system.logging']['error_level'] = 'verbose';
 
 CSS is used to pretty up HTML and JS (JavaScript) adds some functionality, perhaps like animation or logic, to that.  Front-end developer use both, in combination with TWIG, to make your website design come to life.  Code for both of these is pretty narrative with open spaces and a reasonably understandable style.  The tradeoff is that the code doesn't tend to be very compact and aggregation is sort like the ZIP file of these two types of code.  You don't want to try to read and work with a compressed and minified version of either during the development of your site, so you want to turn this aggregation off on the 'local' machine-environment. See also Appendix: Using Advanced Aggregation Alternative.
 
-/**
-* Disable CSS and JS aggregation.
-*/
-$config['system.performance']['css']['preprocess'] = FALSE;
-$config['system.performance']['js']['preprocess'] = FALSE;
+               /**
+               * Disable CSS and JS aggregation.
+               */
+               $config['system.performance']['css']['preprocess'] = FALSE;
+               $config['system.performance']['js']['preprocess'] = FALSE;
 
+Drupal using a number of cache strategies to improve performance. If you want to dive down a rabbit hole for a week or so, go to the [Drupal](http://Drupal.org) site and read the extensive detail about all the things you can do.  For our purposes however, we just want to uncomment the render cache, internal page cache, and dynamic page cache lines in the `example.settings.local.php` file (or add them if they don't exist)
 
-
-
-
-
-Drupal using a number of cache strategies to improve performance. If you want to dive down a rabbit hole for a week or so, go to the Drupal.org site and read the extensive detail about all the things you can do.  For our purposes however, we just want to uncomment the render cache, internal page cache, and dynamic page cache lines in the example.settings.local.php file (or add them if they don't exist) 
 /**
 * Disable the render cache.
 *
