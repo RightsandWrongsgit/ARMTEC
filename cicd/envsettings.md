@@ -11,28 +11,28 @@ You add the following code directly below that line. The first section of the co
 <img src="../cicd/captures/envsettingscode1.png"  width="600">
 <img src="../cicd/captures/envsettingscode2.png"  width="600">
 
-The above code grabs the branch name from Platform.sh detecting the environment you are in and checks that in the "switch case" condition.  There it sets the correct environment indicator colors and name plus set the flag to 'active' in the correct environment of the config_split module.<br>
+The above code grabs the branch name from Platform.sh detecting the environment you are in and checks that in the "switch case" condition.  There it sets the correct environment indicator colors and name plus sets the flag to 'active' in the correct environment of the config_split module.<br>
 
 <sup><sub>NOTE:  Two key "watch outs" if you want to edit any of this.  Like any code syntax, make sure you use an actual editor tool or terminal and NOT a word processor; a word processor uses a slightly different characters set and those things that look like single or double quotes wouldn't be backticks like they need to be. Second, if you add more "case" conditions, it is critical that each sections ends in a "break" statement; with a "break", once a condition is found it stops searching but without the "break" it will likely 'activate' the found case condition PLUS the default local Lando case even if you aren't local.</sub></sup><br> 
 Video instructions on [Configuring the Environment Indicator for Drupal](https://www.youtube.com/watch?v=8WbP9ZYxAx0)
 <br>
 <br>
 ## While in the settings.php file, check this
-#### Local Settings and Gitignore
+### Local Settings and Gitignore
 As long as you are editing your `settings.php` file, take a look at the end of it and see if you find these lines of code:<br>
 
-          // Local settings. These come last so that they can override anything.
-          if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-          include $app_root . '/' . $site_path . '/settings.local.php';
-          }
+`// Local settings. These come last so that they can override anything.`
+`if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {`
+`include $app_root . '/' . $site_path . '/settings.local.php';`
+`}`
 
 Good likelihood they are there.  Just make sure they are NOT commented out.  If not there, just add it at the very end of the file.  
 
 The role of this syntax is to call the `settings.local.php` file which provides for any customizations unique to your local environment.  Be aware, some local changes can be handled by your `yml` files.  Others, like 'css' and 'js' aggregation settings, are handled more directly in a `settings.local.php` file.
 
-We really only want the stuff in `settings.local.php` to happen within the 'local' machine-environment.  If it sat over in our GitHub repository, it would be found by the "call" being made at the end of your `settings.php` file.  Your `.gitignore` file is the way NOT to share it with GitHub.  Somewhere about line 14 in what we did earlier in `.gitignore` we had already instructed NOT to save this file in our GitHub repository.  You may want to look in your repository under the `/web/sites` directory on GitHub for your project to assure a copy of `settings.local.php` is not there.
+We really only want the stuff in `settings.local.php` to happen within the 'local' machine-environment.  If it sat over in our GitHub repository, it would be found by the "call" being made at the end of your `settings.php` file.  Your `.gitignore` file is the way NOT to share it with GitHub.  Somewhere about line 14 in [what we did earlier](../cicd/gitignore.md) in `.gitignore` we had already instructed NOT to save this file in our GitHub repository.  You may want to look in your repository under the `/web/sites` directory on GitHub for your project to assure a copy of `settings.local.php` is not there.
 
-#### Local Settings: Trash the one from the Platform.sh template
+### Local Settings: Trash the local one from the Platform.sh template
 Let's also run another clean up step on our local Lando copy of the project we brought down from the Platform.sh template recipe for Drupal with Lando.  That template probably already brought a `setting.local.php` file to the copy of your project on your harddrive. It should look like this --
 
 <img src="../cicd/captures/envsettings2.png"  width="350">
@@ -47,9 +47,9 @@ Go ahead and delete the current copy of `settings.local.php` file in your Lando 
 
 <sup><sub>If you are like me you get a denial from VSCode trying to delete it directly to trash and then an "EACCES: permission denied, unlink" error when to try to force the issue.  Instead just try revealing it in 'finder' and you should be able to "trash can" it there after a request to enter your 'Mac' password.</sub></sup> 
 
-#### A 'settings.local.php' of your own making
+### A 'settings.local.php' of your own making
 ##### ... with the benefit of `example.settings.local.php`  
-<font color=#fff>(NEW SITE ITEM)</font><br>
+<font color=##252525>(NEW SITE ITEM)</font><br>
 The `settings.local.php` file that comes with the Platform.sh Lando Drupal 9 template came via that template's reliance on what is known as Drupal scaffolding.  Just above we deleted the existing `settings.local.php` file because you don't need the database stuff in it; Lando shares information from Platform.sh's credentials.   The "Base Project" we built in the GitHub repository associated with this documenation has a file called `my-example.settings.local.php` that you will now copy and rename `settings.local.php` in your local Lando copy of your project.
 
 <font color=red>NOTE: You will do this any time you need to pull down a new copy of the "Base project" and want to set up your local environment for Development.  To be clear, we are not talking about having to do this every time you do a Git-GitHub 'stage/commit/sync' update between local and host.  First, that would be a pain.  Second, remember that `settings.local.php` is marked as a local only file in the way you have your `.gitignore` set; so, you are only going to get one on your local machine by pulling that `my-example.settings.local.php` from the host and renaming it.</font><br>
