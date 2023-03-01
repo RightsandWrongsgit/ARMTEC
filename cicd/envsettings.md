@@ -84,98 +84,99 @@ CSS is used to pretty up HTML and JS (JavaScript) adds some functionality, perha
 
 Drupal using a number of cache strategies to improve performance. If you want to dive down a rabbit hole for a week or so, go to the [Drupal](http://Drupal.org) site and read the extensive detail about all the things you can do.  For our purposes however, we just want to uncomment the render cache, internal page cache, and dynamic page cache lines in the `example.settings.local.php` file (or add them if they don't exist)
 
-/**
-* Disable the render cache.
-*
-* Note: you should test with the render cache enabled, to ensure the correct
-* cacheability metadata is present. However, in the early stages of
-* development, you may want to disable it.
-*
-* This setting disables the render cache by using the Null cache back-end
-* defined by the development.services.yml file above.
-*
-* Only use this setting once the site has been installed.
-*/
-$settings['cache']['bins']['render'] = 'cache.backend.null';
+               /**
+               * Disable the render cache.
+               *
+               * Note: you should test with the render cache enabled, to ensure the correct
+               * cacheability metadata is present. However, in the early stages of
+               * development, you may want to disable it.
+               *
+               * This setting disables the render cache by using the Null cache back-end
+               * defined by the development.services.yml file above.
+               *
+               * Only use this setting once the site has been installed.
+               */
+               $settings['cache']['bins']['render'] = 'cache.backend.null';
 
-* Disable Internal Page Cache.
-*
-* Note: you should test with Internal Page Cache enabled, to ensure the correct
-* cacheability metadata is present. However, in the early stages of
-* development, you may want to disable it.
-*
-* This setting disables the page cache by using the Null cache back-end
-* defined by the development.services.yml file above.
-*
-* Only use this setting once the site has been installed.
-*/
-$settings['cache']['bins']['page'] = 'cache.backend.null';
+               * Disable Internal Page Cache.
+               *
+               * Note: you should test with Internal Page Cache enabled, to ensure the correct
+               * cacheability metadata is present. However, in the early stages of
+               * development, you may want to disable it.
+               *
+               * This setting disables the page cache by using the Null cache back-end
+               * defined by the development.services.yml file above.
+               *
+               * Only use this setting once the site has been installed.
+               */
+               $settings['cache']['bins']['page'] = 'cache.backend.null';
 
-/**
-* Disable Dynamic Page Cache.
-*
-* Note: you should test with Dynamic Page Cache enabled, to ensure the correct
-* cacheability metadata is present (and hence the expected behavior). However,
-* in the early stages of development, you may want to disable it.
-*/
-$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
+               /**
+               * Disable Dynamic Page Cache.
+               *
+               * Note: you should test with Dynamic Page Cache enabled, to ensure the correct
+               * cacheability metadata is present (and hence the expected behavior). However,
+               * in the early stages of development, you may want to disable it.
+               */
+               $settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';
 
 We are going to be installing and enabling a bunch of modules as we work on site building in Drupal.  We are going to be running tests as we do development to make sure stuff works.  We want to allow this in the 'local' Lando machine-environment.
 
-/**
-* Allow test modules and themes to be installed.
-*
-* Drupal ignores test modules and themes by default for performance reasons.
-* During development it can be useful to install test extensions for debugging
-* purposes.
-*/
-$settings['extension_discovery_scan_tests'] = FALSE;
+               /**
+               * Allow test modules and themes to be installed.
+               *
+               * Drupal ignores test modules and themes by default for performance reasons.
+               * During development it can be useful to install test extensions for debugging
+               * purposes.
+               */
+               $settings['extension_discovery_scan_tests'] = FALSE;
 
 
 A you potentially going to mess things up in development at some point that your site won't come up and you therefore can't get to the Administration page to clear caches and fix it and rebuild?  Probably. You know "drush cr" so after you do some code fixes you can do that and rebuild.  But another option has been established for rebuild access if you set your configuration to TRUE.  Here is more exploration about it https://www.drupaleasy.com/quicktips/just-case-drupal-8s-corerebuildphp
 
-/**
-* Enable access to rebuild.php.
-*
-* This setting can be enabled to allow Drupal's php and database cached
-* storage to be cleared via the rebuild.php page. Access to this page can also
-* be gained by generating a query string from rebuild_token_calculator.sh and
-* using these parameters in a request to rebuild.php.
-*/
-$settings['rebuild_access'] = TRUE;
-
-
+               /**
+               * Enable access to rebuild.php.
+               *
+               * This setting can be enabled to allow Drupal's php and database cached
+               * storage to be cleared via the rebuild.php page. Access to this page can also
+               * be gained by generating a query string from rebuild_token_calculator.sh and
+               * using these parameters in a request to rebuild.php.
+               */
+               $settings['rebuild_access'] = TRUE;
 
 A security feature of Drupal is site hardening.  If that is on, you probably can't do site development work.  So you want to set 'skip_permissions_hardening' to be TRUE and in the 'local' Lando machine-environment you should be able to do your work.
-/**
-* Skip file system permissions hardening.
-*
-* The system module will periodically check the permissions of your site's
-* site directory to ensure that it is not writable by the website user. For
-* sites that are managed with a version control system, this can cause problems
-* when files in that directory such as settings.php are updated, because the
-* user pulling in the changes won't have permissions to modify files in the
-* directory.
-*/
-$settings['skip_permissions_hardening'] = TRUE;
 
+               /**
+               * Skip file system permissions hardening.
+               *
+               * The system module will periodically check the permissions of your site's
+               * site directory to ensure that it is not writable by the website user. For
+               * sites that are managed with a version control system, this can cause problems
+               * when files in that directory such as settings.php are updated, because the
+               * user pulling in the changes won't have permissions to modify files in the
+               * directory.
+               */
+               $settings['skip_permissions_hardening'] = TRUE;
 
-We want to secure this example.settings.local.php file and run into that Drupal scaffolding overwrite issue with it too.  So rename it to my-example.settings.local.php file and save it locally.  When you stage/commit/sync you should find it safely sitting in your GitHub repository.
-The my-example.setting.local.php file you were editing is in the /web/sites directory.  You want to make a copy of it and put it in your  /web/sites/default/ directory.  Then you want to rename that copy to settings.local.php.  Now it should be good to go and work when needed locally.  But the renamed copy won't go to GitHub or your Platform.sh host environments because your gitignore file told it not to.  You do, however, want to retain that my-example.setting.local.php file in the /web/sites directory because it will be pushed to your GitHub repository where anyone else who needs it can copy it and set up another local Lando machine-environment (e.g. you want to work from another laptop, you have a helper work on something for you, etc.).  NOTE: You may need to jump to the file you want to copy, move, and rename in your Mac finder if your permissions in VSCode make doing it there a pain; your finder will let you do it and just ask for your password to approve the permissions.
+We want to secure this example.settings.local.php file and run into that Drupal scaffolding overwrite issue with it too.  So rename it to `my-example.settings.local.php` file and save it locally.  When you `stage/commit/sync` you should find it safely sitting in your GitHub repository.
 
-Now that your setting.local.php file is set to work, you want to move forward on editing the my-development.services.yml file that it calls.  Go back into the /web/sites to find the development.services.yml file make a copy of it and rename the copy to my-development.services.yml or make a file named that in that directory if you don't have one.  Basically what you want to do in this file is set your 'twig.config' debug to true its reload to true and its own cache to false.  Take a look at the example below with all the syntax; the leading and ending stuff probably already in the file copy that was in the Platform.sh Lando template you started with. 
+The `my-example.setting.local.php` file you were editing is in the `/web/sites` directory.  You want to make a copy of it and put it in your  `/web/sites/default/` directory.  Then you want to rename that copy to `settings.local.php`.  Now it should be good to go and work when needed locally.  But the renamed copy won't go to GitHub or your Platform.sh host environments because your `.gitignore` file told it not to.  You do, however, want to retain that `my-example.setting.local.php` file in the `/web/sites` directory because it will be pushed to your GitHub repository where anyone else who needs it can copy it and set up another local Lando machine-environment (e.g. you want to work from another laptop, you have a helper work on something for you, etc.).  NOTE: You may need to jump to the file you want to copy, move, and rename in your Mac finder if your permissions in VSCode make doing it there a pain; your finder will let you do it and just ask for your password to approve the permissions.
+
+Now that your `setting.local.php` file is set to work, you want to move forward on editing the `my-development.services.yml` file that it calls.  Go back into the `/web/sites` to find the `development.services.yml` file make a copy of it and rename the copy to `my-development.services.yml` or make a file named that in that directory if you don't have one.  Basically what you want to do in this file is set your `twig.config` debug to true its reload to true and its own cache to false.  Take a look at the example below with all the syntax; the leading and ending stuff probably already in the file copy that was in the Platform.sh Lando template you started with. 
 
 <img src="../cicd/captures/envsettings3.png"  width="400">
 
-Here is a pretty solid article on the overall steps you are taking to set up your development situation.  It isn't specific to the Platform.sh Lando container world we outlined here but it gives you another's perspective for a second explanation. https://patrickmichael.co.za/drupal-8-9-set-development-environment  Just remember when you look at this article or others, you need to do what you want to customize your local environment within the my-development.settings.yml because of the scaffolding overwrite issue.
-In case you aren't familiar with Drupal at this point, a quick explanation of what you just did and why may be helpful.  Drupal is written in a language called PHP and more specifically a flavor of that language called Symfony.  These talk to a database where your content is stored and even some parts of configuration like we pulled out with all that configuration stuff.  The database is typically something like mySQL and pretty functional and scalable; part of why Drupal is popular with large, sophisticated websites.  You will have fields of information along with images and that sort of thing stored in the database and PHP will talk to the database to grab what is needed when.  Lots of times those fields and images will be what you want to make up and display on a page; other times the fields are more instructions to trigger actions you want to happen even if not ultimately displayed.  Pulling that stuff from the database and putting it on a webpage involves HTML,  CSS and JavaScript because they talk well to web browsers like Chrome, Safari, FireFox, Opera, etc.  But it can involve some pretty detailed coding to get PHP talking to those other languages to talk to a browser.  Luckily, this is where you really benefit from the contributions of others in an Open Source software world.  Someone else has already written base themes that do this sort of thing and are made up of a bunch of templates for different page looks, feels, and functionality.  The templates most fundamental are written in TWIG; a very simple and basic language that you will probably mess with at some point.  You can do a lot to make the base templates be uniquely your own just with HTML, CSS, and JS and your site will establish its own article, basic page, blog, forum, e-commerce or whatever else you want.   However, sometimes you will want to tweak a template a step further and have it as a slight variation from what your own standards have established for your site.  TWIG is where you can 'clone' a template and then do an alternative version of your very own.
-When you want to do something to a TWIG template clone, you need to know the general practice in Drupal is look for unique and if you don't find it default to the then level up a chain to most generic.  But it is important to know how to fit your clone in to that naming chain process and that is basically what you just turned on with the 'twig debug true' you set for your development environment.  What it does is let you go into your browser's developer view. 
+Here is a pretty solid article on the overall steps you are taking to set up your development situation.  It isn't specific to the Platform.sh Lando container world we outlined here but it gives you another's perspective for a [second explanation](https://patrickmichael.co.za/drupal-8-9-set-development-environment).  Just remember when you look at this article or others, you need to do what you want to customize your local environment within the `my-development.settings.yml` because of the scaffolding overwrite issue.
 
-In Chrome, look under "View/Developer/View Source"
+In case you aren't familiar with Drupal at this point, a quick explanation of what you just did and why may be helpful.  Drupal is written in a language called PHP and more specifically a flavor of that language called Symfony.  These talk to a database where your content is stored and even some parts of configuration like we pulled out with all that configuration stuff.  The database is typically something like mySQL and pretty functional and scalable; part of why Drupal is popular with large, sophisticated websites.  You will have fields of information along with images and that sort of thing stored in the database and PHP will talk to the database to grab what is needed when.  Lots of times those fields and images will be what you want to make up and display on a page; other times the fields are more instructions to trigger actions you want to happen even if not ultimately displayed.  Pulling that stuff from the database and putting it on a webpage involves HTML,  CSS and JavaScript because they talk well to web browsers like Chrome, Safari, FireFox, Opera, etc.  But it can involve some pretty detailed coding to get PHP talking to those other languages to talk to a browser.  Luckily, this is where you really benefit from the contributions of others in an Open Source software world.  Someone else has already written base themes that do this sort of thing and are made up of a bunch of templates for different page looks, feels, and functionality.  The templates most fundamental are written in TWIG; a very simple and basic language that you will probably mess with at some point.  You can do a lot to make the base templates be uniquely your own just with HTML, CSS, and JS and your site will establish its own article, basic page, blog, forum, e-commerce or whatever else you want.   However, sometimes you will want to tweak a template a step further and have it as a slight variation from what your own standards have established for your site.  TWIG is where you can 'clone' a template and then do an alternative version of your very own.
+
+When you want to do something to a TWIG template clone, you need to know the general practice in Drupal is look for unique and if you don't find it default to the then level up a chain to most generic.  But it is important to know how to fit your clone in to that naming chain process and that is basically what you just turned on with the `twig debug true` you set for your development environment.  What it does is let you go into your browser's developer view. 
+
+In Chrome, look under `View/Developer/View Source`
 
 <img src="../cicd/captures/envsettings4.png"  width="400">
 
-In Safari use "Develop/Show Web Inspector"
+In Safari use `Develop/Show Web Inspector`
 
 <img src="../cicd/captures/envsettings5.png"  width="250">
 
