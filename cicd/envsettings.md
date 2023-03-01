@@ -8,8 +8,8 @@ We have homes for our base configuration (sync) and sibling directories for uniq
 
 This code you  insert first assures the 'active' checkbox for all config_splits are unchecked, then detects the environment you are in, and based on that environment flips the checkbox to 'active'. 
 
-<img src="../cicd/captures/envsettingscode1.png"  width="800">
-<img src="../cicd/captures/envsettingscode1.png"  width="800">
+<img src="../cicd/captures/envsettingscode1.png"  width="600">
+<img src="../cicd/captures/envsettingscode2.png"  width="600">
 
 The above syntax sets all the splits to 'inactive' as the starting point.  Then it grabs the branch name from Platform.sh once detecting you are in that environment and checks that in the "switch case" checks to set the correct environment indicator colors and name plus active that environment in the config_split module.  NOTE:  Two key "watch outs" if you want to edit any of this.  Like any code syntax, make sure you use and actual editor tool or terminal and NOT a word processor; a word processor using slightly different characters underlying those things that look like single or double quotes and will mess you up. Second, if you add more "case" conditions, it is critical that those sections end in a "break" statement; with a "break", once a condition is found it stops searching but without the "break" it will likely 'activate' the found case condition PLUS the default local Lando case even if you aren't local. 
 "Configuring the Environment Indicator for Drupal" video instructions:
