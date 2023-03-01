@@ -20,10 +20,10 @@ Video instructions on [Configuring the Environment Indicator for Drupal](https:/
 ## While in the settings.php file, check this
 As long as you are in and editing your `settings.php` file, take a look at the end of it and see if you find these lines of code:<br>
 
-  // Local settings. These come last so that they can override anything.
-  if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-  include $app_root . '/' . $site_path . '/settings.local.php';
-  }
+          // Local settings. These come last so that they can override anything.
+          if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+          include $app_root . '/' . $site_path . '/settings.local.php';
+          }
 
 Good likelihood they are there and just make sure they are NOT commented out.  If not there, just add it at the very end of the file; for now, because we are going to put one item even later.  The role of this syntax is to call the settings.local.php file for any customizations that are unique to your local environment.  Be aware, some local changes can be handled by your  'yml' files but a couple, like 'css' and 'js' aggregation settings, are handled more directly in a settings.local.php file. 
 Remember that we really only want the stuff in settings.local.php to happen within the 'local' machine-environment.  But if it sat over in our GitHub repository, it could be found by the call being made at the end of that settings.php file.  So the way to handle that problem is NOT to have a copy of it over on GitHub.  If you remember our gitignore file at the root of our total project (e.g. same level as composer.json and composer.lock), somewhere about line 14 we had already instructed NOT to save this file in our GitHub repository.  You can go look in your repository under the /web/sites directory on GitHub for your project to assure it is not there. 
