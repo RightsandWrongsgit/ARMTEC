@@ -14,7 +14,7 @@ The above syntax sets all the splits to 'inactive' as the starting point.  Then 
 "Configuring the Environment Indicator for Drupal" video instructions:
 https://www.youtube.com/watch?v=8WbP9ZYxAx0
 
-## While in the settings.php file, check this -
+## While in the settings.php file, check this
 As long as you are in and editing your settings.php file, take a look at the end of it and see if you find these lines of code:
 // Local settings. These come last so that they can override anything.
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
