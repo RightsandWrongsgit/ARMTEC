@@ -35,5 +35,4 @@ VSCode integrates with that 'Git' version control stuff.  'Git' version control 
 -  [Configuration Directories & Module](../cicd/configsplit2.md)
 -  [Configurations by Split: Table](../cicd/configsplit3.md)
 -  [Environment Indicator](../cicd/envindicator.md)
-
-
+-  [Environment Settings](../cicd/envsettings.md)
