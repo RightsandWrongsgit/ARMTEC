@@ -49,7 +49,7 @@ Go ahead and delete the current copy of `settings.local.php` file in your Lando 
 
 #### A 'settings.local.php' of your own making
 ##### ... with the benefit of `example.settings.local.php`  
-<font color=black>(NEW SITE ITEM)</font>
+<font color=black>(NEW SITE ITEM)</font><br>
 The `settings.local.php` file that comes with the Platform.sh Lando Drupal 9 template come via that templates reliance on what is known as Drupal scaffolding.  Just above we deleted the existing `settings.local.php` file because you don't need the database stuff in it; Lando shares information from Platform.sh's credentials.   The "Base Project" we built in the GitHub repository associated with this documenation has a file called `my-example.settings.local.php` that you will now copy and rename `settings.local.php` in your local Lando copy of your project.
 
 <font color=red>NOTE: You will do this any time you need to pull down a new copy of the "Base project" and want to set up your local environment for Development.  To be clear, we are not talking about having to do this every time you do a Git-GitHub 'stage/commit/sync' update between local and host.  First, that would be a pain.  Second, remember that `settings.local.php` is marked as a local only file in the way you have your `.gitignore` set; so, you are only going to get one on your local machine by pulling that `my-example.settings.local.php` from the host and renaming it.</font><br>
