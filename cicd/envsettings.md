@@ -54,7 +54,7 @@ The `settings.local.php` file that comes with the Platform.sh Lando Drupal 9 tem
 
 <font color=red>NOTE: You will do this any time you need to pull down a new copy of the "Base project" and want to set up your local environment for Development.  To be clear, we are not talking about having to do this every time you do a Git-GitHub 'stage/commit/sync' update between local and host.  First, that would be a pain.  Second, remember that `settings.local.php` is marked as a local only file in the way you have your `.gitignore` set; so, you are only going to get one on your local machine by pulling that `my-example.settings.local.php` from the host and renaming it.</font><br>
 
-The you jumped here from the instructions in the code repository README, you can go back there and continue.  If you want to know more about the 'how and why' of this 'local' environment being accomplished with the `settings.local.php` file, continue reading below.
+If you jumped here from the instructions in the code repository README, you can [go back there and continue](https://github.com/RightsandWrongsgit/initial-test-of-platform-ci-with-lando).  If you want to know more about the 'how and why' of this 'local' environment being accomplished with the `settings.local.php` file, continue reading below.
 
 #### What's in this magic `settings.local.php` file
 
