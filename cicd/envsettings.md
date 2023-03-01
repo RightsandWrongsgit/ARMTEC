@@ -26,7 +26,7 @@ As long as you are editing your `settings.php` file, take a look at the end of i
           include $app_root . '/' . $site_path . '/settings.local.php';
           }
 
-Good likelihood they are there.  Just make sure they are NOT commented out.  If not there, for now, just add it at the very end of the file.  We are going to put one item later. 
+Good likelihood they are there.  Just make sure they are NOT commented out.  If not there, just add it at the very end of the file.  
 
 The role of this syntax is to call the `settings.local.php` file which provides for any customizations unique to your local environment.  Be aware, some local changes can be handled by your `yml` files.  Others, like 'css' and 'js' aggregation settings, are handled more directly in a `settings.local.php` file.
 
