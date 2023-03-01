@@ -3,7 +3,7 @@
 
 We have homes for our base configuration (sync) and sibling directories for unique configuration differences we may want in 'main', 'staged', and 'develop' environments.  Within that config_split module we just installed there are ways to name and point to those environments plus a checkbox to indicate when one is 'active'.  However, it is sort of a pain to try to remember which one we are in and to then jump to the right split and check the box in the right one.  Therefore, we want to set things up to do that automatically.  To do that we will tweak our settings.php file by inserting the following code right after the line  $settings['config_sync_directory'] = '../config/sync';
 
-image
+<img src="../cicd/captures/envsettings1.png"  width="900">
 
 This code you  insert first assures the 'active' checkbox for all config_splits are unchecked, then detects the environment you are in, and based on that environment flips the checkbox to 'active'. 
 
@@ -24,7 +24,7 @@ Good likelihood they are there and just make sure they are NOT commented out.  I
 Remember that we really only want the stuff in settings.local.php to happen within the 'local' machine-environment.  But if it sat over in our GitHub repository, it could be found by the call being made at the end of that settings.php file.  So the way to handle that problem is NOT to have a copy of it over on GitHub.  If you remember our gitignore file at the root of our total project (e.g. same level as composer.json and composer.lock), somewhere about line 14 we had already instructed NOT to save this file in our GitHub repository.  You can go look in your repository under the /web/sites directory on GitHub for your project to assure it is not there. 
 Let's also run another clean up step on our local Lando copy of the project we brought down from the template recipe.  Mine has a setting.local.php file locally that has all its content commented out and it looks like this --
 
-image
+<img src="../cicd/captures/envsettings2.png"  width="600">
 
 We have already been using our local Lando copy of the Platform.sh 'main' environment of our project, so I didn't see a need for the "$databases …" code block in here but thought I would check with Platform.sh personnel on their Slack channel and heard confirmation;  "If you use Lando’s Platform.sh recipe, Lando will recreate the PLATFORM_*  environmental variables, as well as read your .platform.app.yaml configuration file so your project will be set up and run the same as on Platform.sh without having to change settings. I believe the settings.local.php is only used if you aren't using the platform.sh recipe and was created from before the platform.sh was developed."  
 Go ahead and delete the current settings.local.php file on your Lando local environment copy of your environment.  We are going to make a new one with the benefit of the goodies in your example.settings.local.php file instead.   Just so you are thinking about how to manage it, if like me you get a denial from VSCode trying to delete it directly to trash and then an "EACCES: permission denied, unlink" error when to try to force the issue, instead just try revealing it in 'finder' and you should be able to trash can it there after a request to enter your 'Mac' password. 
@@ -158,7 +158,7 @@ The my-example.setting.local.php file you were editing is in the /web/sites dire
 
 Now that your setting.local.php file is set to work, you want to move forward on editing the my-development.services.yml file that it calls.  Go back into the /web/sites to find the development.services.yml file make a copy of it and rename the copy to my-development.services.yml or make a file named that in that directory if you don't have one.  Basically what you want to do in this file is set your 'twig.config' debug to true its reload to true and its own cache to false.  Take a look at the example below with all the syntax; the leading and ending stuff probably already in the file copy that was in the Platform.sh Lando template you started with. 
 
-image
+<img src="../cicd/captures/envsettings3.png"  width="600">
 
 Here is a pretty solid article on the overall steps you are taking to set up your development situation.  It isn't specific to the Platform.sh Lando container world we outlined here but it gives you another's perspective for a second explanation. https://patrickmichael.co.za/drupal-8-9-set-development-environment  Just remember when you look at this article or others, you need to do what you want to customize your local environment within the my-development.settings.yml because of the scaffolding overwrite issue.
 In case you aren't familiar with Drupal at this point, a quick explanation of what you just did and why may be helpful.  Drupal is written in a language called PHP and more specifically a flavor of that language called Symfony.  These talk to a database where your content is stored and even some parts of configuration like we pulled out with all that configuration stuff.  The database is typically something like mySQL and pretty functional and scalable; part of why Drupal is popular with large, sophisticated websites.  You will have fields of information along with images and that sort of thing stored in the database and PHP will talk to the database to grab what is needed when.  Lots of times those fields and images will be what you want to make up and display on a page; other times the fields are more instructions to trigger actions you want to happen even if not ultimately displayed.  Pulling that stuff from the database and putting it on a webpage involves HTML,  CSS and JavaScript because they talk well to web browsers like Chrome, Safari, FireFox, Opera, etc.  But it can involve some pretty detailed coding to get PHP talking to those other languages to talk to a browser.  Luckily, this is where you really benefit from the contributions of others in an Open Source software world.  Someone else has already written base themes that do this sort of thing and are made up of a bunch of templates for different page looks, feels, and functionality.  The templates most fundamental are written in TWIG; a very simple and basic language that you will probably mess with at some point.  You can do a lot to make the base templates be uniquely your own just with HTML, CSS, and JS and your site will establish its own article, basic page, blog, forum, e-commerce or whatever else you want.   However, sometimes you will want to tweak a template a step further and have it as a slight variation from what your own standards have established for your site.  TWIG is where you can 'clone' a template and then do an alternative version of your very own.
@@ -166,17 +166,17 @@ When you want to do something to a TWIG template clone, you need to know the gen
 
 In Chrome, look under "View/Developer/View Source"
 
-image
+<img src="../cicd/captures/envsettings1.png"  width="400">
 
 In Safari use "Develop/Show Web Inspector"
 
-image
+<img src="../cicd/captures/envsettings1.png"  width="350">
 
 You will see all sorts of code familiar to someone who knows HTML, CSS, and JS.  But you will also see some lines that indicate a THEME HOOK: and this is telling you the TWIG template controlling that page or page section.  The one with a'X' in it is the name of the active one.  The ones with the '*' on them are alternative names that will be recognized in the chain.  Move from the 'X' upward and it gets more specific and you can grab one of those to call a uniquely customized alternative of a template.  The process is basically copy the 'X' template, rename the copy to the more unique name, edit the uniquely named copy.  Your copy will be called first and if not found, it will default back to the base template.  
 Here are some examples of what you will see.
 
-image
-image
+<img src="../cicd/captures/envsettings1.png"  width="600">
+<img src="../cicd/captures/envsettings1.png"  width="500">
 
 We aren't going to dive any further into this TWIG template and theme stuff here.  Just an exposure to what you have set up in your development environment by the actions you took on the development.services.yml file.
 
