@@ -49,15 +49,20 @@ Go ahead and delete the current copy of `settings.local.php` file in your Lando 
 
 #### A 'settings.local.php' of your own making
 ##### ... with the benefit of `example.settings.local.php`  
+<font color=black>(NEW SITE ITEM)</font>
+The `settings.local.php` file that comes with the Platform.sh Lando Drupal 9 template come via that templates reliance on what is known as Drupal scaffolding.  Just above we deleted the existing `settings.local.php` file because you don't need the database stuff in it; Lando shares information from Platform.sh's credentials.   The "Base Project" we built in the GitHub repository associated with this documenation has a file called `my-example.settings.local.php` that you will now copy and rename `settings.local.php` in your local Lando copy of your project.
 
-(REVISIT LOOKUP ITEM)
-The `settings.local.php` file that comes with the Platform.sh Lando Drupal 9 template is arriving via a reliance of that template on what is known as Drupal scaffolding.  Sort of a good thing, just not for one of the things we want to do.  In the prior section we deleted the existing `settings.local.php` file because you don't need the database stuff in it the way Lando shares information from Platform.sh's credentials.    What you will find in the same location is another file called `my-example.settings.local.php` and you can just copy it and rename it to `settings.local.php` in your local Lando copy of your project.  NOTE: You will do this any time you need to pull down a new copy of your project and want to set up your local environment for Development.  To be clear, we are not talking about having to do this every time you do a Git-GitHub 'stage/commit/sync' update between local and host.  First, that would be a pain.  Second, remember that `settings.local.php` is marked as a local only file in the way you have your `.gitignore` set so it is only going to come from the host up to your local machine with a complete project pull from the host. 
+<font color=red>NOTE: You will do this any time you need to pull down a new copy of the "Base project" and want to set up your local environment for Development.  To be clear, we are not talking about having to do this every time you do a Git-GitHub 'stage/commit/sync' update between local and host.  First, that would be a pain.  Second, remember that `settings.local.php` is marked as a local only file in the way you have your `.gitignore` set; so, you are only going to get one on your local machine by pulling that `my-example.settings.local.php` from the host and renaming it.</font><br>
 
-What's in this magic `settings.local.php` file -
+The you jumped here from the instructions in the code repository README, you can go back there and continue.  If you want to know more about the 'how and why' of this 'local' environment being accomplished with the `settings.local.php` file, continue reading below.
 
-To be clear, you can "do other stuff" in this file that are your personal preferences.  And you can "not do some of the stuff" in the example by just commenting it out.  But here is what it has ...
-Remember that we are fundamentally doing this so the Lando local machine-environment is set up for development.  Normally the positive things about how Drupal is set up for security and performance are actually things that work against development.  So we need to flip some switches the other way.  Ideally find the `example.settings.local.php` file in your local copy of the project and edit as follows; otherwise create your own new file with the examples name version of this file and put this stuff in it.
-You will want to see a call to the `development.services.yml` file.  Some stuff needs to be set here at the php level but others can be handled in yml form and we call this file to make sure to do those things.
+#### What's in this magic `settings.local.php` file
+
+What follows outlines the way that we set up things for development work in our 'local' environment.  To be clear, you can "do more/other stuff" in this file by personal preferences.  And you can "not do some of the stuff" in the example by just commenting it out.  But here is what it has ...
+<br>
+The normally positive things about how Drupal is set up for security and performance are actually things that work against development.  So we need to flip some switches the other way.  If you were starting before the `my-example.settings.local.php` file was provided from the "Base Project" we are documenting, you would find the `example.settings.local.php` file. In a local copy you would edit as follows ...<br>
+
+You will want to see a call to the `development.services.yml` file.  Some things to provide a development environment are set at the php level but others can be handled in yml form.  We call this file to make sure to do those `YML` driven things.
 
                /**
                * Enable local development services.
