@@ -47,8 +47,8 @@ Go ahead and delete the current copy of `settings.local.php` file in your Lando 
 
 <sup><sub>If you are like me you get a denial from VSCode trying to delete it directly to trash and then an "EACCES: permission denied, unlink" error when to try to force the issue.  Instead just try revealing it in 'finder' and you should be able to "trash can" it there after a request to enter your 'Mac' password.</sub></sup> 
 
-#### We are going to call 'settings.local.php', but one of your own making
-##### We are going to make a new one with the benefit of the goodies in your `example.settings.local.php` file instead.  
+#### A 'settings.local.php' of your own making
+##### ... with the benefit of `example.settings.local.php`  
 
 (REVISIT LOOKUP ITEM)
 The `settings.local.php` file that comes with the Platform.sh Lando Drupal 9 template is arriving via a reliance of that template on what is known as Drupal scaffolding.  Sort of a good thing, just not for one of the things we want to do.  In the prior section we deleted the existing `settings.local.php` file because you don't need the database stuff in it the way Lando shares information from Platform.sh's credentials.    What you will find in the same location is another file called my-`example.settings.local.php` and you can just copy it and rename it to `settings.local.php` in your local Lando copy of your project.  NOTE: You will do this any time you need to pull down a new copy of your project and want to set up your local environment for Development.  To be clear, we are not talking about having to do this every time you do a Git-GitHub 'stage/commit/sync' update between local and host.  First, that would be a pain.  Second, remember that `settings.local.php` is marked as a local only file in the way you have your `.gitignore` set so it is only going to come from the host up to your local machine with a complete project pull from the host. 
