@@ -43,7 +43,8 @@ The short answer is 'the magic of containers'!!!  The containers provide a sort 
 
 So I didn't see a need for the "$databases …" code block in the `settings.local.php` that came down with the template.   Just to make sure I thought I would check with Platform.sh personnel on their [Slack channel](https://slack.com/).  I heard this confirmation;  _"If you use Lando’s Platform.sh recipe, Lando will recreate the PLATFORM_* _environmental variables, as well as read your `.platform.app.yaml` configuration file so your project will be set up and run the same as on Platform.sh without having to change settings. I believe the `settings.local.php` is only used if you aren't using the platform.sh recipe and was created from before the platform.sh was developed."_ 
 
-Go ahead and delete the current copy of `settings.local.php` file in your Lando local environment.
+Go ahead and delete the current copy of `settings.local.php` file in your Lando local environment.<br>
+
 <sup><sub>If you are like me you get a denial from VSCode trying to delete it directly to trash and then an "EACCES: permission denied, unlink" error when to try to force the issue.  Instead just try revealing it in 'finder' and you should be able to "trash can" it there after a request to enter your 'Mac' password.</sub></sup> 
 
 #### We are going to call 'settings.local.php', but one of your own making
