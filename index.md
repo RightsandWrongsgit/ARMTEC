@@ -47,7 +47,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Configuration Directories & Module](cicd/configsplit2.md)
 - [Configurations by Split: Table](cicd/configsplit3.md)
 - [Environment Indicator](cicd/envindicator.md)
-
+- [Environment Settings](cicd/envsettings.md)
 
 
 
