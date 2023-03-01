@@ -11,7 +11,8 @@ The first section of the code below assures the 'active' checkbox for all config
 <img src="../cicd/captures/envsettingscode1.png"  width="600">
 <img src="../cicd/captures/envsettingscode2.png"  width="600">
 
-The above code grabs the branch name from Platform.sh detecting the environment you are in and checks that in the "switch case" condition.  There it sets the correct environment indicator colors and name plus set the flag to 'active' in the correct environment of the config_split module.
+The above code grabs the branch name from Platform.sh detecting the environment you are in and checks that in the "switch case" condition.  There it sets the correct environment indicator colors and name plus set the flag to 'active' in the correct environment of the config_split module.<br>
+
 <sup><sub>NOTE:  Two key "watch outs" if you want to edit any of this.  Like any code syntax, make sure you use and actual editor tool or terminal and NOT a word processor; a word processor uses a slightly different characters set and those things that look like single or double quotes wouldn't be backticks like they need to be. Second, if you add more "case" conditions, it is critical that each sections ends in a "break" statement; with a "break", once a condition is found it stops searching but without the "break" it will likely 'activate' the found case condition PLUS the default local Lando case even if you aren't local.</sub></sup><br> 
 Video instructions on [Configuring the Environment Indicator for Drupal](https://www.youtube.com/watch?v=8WbP9ZYxAx0)
 
