@@ -175,8 +175,8 @@ In Safari use "Develop/Show Web Inspector"
 You will see all sorts of code familiar to someone who knows HTML, CSS, and JS.  But you will also see some lines that indicate a THEME HOOK: and this is telling you the TWIG template controlling that page or page section.  The one with a'X' in it is the name of the active one.  The ones with the '*' on them are alternative names that will be recognized in the chain.  Move from the 'X' upward and it gets more specific and you can grab one of those to call a uniquely customized alternative of a template.  The process is basically copy the 'X' template, rename the copy to the more unique name, edit the uniquely named copy.  Your copy will be called first and if not found, it will default back to the base template.  
 Here are some examples of what you will see.
 
-<img src="../cicd/captures/envsettings6.png"  width="650">
-<img src="../cicd/captures/envsettings7.png"  width="400">
+<img src="../cicd/captures/envsettings6.png"  width="700">
+<img src="../cicd/captures/envsettings7.png"  width="300">
 
 We aren't going to dive any further into this TWIG template and theme stuff here.  Just an exposure to what you have set up in your development environment by the actions you took on the development.services.yml file.
 
