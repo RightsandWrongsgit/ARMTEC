@@ -6,7 +6,7 @@ We have locations for our base configuration (sync) and sibling directories for 
 
 <img src="../cicd/captures/envsettings1.png"  width="300">
 
-The first section of the code below assures the 'active' checkbox for all config_splits are unchecked. The remainder of the code detects which environment you are in, and based on that environment flips the checkbox to 'active'. 
+You add the following code directly below that line. The first section of the code below assures the 'active' checkbox for all config_splits are unchecked. The remainder of the code detects which environment you are in, and based on that environment flips the checkbox to 'active'. 
 
 <img src="../cicd/captures/envsettingscode1.png"  width="600">
 <img src="../cicd/captures/envsettingscode2.png"  width="600">
