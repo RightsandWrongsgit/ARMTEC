@@ -32,7 +32,7 @@ The role of this syntax is to call the `settings.local.php` file which provides 
 
 We really only want the stuff in `settings.local.php` to happen within the 'local' machine-environment.  If it sat over in our GitHub repository, it would be found by the "call" being made at the end of your `settings.php` file.  Your `.gitignore` file is the way NOT to share it with GitHub.  Somewhere about line 14 in what we did earlier in `.gitignore` we had already instructed NOT to save this file in our GitHub repository.  You may want to look in your repository under the `/web/sites` directory on GitHub for your project to assure a copy of `settings.local.php` is not there.
 
-#### Local Settings for Platform.sh Drupal Scaffolding
+#### Local Settings: Trash the one from the Platform.sh template
 Let's also run another clean up step on our local Lando copy of the project we brought down from the Platform.sh template recipe for Drupal with Lando.  That template probably already brought a `setting.local.php` file to the copy of your project on your harddrive. It should look like this --
 
 <img src="../cicd/captures/envsettings2.png"  width="350">
@@ -46,9 +46,9 @@ So I didn't see a need for the "$databases …" code block in the `settings.loca
 Go ahead and delete the current copy of `settings.local.php` file in your Lando local environment.
 <sup><sub>If you are like me you get a denial from VSCode trying to delete it directly to trash and then an "EACCES: permission denied, unlink" error when to try to force the issue.  Instead just try revealing it in 'finder' and you should be able to "trash can" it there after a request to enter your 'Mac' password.</sub></sup> 
 
-#### We are going to call `settings.local.php`, but one of your own making
+#### We are going to call 'settings.local.php', but one of your own making
+##### We are going to make a new one with the benefit of the goodies in your `example.settings.local.php` file instead.  
 
-We are going to make a new one with the benefit of the goodies in your `example.settings.local.php` file instead.  
 (REVISIT LOOKUP ITEM)
 The `settings.local.php` file that comes with the Platform.sh Lando Drupal 9 template is arriving via a reliance of that template on what is known as Drupal scaffolding.  Sort of a good thing, just not for one of the things we want to do.  In the prior section we deleted the existing `settings.local.php` file because you don't need the database stuff in it the way Lando shares information from Platform.sh's credentials.    What you will find in the same location is another file called my-`example.settings.local.php` and you can just copy it and rename it to `settings.local.php` in your local Lando copy of your project.  NOTE: You will do this any time you need to pull down a new copy of your project and want to set up your local environment for Development.  To be clear, we are not talking about having to do this every time you do a Git-GitHub 'stage/commit/sync' update between local and host.  First, that would be a pain.  Second, remember that `settings.local.php` is marked as a local only file in the way you have your `.gitignore` set so it is only going to come from the host up to your local machine with a complete project pull from the host. 
 
