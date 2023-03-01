@@ -62,6 +62,7 @@ What follows outlines the way that we set up things for development work in our 
 <br>
 The normally positive things about how Drupal is set up for security and performance are actually things that work against development.  So we need to flip some switches the other way.  If you were starting before the `my-example.settings.local.php` file was provided from the "Base Project" we are documenting, you would find the `example.settings.local.php` file. In a local copy you would edit as follows ...<br>
 
+#### Point it to development.services.yml
 You will want to see a call to the `development.services.yml` file.  Some things to provide a development environment are set at the php level but others can be handled in yml form.  We call this file to make sure to do those `YML` driven things.
 
                /**
@@ -69,8 +70,12 @@ You will want to see a call to the `development.services.yml` file.  Some things
                */
                $settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
 
+#### Point that to my-development.services.yml
+Now we are going to deal with an idiosyncrasy you might not find a lot of information about elsewhere. The Platform.sh Lando Drupal template uses the Drupal "Scaffold build" process.  A scaffold build moves files to certain subdirectory locations to benefit specific situational needs and maintains 'pointers' to their typical locations so that processes that need them can find them.  However, in our case what happens during the scaffold build is every time you do a composer update or a container rebuild, the scaffold instructions overwrite the `development.services.yml` file with a fresh copy from the template.  While that sort of sounds good, being fresh and all, what it means is that any customization you have done to that file gets overwritten.<br>
 
-Now we are going to deal with an idiosyncrasy you might not find a lot of information about elsewhere; an artifact of the Platform.sh Lando Drupal template using the Drupal Scaffold build process.  What happens with the scaffold build is that every time you do a composer update or a container rebuild, the scaffold instructions overwrite the `development.services.yml` file with a fresh copy from the template.  While that sort of sounds good, being fresh and all, what it means is that any customization you have done to that file gets overwritten.  And we are planning to do some customization for the local environment so this would be a problem.  There is a fancy way around this by suppressing the overwrite in composer and if you want to go that way look at [Appendix: Drupal Scaffold ("overwrite": false) solution]().  What we are going to do is add the statement below just following the call to the standard `development.services.yml` file noted previously in our `settings.local.php` file.  What this will do is call our personalized `my-development.services.yml` file that is NOT in our `.gitignore` (thus secured in your GitHub repository) and it is not part of the Drupal scaffolding process (so is not overwritten on update or rebuild).
+We are doing some customization for the local environment so having our work overwritten is a problem.  There is a fancy way and a workaround  way to suppressing the overwrite.  If you want to go that way look at [Appendix: Drupal Scaffold ("overwrite": false) solution](../cicd/scaffold).
+<br>
+We are going to do the workaround.  That just adds the following code just below to the 'settings.local.php` file.  Just put it right below the previous code we added to call to the standard `development.services.yml` file.  This calls our personalized `my-development.services.yml` file after the basic `development.services.yml` file to apply any of our customizations. Since the 'my-development.services.yml` file is NOT in our `.gitignore` it <font color=yellow>is</font> secured in your GitHub repository and since it is not part of the Drupal scaffolding process it <font color=yellow>is NOT</font> overwritten on update or rebuild.
 
                /**
                * Enable our personalized local development services. Not subject to the idiosyncrasy of
