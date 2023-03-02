@@ -110,7 +110,7 @@ In the process of site development you are likely to want to look at logs that a
 <br>
 
 ## Disable CSS and JS Aggregation
-CSS is used to pretty up HTML and JS (JavaScript) adds some functionality, perhaps like animation or logic, to that.  Front-end developer use both, in combination with TWIG, to make your website design come to life.  Code for both of these is pretty narrative with open spaces and a reasonably understandable style.  The tradeoff is that the code doesn't tend to be very compact and aggregation is sort like the ZIP file of these two types of code.  You don't want to try to read and work with a compressed and minified version of either during the development of your site, so you want to turn this aggregation off on the 'local' machine-environment. See also Appendix: Using Advanced Aggregation Alternative.
+CSS is used to pretty up HTML and JS (JavaScript) adds some functionality, perhaps like animation or logic, to that.  Front-end developers use both, in combination with TWIG, to make your website design come to life.  Code for both of these is pretty narrative with open spaces and a reasonably understandable style.  The tradeoff is that the code doesn't tend to be very compact and aggregation is sort like the ZIP file of these two types of code.  You don't want to try to read and work with a compressed and minified version of either during the development of your site, so you want to turn this aggregation off in the 'local' machine-environment. See also [Appendix: Using Advanced Aggregation Alternative](../cicd/advancedaggregation.md).
 <br>
 
 `/**`<br>
@@ -121,7 +121,7 @@ CSS is used to pretty up HTML and JS (JavaScript) adds some functionality, perha
 <br>
 
 ## Disabling Cache
-Drupal using a number of cache strategies to improve performance. If you want to dive down a rabbit hole for a week or so, go to the [Drupal](http://Drupal.org) site and read the extensive detail about all the things you can do.  For our purposes however, we just want to uncomment the render cache, internal page cache, and dynamic page cache lines in the `example.settings.local.php` file (or add them if they don't exist).
+Drupal uses a number of cache strategies to improve performance. If you want to dive down a rabbit hole for a week or so, go to the [Drupal](http://Drupal.org) site and read the extensive detail about all the things you can do.  For our purposes however, we just want to uncomment the render cache, internal page cache, and dynamic page cache lines in the `example.settings.local.php` file (or add these instructions if they don't exist).
 <br>
 
 `/**`<br>
@@ -163,7 +163,7 @@ Drupal using a number of cache strategies to improve performance. If you want to
 `$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';`<br>
 
 ## Ignore test modules and themes
-We are going to be installing and enabling a bunch of modules as we work on site building in Drupal.  We are going to be running tests as we do development to make sure stuff works.  We want to allow this in the 'local' Lando machine-environment.
+We are going to be installing and enabling a bunch of modules as we work on site-building in Drupal.  We are going to be running tests as we do development to make sure stuff works.  We want to allow this in the 'local' Lando machine-environment.
 
 `/**`<br>
 `* Allow test modules and themes to be installed.`<br>
@@ -175,7 +175,7 @@ We are going to be installing and enabling a bunch of modules as we work on site
 `$settings['extension_discovery_scan_tests'] = FALSE;`<br>
 
 ## Enable access to emergency rebuild
-Are you potentially going to mess things up in development at some point that your site won't come up and you, therefore, can't get to the Administration page to clear caches and fix it and rebuild?  Probably. You know "drush cr" so after you do some code fixes you can do that and rebuild.  But another option has been established for rebuild access if you set your configuration to TRUE.  Here is more exploration about it https://www.drupaleasy.com/quicktips/just-case-drupal-8s-corerebuildphp
+Are you potentially going to mess things up in development.  At some point your site won't come up and you, therefore, can't get to the Administration page to clear caches and fix it and rebuild?   You know "drush cr" so after you do some code fixes you can do that and rebuild.  But another option has been established for rebuild access if you set it to TRUE.  Here is more exploration about it https://www.drupaleasy.com/quicktips/just-case-drupal-8s-corerebuildphp
 
 `/**`<br>
 `* Enable access to rebuild.php.`<br>
