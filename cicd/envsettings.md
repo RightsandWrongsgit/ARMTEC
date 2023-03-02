@@ -35,7 +35,7 @@ We really only want the stuff in `settings.local.php` to happen within the 'loca
 <br>
 
 # Modify settings.local.php
-## Trash the local one from the Platform.sh template
+## Trash the local one from Platform.sh 
 Let's also run another clean up step on our local Lando copy of the project we brought down from the Platform.sh template recipe for Drupal with Lando.  That template probably already brought a `setting.local.php` file to the copy of your project on your harddrive. It should look like this --
 
 <img src="../cicd/captures/envsettings2.png"  width="350">
