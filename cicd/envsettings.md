@@ -69,7 +69,7 @@ The normally positive things about how Drupal is set up for security and perform
 
 ## Point it to 'development.services.yml'
 #### Tell settings.local.php about development.services.yml
-You want your `settings.local.php` file to make a call to the `development.services.yml` file.  Some things to provide a development environment are set at the php level but others can be handled in 'YML' file format.  We call this file to make sure to do those `YML` driven things.
+You want your `settings.local.php` file to make a call to the `development.services.yml` file.  Some things to provide a development environment are set at the php level but others can be handled in 'YML' file format.  We tell `settings.local.php` to use that 'YML' file by adding this.
 <br>
 
 `/**`<br>
@@ -84,7 +84,7 @@ Now we are going to deal with an idiosyncrasy you might not find a lot of inform
 We are doing some customization for the local environment so having our work overwritten is a problem.  There is a fancy way and a workaround way to suppressing the overwrite.  If you want to go the fancy way look at [Appendix: Drupal Scaffold ("overwrite": false) solution](../cicd/scaffold).
 <br>
 
-We are going to do the workaround.  That just adds the following code to the bottom of the `settings.local.php` file.  Just put it right below the previous code we added to call to the standard `development.services.yml` file.  Then this will call our personalized `my-development.services.yml` file after the basic `development.services.yml` file to apply any of our customizations. Since the `my-development.services.yml` file is NOT in our `.gitignore` it <font color=yellow>is</font> secured in your GitHub repository and since it is not part of the Drupal scaffolding process it <font color=yellow>is NOT</font> overwritten on update or rebuild.
+We are going to do the workaround.  That just adds the following code to the bottom of the `settings.local.php` file.  Just put it right below the previous code we added to call to the standard `development.services.yml` file.  Then this will call our personalized `my-development.services.yml` file after the basic `development.services.yml` file to apply any of our customizations. Since the `my-development.services.yml` file is NOT in our `.gitignore` it <font color=yellow>is</font> secured in your GitHub repository and since it is not part of the Drupal scaffolding process it <font color=yellow>is NOT</font> overwritten on update or rebuild. Adding the follow to our `settings.local.php` file tells it about our customized 'YML' stuff.
 <br>
 
 `/**`<br>
