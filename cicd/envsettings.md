@@ -65,7 +65,7 @@ What follows outlines the way that we set up things for development work in our 
 The normally positive things about how Drupal is set up for security and performance are actually things that work against development.  So we need to flip some switches the other way.  If you were starting before the `my-example.settings.local.php` file was provided from the "Base Project" that we are documenting, you would find the `example.settings.local.php` file. In a local copy you would edit as follows ...<br>
 
 ## Point it to 'development.services.yml'
-You will want to see a call to the `development.services.yml` file.  Some things to provide a development environment are set at the php level but others can be handled in yml form.  We call this file to make sure to do those `YML` driven things.
+You want your `settings.local.php` file to make a call to the `development.services.yml` file.  Some things to provide a development environment are set at the php level but others can be handled in 'YML' file format.  We call this file to make sure to do those `YML` driven things.
 <br>
 
 `/**`<br>
