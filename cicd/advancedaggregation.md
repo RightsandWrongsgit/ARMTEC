@@ -13,6 +13,5 @@ For an overview of [setting this module](https://www.volacci.com/drupal-seo-guid
 
 <ul class="pager"> <!--this is the style of the button-->
 <li><a href="../cicd/envsettings.md#Disable-CSS-and-JS-Aggregation>Back to Summary</a></li> <!--This button takes me to the table of contents-->
-<!-- <li><a href="#render-document">Next</a></li> <!--This button takes me to the previous page-->
 </ul>
 
