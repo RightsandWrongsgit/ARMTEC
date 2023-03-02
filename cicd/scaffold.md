@@ -32,11 +32,13 @@ The syntax you use is shown below and put in the context of the preceeding and f
       `}`<br>
   `}`<br>
 <img src="../cicd/captures/scaffold4.png"  width="200">
-<br>
-<br>
+
 For more on [Drupal scaffolding](https://www.drupal.org/docs/develop/using-composer/using-drupals-composer-scaffold)
 <br>
 <br>
+
+
+
 
 <ul class="pager"> <!--this is the style of the button-->
 <li><a href="../cicd/envsettings.md">Back to Summary</a></li> <!--This button takes me to the table of contents-->
