@@ -21,7 +21,7 @@ The lightly highlighted line shows the `development.services.yml` file and the n
 
 To do this, we move upstream from our 'composer.lock' file back to the `composer.json` file that generates it.  Typically not fair into that file you will see the "extra" line and under it the direction to envoke "drupal-scaffold" plus the location where to find the file-mapping assets.  In the example image below, look at line 45 for the }, ending that section of syntax.  You are going to insert some syntax right above that which will supress the overwrite.
 
-<img src="../cicd/captures/scaffold2.png"  width="600">
+<img src="../cicd/captures/scaffold2.png"  width="400">
 
 The syntax you use is shown below and put in the context of the preceeding and following code...
 
