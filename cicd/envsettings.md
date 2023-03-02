@@ -61,6 +61,7 @@ If you jumped here from the instructions in the code repository README, you can 
 
 What follows outlines the way that we set up things for development work in our 'local' environment.  To be clear, you can "do more/other stuff" in this file by personal preferences.  And you can "not do some of the stuff" in the example by just commenting it out.  But here is what it has ...
 <br>
+
 The normally positive things about how Drupal is set up for security and performance are actually things that work against development.  So we need to flip some switches the other way.  If you were starting before the `my-example.settings.local.php` file was provided from the "Base Project" we are documenting, you would find the `example.settings.local.php` file. In a local copy you would edit as follows ...<br>
 
 ## Point it to 'development.services.yml'
