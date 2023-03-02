@@ -26,6 +26,7 @@ To do this, we move upstream from our 'composer.lock' file back to the `composer
 The syntax you use is shown below and put in the context of the preceeding and following code...
 
 <img src="../cicd/captures/scaffold3.png"  width="200">
+
     `"file-mapping": {`<br>
       `"[web-root]/sites/default/development.services.yml": {`<br>
         `"mode": "replace",`<br>
