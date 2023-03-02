@@ -31,7 +31,8 @@ Good likelihood they are there.  Just make sure they are NOT commented out.  If 
 The role of this syntax is to call the `settings.local.php` file which provides for any customizations unique to your local environment.  Be aware, some local changes can be handled by your `yml` files.  Others, like 'css' and 'js' aggregation settings, are handled more directly in a `settings.local.php` file.
 
 We really only want the stuff in `settings.local.php` to happen within the 'local' machine-environment.  If it sat over in our GitHub repository, it would be found by the "call" being made at the end of your `settings.php` file.  Your `.gitignore` file is the way NOT to share it with GitHub.  Somewhere about line 14 in [what we did earlier](../cicd/gitignore.md) in `.gitignore` we had already instructed NOT to save this file in our GitHub repository.  You may want to look in your repository under the `/web/sites` directory on GitHub for your project to assure a copy of `settings.local.php` is not there.
-
+<br>
+<br>
 
 # Modify settings.local.php
 ## Local Settings: Trash the local one from the Platform.sh template
