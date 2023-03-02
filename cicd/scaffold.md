@@ -1,5 +1,6 @@
 
-Appendix: Drupal Scaffold ("overwrite": false) solution
+# Appendix: 
+## Drupal Scaffold ("overwrite": false) solution
 
 As discussed when setting up 'settings.local.php' alternative tocreate a development environment in your Lando local, the Platform.sh Lando Drupal template uses the Drupal Scaffolding approach to installation of a project.  The scaffolding approach is a fancy way of saying "move file assets around to different locations".  Drupal has a pretty long history and has been excellent in continuity support with version updates. This is actually pretty amazing as it has gone through some pretty significant changes over time.  One way that this continuity support has been accomplished is by having file locations that may be termed "assets" in one location for a prior version and a different location in an updated version but the presentation of a 'scaffolding' solution that file-maps the asset location between locations to move it to the right place for your given version.  That is the good news view.
 
