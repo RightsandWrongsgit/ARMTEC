@@ -35,10 +35,9 @@ The syntax you use is shown below and put in the context of the preceeding and f
 <br>
 <br>
 
-For more on Drupal scaffolding, see the Drupal.org link here -
-https://www.drupal.org/docs/develop/using-composer/using-drupals-composer-scaffold
+For more on [Drupal scaffolding](https://www.drupal.org/docs/develop/using-composer/using-drupals-composer-scaffold)
 
 <ul class="pager"> <!--this is the style of the button-->
-<li><a href="../cicd/envsettings.html">Back to Summary</a></li> <!--This button takes me to the table of contents-->
+<li><a href="cicd/envsettings.html">Back to Summary</a></li> <!--This button takes me to the table of contents-->
 # <li><a href="#render-document">Next</a></li> <!--This button takes me to the previous page-->
 </ul>
