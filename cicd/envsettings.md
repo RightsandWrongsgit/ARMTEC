@@ -73,7 +73,7 @@ You want your `settings.local.php` file to make a call to the `development.servi
 `*/`<br>
 `$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';`<br>
 <br>
-## Point that to 'my-development.services.yml'
+## Also Point to 'my-development.services.yml'
 Now we are going to deal with an idiosyncrasy you might not find a lot of information about elsewhere. The Platform.sh Lando Drupal template uses the Drupal "Scaffold build" process.  A scaffold build moves files to certain subdirectory locations to benefit specific situational needs and maintains 'pointers' to their typical locations so that processes that need them can find them.  However, in our case what happens during the scaffold build is every time you do a composer update or a container rebuild, the scaffold instructions overwrite the `development.services.yml` file with a fresh copy from the template.  While that sort of sounds good, being fresh and all, what it means is that any customization you have done to that file gets overwritten.<br>
 
 We are doing some customization for the local environment so having our work overwritten is a problem.  There is a fancy way and a workaround way to suppressing the overwrite.  If you want to go the fancy way look at [Appendix: Drupal Scaffold ("overwrite": false) solution](../cicd/scaffold).
