@@ -51,7 +51,7 @@ Include name-of-your-sub-theme.libraries.yml file to add css/js in the global-st
 A. Go to "Appearance" (/admin/appearance) on the main Administration menu of your site.<br>
 B. Your sub-theme should be listed under the Uninstalled Themes section<br> 
 <sup><sub>If it’s not shown, check that you’ve deployed code to correct branch (dev code for dev site...etc) and cleared the site cache.</sub></sup><br> 
-c. Click the Install and set as default option to enable it as the main theme for your site.<br> 
+C. Click the Install and set as default option to enable it as the main theme for your site.<br> 
 
 
 
