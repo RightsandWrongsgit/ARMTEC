@@ -50,6 +50,11 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Environment Settings](cicd/envsettings.md)
 
 
+#### &nbsp;&nbsp;&nbsp;&nbsp;* Appendices
+- [Adding php xdebug](cicd/xdebug.md)
+- [CSS & JS Advanced Aggregation](cicd/advancedaggregation.md)
+- [Drupal Scaffold ("overwrite": false) solution](cicd/scaffold.md)
+
 
 ### Chapter: Awaiting Categorization
 - [Cheatsheets](book/cheats.md)
