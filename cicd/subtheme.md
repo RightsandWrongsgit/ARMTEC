@@ -48,11 +48,11 @@ Include name-of-your-sub-theme.libraries.yml file to add css/js in the global-st
     `js/prod/script.js:{}`<br> 
 
 #### 4. Enable your sub-theme
-    1. Go to "Appearance" (/admin/appearance) on the main Administration menu of your site. 
-    2. Your sub-theme should be listed under the Uninstalled Themes section 
+A. Go to "Appearance" (/admin/appearance) on the main Administration menu of your site. 
+B. Your sub-theme should be listed under the Uninstalled Themes section 
         ◦ If it’s not shown, check that you’ve deployed code to correct branch (dev code for dev site...etc) and cleared the site cache. 
         ◦ If it still doesn’t show, send an email to help@umn.edu to start a ticket. 
-    3. Click the Install and set as default option to enable it as the main theme for your site. 
+c. Click the Install and set as default option to enable it as the main theme for your site. 
 
 
 
