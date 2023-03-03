@@ -41,6 +41,10 @@ VSCode integrates with that 'Git' version control stuff.  'Git' version control 
 
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;* Appendices
-- [Adding php xdebug](cicd/xdebug.md)
-- [CSS & JS Advanced Aggregation](cicd/advancedaggregation.md)
-- [Drupal Scaffold ("overwrite": false) solution](cicd/scaffold.md)
+- [Adding php xdebug](../cicd/xdebug.md)
+- [CSS & JS Advanced Aggregation](../cicd/advancedaggregation.md)
+- [Drupal Scaffold ("overwrite": false) solution](../cicd/scaffold.md)
+- [SubTheme Setup](../cicd/subtheme.md)
+
+
+
