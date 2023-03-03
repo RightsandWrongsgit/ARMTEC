@@ -5,10 +5,10 @@
 #### 1. Create a sub-theme
 Under the themes subdirectory add a an additional subdirectory for `name-of-your-sub-theme`. Then under this new subdirectory add your new themes `.info.yml` and `.libraries.yml` files.  It should look basically like this...
 
-`themes \`<br>
-	`+ name-of-your-sub-theme \`<br>
-	`+ name-of-your-sub-theme.info.yml`<br> 
-	`+ name-of-your-sub-theme.libraries.yml`<br>
+    themes \
+         + name-of-your-sub-theme \
+            + name-of-your-sub-theme.info.yml
+            + name-of-your-sub-theme.libraries.yml
 
 #### 2. ".info.yml" code
 The .info file contains the following code.
