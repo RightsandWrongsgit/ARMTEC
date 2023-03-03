@@ -37,15 +37,16 @@ The .info file contains the following code.
 
 #### 3. ".libraries.yml" code
 Include name-of-your-sub-theme.libraries.yml file to add css/js in the global-style group (this is defined above, in the libraries key). Use the following code:
-`global-styling:`<br> 
-  `version: VERSION`<br> 
-    `dependencies:`<br>  
-	`- core/jquery`<br> 
-  `css:`<br> 
-     `base:`<br>  
-  `css/style.css:{}`<br> 
-  `js:`<br> 
-    `js/prod/script.js:{}`<br> 
+
+    global-styling: 
+      version: VERSION
+    dependencies: 
+	- core/jquery 
+      css: 
+        base:  
+      css/style.css:{}
+      js: 
+        js/prod/script.js:{} 
 
 #### 4. Enable your sub-theme
 A. Go to "Appearance" (/admin/appearance) on the main Administration menu of your site.<br>
