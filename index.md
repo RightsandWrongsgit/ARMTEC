@@ -54,6 +54,8 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Adding php xdebug](cicd/xdebug.md)
 - [CSS & JS Advanced Aggregation](cicd/advancedaggregation.md)
 - [Drupal Scaffold ("overwrite": false) solution](cicd/scaffold.md)
+- [SubTheme Setup](cicd/subtheme.md)
+
 
 
 ### Chapter: Awaiting Categorization
