@@ -13,35 +13,34 @@ Under the themes subdirectory add a an additional subdirectory for `name-of-your
 #### 2. ".info.yml" code
 The .info file contains the following code.
 
-`Name: Name-of-your-subtheme`<br> 
-`type: theme`<br> 
-`description: This is a sub theme of ARMTEC`<br> 
-`# Defines the base theme`<br> 
-`base theme: armtec`<br> 
-`# Defines libraries group in which we can add css/js.`<br> 
-`core: 8.x`<br> 
-`core_version_requirement: ^8 || ^9`<br> 
-`libraries:`<br>  
-`- name-of-your-subtheme/global-styling`<br> 
-`# Regions`<br> 
-`regions:`<br>  
-`identity: Site Identity`<br> 
-`header: Navigation`<br> 
-`featured: Featured`<br> 
-`breadcrumb: Breadcrumb`<br> 
-`sidebar_first: 'Sidebar first'`<br> 
-`content: Content`<br> 
-`sidebar_second: 'Sidebar second'`<br> 
-`footer_top: 'Footer Top'`<br> 
-`footer_bottom  'Footer Bottom'`<br> 
+    name: Name-of-your-subtheme 
+    type: theme 
+    description: This is a sub theme of Stable 
+    # Defines the base theme 
+    base theme: stable 
+    # Defines libraries group in which we can add css/js. 
+    core_version_requirement: ^8 || ^9 || ^10 
+    libraries:  
+      - name-of-your-subtheme/global-styling
+    # Regions
+    regions: 
+      identity: Site Identity 
+      header: Navigation 
+      featured: Featured 
+      breadcrumb: Breadcrumb 
+      sidebar_first: 'Sidebar first' 
+      content: Content
+      sidebar_second: 'Sidebar second' 
+      footer_top: 'Footer Top' 
+      footer_bottom  'Footer Bottom'
 
 #### 3. ".libraries.yml" code
-Include name-of-your-sub-theme.libraries.yml file to add css/js in the global-style group (this is defined above, in the libraries key). Use the following code:
+Include `name-of-your-sub-theme.libraries.yml` file to add css/js in the global-style group. Use the following code...
 
     global-styling: 
       version: VERSION
-    dependencies: 
-	- core/jquery 
+        dependencies: 
+	  - core/jquery 
       css: 
         base:  
       css/style.css:{}
@@ -55,4 +54,4 @@ B. Your sub-theme should be listed under the Uninstalled Themes section<br>
 C. Click the Install and set as default option to enable it as the main theme for your site.<br> 
 
 
-
+[More on Subtheming](https://www.drupal.org/node/2165673)
