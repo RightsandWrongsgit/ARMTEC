@@ -28,6 +28,8 @@
 - [Bootstrap5](https://cheatography.com/liezeln/cheat-sheets/bootstrap-5-2022-ver-1-0/){:target="_blank"}
 - [w3schools: HTML/CSS/JS and even PHP/SQL/more](https://www.w3schools.com){:target="_blank"}
 - [CSS](https://cheatography.com/davechild/cheat-sheets/css2/){:target="_blank"}
+- [Complete CSS Selector Cheat Sheet](https://dev.to/arafat4693/complete-css-selector-cheat-sheet-a-hands-on-guide-with-images-5ff1){:target="_blank"}
+- [70 Super Useful CSS Resources](https://notes.aliciasykes.com/40638/super-useful-css-resources){:target="_blank"}
 - [UI/UX Components & Code](https://codemyui.com){:target="_blank"}
 - [GRID System](https://grid.malven.co){:target="_blank"}
 - [Markdown](https://cheatography.com/chiragh/cheat-sheets/markdown/){:target="_blank"}
