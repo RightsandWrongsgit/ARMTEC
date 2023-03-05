@@ -15,3 +15,6 @@ Git is the part of this you will put on your local computer.  A Git Repository i
 ### Git Repository
 - [Git with GitHub Video](https://www.youtube.com/watch?v=21Gl97tkbHU&t=8s){:target="_blank"}
 - [Where you find GitHub](https://github.com/){:target="_blank"}
+
+### Git/GitHub
+- [Must Know Guide](https://dragon2002.hashnode.dev/git-and-github-must-know-guide)
