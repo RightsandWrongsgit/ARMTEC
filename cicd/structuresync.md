@@ -95,18 +95,6 @@ In case you were wondering how the Full/Safe/Force import options play out under
 
 
 
-Do we need these next paragraphs?
- by doing:
-
-`lando drush cim`
-
-
-
-"The module will prevent you from having to create content multiple times and also decrease the risk of some elements being out of sync between environments, the main menu for example. It will also synchronize the UUIDs for these items to prevent you from having to change references to this in other configuration files. Finally, you have the ability to do a partial export or import so some of these elements can still be considered environment-specific content.
-Before the mechanics of using the module, you may be new to Drupal and need a brief explanation of a couple of these parts.  Menus are select explanatory.  Taxonomy is how to make structured tags or categories that are used to help organize your content for people to more easily find and see what they are looking for."
-
-
-
 [- Next -]()
 
 
