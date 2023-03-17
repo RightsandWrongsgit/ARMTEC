@@ -4,7 +4,7 @@
 
 
 #### Basic Export/Import
-Earlier we showed the use of basic [Configuration Export and Import](../cicd/configatroot.html#SITECONFIGURATIONEXPORTANDIMPORT) is pretty plain vanilla.  We learned that your website has an active configuration it is using while it is operating.  And, if we wanted to save that active configuration so we might use it in another environment, we ran `lando drush cex` to export it into yml files.  There were a whole long list of those yml files. We found that our `settings.php` had told the system we wanted ours to go into the `/config/sync` subdirectory.
+Earlier we showed the use of basic [Configuration Export and Import](../cicd/configatroot.md#SITECONFIGURATIONEXPORTANDIMPORT) is pretty plain vanilla.  We learned that your website has an active configuration it is using while it is operating.  And, if we wanted to save that active configuration so we might use it in another environment, we ran `lando drush cex` to export it into yml files.  There were a whole long list of those yml files. We found that our `settings.php` had told the system we wanted ours to go into the `/config/sync` subdirectory.
 
 #### Configuration Files and Copies
 We used our [VSCode IDE](../book/ide) and did a 'commit/stage/sync' between our local project and its [GitHub repository](../book/gitbasics).  We also figured out that if we did a few things and then decided we screwed up we could get out of a fair amount of trouble by just doing a `lando drush cim` to pull the prior configuration back into "active".  Depending on what we had done and how we changed various things we might also have to recover ourselves by restoring from a prior GitHub branch.  Heck, we might even have to restore to a prior code branch and pull from our database backup.
