@@ -35,8 +35,16 @@ It is pretty much standard practice to design your first website using some sort
 
 ## Front-end:
 
+- [Color Palette Combinations](https://fffuel.co){:target="_blank"}
 - [Animation with CSS (Online)](https://animista.net/){:target="_blank"}
+- [CSS Shadows](https://neumorphism.io/#8c00ff){:target="_blank"}
+- [CSS Components](https://uiverse.io/all){:target="_blank"}
+- [CSS Hovers](http://ianlunn.github.io/Hover/){:target="_blank"}
+- [CSS Dynamic Scroll](https://michalsnik.github.io/aos/){:target="_blank"}
+- [Whirl & Signal Load Effects](https://whirl.netlify.app/){:target="_blank"}
+- [CSS Magic, Bling, Perspective](https://www.minimamente.com/project/magic/){:target="_blank"}
 - [CSS Tricks](https://css-tricks.com/){:target="_blank"}
+- [Full Integration Toolbox](https://10015.io/){:target="_blank"}
 - [HyperLink Parts of a Graphic](http://www.javascriptkit.com/howto/imagemap.shtml){:target="_blank"}
 - [Bootstrap](https://getbootstrap.com/){:target="_blank"}
 - [Electron Cross-Platform](https://www.electronjs.org/){:target="_blank"}
