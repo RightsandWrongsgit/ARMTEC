@@ -52,16 +52,19 @@ That little blue Git indicator should also show a count of "1" (or more if you d
 
 <img src="../cicd/captures/structuresync2.png"  width="350">
 
-Like typical, that yml file is sitting available but you need to import it to the alternative environment by doing:
 
-`lando drush cim`
-			
-Think these steps this way.  You build your menu, taxonomy, and/or blocks; in our case in our Lando local site.  Then you mark those you wish to make available in other environments with Structure_Sync using either the GUI interface or some CLI alternatives we will discuss shortly.  Doing a configuration export (cex) in your local Lando environment puts a new structure_sync.data.yml file into your yml files used to pass to other environments; in our case we can 'commit/stage/sync' in VSCode and they will be in the Platform.sh environment for the branch we are working on.  If that new yml file is in the environment, a lando drush cim put it into 'active' configuration.  Finally, we want to make sure the 'setting' within that yml file align between environments so we tell the 'active' configuration to leverage the knowledge imbedded in that file to set matching menu, taxonomy, and blocks in the alternative environment. 
-To do that final step, if you go back in the GUI you can now see the "Import..Something" is populated and you can hit one of the three buttons to do so.   There are three option buttons to select from; Safely, Full, and Force.  Here is the difference:
+### The STEPS
+Like typical, that 'yml' file that was exported in your 'local' environment is sitting available.  But it isn't doing anything to your upstream alternative environment  configurations until they would import it.  Think the steps this way:
 
-Safely = 'new stuff' and it only imports those custom blocks/taxonomies/menus in config that were not previously there.
-Full = 'new and refresh' because it imports all the custom blocks/taxonomies/menus regardless if they have already existed before. It deletes any custom blocks/taxonomies/menus that are not in config which might be a little questionable if somehow your exported list had changed unintentionally; like you forgot to check all the boxes at export because you thought you were just wanting to add the new ones (crash and burn but you can go back local and redo the process to dig out of the hole).
-Force = 'skate on thin ice'  because this option will not check for any existing blocks, menus or taxonomies and just deletes all custom blocks/taxonomies/menus in the system and creates new ones.
+- You build your menu, taxonomy, and/or blocks; in our case in our Lando 'local' site.  
+- Then you mark those you wish to make available in other environments with Structure_Sync using either the GUI interface or some CLI alternatives we will discuss shortly.  
+- Doing a configuration export `lando drush cex` in your local Lando environment puts a new structure_sync.data.yml file into your yml files used to pass to other environments.
+- In our case, and our little blue dots showing files have changed but not been version controlled, we can 'commit/stage/sync' in VSCode.  The files will then be in our GitHub and in the Platform.sh environment for the branch we are working on.
+- If that new yml file is in the environment, a `lando drush cim` put it into 'active' configuration.  We want to make sure the 'setting' within that yml file align between environments so we tell the 'active' configuration to leverage the knowledge imbedded in that file to set matching menu, taxonomy, and blocks in the alternative environment. To do that you go back in the GUI where you can now see the "Import..Something" is populated and you can hit one of the three buttons to do so.   There are three option buttons to select from; Safely, Full, and Force.  Here is the difference:
+
+-- Safely = 'new stuff' and it only imports those custom blocks/taxonomies/menus in config that were not previously there.
+-- Full = 'new and refresh' because it imports all the custom blocks/taxonomies/menus regardless if they have already existed before. It deletes any custom blocks/taxonomies/menus that are not in config which might be a little questionable if somehow your exported list had changed unintentionally; like you forgot to check all the boxes at export because you thought you were just wanting to add the new ones (crash and burn but you can go back local and redo the process to dig out of the hole).
+-- Force = 'skate on thin ice'  because this option will not check for any existing blocks, menus or taxonomies and just deletes all custom blocks/taxonomies/menus in the system and creates new ones.
 
 Here is the GUI way ---
 
@@ -73,7 +76,13 @@ https://www.specbee.com/blogs/export-import-menus-customblocks-taxonomies-drupal
 
 
 
-Do we need this next paragraph?
+Do we need these next paragraphs?
+ by doing:
+
+`lando drush cim`
+
+
+
 "The module will prevent you from having to create content multiple times and also decrease the risk of some elements being out of sync between environments, the main menu for example. It will also synchronize the UUIDs for these items to prevent you from having to change references to this in other configuration files. Finally, you have the ability to do a partial export or import so some of these elements can still be considered environment-specific content.
 Before the mechanics of using the module, you may be new to Drupal and need a brief explanation of a couple of these parts.  Menus are select explanatory.  Taxonomy is how to make structured tags or categories that are used to help organize your content for people to more easily find and see what they are looking for."
 
