@@ -70,25 +70,11 @@ Like typical, that 'yml' file that was exported in your 'local' environment is s
 
 Here is the GUI way ---
 
-
 <img src="../cicd/captures/structuresync3.png"  width="750">
 
-For a good overview of this process by an actually eloquent writer, read this:
-https://www.specbee.com/blogs/export-import-menus-customblocks-taxonomies-drupal9-8-structure-sync-module
+Click for a [good overview of this process](https://www.specbee.com/blogs/export-import-menus-customblocks-taxonomies-drupal9-8-structure-sync-module) by an actually eloquent writer.
 
-
-
-Do we need these next paragraphs?
- by doing:
-
-`lando drush cim`
-
-
-
-"The module will prevent you from having to create content multiple times and also decrease the risk of some elements being out of sync between environments, the main menu for example. It will also synchronize the UUIDs for these items to prevent you from having to change references to this in other configuration files. Finally, you have the ability to do a partial export or import so some of these elements can still be considered environment-specific content.
-Before the mechanics of using the module, you may be new to Drupal and need a brief explanation of a couple of these parts.  Menus are select explanatory.  Taxonomy is how to make structured tags or categories that are used to help organize your content for people to more easily find and see what they are looking for."
-
-
+#### Or do it by CLI
 If you are a Command Line Interface (CLI) person, there are drush commands to do what the GUI offers.  REMEMBER THAT SINCE WE ARE USING LANDO for our local environment, we need to preceed these with 'lando drush somecommand'
 
 The drush commands and their abbreviations are:
@@ -104,8 +90,21 @@ import-all (ia) - Import taxonomy terms, custom blocks and menu links from confi
 
 In case you were wondering how the Full/Safe/Force import options play out under these with drush CLI, you will get the option list after you type and run the basic command:
 
-
 <img src="../cicd/captures/structuresync4.png"  width="300">
+
+
+
+
+Do we need these next paragraphs?
+ by doing:
+
+`lando drush cim`
+
+
+
+"The module will prevent you from having to create content multiple times and also decrease the risk of some elements being out of sync between environments, the main menu for example. It will also synchronize the UUIDs for these items to prevent you from having to change references to this in other configuration files. Finally, you have the ability to do a partial export or import so some of these elements can still be considered environment-specific content.
+Before the mechanics of using the module, you may be new to Drupal and need a brief explanation of a couple of these parts.  Menus are select explanatory.  Taxonomy is how to make structured tags or categories that are used to help organize your content for people to more easily find and see what they are looking for."
+
 
 
 [- Next -]()
