@@ -64,9 +64,9 @@ Like typical, that 'yml' file that was exported in your 'local' environment is s
 
 ### There are three option buttons to select from; Safely, Full, and Force.  
 
---Safely = 'new stuff' and it only imports those custom blocks/taxonomies/menus in config that were not previously there.<br>
---Full = 'new and refresh' because it imports all the custom blocks/taxonomies/menus regardless if they have already existed before. It deletes any custom blocks/taxonomies/menus that are not in config which might be a little questionable if somehow your exported list had changed unintentionally; like you forgot to check all the boxes at export because you thought you were just wanting to add the new ones (crash and burn but you can go back local and redo the process to dig out of the hole).<br>
---Force = 'skate on thin ice'  because this option will not check for any existing blocks, menus or taxonomies and just deletes all custom blocks/taxonomies/menus in the system and creates new ones.<br>
+**Safely** = 'new stuff' and it only imports those custom blocks/taxonomies/menus in config that were not previously there.<br>
+**Full** = 'new and refresh' because it imports all the custom blocks/taxonomies/menus regardless if they have already existed before. It deletes any custom blocks/taxonomies/menus that are not in config which might be a little questionable if somehow your exported list had changed unintentionally; like you forgot to check all the boxes at export because you thought you were just wanting to add the new ones (crash and burn but you can go back local and redo the process to dig out of the hole).<br>
+**Force** = 'skate on thin ice'  because this option will not check for any existing blocks, menus or taxonomies and just deletes all custom blocks/taxonomies/menus in the system and creates new ones.<br>
 
 Here is the GUI way ---
 
