@@ -23,22 +23,31 @@ Sure, if you were working on a really small site and had high speed bandwidth, y
 `lando composer require drupal/structure_sync`<br>
 `lando drush en structure_sync`<br>
 
-The module will prevent you from having to create content multiple times and also decrease the risk of some elements being out of sync between environments, the main menu for example. It will also synchronize the UUIDs for these items to prevent you from having to change references to this in other configuration files. Finally, you have the ability to do a partial export or import so some of these elements can still be considered environment-specific content.
-Before the mechanics of using the module, you may be new to Drupal and need a brief explanation of a couple of these parts.  Menus are select explanatory.  Taxonomy is how to make structured tags or categories that are used to help organize your content for people to more easily find and see what they are looking for.  Blocks are one type of what Drupal calls 'entities'; although that doesn't do much for me because Drupal sort of defaults to everything being some sort of entity - people, pages, blocks…  I mentally simplify Blocks as being chunks of a page within a page.  Even UI designers tend to think of page layouts as organized into chunks that they might plot in a grid system.  Think of Drupal Blocks as doing that but because Drupal is a content management system it can reuse them on different pages, conditionally display them differently within different contexts, retrieve database stored parts to make a unique whole on the fly, etc.   A powerful capability that you will use.  But one that again lives at the intersection of code and content such that you will want this Structure_Sync module to smooth your workflow.
-To wrap your head around this Structure_Sync module, it helps to think about where this module places itself in the Drupal Administration.  You will find it under the "Structure" main menu rather than under the "Configuration".  Why would that be since it works with configuration at that code-content borderline?  The reason is because you are more likely to be using it while you are working with something you are doing with the Structure aspects of your website and once you set it, it simply works with the rest of Configuration naturally.  I am not saying you won't update it and then need to do a "drush cex" and "drush cim".  But unless you are adding or changing the menu, taxonomies, or blocks, once you set it up, it should fly on auto-pilot with normal configuration workflow.
+
+#### A Brief Explanation: Menu/Taxonomy/Blocks 
+We said some pretty important items on the edge of the code-content borderline get synchronized in your work flow with this module.  These are menu, taxonomy, and blocks.  Examples were already provided for menu and taxonomy.  Let's next understand blocks.
+
+Blocks are one type of what Drupal calls 'entities'.  That doesn't do much for me because Drupal sort of defaults to everything being some sort of entity - people, pages, blocks…  I mentally simplify Blocks as being chunks of a page within a page (purest, don't beat me up).  Even UI designers tend to think of page layouts as organized into chunks and they may even plot out a grid system approach to display.  Think of Drupal Blocks as doing that but because Drupal is a content management system it can reuse them on different pages.  Heck, Drupal can conditionally display blocks differently within different contexts.  It can retrieve database stored parts, or blocks, to make a unique whole on the fly!   These are powerful capabilities that you will use.  You can kind of see how these chunks would be consider content.  Yet, if you think of some block that your drop into a sidebar on a variety of page types you can kind of see how having them present in a working development environment can provide a valuable context.
+
+#### How to think about using Structure_Sync
+To wrap your head around this Structure_Sync module, it helps to think about where this module places itself in the Drupal Administration.  You will find it under the "Structure" main menu rather than under the "Configuration".  Why would that be since it works with configuration at that code-content borderline?  The reason is because you are more likely to be using it while you are working with something you are doing with the Structure aspects of your website. And, once you set it, it simply works with the rest of Configuration naturally.  I am not saying you won't update it and then need to do a "drush cex" and "drush cim".  But unless you are adding or changing the menu, taxonomies, or blocks, once you set it up, it should fly on auto-pilot with normal configuration workflow.
+
 It probably makes sense to start by looking at the GUI interface that was added as an option under Structure.  You will find separate tabs for menus, taxonomies, and blocks that work the same way but they present separately so you don't have to figure out which are available from one large cluster.  What is available to export shows up on a list with that title that looks very much like a configuration GUI.  Like the example image, you probably are going to checkbox all of them unless you have some reason not to, like a work in progress item.. 
 
 <img src="../cicd/captures/structuresync1.png"  width="750">
 
 After you select the items for export, you need to click that blue button labeled "Export..Something" and the Something will depend on if it is a block, a menu, or a taxonomy.  After you do that for each tab option, then you want to export your configuration; remember we do that with:
-			`lando drush cex`
-To go prove to yourself how this works, you can pop over to your configuration and see that a new file has been added.  In our case, you can look in that left directory map panel of VSCode and see the /config/sync subdirectory which had all those yml files we found after our prior `lando drush cex` and you will find a new one called `structure_sync.data.yml` in the list.   That little blue Git indicator should also show a count of "1" (or more if you did something else too) for the file change/addition of that file.   If you are a CI interface person, you would see something like the image below:
 
+			`lando drush cex`<br>
+			
+To go prove to yourself how this works, you can pop over to your configuration and see that a new file has been added.  In our case, you can look in that left directory map panel of VSCode and see the /config/sync subdirectory which had all those yml files we found after our prior `lando drush cex` and you will find a new one called `structure_sync.data.yml` in the list.   That little blue Git indicator should also show a count of "1" (or more if you did something else too) for the file change/addition of that file.   If you are a CI interface person, you would see something like the image below:
 
 <img src="../cicd/captures/structuresync2.png"  width="350">
 
 Like typical, that yml file is sitting available but you need to import it to the alternative environment by doing:
-			`lando drush cim`
+
+			`lando drush cim`<br>
+			
 Think these steps this way.  You build your menu, taxonomy, and/or blocks; in our case in our Lando local site.  Then you mark those you wish to make available in other environments with Structure_Sync using either the GUI interface or some CLI alternatives we will discuss shortly.  Doing a configuration export (cex) in your local Lando environment puts a new structure_sync.data.yml file into your yml files used to pass to other environments; in our case we can 'commit/stage/sync' in VSCode and they will be in the Platform.sh environment for the branch we are working on.  If that new yml file is in the environment, a lando drush cim put it into 'active' configuration.  Finally, we want to make sure the 'setting' within that yml file align between environments so we tell the 'active' configuration to leverage the knowledge imbedded in that file to set matching menu, taxonomy, and blocks in the alternative environment. 
 To do that final step, if you go back in the GUI you can now see the "Import..Something" is populated and you can hit one of the three buttons to do so.   There are three option buttons to select from; Safely, Full, and Force.  Here is the difference:
 
@@ -56,6 +65,9 @@ https://www.specbee.com/blogs/export-import-menus-customblocks-taxonomies-drupal
 
 
 
+Do we need this next paragraph?
+"The module will prevent you from having to create content multiple times and also decrease the risk of some elements being out of sync between environments, the main menu for example. It will also synchronize the UUIDs for these items to prevent you from having to change references to this in other configuration files. Finally, you have the ability to do a partial export or import so some of these elements can still be considered environment-specific content.
+Before the mechanics of using the module, you may be new to Drupal and need a brief explanation of a couple of these parts.  Menus are select explanatory.  Taxonomy is how to make structured tags or categories that are used to help organize your content for people to more easily find and see what they are looking for."
 
 
 If you are a Command Line Interface (CLI) person, there are drush commands to do what the GUI offers.  REMEMBER THAT SINCE WE ARE USING LANDO for our local environment, we need to preceed these with 'lando drush somecommand'
