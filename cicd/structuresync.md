@@ -42,7 +42,7 @@ Clinck on the Structure Sync option and you will find separate tabs for menus, t
 
 After you select the items for export, you need to click that blue button labeled "Export..Something" and the Something will depend on if it is a block, a menu, or a taxonomy.  After you do that for each tab option, then you want to export your configuration; remember we do that with:
 
-			`lando drush cex`<br>
+`lando drush cex`
 			
 To go prove to yourself how this works, you can pop over to your configuration and see that a new file has been added.  In our case, you can look in that left directory map panel of VSCode and see the /config/sync subdirectory which had all those yml files we found after our prior `lando drush cex` and you will find a new one called `structure_sync.data.yml` in the list.   That little blue Git indicator should also show a count of "1" (or more if you did something else too) for the file change/addition of that file.   If you are a CI interface person, you would see something like the image below:
 
