@@ -34,7 +34,7 @@ To wrap your head around this Structure_Sync module, it helps to think about whe
 
 It probably makes sense to start by looking at the GUI interface that was added as an option under Structure.  
 
-<img src="../cicd/captures/structuresync0.png"  width="450">
+<img src="../cicd/captures/structuresync0.png"  width="350">
 
 Clinck on the Structure Sync option and you will find separate tabs for menus, taxonomies, and blocks that work the same way but they present separately so you don't have to figure out which are available from one large cluster.  What is available to export shows up on a list with that title that looks very much like a configuration GUI.  Like the example image, you probably are going to checkbox all of them unless you have some reason not to, like a work in progress item.. 
 
@@ -44,13 +44,17 @@ After you select the items for export, you need to click that blue button labele
 
 `lando drush cex`
 			
-To go prove to yourself how this works, you can pop over to your configuration and see that a new file has been added.  In our case, you can look in that left directory map panel of VSCode and see the /config/sync subdirectory which had all those yml files we found after our prior `lando drush cex` and you will find a new one called `structure_sync.data.yml` in the list.   That little blue Git indicator should also show a count of "1" (or more if you did something else too) for the file change/addition of that file.   If you are a CI interface person, you would see something like the image below:
+To go prove to yourself how this works, you can pop over to your configuration and see that a new file has been added.  In our case, you can look in that left directory map panel of VSCode and see the /config/sync subdirectory which had all those 'yml' files we found after our prior `lando drush cex` and you will find a new one called `structure_sync.data.yml` in the list.   
+
+<img src="../cicd/captures/structuresync00.png"  width="250">
+
+That little blue Git indicator should also show a count of "1" (or more if you did something else too) for the file change/addition of that file.   While that `lando drush cex` runs, it will likely show you an expected update in a box like shown below and ask you to confirm with a 'yes' that you want to overwrite the prior export with the more current one.  
 
 <img src="../cicd/captures/structuresync2.png"  width="350">
 
 Like typical, that yml file is sitting available but you need to import it to the alternative environment by doing:
 
-			`lando drush cim`<br>
+`lando drush cim`
 			
 Think these steps this way.  You build your menu, taxonomy, and/or blocks; in our case in our Lando local site.  Then you mark those you wish to make available in other environments with Structure_Sync using either the GUI interface or some CLI alternatives we will discuss shortly.  Doing a configuration export (cex) in your local Lando environment puts a new structure_sync.data.yml file into your yml files used to pass to other environments; in our case we can 'commit/stage/sync' in VSCode and they will be in the Platform.sh environment for the branch we are working on.  If that new yml file is in the environment, a lando drush cim put it into 'active' configuration.  Finally, we want to make sure the 'setting' within that yml file align between environments so we tell the 'active' configuration to leverage the knowledge imbedded in that file to set matching menu, taxonomy, and blocks in the alternative environment. 
 To do that final step, if you go back in the GUI you can now see the "Import..Something" is populated and you can hit one of the three buttons to do so.   There are three option buttons to select from; Safely, Full, and Force.  Here is the difference:
