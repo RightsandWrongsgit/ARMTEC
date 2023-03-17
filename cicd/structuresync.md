@@ -1,6 +1,6 @@
 # Structure_sync module
 ## REVISITING CONFIGURATION 'EXPORT' AND 'IMPORT'
-### "Think CONFIGURATIONS for each of the environments you set up
+### Think CONFIGURATIONS for each of the environments you set up
 
 It may feel like ancient history but about 30 pages back we discussed the use of Configuration Export and Import in a world that was pretty plain vanilla.  We learned that your website has an active configuration it is using all the time while it is operating.  And, if we wanted to get that active configuration saved so we might use it in an other environment, we ran 'lando drush cex' to export it into yml files.  There were a whole long list of those yml files and we found that our settings.php had told the system we wanted ours to go into the /config/sync  subdirectory and after we did that in our local environment we did that commit/stage/sync stuff in our VSCode IDE and saw them over in the project's GitHub repository.  We also figured out that if we did a few things and then decided we screwed up on additional development in an environment we could get out of a fair amount of trouble by just doing a 'lando drush cim'  and pull the prior configuration back into "active".  Depending on what we had done and how deep what we did changed various things we might also have to recover ourselves by restoring from a prior GitHub branch and even re-pull the database with out content.
 
