@@ -16,13 +16,14 @@ Before the mechanics of using the module, you may be new to Drupal and need a br
 To wrap your head around this Structure_Sync module, it helps to think about where this module places itself in the Drupal Administration.  You will find it under the "Structure" main menu rather than under the "Configuration".  Why would that be since it works with configuration at that code-content borderline?  The reason is because you are more likely to be using it while you are working with something you are doing with the Structure aspects of your website and once you set it, it simply works with the rest of Configuration naturally.  I am not saying you won't update it and then need to do a "drush cex" and "drush cim".  But unless you are adding or changing the menu, taxonomies, or blocks, once you set it up, it should fly on auto-pilot with normal configuration workflow.
 It probably makes sense to start by looking at the GUI interface that was added as an option under Structure.  You will find separate tabs for menus, taxonomies, and blocks that work the same way but they present separately so you don't have to figure out which are available from one large cluster.  What is available to export shows up on a list with that title that looks very much like a configuration GUI.  Like the example image, you probably are going to checkbox all of them unless you have some reason not to, like a work in progress item.. 
 
-image
+<img src="../cicd/captures/structuresync1.png"  width="600">
 
 After you select the items for export, you need to click that blue button labeled "Export..Something" and the Something will depend on if it is a block, a menu, or a taxonomy.  After you do that for each tab option, then you want to export your configuration; remember we do that with:
 			`lando drush cex`
 To go prove to yourself how this works, you can pop over to your configuration and see that a new file has been added.  In our case, you can look in that left directory map panel of VSCode and see the /config/sync subdirectory which had all those yml files we found after our prior `lando drush cex` and you will find a new one called `structure_sync.data.yml` in the list.   That little blue Git indicator should also show a count of "1" (or more if you did something else too) for the file change/addition of that file.   If you are a CI interface person, you would see something like the image below:
 
-image
+
+<img src="../cicd/captures/structuresync2.png"  width="600">
 
 Like typical, that yml file is sitting available but you need to import it to the alternative environment by doing:
 			`lando drush cim`
@@ -35,7 +36,8 @@ Force = 'skate on thin ice'  because this option will not check for any existing
 
 Here is the GUI way ---
 
-image
+
+<img src="../cicd/captures/structuresync3.png"  width="600">
 
 For a good overview of this process by an actually eloquent writer, read this:
 https://www.specbee.com/blogs/export-import-menus-customblocks-taxonomies-drupal9-8-structure-sync-module
@@ -59,7 +61,8 @@ import-all (ia) - Import taxonomy terms, custom blocks and menu links from confi
 
 In case you were wondering how the Full/Safe/Force import options play out under these with drush CLI, you will get the option list after you type and run the basic command:
 
-image
+
+<img src="../cicd/captures/structuresync4.png"  width="600">
 
 
 [- Next -]()
