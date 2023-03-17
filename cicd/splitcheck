@@ -1,4 +1,7 @@
-Config_Split Module in place, let's set it in motion -
+
+# Config_Split Module in place
+## Let's set it in motion -
+
 With config_split installed and enabled plus sub-directories set up for our splits, we need to point the module to those locations.  We go into the 'Configuration' menu in Administration and find the 'Development' section.  There you will be able to select the 'Configuration Split settings' option.  
 
 image
