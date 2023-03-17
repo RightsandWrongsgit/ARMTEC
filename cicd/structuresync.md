@@ -36,7 +36,7 @@ It probably makes sense to start by looking at the GUI interface that was added 
 
 <img src="../cicd/captures/structuresync0.png"  width="450">
 
-You will find separate tabs for menus, taxonomies, and blocks that work the same way but they present separately so you don't have to figure out which are available from one large cluster.  What is available to export shows up on a list with that title that looks very much like a configuration GUI.  Like the example image, you probably are going to checkbox all of them unless you have some reason not to, like a work in progress item.. 
+Clinck on the Structure Sync option and you will find separate tabs for menus, taxonomies, and blocks that work the same way but they present separately so you don't have to figure out which are available from one large cluster.  What is available to export shows up on a list with that title that looks very much like a configuration GUI.  Like the example image, you probably are going to checkbox all of them unless you have some reason not to, like a work in progress item.. 
 
 <img src="../cicd/captures/structuresync1.png"  width="750">
 
