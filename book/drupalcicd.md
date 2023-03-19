@@ -36,8 +36,9 @@ VSCode integrates with that 'Git' version control stuff.  'Git' version control 
 -  [Configurations by Split: Table](../cicd/configsplit3.md)
 -  [Environment Indicator](../cicd/envindicator.md)
 -  [Environment Settings](../cicd/envsettings.md)
-
-
+-  [Put Config Split In Place](cicd/splitcheck.md)
+-  [Structure Sync](cicd/structuresync.md)
+-  [UUIDs: Friend or Foe](cicd/UUID.md)
 
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;* Appendices
@@ -46,6 +47,7 @@ VSCode integrates with that 'Git' version control stuff.  'Git' version control 
 - [Drupal Scaffold ("overwrite": false) solution](../cicd/scaffold.md)
 - [Reestablishing your GitHub-Platform.sh Integration](../cicd/expiredconnection.md)
 - [SubTheme Setup](../cicd/subtheme.md)
+- [UUIDs: Actually Change them](../cicd/changeUUID.md)
 
 
 
