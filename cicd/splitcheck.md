@@ -26,8 +26,8 @@ When you have all four environments named and pointing to their sub-directory ho
 
 
 
-* John Picozzi "Configuration Management & Config Split" is a nice but long video on some additional options for splits like even Multi-site environments.  He doesn't use the same approach to environment case detection and the 'case' test; but something fairly similar.  He also doesn't do the environment-indicator but actually uses system.site within split configurations to do the same sort of thing manually as a demonstration of the yml level conditional (rather than full module) splits. 
-https://www.youtube.com/watch?v=rwKjVVhOHs4
+* John Picozzi "[Configuration Management & Config Split](https://www.youtube.com/watch?v=rwKjVVhOHs4)" is a nice but long video on some additional options for splits like even Multi-site environments.  He doesn't use the same approach to environment case detection and the 'case' test; but something fairly similar.  He also doesn't do the environment-indicator but actually uses system.site within split configurations to do the same sort of thing manually as a demonstration of the 'yml' level conditional (rather than full module) splits. 
 
 
-- Next -
+
+[- Next -](../cicd/structuresync.md)
