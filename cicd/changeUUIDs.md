@@ -29,8 +29,8 @@ The `i.bak` argument will create a backup of the affected file. This is 'sweet' 
 `rm *.bak`
 
 References from a...<br>
-[Wizard](https://drupalcommands.com/console/config/config-export/)
-[Czar](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/sed.1.html)
+[Wizard](https://drupalcommands.com/console/config/config-export/)<br>
+[Czar](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/sed.1.html)<br>
 [Maes·tro](https://stackoverflow.com/questions/5410757/delete-lines-in-a-text-file-that-contain-a-specific-string)
 
 
