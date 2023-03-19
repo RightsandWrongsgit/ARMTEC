@@ -28,10 +28,10 @@ Stripping the uuid line out via a manual process which can be a pain because the
 The `i.bak` argument will create a backup of the affected file. This is 'sweet' because when satisfied with the results, you can safely get rid of the .bak files with: 
 `rm *.bak`
 
-References from a...<br>
-[Wizard](https://drupalcommands.com/console/config/config-export/)<br>
-[Czar](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/sed.1.html)<br>
-[Maes·tro](https://stackoverflow.com/questions/5410757/delete-lines-in-a-text-file-that-contain-a-specific-string)
+Additional references from a...<br>
+- [Wizard](https://drupalcommands.com/console/config/config-export/)<br>
+- [Czar](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/sed.1.html)<br>
+- [Maes·tro](https://stackoverflow.com/questions/5410757/delete-lines-in-a-text-file-that-contain-a-specific-string)
 
 
 ### GET AND SET UUIDs
