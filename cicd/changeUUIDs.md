@@ -7,12 +7,12 @@ The basic approach for dealing with UUIDs is shown as the use of the Config Suit
 ### REMOVE UUIDs
 To manually remove all of the UUID and default_config_hash lines from your config files so that they don't conflict with those of a new site this can be done quite easily on the command line like so: 
 
-<font color=red>For Linux</font>
+<font color=red>For Linux</font><br>
 `find /path/to/PROFILE_NAME/config/sync/ -type f -exec sed -i -e '/^uuid: /d' {} \;`<br>
 `find /path/to/PROFILE_NAME/config/sync/ -type f -exec sed -i -e '/_core:/,+1d' {} \;`
 
-<font color=red>For Mac OSX</font>
-`find /path/to/PROFILE_NAME/config/sync/ -type f -exec sed -i '' '/^uuid: /d' {} \;<br>
+<font color=red>For Mac OSX</font><br>
+`find /path/to/PROFILE_NAME/config/sync/ -type f -exec sed -i '' '/^uuid: /d' {} \;`<br>
 `find /path/to/PROFILE_NAME/config/sync/ -type f -exec sed -i '' '/_core:/{N;d;}' {} \;`
 
 <font color=yellow size=small>* NOTE: may need to modify the path to where your own config files are located; e.g. /config/sync</font>
