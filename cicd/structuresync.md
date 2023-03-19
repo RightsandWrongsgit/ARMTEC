@@ -1,5 +1,5 @@
 # Structure_sync module
-## REVISITING CONFIGURATION 'EXPORT' AND 'IMPORT'
+## REVISIT CONFIG 'EXPORT' AND 'IMPORT'
 ### Think CONFIGURATIONS for each of the environments you set up
 
 
