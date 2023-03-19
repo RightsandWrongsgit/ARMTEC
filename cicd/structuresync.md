@@ -1,6 +1,7 @@
 # Structure_sync module
 ## REVISIT CONFIG 'EXPORT' AND 'IMPORT'
-### Think CONFIGURATIONS for each of the environments you set up
+### Think CONFIGURATIONS for each environment
+### 'main', 'staged', 'develop' & 'local'
 
 
 #### Basic Export/Import
