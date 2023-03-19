@@ -1,6 +1,6 @@
 
 # Appendix: Changing the UUIDs
-## So your New site can use the 'base' configuration you cloned
+## So your new site can use the 'base' configuration you cloned
 
 The basic approach for dealing with UUIDs is shown as the use of the Config Suite module.  That module includes the php code to basically ignore the UUIDs.  If that module does not maintain its Drupal version updates or you simply prefer to align rather than ignore the UUIDs, here are how you can approach it.
 
