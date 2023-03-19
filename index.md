@@ -48,7 +48,9 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Configurations by Split: Table](cicd/configsplit3.md)
 - [Environment Indicator](cicd/envindicator.md)
 - [Environment Settings](cicd/envsettings.md)
-
+- [Put Config Split In Place](cicd/splitcheck.md)
+- [Structure Sync](cicd/structuresync.md)
+- [UUIDs: Friend or Foe](cicd/UUID.md)
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;* Appendices
 - [Adding php xdebug](cicd/xdebug.md)
