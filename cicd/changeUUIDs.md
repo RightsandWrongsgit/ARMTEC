@@ -42,12 +42,12 @@ What I mean by the edit-to-new opportunity is that instead of eliminating UUIDs 
 
 <font color=yellow size=small>NOTE:  If you get "The import failed due to the following reasons: Entities exist of type <em class="placeholder">Shortcut link</em> and <em c lass="placeholder">Shortcut set</em> <em class="placeholder">Default</em>."</font>  <font size=small>These entities need to be deleted before importing; try:</font> `drush -y entity:delete shortcut_set` before your `drush -y cim`
 
-More here - https://drupal.stackexchange.com/questions/150481/how-can-i-import-the-configuration-on-a-different-site
-Fuller article outlining process in a context. 
-https://enzo.weknowinc.com/articles/2014/08/27/understanding-configuration-management-in-drupal-8
+- [More here](https://drupal.stackexchange.com/questions/150481/how-can-i-import-the-configuration-on-a-different-site)
+- [Fuller article outlining process] (https://enzo.weknowinc.com/articles/2014/08/27/understanding-configuration-management-in-drupal-8)
 
 
-Alternatively, you could combine approaches where you run the batch approach, do the drush cget process to get the UUID from the new site you are going to import into, copy that UUID into your clipboard, and then go replace the UUIDs in all those bak files.  After you have the bak files updated, remove there no UUID counter-parts and rename the bak files to their original names.  Now all your UUID containing files will contain the new sites values.  And you can do this in not just the /config/sync subdirectory but also the /config/main, /config/staged, /config/develop, and /config/local subdirectories if any of them contain files with UUIDs.  If you are just now setting up a newly cloned site, you probably won't have any or many.  But if you are doing this to a site you have installed a bunch of stuff and configured your site with lots of updates, you might generate several bak files to manually edit in each of these subdirectories. 
+### Your an untrusting sole and like to plod your own way through
+Alternatively, you could combine approaches where you run the batch approach, do the drush cget process to get the UUID from the new site you are going to import into, copy that UUID into your clipboard, and then go replace the UUIDs in all those bak files.  After you have the bak files updated, remove their no UUID counter-parts and rename the bak files to their original names.  Now all your UUID containing files will contain the new sites values.  And you can do this in not just the /config/sync subdirectory but also the /config/main, /config/staged, /config/develop, and /config/local subdirectories if any of them contain files with UUIDs.  If you are just now setting up a newly cloned site, you probably won't have any or many.  But if you are doing this to a site you have installed a bunch of stuff and configured your site with lots of updates, you might generate several bak files to manually edit in each of these subdirectories. 
 
 [Article on editing UUIDs](https://www.hashbangcode.com/article/drupal-8-configuration-originates-different-site)
 
