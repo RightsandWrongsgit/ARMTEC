@@ -22,18 +22,16 @@ Give some thought to stepping up to a batch process with automatic backup's as t
 ### REMOVE LOTS OF UUIDs FROM MANY YML FILES
 Stripping the uuid line out via a manual process which can be a pain because there can be a lot of files involved. You can use sed to delete lines in a text file that contain a specific string.  Translate that into the fact that yaml or yml files are essentially text files and that the "UUID: lkafjdl;fjaldjflkajdlkfjsalkjf" is on its own line where you can just find the key "UUID:" part of the key:value pair and delete the whole line. 
 
-[To automate this](https://gist.github.com/DavMorr/c3a5b73820778e2fb213cdd9d614f27a), run the following sed command in the directory containing the yml/yaml files:
+[To automate this](https://gist.github.com/DavMorr/c3a5b73820778e2fb213cdd9d614f27a), run the following sed command in the directory containing the yml/yaml files:<br>
 `sed -i.bak '/^uuid: /d' ./*`
 
 The `i.bak` argument will create a backup of the affected file. This is 'sweet' because when satisfied with the results, you can safely get rid of the .bak files with: 
 `rm *.bak`
 
-References:
+References from a...<br>
 [Wizard](https://drupalcommands.com/console/config/config-export/)
-
 [Czar](https://developer.apple.com/legacy/library/documentation/Darwin/Reference/ManPages/man1/sed.1.html)
-
-[maes·tro](https://stackoverflow.com/questions/5410757/delete-lines-in-a-text-file-that-contain-a-specific-string)
+[Maes·tro](https://stackoverflow.com/questions/5410757/delete-lines-in-a-text-file-that-contain-a-specific-string)
 
 
 ### GET AND SET UUIDs
