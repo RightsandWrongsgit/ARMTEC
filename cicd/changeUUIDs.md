@@ -19,7 +19,7 @@ To manually remove all of the UUID and default_config_hash lines from your confi
 
 Give some thought to stepping up to a batch process with automatic backup's as the best way to go at this.  Rather than specifying your path like above, you actually go into the involved subdirectory and run these commands.  I like this option not only for the extra safety of having the backup (bak) files but because those same files can actually be used as an edit-to-new opportunity.
 
-### REMOVE LOTS OF UUIDs FROM MANY YML FILES
+### REMOVE LOTS OF UUID's FROM MANY 'YML' FILES
 Stripping the uuid line out via a manual process which can be a pain because there can be a lot of files involved. You can use sed to delete lines in a text file that contain a specific string.  Translate that into the fact that yaml or yml files are essentially text files and that the "UUID: lkafjdl;fjaldjflkajdlkfjsalkjf" is on its own line where you can just find the key "UUID:" part of the key:value pair and delete the whole line. 
 
 [To automate this](https://gist.github.com/DavMorr/c3a5b73820778e2fb213cdd9d614f27a), run the following sed command in the directory containing the yml/yaml files:<br>
