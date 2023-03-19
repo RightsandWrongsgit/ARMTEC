@@ -58,8 +58,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Drupal Scaffold ("overwrite": false) solution](cicd/scaffold.md)
 - [Reestablishing your GitHub-Platform.sh Integration](cicd/expiredconnection.md)
 - [SubTheme Setup](cicd/subtheme.md)
-
-
+- [UUIDs: Actually Change them](cicd/changeUUID.md)
 
 ### Chapter: Awaiting Categorization
 - [Cheatsheets](book/cheats.md)
