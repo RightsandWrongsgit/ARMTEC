@@ -4,7 +4,8 @@
 
 You will notice on the table showing our configuration splits that we have the Stage File Proxy module on just the 'local' split.  Platform.sh is taking care of the code to database content relationship at the host with the container builds for each branch.  And, really, it is the local-to-host connection with your internet speed dependency that is important to use this module anyway.  The logic behind this module is that as content grows more and more for your site, it represents transmission overhead to be passing all of it to your local development environment.   Therefore, this module is sort of a 'just-in-time' line of thinking around what content to bring local.  As a developer, when you are working on the site's code, it is most likely you are working in some very specific section of the overall site so why bring all the content from the site to you local machine; save space and transmission time, especially on larger, content rich sites.  This module does just that; pulling content with a context of what is related to what you are working on so you can see your work in a real world setting.  As a side note, developers often use the Devel module's generate capability to make a set of fake or mocked up content to do this in a new site or where a totally new functionality of a site wouldn't have any actual content to test with.
 
-Install with composer as usual: 
+Install with composer as usual:
+
 `lando composer require drupal/stage_file_proxy`<br> 
 `lando drush en stage_file_proxy`
 
