@@ -38,4 +38,4 @@ Cross-checking our Config Split table, we see that Config Suite is one we will s
 A video on the [Config Suite module](https://www.youtube.com/watch?v=02IJGgGPBAw&t=112s)!
 
 
-[- Next -]()
+[- Next -](../cicd/stagefileproxy.md)
