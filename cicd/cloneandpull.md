@@ -15,56 +15,55 @@ Up will pop a list of your directories sort of like your normal 'finder' (Explor
 
 <img src="../cicd/captures/cloneandpull2.png"  width="700">
 
-If you look in the VSCode IDE on the left hand panel, like usual that little pages symbol is on the top left and clicking it will bring your project files into view; right back home on your own machine.
-Since your GitClone brought your code from GitHub to your local machine, follow the steps in this Lando site documentation where it says "if you already have your code locally" for more detail -
-https://docs.lando.dev/platformsh/getting-started.html
+If you look in the VSCode IDE on the left hand panel, like usual that little pages symbol is on the top left and clicking it will bring your project files into view; right back home on your own machine.  Since your GitClone brought your code from GitHub to your local machine, <font color=red>follow the steps in this Lando site documentation</font> where it says "[if you already have your code locally](https://docs.lando.dev/platformsh/getting-started.html).
 
-Before we kick off the Lando step, remember that you want to duplicate the 'my-example.settings.local.php' file and rename it without the "my-example." front portion.  The easiest thing to do is first remove the existing 'settings.local.php' file that the GitHub project would have had in it from the Drupal scaffold; then it won't be in the way of your renaming the copy you are replacing it with.
+Before we kick off the Lando step, remember that you want to duplicate the `my-example.settings.local.php` file and rename it without the `my-example` front portion.  The easiest thing to do is first remove the existing `settings.local.php` file that the GitHub project would have had in it from the Drupal scaffold; then it won't be in the way of your renaming the copy you are replacing it with.
 
-Here are the steps that the lando documentation outlines with you are using existing code:
-NOTE: This step the documentation didn't mention but I found it important because of the larger number of files in a current version of Drupal's core and a slow connection speed for composer to get and then have time to install files.  The default composer process max timeout seemed to be 300 seconds and I jumped it to 900 because I was having some trouble.
-export COMPOSER_PROCESS_TIMEOUT=900
+### Steps that the lando documentation outlines using existing code
+<font color=yellow>NOTE: This step the documentation didn't mention but I found it important because of the larger number of files in a current version of Drupal's core and a slow connection speed for composer to get and then have time to install files.  The default composer process max timeout seemed to be 300 seconds and I jumped it to 900 because I was having some trouble.</font>
+
+`export COMPOSER_PROCESS_TIMEOUT=900`
 
 <img src="../cicd/captures/cloneandpull3.png"  width="500">
 
-With a step sequence, first do a lando init \
-it will prompt with just an → where you enter --source cwd\
-another →where you enter –recipe platformsh
-then it asks you to select a Platform.sh account and list those you have and you 'arrow' to it
+With a step sequence, first do a `lando init \`<br>
+it will prompt with just an → where you enter `--source cwd\`<br>
+another →where you enter `–recipe platformsh`<br>
+then it asks you to select a Platform.sh account and lists those you have; you 'arrow' to it
 
 <img src="../cicd/captures/cloneandpull4.png"  width="500">
 
-t that point it asks you to add or refresh a token.  Since you probably didn't save yours or it may have timed out, just go into Platform.sh, move to the upper right and select 'My Profile'
+At that point it asks you to add or refresh a token.  Since you probably didn't save yours or it may have timed out, just go into Platform.sh, move to the upper right and select 'My Profile'
 
 <img src="../cicd/captures/cloneandpull5.png"  width="225">
 
-Remember that in 'My Profile' you can menu to the right and select the 'API Tokens' option -
-Just go ahead and generate a new one and copy it -
+Remember that in 'My Profile' you can move your cursor to the right and select the `API Tokens` option .
+Just go ahead and generate a new token and copy it -
 
 <img src="../cicd/captures/cloneandpull6.png"  width="600">
 
-Don't let the system fool you at the point you paste it in at the end of the line. The cursor doesn't move.  So now you think you need to try pasting it again and if you do you will get an error.  Rather, just accept the fact the cursor didn't move and hit enter.  Then you are prompted to 'arrow' to your project.
+<font color=yellow>Don't let the system fool you at the point you paste it in at the end of the line.</font> The cursor doesn't move when you paste it.  So now you think you need to try pasting it again and if you do you will get an error.  Rather, just accept the fact the cursor didn't move and hit enter.  Then you are prompted to 'arrow' to your project.
 
 <img src="../cicd/captures/cloneandpull7.png"  width="500">
 
-Do a 'lando start' -
+Do a `lando start`
 
 <img src="../cicd/captures/cloneandpull8.png"  width="500">
 
-After it runs and the list of URLs comes back, do a 'lando pull -r database -m web/sites/default/files' -
+After it runs and the list of URLs comes back, do a `lando pull -r database -m web/sites/default/files`
 
 <img src="../cicd/captures/cloneandpull9.png"  width="500">
 
-bring your database to the code you brought down from GitHub and you now how a fully functional local copy of your project running in Lando and connected to GitHub and Platform.sh
+This will bring your database to the code you brought down from GitHub and you now how a fully functional local copy of the project running in Lando and connected to GitHub and Platform.sh
 
 <img src="../cicd/captures/cloneandpull10.png"  width="600"><!--
 --><img src="../cicd/captures/cloneandpull11.png"  width="600">
 
-Run a lando info and you should see the URLs for your running local project plus stuff about it. It should look something like this -
+Run a `lando info` and you should see the URLs for your running local project plus stuff about it. It should look something like this -
 
 <img src="../cicd/captures/cloneandpull12.png"  width="500">
 
-
+You can copy one of those URL addresses, go over to your browser, paste it in the address box at the top, hit enter and you should see your running website ('local' environment copy).
 
 
 [- Next -}()
