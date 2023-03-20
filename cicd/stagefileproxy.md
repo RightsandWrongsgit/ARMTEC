@@ -26,11 +26,11 @@ $config['stage_file_proxy.settings']['origin'] = `platform url -e main --primary
 
 Now because you and I are simple humans we are going to make the error I did when I first tried to write that line and think that the thing before the word PLATFORM and after the word PIPE are single quotation marks and frustrate ourselves for why it isn't working.  Then some kind individual will take pity on us and explain those should be "back-ticks".  Then we are going to ask what the heck are those and how do I get one in my code; whereupon they will say look at the upper left of most keyboards and under the "tilde" symbol or wavy line thing ~ and you will find what starts and ends that syntax.  Apparently this will trigger that command line to actually execute within the lando container and send out of HTTP answer.  Here is the section of the settings.php code I inserted this line:
 
-image
+<img src="../cicd/captures/stagefileproxy1.png"  width="600">
 
 So I saved the file update in my local lando copy of the project, and then ran a lando rebuild.  The rebuild gives you the new browser address of your project, go in it, pop down to Administration/Configuration/Stage File Proxy and when you open it you should see something that looks like this (with different alpha-numeric strings for your own project's machine name and ID values).
 
-image
+<img src="../cicd/captures/stagefileproxy2.png"  width="700">
 
 If you are a happy camper that it is working, do your usual commit/stage/sync in VSCode and get it into your repository.  
 For the other CASE conditions for each of the other environments we have in your settings.php I have also inserted placeholder lines referencing no HTTP being set for any of the other environments because we don't aim to use them there.  But you will find this syntax near the end of each CASE except 'local'
@@ -42,7 +42,7 @@ You can get your URLs this way:
 platform ssh -e main 'echo $PLATFORM_ROUTES | base64 --decode | jq .'
 Here is what results from running this code:
 
-image
+<img src="../cicd/captures/stagefileproxy3.png"  width="500">
 
 The production_url value should match what you found in the Stage File Proxy configuration, e.g.: 
 http://www.main-bvxea6i-2ygxd5balkqjg.us-2.platformsh.site
