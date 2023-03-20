@@ -43,7 +43,9 @@ So I saved the file update in my local lando copy of the project, and then ran a
 
 <img src="../cicd/captures/stagefileproxy2.png"  width="700">
 
-If you are a happy camper that it is working, do your usual commit/stage/sync in VSCode and get it into your repository.  
+
+### Test it
+If you are a happy camper that it is working, do your usual "commit/stage/sync" in VSCode and get it into your repository.  
 For the other CASE conditions for each of the other environments we have in your settings.php I have also inserted placeholder lines referencing no HTTP being set for any of the other environments because we don't aim to use them there.  But you will find this syntax near the end of each CASE except 'local'
 
 `$config['stage_file_proxy.settings']['origin'] = '';`
