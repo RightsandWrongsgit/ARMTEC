@@ -35,7 +35,7 @@ So you are going to write a line of code that looks like this to set the HTTP ad
 
 `` $config['stage_file_proxy.settings']['origin'] = `platform url -e main --primary --pipe`; ``
 
-Now because you and I are simple humans we are going to make the error I did when I first tried to write that line and think that the thing before the word PLATFORM and after the word PIPE are single quotation marks and frustrate ourselves for why it isn't working.  Then some kind individual will take pity on us and explain those should be "back-ticks".  Then we are going to ask what the heck are those and how do I get one in my code; whereupon they will say look at the upper left of most keyboards and under the "tilde" symbol or wavy line thing ~ and you will find what starts and ends that syntax.  Apparently this will trigger that command line to actually execute within the lando container and send out of HTTP answer.  Here is the section of the `settings.php` code I inserted this line (There is a FOOTNOTE SYNTAX snapshot at the bottom of this page providing the full `settings.php` in context):
+Now because you and I are simple humans we are going to make the error I did when I first tried to write that line and think that the thing before the word PLATFORM and after the word PIPE are single quotation marks and frustrate ourselves for why it isn't working.  Then some kind individual will take pity on us and explain those should be "back-ticks".  Then we are going to ask what the heck are those and how do I get one in my code; whereupon they will say look at the upper left of most keyboards and under the "tilde" symbol or wavy line thing ~ and you will find what starts and ends that syntax.  Apparently this will trigger that command line to actually execute within the lando container and send out of HTTP answer.  Here is the section of the `settings.php` code I inserted this line (There is a SYNTAX FOOTNOTE snapshot at the bottom of this page providing the full `settings.php` in context):
 
 <img src="../cicd/captures/stagefileproxy1.png"  width="600">
 
@@ -63,7 +63,7 @@ You can get your URLs this way:</font>
 
 `http://www.main-bvxea6i-2ygxd5balkqjg.us-2.platformsh.site`
 
-## FOOTNOTE SYNTAX
+## SYNTAX FOOTNOTE
 Here is what the `settings.php` section will look like after you detect the environments, configure the splits, set environment indicators to clearly show where you are as you work, and set up the stage file proxy in the correct environment.
 
 <img src="../cicd/captures/stagefileproxy4.png"  width="600">
