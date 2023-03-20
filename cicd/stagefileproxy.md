@@ -21,7 +21,7 @@ Actually, platform.sh project do have URLs that can be utilized.  If you look in
 `http://example.com`
 
 
-The problem is that the URL needed to reference your project's site would look something like this:
+You haven't assigned a DNS to a development project. Therefore, the URL needed to reference your project's site on platform.sh will look something like this:
 
 `http://www.main-bvxea6i-2ygxd5balkqjg.us-2.platformsh.site`
 
