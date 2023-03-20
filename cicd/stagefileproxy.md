@@ -12,6 +12,7 @@ Install with composer as usual:
 After you install and enable this module, the easiest think to do is just have it turned off by default and have it turn on automatically in the 'local' environment by another tweak in the settings.php code you are using to trigger which environment and the environment indicator signals.  Remember, it is that section of the file where you detect the `$env` and test it against `case '_name_of_each_split_'`  and then tell it if that config is `TRUE` and what color and name you want to appear on its banner.
 
 Sounds like a brilliant plan.. Except, normally you set the stage_file_proxy module to look for content from the DNS deployed site URL list with something like this:
+
 `drush config-set stage_file_proxy.settings origin "_https://www.example.com_"`
 
 But we are doing development before we have a DNS assigned.  Now what?
