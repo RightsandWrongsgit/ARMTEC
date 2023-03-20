@@ -13,12 +13,12 @@ After you install and enable this module, the easiest think to do is just have i
 
 Sounds like a brilliant plan.. Except, normally you set the stage_file_proxy module to look for content from the DNS deployed site URL list with something like this:
 
-`drush config-set stage_file_proxy.settings origin "_https://www.example.com_"`
+`drush config-set stage_file_proxy.settings origin "https://www.example.com"`
 
 But we are doing development before we have a DNS assigned.  Now what?
 Actually, platform.sh project do have URLs that can be utilized.  If you look in the settings for Stage_file_proxy under your sites "Administration/Configuration menu" you see the box you are supposed to put the URL into and it outlines that it should look like this:
 
-`_http://example.com_`
+`http://example.com`
 
 
 The problem is that the URL needed to reference your project's site would look something like this:
