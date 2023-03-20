@@ -54,7 +54,8 @@ After it runs and the list of URLs comes back, do a 'lando pull -r database -m w
 
 bring your database to the code you brought down from GitHub and you now how a fully functional local copy of your project running in Lando and connected to GitHub and Platform.sh
 
-<img src="../cicd/captures/cloneandpull10.png"  width="600"><img src="../cicd/captures/cloneandpull11.png"  width="600">
+<img src="../cicd/captures/cloneandpull10.png"  width="600"><!--
+--><img src="../cicd/captures/cloneandpull11.png"  width="600">
 
 Run a lando info and you should see the URLs for your running local project plus stuff about it. It should look something like this -
 
