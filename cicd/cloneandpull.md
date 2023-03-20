@@ -1,13 +1,16 @@
 
 # GitClone the Project/Get the Database 
 
-Remember that the actual code for your project is in your GitHub repository.  Remember that we kind of tucked a few files in that repository that we really don't want the host to run but that we want to have locally to do somethings in that Lando local machine-environment we have; one we marked was the 'my-example.settings.local.php' file so it can be cloned down and then that leading word removed to make it locally functional.
-What you want to have as a starting point is your root level above where the project was/is going to be.  So if you have the project we have been working on in a directory, go a head and rename that directory with the word 'temphold' in front of the name you had. That way you can go back to it if you need but you can have GitClone bring down and tuck the retrieved project into the originally named directory.  Remember – DO NOT BE "IN" that directory, BE "ABOVE" it one level because GitClone will recreate it in the right spot that way.
-Remember in your VSCode IDE you hit 'Shift-Cmd-P'  to bring up the "Command Palette" for the list of commands it will run for you.  Start typing 'Git Clone' and it will roll to the top of the list; select it -
+Remember that the actual code for your project is in your GitHub repository.  Remember that we kind of tucked a few files in that repository that we really don't want the host to run but that we want to have locally to do somethings in that Lando local machine-environment; one we marked was the 'my-example.settings.local.php' file so it can be cloned down and the leading word removed to make it locally functional.
+
+What you want to have as a starting point is your root level above where the project was/is going to be.  So if you have the project we have been working on in a directory, go a head and rename that directory with the word 'temphold' in front of the name you had. That way you can go back to it if you need but you can have GitClone bring down and tuck the retrieved project into the originally named directory.  <font color=yellow)Remember – DO NOT BE "IN" that directory, BE "ABOVE" it one level because GitClone will recreate it in the right spot that way.</font>
+
+Remember in your VSCode IDE you hit `Shift-Cmd-P`  to bring up the "Command Palette" for the list of commands it will run for you.  Start typing `Git Clone` and it will roll to the top of the list; select it -
 
 <img src="../cicd/captures/cloneandpull1.png"  width="350">
 
-The selection box will show you the projects you have set up in your GitHub repository that are available for you to select.  Make sure to select the right one that matches where your Platform.sh project is running from and hit enter.  
+The selection box will show you the projects you have set up in the GitHub repository that are available for you to select.  Make sure to select the right one that matches where your Platform.sh project is running from and hit enter. 
+
 Up will pop a list of your directories sort of like your normal 'finder' (Explorer for Windows people).  Make sure you are at the level above where you want the project clone to show up; potentially parallel then to where that 'temphold-xxxxxxxxxx' directory is showing on the directory list you see.  You don't want to point to any existing subdirectory since Git Clone is making a new one; so don't be fooled into pointing at one by the "SELECT a Repository Destination" button hinting otherwise; just hit that button without pointing at anything!
 
 <img src="../cicd/captures/cloneandpull2.png"  width="700">
