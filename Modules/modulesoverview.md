@@ -20,6 +20,7 @@ The [CI/CD Workflow](../book/drupalcicd) puts in place modules to provide a spli
 - [Content Editing]()
 - [Media]()
 - [Mapping]()
+- [Flagging]()
 - [Search]()
 - [Themes]()
 - [Menu Enhancements]()
