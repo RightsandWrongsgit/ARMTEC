@@ -2,7 +2,7 @@
 # Flagging
 
 ### Anchor Links
-Some people think of flags as an option within CKeditor that allows you to mark some specific link location on a page somewhere in your website.  That is no surprising since you use the little flag symbol in the editor.  If you are familiar with "markup" like is used in building this site hosted on GitHub Pages, the concept is the same as [Name](directory/page#location).
+Some people think of flags as an option within CKeditor that allows you to mark some specific link location on a page somewhere in your website.  That is no surprising since you use the little flag symbol in the editor.  If you are familiar with "markup" like is used in building this site hosted on GitHub Pages, the concept is the same as `` [Name](directory/page#location). ``
 
 [Check out using anchor links](https://www.drupal.org/project/anchor_link)
 
