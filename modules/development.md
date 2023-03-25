@@ -13,8 +13,11 @@ Consider Drush foundational.  It is a convenient way to execute many important c
 If drush isn't already installed and enabled to this:
 
 `composer require --dev drush/drush`<br>
+
 Confirm the install with this:
+
 `./vendor/bin/drush --version`
+
 [Drush is so basic you really need it for all the rest of the module install/enable steps](https://drupalize.me/tutorial/install-drush-using-composer?p=3516)
 
 
