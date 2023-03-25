@@ -57,7 +57,7 @@ Having it on during development might get you to think about 'naming' with end-u
 `drush en pathauto`
 
 ## Token module
-It is easiest to think about tokens as variables.  One part of your site might contain a variable like the name of the logged in user and you want to use that variable in another section of the site.  The Token module provide visiblity into the availble variables and the syntax for how you need to refer to them.  
+It is easiest to think about tokens as variables.  One part of your site might contain a variable like the name of the logged in user and you want to use that variable in another section of the site.  The Token module provides visiblity into the availble variables and the syntax for how you need to refer to them.  
 
 <img src="../modules/images/token1.png"  width="450">
 
@@ -68,6 +68,12 @@ Install and enable the token module as usual...
 `composer require drupal/token`<br>
 `drush en token`
 
+
+## Masquerade Module
+This module lets you switch users and back to your own account.  You can experience testing what it is like for various log-in role statuses. Does it work for an anonomous user, for a logged in non-paid users, for a subscribing user, for a contributing editor, etc.
+
+`composer require drupal/masquerade`
+`drush en masquerade`
 
 
 
@@ -86,8 +92,7 @@ composer require 'drupal/admin_toolbar:^3.0'
 
 
 
-The Masquerade Module lets you switch users and back to your own account so you can do your experience testing of what it is like for various log in role statuses to experience your site.
-composer require 'drupal/masquerade:^2.0@beta'
+
 
 
 The Responsive Preview Module is a way to quickly test the look of your site in various responsive view breakpoints while you are doing development.  They warn it isn't a perfect simulation but pretty solid.
