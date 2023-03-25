@@ -46,15 +46,15 @@ Pathauto is simply a way that you can make this process more automatic;[Podcast 
 
 Having it on during development might get you to think about 'naming' with end-user thinking in sight.  Instead of a path that is something like a node and its number you might have a content category and a node title; and you can use 'Tokens' in the naming strategy for the paths. [See adding the Token module]() 
 
-`composer require drupal/pathauto`
+`composer require drupal/pathauto`<br>
 `drush en pathauto`
 
 ## Token module
 
 <img src="../modules/images/token1.png"  width="450">
 
-composer require drupal/token
-drush en token
+`composer require drupal/token`<br>
+`drush en token`
 
 
 
