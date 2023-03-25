@@ -21,7 +21,8 @@ Confirm the install with this:
 - [Drush is so basic you really need it for all the rest of the module install/enable steps](https://drupalize.me/tutorial/install-drush-using-composer?p=3516)
 - [How to use Drush for your Drupal site](https://www.a2hosting.com/kb/installable-applications/optimization-and-configuration/drupal2/using-drush-for-drupal/#Enabling-modules)
 - [Drupal Command List](https://drushcommands.com/)
-* <font color=yellow>Take Drupal out of Maintenance Mode via Drush.</font>  `drush sset system.maintenance_mode FALSE`
+
+*<font color=yellow>Take Drupal out of Maintenance Mode via Drush.</font>  `drush sset system.maintenance_mode FALSE`
 
 
 ## Environment Indicator module
