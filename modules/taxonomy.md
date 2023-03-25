@@ -20,6 +20,49 @@ composer require 'drupal/permissions_by_term:^3.1'
 https://www.youtube.com/watch?v=dYNcfa0ALj0
 
 
+- MODULES INVOLVING TAXONOMY & ITS USE -
+(Basic unstructured 'Tagging' and Simple Taxonomy are in Core.)
+
+
+
+Taxonomy Manager module (will help you deal with hierarchical levels):
+composer require drupal/taxonomy_manager
+drush en taxonomy_manager
+
+Import Taxonomy terms module (from a CSV file or backup is done with this module):
+Watch where it is in terms of development to see if it meets your minimum stability requirements.   Also, make sure you are aware that the taxonomy_manage module above already has some level of file import capability.
+composer require drupal/term_csv_export_import
+drush en term_csv_export_import
+
+Easier selection of taxonomies and terms Widgets modules (CHOOSE ONE):
+Working with the presentation of the taxonomies to give you control of relationships in things like views.  
+composer require drupal/term_reference_tree
+drush en term_reference_tree
+OR
+The entity reference tree widget module supports the standard 'composer install approach', while taking care of setting up some of the underlying jS capabilities that other modules require you to go in and do manually; so this is a simpler approach.
+composer require drupal/entity_reference_tree
+drush en entity_reference_tree
+
+
+Permissions by Term module (Controlling the 'Who' can do what with your taxonomy terms): 
+composer require drupal/permissions_by_term
+drush en permissions_by_term
+
+Facets module (Giving the User the power to leverage taxonomies beyond a search box): 
+composer require drupal/facets
+drush en facets
+
+Core Views Facets module (If you want to use Facets within Views):
+composer require drupal/core_views_facets
+drush en core_views_facets
+
+Facet Block module (multiple search facets combination blocks; e.g. multiple taxonomies filter):
+ composer require drupal/facets_block
+drush en facets_block
+
+Taxonomy Menu module (display taxonomy terms to a site visitor is through menus):
+composer require drupal/taxonomy_menu
+drush en taxonomy_menu
 
 
 
