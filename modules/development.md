@@ -36,7 +36,7 @@ As you build out each page of your site you are presented with an option where y
 
 If you use that, you might take something which may default to this...
 
-<img src="../modules/images/pathauto3.png"  width="350">
+<img src="../modules/images/pathauto3.png"  width="250">
 
 And make it look like this.  A more human readable, meaningful URL.
 
