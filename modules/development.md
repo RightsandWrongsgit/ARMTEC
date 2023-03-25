@@ -23,12 +23,16 @@ Confirm the install with this:
 
 ## Environment Indicator module
 [To easily see which environment split you are in](../cicd/envindicator.html)
-`composer require drupal/environment_indicator`
+
+`composer require drupal/environment_indicator`<br>
+
 `drush en environment_indicator`
 
 ## Stage File Proxy module
 [Real content sharing from Production to Development Environments](../cicd/stagefileproxy.md)
-`composer require drupal/stage_file_proxy`
+
+`composer require drupal/stage_file_proxy`<br>
+
 `drush en stage_file_proxy`
 
 
