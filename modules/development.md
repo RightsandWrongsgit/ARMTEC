@@ -10,7 +10,7 @@ Consider Drush foundational.  It is a convenient way to execute many important c
 
 <font color=yellow>NOTE: If we want to 'bailout' because we messed up what were were changing we can always just import back in the prior existing configuration with `lando drush cim`.</font>
 
-If drush isn't already installed and enabled to this:
+If drush isn't already installed and enabled do this:
 
 `composer require --dev drush/drush`<br>
 
