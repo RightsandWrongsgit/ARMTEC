@@ -37,7 +37,7 @@ Confirm the install with this:
 
 
 ## PathAuto
-As you build out each page of your site you are presented with an option where you can provide a specific URL.
+As you build out each page of your site you are presented with an option where you can provide a specific URL for that page.
 
 <img src="../modules/images/pathauto1.png"  width="550">
 
