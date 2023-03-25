@@ -1,26 +1,53 @@
 
-Set up your Development Tools:
+# Development Tools Modules
 
-Here is a good list of what you probably want to include right out of the box beyond the core items that are a standard part of Drupal 9.
+## Drush
+You would have installed this if you followed the building of or cloning of the CI/CD Project.  
+
+Consider Drush foundational.  It is a convenient way to execute many important commands much more quickly than winding through the GUI menu of Drupal Administration.  One of the most fundamental of all is to 'secure what you have done' by making an exported copy of your site configuration.  There is a GUI (graphical user interface) under the Administration/configuration called 'configuration synchronization' that can do this too but sometimes the GUI is more confusing and certainly a lot slower than just exporting a configuration with ...
+
+		`lando drush config-export`    OR      `lando drush cex`
+
+<font color=yellow>NOTE: If we want to 'bailout' because we messed up what were were changing we can always just import back in the prior existing configuration with `lando drush cim`.</font>
+
+If drush isn't already installed and enabled to this:
+
+`composer require --dev drush/drush`<br>
+Confirm the install with this:
+`./vendor/bin/drush --version`
+[Drush is so basic you really need it for all the rest of the module install/enable steps](https://drupalize.me/tutorial/install-drush-using-composer?p=3516)
 
 
-composer require drush/drush
+## Environment Indicator module
+[To easily see which environment split you are in](../cicd/envindicator.html)
+`composer require drupal/environment_indicator`
+`drush en environment_indicator`
+
+## Stage File Proxy module
+[Real content sharing from Production to Development Environments](../cicd/stagefileproxy.md)
+`composer require drupal/stage_file_proxy`
+`drush en stage_file_proxy`
 
 
-Once Drush is installed, it becomes a convenient way to execute many important commands.  One of the most fundamental of all is to 'secure what you have done' by making an exported copy of your site configuration.  There is a GUI (graphical user interface) under the Administration/configuration called 'configuration synchronization' that can do this too but sometimes the GUI is more confusing and certainly a lot slower than just doing these next few statements from the command line after you have spent time installing and enabling all the other recommended modules. So you might run this to secure that effort and practice the skill as you to the additions:
+## PathAuto
+As you build out each page of your site you are presented with an option where you can provide a specific URL.
 
-So you will be doing things in your Drupal application in whatever configuration is ACTIVE and you want to save those changes by EXPORTING them to make them available to the others ….
+<img src="../modules/images/pathauto1.png"  width="550">
 
-remember we want to KEEP what is in ACTIVE so we EXPORT it …
+If you use that, you might take something which may default to this...
+<img src="../modules/images/pathauto3.png"  width="350">
 
-		lando drush config-export    OR      lando drush cex
+And make it look like this.  A more human readable, meaningful URL.
+<img src="../modules/images/pathauto2.png"  width="350">
 
-NOTE: If we want to 'bailout' because we messed up what were were changing we can always just import back in the prior existing configuration with ‘lando drush cim’
+Pathauto is simply a way that you can make this process more automatic;[Podcast Overview](https://www.youtube.com/watch?v=3l8ihak4_uk). If your are building a tiny site then you really aren't leveraging the value of a content managment system like Drupal.  But if you are having frequently updated content, potentially from various sources, even fed to you via RSS, then having more automatic URL naming is important. 
+
+Having it on during development might get you to think about 'naming' with end-user thinking in sight.  Instead of a path that is something like a node and its number you might have a content category and a node title; and you can use 'Tokens' in the naming strategy for the paths. [See adding the Token module]() 
+
+`composer require drupal/pathauto`
+`drush en pathauto`
 
 
-_________________________________________________________________________
-
-Many developers like to use things beyond Drush to help their efforts.  Here are some 'optional' modules to consider:
 
 Devel (good to generate fake content, among other things, to better see what things will look like without having to spend a ton of time manually loading real content.) 
 composer require 'drupal/devel:^4.1'
@@ -33,9 +60,7 @@ composer require 'drupal/admin_toolbar:^3.0'
 
 
 
-PathAuto (This is also a module that you may want to wait to turn on because it is more about the 'appearance' of how paths look; to give them alias names that are much more meaningful to the user of your site.  However, having it on during development might get you to think about 'naming' with end-user thinking in sight.  Instead of a path that is something like a node and its number you might have a content category and a node title; and you can use 'Tokens' in the naming strategy for the paths (See adding the Token module under the 'fields' section.)
 
-composer require 'drupal/pathauto:^1.8'
 
 The Masquerade Module lets you switch users and back to your own account so you can do your experience testing of what it is like for various log in role statuses to experience your site.
 composer require 'drupal/masquerade:^2.0@beta'
@@ -54,9 +79,7 @@ Backup Add section on backup plan in coordination with hosting provider's set up
 Feeds Module is one that can be used to grab CSV and other file format data plus HTML from another site, and import it.  It is another candidate for pulling in Taxonomies or even airport data sets to preload nodes for all the airports.  It is in an Alpha 10 for Drupal 9 and it lists as not secure; however, if you install it to build and then remove it afterward it should be fine.
 
 
-Environment Indicator module (To easily see which environment split you are in):
-composer require drupal/environment_indicator
-drush en environment_indicator
+
 
 Development Mode module (stop cache, aggregation, turn on debug, in your 'Development' Split:
 composer require –dev drupal/dev_mode
@@ -66,9 +89,7 @@ Devel module (generate mock content, masquerade user, redirect email, etc.):
 composer require drupal/devel
 drush en devel
 
-Stage File Proxy module (Real content sharing from Production to Development Environments):
-composer require drupal/stage_file_proxy
-drush en stage_file_proxy
+
 
 Backup and Migrate module:
 composer require drupal/backup_migrate
