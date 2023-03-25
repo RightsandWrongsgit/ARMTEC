@@ -74,7 +74,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Drupal Modules](modules/modulesoverview.md)
 - [Development Modules](modules/development.md)
 - [Flagging Modules](modules/flagging.md)
-
+- [Taxonomy](modules/taxonomy.md)
 
 
 
