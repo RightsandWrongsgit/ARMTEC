@@ -35,9 +35,11 @@ As you build out each page of your site you are presented with an option where y
 <img src="../modules/images/pathauto1.png"  width="550">
 
 If you use that, you might take something which may default to this...
+
 <img src="../modules/images/pathauto3.png"  width="350">
 
 And make it look like this.  A more human readable, meaningful URL.
+
 <img src="../modules/images/pathauto2.png"  width="350">
 
 Pathauto is simply a way that you can make this process more automatic;[Podcast Overview](https://www.youtube.com/watch?v=3l8ihak4_uk). If your are building a tiny site then you really aren't leveraging the value of a content managment system like Drupal.  But if you are having frequently updated content, potentially from various sources, even fed to you via RSS, then having more automatic URL naming is important. 
@@ -46,6 +48,16 @@ Having it on during development might get you to think about 'naming' with end-u
 
 `composer require drupal/pathauto`
 `drush en pathauto`
+
+## Token module
+
+<img src="../modules/images/token1.png"  width="450">
+
+composer require drupal/token
+drush en token
+
+
+
 
 
 
@@ -103,9 +115,7 @@ Super Login module (take control of the appearance of log in):
 composer require drupal/super_login
 drush en super_login
 
-Token module:
-composer require drupal/token
-drush en token
+
 
 PathAuto module:
 composer require drupal/pathauto
