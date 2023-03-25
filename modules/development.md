@@ -22,7 +22,7 @@ Confirm the install with this:
 - [How to use Drush for your Drupal site](https://www.a2hosting.com/kb/installable-applications/optimization-and-configuration/drupal2/using-drush-for-drupal/#Enabling-modules)
 - [Drupal Command List](https://drushcommands.com/)
 
-<font color=yellow>*Take Drupal out of Maintenance Mode via Drush.</font>  `drush sset system.maintenance_mode FALSE`
+<font color=yellow>* Take Drupal out of Maintenance Mode via Drush.</font>  `drush sset system.maintenance_mode FALSE`
 
 
 ## Environment Indicator module
