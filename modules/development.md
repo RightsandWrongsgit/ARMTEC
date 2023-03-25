@@ -70,18 +70,38 @@ Install and enable the token module as usual...
 
 
 ## Masquerade Module
-This module lets you switch users and back to your own account.  You can experience testing what it is like for various log-in role statuses. Does it work for an anonomous user, for a logged in non-paid users, for a subscribing user, for a contributing editor, etc.
+This module lets you switch users and back to your own account.  You can experience testing what it is like for various log-in roles. Does it work for an anonomous user, for a logged in non-paid users, for a subscribing user, for a contributing editor, etc.
 
 `composer require drupal/masquerade`
 `drush en masquerade`
 
+## Responsive Preview Module
+Masquerade gets you the feel of different user type experiences. Responsive Preview gets you the feel of different device experiences. This module provides a way to quickly test the look of your site in various responsive view breakpoints while you are doing development.  They warn it isn't a perfect simulation but pretty solid.
+
+`composer require drupal/responsive_preview`<br>
+`drush en responsive_preview`
+
+
+## Devel Module
+As valuable as masquerading as different users or like you are on different devices may be, having mock content can be very helpful to really get a feel for how a finished site will work.  The Devel modules isgood to generate fake content to better see what things will look like without having to spend a ton of time manually loading real content.  But before you go down that road, if you are using our [CI/CD Process](../book/drupalcicd.md) you may want to consider the fact we are using the [Stage File Proxy Module](../cicd/stagefileproxy.html) to share production ('main') level data with our 'local' lando site in a tight contextual manner that may provide even better full perspective developer experience.
+
+`composer require 'drupal/devel`<br>
+`drush en devel`
+
+## WebProfiler Module
+WebProfiler adds a toolbar at the bottom of every page and shows you all sorts of stats such as the amount of database queries loaded on the page, which services are used and much more. This was previously part of the Devel module but is now separate.
+
+`composer require drupal/webprofiler`<br>
+`drush en webprofiler`
+
+## Devel Kint Extras Module
+This module was parsed out of the prior Devel module into a separate tool.  Makes sense because this tool starts to move you past a site builder level to true developer skill set. The [Kint Debugging Tool](https://kint-php.github.io/kint/) might be of interest only to some of the more advanced users.
+
+`composer require drupal/devel_kint_extras`<br>
+`drush en webprofiler`
 
 
 
-
-Devel (good to generate fake content, among other things, to better see what things will look like without having to spend a ton of time manually loading real content.) 
-composer require 'drupal/devel:^4.1'
-drush en devel
 
 
 Admin Toolbar (an alternative layout to the out-of-the-box toolbar that developers and site builders normally work with.  It used more of the vertical space of a pulldown style tool bar rather than drilling page by page into submenus; thus faster for developers).
@@ -89,14 +109,6 @@ Admin Toolbar (an alternative layout to the out-of-the-box toolbar that develope
 composer require 'drupal/admin_toolbar:^3.0'
 
 
-
-
-
-
-
-
-The Responsive Preview Module is a way to quickly test the look of your site in various responsive view breakpoints while you are doing development.  They warn it isn't a perfect simulation but pretty solid.
-composer require 'drupal/responsive_preview:^1.0'
 
 The Autosave Form Module is a 'maybe' addition to development and content editing.  It does NOT retain pure true revision versions but has its own temporary storage logic while you are working.  It is set at 60 second for an autosave but should be configurable.
 composer require 'drupal/autosave_form:^1.2'
@@ -108,16 +120,9 @@ Backup Add section on backup plan in coordination with hosting provider's set up
 Feeds Module is one that can be used to grab CSV and other file format data plus HTML from another site, and import it.  It is another candidate for pulling in Taxonomies or even airport data sets to preload nodes for all the airports.  It is in an Alpha 10 for Drupal 9 and it lists as not secure; however, if you install it to build and then remove it afterward it should be fine.
 
 
-
-
 Development Mode module (stop cache, aggregation, turn on debug, in your 'Development' Split:
 composer require –dev drupal/dev_mode
 drush en dev_mode
-
-Devel module (generate mock content, masquerade user, redirect email, etc.):
-composer require drupal/devel
-drush en devel
-
 
 
 Backup and Migrate module:
@@ -131,7 +136,6 @@ drush en prlp
 Super Login module (take control of the appearance of log in):
 composer require drupal/super_login
 drush en super_login
-
 
 
 
