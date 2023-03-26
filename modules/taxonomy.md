@@ -68,7 +68,7 @@ To display taxonomy terms to a site visitor is through menus, try this module.
 `drush en taxonomy_menu`
 
 
-# Taxonomy with Other Modules
+# Taxonomy w/ Other Modules
 
 [Taxonomy works in valuable ways](https://www.youtube.com/watch?v=5A3y0N_1Ufk) with the [Token Module](../modules/development.md#token-module).
 
