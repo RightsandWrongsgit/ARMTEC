@@ -24,7 +24,7 @@ Watch where this module stand in terms of development to see if it meets your mi
 `drush en term_csv_export_import`
 
 
-## Getting Them 'In' 
+# Getting Them 'In' 
 ### Easier selection of taxonomies and terms Widgets
 #### (CHOOSE ONE)
 You know in Drupal how you set up the fields in content, a form for input, and a display for how it should look.  Those tabs you go to in order to do this are widgets.  If you start getting into more complex taxonomies, some special widgets can be added with these two contributed modules.  Working with the presentation of the taxonomies is added with these widgets. They give you control of relationships between things like views.  Here are two candidates.  Test if the first one is actually better than the second for your purposes.
@@ -42,21 +42,6 @@ OR<br>
 `drush en entity_reference_tree`
 
 
-
-
-You can also leverage the powerful 'permissions by term' module to tightly control what entities are seem by specific users; content entities and even menu entities:
-composer require 'drupal/permissions_by_term:^3.1'
-https://www.youtube.com/watch?v=dYNcfa0ALj0
-
-
-
-
-
-
-Permissions by Term module (Controlling the 'Who' can do what with your taxonomy terms): 
-composer require drupal/permissions_by_term
-drush en permissions_by_term
-
 Facets module (Giving the User the power to leverage taxonomies beyond a search box): 
 composer require drupal/facets
 drush en facets
@@ -72,6 +57,27 @@ drush en facets_block
 Taxonomy Menu module (display taxonomy terms to a site visitor is through menus):
 composer require drupal/taxonomy_menu
 drush en taxonomy_menu
+
+
+
+
+
+
+
+# Taxonomy with Other Modules
+
+[Taxonomy works in valuable ways](https://www.youtube.com/watch?v=5A3y0N_1Ufk) with the [Token Module](../modules/development.md#token-module).
+
+## Permissions by Term module
+You can also leverage the powerful [Permissions by Term](https://www.youtube.com/watch?v=dYNcfa0ALj0) module to tightly control what entities are seen by specific users; content entities and even menu entities:
+
+`composer require drupal/permissions_by_term`<br>
+`drush en permissions_by_term`
+
+
+
+
+
 
 
 
