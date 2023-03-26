@@ -49,7 +49,7 @@ There is a [video by a guy from Iowa named Brian Webster that shows how](https:/
 
 ## Setting up the Mapping
  
-Start with the Geofield Module -
+### Start with the Geofield Module 
 
 <img src="../modules/images/mapinnode3.png"  width="750">
 
@@ -57,7 +57,7 @@ The ‘composer’ instructions to get the module on your system site -
 
 <img src="../modules/images/mapinnode4.png"  width="500">
 
-Also get the Geocoder module -
+### Also get the Geocoder module
 
 <img src="../modules/images/mapinnode5.png"  width="750">
 <img src="../modules/images/mapinnode6.png"  width="350">
