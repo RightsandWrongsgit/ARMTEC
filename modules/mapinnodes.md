@@ -66,45 +66,46 @@ Again use the ‘composer’ installation process to coordinate dependencies -
 
 <img src="../modules/images/mapinnode7.png"  width="500">
 
-Then make sure you also install the Geocoder Autocomplete module -
+### Install the Geocoder Autocomplete module
 
 <img src="../modules/images/mapinnode8.png"  width="750">
 <img src="../modules/images/mapinnode9.png"  width="350">
 
-Installing it with ‘Composer’ to coordinate dependencies -
+Installing it with ‘Composer’ to coordinate dependencies
 
 <img src="../modules/images/mapinnode10.png"  width="500">
 
-Also install the Geofield Map Module -
+### Install the Geofield Map Module
 
 <img src="../modules/images/mapinnode11.png"  width="750">
 <img src="../modules/images/mapinnode12.png"  width="350">
 
-Using ‘Composer’ to install it for dependency coordination -
+Using ‘Composer’ to install it for dependency coordination 
 
 <img src="../modules/images/mapinnode13.png"  width="500">
 
-Leaflet is another Drupal Module we want to install -
+### Install the Leaflet module 
 
 <img src="../modules/images/mapinnode14.png"  width="750">
 <img src="../modules/images/mapinnode15.png"  width="750">
 <img src="../modules/images/mapinnode16.png"  width="350">
 
-Same deal, we install it using ‘Composer’ -
+Same deal, we install it using ‘Composer’
 
 <img src="../modules/images/mapinnode17.png"  width="500">
 
-Where it gets interesting and you might need to experiment with the options is after you add the Leaflet More Maps Module.  This module then brings in the configuration options for a whole variety of Map sources.  Google maps is a common source and the video noted at the beginning shows it is a pretty accurate source.  But you do need to get a Google Map API key to use it and it might cost you to run if you are mapping a bunch of page calls to your site.  Some of the other maps are free, offer different map styles, etc.  
+### Install the Leaflet More Maps module
+ Where it gets interesting and you might need to experiment with the options is after you add the Leaflet More Maps Module.  This module then brings in the configuration options for a whole variety of Map sources.  Google maps is a common source and the video noted at the beginning shows it is a pretty accurate source.  But you do need to get a Google Map API key to use it and it might cost you to run if you are mapping a bunch of page calls to your site.  Some of the other maps are free, offer different map styles, etc.  
 
 <img src="../modules/images/mapinnode18.png"  width="750">
 <img src="../modules/images/mapinnode19.png"  width="750">
 <img src="../modules/images/mapinnode20.png"  width="350">
 
-As usual, install the module with the Composer approach to coordinate dependencies -
+As usual, install the module with the Composer approach to coordinate dependencies
 
 <img src="../modules/images/mapinnode21.png"  width="500">
 
-Remember, that ‘installing modules’ to your site is a two-step process.  The first step is bringing them physically to your site and within your ‘Composer.Json’ file as part of your site install on a physical server (or on a development/staging/production server in a coordinated way).  The second step is to go to your ‘Administration’ menu in Drupal and select the ‘Extend’ tab that shows all the modules physically present that you can activate.  All you need to do in the second step is checkmark the one(s) you want to activate and click the ‘Install’ button at the very bottom of the page -
+Remember, that ‘installing modules’ to your site is a two-step process.  The first step is bringing them physically to your site and within your `composer.json` file as part of your site install on a physical server (or on a development/staging/production server in a coordinated way).  The second step is to go to your ‘Administration’ menu in Drupal and select the ‘Extend’ tab that shows all the modules physically present that you can activate.  All you need to do in the second step is checkmark the one(s) you want to activate and click the ‘Install’ button at the very bottom of the page -
 
 <img src="../modules/images/mapinnode22.png"  width="600">
 <img src="../modules/images/mapinnode23.png"  width="300">
