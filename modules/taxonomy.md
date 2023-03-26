@@ -4,7 +4,7 @@
 
 Content of any depth needs a way to be presented to users filtered conveniently to their interests.  Thus content can be marked or 'tagged' with terms which can then act as filters to find and view what the users wants.  Drupal, out of the box, supports 'Tags' as a sort of "free form" classification of terms you can associate with content.
 
-More often you will want to create a structured taxonomy to associate with content to aid in finding the precise interests of the user.  For that were leverage a number of Taxonomy modules.  The Taxonomy module itself is an out of the box Core capability, just make sure it is enabled.
+More often you will want to create a structured taxonomy to associate with content to aid in finding the precise interests of the user.  For that were leverage a number of Taxonomy modules.  The Taxonomy module itself is an out of the box Core capability, just make sure it is enabled. [Drupal.Org does a detailed job of showing how to set up a taxonomy](https://www.drupal.org/docs/user_guide/en/structure-taxonomy-setup.html).
 
 Just like the biological application of the classification concept of taxonomy, Drupal allows you to have levels or a hierarchy.  But if you were to try to do the domain, kingdom, phylum, class, order, family, genus, and species level of depth it is pretty complex for a user to work with.  Often, it is better to use several taxonomies.  An example might be to use Resturant Cuisine, Resturant Style, Resturant Meal Occassions, Dietary Accomodations, and Resturant Features rather than trying to fold all that into some sort of complex hierarchical uni-taxonomy.
 
@@ -41,27 +41,32 @@ OR<br>
 `composer require drupal/entity_reference_tree`<br>
 `drush en entity_reference_tree`
 
+# User Presentation 
+### Taxonomy Selection
 
-Facets module (Giving the User the power to leverage taxonomies beyond a search box): 
-composer require drupal/facets
-drush en facets
+## Facets module
+To give the user the power to leverage taxonomies beyond a search box you might want to use facets.  Thing of these as the boxes you see on the left of the large shopping sites where you chose your size, color, price, etc. preferences.
 
-Core Views Facets module (If you want to use Facets within Views):
-composer require drupal/core_views_facets
-drush en core_views_facets
+`composer require drupal/facets`<br>
+`drush en facets`
 
-Facet Block module (multiple search facets combination blocks; e.g. multiple taxonomies filter):
- composer require drupal/facets_block
-drush en facets_block
+## Core Views Facets module
+If you want to use Facets within Views, add this module.
 
-Taxonomy Menu module (display taxonomy terms to a site visitor is through menus):
-composer require drupal/taxonomy_menu
-drush en taxonomy_menu
+`composer require drupal/core_views_facets`<br>
+`drush en core_views_facets`
 
+## Facet Block module
+If you need multiple search facet combination blocks, try this module.
 
+`composer require drupal/facets_block`<br>
+`drush en facets_block`
 
+## Taxonomy Menu module
+To display taxonomy terms to a site visitor is through menus, try this module.
 
-
+`composer require drupal/taxonomy_menu`<br>
+`drush en taxonomy_menu`
 
 
 # Taxonomy with Other Modules
@@ -82,4 +87,4 @@ You can also leverage the powerful [Permissions by Term](https://www.youtube.com
 
 
 
-[Drupal.Org does a detailed job of showing how to set up a taxonomy](https://www.drupal.org/docs/user_guide/en/structure-taxonomy-setup.html)
+
