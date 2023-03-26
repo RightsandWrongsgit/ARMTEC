@@ -1,8 +1,11 @@
 
-Restaurant Content Type:
- (Map in Node Example to extend to other content types)
+# Map in a Node
+### Example for a Resturant Node
+#### Also shows taxonomy for the resturant node
+This should be easily extended to other content types
 
-The basics should be in place -
+
+#### The basics should be in place 
 
 <img src="../modules/images/mapinnode1.png"  width="400">
 
@@ -10,49 +13,42 @@ There is a set of modules that work together to produce the desired end result. 
 
 <img src="../modules/images/mapinnode2.png"  width="400">
 
-SPEED SUMMARY:
+## Modules involved
 
-May need to install a minor patch depending if leaflet module update includes it automatically or not –
-https://www.drupal.org/project/leaflet_more_maps/issues/2847024
+`composer require drupal/address`<br>
+`composer require drupal/geofield`<br>
+`composer require drupal/geocoder`<br>
+`composer require drupal/geocoder_autocomplete`<br>
+`composer require drupal/geofield_map`<br>
+`composer require drupal/leaflet`<br>
+`composer require drupal/leaflet_more_maps`<br>
+`composer require geocoder-php/google-maps-provider`<br>
+`composer require geocoder-php/bing-maps-provider`<br>
+`composer require geocoder-php/arcgis-online-provider`<br>
+`composer require geocoder-php/mapbox-provider`<br>
+`composer require geocoder-php/open-cage-provider`<br>
+`composer require geocoder-php/yandex-provider`<br>
+`composer require drupal/extlink`<br>
+`composer require drupal/taxonomy_manager`<br>
+`composer require 'drupal/term_csv_export_import`<br>
+`composer require 'drupal/entity_reference_tree`<br>
+`composer require 'drupal/token`<br>
 
+<font color=yellow>May need to install a minor patch depending if leaflet module update includes it automatically or not.</font?
+[See the issue](https://www.drupal.org/project/leaflet_more_maps/issues/2847024)
 
-composer require 'drupal/address:^1.8'
-composer require 'drupal/geofield:^1.15'
-composer require 'drupal/geocoder:^3.11'
-composer require 'drupal/geocoder_autocomplete:^1.0'
-composer require 'drupal/geofield_map:^2.66'
-composer require 'drupal/leaflet:^2.0'
-composer require 'drupal/leaflet_more_maps:^1.0'
-composer require 'geocoder-php/google-maps-provider'
-composer require 'geocoder-php/bing-maps-provider'
-composer require 'geocoder-php/arcgis-online-provider'
-composer require 'geocoder-php/mapbox-provider'
-composer require 'geocoder-php/open-cage-provider'
-composer require 'geocoder-php/yandex-provider'
-composer require 'drupal/extlink:^1.3'
-composer require 'drupal/taxonomy_manager:1.0'
-       (NOTE:  There is an alternate Drupal 9 version of taxonomy manager)
-
-composer require 'drupal/term_csv_export_import:^3.0'
-composer require 'drupal/entity_reference_tree:^2.0'
-composer require 'drupal/token:^1.7'
-
-The assumption is that you have installed Drush already.  If not, you need to do so like this -
-              composer global require drush/drush:dev-master
-
+The assumption is that you have installed Drush already.  [If not](modules/development.md#drush)!
+ 
 Then you can ‘enable’ the modules composer downloaded with the following Drush commands (or go to the Administration/Extend tool bar and click each one to install them manually) -
 
 `drush en -y address geofield leaflet leaflet_views leaflet_markercluster leaflet_more_maps geocoder geocoder_address geocoder_field geocoder_geofield extlink taxonomy_manager term_csv_export_import entity_reference_tree token`
 
 
+There is a [video by a guy from Iowa named Brian Webster that shows how](https://www.youtube.com/watch?v=u5xXaeh4ngU) the mapping part is put in place.  Watching it is an alternative to following these instructions (although this documentation picks up some of the other key things about the actual “Restaurant” content type like leveraging the sets of taxonomy important to it.
 
 
-
-
-There is a video by a guy from Iowa named Brian Webster that shows how the mapping part is put in place.  Watching it is an alternative to following these instructions (although this documentation picks up some of the other key things about the actual “Restaurant” content type like leveraging the sets of taxonomy important to it.
-https://www.youtube.com/watch?v=u5xXaeh4ngU
-
-
+## Setting up the Mapping
+ 
 Start with the Geofield Module -
 
 <img src="../modules/images/mapinnode3.png"  width="750">
