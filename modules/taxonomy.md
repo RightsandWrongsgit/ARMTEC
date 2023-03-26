@@ -1,5 +1,5 @@
 
-# USING TAXONOMy
+# USING TAXONOMY
 ### Basic unstructured 'Tagging' and Simple Taxonomy are in Core.
 
 Content of any depth needs a way to be presented to users filtered conveniently to their interests.  Thus content can be marked or 'tagged' with terms which can then act as filters to find and view what the users wants.  Drupal, out of the box, supports 'Tags' as a sort of "free form" classification of terms you can associate with content.
