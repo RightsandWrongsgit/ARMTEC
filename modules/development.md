@@ -65,7 +65,7 @@ It is easiest to think about tokens as variables.  One part of your site might c
 
 <img src="../modules/images/token1.png"  width="450">
 
-[This summary](https://gole.ms/blog/tokens-drupal-how-they-work-and-what-they-can-give-your-website) tells more about the basic categories of tokens and how the module helps you use them.  The prior module, PathAuto, is a common one that taps into your site's tokens to spruce up the URLs people see going from page to page.  An overview of [how those two modules work together](https://www.volacci.com/drupal-seo-guide/drupal-token-system) also helps see more clearly how you might use them in other contexts. 
+[This summary](https://gole.ms/blog/tokens-drupal-how-they-work-and-what-they-can-give-your-website) tells more about the basic categories of tokens and how the module helps you use them.  The prior module, PathAuto, is a common one that taps into your site's tokens to spruce up the URLs people see going from page to page.  An overview of [how those two modules work together](https://www.volacci.com/drupal-seo-guide/drupal-token-system) also helps see more clearly how you might use them in other contexts.  [Token's also work with taxonomy in valuable ways](https://www.youtube.com/watch?v=5A3y0N_1Ufk).
 
 Install and enable the token module as usual...
 
