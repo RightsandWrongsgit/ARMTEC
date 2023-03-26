@@ -42,7 +42,6 @@ OR<br>
 `drush en entity_reference_tree`
 
 # User Presentation 
-### Taxonomy Selection
 
 ## Facets module
 To give the user the power to leverage taxonomies beyond a search box you might want to use facets.  Thing of these as the boxes you see on the left of the large shopping sites where you chose your size, color, price, etc. preferences.
@@ -78,13 +77,4 @@ You can also leverage the powerful [Permissions by Term](https://www.youtube.com
 
 `composer require drupal/permissions_by_term`<br>
 `drush en permissions_by_term`
-
-
-
-
-
-
-
-
-
 
