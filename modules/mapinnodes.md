@@ -4,11 +4,11 @@ Restaurant Content Type:
 
 The basics should be in place -
 
-Image
+<img src="../modules/images/mapinnode1.png"  width="400">
 
 There is a set of modules that work together to produce the desired end result.  This documentation shows installation of them sequentially rather than all at once so you can understand how they each work. 
 
-Image
+<img src="../modules/images/mapinnode2.png"  width="400">
 
 SPEED SUMMARY:
 
@@ -41,7 +41,8 @@ The assumption is that you have installed Drush already.  If not, you need to do
               composer global require drush/drush:dev-master
 
 Then you can ‘enable’ the modules composer downloaded with the following Drush commands (or go to the Administration/Extend tool bar and click each one to install them manually) -
-drush en -y address geofield leaflet leaflet_views leaflet_markercluster leaflet_more_maps geocoder geocoder_address geocoder_field geocoder_geofield extlink taxonomy_manager term_csv_export_import entity_reference_tree token
+
+`drush en -y address geofield leaflet leaflet_views leaflet_markercluster leaflet_more_maps geocoder geocoder_address geocoder_field geocoder_geofield extlink taxonomy_manager term_csv_export_import entity_reference_tree token`
 
 
 
@@ -54,196 +55,203 @@ https://www.youtube.com/watch?v=u5xXaeh4ngU
 
 Start with the Geofield Module -
 
-Image
+<img src="../modules/images/mapinnode3.png"  width="750">
 
 The ‘composer’ instructions to get the module on your system site -
 
-Image
+<img src="../modules/images/mapinnode4.png"  width="500">
 
 Also get the Geocoder module -
 
-Image
+<img src="../modules/images/mapinnode5.png"  width="750">
+<img src="../modules/images/mapinnode6.png"  width="350">
 
 Again use the ‘composer’ installation process to coordinate dependencies -
 
-Image
+<img src="../modules/images/mapinnode7.png"  width="500">
 
 Then make sure you also install the Geocoder Autocomplete module -
 
-Image
+<img src="../modules/images/mapinnode8.png"  width="750">
+<img src="../modules/images/mapinnode9.png"  width="350">
 
 Installing it with ‘Composer’ to coordinate dependencies -
 
-Image
+<img src="../modules/images/mapinnode10.png"  width="500">
 
 Also install the Geofield Map Module -
 
-Image
+<img src="../modules/images/mapinnode11.png"  width="750">
+<img src="../modules/images/mapinnode12.png"  width="350">
 
 Using ‘Composer’ to install it for dependency coordination -
 
-Image
+<img src="../modules/images/mapinnode13.png"  width="500">
 
 Leaflet is another Drupal Module we want to install -
 
-Image
+<img src="../modules/images/mapinnode14.png"  width="750">
+<img src="../modules/images/mapinnode15.png"  width="750">
+<img src="../modules/images/mapinnode16.png"  width="350">
 
 Same deal, we install it using ‘Composer’ -
 
-Image
+<img src="../modules/images/mapinnode17.png"  width="500">
 
 Where it gets interesting and you might need to experiment with the options is after you add the Leaflet More Maps Module.  This module then brings in the configuration options for a whole variety of Map sources.  Google maps is a common source and the video noted at the beginning shows it is a pretty accurate source.  But you do need to get a Google Map API key to use it and it might cost you to run if you are mapping a bunch of page calls to your site.  Some of the other maps are free, offer different map styles, etc.  
 
-Image
+<img src="../modules/images/mapinnode18.png"  width="750">
+<img src="../modules/images/mapinnode19.png"  width="750">
+<img src="../modules/images/mapinnode20.png"  width="350">
 
 As usual, install the module with the Composer approach to coordinate dependencies -
 
-Image
+<img src="../modules/images/mapinnode21.png"  width="500">
 
 Remember, that ‘installing modules’ to your site is a two-step process.  The first step is bringing them physically to your site and within your ‘Composer.Json’ file as part of your site install on a physical server (or on a development/staging/production server in a coordinated way).  The second step is to go to your ‘Administration’ menu in Drupal and select the ‘Extend’ tab that shows all the modules physically present that you can activate.  All you need to do in the second step is checkmark the one(s) you want to activate and click the ‘Install’ button at the very bottom of the page -
 
-Image
+<img src="../modules/images/mapinnode22.png"  width="600">
+<img src="../modules/images/mapinnode23.png"  width="300">
 
 Now lets use the mapping by creating a content type that benefits from it.  For example, having a map that shows where your restaurant is located.  Create a content type called Restaurant -
 
-Image
+<img src="../modules/images/mapinnode24.png"  width="600">
 
 Then open that content type and add fields -
 
-Image
+<img src="../modules/images/mapinnode25.png"  width="450">
 
 We had installed the address field as part of our starting point, so now add that field to the restaurant content type from the pull down list of fields -
 
-Image
+<img src="../modules/images/mapinnode26.png"  width="600">
 
 There it is after you clicked on it and then say ‘Save and continue’ -
 
-Image
+<img src="../modules/images/mapinnode27.png"  width="450">
 
 The address field has a bunch of options, that is why we installed rather than built it up from street, city, state, zip, etc. as individual fields we could have made/added.  One option is for what countries are available, and part of an aviation ‘app’ that could put your restaurant anywhere, we will leave it unchecked with keeps all.  We will also make the address field required, so people can find the restaurant, by check-marking the ‘Required field’ box --
 
-Image
+<img src="../modules/images/mapinnode28.png"  width="500">
 
 We also have options for the address structure we would like.  In our case the name of the Restaurant is going to be the title of our content, so we will ‘hide’ the first name, middle name, and last name fields. Also hide the “Company” option because, again, the title of the node has the name of the restaurant.  I also remove or hide “Address line 2” .
 
-Image
+<img src="../modules/images/mapinnode29.png"  width="600">
 
 There is an option to set a default country and I did United States.  This is NOT the same as the list of available countries that I left as all.  The default country is just how the field starts out unless you use the pull down to select a different one.
 
-Image
+<img src="../modules/images/mapinnode30.png"  width="500">
 
 Now you have the standard body field and the Address field you saved -
 
-Image
+<img src="../modules/images/mapinnode31.png"  width="450">
 
 Since you want that map, now we will leverage the Geofield by adding it to our restaurant content type -
 
-Image
+<img src="../modules/images/mapinnode32.png"  width="600">
 
 Once you click on it, you will “Save and continue” to add it to your restaurant content type -
 
-Image
+<img src="../modules/images/mapinnode33.png"  width="500">
 
 The fields in your content type have some configuration options under the “Widget” and for the Title,  we will make the size 60 characters and put an instructive placeholder in it of “Name of the Restaurant” so people know what to entry in the box -
 
-Image
+<img src="../modules/images/mapinnode34.png"  width="600">
 
 Same deal on the body field, which we will make nine rows of text and with a placeholder of “General Description of the Restaurant”.  You can also set ‘Summary Rows” for say a teaser view option -
 
-Image
+<img src="../modules/images/mapinnode35.png"  width="600">
 
 Add a “Phone Number” field from the standard field pull down list and give an initial order to your Manage Display.  If you look at that with just these modules installed, the Geofield with the ‘Raw Output’ format will show a Latitude and Longitude box.
 
-Image
+<img src="../modules/images/mapinnode36.png"  width="600">
 
 No one knows there detailed Latitude and Longitude, so leaving it there would kind of suck.  Let’s install some modules so we can get that ‘Address’ field to drive the map placement.  So lets install the ‘Leaflet’ module next -
 
-Image
+<img src="../modules/images/mapinnode37.png"  width="500">
 
 And now when we go back to the “Format” options on the Manage Display tab of the Restaurant content type we have a ‘Leaflet Map’ option in addition to the Lat/Lon.
 
-Image
+<img src="../modules/images/mapinnode38.png"  width="600">
 
 Pick the ‘Leaflet Map’ option and see a map on your output as long as you put some Latitude and Longitude on your input in the Manage form display -
 
-Image
+<img src="../modules/images/mapinnode39.png"  width="650">
 
 What you really want is not just to display the map from a Lat/Lon input on the Manage Form Display but to have the map driven by what a user puts in the ‘Address’ field you set up.  To do that you need the ‘Geocoder’ module installed along with the Address, Field, and Geofield elements that come with it -
 
-Image
+<img src="../modules/images/mapinnode40.png"  width="600">
 
 Now when you go in to look at the Restaurant content type you set up, you find that Geofield you installed and click ‘edit’ to see the set up of the Geofield -
 
-Image
+<img src="../modules/images/mapinnode41.png"  width="600">
 
 That edit opens the usual page but a little lower on it you see a box has been added for “Geocode” that you just added.  In that box mark the radio button saying “Geocode from an existing field” -
 
-Image
+<img src="../modules/images/mapinnode42.png"  width="600">
 
 Since you already have the “Address” field in place, it will appear on the pull down list of available existing fields to ‘geocode’ from and you select it -
 
-Image
+<img src="../modules/images/mapinnode43.png"  width="550">
 
 The Geocoder module needs to be configured to tell it what map “source” provider to utilize.  To do that you go to Administration/Configuration and find the Geocoder now listed in the System box as one of the options.  Click on that -
 
-Image
+<img src="../modules/images/mapinnode44.png"  width="650">
 
 The Geocoder configuration shows two option tabs when opened -
 
-Image
+<img src="../modules/images/mapinnode45.png"  width="550">
 
 Click on the ‘Provider’ tab to open up your options for where to source maps.  Then you want to use the ‘- Select –‘ box.  The list of options in that box may be very few until you install some; so don’t freak out.  See the note above the active provider list about using Composer to install providers and a link to a “list of all available geocoder providers”.  You wan to click that link to get your select box list populated.  But don’t be surprised that the link takes you to “Packagist” (a PHP provider source) rather than Drupal; because other systems also use maps.  Remember that Composer is a PHP tool anyway, so it is straight forward to use it to install Packagist code modules.
 
-Image
+<img src="../modules/images/mapinnode46.png"  width="600">
 
 The Packagist list looks like this.  And you can click on any provider to read more about their source and style.  They also typically tell you if it is an API key requiring one and where to get your key.  That will also lead you to know what, if any, charges might be involved. 
 
-Image
+<img src="../modules/images/mapinnode47.png"  width="600">
 
 Google Maps is pretty common, so you might look in it.  You will see the typical Composer command filled out to just copy and paste so you can install that source provider -
 
-Image
+<img src="../modules/images/mapinnode48.png"  width="650">
 
 After you install a Geocoder provider like GoogleMaps, and you ‘add’ it in Geocoder, you have some basic set up options.  The main thing is to put your API key in the box provided for that -
 
-Image
+<img src="../modules/images/mapinnode49.png"  width="600">
 
 Here is Bing’s map Composer install -
 
-Image
+<img src="../modules/images/mapinnode50.png"  width="600">
 
 Here is ArcGIS map Composer install -
 
-Image
+<img src="../modules/images/mapinnode51.png"  width="600">
 
 Here is Mapbox Composer install -
 
-Image
+<img src="../modules/images/mapinnode52.png"  width="600">
 
 Here is OpenCage map Composer install -
 
-Image
+<img src="../modules/images/mapinnode53.png"  width="600">
 
 Here is Yandex map Composer install -
 
-Image
+<img src="../modules/images/mapinnode54.png"  width="600">
 
 There are some potential accuracy differences in the sources.  The video link referenced initially has some test results toward the end of the video that may be worth watching.
 
 Once you have the map sources for ‘matching’ from the Address field installed so Geocoder has a way to pin the location, you still haven’t actually told the system what map source/style you want to “Display” on your Content type.  The easiest way to get there is to install-activate the ‘Leaflet More Maps’ Module -
 
-Image
+<img src="../modules/images/mapinnode55.png"  width="500">
 
 I got a message like this when I installed the module:
+`“Warning: Invalid argument supplied for foreach() in leaflet_more_maps_leaflet_map_info() (line 44 of modules/contrib/leaflet_more_maps/leaflet_more_maps.module).”`
 
-Image
 
-It had been reported by others on Drupal.org:
-https://www.drupal.org/project/leaflet_more_maps/issues/2847024
+[It had been reported by others on Drupal.org](https://www.drupal.org/project/leaflet_more_maps/issues/2847024)
 
 The patch noted as #8 worked.
 
-Image
+<img src="../modules/images/mapinnode56.png"  width="500">
 
 It is a simple one like change, so if you are comfortable, open up the patch and look at the code.  Then open up the actual module and edit that line.  It is around line 42.
 
