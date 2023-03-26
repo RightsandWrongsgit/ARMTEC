@@ -1,6 +1,10 @@
 
 # Taxonomy
-Content of any depth needs a way to be presented to users filtered convenient to their interests.  Thus content can be marked or 'tagged' with terms which can then act as filters to find and view what the users wants.  Drupal out of the box supports 'Tags' as a sort of free form classification of terms you can associate with other content.  But more often you will want to create a structured taxonomy (frequently more than one category of terms) to associate with content to aid in finding the precise interests of the user.  For that were leverage a number of Taxonomy modules.  Taxonomy itself is an out of the box Core capability, just make sure it is enabled.  
+Content of any depth needs a way to be presented to users filtered conveniently to their interests.  Thus content can be marked or 'tagged' with terms which can then act as filters to find and view what the users wants.  Drupal, out of the box, supports 'Tags' as a sort of "free form" classification of terms you can associate with content.
+
+More often you will want to create a structured taxonomy to associate with content to aid in finding the precise interests of the user.  For that were leverage a number of Taxonomy modules.  The Taxonomy module itself is an out of the box Core capability, just make sure it is enabled.
+
+
 
 Taxonomy Manager will help you deal with hierarchical levels.
 composer require 'drupal/taxonomy_manager:^2.0'
