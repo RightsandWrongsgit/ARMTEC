@@ -75,7 +75,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Development Modules](modules/development.md)
 - [Flagging Modules](modules/flagging.md)
 - [Taxonomy](modules/taxonomy.md)
-
+- [Example: Map & Taxonomy Node Build](modules/mapinnodes.md)
 
 
 ### Chapters from Selwynpolit's Drupal 9 book
