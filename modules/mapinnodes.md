@@ -2,9 +2,9 @@
 # Map in a Node
 ## Resturant Node Example
 ### Also shows taxonomy for the resturant node
-This should be easily extended to other content types
+<font color=yellow>This should be easily extended to other content types!</font>
 
-This outline offers a detailed, step-by-step installation and configuration of the modules you need to put a map on a node you build to present the locations of resturants that your site might feature.  The example also introduces one type of taxonomy that you might use to provide the opportunity for users to filter your resturant options by cuisine.  When you sent of the resturant node, you will put information about each resturant in as you populate content.  A mandatory piece of content will be the 'address' because our mapping capability is set up so it grabs the address as the input it needs to draw the map.
+This outline offers a detailed, step-by-step installation and configuration of the modules you need to put a map on a node you build to present the locations of resturants that your site might feature.  The example also introduces one type of taxonomy that you might use to provide the opportunity for users to filter your resturant options by cuisine.  When you set up the resturant node, you will put information about each resturant in as you populate content.  A mandatory piece of content will be the 'address' because our mapping capability is set up so it grabs the address as the input it needs to draw the map.
 
 ## The basics should be in place 
 
