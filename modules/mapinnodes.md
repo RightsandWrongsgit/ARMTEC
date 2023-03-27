@@ -7,13 +7,12 @@ This should be easily extended to other content types
 
 #### The basics should be in place 
 
-<img src="../modules/images/mapinnode1.png"  width="400">
+- Drupal 8 or higher installed
+- Views_UI and Field_UI enabled
 
 There is a set of modules that work together to produce the desired end result.  This documentation shows installation of them sequentially rather than all at once so you can understand how they each work. 
 
-<img src="../modules/images/mapinnode2.png"  width="400">
-
-## Modules involved
+#### Modules involved
 
 `composer require drupal/address`<br>
 `composer require drupal/geofield`<br>
@@ -37,6 +36,7 @@ There is a set of modules that work together to produce the desired end result. 
 <font color=yellow>May need to install a minor patch depending if leaflet module update includes it automatically or not.</font>
 [See the issue](https://www.drupal.org/project/leaflet_more_maps/issues/2847024)
 
+#### The Modules Enabled
 The assumption is that you have installed Drush already.  [If not](../modules/development.md#drush)<---
  
 Then you can ‘enable’ the modules composer downloaded with the following Drush commands (or go to the Administration/Extend tool bar and click each one to install them manually) -
@@ -53,61 +53,58 @@ There is a [video by a guy from Iowa named Brian Webster that shows how](https:/
 
 <img src="../modules/images/mapinnode3.png"  width="750">
 
-The ‘composer’ instructions to get the module on your system site -
+Using composer to get the module on your system site -
 
-<img src="../modules/images/mapinnode4.png"  width="500">
+<img src="../modules/images/mapinnode4.png"  width="350">
 
 ### Also get the Geocoder module
 
 <img src="../modules/images/mapinnode5.png"  width="750">
-<img src="../modules/images/mapinnode6.png"  width="350">
+<img src="../modules/images/mapinnode6.png"  width="250">
 
-Again use the ‘composer’ installation process to coordinate dependencies -
+Again use the composer installation which coordinates dependencies 
 
-<img src="../modules/images/mapinnode7.png"  width="500">
+<img src="../modules/images/mapinnode7.png"  width="350">
 
 ### Install the Geocoder Autocomplete module
 
 <img src="../modules/images/mapinnode8.png"  width="750">
-<img src="../modules/images/mapinnode9.png"  width="350">
+<img src="../modules/images/mapinnode9.png"  width="250">
 
-Installing it with ‘Composer’ to coordinate dependencies
+Again, installing with ‘Composer’ to coordinate dependencies
 
-<img src="../modules/images/mapinnode10.png"  width="500">
+<img src="../modules/images/mapinnode10.png"  width="350">
 
 ### Install the Geofield Map Module
 
 <img src="../modules/images/mapinnode11.png"  width="750">
-<img src="../modules/images/mapinnode12.png"  width="350">
+<img src="../modules/images/mapinnode12.png"  width="550">
+<img src="../modules/images/mapinnode13.png"  width="250">
 
-Using ‘Composer’ to install it for dependency coordination 
-
-<img src="../modules/images/mapinnode13.png"  width="500">
+Use Composer to install with dependency coordination 
 <img src="../modules/images/mapinnode14.png"  width="350">
 
 
 ### Install the Leaflet module 
 <img src="../modules/images/mapinnode15.png"  width="750">
-<img src="../modules/images/mapinnode16.png"  width="350">
+<img src="../modules/images/mapinnode16.png"  width="550">
+<img src="../modules/images/mapinnode17.png"  width="250">
 
 Same deal, we install it using ‘Composer’
-
-<img src="../modules/images/mapinnode17.png"  width="500">
+<img src="../modules/images/mapinnode18.png"  width="350">
 
 ### Install the Leaflet More Maps module
  Where it gets interesting and you might need to experiment with the options is after you add the Leaflet More Maps Module.  This module then brings in the configuration options for a whole variety of Map sources.  Google maps is a common source and the video noted at the beginning shows it is a pretty accurate source.  But you do need to get a Google Map API key to use it and it might cost you to run if you are mapping a bunch of page calls to your site.  Some of the other maps are free, offer different map styles, etc.  
 
-<img src="../modules/images/mapinnode18.png"  width="750">
 <img src="../modules/images/mapinnode19.png"  width="750">
-<img src="../modules/images/mapinnode20.png"  width="350">
+<img src="../modules/images/mapinnode20.png"  width="550">
+<img src="../modules/images/mapinnode21.png"  width="250">
 
 As usual, install the module with the Composer approach to coordinate dependencies
-
-<img src="../modules/images/mapinnode21.png"  width="500">
+<img src="../modules/images/mapinnode22.png"  width="350">
 
 Remember, that ‘installing modules’ to your site is a two-step process.  The first step is bringing them physically to your site and within your `composer.json` file as part of your site install on a physical server (or on a development/staging/production server in a coordinated way).  The second step is to go to your ‘Administration’ menu in Drupal and select the ‘Extend’ tab that shows all the modules physically present that you can activate.  All you need to do in the second step is checkmark the one(s) you want to activate and click the ‘Install’ button at the very bottom of the page -
 
-<img src="../modules/images/mapinnode22.png"  width="600">
 <img src="../modules/images/mapinnode23.png"  width="300">
 
 Now lets use the mapping by creating a content type that benefits from it.  For example, having a map that shows where your restaurant is located.  Create a content type called Restaurant -
