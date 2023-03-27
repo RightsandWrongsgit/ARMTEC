@@ -34,7 +34,7 @@ There is a set of modules that work together to produce the desired end result. 
 `composer require 'drupal/entity_reference_tree`<br>
 `composer require 'drupal/token`<br>
 
-<font color=yellow>May need to install a minor patch depending if leaflet module update includes it automatically or not.</font?
+<font color=yellow>May need to install a minor patch depending if leaflet module update includes it automatically or not.</font>
 [See the issue](https://www.drupal.org/project/leaflet_more_maps/issues/2847024)
 
 The assumption is that you have installed Drush already.  [If not](modules/development.md#drush)!
