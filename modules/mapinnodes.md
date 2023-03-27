@@ -270,9 +270,12 @@ You don’t typically want to tell the map to center on a Lat/Lon location becau
 
 <img src="../modules/images/mapinnode62.png"  width="650">
 
+## Resturant Taxonomy
+### Let's do more with our node
+
 Now that we can show the Address, Phone number and a location map for our Restaurant, we want to add more.  Let’s put its website on the content type.  We go back to ‘Add field’ -
 
-<img src="../modules/images/mapinnode63.png"  width="650">
+<img src="../modules/images/mapinnode63.png"  width="500">
 
 And we choose to add a “Link” from the pull down list -
 
@@ -281,75 +284,103 @@ And we choose to add a “Link” from the pull down list -
 But we want to control our link to the restaurant’s website a little more than the standard Drupal 8 link provides for and we elect to install the ‘External Links’ module to provide additional control --
 
 <img src="../modules/images/mapinnode65.png"  width="650">
-
-We install with the Composer approach to coordinate dependencies -
-
 <img src="../modules/images/mapinnode66.png"  width="650">
+<img src="../modules/images/mapinnode67.png"  width="350">
 
-We go into Administration/Extend and mark the checkbox to install-activate the module -
 
-<img src="../modules/images/mapinnode67.png"  width="650">
+We install with the Composer approach to coordinate dependencies; or we use the GUI in 'Administration/Extend' and mark the checkbox to install-activate the module. 
+
+<img src="../modules/images/mapinnode68.png"  width="450">
 
 Once you install the External Links module you can go to Manage form display on the Restaurant content type and put a placeholder like http://plus your site’s address” in the box so users can know the expected format.
 
-<img src="../modules/images/mapinnode68.png"  width="650">
+<img src="../modules/images/mapinnode69.png"  width="650">
 
 On the Manage Display tab tell it to open in a new window and ‘nofollow’ for security -
 
-<img src="../modules/images/mapinnode69.png"  width="650">
+<img src="../modules/images/mapinnode70.png"  width="650">
 
 You want a way to describe your restaurants.  For this we use the taxonomy functionality available in Drupal.  Taxonomy allows you to create pick lists of classification terms to describe something.  For example, what meal occasions is the restaurant serving; breakfast through late evening.  As you set up taxonomies you are able to allow selection of only one or as many as the user wants to describe their restaurant.  We allow any because restaurants commonly serve at multiple occasions. 
 
-<img src="../modules/images/mapinnode70.png"  width="650">
-
-We have a Dining Style taxonomy with options from Fine dining to food trucks -
+#### Meal Occassions Taxonomy
 
 <img src="../modules/images/mapinnode71.png"  width="650">
 
-If your have medical or religious or even just food preference reasons we want to know if a restaurant allows for Dietary Accommodations -
+#### Dining Style Taxonomy
+
+We have a Dining Style taxonomy with options from Fine dining to food trucks.
 
 <img src="../modules/images/mapinnode72.png"  width="650">
 
-We also have a taxonomy for features the restaurant has -
+#### Dietary Accomodations Taxonomy
+
+If your have medical or religious or even just food preference reasons we want to know if a restaurant allows for Dietary Accommodations.
 
 <img src="../modules/images/mapinnode73.png"  width="650">
 
-The type of food a restaurant serves is called a Cuisine.  Since our restaurant content type is going to be used within an aviation site and people fly all over the world, we want it to accommodate local through detailed internationally unique food preferences.  There are 400+ Cuisines.  Too many to present as a long list to a users, so they are organized in a hierarchy -
+#### Resturant Features Taxonomy
+
+We also have a taxonomy for features the restaurant has.
 
 <img src="../modules/images/mapinnode74.png"  width="650">
 
-If you have a painfully large taxonomy like the Cuisine listing, even the hierarchical organization isn’t easy.  So there is a module called ‘Taxonomy Manager’ that you can install to work with -
+#### Cuisine Taxonomy
+
+The type of food a restaurant serves is called a Cuisine.  Since our restaurant content type is going to be used within an aviation site and people fly all over the world, we want it to accommodate local through detailed internationally unique food preferences.  There are 400+ Cuisines.  Too many to present as a long list to a users, so they are organized in a hierarchy.
 
 <img src="../modules/images/mapinnode75.png"  width="650">
+<img src="../modules/images/mapinnode76.png"  width="650">
+<img src="../modules/images/mapinnode77.png"  width="650">
+<img src="../modules/images/mapinnode78.png"  width="650">
+<img src="../modules/images/mapinnode79.png"  width="650">
+<img src="../modules/images/mapinnode80.png"  width="650">
+<img src="../modules/images/mapinnode81.png"  width="650">
+<img src="../modules/images/mapinnode82.png"  width="650">
+<img src="../modules/images/mapinnode83.png"  width="650">
+<img src="../modules/images/mapinnode84.png"  width="650">
+<img src="../modules/images/mapinnode85.png"  width="650">
+<img src="../modules/images/mapinnode86.png"  width="650">
+<img src="../modules/images/mapinnode87.png"  width="650">
+<img src="../modules/images/mapinnode88.png"  width="650">
+<img src="../modules/images/mapinnode89.png"  width="650">
+<img src="../modules/images/mapinnode90.png"  width="650">
+<img src="../modules/images/mapinnode91.png"  width="650">
+
+
+If you have a painfully large taxonomy like the Cuisine listing, even the hierarchical organization isn’t easy.  So there is a module called ‘Taxonomy Manager’ that you can install to work with -
+
+<img src="../modules/images/mapinnode92.png"  width="650">
 
 Use Composer to install Taxonomy Manager so its dependencies are coordinated.
 
-<img src="../modules/images/mapinnode76.png"  width="650">
+<img src="../modules/images/mapinnode93.png"  width="650">
 
 Once installed, Taxonomy Manager is found under your Administration Menu, Structure tab, toward the bottom of the list alphabetically. 
 
-<img src="../modules/images/mapinnode77.png"  width="650">
+<img src="../modules/images/mapinnode94.png"  width="650">
 
 Clicking on that structure option you will see a list of the Taxonomy vocabularies that you have created.  Or you can add new ones here as well. 
 
-<img src="../modules/images/mapinnode78.png"  width="650">
+<img src="../modules/images/mapinnode95.png"  width="650">
 
 A relatively simple taxonomy like our “Restaurant Features” list, shows a nice list of checkboxes all at the same level.  You could make levels within it by something like having Parking at the top level and then subgroups like free, valet, remote underneath.
 
-<img src="../modules/images/mapinnode79.png"  width="650">
+<img src="../modules/images/mapinnode96.png"  width="650">
 
 Our Cuisine taxonomy does have a hierarchy.  We have different styles of  Barbecue that we want subgroups for.  Same for Pizza styles.  But mostly, we need subgroups for various international or regional cuisines.  Asian is a good example.  Asia has Chinese, Japanese, Korean, Indian, Pakistani, Southeast Asian, and more.  There are all sorts of different Chinese and Indian regional cuisines.  And Southeast Asian has Thai, Vietnamese, Cambodian, and more.  So where there are subgroups, Taxonomy Manager shows an arrow you can click on to open up the subgroups.
 
-<img src="../modules/images/mapinnode80.png"  width="650">
+<img src="../modules/images/mapinnode97.png"  width="650">
 
 Investing in developing, entering, and organizing a complex hierarchical taxonomy like Cuisines makes you want to protect it or make it available to other uses.  So you might want to leverage the ‘Term CSV Export Import’ module to pull the taxonomy up and down from a CSV backup file you perhaps work with Excel and a Text Editor.
 
-<img src="../modules/images/mapinnode81.png"  width="650">
+<img src="../modules/images/mapinnode98.png"  width="650">
 
 The 8.x-3.0-alpha1 needs updating by the developer but did generally work.
 
-<img src="../modules/images/mapinnode82.png"  width="650">
+<img src="../modules/images/mapinnode99.png"  width="650">
 
+
+______________ IMAGE CHECK 100 ___________
 You install it with the Composer approach for dependency management.
 
 <img src="../modules/images/mapinnode83.png"  width="650">
