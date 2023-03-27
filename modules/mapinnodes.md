@@ -83,7 +83,7 @@ Installing it with ‘Composer’ to coordinate dependencies
 Using ‘Composer’ to install it for dependency coordination 
 
 <img src="../modules/images/mapinnode13.png"  width="500">
-<img src="../modules/images/mapinnode14.png"  width="750">
+<img src="../modules/images/mapinnode14.png"  width="350">
 
 
 ### Install the Leaflet module 
@@ -97,7 +97,7 @@ Same deal, we install it using ‘Composer’
 ### Install the Leaflet More Maps module
  Where it gets interesting and you might need to experiment with the options is after you add the Leaflet More Maps Module.  This module then brings in the configuration options for a whole variety of Map sources.  Google maps is a common source and the video noted at the beginning shows it is a pretty accurate source.  But you do need to get a Google Map API key to use it and it might cost you to run if you are mapping a bunch of page calls to your site.  Some of the other maps are free, offer different map styles, etc.  
 
-<img src="../modules/images/mapinnode18.png"  width="350">
+<img src="../modules/images/mapinnode18.png"  width="750">
 <img src="../modules/images/mapinnode19.png"  width="750">
 <img src="../modules/images/mapinnode20.png"  width="350">
 
