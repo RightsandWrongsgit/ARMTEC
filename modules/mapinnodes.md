@@ -109,23 +109,23 @@ As usual, install the module with the Composer approach to coordinate dependenci
 Remember, that ‘installing modules’ to your site is a two-step process.  The first step is bringing them physically to your site and within your `composer.json` file as part of your site install on a physical server (or on a development/staging/production server in a coordinated way).  The second step is to go to your ‘Administration’ menu in Drupal and select the ‘Extend’ tab that shows all the modules physically present that you can activate.  All you need to do in the second step is checkmark the one(s) you want to activate and click the ‘Install’ button at the very bottom of the page -
 
 <img src="../modules/images/mapinnode23.png"  width="600">
-<img src="../modules/images/mapinnode24.png"  width="200">
+<img src="../modules/images/mapinnode24.png"  width="100">
 
 Now lets use the mapping by creating a content type that benefits from it.  For example, having a map that shows where your restaurant is located.  Create a content type called Restaurant -
 
-<img src="../modules/images/mapinnode25.png"  width="450">
+<img src="../modules/images/mapinnode25.png"  width="600">
 
 Then open that content type and add fields -
 
-<img src="../modules/images/mapinnode26.png"  width="600">
+<img src="../modules/images/mapinnode26.png"  width="350">
 
 We had installed the address field as part of our starting point, so now add that field to the restaurant content type from the pull down list of fields -
 
-<img src="../modules/images/mapinnode27.png"  width="450">
+<img src="../modules/images/mapinnode27.png"  width="400">
 
 There it is after you clicked on it and then say ‘Save and continue’ -
 
-<img src="../modules/images/mapinnode28.png"  width="500">
+<img src="../modules/images/mapinnode28.png"  width="400">
 
 The address field has a bunch of options, that is why we installed rather than built it up from street, city, state, zip, etc. as individual fields we could have made/added.  One option is for what countries are available, and part of an aviation ‘app’ that could put your restaurant anywhere, we will leave it unchecked with keeps all.  We will also make the address field required, so people can find the restaurant, by check-marking the ‘Required field’ box --
 
@@ -137,11 +137,11 @@ We also have options for the address structure we would like.  In our case the n
 
 There is an option to set a default country and I did United States.  This is NOT the same as the list of available countries that I left as all.  The default country is just how the field starts out unless you use the pull down to select a different one.
 
-<img src="../modules/images/mapinnode31.png"  width="450">
+<img src="../modules/images/mapinnode31.png"  width="400">
 
 Now you have the standard body field and the Address field you saved -
 
-<img src="../modules/images/mapinnode32.png"  width="600">
+<img src="../modules/images/mapinnode32.png"  width="400">
 
 Since you want that map, now we will leverage the Geofield by adding it to our restaurant content type -
 
@@ -149,7 +149,7 @@ Since you want that map, now we will leverage the Geofield by adding it to our r
 
 Once you click on it, you will “Save and continue” to add it to your restaurant content type -
 
-<img src="../modules/images/mapinnode34.png"  width="600">
+<img src="../modules/images/mapinnode34.png"  width="400">
 
 The fields in your content type have some configuration options under the “Widget” and for the Title,  we will make the size 60 characters and put an instructive placeholder in it of “Name of the Restaurant” so people know what to entry in the box -
 
@@ -161,7 +161,7 @@ Same deal on the body field, which we will make nine rows of text and with a pla
 
 Add a “Phone Number” field from the standard field pull down list and give an initial order to your Manage Display.  If you look at that with just these modules installed, the Geofield with the ‘Raw Output’ format will show a Latitude and Longitude box.
 
-<img src="../modules/images/mapinnode37.png"  width="500">
+<img src="../modules/images/mapinnode37.png"  width="700">
 
 No one knows there detailed Latitude and Longitude, so leaving it there would kind of suck.  Let’s install some modules so we can get that ‘Address’ field to drive the map placement.  So lets install the ‘Leaflet’ module next -
 
@@ -195,9 +195,11 @@ The Geocoder module needs to be configured to tell it what map “source” prov
 
 <img src="../modules/images/mapinnode45.png"  width="550">
 
+## The Map Provider
+
 The Geocoder configuration shows two option tabs when opened -
 
-<img src="../modules/images/mapinnode46.png"  width="600">
+<img src="../modules/images/mapinnode46.png"  width="400">
 
 Click on the ‘Provider’ tab to open up your options for where to source maps.  Then you want to use the ‘- Select –‘ box.  The list of options in that box may be very few until you install some; so don’t freak out.  See the note above the active provider list about using Composer to install providers and a link to a “list of all available geocoder providers”.  You wan to click that link to get your select box list populated.  But don’t be surprised that the link takes you to “Packagist” (a PHP provider source) rather than Drupal; because other systems also use maps.  Remember that Composer is a PHP tool anyway, so it is straight forward to use it to install Packagist code modules.
 
