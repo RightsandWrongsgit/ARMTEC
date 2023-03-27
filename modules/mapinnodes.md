@@ -83,10 +83,10 @@ Installing it with ‘Composer’ to coordinate dependencies
 Using ‘Composer’ to install it for dependency coordination 
 
 <img src="../modules/images/mapinnode13.png"  width="500">
+<img src="../modules/images/mapinnode14.png"  width="750">
+
 
 ### Install the Leaflet module 
-
-<img src="../modules/images/mapinnode14.png"  width="750">
 <img src="../modules/images/mapinnode15.png"  width="750">
 <img src="../modules/images/mapinnode16.png"  width="350">
 
