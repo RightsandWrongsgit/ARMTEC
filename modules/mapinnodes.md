@@ -1,18 +1,19 @@
 
 # Map in a Node
-### Example for a Resturant Node
-#### Also shows taxonomy for the resturant node
+## Resturant Node Example
+### Also shows taxonomy for the resturant node
 This should be easily extended to other content types
 
+This outline offers a detailed, step-by-step installation and configuration of the modules you need to put a map on a node you build to present the locations of resturants that your site might feature.  The example also introduces one type of taxonomy that you might use to provide the opportunity for users to filter your resturant options by cuisine.  When you sent of the resturant node, you will put information about each resturant in as you populate content.  A mandatory piece of content will be the 'address' because our mapping capability is set up so it grabs the address as the input it needs to draw the map.
 
-#### The basics should be in place 
+## The basics should be in place 
 
 - Drupal 8 or higher installed
 - Views_UI and Field_UI enabled
 
 There is a set of modules that work together to produce the desired end result.  This documentation shows installation of them sequentially rather than all at once so you can understand how they each work. 
 
-#### Modules involved
+### Modules involved
 
 `composer require drupal/address`<br>
 `composer require drupal/geofield`<br>
@@ -36,13 +37,12 @@ There is a set of modules that work together to produce the desired end result. 
 <font color=yellow>May need to install a minor patch depending if leaflet module update includes it automatically or not.</font>
 [See the issue](https://www.drupal.org/project/leaflet_more_maps/issues/2847024)
 
-#### The Modules Enabled
+### The Modules Enabled
 The assumption is that you have installed Drush already.  [If not](../modules/development.md#drush)<---
  
 Then you can ‘enable’ the modules composer downloaded with the following Drush commands (or go to the Administration/Extend tool bar and click each one to install them manually) -
 
 `drush en -y address geofield leaflet leaflet_views leaflet_markercluster leaflet_more_maps geocoder geocoder_address geocoder_field geocoder_geofield extlink taxonomy_manager term_csv_export_import entity_reference_tree token`
-
 
 There is a [video by a guy from Iowa named Brian Webster that shows how](https://www.youtube.com/watch?v=u5xXaeh4ngU) the mapping part is put in place.  Watching it is an alternative to following these instructions (although this documentation picks up some of the other key things about the actual “Restaurant” content type like leveraging the sets of taxonomy important to it.
 
