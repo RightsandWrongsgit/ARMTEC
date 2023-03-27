@@ -37,7 +37,7 @@ There is a set of modules that work together to produce the desired end result. 
 <font color=yellow>May need to install a minor patch depending if leaflet module update includes it automatically or not.</font>
 [See the issue](https://www.drupal.org/project/leaflet_more_maps/issues/2847024)
 
-The assumption is that you have installed Drush already.  [If not](modules/development.md#drush)!
+The assumption is that you have installed Drush already.  [If not](../modules/development.md#drush)<---
  
 Then you can ‘enable’ the modules composer downloaded with the following Drush commands (or go to the Administration/Extend tool bar and click each one to install them manually) -
 
