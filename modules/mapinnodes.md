@@ -2,8 +2,9 @@
 # Map in a Node
 ## Resturant Node Example
 ### Also shows taxonomy for the resturant node
-<font color=yellow>This should be easily extended to other content types!</font>
-
+<font color=yellow>This should be easily extended to other content types!</font><br>
+<br>
+<br>
 This outline offers a detailed, step-by-step installation and configuration of the modules you need to put a map on a node you build to present the locations of resturants that your site might feature.  The example also introduces use of taxonomies you might use to provide the opportunity for users to filter your resturant options by meal occasions, dining style, dietary accomodations, features, and cuisine.  When you set up the resturant node, you will put information about each resturant in as you populate content.  A mandatory piece of content will be the 'address' because our mapping capability is set up so it grabs the address as the input it needs to draw the map.
 
 ## The basics should be in place 
@@ -354,10 +355,13 @@ If you have a painfully large taxonomy like the Cuisine listing, even the hierar
 <img src="../modules/images/mapinnode93.png"  width="650">
 <img src="../modules/images/mapinnode94.png"  width="350">
 
-Again, we use Composer to install Taxonomy Manager so its dependencies are coordinated.  Once installed, Taxonomy Manager is found under your Administration Menu, Structure tab, toward the bottom of the list alphabetically.  Clicking on that structure option you will see a list of the Taxonomy vocabularies that you have created.  Or you can add new ones here as well. 
+Again, we use Composer to install Taxonomy Manager so its dependencies are coordinated.  Once installed, Taxonomy Manager is found under your Administration Menu, Structure tab, toward the bottom of the list alphabetically. 
 
 <img src="../modules/images/mapinnode95.png"  width="650">
-<img src="../modules/images/mapinnode96.png"  width="400">
+
+ Clicking on that structure option you will see a list of the Taxonomy vocabularies that you have created.  Or you can add new ones here as well. 
+ 
+<img src="../modules/images/mapinnode96.png"  width="300">
 
 A relatively simple taxonomy like our “Restaurant Features” list, shows a nice list of checkboxes all at the same level.  You could make levels within it by something like having Parking at the top level and then subgroups like free, valet, remote underneath.
 
@@ -370,68 +374,64 @@ Our Cuisine taxonomy does have a hierarchy.  We have different styles of  Barbec
 Investing in developing, entering, and organizing a complex hierarchical taxonomy like Cuisines makes you want to protect it or make it available to other uses.  So you might want to leverage the ‘Term CSV Export Import’ module to pull the taxonomy up and down from a CSV backup file you perhaps work with Excel and a Text Editor.
 
 <img src="../modules/images/mapinnode99.png"  width="650">
-
-The 8.x-3.0-alpha1 needs updating by the developer but did generally work.
-
 <img src="../modules/images/mapinnode100.png"  width="650">
 
 
-______________ IMAGE CHECK 100 ___________
 You install it with the Composer approach for dependency management.
 
-<img src="../modules/images/mapinnode83.png"  width="650">
+<img src="../modules/images/mapinnode101.png"  width="650">
 
 I posted an issue that the module gives a super long warning when I used it on the Cuisine taxonomy.  It did NOT have that issue with the shorter ones.
 
-<img src="../modules/images/mapinnode84.png"  width="650">
+<img src="../modules/images/mapinnode102.png"  width="650">
 
 There is a back and forth between the developer and me.  So he knows about it for when he gets ready to work on updating.  But I indicated it was NOT a show stopper as the module actually worked, just had hundreds if not thousands of lines of warning before you could scroll down to the output on an export.
 
-<img src="../modules/images/mapinnode85.png"  width="650">
+<img src="../modules/images/mapinnode103.png"  width="650">
 
 Once installed and activated the module can be found in the Administration menu, Configuration tab in the content authoring section.
 
-<img src="../modules/images/mapinnode86.png"  width="650">
+<img src="../modules/images/mapinnode104.png"  width="650">
 
 When you click on it and go to the export tab you see options for the Ids, Header, and extra field; or to just output the straight CSV file.
 
-<img src="../modules/images/mapinnode87.png"  width="650">
+<img src="../modules/images/mapinnode105.png"  width="650">
 
 Scroll to the bottom of where it exported (past any warning in pink/red if generated), and a box appears with the export.  Highlight it while scrolling through the full list and hit copy.  Then open your TextEditor where you will paste the output.  
 
-<img src="../modules/images/mapinnode88.png"  width="650">
+<img src="../modules/images/mapinnode106.png"  width="650">
 
 The saved file will look something like this -
 
-<img src="../modules/images/mapinnode89.png"  width="650">
+<img src="../modules/images/mapinnode107.png"  width="650">
 
 Developing, organizing, and backing up a complex taxonomy still doesn’t get you to the point of working with it in the Manage Form Display of the content type you will use it in.  So installing the ‘Entity Reference Tree Widget’ may be your answer -
 
-<img src="../modules/images/mapinnode90.png"  width="650">
+<img src="../modules/images/mapinnode108.png"  width="650">
 
 The Composer install method again coordinates dependencies.
 
-<img src="../modules/images/mapinnode91.png"  width="650">
+<img src="../modules/images/mapinnode109.png"  width="650">
 
 Then remember to activate the install in the Administration Extend tab -
 
-<img src="../modules/images/mapinnode92.png"  width="650">
+<img src="../modules/images/mapinnode110.png"  width="650">
 
 Once the module is in place you will have a new Widget option for taxonomies you have in the Manage form display of the content type; select it -
 
-<img src="../modules/images/mapinnode93.png"  width="650">
+<img src="../modules/images/mapinnode111.png"  width="650">
 
 A summary of what your Manage form display list option settings should look like after you have all this set up.
 
-<img src="../modules/images/mapinnode94.png"  width="650">
+<img src="../modules/images/mapinnode112.png"  width="650">
 
 An example of what your Manage display configuration options set up should look like after you are done doing all this -
 
-<img src="../modules/images/mapinnode95.png"  width="650">
+<img src="../modules/images/mapinnode113.png"  width="650">
 
 The above documentation will be added to once the airport master file is developed.  It is anticipated that the approach will be to somehow grab the airport code with the geocode closest to any node entry with a map and make an association of the node (restaurant, attraction, hotel, etc.)  via use of token matching.  For that reason, the Token module is included here as a likely install requirement.
 
-<img src="../modules/images/mapinnode96.png"  width="650">
+<img src="../modules/images/mapinnode114.png"  width="650">
 
 It is also possible that a ‘routing’ logic for the combination of destinations into a tour will be needed.  Below is an approach where a developer outlines how they used a ‘polygon’ logic with mapping; in their case more to define a boundary rather than a route but it may give some ideas for approaches.: 
 
