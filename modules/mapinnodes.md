@@ -346,38 +346,34 @@ The type of food a restaurant serves is called a Cuisine.  Since our restaurant 
 <img src="../modules/images/mapinnode90.png"  width="650">
 <img src="../modules/images/mapinnode91.png"  width="650">
 
+### Taxonomy Manager module
 
 If you have a painfully large taxonomy like the Cuisine listing, even the hierarchical organization isn’t easy.  So there is a module called ‘Taxonomy Manager’ that you can install to work with -
 
 <img src="../modules/images/mapinnode92.png"  width="650">
-
-Use Composer to install Taxonomy Manager so its dependencies are coordinated.
-
 <img src="../modules/images/mapinnode93.png"  width="650">
+<img src="../modules/images/mapinnode94.png"  width="350">
 
-Once installed, Taxonomy Manager is found under your Administration Menu, Structure tab, toward the bottom of the list alphabetically. 
-
-<img src="../modules/images/mapinnode94.png"  width="650">
-
-Clicking on that structure option you will see a list of the Taxonomy vocabularies that you have created.  Or you can add new ones here as well. 
+Again, we use Composer to install Taxonomy Manager so its dependencies are coordinated.  Once installed, Taxonomy Manager is found under your Administration Menu, Structure tab, toward the bottom of the list alphabetically.  Clicking on that structure option you will see a list of the Taxonomy vocabularies that you have created.  Or you can add new ones here as well. 
 
 <img src="../modules/images/mapinnode95.png"  width="650">
+<img src="../modules/images/mapinnode96.png"  width="400">
 
 A relatively simple taxonomy like our “Restaurant Features” list, shows a nice list of checkboxes all at the same level.  You could make levels within it by something like having Parking at the top level and then subgroups like free, valet, remote underneath.
 
-<img src="../modules/images/mapinnode96.png"  width="650">
+<img src="../modules/images/mapinnode97.png"  width="650">
 
 Our Cuisine taxonomy does have a hierarchy.  We have different styles of  Barbecue that we want subgroups for.  Same for Pizza styles.  But mostly, we need subgroups for various international or regional cuisines.  Asian is a good example.  Asia has Chinese, Japanese, Korean, Indian, Pakistani, Southeast Asian, and more.  There are all sorts of different Chinese and Indian regional cuisines.  And Southeast Asian has Thai, Vietnamese, Cambodian, and more.  So where there are subgroups, Taxonomy Manager shows an arrow you can click on to open up the subgroups.
 
-<img src="../modules/images/mapinnode97.png"  width="650">
+<img src="../modules/images/mapinnode98.png"  width="650">
 
 Investing in developing, entering, and organizing a complex hierarchical taxonomy like Cuisines makes you want to protect it or make it available to other uses.  So you might want to leverage the ‘Term CSV Export Import’ module to pull the taxonomy up and down from a CSV backup file you perhaps work with Excel and a Text Editor.
 
-<img src="../modules/images/mapinnode98.png"  width="650">
+<img src="../modules/images/mapinnode99.png"  width="650">
 
 The 8.x-3.0-alpha1 needs updating by the developer but did generally work.
 
-<img src="../modules/images/mapinnode99.png"  width="650">
+<img src="../modules/images/mapinnode100.png"  width="650">
 
 
 ______________ IMAGE CHECK 100 ___________
