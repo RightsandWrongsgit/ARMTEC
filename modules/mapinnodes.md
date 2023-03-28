@@ -347,6 +347,7 @@ The type of food a restaurant serves is called a Cuisine.  Since our restaurant 
 <img src="../modules/images/mapinnode90.png"  width="650">
 <img src="../modules/images/mapinnode91.png"  width="650">
 
+
 ### Taxonomy Manager module
 
 If you have a painfully large taxonomy like the Cuisine listing, even the hierarchical organization isn’t easy.  So there is a module called ‘Taxonomy Manager’ that you can install to work with -
@@ -375,112 +376,47 @@ Investing in developing, entering, and organizing a complex hierarchical taxonom
 
 <img src="../modules/images/mapinnode99.png"  width="650">
 <img src="../modules/images/mapinnode100.png"  width="650">
-
+<img src="../modules/images/mapinnode101.png"  width="350">
 
 You install it with the Composer approach for dependency management.
 
-<img src="../modules/images/mapinnode101.png"  width="650">
-
-I posted an issue that the module gives a super long warning when I used it on the Cuisine taxonomy.  It did NOT have that issue with the shorter ones.
-
-<img src="../modules/images/mapinnode102.png"  width="650">
-
-There is a back and forth between the developer and me.  So he knows about it for when he gets ready to work on updating.  But I indicated it was NOT a show stopper as the module actually worked, just had hundreds if not thousands of lines of warning before you could scroll down to the output on an export.
-
-<img src="../modules/images/mapinnode103.png"  width="650">
-
-Once installed and activated the module can be found in the Administration menu, Configuration tab in the content authoring section.
+Once installed and enabled the module can be found in the Administration menu, Configuration tab in the 'content authoring' section.
 
 <img src="../modules/images/mapinnode104.png"  width="650">
 
 When you click on it and go to the export tab you see options for the Ids, Header, and extra field; or to just output the straight CSV file.
 
-<img src="../modules/images/mapinnode105.png"  width="650">
+<img src="../modules/images/mapinnode105.png"  width="500">
 
 Scroll to the bottom of where it exported (past any warning in pink/red if generated), and a box appears with the export.  Highlight it while scrolling through the full list and hit copy.  Then open your TextEditor where you will paste the output.  
 
-<img src="../modules/images/mapinnode106.png"  width="650">
+<img src="../modules/images/mapinnode106.png"  width="250">
 
 The saved file will look something like this -
 
 <img src="../modules/images/mapinnode107.png"  width="650">
 
+### Entity Reference Tree Widget
 Developing, organizing, and backing up a complex taxonomy still doesn’t get you to the point of working with it in the Manage Form Display of the content type you will use it in.  So installing the ‘Entity Reference Tree Widget’ may be your answer -
 
 <img src="../modules/images/mapinnode108.png"  width="650">
-
-The Composer install method again coordinates dependencies.
-
 <img src="../modules/images/mapinnode109.png"  width="650">
+<img src="../modules/images/mapinnode110.png"  width="350">
 
-Then remember to activate the install in the Administration Extend tab -
+The Composer install method again coordinates dependencies. Then remember to activate the install in the Administration Extend tab.  Once the module is in place you will have a new Widget option for taxonomies you have in the Manage form display of the content type; select it -
 
-<img src="../modules/images/mapinnode110.png"  width="650">
-
-Once the module is in place you will have a new Widget option for taxonomies you have in the Manage form display of the content type; select it -
-
-<img src="../modules/images/mapinnode111.png"  width="650">
+<img src="../modules/images/mapinnode111.png"  width="500">
 
 A summary of what your Manage form display list option settings should look like after you have all this set up.
 
 <img src="../modules/images/mapinnode112.png"  width="650">
+<img src="../modules/images/mapinnode113.png"  width="650">
+<img src="../modules/images/mapinnode114.png"  width="650">
 
 An example of what your Manage display configuration options set up should look like after you are done doing all this -
 
-<img src="../modules/images/mapinnode113.png"  width="650">
-
-The above documentation will be added to once the airport master file is developed.  It is anticipated that the approach will be to somehow grab the airport code with the geocode closest to any node entry with a map and make an association of the node (restaurant, attraction, hotel, etc.)  via use of token matching.  For that reason, the Token module is included here as a likely install requirement.
-
-<img src="../modules/images/mapinnode114.png"  width="650">
-
-It is also possible that a ‘routing’ logic for the combination of destinations into a tour will be needed.  Below is an approach where a developer outlines how they used a ‘polygon’ logic with mapping; in their case more to define a boundary rather than a route but it may give some ideas for approaches.: 
-
-QUESTION: “Store values based on geographic data calculation (which polygon is a point within?) 
-I'm hoping someone has advice on how do the following on a Drupal 9 site:
-save address data (Address field seems best for this, I think.)
-automatically geocode coordinates for the address (I'm not sure if geofield or geolocation field is best.)
-define regions of a city, based on districts for local elections (I'm guessing I would store the polygons that represent the regions in geofield.)
-as nodes with the address field are created (or imported or updated), check which region of the city each address is in and store that value (For example, store "district 6" in a text field if the point falls within that district. This is the step I am unclear on.)
-That final step could be replaced with a dynamic query/view, but that would seem to be a waste since there will be thousands of nodes involved in many queries and the value of the district will remain static for years at a time.”
-ANSWER: Here’s my setup for geographical data on my current project (D9) :
-Address module + Geofield module + Geocoder module (and Geofield map for display) ; my entities uses External Entities but they could be nodes imported with Migrate/Feeds/custom solution if bulk insertion is needed.
-I first import my geographical zones from biggest to smallest : region, counties, cities, neighbourhoods, cadastral sections, roughly 12k items. They are all from open data sources with a WKT/WKB string for geofield polygon data, along with labels and some relations between each. I index everything in Search API with Solr as a backend via Search API Solr, and Search API Location handles geofield data.
-I programmatically use a view with JTS Solr Queries to do a isWithin search of the centroid of each polygon, giving me for each item its parent of each type.
-When I import my cadastral parcel (polygons) and buildings (points), roughly 5M items, I use the same method to associate them to my zones : a direct entity reference and not a text field. I also do a reverse geocode since my source addresses are not clean.
-So this is something doable, but I'd say it required some advanced drupal chops and a few prior geo/mapping skills to know what each module does and how they work with each other. I have done this kinda thing since Drupal 6 and it still took me a few weeks of work to go from a few CSVs to a beautiful map with facets, per type styled polygons/points with nice labels, clustering, infowindows...
-The final display of the map is where the rubber meets the road, you still have to build a car. that's why the ecosystem is multiple modules :
-Geofield : provides field types and text formatters, to store and display location data (geojson, WKT/WKB, LatLon, X/Y, it uses the geoPHP to go from one to another ; storage in database is WKT)
-Geofield Map : provides a map field formatter and views style to render a field value, multiple field value, or multiple entities via views results
-Address module : provides a field type and text formatters to store and display addresses following the xAL standard (splitting address in parts like line1/2+city+postal_code instead of a giant textfield)
-Geocoder : Allow an address field value to be converted to a geofield value and vice versa, address to lat/lon and lat/lon to text address 
-The Leaflet module works with/like Geofield Map to provides a map renderer using Leaflet and not Google Maps if I remember correctly, I tried it quickly when I didn't have a Google Maps API key so I could be wrong about its scope.
-But since it still uses Geofield as the storage backend for geo data, it won't solve your issue which is determining which geofield value is contained is another geofield value.
-But since your workflow and scale seems smaller than mine, an easier approach is feasible :
-Create your content type(s) with a geofield field to contain your polygon
-Create your zones by manually adding them, entering the geofield value like a Geojson or WKT string in the edit form. You should look for open data in your part of the world from official entities or open sourced, big areas are way easier to find and don't change as much as building and addresses.
-Create your other content type that need to be geocoded, with a geofield field and a address field if you'd rather enter a text address and not a geojson/WKT.
-The geocoder module is explicitly made to facilitate this workflow, its README and/or setting page should indicate how to set up this transformation
-Create a custom module implementinghook_node_presaveto trigger the calculation on save :
-Grab the current entity geofield value
-Load your zones entities : if you only have a dozen of them, this should not be super slow which is why this whole technic works
-Loop through them and grab their geofield value
-If, and it's a big if, you have the GEOS-php extension installed with your PHP handler, you can use the within method
-Otherwise use a non-GEOS library like geotools
-Fill your entity reference fields with each zone 
-Something like :
-
-Image
-
-(This is napkin code done without IDE)
-This should be a good pointer on what to do. I'll leave the display to you, with or without maps done by Leaflet/Google Maps.
-Geo data management is fun and a rewarding "niche" of web dev, since you intersect with big data and much more hardcore people (you'll learn about PostGIS, coordinates system...) and non trivial JS libraries (Google Maps SDK or Leaflet). The Drupal ecosystem does a lot for you, but getting to display a nice map with lots of points is always so satisfying. Have fun !
-
-
-
-
-
-
-
+<img src="../modules/images/mapinnode115.png"  width="650">
+<img src="../modules/images/mapinnode116.png"  width="650">
 
 
 
