@@ -75,6 +75,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Development Modules](modules/development.md)
 - [Flagging Modules](modules/flagging.md)
 - [Taxonomy](modules/taxonomy.md)
+- [Mapping](modules/mapping.md)
 - [Example: Map & Taxonomy Node Build](modules/mapinnodes.md)
 
 
