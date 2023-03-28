@@ -418,7 +418,7 @@ A summary of what your 'Manage form' display list option settings should look li
 An example of what your 'Manage display' configuration options set up should look like after you are done doing all this -
 
 <img src="../modules/images/mapinnode116.png"  width="650">
-
+<img src="../modules/images/mapinnode117.png"  width="650">
 
 
 
