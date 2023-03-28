@@ -284,9 +284,9 @@ And we choose to add a “Link” from the pull down list -
 
 But we want to control our link to the restaurant’s website a little more than the standard Drupal 8 link provides for and we elect to install the ‘External Links’ module to provide additional control --
 
-<img src="../modules/images/mapinnode65.png"  width="650">
-<img src="../modules/images/mapinnode66.png"  width="650">
-<img src="../modules/images/mapinnode67.png"  width="350">
+<img src="../modules/images/mapinnode65.png"  width="750">
+<img src="../modules/images/mapinnode66.png"  width="550">
+<img src="../modules/images/mapinnode67.png"  width="250">
 
 
 We install with the Composer approach to coordinate dependencies; or we use the GUI in 'Administration/Extend' and mark the checkbox to install-activate the module. 
@@ -352,9 +352,9 @@ The type of food a restaurant serves is called a Cuisine.  Since our restaurant 
 
 If you have a painfully large taxonomy like the Cuisine listing, even the hierarchical organization isn’t easy.  So there is a module called ‘Taxonomy Manager’ that you can install to work with -
 
-<img src="../modules/images/mapinnode92.png"  width="650">
-<img src="../modules/images/mapinnode93.png"  width="650">
-<img src="../modules/images/mapinnode94.png"  width="350">
+<img src="../modules/images/mapinnode92.png"  width="750">
+<img src="../modules/images/mapinnode93.png"  width="550">
+<img src="../modules/images/mapinnode94.png"  width="250">
 
 Again, we use Composer to install Taxonomy Manager so its dependencies are coordinated.  Once installed, Taxonomy Manager is found under your Administration Menu, Structure tab, toward the bottom of the list alphabetically. 
 
@@ -374,23 +374,21 @@ Our Cuisine taxonomy does have a hierarchy.  We have different styles of  Barbec
 
 Investing in developing, entering, and organizing a complex hierarchical taxonomy like Cuisines makes you want to protect it or make it available to other uses.  So you might want to leverage the ‘Term CSV Export Import’ module to pull the taxonomy up and down from a CSV backup file you perhaps work with Excel and a Text Editor.
 
-<img src="../modules/images/mapinnode99.png"  width="650">
-<img src="../modules/images/mapinnode100.png"  width="650">
-<img src="../modules/images/mapinnode101.png"  width="350">
+<img src="../modules/images/mapinnode99.png"  width="750">
+<img src="../modules/images/mapinnode100.png"  width="550">
+<img src="../modules/images/mapinnode101.png"  width="250">
 
-You install it with the Composer approach for dependency management.
-
-Once installed and enabled the module can be found in the Administration menu, Configuration tab in the 'content authoring' section.
+You install it with the Composer approach for dependency management.  Once installed and enabled the module can be found in the Administration menu, Configuration tab in the 'content authoring' section.
 
 <img src="../modules/images/mapinnode104.png"  width="650">
 
 When you click on it and go to the export tab you see options for the Ids, Header, and extra field; or to just output the straight CSV file.
 
-<img src="../modules/images/mapinnode105.png"  width="500">
+<img src="../modules/images/mapinnode105.png"  width="400">
 
 Scroll to the bottom of where it exported (past any warning in pink/red if generated), and a box appears with the export.  Highlight it while scrolling through the full list and hit copy.  Then open your TextEditor where you will paste the output.  
 
-<img src="../modules/images/mapinnode106.png"  width="250">
+<img src="../modules/images/mapinnode106.png"  width="200">
 
 The saved file will look something like this -
 
@@ -399,23 +397,26 @@ The saved file will look something like this -
 ### Entity Reference Tree Widget
 Developing, organizing, and backing up a complex taxonomy still doesn’t get you to the point of working with it in the Manage Form Display of the content type you will use it in.  So installing the ‘Entity Reference Tree Widget’ may be your answer -
 
-<img src="../modules/images/mapinnode108.png"  width="650">
-<img src="../modules/images/mapinnode109.png"  width="650">
-<img src="../modules/images/mapinnode110.png"  width="350">
+<img src="../modules/images/mapinnode108.png"  width="750">
+<img src="../modules/images/mapinnode109.png"  width="550">
+<img src="../modules/images/mapinnode110.png"  width="250">
 
-The Composer install method again coordinates dependencies. Then remember to activate the install in the Administration Extend tab.  Once the module is in place you will have a new Widget option for taxonomies you have in the Manage form display of the content type; select it -
+The Composer install method again coordinates dependencies. Then remember to activate the install in the Administration Extend tab.
 
-<img src="../modules/images/mapinnode111.png"  width="500">
+<img src="../modules/images/mapinnode111.png"  width="400">
 
-A summary of what your Manage form display list option settings should look like after you have all this set up.
+Once the module is in place you will have a new Widget option for taxonomies you have in the Manage form display of the content type; select it -
 
-<img src="../modules/images/mapinnode112.png"  width="650">
+<img src="../modules/images/mapinnode112.png"  width="400">
+
+A summary of what your 'Manage form' display list option settings should look like after you have all this set up.
+
 <img src="../modules/images/mapinnode113.png"  width="650">
 <img src="../modules/images/mapinnode114.png"  width="650">
-
-An example of what your Manage display configuration options set up should look like after you are done doing all this -
-
 <img src="../modules/images/mapinnode115.png"  width="650">
+
+An example of what your 'Manage display' configuration options set up should look like after you are done doing all this -
+
 <img src="../modules/images/mapinnode116.png"  width="650">
 
 
