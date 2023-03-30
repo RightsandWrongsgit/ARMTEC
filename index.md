@@ -80,41 +80,43 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Example: Map & Taxonomy Node Build](modules/mapinnodes.md)
 
 
-### Chapters from Selwynpolit's Drupal 9 book
-- [Blocks - Generate the code to create blocks, dependency injection, blocks with config forms, block permissions](book/blocks.html)
-- [Caching - Cache tags, disabling caching, caching REST resources, development setup, various caching tips](book/caching.html)
-- [Composer, updates and patches](book/composer.md)
-- [Config - Creating, loading, overriding, drush config commands](book/config.md)
-- [Cron - Using hook_cron, sample crontab files, how to stop cron](book/cron.md)
-- [Dates - Getting and setting date fields, date arithmetic, expiration, node creation and changed dates, Smart date module](book/dates.html)
-- [Drush - the amazing command line tool that makes everyone\'s life so much better](book/drush.md)
-- [Debugging with PhpStorm, DDEV and Xdebug](book/debugging.md)
-- [Development - Local setup, creating sites, DDEV, troubleshooting, PHPStorm setup, Xdebug setup, Twig debugging](book/development.html)
-- [Entities - More entities - the primary building blocks of Drupal](book/entities.md)
-- [Forms - Creating and modifying forms using the Form API, AJAX forms, modals](book/forms.md)
-- [General - Useful things that seemed to not fit well elsewhere](book/general.md)
-- [Hooks - hooking into the Drupal hook system to make modifications](book/hooks.md)
-- [Learning and keeping up with the latest on Drupal](book/learn.md)
-- [Links, Aliases and URLs](book/links.html)
-- [Logging and notification](book/logging.html)
-- [Menus](book/menus.html)
-- [Modal dialogs](book/modals.html)
-- [Nodes and Fields - Loading and saving nodes and different types of fields, multivalue field magic, link fields, entity reference fields, url fields, storing JSON data into text fields, paragraphs, great cheat sheets](book/nodes_n_fields.html)
-- [Reaching out of Drupal](book/reaching_out.html)
-- [Redirects](book/redirects.html)
-- [Render Arrays](book/render.html)
-- [Routes and Controllers](book/routes.html)
-- [Services and Dependency injection](book/services.html)
-- [Queries - entityQueries, SQL queries, inserting and deleting content](book/queries.md)
-- [PHPUnit and Drupal Test Traits](book/dtt.md)
-- [Taxonomy](book/taxonomy.md)
+### Chapters from Selwyn Polit's Drupal 9 book
+There is a very talented individual with great Drupal skills who published a GitHub pages site with all sorts of great, detailed information.  A few items are redundant to my own, but his probably will take you deeper in those subjects so I will provide links to them on this site.  Here is a [direct, full link to his site](https://selwynpolit.github.io/d9book/); individual chapters are also shown below but no promises I can keep up with his updates.  His name is [Selwyn Polit with profile and contact information](https://www.drupal.org/u/selwynpolit).
+- [Batch and Queue - Batch API](https://selwynpolit.github.io/d9book/book/bq.html)
+- [Blocks - Generate the code to create blocks, dependency injection, blocks with config forms, block permissions](https://selwynpolit.github.io/d9book/book/blocks.html)
+- [Caching - Cache tags, disabling caching, caching REST resources, development setup, various caching tips](https://selwynpolit.github.io/d9book/caching.html)
+- [Composer, updates and patches](https://selwynpolit.github.io/d9book/book/composer.md)
+- [Config - Creating, loading, overriding, drush config commands](https://selwynpolit.github.io/d9book/book/config.md)
+- [Cron - Using hook_cron, sample crontab files, how to stop cron](https://selwynpolit.github.io/d9book/book/cron.md)
+- [Dates - Getting and setting date fields, date arithmetic, expiration, node creation and changed dates, Smart date module](https://selwynpolit.github.io/d9book/book/dates.html)
+- [Drush - the amazing command line tool that makes everyone\'s life so much better](https://selwynpolit.github.io/d9book/book/drush.md)
+- [Debugging with PhpStorm, DDEV and Xdebug](https://selwynpolit.github.io/d9book/book/debugging.md)
+- [Development - Local setup, creating sites, DDEV, troubleshooting, PHPStorm setup, Xdebug setup, Twig debugging](https://selwynpolit.github.io/d9book/book/development.html)
+- [Entities - More entities - the primary building blocks of Drupal](https://selwynpolit.github.io/d9book/book/entities.md)
+- [Forms - Creating and modifying forms using the Form API, AJAX forms, modals](https://selwynpolit.github.io/d9book/book/forms.md)
+- [General - Useful things that seemed to not fit well elsewhere](https://selwynpolit.github.io/d9book/book/general.md)
+- [Hooks - hooking into the Drupal hook system to make modifications](https://selwynpolit.github.io/d9book/book/hooks.md)
+- [Learning and keeping up with the latest on Drupal](https://selwynpolit.github.io/d9book/book/learn.md)
+- [Links, Aliases and URLs](https://selwynpolit.github.io/d9book/book/links.html)
+- [Logging and notification](https://selwynpolit.github.io/d9book/book/logging.html)
+- [Menus](https://selwynpolit.github.io/d9book/book/menus.html)
+- [Modal dialogs](https://selwynpolit.github.io/d9book/book/modals.html)
+- [Nodes and Fields - Loading and saving nodes and different types of fields, multivalue field magic, link fields, entity reference fields, url fields, storing JSON data into text fields, paragraphs, great cheat sheets](https://selwynpolit.github.io/d9book/book/nodes_n_fields.html)
+- [Reaching out of Drupal](https://selwynpolit.github.io/d9book/book/reaching_out.html)
+- [Redirects](https://selwynpolit.github.io/d9book/book/redirects.html)
+- [Render Arrays](https://selwynpolit.github.io/d9book/book/render.html)
+- [Routes and Controllers](https://selwynpolit.github.io/d9book/book/routes.html)
+- [Services and Dependency injection](https://selwynpolit.github.io/d9book/book/services.html)
+- [Queries - entityQueries, SQL queries, inserting and deleting content](https://selwynpolit.github.io/d9book/book/queries.md)
+- [PHPUnit and Drupal Test Traits](https://selwynpolit.github.io/d9book/book/dtt.md)
+- [Taxonomy](https://selwynpolit.github.io/d9book/book/taxonomy.md)
 
-- [Attribution - See who contributed to the masterpiece](book/attribution.html)
+- [Attribution - See who contributed to the masterpiece](https://selwynpolit.github.io/d9book/book/attribution.html)
 
 
-During my hunting through examples on [Drupal.org](https://www.drupal.org/), [Stack Overflow](https://stackoverflow.com/questions/tagged/drupal) and many other places, I often wished there was a succinct set of current annotated code samples explaining how to do things the [Drupal way](https://events.drupal.org/neworleans2016/sessions/drupal-way-philosophy).  Of course, there is the excellent [examples module](https://www.drupal.org/project/examples), which is very handy. But this book is designed to otherwise fill that gap. Please forgive the `todo` items, but I've found that if I want to get it perfect, it won't ever get published. 
+ 
 
-You are invited to contribute (in the open source way) by making edits and pull requests in [github](https://github.com/selwynpolit/d9book/tree/gh-pages/book).  There is a very simple editor in github which automatically forks the repo and lets you type your changes directly in your browser in [markdown format](https://github.github.com/gfm/). Try it by editing a chapter of interest to you.
+Selwyn got me started in using GitHub pages for doing extensive documentation.  My original goal was mainly around just the starter CI/CD workflow repository offering greater depth of understanding than just its own readme.  However, Mr Polit's great Drupal 9 Book documention showed me how you might make GitHub pages much more.  Taking advantage of the [markdown format](https://github.github.com/gfm/) I am building in parallel and trying to avoid redundancy with his efforts. 
 
 ----------
 
