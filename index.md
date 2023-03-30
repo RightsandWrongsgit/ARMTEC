@@ -73,6 +73,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Hosting: How will Others see my website?](book/hosting.md)
 - [Drupal Modules](modules/modulesoverview.md)
 - [Development Modules](modules/development.md)
+- [Fields Modules](modules/fields.md)
 - [Flagging Modules](modules/flagging.md)
 - [Taxonomy](modules/taxonomy.md)
 - [Mapping](modules/mapping.md)
