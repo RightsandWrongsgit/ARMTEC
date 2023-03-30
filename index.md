@@ -1,4 +1,4 @@
-# Success is found here!
+# Success found here!
 ## Starting a business, learning to code, need some hints ...
 #### Consider us Your Chief Performance Officer
 
