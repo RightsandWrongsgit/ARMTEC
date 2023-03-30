@@ -107,7 +107,7 @@ Called the Office Hours module, it can be used to indicate when the entities to 
 
 ## Field Permissions module
 
-You can set role permissions from the admin section of Core.  But you can move that further with field level permissions.  And also see under [Taxonomy](../modules/taxonomy.md] using taxonomy term associations to set tight permissions on various entities.
+You can set role permissions from the admin section of Core.  But you can move that further with field level permissions.  And also see under [Taxonomy](../modules/taxonomy.md) using taxonomy term associations to set tight permissions on various entities.
 
 `composer require drupal/field_permissions`<br>
 `drush en field_permissions`
