@@ -7,48 +7,6 @@ composer require drupal/visitors
 drush en visitors
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 FAQ Field Module:
 Fundamentally this is a simple accordion that drops in on all your content types if you add this field to that content type.  You might put it on any given content type to make the field available to put helpful questions and answers directly in the context of the associated page. When you configure it, you can do things like set a zero default so it doesn't show up at all unless populated and set the available Q and A's to unlimited so you can put in all you want.  Because the answer block can use the various HTML formatting options, you can not only go wild with your WYSIWYG editor including images or any other tools you have folded into your CKEditor.   If, when you set it up and are asked for a Title, by putting in FAQ you get the common use but you can do other titles as you put it on a content type and have say a picture accordion or some other options for usage. 
 
@@ -57,131 +15,14 @@ drush en faqfield
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Webform Module:
 If you want to do more than monitor your visitors, like interact and engage them, survey them, collect more about them, you want to install the Webform module.  It is extensive and you should go to the Drupal.org site to look at the module.  In addition, there are extensive videos on they many uses and features of this module; some of which you can link to right off the module page…   https://www.drupal.org/project/webform
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 * See Appendix Section on Webform and Workflows control for more.
 
 Google Analytics:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 XML Site Map module:
@@ -191,90 +32,8 @@ composer require drupal/xmlsitemap
 drush en xmlsitemap
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Metatag Module:
 This is the base module with over 250 metatag control functions across search, google+, Facebook, Dublin Core, etc.    Because it Schema Metatag has a dependency upon it, and that module is noted next, install it as indicated and this will be added automatically (may need to be independently enabled). 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -286,110 +45,13 @@ drush en schema_metatag
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Views Bulk Operations Module:
 Once you are working with content, you may have repetitive actions you want to carry out.  A simple action might be you are done with development where you have generated mock content with Devel Generate and now want to get rid of it.  Instead of individually deleting 50 generated nodes, leverage the Bulk Operations.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 DIFF Module:
 This module can be helpful to the content editors.  You should set it up so it has an association with that Role as you do permissions.  What it will do is allow you to put above/below or side-by-side comparisons of versions as you make revisions.  So it is an enhancement of the core revision capabilities in that it allows you do more than just revert to prior version but actually examine the differences.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Content Moderation Module:
@@ -402,61 +64,8 @@ https://www.youtube.com/watch?v=8R2qiFMU8v8
 
 https://www.drupal.org/docs/8/core/modules/content-moderation/overview
 
-
-
-
-
-
-
-
-
-
 Scheduler Module:
 Once you have your site going, you may want to move the content from unpublished to published under a schedule.  Let's say you are taking a holiday and you want the site to looked refreshed while you are gone.  Just prepare content in advance and then schedule when it will be published. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Override Node Options module:
@@ -465,28 +74,33 @@ Drupal has a pretty powerful role permission capability out of the box.  You can
 composer require drupal/override_node_options
 drush en override_node_options
 
+Once Fields and Content Types are established, one can prepare for operating the site by establishing Roles, Role Permissions, and the Workflow around Content Moderation.
+
+In the Admin interface, under the "People" menu, you can set Roles and then grant Permissions for what that Role can do.
+
+You can set role permissions from the admin section of Core.  But you can move that further with field level permissions:
+composer require 'drupal/field_permissions:^1.1'
+And also see under Taxonomy, using taxonomy term associations to set tight permissions on various entities.
+
+From core:
+
+drush en content moderation
+
+https://www.drupal.org/docs/8/core/modules/content-moderation/overview
+
+Plus add in Workflows:
+https://www.youtube.com/watch?v=gRdU4vF2LcM
+drush en workflows
+
+Content Moderation Sidebar (This module is something you probably don't want to bother with as a developer or site builder but when it comes time for adding and editing content you probably want it; or your content editors will.  You need to enable the basic 'content moderation' that is part of Core and then add this module to make the GUI interface a little easier for content editors to use.)
+
+composer require 'drupal/moderation_sidebar:^1.4'
+
+
+If you find you are going to have a bunch of content editors and approvers in a workflow, you might consider a streamline interface UI for these roles by using Workbench, Workbench Moderation, Workbench Email or Content Moderation Notifications contrib modules.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://www.webwash.net/delete-files-instantly-using-fancy-file-delete-in-drupal/
+composer require 'drupal/file_delete:^1.0'
 
