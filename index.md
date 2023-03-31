@@ -78,6 +78,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Taxonomy](modules/taxonomy.md)
 - [Faceted Search](modules/facetedsearch.md)
 - [Entity Reference](modules/entityref.md)
+- [Views](modules/views.md)
 - [Webform](modules/webform.md)
 - [Performance](modules/performance.md)
 - [Security](modules/security.md)
