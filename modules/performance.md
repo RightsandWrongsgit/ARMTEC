@@ -1,92 +1,27 @@
 
-- Modules to assure site Performance -
+# Performance modules
 
+## Purge module
 
-Quicklink (Performance):
+The [Purge module](https://www.drupal.org/project/purge) is a cache management alternative.  It allows you to set up certain cache components to retain 'infinitely' those items that have not had a change.  This improves performance by not having to load stuff that was already fine just like it was. 
 
+`composer require drupal/purge`<br>
+`drush en purge`
 
 
+## Quicklink module
 
+[Quicklink](https://www.drupal.org/project/quicklink) uses Google's JavaScript Quicklink library to enable faster subsequent page-loads by prefetching in-viewport links while your input otherwise may be idle.
 
+`composer require drupal/quicklink`<br>
+`drush en quicklink`
 
+## Advanced CSS/JS Aggregation module 
 
+If you are using the set up established by the Drupal CICD Base Project you don't need this module because we handle doing this directly at the php level as [noted it that project's documentation](../cicd/envsettings.md#More stuff to put in my-example.settings.local.php).  Also, keep in mind that you have the basic control capabilities as part of Core under your Administration options.  But if you really want to leverage all of it and aren't comfortable working at the php file level, the [Advanced CSS/JS Aggregation module](https://www.drupal.org/project/advagg) can give you GUI access to jump your frontend performance.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Advanced CSS/JS Aggregation Module (Performance):
-Keep in mind you have the basic capabilities as part of Core in your Administration options.  But if you really want to leverage all, this module should jump your frontend performance.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+`composer require drupal/advagg`<br>
+`drush en advagg`
 
 
 
