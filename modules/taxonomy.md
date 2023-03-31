@@ -32,9 +32,10 @@ Install this enhancing module for more control of the files.  It is a companion 
 
 The easiest way to relate to the feeds module is to watch the demo video they provide a [link to on the Drupal.org page for the module](https://www.youtube.com/watch?v=DBsg6cVbmf8)
 
-<font color=yellow>You will note the video is for an old D7 version but the logic is the same for the current version.  Note you may need to allow 'beta' level modules in your composer.json to install to use the current version.</font>
-
-
+<font color=yellow>You will note the video is for an old D7 version but the logic is the same for the current version.  Note you may need to allow 'beta' level modules in your composer.json to install to use the current version.</font><br>
+<br>
+<br>
+<br>
 # Getting Them 'In' 
 ### Easier selection of taxonomies and terms Widgets
 #### (CHOOSE ONE)
