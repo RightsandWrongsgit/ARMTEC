@@ -63,39 +63,16 @@ Result: The Faceted Search Page  Result: The Faceted Search Page
  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 https://www.youtube.com/watch?v=nmUgBTy2hls
 
 This is a very, very slow video overview of the steps.  Start about 3.5 minutes into it.  The key summary points are noted here:
 
 
-
-
 Using Composer, install the Facets module.  Then under extend, activate the module.  You also need to install the Search API with Composer and activate it under extend as shown below:
+
+Facets module (Giving the User the power to leverage taxonomies beyond a search box): 
+composer require drupal/facets
+drush en facets
 
 
 
@@ -103,7 +80,16 @@ Here is an out line of the sequence steps the video demonstrates:
 
 
 
+If you want to use Facets within Views, also install and enable this add-on.
 
+composer require drupal/core_views_facets
+drush en core_views_facets
+
+Facet Block Module:
+The facet block module is an add-on to facets that places multiple search facets into a combination block you can then place; for example multiple taxonomies used in a combo filter. 
+ 
+composer require drupal/facets_block
+drush en facets_block
 
 
 
