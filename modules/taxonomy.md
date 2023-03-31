@@ -15,13 +15,24 @@ To help with those hiearchical levels you do want to use.
 `drush en taxonomy_manager`
 
 
-## Term CSV Export/Import Module
+## Term CSV Export/Import module
 Often you will have some source file with a list of classification terms you can use as a taxonomy.  Or, you might find it easiest to organize taxonomy terms by looking at them in a spreadsheet; which you can then export as a CSV file.  Importing Taxonomy terms from a CSV file or backup is done with this module.
 
 Watch where this module stand in terms of development to see if it meets your minimum stability requirements.   Also, make sure you are aware that the previously noted taxonomy_manage module already has some level of file import capability.
 
 `composer require drupal/term_csv_export_import`<br>
 `drush en term_csv_export_import`
+
+## Feeds Tamper module
+
+Install this enhancing module for more control of the files.  It is a companion of the Feeds module as a way that files can be pulled into you site to populate content. What this 'tamper' does with that is give you lots of control over flows, parsing, etc.  Given it has a dependency on the Feeds module, that module will install automatically with it. 
+
+`composer require drupal/feeds_tamper`<br>
+`drush en feeds_tamper`
+
+The easiest way to relate to the feeds module is to watch the demo video they provide a [link to on the Drupal.org page for the module](https://www.youtube.com/watch?v=DBsg6cVbmf8)
+
+<font color=yellow>You will note the video is for an old D7 version but the logic is the same for the current version.  Note you may need to allow 'beta' level modules in your composer.json to install to use the current version.</font>
 
 
 # Getting Them 'In' 
