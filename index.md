@@ -18,12 +18,12 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 ![visitors](https://page-views.glitch.me/badge?page_id=RightsandWrongsgit.ARMTEC-gh-pages-index)
 
 ### Chapter: Business Success
-- [Route to Performance](../business/overview.md)
+- [Route to Performance](business/overview.md)
 
 
 ### Chapter: Information Basics 
-- [Git & Version Control](../book/gitbasics.md)
-- [Integrated Development Environment](../book/ide.md)
+- [Git & Version Control](book/gitbasics.md)
+- [Integrated Development Environment](book/ide.md)
 
 
 ### Chapter: Drupal Template with CI/CD Workflow
