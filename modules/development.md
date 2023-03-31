@@ -73,32 +73,40 @@ Install and enable the token module as usual...
 `drush en token`
 
 
-## Masquerade Module
+## Masquerade module
 This module lets you switch users and back to your own account.  You can experience testing what it is like for various log-in roles. Does it work for an anonomous user, for a logged in non-paid users, for a subscribing user, for a contributing editor, etc.
 
 `composer require drupal/masquerade`
 `drush en masquerade`
 
-## Responsive Preview Module
+## Responsive Preview module
 Masquerade gets you the feel of different user type experiences. Responsive Preview gets you the feel of different device experiences. This module provides a way to quickly test the look of your site in various responsive view breakpoints while you are doing development.  They warn it isn't a perfect simulation but pretty solid.
 
 `composer require drupal/responsive_preview`<br>
 `drush en responsive_preview`
 
 
-## Devel Module
+## Devel module
 As valuable as masquerading as different users or like you are on different devices may be, having mock content can be very helpful to really get a feel for how a finished site will work.  The Devel modules isgood to generate fake content to better see what things will look like without having to spend a ton of time manually loading real content.  But before you go down that road, if you are using our [CI/CD Process](../book/drupalcicd.md) you may want to consider the fact we are using the [Stage File Proxy Module](../cicd/stagefileproxy.html) to share production ('main') level data with our 'local' lando site in a tight contextual manner that may provide even better full perspective developer experience.
 
 `composer require 'drupal/devel`<br>
 `drush en devel`
 
-## WebProfiler Module
+## Devel Generate Alternative
+
+### Add Another module
+You can put this in early if you are dropping in some content while developing so you get a feel for your site but don't like Devel's Generate output as realistic enough.  Or, you can put it in after your site is built and you are loading in a bunch of content one after the next.  What it does is put in an 'Add Another' button to quickly create additions nodes after creating a new node. You can customize the text on that tab with the [Custom Add Another](https://www.drupal.org/project/custom_add_another) module.
+
+`composer require drupal/addanother`<br>
+`drush en addanother`
+
+## WebProfiler module
 WebProfiler adds a toolbar at the bottom of every page and shows you all sorts of stats such as the amount of database queries loaded on the page, which services are used and much more. This was previously part of the Devel module but is now separate.
 
 `composer require drupal/webprofiler`<br>
 `drush en webprofiler`
 
-## Devel Kint Extras Module
+## Devel Kint Extras module
 This module was parsed out of the prior Devel module into a separate tool.  Makes sense because this tool starts to move you past a site builder level to true developer skill set. The [Kint Debugging Tool](https://kint-php.github.io/kint/) might be of interest only to some of the more advanced users.
 
 `composer require drupal/devel_kint_extras`<br>
