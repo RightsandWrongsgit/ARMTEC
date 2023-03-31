@@ -54,7 +54,9 @@ OR<br>
 `drush en entity_reference_tree`
 
 # User Presentation 
-
+<br>
+<br>
+<br>
 ## Facets module
 To give the user the power to leverage taxonomies beyond a search box you might want to use facets.  Thing of these as the boxes you see on the left of the large shopping sites where you chose your size, color, price, etc. preferences.
 
