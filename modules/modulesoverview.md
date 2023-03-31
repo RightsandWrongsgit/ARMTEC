@@ -31,3 +31,138 @@ The [CI/CD Workflow](../book/drupalcicd) puts in place modules to provide a spli
 - [Tracking]()
 - [Security]()
 - [Legal/Regulatory/Compliance]()
+
+
+
+
+## Module Filter module for better categorization of what you install/enable:
+composer require drupal/module_filter
+drush en module_filter
+
+From within Core, enable these -
+drush en responsive_image
+drush en media
+drush en media_library
+drush en link
+
+Environment Indicator module (To easily see which environment split you are in):
+composer require drupal/environment_indicator
+drush en environment_indicator
+
+Development Mode module (stop cache, aggregation, turn on debug, in your 'Development' Split:
+composer require –dev drupal/dev_mode
+drush en dev_mode
+
+Devel module (generate mock content, masquerade user, redirect email, etc.):
+composer require drupal/devel
+drush en devel
+
+Stage File Proxy module (Real content sharing from Production to Development Environments):
+composer require drupal/stage_file_proxy
+drush en stage_file_proxy
+
+Backup and Migrate module:
+composer require drupal/backup_migrate
+drush en backup_migrate
+
+Password Reset Landing Page module (clarifies password reset process from core):
+composer require drupal/prlp
+drush en prlp
+
+Super Login module (take control of the appearance of log in):
+composer require drupal/super_login
+drush en super_login
+
+Token module:
+composer require drupal/token
+drush en token
+
+PathAuto module:
+composer require drupal/pathauto
+drush en pathauto
+
+Redirect module (assures external links back to your site pages work if you change your site):
+composer require drupal/redirect
+drush en redirect
+
+Ctools or Chaos Tools module (If you just installed PathAuto, it already installed Ctools.):
+composer require drupal/ctools
+drush en ctools
+
+
+## MODULES IMPROVING BASIC SITE FUNCTIONS 
+(These are common in many sites.  CKEditor & Taxonomy Improvements listed separately.)
+
+
+Linked Field module: 
+composer require 'drupal/linked_field
+drush en linked_field
+
+Linkit module: 
+composer require 'drupal/linkit
+drush en linkit
+
+Iframe module:
+composer require drupal/iframe
+drush en iframe
+
+Modal module:
+composer require drupal/modal_page
+drush en modal_page
+
+Exclude Node Title module:
+composer require drupal/exclude_node_title
+drush en exclude_node title
+
+Smart Trim module:
+composer require drupal/smart_trim
+drush en smart_trim
+
+Media Entity Embed module (Inline Entity Form, Entity Browser, Entity Embed dependencies):
+"consider this module a priority" 
+composer require drupal/media_entity_browser
+drush en media_entity_browser
+
+Entity Reference Revisions module:
+composer require drupal/entity_reference_revisions
+drush en entity_reference_revisions
+
+Entity Browser Enhanced module:
+composer require drupal/entity_browser_enhanced
+drush en entity_browser_enhanced
+
+Entity Usage module:
+composer require drupal/entity_usage
+drush en entity_usage
+
+Entity Reference Preview module:
+composer require drupal/entity_reference_preview
+drush en entity_reference_preview
+Block Visibility Groups module (enhancement to control and placement of blocks over core):
+"greater than sliced bread" category! 
+composer require drupal/block_visibility_groups
+drush en block_visibility_groups
+
+Views Block Expose Filter Blocks module:
+composer require drupal/views_block_filter_block
+drush en views_block_filter_block
+
+Views Flipped Table module:
+composer require drupal/views_flipped_table
+drush en views_flipped_table
+
+Views Infinite Scroll module:
+composer require drupal/views_infinite_scroll
+drush en views_infinite_scroll
+
+Add Another module (sort of speed copy another iteration of a node as a good near replication):
+composer require drupal/addanother
+drush en addanother
+
+
+
+
+
+
+
+
