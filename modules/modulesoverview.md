@@ -14,6 +14,25 @@ To make life somewhat easier, ARMTEC has its own list of favorites that can guid
 
 The [CI/CD Workflow](../book/drupalcicd) puts in place modules to provide a split of configurations for 'main' (production site), 'staged', 'develop', and 'local' (Lando) environments.  It also includes an 'environment indicator' to make it super clear where you are working.  Outlined in that set up is a [table that suggests what modules and configuration settings you might what in each environment](../cicd/configsplit3.html).  Some modules you want in all environments and some you want in only one environment.  Those you want in all, are easiest to add before you start activating your splits; in our case, in the starting point only situation where 'local' is connecting directly with 'main'.  Here are categories of modules that we find valuable.  Obviously [many, many more are available(https://www.drupal.org/project/project_module)
 
+### Before Adding Others
+Drupal core is great and has a number of super modules; some of which need to be 'turned on' or enabled.
+
+Modules already in core, but should be enabled: (note that our basic lando/platform.sh install approach automatically included the Drush module and enabled it; this is key because we are going to short cut enabling other modules using Drush)
+
+From within Core, enable these -
+
+`drush en responsive_image`<br>
+`drush en media`<br>
+`drush en media_library`<br>
+`drush en link`
+
+You are going to benefit from a bunch more modules that others had contributed to Drupal as an [open source](../book/opensource.md) CMS.  So the very first "extra" module you are going to put in place is one that simply better categorizes modules in the 'Administration/Extend' part of Drupal so it is easier to track what is in, what is enabled, and thus, what else you might want to add.  This is the 'Module Filter module': 
+
+`composer require drupal/module_filter`<br>
+`drush en module_filter`
+
+## Categories of Modules
+
 - [Development]()
 - [Taxonomy]()
 - [Special Field Convenience]()
