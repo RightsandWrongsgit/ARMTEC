@@ -2,6 +2,20 @@
 # MODULES IMPROVING FIELDS 
 ( You may want to reference 'Schema.Org' as you architect your data.  There you find standards for all sorts of ways data is typically organized.  Using something along these lines makes it more likely you site will be able to utilize others and more effectively coordinate links.)
 
+## Exclude Title
+
+The rest of the items noted to 'improve fields' are generally to add something.  This one it so take something away.  Drupals general default is to have a title on a node or page you are building.  But, lets say you wanted to make a gallery of images and use a link from that image to go to a full page image with an order form.  If you just wanted to have the images in a gallery without the clutter of titles over them, this module would be a good one.  Or think about being a magazine seller who just shows cover images and you click the one you want to read about what that magazine content, price, frequency, etc. are all about.  It can be a little tricky to set it up just right but go the 'help' and 'configure' options under where you enable the modules in the Administration menu.
+
+`composer require drupal/exclude_node_title`<br>
+`drush en exclude_node title`
+
+## Smart Trim module
+Drupal has a few different text fields for things like short items or long entry of text.  It also has things called display modes where you can, for example, have a 'teaser' display that highlights content in a list  of say articles you might select from which represent summaries of much more detail if you click on it and see a full view display.  Where Smart Trim comes into play is giving you more control over how a summary section of text might be carved out and how its display might indicate to "click for more".  Do you break at the character count or at whole words, do you put `…` at the end or insert a 'For More' alternative to 'Read More'.  Nice little power tool addition to your site.
+
+`composer require drupal/smart_trim`<br>
+`drush en smart_trim`
+
+
 ## Address module
 
 Instead of having to create fields for street numbers, street names, cities, states/provinces, countries, etc. you can use the address module where someone has done all that work for you to use.
