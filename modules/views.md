@@ -48,3 +48,10 @@ Views Layout is sort of like a stripped down Layout Builder that lets you select
 composer require drupal/views_layout
 drush en views_layout
 
+
+Core Views Facets Module:
+If you want to use Facets within Views, also install and enable this add-on.
+
+composer require drupal/core_views_facets
+drush en core_views_facets
+
