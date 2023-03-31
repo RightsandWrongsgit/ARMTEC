@@ -76,8 +76,14 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Fields Modules](modules/fields.md)
 - [Flagging Modules](modules/flagging.md)
 - [Taxonomy](modules/taxonomy.md)
+- [Performance](modules/performance.md)
 - [Mapping](modules/mapping.md)
 - [Example: Map & Taxonomy Node Build](modules/mapinnodes.md)
+- [TWIG](theme/twig.md)
+- [Olivero Theme](theme/olivero.md)
+- [Bootstrap Theme](theme/bootstrap.md)
+
+
 
 
 ### Chapters from Selwyn Polit's Drupal 9 book
