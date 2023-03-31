@@ -77,6 +77,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Flagging Modules](modules/flagging.md)
 - [Taxonomy](modules/taxonomy.md)
 - [Faceted Search](modules/facetedsearch.md)
+- [Entity Reference](modules/entityref.md)
 - [Webform](modules/webform.md)
 - [Performance](modules/performance.md)
 - [Security](modules/security.md)
