@@ -81,22 +81,22 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 
 
 ### Chapters from Selwyn Polit's Drupal 9 book
-There is a very talented individual with great Drupal skills who published a GitHub pages site with all sorts of great, detailed information.  A few items are redundant to my own, but his probably will take you deeper in those subjects so I will provide links to them on this site.  Here is a [direct, full link to his site](https://selwynpolit.github.io/d9book/); individual chapters are also shown below but no promises I can keep up with his updates.  His name is [Selwyn Polit with profile and contact information](https://www.drupal.org/u/selwynpolit).
+There is a very talented individual with great Drupal skills who published a GitHub pages site with all sorts of great, detailed information.  A few items are redundant to my own, but his probably will take you deeper in those subjects so I will provide links to them on this site.  Here is a [direct, full link to his site](https://selwynpolit.github.io/d9book/) ; individual chapters are also shown below but no promises I can keep up with his updates.  His name is [Selwyn Polit with profile and contact information](https://www.drupal.org/u/selwynpolit).
 - [Batch and Queue - Batch API](https://selwynpolit.github.io/d9book/book/bq.html)
 - [Blocks - Generate the code to create blocks, dependency injection, blocks with config forms, block permissions](https://selwynpolit.github.io/d9book/book/blocks.html)
 - [Caching - Cache tags, disabling caching, caching REST resources, development setup, various caching tips](https://selwynpolit.github.io/d9book/caching.html)
-- [Composer, updates and patches](https://selwynpolit.github.io/d9book/book/composer.md)
-- [Config - Creating, loading, overriding, drush config commands](https://selwynpolit.github.io/d9book/book/config.md)
-- [Cron - Using hook_cron, sample crontab files, how to stop cron](https://selwynpolit.github.io/d9book/book/cron.md)
+- [Composer, updates and patches](https://selwynpolit.github.io/d9book/book/composer.html)
+- [Config - Creating, loading, overriding, drush config commands](https://selwynpolit.github.io/d9book/book/config.html)
+- [Cron - Using hook_cron, sample crontab files, how to stop cron](https://selwynpolit.github.io/d9book/book/cron.html)
 - [Dates - Getting and setting date fields, date arithmetic, expiration, node creation and changed dates, Smart date module](https://selwynpolit.github.io/d9book/book/dates.html)
-- [Drush - the amazing command line tool that makes everyone\'s life so much better](https://selwynpolit.github.io/d9book/book/drush.md)
-- [Debugging with PhpStorm, DDEV and Xdebug](https://selwynpolit.github.io/d9book/book/debugging.md)
+- [Drush - the amazing command line tool that makes everyone\'s life so much better](https://selwynpolit.github.io/d9book/book/drush.html)
+- [Debugging with PhpStorm, DDEV and Xdebug](https://selwynpolit.github.io/d9book/book/debugging.html)
 - [Development - Local setup, creating sites, DDEV, troubleshooting, PHPStorm setup, Xdebug setup, Twig debugging](https://selwynpolit.github.io/d9book/book/development.html)
-- [Entities - More entities - the primary building blocks of Drupal](https://selwynpolit.github.io/d9book/book/entities.md)
-- [Forms - Creating and modifying forms using the Form API, AJAX forms, modals](https://selwynpolit.github.io/d9book/book/forms.md)
-- [General - Useful things that seemed to not fit well elsewhere](https://selwynpolit.github.io/d9book/book/general.md)
-- [Hooks - hooking into the Drupal hook system to make modifications](https://selwynpolit.github.io/d9book/book/hooks.md)
-- [Learning and keeping up with the latest on Drupal](https://selwynpolit.github.io/d9book/book/learn.md)
+- [Entities - More entities - the primary building blocks of Drupal](https://selwynpolit.github.io/d9book/book/entities.html)
+- [Forms - Creating and modifying forms using the Form API, AJAX forms, modals](https://selwynpolit.github.io/d9book/book/forms.html)
+- [General - Useful things that seemed to not fit well elsewhere](https://selwynpolit.github.io/d9book/book/general.html)
+- [Hooks - hooking into the Drupal hook system to make modifications](https://selwynpolit.github.io/d9book/book/hooks.html)
+- [Learning and keeping up with the latest on Drupal](https://selwynpolit.github.io/d9book/book/learn.html)
 - [Links, Aliases and URLs](https://selwynpolit.github.io/d9book/book/links.html)
 - [Logging and notification](https://selwynpolit.github.io/d9book/book/logging.html)
 - [Menus](https://selwynpolit.github.io/d9book/book/menus.html)
@@ -107,9 +107,9 @@ There is a very talented individual with great Drupal skills who published a Git
 - [Render Arrays](https://selwynpolit.github.io/d9book/book/render.html)
 - [Routes and Controllers](https://selwynpolit.github.io/d9book/book/routes.html)
 - [Services and Dependency injection](https://selwynpolit.github.io/d9book/book/services.html)
-- [Queries - entityQueries, SQL queries, inserting and deleting content](https://selwynpolit.github.io/d9book/book/queries.md)
-- [PHPUnit and Drupal Test Traits](https://selwynpolit.github.io/d9book/book/dtt.md)
-- [Taxonomy](https://selwynpolit.github.io/d9book/book/taxonomy.md)
+- [Queries - entityQueries, SQL queries, inserting and deleting content](https://selwynpolit.github.io/d9book/book/queries.html)
+- [PHPUnit and Drupal Test Traits](https://selwynpolit.github.io/d9book/book/dtt.html)
+- [Taxonomy](https://selwynpolit.github.io/d9book/book/taxonomy.html)
 
 - [Attribution - See who contributed to the masterpiece](https://selwynpolit.github.io/d9book/book/attribution.html)
 
