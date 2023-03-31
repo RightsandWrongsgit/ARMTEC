@@ -73,10 +73,16 @@ If you need multiple search facet combination blocks, try this module.
 `drush en facets_block`
 
 ## Taxonomy Menu module
-To display taxonomy terms to a site visitor is through menus, try this module.
+Another way to display taxonomy terms to a site visitor is through menus.  Now that might not seem logical if your head is wrapped around the Main Menu that you have on your site.  But don't forget that Drupal has multiple menus that are in different regions of your page; e.g. say in the footer or for user log-in in the upper right corner. Plus, you can make and place menus in other regions where it works for your design.  This module is used to grab taxonomy terms and make them menu items you can than arrange for your purposes. 
 
 `composer require drupal/taxonomy_menu`<br>
 `drush en taxonomy_menu`
+
+## Private Taxonomy Terms module
+If you have paid, logged in users with a higher priority permissions, there may be occasions that you want to grant them the rights to associate a personalized taxonomy with site content.  For example, you run a classic car site with sections with articles, manuals, parts for sale, etc.  Your public taxonomy might get you to make and model classifications but a user enthusiast may want to further categorize content items for their specific engine type, door configuration, etc.  In such a case, you might want them to be able to have their own taxonomy but not gum up the public taxonomy which may already be extensive, complex, multi-level.  Grant them this right using the private taxonomy terms module.
+
+`composer require drupal/private_taxonomy`<br>
+`drush en private_taxonomy`
 
 
 # Taxonomy w/ Other Modules
