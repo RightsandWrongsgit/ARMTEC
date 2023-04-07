@@ -1,49 +1,49 @@
 
 # Market Research Methods
 
-- Attribute lists
-- ATU
---	Consumer
---	HCP
-- Communications Research
---	Branding
---	Current Equity Positioning
---	Message Development
----		Qualitative
----		Quantitative
---	Placement & Testing
-- Concept Development & Testing
---	Development
---	Testing
----		BASES
----			PreBASES	
-- Ballpark
---			BASES 1
---			BASES 2
---		Consumer
---		HCP
-- Habits & Practices
-- Models
-- Need Gap
-- Packaging
-- Pricing
-- Product Research
---	Sensory
----		Consumer
----		Trained Panel
---	HUT
---	Preparation
---	SKU Rationalization
-- Promotion
---	All Influence Driver Evaluation
---	Consumer
----		DTC
----		Print
----		TV
----		Radio
----		In Store
---	HCP
----		Salesforce
----		DTC
---	Channel Development
-- Segmentation/Targeting/Profiling
+- Attribute lists<br>
+- ATU<br>
+--	Consumer<br>
+--	HCP<br>
+- Communications Research<br>
+--	Branding<br>
+--	Current Equity Positioning<br>
+--	Message Development<br>
+---		Qualitative<br>
+---		Quantitative<br>
+--	Placement & Testing<br>
+- Concept Development & Testing<br>
+--	Development<br>
+--	Testing<br>
+---		BASES<br>
+---			PreBASES	<br>
+- Ballpark<br>
+--			BASES 1<br>
+--			BASES 2<br>
+--		Consumer<br>
+--		HCP<br>
+- Habits & Practices<br>
+- Models<br>
+- Need Gap<br>
+- Packaging<br>
+- Pricing<br>
+- Product Research<br>
+--	Sensory<br>
+---		Consumer<br>
+---		Trained Panel<br>
+--	HUT<br>
+--	Preparation<br>
+--	SKU Rationalization<br>
+- Promotion<br>
+--	All Influence Driver Evaluation<br>
+--	Consumer<br>
+---		DTC<br>
+---		Print<br>
+---		TV<br>
+---		Radio<br>
+---		In Store<br>
+--	HCP<br>
+---		Salesforce<br>
+---		DTC<br>
+--	Channel Development<br>
+- Segmentation/Targeting/Profiling<br>
