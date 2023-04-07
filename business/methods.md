@@ -12,7 +12,7 @@
   - Comparative Choice<br>
   - Likihood to Switch<br>
   - Anchored Attribute/Feature Responses<br>
- - Price Elasticity<br>
+  - Price Elasticity<br>
 #### Key Calculations
 ##### Who you go after
 - Target Descriptors; reach the interested<br>
