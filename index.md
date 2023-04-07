@@ -19,6 +19,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 
 ### Chapter: Business Success
 - [Route to Performance](business/overview.md)
+- [Business Models](business/models.md)
 
 
 ### Chapter: Information Basics 
