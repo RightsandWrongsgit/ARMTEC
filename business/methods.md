@@ -7,12 +7,12 @@
 <font color=red>Awareness, Trial, & Usage</font>
 #### Present Product Concept(s) for consumer reaction:<br>
 - Obtain measures:<br>
--- Monadic Score<br>
--- Monadic Diagnostics<br> 
--- Comparative Choice<br>
--- Likihood to Switch<br>
--- Anchored Attribute/Feature Responses<br>
--- Price Elasticity<br>
+  - Monadic Score<br>
+  - Monadic Diagnostics<br> 
+  - Comparative Choice<br>
+  - Likihood to Switch<br>
+  - Anchored Attribute/Feature Responses<br>
+ - Price Elasticity<br>
 #### Key Calculations
 ##### Who you go after
 - Target Descriptors; reach the interested<br>
