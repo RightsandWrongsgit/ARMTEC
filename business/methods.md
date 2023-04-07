@@ -64,16 +64,16 @@
 --	SKU Rationalization<br>
 
 ##  Claims
-- Involve Legal from the onset
-- - they may advise external arms length after core design work
-- Always have the specific claim language decided in advance of research
-- Types of Claims likely...
-- - Superiority: claim a higher level of performance relative to competitive brand or earlier formulation
-- - Parity:
-- - - Equality: two product are claimed to be equal in some factor (e.g. "tastes as good as X")
-- - - Unsurpassed: claim is mad that the other product is not better/higher in some way (e.g. "No other product smells as good")
-- - Non-comparative/Communication: seeks to communicate a product difference or benefit in general but not comparative (e.g. "Feels Great")
-[More Details about claims](https://www.astm.org/e1958-22.html)
+- Involve Legal from the onset<br>
+- - they may advise external arms length after core design work<br>
+- Always have the specific claim language decided in advance of research<br>
+- Types of Claims likely...<br>
+- - Superiority: claim a higher level of performance relative to competitive brand or earlier formulation<br>
+- - Parity:<br>
+- - - Equality: two product are claimed to be equal in some factor (e.g. "tastes as good as X")<br>
+- - - Unsurpassed: claim is mad that the other product is not better/higher in some way (e.g. "No other product smells as good")<br>
+- - Non-comparative/Communication: seeks to communicate a product difference or benefit in general but not comparative (e.g. "Feels Great")<br>
+[More Details about claims](https://www.astm.org/e1958-22.html)<br>
 
 
 
