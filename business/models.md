@@ -15,22 +15,25 @@ Most people we work with have a business or a basic business idea that they need
 
 Here we want you to go a little deeper into different types of business principles that make one business wildly successful and a bunch of other fail.  This is critical to understand because [nearly 2/3rds of business fail, and nearly half within five years](https://www.lendingtree.com/business/small/failure-rate/).
 
-Selling more with less is the key to a profitable business.  If you are a non-profit, serving more with less is the same deal.   Doing this is a measure of your efficiency and even your contribution to the world as a whole.  A capitalist at heart!   But how do the successful to this?
+Selling more with less is the key to a profitable business.  If you are a non-profit, serving more with less is the same deal.   Doing this is a measure of your efficiency and even your contribution to the world as a whole.  A capitalist at heart!   But how do the successful do this?
+
 ## Sell more $
 
 It can be selling more dollars because you enjoy a high price.  However, the challenge here is that you have to offer something highly valued that others can't easily copy; unique and differentiated.   If what you offer isn't going to sustain a high price-value, you are going to fall to the impact of [price elasticity of demand](https://en.wikipedia.org/wiki/Price_elasticity_of_demand).  That basically means as price goes up, less people are willing and able to buy what you offer; they find a substitute offer to spend their money on. 
 
 ## Sell more units
 
-What really works better is selling more units with less.  How the heck can you do that?  If you sell physical goods at retail you might buy more from a wholesaler at a cheaper cost but then you are paying for all the inventory you have to store.  You could make your product cheaper and if you are a manufacturer your industrial engineer types will try to shave pennies off the cost of your product; but that is a trap because they don't understand the value your customers place on each feature attribute in your product and you lose customers.  
+What really works better is selling more units with less cost.  How the heck can you do that?  If you sell physical goods at retail you might buy more from a wholesaler at a cheaper cost but then you are paying for all the inventory you have to store.  You could make your product cheaper and if you are a manufacturer your industrial engineer types will try to shave pennies off the cost of your product; but that is a trap because they don't understand the value your customers place on each feature attribute in your product and you lose customers.  
 
-A couple types of businesses provide very solid answers in terms of how you sell more, often at low prices that attract many customers, and even add more features as you grow.  Think about the technical business of software.  Once you incur the expense of creating it, you can sell copies again and again with virtually no additional cost.  So if you wonder how all those 'dot com' types are rolling in cash, they have cracked the code on selling more with less.   How about all those drug companies?  It sort of ticks you off how much you pay for that tiny pill and it certainly can't cost them nearly that much to make.  They have cracked the code in terms of both making something you highly value because it saves your life and in terms of selling more with less.
+A couple types of businesses provide very solid answers in terms of how you sell more, often at low prices that attract many customers, and even add more features as you grow.  Think about the technical business of software.  Once you incur the expense of creating it, you can sell copies again and again with virtually no additional cost.  So if you wonder how all those 'dot com' types are rolling in cash, they have cracked the code on selling more with less.  They use leverage!
 
-Before you 'hate those businesses', it is important to understand that their business model is one of extremely heavy upfront costs and high risk they they may never recoup those costs.  As noted, there are tons of failures in business and this includes those big fancy companies.  
+Who else levers the low cost of reproducing something you already have of value... how about all those drug companies?  It sort of ticks you off how much you pay for that tiny pill and it certainly can't cost them nearly that much to make.  They have cracked the code in terms of both making something you highly value because it saves your life and they can sell many more pills in terms of selling more with less.
+
+Before you 'hate those businesses', it is important to understand that their business model is one of extremely heavy upfront costs and high risk that they may never recoup those costs.  As noted, there are tons of failures in business and this includes those big fancy companies.  
 
 ## Lessons for me
 
-Ok, so you don't have eight years, expensive labs and hundreds of smart people you pay to have a one in hundreds chances you will launch a block buster drug.  You still need to consider the key 'sell more with less' driver of success.  How will you do that?
+Ok, so you don't have eight years, expensive labs and hundreds of smart people you pay big bucks to have a one-in-hundreds chances you will launch a block buster drug.  You still need to consider the key <font color=yellow>'sell more with less'</font> driver of success.  How will you do that?
 
 - Cost of Goods/Cost of Services
 
