@@ -2,7 +2,35 @@
 # Market Research Methods
 
 - Attribute lists<br>
-- ATU<br>
+
+## ATU
+<font color=red>Awareness, Trial, & Usage</font>
+#### Present Product Concept(s) for consumer reaction:<br>
+- Obtain measures:<br>
+-- Monadic Score<br>
+-- Monadic Diagnostics<br> 
+-- Comparative Choice<br>
+-- Likihood to Switch<br>
+-- Anchored Attribute/Feature Responses<br>
+-- Price Elasticity<br>
+#### Key Calculations
+##### Who you go after
+- Target Descriptors; reach the interested<br>
+##### How you reach them
+- Source of Awareness<br>
+- Where they find their current product<br>
+##### What you offer them
+- Unaided Awareness/Attribute-Feature Recall<br>
+- Purchase Intent<br>
+##### Who you are up against
+- Share of Preference versus Observed Share of Use<br>
+##### How you can do better
+- Attribute/Feature Gaps<br>
+
+
+
+
+
 --	Consumer<br>
 --	HCP<br>
 - Communications Research<br>
@@ -34,6 +62,21 @@
 --	HUT<br>
 --	Preparation<br>
 --	SKU Rationalization<br>
+
+##  Claims
+- Involve Legal from the onset
+- - they may advise external arms length after core design work
+- Always have the specific claim language decided in advance of research
+- Types of Claims likely...
+- - Superiority: claim a higher level of performance relative to competitive brand or earlier formulation
+- - Parity:
+- - - Equality: two product are claimed to be equal in some factor (e.g. "tastes as good as X")
+- - - Unsurpassed: claim is mad that the other product is not better/higher in some way (e.g. "No other product smells as good")
+- - Non-comparative/Communication: seeks to communicate a product difference or benefit in general but not comparative (e.g. "Feels Great")
+[More Details about claims](https://www.astm.org/e1958-22.html)
+
+
+
 - Promotion<br>
 --	All Influence Driver Evaluation<br>
 --	Consumer<br>
@@ -46,4 +89,18 @@
 ---		Salesforce<br>
 ---		DTC<br>
 --	Channel Development<br>
-- Segmentation/Targeting/Profiling<br>
+
+
+## Segmentation/Targeting/Profiling
+- Segment by<br>
+- -  Behavioral: Group buyers based on what they purchase in the past<br>
+- -  Descriptor: Group potential buyers based on characteristics of like buyers (demographic/firm-o-graphic)<br>
+- -  Needs/Process: Group potential buyers based on how and why they buy (psychological/functional/economic)<br>
+
+- Intent upon...<br>
+- - Product = Right Product for Target<br>
+- - Price = Value Perceived Maximizing Profits<br>
+- - Promotion = Saying the right stuff to the right target<br>
+- - Place/Distribution = Delivering it to them with the most effective channels<br>
+
+
