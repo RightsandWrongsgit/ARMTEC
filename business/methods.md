@@ -93,15 +93,15 @@
 
 
 ## Segmentation/Targeting/Profiling
-- Segment by<br>
-- -  Behavioral: Group buyers based on what they purchase in the past<br>
-- -  Descriptor: Group potential buyers based on characteristics of like buyers (demographic/firm-o-graphic)<br>
-- -  Needs/Process: Group potential buyers based on how and why they buy (psychological/functional/economic)<br>
+- Segment by...<br>
+  -  Behavioral: Group buyers based on what they purchase in the past<br>
+  -  Descriptor: Group potential buyers based on characteristics of like buyers (demographic/firm-o-graphic)<br>
+  -  Needs/Process: Group potential buyers based on how and why they buy (psychological/functional/economic)<br>
 
 - Intent upon...<br>
-- - Product = Right Product for Target<br>
-- - Price = Value Perceived Maximizing Profits<br>
-- - Promotion = Saying the right stuff to the right target<br>
-- - Place/Distribution = Delivering it to them with the most effective channels<br>
+  - Product = Right Product for Target<br>
+  - Price = Value Perceived Maximizing Profits<br>
+  - Promotion = Saying the right stuff to the right target<br>
+  - Place/Distribution = Delivering it to them with the most effective channels<br>
 
 
