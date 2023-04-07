@@ -65,14 +65,15 @@
 
 ##  Claims
 - Involve Legal from the onset<br>
-- - they may advise external arms length after core design work<br>
+  - they may advise external arms length after core design work<br>
 - Always have the specific claim language decided in advance of research<br>
 - Types of Claims likely...<br>
-- - Superiority: claim a higher level of performance relative to competitive brand or earlier formulation<br>
-- - Parity:<br>
-- - - Equality: two product are claimed to be equal in some factor (e.g. "tastes as good as X")<br>
-- - - Unsurpassed: claim is mad that the other product is not better/higher in some way (e.g. "No other product smells as good")<br>
-- - Non-comparative/Communication: seeks to communicate a product difference or benefit in general but not comparative (e.g. "Feels Great")<br>
+  - Superiority: claim a higher level of performance relative to competitive brand or earlier formulation<br>
+  - Parity:<br
+    - Equality: two product are claimed to be equal in some factor (e.g. "tastes as good as X")<br>
+    - Unsurpassed: claim is mad that the other product is not better/higher in some way (e.g. "No other product smells as good")<br>
+  - Non-comparative/Communication: seeks to communicate a product difference or benefit in general but not comparative (e.g. "Feels Great")<br>
+
 [More Details about claims](https://www.astm.org/e1958-22.html)<br>
 
 
