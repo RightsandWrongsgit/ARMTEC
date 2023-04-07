@@ -21,6 +21,8 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Route to Performance](business/overview.md)
 - [Business Models](business/models.md)
 
+- [Market Research](business/methods.md)
+
 
 ### Chapter: Information Basics 
 - [Git & Version Control](book/gitbasics.md)
