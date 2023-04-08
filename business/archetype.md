@@ -53,17 +53,17 @@ You can refer to the video in how you might further translate your personality a
 
 ### The Caregiver
 
-Nurturing
-Compassionate
-Soothing
-Helpful
-Altruistic
-Comforting
-Kind
-Protective
-Generous
-Caring
-Understanding
+Nurturing, 
+Compassionate, 
+Soothing, 
+Helpful, 
+Altruistic, 
+Comforting, 
+Kind, 
+Protective, 
+Generous, 
+Caring, 
+Understanding, 
 Supportive
 
 
@@ -83,7 +83,7 @@ Productive
 Unforgiving
 
 
-## #The Creator
+### The Creator
 
 Insiring
 Unique
@@ -99,7 +99,7 @@ Influential
 Do-it-yourself
 
 
-## #The Innocent
+### The Innocent
 
 Happy
 Fearful
