@@ -69,174 +69,174 @@ Supportive
 
 ### The Ruler
 
-Controlling
-Successful
-Leadership
-Bossy
-Responsible
-Order
-Harmony
-Manipulative
-Differentiator
-Stable
-Productive
-Unforgiving
+Controlling, 
+Successful, 
+Leadership, 
+Bossy, 
+Responsible, 
+Order, 
+Harmony, 
+Manipulative, 
+Differentiator, 
+Stable, 
+Productive, 
+Unforgiving 
 
 
 ### The Creator
 
-Insiring
-Unique
-Imaginative
-Vibrant
-Expressive
-Artistic
-Visionary
-Creative
-Diverse
-Innovative
-Influential
+Insiring, 
+Unique, 
+Imaginative, 
+Vibrant, 
+Expressive, 
+Artistic, 
+Visionary, 
+Creative, 
+Diverse, 
+Innovative, 
+Influential, 
 Do-it-yourself
 
 
 ### The Innocent
 
-Happy
-Fearful
-Faithful
-Optimistic
-Pure
-Good
-Integrity
-Nostalgic
-Virtuous
-Simple
-Naive
+Happy, 
+Fearful, 
+Faithful, 
+Optimistic, 
+Pure, 
+Good, 
+Integrity, 
+Nostalgic, 
+Virtuous, 
+Simple, 
+Naive, 
 Idyllic
 
 
 ### The Explorer
 
-Adventurous
-Daring
-Curious
-Ambitious
-Independent
-Resilient
-Pioneering
-Exciting
-Liberating
-Rugged
-Resourceful
+Adventurous, 
+Daring, 
+Curious, 
+Ambitious, 
+Independent, 
+Resilient, 
+Pioneering, 
+Exciting, 
+Liberating, 
+Rugged, 
+Resourceful, 
 Autonomous
 
 ### The Sage
 
-Practical
-Sophiticated
-Objective
-Cutting-edge
-Enlightening
-Scientific
-Analytical
-Smart
-Insightful
-Knowledgeable
-Informed
+Practical, 
+Sophiticated, 
+Objective, 
+Cutting-edge, 
+Enlightening, 
+Scientific, 
+Analytical, 
+Smart, 
+Insightful, 
+Knowledgeable,  
+Informed, 
 Expert
 
 ### The Jester
 
-Light-hearted
-Fun
-Entertaining
-Spontaneous
-Exciting
-Witty
-Energetic
-Outgoing
-Playful
-Loud
-Funny
+Light-hearted, 
+Fun, 
+Entertaining, 
+Spontaneous, 
+Exciting, 
+Witty, 
+Energetic, 
+Outgoing, 
+Playful, 
+Loud, 
+Funny, 
 Gregarious
 
 
 ### The Regular Guy
 
-Friendly
-Hard-working
-Humble
-Charming
-Loyal
-Down-to-earth
-Modest
-Unpretentious
-Relatable
-Trustworthy
-Welcoming
+Friendly, 
+Hard-working, 
+Humble, 
+Charming, 
+Loyal, 
+Down-to-earth, 
+Modest, 
+Unpretentious, 
+Relatable, 
+Trustworthy, 
+Welcoming, 
 Good-natured
 
 
 ### The Lover
 
-Desirable
-Sexy
-Passionate
-Provocative
-Alluring
-Romantic
-Enticing
-Indulgent
-Intimate
-Luxurious
-Pleasurable
+Desirable, 
+Sexy, 
+Passionate, 
+Provocative, 
+Alluring, 
+Romantic, 
+Enticing, 
+Indulgent, 
+Intimate, 
+Luxurious, 
+Pleasurable, 
 Sensual
 
 
 ### The Magician
 
-Mysterious
-Revealing
-Transformative
-Dynamic
-Amazing
-Visionary
-Intuitive
-Spiritual
-Powerful
-Transcendent
-Mystical
+Mysterious, 
+Revealing, 
+Transformative, 
+Dynamic, 
+Amazing, 
+Visionary, 
+Intuitive, 
+Spiritual, 
+Powerful, 
+Transcendent, 
+Mystical, 
 Magical
 
 
 ### The Outlaw
 
-Vengeful
-Disrupting
-Shocking
-Radical
-Outrageous
-Loner
-Outsider
-Non-Conformist
-Freedom
-Independent
+Vengeful, 
+Disrupting, 
+Shocking, 
+Radical, 
+Outrageous, 
+Loner, 
+Outsider, 
+Non-Conformist, 
+Freedom, 
+Independent, 
 Destructive
 
 
 ### The Hero
 
-Worthiness
-Masterful
-Strong
-Competent
-Arrogance
-Courageous
-Helpful
-Dutiful
-Obsessive
-Moral
-Truthful
+Worthiness, 
+Masterful, 
+Strong, 
+Competent, 
+Arrogance, 
+Courageous, 
+Helpful, 
+Dutiful, 
+Obsessive, 
+Moral, 
+Truthful, 
 Family
 
 
