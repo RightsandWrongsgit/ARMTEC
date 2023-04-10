@@ -46,6 +46,8 @@ Vigilant with little effort is a key MINT advantage.
 
 ## What else moves people
 
+<img src="../business/captures/ladder11.png"  width="900">
+
 <img src="../business/captures/ladder7.png"  width="900">
 
 <img src="../business/captures/ladder6.png"  width="900">
@@ -54,7 +56,7 @@ Vigilant with little effort is a key MINT advantage.
 
 <img src="../business/captures/ladder10.png"  width="900">
 
-<img src="../business/captures/ladder11.png"  width="900">
+
 
 
 ## Taglines & Logos
