@@ -42,11 +42,11 @@ MINT's anytime/anywhere advantage could be a player in the 'how'.  Could we take
 
 ## What else moves people
 
-<img src="../business/captures/ladder6.png"  width="900">
+<img src="../business/captures/ladder8.png"  width="900">
 
 <img src="../business/captures/ladder7.png"  width="900">
 
-<img src="../business/captures/ladder8.png"  width="900">
+<img src="../business/captures/ladder6.png"  width="900">
 
 <img src="../business/captures/ladder9.png"  width="900">
 
