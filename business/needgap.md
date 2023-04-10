@@ -6,11 +6,20 @@ Need Gap research is a quantitative study that typically follows ideation and qu
 
 You need to come up with a comprehensive list of attributes.  The example below, on a 'kitchen appliance', only presents a very abbreviated list of attributes so you can see how survey questions are assembled from them.  You should have 3 or 4 times that many if you really breakdown the full scope of a potential offering at a really detailed level that guides decision making.  Do NOT combine attributes on the same line; each should be individually presented. 
 
-
+## Query Importance
 <img src="../business/captures/needgap1.png"  width="800">
 
+## Query Current Satisfaction
 <img src="../business/captures/needgap2.png"  width="800">
 
+## Query Crediblity Challenge
 <img src="../business/captures/needgap3.png"  width="800">
 
+## Get at the 'Who'
+
+Again, the example below is just that.  You should make sure you are collecting a very extensive list of classification/[segmentation and targeting]() questions.  These will both allow you to be very clear on who you are going to find interest in your product/service and begin to drive your list source capture plans.
 <img src="../business/captures/needgap4.png"  width="600">
+
+
+
+[- Next -}()
