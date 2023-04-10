@@ -23,7 +23,7 @@ Again, the example below is just that.  You should make sure you are collecting 
 <br>
 ## Using the Findings
 
-These findings will help point you to tangible feature or functional benefits valued by prospective customers.  However, if you recall the discussion about [Cost of Goods Sold or Cost of Services](../business/cogs.md), you remember communicating about having the ['right stuff' rather than stumbling into it](https://www.google.com/search?q=the+right+stuff&source=lnms&tbm=vid&sa=X&ved=2ahUKEwio04XZ-Z_-AhXStTEKHf4HD_cQ0pQJegQIBRAC&biw=1440&bih=586&dpr=2#fpstate=ive&vld=cid:25b010d5,vid:nYEKSqa41q8) is what will maximize profit.   The Need Gap findings point to what attributes are important and unique, then we move to developing a [Value Ladder](../busines/ladder.md) to frame how best to talk about them.
+These findings will help point you to tangible feature or functional benefits valued by prospective customers.  However, if you recall the discussion about [Cost of Goods Sold or Cost of Services](../business/cogs.md), you remember communicating about having the ['right stuff' rather than stumbling into it](https://www.google.com/search?q=the+right+stuff&source=lnms&tbm=vid&sa=X&ved=2ahUKEwio04XZ-Z_-AhXStTEKHf4HD_cQ0pQJegQIBRAC&biw=1440&bih=586&dpr=2#fpstate=ive&vld=cid:25b010d5,vid:nYEKSqa41q8) is what will maximize profit.   The Need Gap findings point to what attributes are important and unique, then we move to developing a [Value Ladder](../business/ladder.md) to frame how best to talk about them.
 
 
 
