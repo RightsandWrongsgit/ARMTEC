@@ -17,7 +17,7 @@ You need to come up with a comprehensive list of attributes.  The example below,
 
 ## Get at the 'Who'
 
-Again, the example below is just that.  You should make sure you are collecting a very extensive list of classification/[segmentation and targeting]() questions.  These will both allow you to be very clear on who you are going to find interest in your product/service and begin to drive your list source capture plans.
+Again, the example below is just that.  You should make sure you are collecting a very extensive list of classification/[segmentation and targeting]() questions.  These will both allow you to be very clear on who you are going to find interest in your product/service and begin to drive your list source capture plans.<br>
 <img src="../business/captures/needgap4.png"  width="600">
 
 
