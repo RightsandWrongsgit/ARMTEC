@@ -18,8 +18,12 @@ You need to come up with a comprehensive list of attributes.  The example below,
 ## Get at the 'Who'
 
 Again, the example below is just that.  You should make sure you are collecting a very extensive list of classification/[segmentation and targeting]() questions.  These will both allow you to be very clear on who you are going to find interest in your product/service and begin to drive your list source capture plans.<br>
-<img src="../business/captures/needgap4.png"  width="600">
+<img src="../business/captures/needgap4.png"  width="600"><br>
+<br>
+<br>
+<br>
+This information will help point you to tangible feature or functional benefits valued by prospective customers.  However, if your recall the discussion about [Cost of Goods Sold or Cost of Services](../business/cogs.md), you remember communicating about having the ['right stuff' rather than stumbling into it](https://www.google.com/search?q=the+right+stuff&source=lnms&tbm=vid&sa=X&ved=2ahUKEwio04XZ-Z_-AhXStTEKHf4HD_cQ0pQJegQIBRAC&biw=1440&bih=586&dpr=2#fpstate=ive&vld=cid:25b010d5,vid:nYEKSqa41q8) is what will maximize profit.   The Need Gap findings point to what attributes are important and unique, then we move to developing a [Value Ladder](../busines/ladder.md) to frame how best to talk about them.
 
 
 
-[- Next -}()
+[- Next -}(../business/ladder.md)
