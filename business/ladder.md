@@ -37,14 +37,14 @@ Jump back to 2006-2007 and think for a moment.  Do you believe giving all your b
 
 MINT's anytime/anywhere advantage could be a player in the 'how'.  Could we take that ubitious advantage as a reason to believe for safety and security?  Now you see how things like setting activity alerts jumped into a product development priority to assure support of an important prospective customer emotional benefit need.
 
-<img src="../business/captures/ladder7.png"  width="900">
+<img src="../business/captures/ladder5.png"  width="900">
 
 
 ## What else moves people
 
 <img src="../business/captures/ladder6.png"  width="900">
 
-<img src="../business/captures/ladder5.png"  width="900">
+<img src="../business/captures/ladder7.png"  width="900">
 
 <img src="../business/captures/ladder8.png"  width="900">
 
