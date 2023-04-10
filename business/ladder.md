@@ -39,10 +39,12 @@ MINT's anytime/anywhere advantage could be a player in the 'how'.  Could we take
 
 <img src="../business/captures/ladder5.png"  width="900">
 
-
-## What else moves people
+Vigilant with little effort is a key MINT advantage.
 
 <img src="../business/captures/ladder8.png"  width="900">
+
+
+## What else moves people
 
 <img src="../business/captures/ladder7.png"  width="900">
 
