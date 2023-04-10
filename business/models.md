@@ -35,7 +35,7 @@ Before you 'hate those businesses', it is important to understand that their bus
 
 Ok, so you don't have eight years, expensive labs and hundreds of smart people you pay big bucks to have a one-in-hundreds chances you will launch a block buster drug.  You still need to consider the key <font color=yellow>'sell more with less'</font> driver of success.  How will you do that?
 
-- Cost of Goods/Cost of Services
+- [Cost of Goods/Cost of Services](../business/cogs.md)
 
 - Advertising and Promotion
 
