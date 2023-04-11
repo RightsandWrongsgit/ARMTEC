@@ -212,24 +212,24 @@ ___ No, Skip to Q????
 
 What company/product currently provides your  _________(insert category)__________?
 `
-___ Company/Product
-___ Company/Product
-___ Company/Product
-___ Company/Product
-___ Company/Product
-___ Company/Product
-___ Company/Product
-___ Company/Product
-___ Company/Product
-___ Other: _______________________________`
+    ___ Company/Product<br>
+    ___ Company/Product<br>
+    ___ Company/Product<br>
+    ___ Company/Product<br>
+    ___ Company/Product<br>
+    ___ Company/Product<br>
+    ___ Company/Product<br>
+    ___ Company/Product<br>
+    ___ Company/Product<br>
+    ___ Other: _______________________________`<br>
 
 Which of the following best describes the type of _________(insert category)_________ you have? (READ LIST)
 
-`       ___ Company/Product Subtype Descriptor
-	___ Company/Product Subtype Descriptor
-        ___ Company/Product Subtype Descriptor
-        ___ Company/Product Subtype Descriptor
-        ___ Company/Product Subtype Descriptor`
+`       ___ Company/Product Subtype Descriptor<br>
+	___ Company/Product Subtype Descriptor<br>
+        ___ Company/Product Subtype Descriptor<br>
+        ___ Company/Product Subtype Descriptor<br>
+        ___ Company/Product Subtype Descriptor`<br>
 
 Can you tell me the name of the specific product you have with (insert company from Q??)?
 
