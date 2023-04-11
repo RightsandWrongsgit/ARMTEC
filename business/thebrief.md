@@ -6,49 +6,97 @@
 
 PROJECT: (What is requested? e.g. logo, tagline, concept(s) development, print ad, video, digital banner ad,  e-mail template,  website design, etc.)
 
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
 
 PURPOSE: (What is it for? Create brand identity awareness, drive traffic to website, drive trial at retail, pre-qualify sales prospect, etc. )
+
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
 
 
 BACKGROUND: (History of client/category, performance of other campaigns, coordination requirements, calendar, placements, etc.)
 
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+
 
 ENVIRONMENT & OPPORTUNITIES: (Insights about the Market and Category)
+
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
 
 
 TARGET: ([Psychographic Vignette](https://clevertap.com/blog/psychographic-segmentation/), demographics, firm-o-graphics, etc.)
 
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+
 
 COMPETITION: (List of key competitors and list of any advantages/disadvantages)
+
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
 
 
 MESSAGE: (What is the single most motivating/differentiating thing about the brand/product/service? Reference [Need Gap](../business/needgap.md) findings)
 
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+
 
 INSIGHT: (Key points of important to targets and relative position differences from competitors? Reference [Value Ladder](../business/ladder.md))
+
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
 
      
 ADDITIONAL MESSAGING: (Additional insights)
 
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+
 
 TO AVOID IN MESSAGING: (Any 'off limits' terminology, references, implied endorsements, etc.)
 
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+## Prompt me
 
 Questions to ask yourself to assist in writing a complete, inspirational and smart creative brief.
 
@@ -66,7 +114,7 @@ PROJECT:
     • What could we do?
     • What should we do?
     • How will we make it happen? 
-    • 
+    
 TARGET:
     • Who is the most valuable audience?
     • Who is the most impressionable audience? 
@@ -97,7 +145,7 @@ TARGET:
     • What keeps them up at night?
     • How do they behave as users, are they more a scanner or scroller or clicker or explorer or browser etc.?
     • Are there any secondary audiences? What is important to the secondary audience? 
-    • 
+     
 MESSAGE: 
     • What do we want our audience to feel? 
     • What do we want our audience to do? 
@@ -144,5 +192,11 @@ INSIGHT:
     • What is the mindset of the person who is using my product/service? Where is the consumer using my product/service? 
     • Why would someone choose my brand over another one? 
     • Who loves what I have to offer and why? 
-    • How is the consumer's life different as a result of my product doing what it is supposed to? 
-What did people do before my product existed?
+    • How is the consumer's life different as a result of my product doing what it is supposed to?
+    • What did people do before my product existed?
+
+
+
+[- Next -]()
+
+
