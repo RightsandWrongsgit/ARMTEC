@@ -152,7 +152,9 @@ Choose one answer for each statement below.
                                                    Neither
                                                     Agree
                                   Agree    Agree     Nor    Disagree Disagree
-                                 Strongly Somewhat Disagree Somewhat Strongly<br>
+                                 Strongly Somewhat Disagree Somewhat Strongly
+                                 
+
   Concept diagnostic ..   (55)      1        2        3        4        5
   Concept diagnostic ..   (56)      1        2        3        4        5
   Concept diagnostic ..   (57)      1        2        3        4        5
