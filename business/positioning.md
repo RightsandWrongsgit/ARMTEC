@@ -13,3 +13,13 @@ Research can be done which attempts to draw from [interviews with you and your e
 
 For new products/businesses, the process is similar but focuses on finding what attributes people want and aren't feeling that they are currently receiving; what is their "need gap" and can you fulfill it?
 
+
+
+
+## Encapsulate it
+
+<img src="../business/captures/positionsummary.png"  width="900">
+
+
+[- Next -]()
+
