@@ -144,12 +144,11 @@ __________________________________________________________________________
 
  Next, I would like to know how much you agree or disagree with some statements about this product.  While I realize that you  tried this product, I would like you to base your answers on what you have seen and read in the product description.
            
-           How much do you agree or disagree with each of the following
-           statements about ()?  (RANDOMIZE STATEMENTS)
-           
-           Choose one answer for each statement below.
+How much do you agree or disagree with each of the following statements about ()?  (RANDOMIZE STATEMENTS)
+(These should be more “feature like” elements we expect a person to take away from the concept statement)          
 
-  (These should be more “feature like” elements we expect a person to take away from the concept statement)
+Choose one answer for each statement below.
+ 
                                                    Neither
                                                     Agree
                                   Agree    Agree     Nor    Disagree Disagree
