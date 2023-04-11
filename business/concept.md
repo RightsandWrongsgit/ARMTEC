@@ -63,7 +63,9 @@
 Focus groups are a good way to get quick, somewhat diverse inputs and feedback.  Even a skilled moderator has a hard time managing 'group think' and a dominant few piercing the bubble on otherwise good ideas.  So watch out and try to run several groups in multiple areas with differing mix of prospective customers.
 <br>
 The other thing that focus groups often miss is the deep thoughts, the personal thoughts, especially on any more sensitive or complex concepts.  So one-on-one interviews once you have brought increasing focus to your concepts is often advised before finalizing to a quantitative test of what appear to be the best.
-<br>  
+<br>
+<br>
+<br>
 ### Quantitative Study
 The use of formal scoring and the gathering of associated demographics that aid targeting are real values of next going to a [quantitative concept test](../business/conceptquestions.md).<br>
 <br>
