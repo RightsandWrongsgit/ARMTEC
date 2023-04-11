@@ -47,15 +47,17 @@
 
 ### Focus Groups
 • Initial refinement usually takes place in Focus Group Setting<br>
-<br>
-        1. Allows for building and laddering among respondents<br>
-        2. Allows for development of “consumer language”<br>
-        3. Allows for quick consensus - positively or negatively<br>
-        4. Allows for defensible positioning<br>
- <br>       
+
+&nbsp;&nbsp;&nbsp;&nbsp;       1. Allows for building and laddering among respondents<br>
+&nbsp;&nbsp;&nbsp;&nbsp;        2. Allows for development of “consumer language”<br>
+&nbsp;&nbsp;&nbsp;&nbsp;        3. Allows for quick consensus - positively or negatively<br>
+&nbsp;&nbsp;&nbsp;&nbsp;        4. Allows for defensible positioning<br>
+      
 • Will often incorporate a “triage” approach<br>
 • With refinement, will move to ONE-on-ONEs<br>
+
 <br>
+
 ### One-on-one
 Focus groups are a good way to get quick, somewhat diverse inputs and feedback.  Even a skilled moderator has a hard time managing 'group think' and a dominant few piercing the bubble on otherwise good ideas.  So watch out and try to run several groups in multiple areas with differing mix of prospective customers.
 <br>
