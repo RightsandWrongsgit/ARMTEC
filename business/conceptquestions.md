@@ -212,24 +212,24 @@ Are you currently buying some type of _________(insert category)___________, or 
 
 What company/product currently provides your  _________(insert category)__________?
 
-          ___ Company/Product<br>
-          ___ Company/Product<br>
-          ___ Company/Product<br>
-          ___ Company/Product<br>
-          ___ Company/Product<br>
-          ___ Company/Product<br>
-          ___ Company/Product<br>
-          ___ Company/Product<br>
-          ___ Company/Product<br>
+          ___ Company/Product
+          ___ Company/Product
+          ___ Company/Product
+          ___ Company/Product
+          ___ Company/Product
+          ___ Company/Product
+          ___ Company/Product
+          ___ Company/Product
+          ___ Company/Product
           ___ Other: _______________________________
 
 Which of the following best describes the type of _________(insert category)_________ you have? (READ LIST)
 
-              ___ Company/Product Subtype Descriptor<br>
-	      ___ Company/Product Subtype Descriptor<br>
-              ___ Company/Product Subtype Descriptor<br>
-              ___ Company/Product Subtype Descriptor<br>
-              ___ Company/Product Subtype Descriptor<br>
+              ___ Company/Product Subtype Descriptor
+              ___ Company/Product Subtype Descriptor
+              ___ Company/Product Subtype Descriptor
+              ___ Company/Product Subtype Descriptor
+              ___ Company/Product Subtype Descriptor
 
 Can you tell me the name of the specific product you have with (insert company from Q??)?
 
@@ -255,10 +255,10 @@ Which of the following best describes your employment status?  Are you? (READ LI
           
 Which of the following best describes your current living conditions?
 
-___ Living independently
-___ Living with extended family
-___ In assisted living/nursing home
-___ Other, please specify _______________________
+              ___ Living independently
+              ___ Living with extended family
+              ___ In assisted living/nursing home
+              ___ Other, please specify _______________________
 
  Including yourself, how many people are there living in your household? This includes babies, but does not include students living at school.
 
