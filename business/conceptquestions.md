@@ -152,7 +152,7 @@ Choose one answer for each statement below.
                                                    Neither
                                                     Agree
                                   Agree    Agree     Nor    Disagree Disagree
-                                 Strongly Somewhat Disagree Somewhat Strongly
+                                 Strongly Somewhat Disagree Somewhat Strongly<br>
   Concept diagnostic ..   (55)      1        2        3        4        5
   Concept diagnostic ..   (56)      1        2        3        4        5
   Concept diagnostic ..   (57)      1        2        3        4        5
@@ -179,8 +179,8 @@ Choose one answer for each statement below.
 
 ________________________________________________________________________________
 
- Which statements best describe the reasons why you, yourself, would use this benefit plan? Choose As Many As Apply.
-  (These should be more “positioning statement” level elements at a higher level which would be the feeling we expect to endure in our brand equity creation)                      
+ Which statements best describe the reasons why you, yourself, would use this benefit plan? Choose As Many As Apply.<br>
+<font color=yellow>(These should be more “positioning statement” level elements at a higher level which would be the feeling we expect to endure in our brand equity creation)</font>                      
                                                             
            Attribute.........................................1
            Attribute.........................................2
