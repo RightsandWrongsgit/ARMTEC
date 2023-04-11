@@ -1,6 +1,9 @@
 
 # The Creative Brief
 
+It is typical to work with an advertising creative agency in the step from taking your [positioning summary](../business/positioning.md) to the development of different concepts to make it ready to use in advertising and promotion.   You may plan to reach your intended target with television, print, digital, sales literature/script/consulting selling responses, sky writing or who knows.  It helps to have a fresh set of eyes on your story to consider alternative ways to 'say it' or 'tell your story' in a most persuasive manner.  Advertising agencies employ artistic, and copy/story telling talent specifically charged with being creative.  That's the good news and you want it.   However, somehow you also need to prepare these talented people with enough background to contribute most effectively.  You do that with something called a "Creative Brief".  Here is an outline of one to fill out.  Keep glancing back at your positioning summary, [need gap](../business/needgap.md), and [value ladder](../business/ladder.md) as you fill this out.<br>
+<br>
+<br>
 
 ## Outline
 
@@ -74,7 +77,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 
-     
+
 ADDITIONAL MESSAGING: (Additional insights)
 
 __________________________________________________________________________
