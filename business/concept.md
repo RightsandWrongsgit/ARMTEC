@@ -4,9 +4,9 @@
 ## What is a Concept
 
 
-    • A simple one or two sentence expression addressing how the consumer will benefit from the product/service, and reasons why they may believe the product/service will satisfy their needs. 
-    • It identifies the important unmet need the product will satisfy i.e. how will the consumer’s life be meaningfully different having used this product/service? 
-    • A concept is strategic in nature.  It establishes a product’s/service’s POSITION IN THE MARKETPLACE.
+• A simple one or two sentence expression addressing how the consumer will benefit from the product/service, and reasons why they may believe the product/service will satisfy their needs.
+• It identifies the important unmet need the product will satisfy i.e. how will the consumer’s life be meaningfully different having used this product/service?
+• A concept is strategic in nature.  It establishes a product’s/service’s POSITION IN THE MARKETPLACE.
 
 
  ## Key Components of a Concept
