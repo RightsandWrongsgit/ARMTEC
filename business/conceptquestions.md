@@ -144,8 +144,8 @@ __________________________________________________________________________
 
  Next, I would like to know how much you agree or disagree with some statements about this product.  While I realize that you  tried this product, I would like you to base your answers on what you have seen and read in the product description.
            
-How much do you agree or disagree with each of the following statements about ()?  (RANDOMIZE STATEMENTS)
-(These should be more “feature like” elements we expect a person to take away from the concept statement)          
+How much do you agree or disagree with each of the following statements about ()?  (RANDOMIZE STATEMENTS)<br>
+<font color=yellow>(These should be more “feature like” elements we expect a person to take away from the concept statement)</font>          
 
 Choose one answer for each statement below.
  
@@ -153,7 +153,6 @@ Choose one answer for each statement below.
                                                     Agree
                                   Agree    Agree     Nor    Disagree Disagree
                                  Strongly Somewhat Disagree Somewhat Strongly
-
   Concept diagnostic ..   (55)      1        2        3        4        5
   Concept diagnostic ..   (56)      1        2        3        4        5
   Concept diagnostic ..   (57)      1        2        3        4        5
