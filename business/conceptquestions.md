@@ -149,12 +149,11 @@ How much do you agree or disagree with each of the following statements about ()
 
 Choose one answer for each statement below.
  
-                                                   Neither
-                                                    Agree
-                                  Agree    Agree     Nor    Disagree Disagree
-                                 Strongly Somewhat Disagree Somewhat Strongly
+                                                         Neither
+                                                          Agree
+                                        Agree    Agree     Nor    Disagree Disagree
+                                      Strongly Somewhat Disagree Somewhat Strongly
                                  
-
         Concept diagnostic ..   (55)      1        2        3        4        5
         Concept diagnostic ..   (56)      1        2        3        4        5
         Concept diagnostic ..   (57)      1        2        3        4        5
