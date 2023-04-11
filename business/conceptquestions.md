@@ -338,7 +338,6 @@ POSSIBLE DIAGNOSTIC QUESTIONS NOT CURRENTLY INCLUDED --
            
            PROGRAMMER:  INSERT LINK TO PICTURE
 
-                                                            (36) SP
            Excellent ........................................1
            Very Good ........................................2
            Good .............................................3
@@ -349,7 +348,6 @@ ________________________________________________________________________________
            And how would you rate the ease of reading the words included in the
            product description?
 
-                                                            (37) SP
            Very Easy to Read ................................1
            Somewhat Easy to Read ............................2
            Somewhat Difficult to Read .......................3
