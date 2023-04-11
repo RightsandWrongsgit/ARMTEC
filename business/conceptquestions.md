@@ -18,7 +18,7 @@ THEN ASK THE FOLLOWING QUESTIONS:
            Probably would not buy ...........................4   GO TO CDIS
            Definitely would not buy .........................5   GO TO CDIS
 
- Based on the description you just read, what is there about () that           you think you'd like? Please be as specific as possible.  
+ Based on the description you just read, what is there about () that you think you'd like? Please be as specific as possible.  
 
 __________________________________________________________________________
 __________________________________________________________________________
@@ -27,7 +27,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 
- Based on the description you just read, what is there about () that            you think you'd dislike? Please be as specific as possible.  
+ Based on the description you just read, what is there about () that you think you'd dislike? Please be as specific as possible.  
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
@@ -36,8 +36,8 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 
- Which statement best describes how much you think you would like or           dislike ()? 
-                                                            (36) SP
+ Which statement best describes how much you think you would like or dislike ()? 
+                                                            
            Like extremely ...................................1
            Like very well ...................................2
            Like quite well ..................................3
@@ -45,7 +45,7 @@ __________________________________________________________________________
            Like slightly ....................................5
            Not like at all ..................................6
 
-Considering the price of () as given in the description, [INSERT            LINK TO CONCEPT BOARD] which statement below best describes how you            feel about the value of this product?
+Considering the price of () as given in the description, [INSERT LINK TO CONCEPT BOARD] which statement below best describes how you feel about the value of this product?
                                                             
            Very good value ..................................1
            Fairly good value ................................2
@@ -67,7 +67,7 @@ THEN ASK THE FOLLOWING QUESTIONS:
            Probably would not buy ...........................4   GO TO CDIS
            Definitely would not buy .........................5   GO TO CDIS
 
- Based on the description you just read, what is there about () that           you think you'd like? Please be as specific as possible.  
+ Based on the description you just read, what is there about () that you think you'd like? Please be as specific as possible.  
 
 __________________________________________________________________________
 __________________________________________________________________________
@@ -76,7 +76,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 
- Based on the description you just read, what is there about () that            you think you'd dislike? Please be as specific as possible.  
+ Based on the description you just read, what is there about () that you think you'd dislike? Please be as specific as possible.  
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
@@ -85,7 +85,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 
- Which statement best describes how much you think you would like or           dislike ()? 
+ Which statement best describes how much you think you would like or dislike ()? 
                                                             (36) SP
            Like extremely ...................................1
            Like very well ...................................2
@@ -94,7 +94,7 @@ __________________________________________________________________________
            Like slightly ....................................5
            Not like at all ..................................6
 
-Considering the price of () as given in the description, [INSERT            LINK TO CONCEPT BOARD] which statement below best describes how you            feel about the value of this product?
+Considering the price of () as given in the description, [INSERT LINK TO CONCEPT BOARD] which statement below best describes how you feel about the value of this product?
                                                             
            Very good value ..................................1
            Fairly good value ................................2
@@ -102,7 +102,7 @@ Considering the price of () as given in the description, [INSERT            LINK
            Somewhat poor value ..............................4
            Very poor value ..................................5
 
-How would you rate () in terms of being new and different from other          products currently available?                                                            
+How would you rate () in terms of being new and different from other products currently available?                                                            
 
            Extremely new and different ......................1
            Very new and different ...........................2
@@ -126,7 +126,7 @@ If you tried this plan and liked it, which of the following best describes how l
            Probably would not go to doctor....................4
            Definitely would not go to doctor..................5
 
- Which statement listed below best describes how you feel about the            believability of the statements made about ()? 
+ Which statement listed below best describes how you feel about the believability of the statements made about ()? 
                                                             
            Completely believable ............................1   GO TO Q???
            Somewhat believable ..............................2   GO TO Q???
@@ -142,14 +142,15 @@ __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 
- Next, I would like to know how much you agree or disagree with some           statements about this product.  While I realize that you  tried this product, I would like you to base your answers on what you have seen and read in the product description.
+ Next, I would like to know how much you agree or disagree with some statements about this product.  While I realize that you  tried this product, I would like you to base your answers on what you have seen and read in the product description.
            
            How much do you agree or disagree with each of the following
            statements about ()?  (RANDOMIZE STATEMENTS)
            
            Choose one answer for each statement below.
 
-  (These should be more “feature like” elements we expect a person to take away from the concept statement)                      Neither
+  (These should be more “feature like” elements we expect a person to take away from the concept statement)
+                                                 Neither
                                                   Agree
                                 Agree    Agree     Nor    Disagree Disagree
                                Strongly Somewhat Disagree Somewhat Strongly
@@ -180,7 +181,7 @@ Concept diagnostic ..   (77)      1        2        3        4        5
 
 ________________________________________________________________________________
 
- Which statements best describe the reasons why you, yourself, would            use this benefit plan? Choose As Many As Apply.
+ Which statements best describe the reasons why you, yourself, would use this benefit plan? Choose As Many As Apply.
   (These should be more “positioning statement” level elements at a higher level which would be the feeling we expect to endure in our brand equity creation)                      
                                                             (78)
            Attribute.........................................1
@@ -191,7 +192,7 @@ ________________________________________________________________________________
            Attribute.........................................6
            Attribute.........................................7
            Attribute.........................................8
-     Attribute.........................................9
+           Attribute.........................................9
                                                             (79)
            Attribute.........................................1
            Attribute.........................................2
@@ -206,34 +207,33 @@ ________________________________________________________________________________
            Other (specify)                              .....1
 
 
-Are you currently covered by some type of health insurance, or not?
+Are you currently buying some type of _________(insert category)___________, or not?
 
 ___ Yes
 ___ No, Skip to Q????
 
-What company currently provides you Health Insurance coverage?
+What company/product currently provides your  _________(insert category)__________?
 
-___ Aetna
-___ Anthem
-___ Blue Cross/Blue Shield
-___ CIGNA
-___ Harvard Health Plans
-___ Humana
-___ Kaiser
-___ United Health Care
-___ Wellpoint
+___ Company/Product
+___ Company/Product
+___ Company/Product
+___ Company/Product
+___ Company/Product
+___ Company/Product
+___ Company/Product
+___ Company/Product
+___ Company/Product
 ___ Other: _______________________________
 
-Which of the following best describes the type of health insurance you have? (READ LIST)
+Which of the following best describes the type of _________(insert category)_________ you have? (READ LIST)
 
-___ Medicaid
-	___ Medicare only
-	___ Medicare supplement
-	___ HMO
-	___ Some other type of health insurance
+        ___ Company/Product Subtype Descriptor
+	___ Company/Product Subtype Descriptor
+        ___ Company/Product Subtype Descriptor
+        ___ Company/Product Subtype Descriptor
+        ___ Company/Product Subtype Descriptor
 
-
-Can you tell me the name of the specific product you have with (insert company from Q6)?
+Can you tell me the name of the specific product you have with (insert company from Q??)?
 
 ___ YES, Record Product Name ______________________________________
 ___ NO
@@ -246,17 +246,8 @@ ___ 1 to 5 years, or
 ___ Over 5 years
 ___ Don’t Know/No Response
 
-I am going to ask you about the Product Features of your health insurance product and would like you to tell me about those you know.  For those you don’t, simply say I don’t know.
 
-Your Plans Co-pay for a routine doctor visit  $_____________, Don’t Know
-Your Plan’s Co-pay for an emergency room visit$_____________, Don’t Know
-Your Plan’s Co-pay for a hospitalization      $_____________, Don’t Know
-Your Plan’s Individual Deductible amount      $_____________, Don’t Know
-Your Plan’s Family Deductible amount          $_____________, Don’t Know
-If your plan covers drug benefits?    ___ Yes, ___ No
-If your plan covers vision benefits?  ___ Yes, ___ No
-
- Which of the following best describes your employment status?  Are you? (READ LIST)
+Which of the following best describes your employment status?  Are you? (READ LIST)
 
 ___ Employed full-time
 ___ Employed part-time
@@ -271,7 +262,7 @@ ___ Living with extended family
 ___ In assisted living/nursing home
 ___ Other, please specify _______________________
 
- Including yourself, how many people are there living in your           household? This includes babies, but does not include students           living at school.
+ Including yourself, how many people are there living in your household? This includes babies, but does not include students living at school.
 
                                                             (14) SP
            1 ................................................1
@@ -287,12 +278,12 @@ ___ Other, please specify _______________________
 
  Which would best classify your age group?
       ___ Under 65
-___ 65-69
-___ 70-74
-___ 75-79              (CHECK FOR CURRENT CENSUS INCOME BREAKS)
-___ 80-84
-___ 85 or above
-___ (DO NOT READ) No Response 
+      ___ 65-69
+      ___ 70-74
+      ___ 75-79              (LIST THOSE RELAVANT TO YOUR PRODUCT/SERVICE CHECK FOR CURRENT CENSUS INCOME BREAKS)
+      ___ 80-84
+      ___ 85 or above
+      ___ (DO NOT READ) No Response 
     
 
  What is your gender?
@@ -302,7 +293,7 @@ ___ (DO NOT READ) No Response
            Female ...........................................2
 
 
- So that we can analyze results by various groups of people, I need to know an estimate of your total annual household income.  Please include all the money earned or received, such as salaries, tips, commissions, bonuses, retirement income or any other investment income.  Would you say your household income is …?  (READ LIST)
+So that we can analyze results by various groups of people, I need to know an estimate of your total annual household income.  Please include all the money earned or received, such as salaries, tips, commissions, bonuses, retirement income or any other investment income.  Would you say your household income is …?  (READ LIST)
 
 ___ Less than $20,000
 ___ $20,000-$39,999
@@ -313,7 +304,7 @@ ___ $90,000 or above
 ___ (DO NOT READ) No Response 
 
  
- Could you please tell me which of the following best describes your race?
+Could you please tell me which of the following best describes your race?
 
 ___ Caucasian
 ___ African American
@@ -322,7 +313,7 @@ ___ American Indian
 ___ Pacific Islander
 ___ Other
 
- Are you of Hispanic origin?
+Are you of Hispanic origin?
 
 ___ Yes
 ___ No
