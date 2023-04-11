@@ -11,7 +11,6 @@
 <br>
 
  ## Key Components of a Concept
-<br>
       
 - Accepted Consumer Belief<br>
         -- Defines the issue on which the product will capitalize<br>
@@ -43,12 +42,14 @@
 • Build concepts with internal review boards<br>
 • Build concepts with external review boards<br>
 
+<br>
+<br>
 ## Presenting To Customers
 
 ### Focus Groups
 • Initial refinement usually takes place in Focus Group Setting<br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;       1. Allows for building and laddering among respondents<br>
+&nbsp;&nbsp;&nbsp;&nbsp;        1. Allows for building and laddering among respondents<br>
 &nbsp;&nbsp;&nbsp;&nbsp;        2. Allows for development of “consumer language”<br>
 &nbsp;&nbsp;&nbsp;&nbsp;        3. Allows for quick consensus - positively or negatively<br>
 &nbsp;&nbsp;&nbsp;&nbsp;        4. Allows for defensible positioning<br>
