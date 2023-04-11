@@ -237,6 +237,7 @@ Can you tell me the name of the specific product you have with (insert company f
       ___ NO
 
  Home long have you had that (insert company/product from Q???)?  Would you say … ?
+ 
       ___ Less than one month
       ___ 1 to 6 months
       ___ 7 months to 1 year
