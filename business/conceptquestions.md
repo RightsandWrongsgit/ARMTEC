@@ -332,7 +332,7 @@ _______________________________________________________________________________
 
 POSSIBLE DIAGNOSTIC QUESTIONS NOT CURRENTLY INCLUDED --
 
-CSHOW      Thinking again about the *picture and description* of (), which
+           Thinking again about the *picture and description* of (), which
            statement below best describes how you would rate the picture on the
            quality of the image produced as it appears on your screen?
            
@@ -346,7 +346,7 @@ CSHOW      Thinking again about the *picture and description* of (), which
            Poor .............................................5
 ________________________________________________________________________________
 
-CWORD      And how would you rate the ease of reading the words included in the
+           And how would you rate the ease of reading the words included in the
            product description?
 
                                                             (37) SP
