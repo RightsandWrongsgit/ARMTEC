@@ -207,51 +207,51 @@ ________________________________________________________________________________
 
 Are you currently buying some type of _________(insert category)___________, or not?
 
-___ Yes
-___ No, Skip to Q????
+      ___ Yes
+      ___ No, Skip to Q????
 
 What company/product currently provides your  _________(insert category)__________?
-`
-    ___ Company/Product<br>
-    ___ Company/Product<br>
-    ___ Company/Product<br>
-    ___ Company/Product<br>
-    ___ Company/Product<br>
-    ___ Company/Product<br>
-    ___ Company/Product<br>
-    ___ Company/Product<br>
-    ___ Company/Product<br>
-    ___ Other: _______________________________`<br>
+
+          ___ Company/Product<br>
+          ___ Company/Product<br>
+          ___ Company/Product<br>
+          ___ Company/Product<br>
+          ___ Company/Product<br>
+          ___ Company/Product<br>
+          ___ Company/Product<br>
+          ___ Company/Product<br>
+          ___ Company/Product<br>
+          ___ Other: _______________________________
 
 Which of the following best describes the type of _________(insert category)_________ you have? (READ LIST)
 
-`       ___ Company/Product Subtype Descriptor<br>
-	___ Company/Product Subtype Descriptor<br>
-        ___ Company/Product Subtype Descriptor<br>
-        ___ Company/Product Subtype Descriptor<br>
-        ___ Company/Product Subtype Descriptor`<br>
+              ___ Company/Product Subtype Descriptor<br>
+	      ___ Company/Product Subtype Descriptor<br>
+              ___ Company/Product Subtype Descriptor<br>
+              ___ Company/Product Subtype Descriptor<br>
+              ___ Company/Product Subtype Descriptor<br>
 
 Can you tell me the name of the specific product you have with (insert company from Q??)?
 
-___ YES, Record Product Name ______________________________________
-___ NO
+      ___ YES, Record Product Name ______________________________________
+      ___ NO
 
- Home long have you had that (insert company from Q???) policy?  Would you say … ?
-___ Less than one month
-___ 1 to 6 months
-___ 7 months to 1 year
-___ 1 to 5 years, or
-___ Over 5 years
-___ Don’t Know/No Response
+ Home long have you had that (insert company/product from Q???)?  Would you say … ?
+      ___ Less than one month
+      ___ 1 to 6 months
+      ___ 7 months to 1 year
+      ___ 1 to 5 years, or
+      ___ Over 5 years
+      ___ Don’t Know/No Response
 
 
 Which of the following best describes your employment status?  Are you? (READ LIST)
 
-___ Employed full-time
-___ Employed part-time
-___ Temporarily unemployed
-___ Retired
-___ A homemaker
+      ___ Employed full-time
+      ___ Employed part-time
+      ___ Temporarily unemployed
+      ___ Retired
+      ___ A homemaker
           
 Which of the following best describes your current living conditions?
 
