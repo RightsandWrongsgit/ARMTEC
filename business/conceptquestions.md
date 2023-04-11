@@ -36,7 +36,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 
- Which statement best describes how much you think you would like or dislike ()? 
+Which statement best describes how much you think you would like or dislike (   )? 
                                                             
            Like extremely ...................................1
            Like very well ...................................2
@@ -56,10 +56,10 @@ Considering the price of () as given in the description, [INSERT LINK TO CONCEPT
 
 ________________________________________________________________________________
 
-INSTRUCT RESPONDENT TO OPEN THE SECOND ENVELOP CONTAINING OVER-65 PHARMACY BENEFITS TEST CONCEPT, STATE “I would like you to look at this picture and carefully read the description of the product shown.  Please take your time.”  
+INSTRUCT RESPONDENT TO OPEN THE SECOND ENVELOP CONTAINING THE TEST CONCEPT, STATE “I would like you to look at this picture and carefully read the description of the product shown.  Please take your time.”  
 THEN ASK THE FOLLOWING QUESTIONS:
 
- Based on the picture and description that you just read, which statement below best describes how you feel about buying ()?
+ Based on the picture and description that you just read, which statement below best describes how you feel about buying (      )?
                                                                                   
            Definitely would buy .............................1
            Probably would buy ...............................2
