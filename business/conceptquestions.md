@@ -86,7 +86,7 @@ __________________________________________________________________________
 
 
  Which statement best describes how much you think you would like or dislike ()? 
-                                                            (36) SP
+                                                            
            Like extremely ...................................1
            Like very well ...................................2
            Like quite well ..................................3
