@@ -1,6 +1,8 @@
 
 # Concept Test
 
+Concept testing is a critical step in assuring your communications are relevant and [persuasive](../business/adpromo.md).  If you are not familiar with the general use of concept testing you might first [glance through an overview](https://en.wikipedia.org/wiki/Concept_testing).  The draft questionnaire below will need some customization for the project's specific requirements, however, it should offer a starting template.
+
 ## Example Concept Test Questionaire
 
 <font color-yellow>In this example, a respondent was mailed a set of concepts in individual envelops with instruction code on their exterior.  A follow up interview is then conducted with the questions below:</font><br>
