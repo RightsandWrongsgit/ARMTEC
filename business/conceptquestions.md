@@ -294,28 +294,28 @@ ___ Other, please specify _______________________
 
 So that we can analyze results by various groups of people, I need to know an estimate of your total annual household income.  Please include all the money earned or received, such as salaries, tips, commissions, bonuses, retirement income or any other investment income.  Would you say your household income is …?  (READ LIST)
 
-___ Less than $20,000
-___ $20,000-$39,999
-___ $40,000-$49,999
-___ $50,000-$69,999              (CHECK FOR CURRENT CENSUS INCOME BREAKS)
-___ $70,000-$89,999
-___ $90,000 or above
-___ (DO NOT READ) No Response 
+      ___ Less than $20,000
+      ___ $20,000-$39,999
+      ___ $40,000-$49,999
+      ___ $50,000-$69,999              (CHECK FOR CURRENT CENSUS INCOME BREAKS)
+      ___ $70,000-$89,999
+      ___ $90,000 or above
+      ___ (DO NOT READ) No Response 
 
  
 Could you please tell me which of the following best describes your race?
 
-___ Caucasian
-___ African American
-___ Asian
-___ American Indian
-___ Pacific Islander
-___ Other
+      ___ Caucasian
+      ___ African American
+      ___ Asian
+      ___ American Indian
+      ___ Pacific Islander
+      ___ Other
 
 Are you of Hispanic origin?
 
-___ Yes
-___ No
+      ___ Yes
+      ___ No
 
 
 Thank you for completing today's survey.  It will be recorded as complete after
