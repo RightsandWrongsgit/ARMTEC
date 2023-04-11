@@ -20,8 +20,17 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 ### Chapter: Business Success
 - [Route to Performance](business/overview.md)
 - [Business Models](business/models.md)
+- [Cost of Goods/Services](business/cogs.md)
+- [Advertising & Promotion](business/adpromo.md)
 
 - [Market Research](business/methods.md)
+- [Positioning](business/positioning.md)
+- [Archetype](business/archetype.md)
+- [Need Gap](business/needgap.md)
+- [Value Ladder](business/ladder.md)
+- [Concept Testing](business/conceptquestions.md)
+
+- [Topics to include](business/topics.md)
 
 
 ### Chapter: Information Basics 
