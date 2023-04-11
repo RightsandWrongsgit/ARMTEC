@@ -8,9 +8,9 @@
 • It identifies the important unmet need the product will satisfy i.e. how will the consumer’s life be meaningfully different having used this product/service?<br>
 <br>
 • A concept is strategic in nature.  It establishes a product’s/service’s POSITION IN THE MARKETPLACE.<br>
-<br>
 
- ## Key Components of a Concept
+<br>
+## Key Components of a Concept
       
 - Accepted Consumer Belief<br>
         -- Defines the issue on which the product will capitalize<br>
