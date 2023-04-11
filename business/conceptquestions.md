@@ -118,13 +118,13 @@ If you tried this plan and liked it, which of the following best describes how l
            Probably would not recommend  ....................4
            Definitely would not recommend  ..................5
 
- If () was available with your current doctor, where you most often currently go, how likely would you be to go to another doctor to participate in this plan?           
+ If () was not available a your current store, where you most often currently go, how likely would you be to go to another store to get it?           
                                                             
-           Definitely would go to another doctor .............1
-           Probably would go to another doctor ...............2
-           Might or might not go to doctor....................3
-           Probably would not go to doctor....................4
-           Definitely would not go to doctor..................5
+           Definitely would go to another store .............1
+           Probably would go to another store ...............2
+           Might or might not go to store....................3
+           Probably would not go to store....................4
+           Definitely would not go to store..................5
 
  Which statement listed below best describes how you feel about the believability of the statements made about ()? 
                                                             
@@ -150,7 +150,7 @@ __________________________________________________________________________
            Choose one answer for each statement below.
 
   (These should be more “feature like” elements we expect a person to take away from the concept statement)
-                                                 Neither
+ `                                               Neither
                                                   Agree
                                 Agree    Agree     Nor    Disagree Disagree
                                Strongly Somewhat Disagree Somewhat Strongly
@@ -177,13 +177,13 @@ Concept diagnostic ..   (73)      1        2        3        4        5
 Concept diagnostic ..   (74)      1        2        3        4        5
 Concept diagnostic ..   (75)      1        2        3        4        5
 Concept diagnostic ..   (76)      1        2        3        4        5
-Concept diagnostic ..   (77)      1        2        3        4        5
+Concept diagnostic ..   (77)      1        2        3        4        5`
 
 ________________________________________________________________________________
 
  Which statements best describe the reasons why you, yourself, would use this benefit plan? Choose As Many As Apply.
   (These should be more “positioning statement” level elements at a higher level which would be the feeling we expect to endure in our brand equity creation)                      
-                                                            (78)
+                                                            
            Attribute.........................................1
            Attribute.........................................2
            Attribute.........................................3
@@ -193,18 +193,16 @@ ________________________________________________________________________________
            Attribute.........................................7
            Attribute.........................................8
            Attribute.........................................9
-                                                            (79)
-           Attribute.........................................1
-           Attribute.........................................2
-           Attribute.........................................3
-           Attribute.........................................4
-           Attribute.........................................5
-           Attribute.........................................6
-           Attribute.........................................7
-           Attribute.........................................8
-           Attribute.........................................9   
-                                                            (80)
-           Other (specify)                              .....1
+           Attribute.........................................10
+           Attribute.........................................11
+           Attribute.........................................12
+           Attribute.........................................13
+           Attribute.........................................14
+           Attribute.........................................15
+           Attribute.........................................16
+           Attribute.........................................17
+           Attribute.........................................18 
+           Other (specify) ____________________________ .....19
 
 
 Are you currently buying some type of _________(insert category)___________, or not?
@@ -213,7 +211,7 @@ ___ Yes
 ___ No, Skip to Q????
 
 What company/product currently provides your  _________(insert category)__________?
-
+`
 ___ Company/Product
 ___ Company/Product
 ___ Company/Product
@@ -223,15 +221,15 @@ ___ Company/Product
 ___ Company/Product
 ___ Company/Product
 ___ Company/Product
-___ Other: _______________________________
+___ Other: _______________________________`
 
 Which of the following best describes the type of _________(insert category)_________ you have? (READ LIST)
 
-        ___ Company/Product Subtype Descriptor
+`       ___ Company/Product Subtype Descriptor
 	___ Company/Product Subtype Descriptor
         ___ Company/Product Subtype Descriptor
         ___ Company/Product Subtype Descriptor
-        ___ Company/Product Subtype Descriptor
+        ___ Company/Product Subtype Descriptor`
 
 Can you tell me the name of the specific product you have with (insert company from Q??)?
 
