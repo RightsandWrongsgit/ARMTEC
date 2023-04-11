@@ -19,6 +19,7 @@
         -- Often referred to as the “Head-nod” or the “Hook”<br>
         -- It can be logical, rational, emotional, etc.<br>
 <br>
+
 - Benefit<br>
         -- Also known as the “Promise”<br>
         -- It is in response (the Answer) to the unresolved Accepted Consumer Belief<br>
@@ -26,10 +27,12 @@
         -- The reason to succeed in the market (the DISCONTINUITY)<br>
         -- The core of your strategy<br>
 <br>
+
 - Reason to Believe<br>
         -- Why the consumer should believe the benefit is deliverable<br>
         -- It is the path of consumer understanding that ties everything together ([value ladder](../business/ladder.md))<br>
         -- It can be technical in nature, authoritative in nature (respected endorsement), systems oriented, physical characteristics, etc.<br>
+
 <br>
 <br>
 
