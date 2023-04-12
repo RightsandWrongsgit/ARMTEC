@@ -20,7 +20,7 @@ The summary below gives you a quick way to think about what you should consider 
 
 Without getting all complicated with the multiple ways you might reach your customers, lets start by just looking at your Salesforce. Think you can just take 365 days a year, tell your Sales staff to make 8 calls a day, and figure 10 sales people can cover around 29,000 accounts!  Oops... as much as you hoped, they don't work seven days a week; they don't work 52 weeks a year; you keep calling them into meetings to yell at or motivate them; they have vacations, holidays, sick days; and just maybe they have to call on a prospect more than once to make a sale!
 
-You probably need to develop a model like this to start plotting out realistic account coverage and staffing.
+You probably need to develop a model like this to start plotting out realistic account coverage and staffing...
 <img src="../business/captures/adpromo2.png"  width="900">
 
 
