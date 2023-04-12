@@ -7,7 +7,7 @@ It is typical to work with an advertising creative agency in the step from takin
 
 ## Outline
 
-PROJECT: (What is requested? e.g. logo, tagline, concept(s) development, print ad, video, digital banner ad,  e-mail template,  website design, etc.)
+[PROJECT](../business/thebrief#project): (What is requested? e.g. logo, tagline, concept(s) development, print ad, video, digital banner ad,  e-mail template,  website design, etc.)
 
 __________________________________________________________________________
 __________________________________________________________________________
@@ -103,32 +103,20 @@ __________________________________________________________________________
 
 Questions to ask yourself to assist in writing a complete, inspirational and smart creative brief.
 
-PROJECT:
-    • What's the big business objective?
-    • What issue is holding our client back from reaching that objective?
+#### PROJECT:
+    • What is the overall objective?
+    • What issue is holding you back from reaching your objective?
     • Why is communication needed at this particular time?
-    • Why does our client need to advertise? 
-    • Is there a clear agreed role for advertising?
-    • Is this realistic? 
-    • What is the challenge for our communications?
-    • Where are we now?
-    • Why are we there?
-    • Where can we get to?
-    • What could we do?
-    • What should we do?
-    • How will we make it happen? 
+    • What is the role for advertising?
+    • What is the communication challenge?
     
 TARGET:
     • Who is the most valuable audience?
     • Who is the most impressionable audience? 
-    • What do we know about them that will help us? 
     • What are the most insightful things we know about them? 
-    • What are the things they are talking about which may remotely relate to this market?
+    • What are the things they are talking about related to this market?
     • What do they believe before we tell them anything?
     • What are their cultural influences?
-    • What kind of social currency do they have - to what extent do they share their brand experiences? 
-    • What causes buzz in their world? What competes for their attention?  
-    • What should be avoided in talking to this audience? 
     • What do you want people to say about your brand? 
     • What is their shared emotional need or desire the brand can best address?
     • Are there particular moments when their thoughts and feelings are strongest? 
