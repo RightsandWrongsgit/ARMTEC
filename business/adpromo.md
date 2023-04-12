@@ -7,7 +7,7 @@ Perhaps the most powerful lever in profitable success is advertising and promoti
 
 Most people believe there is a relationship between "Advertising" and resulting "Sales".  Obviously this is why advertising and promotion are the most powerful lever of profitablity.  Some would say lack of profitablity if they have had disappointment with prior advertising.  There is a relationship but the fact a bunch of things can go right or wrong with it is why ARMTEC, Inc. is often engaged by clients.
 
-<img src="../business/captures/adpromo0.png"  width="600">
+<img src="../business/captures/adpromo0.png"  width="400">
 
 
 ## Overview of Parts
