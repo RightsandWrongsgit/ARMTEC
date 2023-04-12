@@ -23,8 +23,9 @@ Without getting all complicated with the multiple ways you might reach your cust
 You probably need to develop a model like this to start plotting out realistic account coverage and staffing...
 <img src="../business/captures/adpromo2.png"  width="900">
 
+## Bright Idea
 
-lkjfaljfa<br>
+Clearly you are a 'sharp' business person.  
 <img src="../business/captures/adpromo3.png"  width="900">
 
 
