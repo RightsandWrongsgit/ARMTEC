@@ -25,10 +25,20 @@ You probably need to develop a model like this to start plotting out realistic a
 
 ## Bright Idea
 
-Clearly you are a 'sharp' business person.  
+Clearly you are a 'sharp' business person.  Somewhere you read about a Sales funnel.  The idea of casting a wider net to reach more prospects at a lower cost than what a face-to-face sales call amounts to is appealing.  So you plan to use advertising to reach broadly, maybe put in place an internet form to capture and screen initial interest, perhaps pre-qualify inquires with a telesales effort and pass the "hot ones" to your Salesforce to handle and close.
+
+<img src="../business/captures/salesfunnel.png"  width="500">
+
+
+If you think like ARMTEC, Inc. you are disciplined enough when you work out the steps of the sale funnel integration of advertising, promotion, and salesforce actions you develop standard operating procedures, quantify expectation for profitable performance, measure Key Performance Indicators(KPIs), and align your incentive compensation plans.
+
 <img src="../business/captures/adpromo3.png"  width="900">
 
 
+
+<br>
+<br>
+<br>
 
 [- Next -]()
 
