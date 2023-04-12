@@ -7,7 +7,7 @@ It is typical to work with an advertising creative agency in the step from takin
 
 ## Outline
 
-[PROJECT](business/thebrief#project): (What is requested? e.g. logo, tagline, concept(s) development, print ad, video, digital banner ad,  e-mail template,  website design, etc.)
+[PROJECT](thebrief#project): (What is requested? e.g. logo, tagline, concept(s) development, print ad, video, digital banner ad,  e-mail template,  website design, etc.)
 
 __________________________________________________________________________
 __________________________________________________________________________
