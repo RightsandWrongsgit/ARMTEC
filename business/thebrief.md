@@ -15,7 +15,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 
-PURPOSE: (What is it for? Create brand identity awareness, drive traffic to website, drive trial at retail, pre-qualify sales prospect, etc. )
+[PURPOSE](#purpose): (What is it for? Create brand identity awareness, drive traffic to website, drive trial at retail, pre-qualify sales prospect, etc. )
 
 __________________________________________________________________________
 __________________________________________________________________________
@@ -33,7 +33,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 
-ENVIRONMENT & OPPORTUNITIES: (Insights about the Market and Category)
+[ENVIRONMENT & OPPORTUNITIES](#environment): (Insights about the Market and Category)
 
 __________________________________________________________________________
 __________________________________________________________________________
@@ -42,7 +42,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 
-TARGET: ([Psychographic Vignette](https://clevertap.com/blog/psychographic-segmentation/), demographics, firm-o-graphics, etc.)
+[TARGET](#target): ([Psychographic Vignette](https://clevertap.com/blog/psychographic-segmentation/), demographics, firm-o-graphics, etc.)
 
 __________________________________________________________________________
 __________________________________________________________________________
@@ -51,7 +51,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 
-COMPETITION: (List of key competitors and list of any advantages/disadvantages)
+[COMPETITION](#competition): (List of key competitors and list of any advantages/disadvantages)
 
 __________________________________________________________________________
 __________________________________________________________________________
@@ -60,7 +60,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 
-MESSAGE: (What is the single most motivating/differentiating thing about the brand/product/service? Reference [Need Gap](../business/needgap.md) findings)
+[MESSAGE](#message): (What is the single most motivating/differentiating thing about the brand/product/service? Reference [Need Gap](../business/needgap.md) findings)
 
 __________________________________________________________________________
 __________________________________________________________________________
@@ -69,7 +69,7 @@ __________________________________________________________________________
 __________________________________________________________________________
 
 
-INSIGHT: (Key points of important to targets and relative position differences from competitors? Reference [Value Ladder](../business/ladder.md))
+[INSIGHT](#insight): (Key points of important to targets and relative position differences from competitors? Reference [Value Ladder](../business/ladder.md))
 
 __________________________________________________________________________
 __________________________________________________________________________
@@ -109,83 +109,79 @@ Questions to ask yourself to assist in writing a complete, inspirational and sma
     • Why is communication needed at this particular time?
     • What is the role for advertising?
     • What is the communication challenge?
-    
-TARGET:
-    • Who is the most valuable audience?
-    • Who is the most impressionable audience? 
-    • What are the most insightful things we know about them? 
-    • What are the things they are talking about related to this market?
+
+#### PURPOSE:
+    • Do we think this will get people talking about the brand?
+    • Will this generate publicity for the brand? 
+    • Is it to entertain, to challenge, to demonstrate utility, to spawn user-generated content, to order?
+    • Why aren’t they currently doing what you want them to do?
+    • How will the target encounter the communication?
+
+#### ENVIRONMENT:
+    • How does their life intersect with the category?
+    • How do they think and feel about the category?
+    • What did people do before the category existed?
+    • What are the things they are talking about related to this market?    
     • What do they believe before we tell them anything?
     • What are their cultural influences?
-    • What do you want people to say about your brand? 
-    • What is their shared emotional need or desire the brand can best address?
-    • Are there particular moments when their thoughts and feelings are strongest? 
-    • How do they think and feel about the category? 
-    • How do they feel about our Brand? 
-    • What are the moments of truth? Is there a particular time or event that propels the category or the Brand to top of mind for the consumer? Is it a negative moment (which we can turn to our advantage), or a positive moment we want to leverage? Some of the most impactful work an agency does has been developed around a moment of truth. 
-    • Why aren’t they (the target) doing what we (you and the client) want them to do?
-    • What attitudes must we establish or change?
-    • What habits do we want formed? 
-    • How do our current customers find us?
-    • When, where and under what circumstances will the target be most receptive to the message?
-    • What music do they like?
-    • Who are their friends? 
-    • Where do they play?
-    • What motivates them, frustrates them or makes them laugh?
-    • What kind of house do they live in?
-    • What keeps them up at night?
-    • How do they behave as users, are they more a scanner or scroller or clicker or explorer or browser etc.?
-    • Are there any secondary audiences? What is important to the secondary audience? 
-     
-MESSAGE: 
-    • What do we want our audience to feel? 
-    • What do we want our audience to do? 
-    • What is the best starting point to achieve our objective/solve our challenge? 
-    • What is the brand's ambition?  How do we convey it in this instance?
-    • Why hasn't it achieved that ambition already? 
-    • How does the competition conventionally try to address/communicate the same issue? 
-    • How do we disrupt that convention?
-    • What is the most relevant and differentiating idea that will surprise consumers or challenge their current thinking of the brand?
-    • What's the consumer/industry insight that would drive us to think differently? 
-    • Does the proposition have meaning, truth, and promise? 
-    • The question shouldn’t be “What can we tell the consumer to persuade them to buy more,” but rather “How can  we help our customer?”
-    • What's the brand's "safe" area?  Use that as an anchor and try moving out from there.
-    • If you could get one sentence through all the clutter, what would that be? 
-    • What is the psychological, social or cultural tension associated with this idea? 
-    • What makes our target tense about the idea? Cultural truths are always moving, so tensions are everywhere. The most interesting tension needs to make you squirm a bit. 
-    • What is the question we need to answer to complete this assignment? 
-    • Who else is competing for our target audience's attention with similar or related messages? How are our  messages different to theirs? 
-    • How do we think this will get people talking about the brand?  
-    • Why might they talk about this idea? And how do they get involved?
-    • Will this generate publicity for the brand? 
-    • What level of participation do we want or need? 
-    • What's in it for the target; why would they want to participate?
-    • Have we made it as easy as possible for them to participate?
-    • How will it be remembered and retold?  
+
+#### TARGET:
+    • Who is the most valuable?
+    • Who is the most impressionable?
+    • How do they find us?
+    • When are they most receptive?
+    • Are there any secondary audiences?
+    • Who loves what I have to offer and why? 
+    • What are the most insightful things we know about them?
+    • What else are they doing when using my product/service? 
+    
+#### COMPETITION:
+    • Who else is competing for our target audience's attention with similar or related messages?
+    • How does the competition speak to them? 
+    • How are our messages different to theirs?
+    • Why would someone choose my brand over another one?    
+    • What do competitive users currently think of what I am selling?  
+   
+#### MESSAGE: 
     • What are we really selling to our customers? 
-    • What results are we promising to our customers? 
-    • Why should people care? 
-    • Is the creative designed to entertain, act as a branded utility, to challenge, to spawn user-generated content? 
-    • How will the audience encounter the communication? How might that change from the first encounter to later encounters? 
-    • What is the consumer benefit, not what the product is, but what the product will do for the prospect?   Where possible, an end benefit. 
+    • What results are we promising to our customers?
+    • Why should people care?
+    • What should they feel about our brand? 
+    • What action do you want them to take?
+    • How do they get involved?
+    • What is the best starting point? 
+    • What attitudes must we establish or change?
+    • What habits do we want formed?
+    • What do you want people to say about your brand?
+    • Why might they talk about this idea? 
+    • How do we differentiate or stand out?
+    • What idea will surprise about our brand? What would make them squirm a bit? 
+    • What's the consumer/industry insight that would drive us to think differently? 
+    • What 'reasons to believe' assure meaning and truth in our brand promise? 
+    • How can our brand help the customer?
     • What would make a real difference to people if only they knew about it?
+    • How will it be remembered and retold? What one sentence would you want them to say?
 
 
-INSIGHT: 
+#### INSIGHT:
+    • What is the higher-level end-benefit? [Value Ladder finding](../business/ladder.md)
+    • Do they currently think of of us at all?
+    • What is the mindset of the person who is using my product/service?
+    • How do they feel about our Brand?
     • What is the customer doing?
     • Why are they doing it?
+    • What level of participation do we want or need? 
+    • What's in it for the target; why would they want to participate?
+    • Have we made it easy for them to participate?
     • What is true about the people who use this product? 
+    • Where is the consumer using my product/service?
+    • How is the user's life different as a result of using my product?
     • What one thought could turn our product’s selling point into a movement?
-    • How does their life intersect with our brand? 
-    • What do they currently think of what I am selling? 
-    • Do they think of it at all? 
-    • What else are people doing when they use my product/service? 
-    • What is the mindset of the person who is using my product/service? Where is the consumer using my product/service? 
-    • Why would someone choose my brand over another one? 
-    • Who loves what I have to offer and why? 
-    • How is the consumer's life different as a result of my product doing what it is supposed to?
-    • What did people do before my product existed?
 
+
+<br>
+<br>
+<br>
 
 
 [- Next -]()
