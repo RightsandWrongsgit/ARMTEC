@@ -26,17 +26,19 @@ As used in the following discussion, the term 'media' includes any contact activ
 
 GRP = Gross Rating Points represent the percentage of the target audience reached by an advertisement.
 
-If the advertisement is aired more than once, the GRP figure represents the sum of each individual GRP. Therefore, a commercial aired 5 times reaching 50% of the target audience would have 250 GRP = 5 x 50%.”  This raises several challenges in properly managing underlying media data.  With about a 1,000 GRP’s each, is one buyer who sees the same commercial three times a day for a year, the same as 365 buyers who see it three times over the course of a year? Since reach translates to people and aware people are who buy, it is absolutely essential to begin to manage media data at this more detailed level. (Reach/Frequency)
+If the advertisement is aired more than once, the GRP figure represents the sum of each individual GRP. Therefore, a commercial aired 5 times reaching 50% of the target audience would have 250 GRP = 5 x 50%.”  This raises several challenges in properly managing underlying media data.  With about a 1,000 GRP’s each, is one buyer who sees the same commercial three times a day for a year, the same as 365 buyers who see it three times over the course of a year? Since reach translates to people and aware people are who purchase, it is absolutely essential to begin to manage media data at a detailed level.<br>
 
 <img src="../business/captures/admath1.png"  width="200">
 
+<br>
 ## Awareness Generation
 
 Awareness - A Critical Measure!  You don't buy what you don't know about!
-Media can be expected to play a number of roles.  Sometimes media is simply promised to the retail trade because it is ‘expected’ and may be considered a cost of gaining access to the distribution channel.  More often, however, media has a more direct role of creating awareness and building brand equity.  Creating awareness is the most easily understood; ‘you can’t buy what you don’t know about’.  This simple proposition becomes a keystone for the connection of media expense to revenue generation.
+Media can be expected to play a number of roles.  Sometimes media is simply promised to the retail trade because it is ‘expected’ and may be considered a cost of gaining access to the distribution channel.  More often, however, media has a more direct role of creating awareness and building brand equity.  Creating awareness is the most easily understood; ‘you can’t buy what you don’t know about’.  This simple proposition becomes a keystone for the connection of media expense to revenue generation.<br>
 
 <img src="../business/captures/admath4.png"  width="500">
 
+<br>
 ## Exposure to Awareness Ratio
 The media information and plans we put in place are aimed at the point “you can’t buy what you don’t know about”.  There is not a one-to-one relationship between creating ‘exposure’ and creating ‘awareness’.  Properly calibrating the true relationship for each media type is one of the major hinge pins of a media performance tracking and management capability. This requires maintaining detailed records of all media exposure data and linking it with awareness tracking research findings by ‘source’ of awareness.
 
