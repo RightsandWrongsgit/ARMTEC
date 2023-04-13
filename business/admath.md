@@ -49,7 +49,13 @@ Advertising theory says people need to see an advertisement between 7 and 17 tim
 
 ## Need State & Influence Model
 ### Time Alignment
-Time is a key consideration in data architecture of a media performance tracking and management database.  The general principle that must be included in the technical design is to make all of the information elements available at the most granular time level and allow aggregation at multiple and overlapping accumulation levels.  The goal is to accept the reality that some input sources will only be available at an aggregate rather than a more granular level.  Therefore, more granular elements must be allowed to accumulate at any higher combination level to match the input level limitation in an analysis process.
+
+Right offer to right person at the right time.  You did all that hard work of nailing down 'what to say' (positioning) and 'how to say it' (persuasively), so wouldn't it only make sense to spend a little effort on the 'when to say it' question?  Companies who sell through a wholesales to retail channel, meaning removed from directly connecting with a customer, often get hammered on this timing question.  You see, especially when they are launching a new product, they have to be critically careful on turning on advertising in close parallel with distribution.  If they advertise ahead of having distribution in the stores, consumers are disappointed because they can't find a product they saw advertised.  If they build distribution too soon and advertising trails, the retailers see shelf space not producing planned '$/sq.ft' and delist the item.  At the most basic level, your should maintain a planning calendar.<br>
+<img src="../business/captures/adcalendar.png"  width="1000">
+
+ARMTEC, Inc. has also built detailed simulated test market planning calendars that identify individual retail store outlet distribution builds, summaried to ACV (All Commodity Volume) Distribution measures, aligned to sales per consumer, consumer traffic per store, even price elasticity response, coupon, end-cap, and shelf-talker modifiers.  Regardless of how sophisticated or unsophisticated your modeling, time is a key consideration in data architecture of a media performance tracking and management database.  The general principle that must be included in the technical design is to make all of the information elements available at the most granular time level and allow aggregation at multiple and overlapping accumulation levels.  The goal is to accept the reality that some input sources will only be available at an aggregate rather than a more granular level.  Therefore, more granular elements must be allowed to accumulate at any higher combination level to match the input level limitation in an analysis process.
+
+
 
 ## Multiple Media Modifiers
 - What is Media Plan “A” and “B” are not alternatives but become possible combinations.
