@@ -26,7 +26,7 @@ GRP = Gross Rating Points represent the percentage of the target audience reache
 
 If the advertisement is aired more than once, the GRP figure represents the sum of each individual GRP. Therefore, a commercial aired 5 times reaching 50% of the target audience would have 250 GRP = 5 x 50%.”  This raises several challenges in properly managing underlying media data.  With about a 1,000 GRP’s each, is one buyer who sees the same commercial three times a day for a year, the same as 365 buyers who see it three times? Since reach translates to people and aware people are who buy, it is absolutely essential to begin to manage media data at this more detailed level. (Reach/Frequency)
 
-<img src="../business/captures/admath1.png"  width="300">
+<img src="../business/captures/admath1.png"  width="200">
 
 ## Awareness Generation
 
