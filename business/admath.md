@@ -8,7 +8,7 @@ That said, a client needs to understand that their relationship with an advertis
 ## Positioning
 At the most fundamental level of understanding what you make/sell/do and why prospects/customers should care about it is the client company/organization's responsibility. However, if you are only at a first level skill in truly understanding your [positioning](../business/positioning.md) and its foundation may be more judgmental than research driven, admit it!  Full scope agencies are typically good in drawing out improvement in this area and the agency typically maintains relationships with research specialist to move you forward.  
 
-Also, don't be shy in discussing budget considerations with them.  Agencies are typically going to 'price gouge' you by having a financial framework.  Where it plays out in your favor is that they aren't going to tell you to refine positioning with a $million research study when your ad placement budget isn't even at that level.  There are ways to bring focus to improvements at lessor costs.  However, if you do plan on a major ad placement expediture, you will get lots more mileage out of it if you do the research to fine tune focus.
+Also, don't be shy in discussing budget considerations with them.  Agencies are NOT typically going to 'price gouge' you by having a financial framework.  Where it plays out in your favor is that they aren't going to tell you to refine positioning with a $million research study when your ad placement budget isn't even at that level.  There are ways to bring focus to improvements at lessor costs.  However, if you do plan on a major ad placement expediture, you will get lots more mileage out of it if you do the research to fine tune focus.
 
 ## Persuasion Scores
 
