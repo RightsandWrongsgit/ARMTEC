@@ -44,15 +44,17 @@ That "Z" term, effective frequency by media type, is a modifier that acknowledge
 The media information and plans we put in place are aimed at the point “you can’t buy what you don’t know about”.  There is not a one-to-one relationship between creating ‘exposure’ and creating ‘awareness’.  Properly calibrating the true relationship for each media type is one of the major hinge pins of a media performance tracking and management capability. This requires maintaining detailed records of all media exposure data and linking it with awareness tracking research findings by ‘source’ of awareness.
 
 Exposure Frequency:Awareness
-Advertising theory says people need to see an advertisement between 7 and 17 times for it to register.  If the goal of our advertising is to make those exposed “aware” of our product, then we must establish how many people see an advertisement how many times.  We can see from the large range of exposures that it takes for an advertisement to translate to awareness that substantial error in predicting sales results could occur.  If the cost of a manufacturing process had a range where costs sometimes would double, we would jump on the issue with massive re-engineering studies.  Yet, a factor which has just as direct an impact on the P&L remains to be properly quantified and tracked by too many organizations. 
+Advertising theory says people need to see an advertisement between 7 and 17 times for it to register.  If the goal of our advertising is to make those exposed “aware” of our product, then we must establish how many people see an advertisement how many times.  We can see from the large range of exposures that it takes for an advertisement to translate to awareness that substantial error in predicting sales results could occur.  If the cost of a manufacturing process had a range where costs sometimes would double, we would jump on the issue with massive re-engineering studies.  Yet, a factor which has just as direct an impact on the P&L remains to be properly quantified and tracked by too many organizations.<br> 
 
 ## Efficiency Impact
 
-Even if you aren't aiming to establish a database with goal of modeling optimal efficiency unique to your category and media mix, you really should consider using an efficiency adjustment factor ("E" below) in your equations for media mix cost planning. <br>
+Even if you aren't aiming to establish a database with the goal of modeling optimal efficiency unique to your category and media mix, you really should consider using an efficiency adjustment factor ("E" below) in your equations for media mix cost planning.  GRPs are an [exposure concept that you want to relate to impressions](https://www.bionic-ads.com/2016/03/reach-frequency-ratings-grps-impressions-cpp-and-cpm-in-advertising/).  <br>
+<br>
+
 <img src="../business/captures/admath6.png"  width="500">
 
-
-
+<br>
+<br>
 
 ## Need State & Influence Model
 ### Time Alignment
@@ -60,8 +62,9 @@ Even if you aren't aiming to establish a database with goal of modeling optimal 
 Right offer to right person at the right time.  You did all that hard work of nailing down 'what to say' (positioning) and 'how to say it' (persuasively), so wouldn't it only make sense to spend a little effort on the 'when to say it' question?  Companies who sell through a wholesales to retail channel, meaning removed from directly connecting with a customer, often get hammered on this timing question.  You see, especially when they are launching a new product, they have to be critically careful on turning on advertising in close parallel with distribution.  If they advertise ahead of having distribution in the stores, consumers are disappointed because they can't find a product they saw advertised.  If they build distribution too soon and advertising trails, the retailers see shelf space not producing planned '$/sq.ft' and delist the item.  At the most basic level, your should maintain a planning calendar.<br>
 <img src="../business/captures/adcalendar.png"  width="1000">
 
-ARMTEC, Inc. has also built detailed simulated test market planning calendars that identify individual retail store outlet distribution builds, summaried to ACV (All Commodity Volume) Distribution measures, aligned to sales per consumer, consumer traffic per store, even price elasticity response, coupon, end-cap, and shelf-talker modifiers.  Regardless of how sophisticated or unsophisticated your modeling, time is a key consideration in data architecture of a media performance tracking and management database.  The general principle that must be included in the technical design is to make all of the information elements available at the most granular time level and allow aggregation at multiple and overlapping accumulation levels.  The goal is to accept the reality that some input sources will only be available at an aggregate rather than a more granular level.  Therefore, more granular elements must be allowed to accumulate at any higher combination level to match the input level limitation in an analysis process.
-
+ARMTEC, Inc. has also built detailed simulated test market planning calendars that identify individual retail store outlet distribution builds, summaried to ACV (All Commodity Volume) Distribution measures, aligned to sales per consumer, consumer traffic per store, even price elasticity response, coupon, end-cap, and shelf-talker modifiers.  Regardless of how sophisticated or unsophisticated your modeling, time is a key consideration in data architecture of a media performance tracking and management database.  The general principle that must be included in the technical design is to make all of the information elements available at the most granular time level and allow aggregation at multiple and overlapping accumulation levels.  The goal is to accept the reality that some input sources will only be available at an aggregate rather than a more granular level.  Therefore, more granular elements must be allowed to accumulate at any higher combination level to match the input level limitation in an analysis process. Again, you might not be ready to go this deep into your planning and optimization.  But at least consider the general principle of how you might scale in your media timing...<br>
+<br>
+<img src="../business/captures/admath9.png"  width="900">
 
 
 ## Multiple Media Modifiers
