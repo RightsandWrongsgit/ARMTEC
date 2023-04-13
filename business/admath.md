@@ -38,6 +38,7 @@ Media can be expected to play a number of roles.  Sometimes media is simply prom
 
 <img src="../business/captures/admath4.png"  width="500">
 
+That "Z" term, effective frequency by media type, is a modifier that acknowledges that an exposure on one type of media doesn't perform the same as on another.  The easiest to relate to this point is to think about how many times you are watching the game when a TV ad runs but you drift over to chug on that beer rather than hear what some talking baby is saying about financial services.  On the other hand, when you are on your computer looking up how to fix the dryer and an a video ad pops up with your make and model's drive belt being offered for next day delivery you are all ears.  Now you can relate to why different types of media have different 'Exposure to Awareness Ratio's".
 
 ## Exposure to Awareness Ratio
 The media information and plans we put in place are aimed at the point “you can’t buy what you don’t know about”.  There is not a one-to-one relationship between creating ‘exposure’ and creating ‘awareness’.  Properly calibrating the true relationship for each media type is one of the major hinge pins of a media performance tracking and management capability. This requires maintaining detailed records of all media exposure data and linking it with awareness tracking research findings by ‘source’ of awareness.
