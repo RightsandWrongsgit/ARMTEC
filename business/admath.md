@@ -46,6 +46,13 @@ The media information and plans we put in place are aimed at the point “you ca
 Exposure Frequency:Awareness
 Advertising theory says people need to see an advertisement between 7 and 17 times for it to register.  If the goal of our advertising is to make those exposed “aware” of our product, then we must establish how many people see an advertisement how many times.  We can see from the large range of exposures that it takes for an advertisement to translate to awareness that substantial error in predicting sales results could occur.  If the cost of a manufacturing process had a range where costs sometimes would double, we would jump on the issue with massive re-engineering studies.  Yet, a factor which has just as direct an impact on the P&L remains to be properly quantified and tracked by too many organizations. 
 
+## Efficiency Impact
+
+Even if you aren't aiming to establish a database with goal of modeling optimal efficiency unique to your category and media mix, you really should consider using an efficiency adjustment factor ("E" below) in your equations for media mix cost planning. <br>
+<img src="../business/captures/admath6.png"  width="500">
+
+
+
 
 ## Need State & Influence Model
 ### Time Alignment
