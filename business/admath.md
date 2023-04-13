@@ -20,7 +20,7 @@ Ideally as an overall media performance tracking and management program is laid 
 ### Media Planning
 
 Media - The Broad View!
-As used in this design the term media includes any contact activity with a directed message.  This includes traditional media like television, print, radio, etc.  It also includes non-traditional media like e-mail, web registration, professional sales force, telemarketing, and even public relations where highly directed.
+As used in the following discussion, the term 'media' includes any contact activity with a directed message.  This includes traditional media like television, print, radio, etc.  It also includes non-traditional media like e-mail, web registration, professional sales force, telemarketing, and even public relations where highly directed.
 
 ## Gross Rating Points
 
