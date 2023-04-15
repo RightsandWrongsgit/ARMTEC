@@ -23,7 +23,11 @@ When you are doing an awareness research, you should make sure you also collect 
 
 <img src="../business/captures/potential5.png"  width="500">
 
+Don't stop your targeting efforts only at the broad level.  You may only have incurred the expense of survey research at the nationals or multi-state level.  However, if you collected a good set of demographics or firm-o-graphics tied directly to the same questions and response structure of list sources you have in your targeting database or that you know in advance you can buy, you can link the findings from any survey question to tight micro-markets.  Will it be perfect?  No.  Will it be effective in improving your advertising effectiveness and efficiency?  You bet!<br>
+
 <img src="../business/captures/potential6.png"  width="500">
+
+Knowing where the opportunity is combines with knowing your own brand's status in increasingly focused markets is a game changer...
 
 <img src="../business/captures/potential7.png"  width="500">
 
