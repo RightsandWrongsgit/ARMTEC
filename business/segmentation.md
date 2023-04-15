@@ -30,11 +30,15 @@ Looks the the "effiency" seekers are true to their basics; "don't give me a bunc
 
 <img src="../business/captures/attribute5.png"  width="500">
 
-
+Ok, so I might sort of buy into all this craziness.  But are attitudes about really basic things all that different?  Like why should I [value ladder](../business.ladder.md) when my product is a health solution?  Doesn't everyone just think their health is important that that is enough for me to talk about?  Think again their oh skeptical one!  Some people focus on food/diet as the definition of how they think about health.  Other people are all about exercise.  Some just think about what to avoid and they will be health; like stop smoking and pour one less beer.  Still others just throw their hands in the air and think their health is preordained by their genetics and you better thinks about softly treading you message if that is your target segment.<br> 
 
 <img src="../business/captures/segmentation4.png"  width="500">
 
+Yeah, yeah, so health is multifaceted.  But I have a simple food product which is just one of those health circles so I am done right?  Think again there ole swamy!  So you must be in the well, illness, feed good segment area about food; "you eat just to prevent illness (scurvy), and as long as you don't burp it up (digestive) you are happy".<br>  
+
 <img src="../business/captures/segmentation5.png"  width="500">
+
+akjlfdkjalkdfjl
 
 <img src="../business/captures/segmentation6.png"  width="500">
 
