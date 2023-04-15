@@ -9,6 +9,8 @@ Our example product wouldn't logically be promoted to those who don't have it.  
 
 <img src="../business/captures/potential2.png"  width="500">
 <font size=small>(example only; do NOT use count as accurate)</font><br>
+<br>
+<br>
 
 How might we find those asthma sufferer so we don't have to spend money to reach everyone?  Perhaps the western and mountain areas don't have the growth pattern of offending plants producing pollen.  Whatever the reason, we might look at the 'incidence' of the problem our product is going to solve and see if it might offer opportunity to target further.<br>
 
