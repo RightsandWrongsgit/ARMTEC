@@ -22,9 +22,12 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Business Models](business/models.md)
 - [Cost of Goods/Services](business/cogs.md)
 - [Advertising & Promotion](business/adpromo.md)
+- [A & P Performance](business/admath.md)
 - [Creative Brief](business/thebrief.md)
 
 - [Market Research](business/methods.md)
+- [Potential & Structure](business/potential.md)
+- [Segmentation](business/segmentation.md)
 - [Positioning](business/positioning.md)
 - [Archetype](business/archetype.md)
 - [Need Gap](business/needgap.md)
