@@ -15,6 +15,8 @@ How might we find those asthma sufferer so we don't have to spend money to reach
 <img src="../business/captures/potential3.png"  width="500">
 <font size=small>(example only; do NOT use count as accurate)</font><br>
 
+## Penetration & Share
+
 Once we understand the broad potential for our product, the potential for the 'category', we want to begin to understand how we fit.   One of the most basic measures that we probably need to do some primary research on is the extent to which our potential target even knows our product exist; what is known as [awareness](https://www.driveresearch.com/market-research-company-blog/what-is-unaided-and-aided-awareness-in-market-research/).   If you had a product like AsthmaFix, and your unaided awareness were only 12%, either you have not done much advertising generally (e.g. limited media placement) or your advertising message has not shown effective [stopping power]() and [persuasion)(../business/admath.md#persuasion-scores).<br>
 
 <img src="../business/captures/potential4.png"  width="500">
