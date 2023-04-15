@@ -38,7 +38,11 @@ Yeah, yeah, so health is multifaceted.  But I have a simple food product which i
 
 <img src="../business/captures/segmentation5.png"  width="500">
 
-akjlfdkjalkdfjl
+When we looked at [market potential](../business/potential.md) we started with a geographic example about the differing level of prevalence of asthma to broadly segment our market by region of the country with higher incidence of asthma.  We moved through state, county, and zip code geographic segment targeting with consideration of the incidence, our own brand penetration, and even competitive price differential to further pinpoint opportunity.  However, since we noted that it is [persuasion](../business/admath.md#persuasion-score) as the strongest profit performance lever by making our [message relevant and different](../business/needgap.md), lets finally look at how we bring this additional step into the prior targeting approach. 
+
+Let's assume we did a value [ladder](../business/ladder.md) for our fictious AsthmaFix product.  Let's assume we have a [list source](https://www.leadsplease.com/) that claims to have an index which scores interest in health.  We have done our survey of AsthmaFix brand awareness along with both a [purchase intent]() score and a battery of high level [emotional reward and personal value](../business/ladder.md#a-continuity) attributes. And, of course we collected brands used along with their buying frequency to calculate AsthamFix [penetration rates and market share](../business/potential.md#penetration-&-share).
+
+We bring these facts together and we discover that the low market penetration we reported relative to awareness may NOT have been the result of a low level of media plan spend and exposures; but could likely be a result of people not having their 'ears up' to our historical pattern of  selling "health" as the positioning message for AsthmaFix when most of the market first thinks of their asthma in terms of its higher level impact on their energy, performance, serenity, and even appearance.  Shift our message to these and we are likely to engage the market more directly; [stopping power and persuasion](../business/needgap.md) because they hear relevance regarding something they value as important
 
 <img src="../business/captures/segmentation6.png"  width="500">
 
