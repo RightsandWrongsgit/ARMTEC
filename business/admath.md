@@ -102,3 +102,8 @@ Poly-dimensional Evaluation
 
 ## Price Elasticity
 The price elasticity-volume relationship has NOT been directly included as a dynamic adjustment term in the detailed equations to follow.  It could be incorporated via equation adjustment if wide ranging price differences were commonly used on the same brand.  However, the basic equation logic currently outlined assumes that the purchase intent measures obtained in persuasion measurement can be done on a ‘price-known’ basis.  Client interest for incorporating price elasticity, especially for new product launch scenario planning, should guide the importance of development.
+
+## Additional Resources
+
+[Reach, Frequency, Ratings, GRPs, Impressions, CPP, and CPM in Advertising](https://www.bionic-ads.com/2016/03/reach-frequency-ratings-grps-impressions-cpp-and-cpm-in-advertising/)
+
