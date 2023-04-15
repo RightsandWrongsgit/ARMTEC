@@ -8,11 +8,11 @@ If you might be more open to Market Segmentation being important, consider some 
 
 Lets look at an example where we have identified five attitudinal segments. From our [value ladder](../business/ladder.md) world, they seek higher level benefits from the use of our product or service.  Some seek fun, others speed, still others efficiency, etc.<br>
 
-<img src="../business/captures/sementation2.png"  width="500">
+<img src="../business/captures/sementation1.png"  width="500">
 
 That value ladder painted a picture of how we might emphasize certain message positioning and then support it with underlying features as reasons to believe our story.  That is great, however, before we start developing list sources and targeting methods to reach and deliver the focused message to the right segment members, one of the first things we want to know is just how prevalent each segment might be.<br>
 
-<img src="../business/captures/sementation1.png"  width="500">
+<img src="../business/captures/sementation2.png"  width="500">
 
 If we wanted to position the message element supporting "fun" as the lead our mapping of which reason to believe support point would suggest emphasis of the "style" around our product feature.<br>
 
