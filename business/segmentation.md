@@ -51,5 +51,5 @@ We bring these facts together and we discover that the low market penetration we
 <br>
 <br>
 
-[Success is found here](../)
+[- Success is found here -](index.md)
 
