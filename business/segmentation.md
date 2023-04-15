@@ -11,14 +11,19 @@ That value ladder painted a picture of how we might emphasize certain message po
 
 <img src="../business/captures/sementation1.png"  width="500">
 
-If we wanted to position the message element supporting "fun" as the lead
-
+If we wanted to position the message element supporting "fun" as the lead our mapping of which reason to believe support point would suggest emphasis of the "style" around our product feature.<br>
 
 <img src="../business/captures/attribute3.png"  width="500">
 
+Looks like the "speed" seekers need a strong package insert documentation along with just the basic feature being called out.  And we make sure the copywriter doing the documentation knows to emphasize the speed of how easily we get going with our product, how fast it is to maintain it, how quickly we get the job done using it, etc.<br>
+
 <img src="../business/captures/attribute6.png"  width="500">
 
+The "endurance" seekers aren't at all surprisingly most focused on the "quality" of our product as we call out features around 'reasons to believe' the message directed at them.<br>
+
 <img src="../business/captures/attribute4.png"  width="500">
+
+Looks the the "effiency" seekers are true to their basics; "don't give me a bunch of wrap around stuff, lets focus on the core features of the widget itself.<br>
 
 <img src="../business/captures/attribute5.png"  width="500">
 
