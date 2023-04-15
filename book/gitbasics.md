@@ -11,6 +11,7 @@ Git is the part of this you will put on your local computer.  A Git Repository i
 - [Where you find Git](https://git-scm.com/){:target="_blank"}
 - [Concept of Git Workflow](https://www.youtube.com/watch?v=wbB7_s4OI8g){:target="_blank"}
 - [Git Rebase](https://levelup.gitconnected.com/how-to-become-a-git-pro-by-mastering-only-one-powerful-git-command-7c1da31be9ea){:target="_blank"}
+- [Git Tutorial: Branching - Simulator with visualization](https://learngitbranching.js.org/)
 - [Git Complete Tutorial video 2hrs](https://www.youtube.com/watch?v=eeuNAIZoWRU){:target="_blank"}
 
 ### Git Repository
