@@ -2,7 +2,7 @@
 # Structure & Segmentation
 
 If you got here as a skeptic around this crazy segmentation stuff, at least consider basic structural segmentation.  Know who the buyers are of the category you are selling into and their relative size is terms of sales impact.<br>
-<img src="../business/captures/structure2.png"  width="500">
+<img src="../business/captures/structure2.png"  width="300">
 
 If you might be more open to Market Segmentation being important, consider some key reasons.  For all intents and purposes, when we examine our [market potential](../business/potential.md) we drill into some sort of localization of our market to tighten our targeting and increase the efficiency of our advertising and promotion.  However, the "who are you going to talk to" part of segmentation is really only the first level benefit.  Remember, the most powerful lever of profitablity is really [how persuasive your communication is](..//business/admath.md#persuasion-scores).  Therefore, we also want to aim to gain from segmentation addressing "what are you going to day" and "how are you going to say it".
 
