@@ -47,19 +47,19 @@ a strikethrough tag <s>around the old</s> and then show the new.
 ### List Group
 Sometimes a list of items might better be presented in groups from an option select box. The code shown here works in a true HTML environment and can be confirmed on [CodePen](https://codepen.io/pietrobok/pen/OPMyJN). However, in the markup only GitHub pages is doesn't present full functionality for demo purposes here.
 
-``<label for="countries">Choose a country:</label>
-<select name="country" id="countries">
-  <option value="">--Please choose a country--
-  </option>
-  <optgroup label="North America">
-    <option value="us">United States</option>
-    <option value="ca">Canada</option>
-  </optgroup>
-  <optgroup label="Europe">
-    <option value="uk">United Kingdom</option>
-    <option value="fr">France</option>
-  </optgroup>
-</select>``
+  <label for="countries">Choose a country:</label>
+  <select name="country" id="countries">
+    <option value="">--Please choose a country--
+    </option>
+    <optgroup label="North America">
+      <option value="us">United States</option>
+      <option value="ca">Canada</option>
+    </optgroup>
+    <optgroup label="Europe">
+      <option value="uk">United Kingdom</option>
+      <option value="fr">France</option>
+    </optgroup>
+  </select>
 
 <br>
 <br>
