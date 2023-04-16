@@ -1,7 +1,7 @@
 
 # Market Research Methods
 
-- Attribute lists<br>
+- <mark>Attribute lists</mark><br>
 
 ## ATU
 <font color=red>Awareness, Trial, & Usage</font>
