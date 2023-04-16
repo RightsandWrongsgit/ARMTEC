@@ -19,7 +19,9 @@ If you are writing out a chemistry equation you might want to subscript; or are 
 <br />
 H<sub>2</sub>SO<sub>4</sub> + NaOH &#8594; Na<sub>2</sub>SO<sub>4</sub> +
 H<sub>2</sub>O
-
+<br>
+<br>
+<br>
 
 
 <details>
@@ -28,10 +30,12 @@ H<sub>2</sub>O
   then when people click the summary triangle, this thing opens up to show the details.
 </details>
 
-
+<br>
+<br>
 
 Most of the time you would just edit stuff and change it.  But if you ever need to let someone know what <q>was</q> your can use a strikethrough tag <s>around the old</s> and then show the new.
-
+<br>
+<br>
 
 Sometimes you need to create a list of stuff like countries, but want to group them, say by continent...
 <select name="country" id="countries">
@@ -44,6 +48,11 @@ Sometimes you need to create a list of stuff like countries, but want to group t
     <option value="fr">France</option>
   </optgroup>
 </select>
+
+<br>
+<br>
+
+
 
 Or maybe at a more basic level you just need a form input box with a list of option values to select from...
 <form>
@@ -59,6 +68,8 @@ Or maybe at a more basic level you just need a form input box with a list of opt
   </datalist>
 </form>
 
+<br>
+<br>
 
 If you have a bunch of fields you need on your form but they should be presented in logical groups you can do this...
 <form>
