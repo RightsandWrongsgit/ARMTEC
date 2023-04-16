@@ -45,10 +45,9 @@ a strikethrough tag <s>around the old</s> and then show the new.
 <br>
 
 ### List Group
-Sometimes a list of items might better be presented in groups from an option select box...
+Sometimes a list of items might better be presented in groups from an option select box. The code shown here works in a true HTML environment and can be confirmed on [CodePen](https://codepen.io/pietrobok/pen/OPMyJN). However, in the markup only GitHub pages is doesn't present full functionality for demo purposes here.
 
-{% set html %}
-<label for="countries">Choose a country:</label>
+`<label for="countries">Choose a country:</label>
 <select name="country" id="countries">
   <option value="">--Please choose a country--
   </option>
@@ -60,8 +59,7 @@ Sometimes a list of items might better be presented in groups from an option sel
     <option value="uk">United Kingdom</option>
     <option value="fr">France</option>
   </optgroup>
-</select>
-{% endset %}
+</select>`
 
 <br>
 <br>
