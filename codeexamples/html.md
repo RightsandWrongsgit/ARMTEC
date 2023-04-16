@@ -45,8 +45,6 @@ a strikethrough tag <s>around the old</s> and then show the new.
 <br>
 
 ### List Group
-Sometimes you need to create a list of stuff like countries, but want to group them, say by continent...<br>
-<br>
 
 <label for="countries">Choose a country:</label>
 <select name="country" id="countries">
@@ -62,9 +60,9 @@ Sometimes you need to create a list of stuff like countries, but want to group t
   </optgroup>
 </select>
 
-<br>
-<br>
 
+<br>
+<br>
 
 ### Option Box
 Or maybe at a more basic level you just need a form input box with a list of option values to select from...
