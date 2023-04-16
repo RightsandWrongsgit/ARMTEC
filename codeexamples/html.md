@@ -1,0 +1,87 @@
+
+# Some helpful HTML
+
+
+
+
+If you tend to use a lot of jardon, the abbreviation tag is wonderful.
+<abbr title="Better than sliced bread">BTSB</abbr>
+and you can use it for all your favorite
+<abbr title="Secret Code Jargon">SCJ</abbr>
+
+
+This html mark command is basically a <mark>highlighter</mark> of whatever is between its open and close.  It is default <mark>'yellow'</mark> in highlight color.
+
+If you are writing out a chemistry equation you might want to subscript; or are you a superscript person?
+<p>This text contains <sub>subscript</sub> text</p>
+<p>This text contains <sup>superscript</sup> text</p>
+&#x1D465;<sup>2</sup> - 3&#x1D465; - 28 = 0. Solve for &#x1D465;. <br />
+<br />
+H<sub>2</sub>SO<sub>4</sub> + NaOH &#8594; Na<sub>2</sub>SO<sub>4</sub> +
+H<sub>2</sub>O
+
+
+
+<details>
+  <summary>Open me!</summary>
+  This is a demonstration of a disclosure widget.  You put in whatever narrative here and
+  then when people click the summary triangle, this thing opens up to show the details.
+</details>
+
+
+
+Most of the time you would just edit stuff and change it.  But if you ever need to let someone know what <q>was</q> your can use a strikethrough tag <s>around the old</s> and then show the new.
+
+
+Sometimes you need to create a list of stuff like countries, but want to group them, say by continent...
+<select name="country" id="countries">
+  <optgroup label="North America">
+    <option value="us">United States</option>
+    <option value="ca">Canada</option>
+  </optgroup>
+  <optgroup label="Europe">
+    <option value="uk">United Kingdom</option>
+    <option value="fr">France</option>
+  </optgroup>
+</select>
+
+Or maybe at a more basic level you just need a form input box with a list of option values to select from...
+<form>
+  <label for="lang">Choose a language:</label>
+  <input list="langs" name="lang" id="lang" />
+
+  <datalist id="langs">
+    <option value="English" />
+    <option value="French" />
+    <option value="Spanish" />
+    <option value="Chinese" />
+    <option value="German" />
+  </datalist>
+</form>
+
+
+If you have a bunch of fields you need on your form but they should be presented in logical groups you can do this...
+<form>
+  <fieldset>
+    <legend>Name</legend>
+
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" /><br />
+    <label for="mname">Middle Name:</label>
+    <input type="text" id="mname" name="mname" /><br />
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" />
+  </fieldset>
+  <br />
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" />
+  <br /><br />
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" />
+</form>
+
+
+
+
+
+
