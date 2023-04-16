@@ -32,8 +32,8 @@
 
 
 --	Consumer<br>
---	HCP<br>
-- Communications Research<br>
+--  <abbr title="Health Care Provider">HTML</abbr>HCP<br>
+
 --	Branding<br>
 --	Current Equity Positioning<br>
 --	Message Development<br>
