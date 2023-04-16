@@ -37,7 +37,10 @@ H<sub>2</sub>O
 <br>
 
 ### Quote me
-Most of the time you would just edit stuff and change it.  But if you ever need to let someone know what <q>was</q> your can use a strikethrough tag <s>around the old</s> and then show the new.
+Most of the time you would just edit stuff and change it.  But if you ever need to let someone know what <q>was</q> you can use...
+
+### Strike Through
+a strikethrough tag <s>around the old</s> and then show the new.
 <br>
 <br>
 
