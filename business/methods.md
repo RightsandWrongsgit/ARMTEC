@@ -32,7 +32,7 @@
 
 
 --	Consumer<br>
---  <abbr title="Health Care Provider">HTML</abbr>HCP<br>
+--  <abbr title="Health Care Provider">HCP</abbr><br>
 
 --	Branding<br>
 --	Current Equity Positioning<br>
