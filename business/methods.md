@@ -65,7 +65,7 @@
 
 ##  Claims
 - Involve Legal from the onset<br>
-  - they may advise external arms length after core design work<br>
+  - <q>they may advise external arms length after core design work</q?<br>
 - Always have the specific claim language decided in advance of research<br>
 - Ask as few question as possible and only those that will be useful in substantiating the specific claim.  In a legal discovery the questionaire and findings will be looked at and other responses might work to negate a claim.<br>
 - Avoid asking open-end.  Responses can be a can of worms and coding is considered highly subjective.<br>
