@@ -99,6 +99,13 @@ More Details about claims...<br>
 ---		DTC<br>
 --	Channel Development<br>
 
+<details>
+  <summary>Open me!</summary>
+  This is a demonstration of a disclosure widget.  You put in whatever narrative here and
+  then when people click the summary triangle, this thing opens up to show the details.
+</details>
+
+
 
 ## Segmentation/Targeting/Profiling
 - Segment by...<br>
