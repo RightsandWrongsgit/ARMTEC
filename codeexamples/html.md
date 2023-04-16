@@ -51,6 +51,7 @@ Sometimes you need to create a list of stuff like countries, but want to group t
 <label for="countries">Choose a country:</label>
 <select name="country" id="countries">
   <option value="">--Please choose a country--
+  </option>
   <optgroup label="North America">
     <option value="us">United States</option>
     <option value="ca">Canada</option>
