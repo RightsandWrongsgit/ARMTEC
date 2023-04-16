@@ -3,15 +3,18 @@
 
 
 
-
+### Abbreviations
 If you tend to use a lot of jardon, the abbreviation tag is wonderful.
 <abbr title="Better than sliced bread">BTSB</abbr>
 and you can use it for all your favorite
 <abbr title="Secret Code Jargon">SCJ</abbr>
 
-
+### Highlighter
 This html mark command is basically a <mark>highlighter</mark> of whatever is between its open and close.  It is default <mark>'yellow'</mark> in highlight color.
+<br>
+<br>
 
+### Sub & Super Script
 If you are writing out a chemistry equation you might want to subscript; or are you a superscript person?
 <p>This text contains <sub>subscript</sub> text</p>
 <p>This text contains <sup>superscript</sup> text</p>
@@ -23,7 +26,7 @@ H<sub>2</sub>O
 <br>
 <br>
 
-
+### Opening Details
 <details>
   <summary>Open me!</summary>
   This is a demonstration of a disclosure widget.  You put in whatever narrative here and
@@ -33,10 +36,12 @@ H<sub>2</sub>O
 <br>
 <br>
 
+### Quote me
 Most of the time you would just edit stuff and change it.  But if you ever need to let someone know what <q>was</q> your can use a strikethrough tag <s>around the old</s> and then show the new.
 <br>
 <br>
 
+### List Group
 Sometimes you need to create a list of stuff like countries, but want to group them, say by continent...
 <select name="country" id="countries">
   <optgroup label="North America">
@@ -53,7 +58,7 @@ Sometimes you need to create a list of stuff like countries, but want to group t
 <br>
 
 
-
+### Option Box
 Or maybe at a more basic level you just need a form input box with a list of option values to select from...
 <form>
   <label for="lang">Choose a language:</label>
@@ -71,6 +76,8 @@ Or maybe at a more basic level you just need a form input box with a list of opt
 <br>
 <br>
 
+
+### Field Groups
 If you have a bunch of fields you need on your form but they should be presented in logical groups you can do this...
 <form>
   <fieldset>
