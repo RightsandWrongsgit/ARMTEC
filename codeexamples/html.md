@@ -45,7 +45,9 @@ a strikethrough tag <s>around the old</s> and then show the new.
 <br>
 
 ### List Group
+Sometimes a list of items might better be presented in groups from an option select box...
 
+{% set html %}
 <label for="countries">Choose a country:</label>
 <select name="country" id="countries">
   <option value="">--Please choose a country--
@@ -59,7 +61,7 @@ a strikethrough tag <s>around the old</s> and then show the new.
     <option value="fr">France</option>
   </optgroup>
 </select>
-
+{% endset %}
 
 <br>
 <br>
