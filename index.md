@@ -109,7 +109,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Bootstrap Theme](theme/bootstrap.md)
 - [Layout Builder](modules/layoutbuilder.md)
 - [Active Site Modules](modules/activesite.md)
-- 
+- [HTML Code Examples](codeexamples/html.md)
 
 
 
