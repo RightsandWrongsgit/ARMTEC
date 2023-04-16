@@ -46,8 +46,11 @@ a strikethrough tag <s>around the old</s> and then show the new.
 
 ### List Group
 Sometimes you need to create a list of stuff like countries, but want to group them, say by continent...<br>
+<br>
 
-<select> name="country" id="countries"
+<label for="countries">Choose a country:</label>
+<select name="country" id="countries">
+  <option value="">--Please choose a country--
   <optgroup label="North America">
     <option value="us">United States</option>
     <option value="ca">Canada</option>
