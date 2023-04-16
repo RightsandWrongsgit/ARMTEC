@@ -49,17 +49,17 @@ Sometimes a list of items might better be presented in groups from an option sel
 
     <label for="countries">Choose a country:</label>
     <select name="country" id="countries">
-    <option value="">--Please choose a country--
-    </option>
-    <optgroup label="North America">
-      <option value="us">United States</option>
-      <option value="ca">Canada</option>
-    </optgroup>
-    <optgroup label="Europe">
-      <option value="uk">United Kingdom</option>
-      <option value="fr">France</option>
-    </optgroup>
-  </select>
+      <option value="">--Please choose a country--
+      </option>
+      <optgroup label="North America">
+        <option value="us">United States</option>
+        <option value="ca">Canada</option>
+      </optgroup>
+      <optgroup label="Europe">
+        <option value="uk">United Kingdom</option>
+        <option value="fr">France</option>
+      </optgroup>
+    </select>
 
 <br>
 <br>
