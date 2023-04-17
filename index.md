@@ -34,6 +34,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [Value Ladder](business/ladder.md)
 - [Concept Development](business/concept.md)
 - [Concept Scoring](business/conceptquestions.md)
+- [Claims](business/claims.md)
 
 - [Topics to include](business/topics.md)
 
