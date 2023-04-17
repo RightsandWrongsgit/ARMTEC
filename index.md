@@ -17,7 +17,7 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 
 ![visitors](https://page-views.glitch.me/badge?page_id=RightsandWrongsgit.ARMTEC-gh-pages-index)
 
-### Chapter: Business Success
+### Chapter: Business Basics
 - [Route to Performance](business/overview.md)
 - [Business Models](business/models.md)
 - [Cost of Goods/Services](business/cogs.md)
@@ -25,11 +25,15 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [A & P Performance](business/admath.md)
 - [Creative Brief](business/thebrief.md)
 
-- [Market Research](business/methods.md)
-- [Potential & Structure](business/potential.md)
-- [Segmentation](business/segmentation.md)
+### Chapter: Effective Communication
 - [Positioning](business/positioning.md)
 - [Archetype](business/archetype.md)
+
+
+### Chapter: Market Research
+- [Market Research](business/methods.md)
+- [Potential & Structure](business/potential.md)
+- [Structure & Segmentation](business/segmentation.md)
 - [Need Gap](business/needgap.md)
 - [Value Ladder](business/ladder.md)
 - [Concept Development](business/concept.md)
@@ -72,9 +76,6 @@ Most would expect 'Open Source' to apply just to software and maybe extend to on
 - [UUIDs: Friend or Foe](cicd/UUID.md)
 - [Stage File Proxy](cicd/stagefileproxy.md)
 - [Cloning The Project](cicd/cloneandpull.md)
-
-
-
 
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;* Appendices
