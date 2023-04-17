@@ -1,11 +1,37 @@
 
 # Structure & Segmentation
 
+## Segmentation/Targeting/Profiling
+Segmentation is nothing more than acknowledging individual differences.  In marketing approaches that are more one-to-one you actually do uniquely address individual customers.  Think, for example, of selling business-to-business as an engineering job-shop who designs and builds manufacturing lines for their customers.  Where you utilize a face-to-face salesforce you get closer to one-to-one but still tend to 'group' prospective customers on some bases; say calling on Dermatologists for a skin care product rather than all physicians.   Digital advertising and promotion methods are also increasingly one-to-one is dynamic adjustment to unique customers depending on the sophistication of the techiques we employ.
+
+Common ways customer segments are grouped include -<br>
+
+  -  Behavioral: Group buyers based on what they purchase in the past<br>
+  -  Descriptor: Group potential buyers based on characteristics of like buyers (demographic/firm-o-graphic)<br>
+  -  Needs/Process: Group potential buyers based on how and why they buy (psychological/functional/economic)<br>
+
+The purpose of leveraging this segmentation is basically intent upon achieving <br>
+
+  - Product = Right Product for Target<br>
+  - Price = Presenting Value Consistent with their Perceived  desires to Maximize your Profits<br>
+  - Promotion = Saying the right stuff to the right target<br>
+  - Place/Distribution = Delivering it to them with the most effective channels<br>
+
+There is a [huge body of resources on segmentation](https://guides.loc.gov/consumer-research/market-segments).  These are mostly on methods and processes.  From a practical standpoint, the two most important things you should consider if you pursue any type of segmentation research are ...<br>
+
+  - <font color=yellow>Don't just describe, find the targets.</font>  When you see the collection of a list of things like demographics in a survey, make sure that the nature of the questions and the response buckets are matched identically with known third party data sources.  Census is a good one because you can then align your survey result data with it and project your findings to a larger universe.  Also, find list sources that you might use and align with the measures available on the lists; then you can target activity the matching subgroups your survey points to.<br>
+ 
+  - Remember that when you collect something like a 'purchase intent', you don't need to just note the top box and top two box score your product or service achieved.  Rather, you want to take the top box people (Definitely will buy...) and find those who match them.  As long as you can <font color=yellow>use your findings to efficiently target</font> exactly those who are raising their hand for what you offer, you are likely to have a solid business.<br>
+
+## Basics
+
 If you got here as a skeptic around this crazy segmentation stuff, at least consider basic structural segmentation.  Know who the buyers are of the category you are selling into and their relative size is terms of sales impact.<br>
 
 <img src="../business/captures/structure2.png"  width="300">
 
-If you might be more open to Market Segmentation being important, consider some key reasons.  For all intents and purposes, when we examine our [market potential](../business/potential.md) we drilled into geographically localing to tighten our targeting and increase the efficiency of our advertising and promotion.  However, tighter focus on "WHO ARE YOU GOING TO TALK TO" is really only the first level benefit of segmentation.  Remember, the most powerful lever of profitablity is really [how persuasive is your communication](..//business/admath.md#persuasion-scores).  Therefore, lets consider how segmentation addressing "WHAT ARE YOU GOING TO SAY" and "HOW ARE YOU GOING TO SAY IT".
+## Who/What/How
+
+If you might be more open to Market Segmentation being important, consider some key reasons.  For all intents and purposes, when we examine our [market potential](../business/potential.md) we drilled into geographically localing to tighten our targeting and increase the efficiency of our advertising and promotion.  However, tighter focus on <font color=yellow>"WHO ARE YOU GOING TO TALK TO"</font> is really only the first level benefit of segmentation.  Remember, the most powerful lever of profitablity is really [how persuasive is your communication](..//business/admath.md#persuasion-scores).  Therefore, lets consider how segmentation addressing <font color=yellow>"WHAT ARE YOU GOING TO SAY"</font> and <font color=yellow>"HOW ARE YOU GOING TO SAY IT".</font><br>
 
 Here is an example where we have identified five attitudinal segments. From our [value ladder](../business/ladder.md) world, what higher level benefits they seek.  Some seek "fun", others "speed", still others "efficiency", etc.<br>
 
