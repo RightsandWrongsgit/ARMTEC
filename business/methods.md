@@ -113,6 +113,12 @@ Larger companies, better run companies, maintain internal market research staff.
 It has been noted throughout that when you conduct any research you should aim to have classification questions, demographic or firm-o-graphic type information, collected from respondents using a question wording and response opportunity aligned with secondary source data.  Most commonly this can be the Census but also look to list vendors and even your own sources like a call center or business reply card responses.  Market research should be considered a form of R&D.  It actually is a great place to do the pilot work for your Information Systems development prioritization.  Information may seem 'free' and the lower cost of computer horsepower projects that interpretation.  However, the reality is that information collection is a potentially huge cost.  If you use a call center that maintains a CRM database with an ROI algorithm driving variable response collection prioritation during a call, each moment of the conversation collecting information is taking staff time and outbound message time offset.  What you want to do is to conduct research on the hundreds of potentially important tidbits from a sample and leverage research analytics to pinpoint ROI predictive factors to collect more universally.  As noted in the prior point, this takes 'Business Understanding'.
 
 ## Types of Research
+- [Potential & Structure](../business/potential.md)
+- [Structure & Segmentation](../business/segmentation.md)
+- [Need Gap](../business/needgap.md)
+- [Value Ladder](../business/ladder.md)
+- [Concept Development](../business/concept.md)
+- [Concept Scoring](../business/conceptquestions.md)
 - [Claims](../business/claims.md)
 
 
