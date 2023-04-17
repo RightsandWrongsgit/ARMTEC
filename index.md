@@ -17,7 +17,7 @@ Are you struggling to find the right approach to your project? ARMTEC provides a
 
 Most would expect 'Open Source' to apply just to software and maybe extend to online information systems or developer applications.  ARMTEC aims for a broader perspective.  Key things related to effectively running a business or organization are also presented.  Revenue projection, Profit & Loss (P&L) statement analyses, Advertising & Proprotion (A&P) performance, Market Research, Customer Relationship Management, and more are part of our foundation.  Therefore our technical tools in these areas may be of interest to a broader community shared in an open source manner.
 
-This site's main menu points to the subject areas you might find of interest.  However, the resources are extensive.  So you might want to jump to the list of [chapters which present detailed topics of interest](../chapters.md).
+This site's main menu points to the subject areas you might find of interest.  However, the resources are extensive.  So you might want to jump to the list of [chapters which present detailed topics of interest](chapters.md).
 
 ![visitors](https://page-views.glitch.me/badge?page_id=RightsandWrongsgit.ARMTEC-gh-pages-index)
 
