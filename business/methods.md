@@ -106,7 +106,7 @@ It has been noted throughout that when you conduct any research you should aim t
 
 ## Who Does Research
 
-ARMTEC, Inc. can certainly do some research directly and also can act as your research coordinator are part of our consultation with you.  There are tons of individual research organizations and the most common directories to find them are these:
+ARMTEC, Inc. can certainly do some research directly and can also act as your research coordinator as part of our consultation.  There are tons of individual research organizations and the most common directories to find them are these:
 
 [Quirks](https://www.quirks.com/)<br>
 [Greenbook](https://www.greenbook.org/)
