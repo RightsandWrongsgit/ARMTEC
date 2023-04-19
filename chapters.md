@@ -40,10 +40,10 @@
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;* Front-End
 
-    - [HTML Code Examples](codeexamples/html.md)
-    - [Olivero Theme](theme/olivero.md)
-    - [Bootstrap Theme](theme/bootstrap.md)
-    - [TWIG](theme/twig.md)
+  -   [HTML Code Examples](codeexamples/html.md)
+  -   [Olivero Theme](theme/olivero.md)
+  -   [Bootstrap Theme](theme/bootstrap.md)
+  -   [TWIG](theme/twig.md)
 
 #### &nbsp;&nbsp;&nbsp;&nbsp;* Drupal Modules
 
