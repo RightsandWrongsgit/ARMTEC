@@ -26,3 +26,13 @@ Drupal 8+. In earlier versions of Drupal, you were able to insert PHP into theme
 
 [Twig Tools and Pattern Lab component linking](https://www.videodrupal.org/video/20210127/integrating-components-drupal-mapping-fields)
 
+
+## TWIG - Command Line
+Selwyn Polit's online Drupal book is also helpful if you are ready to work at the [detailed TWIG code level help](https://selwynpolit.github.io/d9book/twig.html)
+
+
+<br>
+<br>
+<br>
+
+[Learn More - Drupal Modules List](../chapters.md#front-end)
