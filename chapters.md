@@ -113,8 +113,9 @@
 
 
 
-### Chapters from Selwyn Polit's Drupal 9 book
-There is a very talented individual with great Drupal skills who published a GitHub pages site with all sorts of great, detailed information.  A few items are redundant to my own, but his probably will take you deeper in those subjects so I will provide links to them on this site.  Here is a [direct, full link to his site](https://selwynpolit.github.io/d9book/) ; individual chapters are also shown below but no promises I can keep up with his updates.  His name is [Selwyn Polit with profile and contact information](https://www.drupal.org/u/selwynpolit).
+### Chapters from Selwyn Polit
+[Selwyn](https://www.drupal.org/u/selwynpolit) is a very talented individual with great Drupal skills who published a GitHub pages site for Developers.  Site Builders are more likely to use the modules and CI/CD process flow from the ARMTEC site.  However, there is a very natural topic redudancy as a site builder begins to gain more experience and finds themselve trying to do increasingly unique or sophisticated things.  So we asked Selwyn if he was ok if we present very integrated links between related topics from his GitHub pages book and he agreed.  In addition, his [attribution section acknowledges CC by 4.0 license granting this type of permission](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) and below are the chapter sections were we want to acknowledge him.  Thing of this as ARMTEC helping introduce and frame site elements while Selwyn provides greater detail for those who are ready to take the next step of being an actual Developer.   Here is a [direct, full link to his site](https://selwynpolit.github.io/d9book/).  
+
 - [Batch and Queue - Batch API](https://selwynpolit.github.io/d9book/bq.html)
 - [Blocks - Generate the code to create blocks, dependency injection, blocks with config forms, block permissions](https://selwynpolit.github.io/d9book/blocks.html)
 - [Caching - Cache tags, disabling caching, caching REST resources, development setup, various caching tips](https://selwynpolit.github.io/d9book/caching.html)
@@ -146,7 +147,4 @@ There is a very talented individual with great Drupal skills who published a Git
 
 - [Attribution - See who contributed to Selwyn's masterpiece](https://selwynpolit.github.io/d9book/attribution.html)
 
-
- 
-
-Selwyn got me started in using GitHub pages for doing extensive documentation.  My original goal was mainly around just the starter CI/CD workflow repository offering greater depth of understanding than just its own readme.  However, Mr Polit's great Drupal 9 Book documention showed me how you might make GitHub pages much more.  Taking advantage of the [markdown format](https://github.github.com/gfm/) I am building in parallel and trying to avoid redundancy with his efforts. 
+This site as well as Selwyn's use GitHub pages.  The [markdown format](https://github.github.com/gfm/) used by GitHub pages is fairly capable of making a basic website.  It doesn't share the scale, database linkage nor front-end presentation strength of Drupal.  However, if you aren't familar with some basic HTML you can use a little in the process of working with markdown.  And if you don't know CSS, you can use some GitHub pages templates to gain some familiarity.
