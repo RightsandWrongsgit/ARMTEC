@@ -128,4 +128,8 @@ You can set role permissions from the admin section of Core.  But you can move t
 `composer require drupal/field_permissions`<br>
 `drush en field_permissions`
 
+<br>
+<br>
+<br>
 
+[Learn More - Drupal Modules List](../chapters.md#drupal-modules)
