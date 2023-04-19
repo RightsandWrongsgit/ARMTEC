@@ -22,3 +22,9 @@ More Details about claims...<br>
 [Federal Trade Commission]([https://www.ftc.gov/system/files/documents/plain-language/bus09-dietary-supplements-advertising-guide-industry.pdf](https://www.ftc.gov/business-guidance/advertising-marketing)
 [The Lanham Act](https://cuetolawgroup.com/trademark-infringement-elements/#:~:text=the%20Lanham%20Act.-,What%20are%20the%20four%20major%20Lanham%20Act%20violations%3F,similar%20to%20a%20famous%20mark.)
 
+<br>
+<br>
+<br>
+
+[Learn More - Business Chapter Index](/chapters.md#chapter-business-basics)
+
