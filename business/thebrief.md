@@ -183,7 +183,6 @@ Questions to ask yourself to assist in writing a complete, inspirational and sma
 <br>
 <br>
 
-
-[- Next -]()
+[Learn More - Business Chapter Index](/chapters.md#chapter-business-basics)
 
 
