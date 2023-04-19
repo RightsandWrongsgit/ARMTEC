@@ -15,37 +15,12 @@ PHP itself renders a first level of HTML output but delivering it to TWIG Templa
 Installing a base theme is a straightforward process.  First, one probably came by default in what you installed.  And if you want to change themes you go into ADMINISTRATION/APPEARANCE and install and make default a different one.  The default theme with Core are underneath the Core/themes subdirectory; YOU DO NOT EDIT ANYTHING IN CORE EVER!  You do, however, copy stuff from core, especially under your base theme's templates subdirectory which is where the TWIG templates live.
 
 
-
 It is very common that you might find a template under your base theme that you might want to tweak in some way; either across all places it is used on your site or on a specific page or node.  You are only going to edit a copy of a twig template.  Note two things on the next image; a) there is a themes subdirectory at the same level as the core subdirectory and that is where you are going to put any customization to your base them (ie. where you are going to put the copy to edit) and b) there is a sites/default subdirectory also starting at that top level and in it is a services.yml file (which you can make by duplicating the default.services.yml file and renaming it).
 
 The logic of messing with the services.yml file is that you are going to make one super simple edit within it.  Look down say 50-60 lines for the word 'debug:' and where it says false, change it to true and same the file.  Clear your cache and when you 'inspect source' on any page on your Drupal site you will find a list of the TWIG file that is active PLUS some suggested names of an 'override' file.  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Overriding is done all over Drupal as the way it is so flexible.  Drupal is a super CMS out of the box but the fact you can override all sorts of stuff makes it the best CMS out there to service a huge range of applications.  The TWIG template override is a first line of flexibility and the debug you just turned 'true' means the inspection of source will note a) where the template used in that area is located (helpful to find it to make a copy) at the bottom of the snippet below; b) the name of the currently used template (the one with 'x' in front of it below); and c) some alternative names you might consider for a copy you want to use as an override on the copy you are editing (from bottom upward, more general to more specific).  If you are overriding all uses of the current across your whole site you can keep the same name on the copy but if you are targeting the edit, think how focused you need it to be and move up the list accordingly. 
-
-
-
-
-
-
-
-
-
-
 
 
 You aren't editing the original twig template in core, you are doing it to the copy under your custom theme.  In the example below, the subdirectory for that custom theme is named 'eg' and underneath it are subdirectories for 'templates' where the twig templates go and another subdirectory for 'css' styling.  It is standard practice in Drupal to separate your css into 'base', 'components', and 'layout'; so you see those as even deeper subdirectories in the image below.
@@ -53,9 +28,6 @@ You aren't editing the original twig template in core, you are doing it to the c
 In addition to having the twig and css assets in your custom theme subdirectories, you need to tell Drupal about where they are.  First you simply tell Drupal about what you are calling the custom theme and what base theme it is built upon in the file <yourcustomthemesname>.info.yml; in the example the custom them is simply called 'eg'.  See that file name in the same subdirectory at the css and templates subdirectories in the image above.
 
 The content of that file are simple, as are most yml or yaml files.  The key thing when ever you do an of these file is the indents are TWO SPACES (so don't 'tab').  Here is what eg.info.yml looks like:
-
-
-
 
 
 You also need to more specifically tell Drupal about the assets by showing where the css files you will use are located via <yourcustomthemesname>.libraries.yml; in the example at that same subdirectory level it is eg.libraries.yml and what is inside it is shown below:
@@ -80,40 +52,7 @@ At the practical level, take a look at 'How To Use Twig Tweak Module' here: http
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 If you start getting into TWIG template editing, you may want to go to TwigFiddle.com where you can practice editing approaches. 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Components and how they fit with certain theme decisions:
@@ -127,34 +66,7 @@ When you look at Storybook, you will find it can be used with React, Angular, et
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Expect some pretty detailed set up steps but the documentation link to a GitLab repo read.me is pretty helpful in walking you through it. https://git.drupalcode.org/project/cl_server/-/blob/1.x/docs/storybook.md
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 To understand just how powerful and comprehensive Storybook is, you really need to go to the site and drive around.  You will see specific examples of components being deployed in many ways, even with links to access the underlying example code.  So if you are going to be doing a number of sites, it may be worth the trouble of the complex setup of the components so you have your own library.  And, of course, keep an eye out for others who publish their Drupal-Storybook Component to adopt. 
@@ -162,73 +74,7 @@ To understand just how powerful and comprehensive Storybook is, you really need 
 This module works with the Component Libraries: Theme Server.  You can go to the Theme Server module on Drupal.org and there is a link to a 'Step-by-Step' tutorial.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 The newly release 'Component Libraries: Blocks' module it the third in this group that further expands the power of this approach.  It appears to integrate well with Views, Layout Builder, and other standard Drupal core common tools.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -308,53 +154,6 @@ composer require 'drupal/components:^3.0@beta'
 Could be that the components module may offer some easy style editing via its GUI.  But you are probably better to stick with direct TWIG and CSS and JS editing.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 MODULES UNIQUE TO BOOTSTRAP THEME DECISION:
 (Theme: Bootstrap Barrio)
 N1ED Module:
@@ -364,151 +163,8 @@ composer require drupal/n1ed
 drush en n1ed
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Views Bootstrap Module (NOTE: If you use the Bootstrap or Bootstrap Barrio theme):
 This module has unique install instructions depending on the version of Bootstrap you are using in theming.  So go to the Drupa.org site for the latest install instructions. https://www.drupal.org/project/views_bootstrap
-
-
-
-
-
-
-
-
 
 
 
@@ -520,91 +176,11 @@ drush en bootstrap_layout_builder
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Bootstrap Styles module:
 This underlies the Bootstrap Layoutbuilder's styles plugins.
 
 composer require drupal/bootstrap_styles
 drush en bootstrap_styles
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -622,4 +198,4 @@ https://www.youtube.com/watch?v=-dhI5-Fs4qk OSTraining:: https://www.youtube.
 <br>
 <br>
 
-[Learn More - Drupal Modules List](../chapters.md#front-end)
+[Learn More - CMS Front-end](../chapters.md#front-end)
