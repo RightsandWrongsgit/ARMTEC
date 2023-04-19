@@ -38,8 +38,7 @@
 
 ### Chapter: Content Management Systems(CMS)
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;* Front-End
-
+- Front-End
   -   [HTML Code Examples](codeexamples/html.md)
   -   [Olivero Theme](theme/olivero.md)
   -   [Bootstrap Theme](theme/bootstrap.md)
