@@ -102,4 +102,9 @@ You can also leverage the powerful [Permissions by Term](https://www.youtube.com
 # Going Native
 In addition to leveraging contributed modules that help with taxonomy, there are opportunities to work more directly with taxonomy related code. [Selwyn Polit](https://www.drupal.org/u/selwynpolit) has a chapter in his github pages book on [Taxonomy](https://selwynpolit.github.io/d9book/taxonomy) working at this more native level.
 
+<br>
+<br>
+<br>
+
+[Learn More - Drupal Modules List](../chapters.md#drupal-modules)
 
