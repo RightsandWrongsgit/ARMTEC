@@ -37,7 +37,7 @@ Ok, so you don't have eight years, expensive labs and hundreds of smart people y
 
 - [Cost of Goods/Cost of Services](../business/cogs.md)
 
-- Advertising and Promotion
+- [Advertising and Promotion](../business/adpromo.md)
 
 - Selling Expense
 
