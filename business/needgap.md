@@ -37,4 +37,4 @@ The Need Gap findings point to what attributes are important and unique, then we
 <br>
 <br>
 
-[Learn More - Business Chapter Index](/chapters.md#chapter-business-basics)
+[Learn More - Business Chapter Index](/chapters.md#business)
