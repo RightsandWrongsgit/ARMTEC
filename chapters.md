@@ -1,6 +1,7 @@
 
 # List of Chapters
 
+## Business
 ### Chapter: Business Basics
 - [Route to Performance](business/overview.md)
 - [Business Models](business/models.md)
@@ -26,10 +27,44 @@
 
 - [Topics to include](business/topics.md)
 
-
+## Information Technology 
 ### Chapter: Information Basics 
 - [Git & Version Control](book/gitbasics.md)
 - [Integrated Development Environment](book/ide.md)
+- [Open Source Tools](book/opensource.md)
+- [Cheatsheets](book/cheats.md)
+- [It May be Basic but sometimes you need a boost!](book/Novice.md)
+- [Hosting: How will Others see my website?](book/hosting.md)
+
+### Chapter: Content Management Systems(CMS)
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;* Front-End
+
+- [HTML Code Examples](codeexamples/html.md)
+- [Olivero Theme](theme/olivero.md)
+- [Bootstrap Theme](theme/bootstrap.md)
+- [TWIG](theme/twig.md)
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;* Drupal Modules
+
+- [Drupal Modules](modules/modulesoverview.md)
+- [Development Modules](modules/development.md)
+- [Fields Modules](modules/fields.md)
+- [Flagging Modules](modules/flagging.md)
+- [Taxonomy](modules/taxonomy.md)
+- [Faceted Search](modules/facetedsearch.md)
+- [Entity Reference](modules/entityref.md)
+- [Views](modules/views.md)
+- [Webform](modules/webform.md)
+- [Performance](modules/performance.md)
+- [Security](modules/security.md)
+- [Mapping](modules/mapping.md)
+- [Example: Map & Taxonomy Node Build](modules/mapinnodes.md)
+- [Links & Modals](modules/linksmodals.md)
+- [Media](modules/media.md)
+- [Layout Builder](modules/layoutbuilder.md)
+- [Active Site Modules](modules/activesite.md)
+
 
 
 ### Chapter: Drupal Template with CI/CD Workflow
@@ -70,33 +105,9 @@
 - [SubTheme Setup](cicd/subtheme.md)
 - [UUIDs: Actually Change them](cicd/changeUUID.md)
 
-### Chapter: Awaiting Categorization
-- [Cheatsheets](book/cheats.md)
-- [Open Source Tools](book/opensource.md)
-- [It May be Basic but sometimes you need a boost!](book/Novice.md)
-- [Hosting: How will Others see my website?](book/hosting.md)
-- [Drupal Modules](modules/modulesoverview.md)
-- [Development Modules](modules/development.md)
-- [Fields Modules](modules/fields.md)
-- [Flagging Modules](modules/flagging.md)
-- [Taxonomy](modules/taxonomy.md)
-- [Faceted Search](modules/facetedsearch.md)
-- [Entity Reference](modules/entityref.md)
-- [Views](modules/views.md)
-- [Webform](modules/webform.md)
-- [Performance](modules/performance.md)
-- [Security](modules/security.md)
-- [Mapping](modules/mapping.md)
-- [Example: Map & Taxonomy Node Build](modules/mapinnodes.md)
-- [Links & Modals](modules/linksmodals.md)
-- [Media](modules/media.md)
-- [TWIG](theme/twig.md)
-- [Olivero Theme](theme/olivero.md)
-- [Bootstrap Theme](theme/bootstrap.md)
-- [Layout Builder](modules/layoutbuilder.md)
-- [Active Site Modules](modules/activesite.md)
-- [HTML Code Examples](codeexamples/html.md)
 
+
+### Chapter: Awaiting Categorization
 
 
 
