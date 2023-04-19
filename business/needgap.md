@@ -33,4 +33,8 @@ The Need Gap findings point to what attributes are important and unique, then we
 
 
 
-[- Next -](../business/ladder.md)
+<br>
+<br>
+<br>
+
+[Learn More - Business Chapter Index](/chapters.md#chapter-business-basics)
