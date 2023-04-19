@@ -35,4 +35,4 @@ Selwyn Polit's online Drupal book is also helpful if you are ready to work at th
 <br>
 <br>
 
-[Learn More - Drupal Modules List](../chapters.md#front-end)
+[Learn More - CMS Front-end](../chapters.md#front-end)
