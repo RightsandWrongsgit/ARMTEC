@@ -73,4 +73,4 @@ The use of formal scoring and the gathering of associated demographics that aid 
 <br>
 <br>
 
-[Learn More - Business Chapter Index](/chapters.md#business)
+[Learn More - Business Chapter Index](../chapters.md#business)
