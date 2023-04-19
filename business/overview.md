@@ -44,3 +44,10 @@ Technology/Research & Development
 The logic is this.  Selling, Marketing, and Advertising expenses are short-term and long-term drivers of Revenue trend.   They are relatively large in size.  They are direct levers between expense and revenue.  Using them properly and efficiently is core to driving a growing profit stream; not an expense stream that grows proportionate with Revenue.  Rather, an expense stream that is foundational to ROI from managing their performance.
 
 Technology/R&D are also often key performance drivers that are foundational to assuring features that drive purchase choice are emphasized and technical advancements are not done just for their own sake.  And it is critically important that the approach to spending in this area is closely tailored to the underlying [business model of the organization](../business/models.md).
+
+
+<br>
+<br>
+<br>
+
+[Learn More - Business Chapter Index](/chapters.md#chapter-business-basics)
