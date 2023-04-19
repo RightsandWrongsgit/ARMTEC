@@ -148,36 +148,9 @@ drush en captcha
 
 
 
+<br>
+<br>
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[Learn More - Drupal Modules List](../chapters.md#drupal-modules)
 
