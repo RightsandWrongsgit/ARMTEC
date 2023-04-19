@@ -96,7 +96,7 @@
   - [Cloning The Project](cicd/cloneandpull.md)
 
 
--Appendices
+- Appendices
   - [Adding php xdebug](cicd/xdebug.md)
   - [CSS & JS Advanced Aggregation](cicd/advancedaggregation.md)
   - [Drupal Scaffold ("overwrite": false) solution](cicd/scaffold.md)
