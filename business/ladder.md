@@ -77,5 +77,5 @@ The more elaborated example for MINT was for a unique financial product. Would a
 <br>
 <br>
 
-[Learn More - Business Chapter Index](/chapters.md#chapter-business-basics)
+[Learn More - Business Chapter Index](/chapters.md#business)
 
