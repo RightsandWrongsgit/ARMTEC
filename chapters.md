@@ -36,15 +36,15 @@
   - [It May be Basic but sometimes you need a boost!](book/Novice.md)
   - [Hosting: How will Others see my website?](book/hosting.md)
 
-### Chapter: Content Management Systems(CMS)
+### Chapter: Content Management Systems (CMS)
 
-- Front-End
+#### Front-End
   -   [HTML Code Examples](codeexamples/html.md)
   -   [Olivero Theme](theme/olivero.md)
   -   [Bootstrap Theme](theme/bootstrap.md)
   -   [TWIG](theme/twig.md)
 
-- Drupal Modules
+#### Drupal Modules
 
   - [Drupal Modules](modules/modulesoverview.md)
   - [Development Modules](modules/development.md)
@@ -67,12 +67,15 @@
 
 
 ### Chapter: Drupal Template with CI/CD Workflow
+
+#### Drupal CI/CD Overview
+
 - [What is it](book/drupalcicd.md)
 
-- Using it
+#### Using it
   - [Jump right in!](cicd/howtouseit.md)
 
-- How it works
+#### How it works
   - [Overview](cicd/cicdoverview.md)
   - [Prerequisites](cicd/prerequisites.md)
   - [Install 'main' on Host](cicd/platformshdrupal.md)
