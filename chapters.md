@@ -69,40 +69,40 @@
 ### Chapter: Drupal Template with CI/CD Workflow
 - [What is it](book/drupalcicd.md)
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;* Using it
-- [Jump right in!](cicd/howtouseit.md)
+- Using it
+  - [Jump right in!](cicd/howtouseit.md)
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;* How it works
-- [Overview](cicd/cicdoverview.md)
-- [Prerequisites](cicd/prerequisites.md)
-- [Install 'main' on Host](cicd/platformshdrupal.md)
-- [Local Copy](cicd/bringitlocal.md)
-- [Using our IDE](cicd/vscodedrupallocal.md)
-- [Safely Connect](cicd/gitignore.md)
-- [GitHub Too](cicd/cruisevscode.md)
-- [Mid-Point Check](cicd/midpoint.md)
-- [Split Preparation](cicd/basebeforesplit.md)
-- [Directory Map](cicd/directorymap.md)
-- [Protect Config at root](cicd/configatroot.md)
-- [Intro to Split Configuration](cicd/configsplit.md)
-- [Configuration Directories & Module](cicd/configsplit2.md)
-- [Configurations by Split: Table](cicd/configsplit3.md)
-- [Environment Indicator](cicd/envindicator.md)
-- [Environment Settings](cicd/envsettings.md)
-- [Put Config Split In Place](cicd/splitcheck.md)
-- [Structure Sync](cicd/structuresync.md)
-- [UUIDs: Friend or Foe](cicd/UUID.md)
-- [Stage File Proxy](cicd/stagefileproxy.md)
-- [Cloning The Project](cicd/cloneandpull.md)
+- How it works
+  - [Overview](cicd/cicdoverview.md)
+  - [Prerequisites](cicd/prerequisites.md)
+  - [Install 'main' on Host](cicd/platformshdrupal.md)
+  - [Local Copy](cicd/bringitlocal.md)
+  - [Using our IDE](cicd/vscodedrupallocal.md)
+  - [Safely Connect](cicd/gitignore.md)
+  - [GitHub Too](cicd/cruisevscode.md)
+  - [Mid-Point Check](cicd/midpoint.md)
+  - [Split Preparation](cicd/basebeforesplit.md)
+  - [Directory Map](cicd/directorymap.md)
+  - [Protect Config at root](cicd/configatroot.md)
+  - [Intro to Split Configuration](cicd/configsplit.md)
+  - [Configuration Directories & Module](cicd/configsplit2.md)
+  - [Configurations by Split: Table](cicd/configsplit3.md)
+  - [Environment Indicator](cicd/envindicator.md)
+  - [Environment Settings](cicd/envsettings.md)
+  - [Put Config Split In Place](cicd/splitcheck.md)
+  - [Structure Sync](cicd/structuresync.md)
+  - [UUIDs: Friend or Foe](cicd/UUID.md)
+  - [Stage File Proxy](cicd/stagefileproxy.md)
+  - [Cloning The Project](cicd/cloneandpull.md)
 
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;* Appendices
-- [Adding php xdebug](cicd/xdebug.md)
-- [CSS & JS Advanced Aggregation](cicd/advancedaggregation.md)
-- [Drupal Scaffold ("overwrite": false) solution](cicd/scaffold.md)
-- [Reestablishing your GitHub-Platform.sh Integration](cicd/expiredconnection.md)
-- [SubTheme Setup](cicd/subtheme.md)
-- [UUIDs: Actually Change them](cicd/changeUUID.md)
+-Appendices
+  - [Adding php xdebug](cicd/xdebug.md)
+  - [CSS & JS Advanced Aggregation](cicd/advancedaggregation.md)
+  - [Drupal Scaffold ("overwrite": false) solution](cicd/scaffold.md)
+  - [Reestablishing your GitHub-Platform.sh Integration](cicd/expiredconnection.md)
+  - [SubTheme Setup](cicd/subtheme.md)
+  - [UUIDs: Actually Change them](cicd/changeUUID.md)
 
 
 
