@@ -110,4 +110,5 @@ The price elasticity-volume relationship has NOT been directly included as a dyn
 <br>
 <br>
 <br>
+
 [Learn More - Business Chapter Index](/chapters.md#chapter-business-basics)
