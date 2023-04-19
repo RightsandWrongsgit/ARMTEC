@@ -30,3 +30,12 @@ Control how you open a linked site; as a frame within yours or as a separate bro
 
 `composer require drupal/modal_page`<br>
 `drush en modal_page`
+
+
+<br>
+<br>
+<br>
+
+[Learn More - Drupal Modules List](../chapters.md#drupal-modules)
+
+
