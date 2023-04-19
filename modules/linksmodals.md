@@ -32,6 +32,10 @@ Control how you open a linked site; as a frame within yours or as a separate bro
 `drush en modal_page`
 
 
+## Modals - Command Line
+Selwyn Polit's online Drupal book is also helpful if you are ready to work at the [detailed coding level with modals](https://selwynpolit.github.io/d9book/modals.html).
+
+
 <br>
 <br>
 <br>
