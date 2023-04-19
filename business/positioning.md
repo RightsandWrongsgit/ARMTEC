@@ -25,5 +25,5 @@ For new products/businesses, the process is similar but focuses on finding what 
 <br>
 <br>
 
-[Learn More - Business Chapter Index](/chapters.md#chapter-business-basics)
+[Learn More - Business Chapter Index](/chapters.md#business)
 
