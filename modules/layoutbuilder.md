@@ -79,3 +79,9 @@ composer require 'drupal/layout_builder_styles:^1.0@beta'
 Layout Builder Component Attributes allows for ID, Classes, Style, and Data attributes to be applied to blocks; leveraging CSS and JS.
 composer require 'drupal/layout_builder_component_attributes:^1.2'
 
+<br>
+<br>
+<br>
+
+[Learn More - Drupal Modules List](../chapters.md#drupal-modules)
+
