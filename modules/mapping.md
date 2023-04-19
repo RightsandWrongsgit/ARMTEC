@@ -35,39 +35,9 @@ Pushing the limits a little, but in a broad sense weather is reported in a geogr
 
 
 
+<br>
+<br>
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[Learn More - Drupal Modules List](../chapters.md#drupal-modules)
 
