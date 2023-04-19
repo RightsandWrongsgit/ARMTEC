@@ -37,24 +37,6 @@ This is a good basic interface enhancement module to support initial basic searc
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 The set up process is relatively complex because of the range of options for what can be indexed.  This video walks you through the process and it also shows about 25 minutes into it how to switch the indexing server to Solr (requiring the Solr Search module to be installed and enabled).  https://events.drupal.org/barcelona2015/sessions/building-amazing-searches-search-api
 
 
@@ -63,4 +45,12 @@ The main watch out you hear in the video is to remember to manage the access opt
 https://www.drupal.org/project/search_api
 
 https://www.drupal.org/project/search_api_solr
+
+
+
+<br>
+<br>
+<br>
+
+[Learn More - Drupal Modules List](../chapters.md#drupal-modules)
 
