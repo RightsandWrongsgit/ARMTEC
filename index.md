@@ -4,20 +4,15 @@
 
 Take the first step to success with ARMTEC today!  Find welcoming references to the many tools we use ourselves.  Learn business, financial, operational, tactical approaches and the technical tools to support your efforts.  Get straightforward help now!  
 
-ARMTEC is a huge supporter of what are known as "[Open Source](book/opensource.md)" tools.  People volunteer their time to build things that the public has free access to.  In exchange, you  donate time, resources, or what you can back to the Open Source community.  You don't have to compete with some rocket scientist programmer building tools.  This could be a great way to showcase your writing skills while providing value to people who are struggling with certain topics.  It's 'ok' if you are just a good at making complex topics easier to understand.  In fact, you are probably just what Open Source software developers need...
+ARMTEC is a huge supporter of what are known as "[Open Source](book/opensource.md#you--open-source)" tools.  This site if fundamentally our own technical services repository.  However, we don't hide it in case others might benefit from what we use.  We believe that Open Source business concepts are as important as computer code.    If you find what is here is helpful to 'self serve' your own needs great!  If you find it opens your interest in working with practical experts who know how to help you even further, feel free to contact us.
 
-["Free software is suffering because coders don’t know how to write documentation", The Next Web, June 2, 2017
-](https://thenextweb.com/news/free-software-is-suffering-because-coders-dont-know-how-to-write-documentation)
+Are you struggling to find the right approach to your project? ARMTEC provides access to a comprehensive range of solutions that helps you identify and fill the gaps. It is great if you can do lots of things yourself.  You might do it all or at a minimum you will be a smarter client with a head start.  Then when contact ARMTEC, you have saved time and money while ensuring that your project is successful with us as a well coordinated partner.
 
-Also, you don't always need to think of every Open Source tool as a giant, full fledged software system; although many are.  The way ARMTEC looks at it is that there are also big 'opportunity gaps' on where to find stuff and how to put the many parts together into a meaningful whole.  This site is offered to help you do that!
+## What's here
 
-We believe that Open Source business concepts are as important as this approach to computer code.  While this is fundamentally our personal resource collection site, we don't wall off others access to it.  If you find it helpful to 'self serve' your own needs great.  If you find it opens your interest in working with practical experts who know how to help you even further, feel free to contact us.
+It is likely a number of you got here because you came to our Drupal CMS CI/CD Workflow Jumpstart repository.  That repository itself is intentionally kept very 'clean' so you can clone it to build your own Content Management System website that leverages Continuous Integration and Continuous Deployment.   If you got here for the help with basic business and those two sentences sound like goggledgoop, don't worry.  We also talk revenue projection, Profit & Loss (P&L) statement analyses, Advertising & Promotion (A&P) performance, Market Research, Customer Relationship Management, Salesforce management, and more. 
 
-Are you struggling to find the right approach to your project? ARMTEC provides access to a comprehensive range of solutions that helps you identify and fill the gaps. Our solutions offer access to a wide range of open source tools, from small components to full-fledged software systems, so you can quickly and easily find the right tool for your needs. With ARMTEC, you can save time and money while ensuring that your project is successful.
-
-Most would expect 'Open Source' to apply just to software and maybe extend to online information systems or developer applications.  ARMTEC aims for a broader perspective.  Key things related to effectively running a business or organization are also presented.  Revenue projection, Profit & Loss (P&L) statement analyses, Advertising & Proprotion (A&P) performance, Market Research, Customer Relationship Management, and more are part of our foundation.  Therefore our technical tools in these areas may be of interest to a broader community shared in an open source manner.
-
-This site's main menu points to the subject areas you might find of interest.  However, the resources are extensive.  So you might want to jump to the list of [chapters which present detailed topics of interest](chapters.md).
+The main menu which appears on every page, points to the broad subject areas you might find interesting.  However, the resources are extensive.  So you might want to jump to the list of [chapters which present detailed topics to choose from](chapters.md).
 
 ![visitors](https://page-views.glitch.me/badge?page_id=RightsandWrongsgit.ARMTEC-gh-pages-index)
 
