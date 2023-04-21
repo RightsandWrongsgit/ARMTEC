@@ -51,3 +51,11 @@
 - [Flycut: Clipboard History (requires install)](https://www.youtube.com/watch?v=hIp3t6D4Ktc){:target="_blank"}
 - [Search Engine Optimization (SEO)](https://cheatography.com/1080000000kmph/cheat-sheets/seo-tools-collection-technical-seo-edition/){:target="_blank"}
 - [Master Site of Cheats: many old and odd](https://cheatography.com){:target="_blank"}
+
+
+<br>
+<br>
+<br>
+
+[More Chapters on - Information Technology](../chapters.md#information-technology)
+
