@@ -74,3 +74,18 @@ There are websites where people concentrate on listing all sorts of Open Source 
 
 - [Open Source Alternative](https://www.opensourcealternative.to/){:target="_blank"}
 - [Tiny Wow](https://tinywow.com/){:target="_blank"}
+
+## YOU & Open Source
+
+ARMTEC is a huge supporter of what are known as "[Open Source](book/opensource.md)" tools.  People volunteer their time to build things that the public has free access to.  In exchange, you  donate time, resources, or what you can back to the Open Source community.  You don't have to compete with some rocket scientist programmer building tools.  This could be a great way to showcase your writing skills while providing value to people who are struggling with certain topics.  It's 'ok' if you are just really good at making complex topics easier to understand.  In fact, you are probably just what Open Source software developers need...
+
+["Free software is suffering because coders don’t know how to write documentation", The Next Web, June 2, 2017
+](https://thenextweb.com/news/free-software-is-suffering-because-coders-dont-know-how-to-write-documentation)
+
+Also, you don't always need to think of every Open Source tool as a giant, full fledged software system; although many are.  The way ARMTEC looks at it is that there are also big 'opportunity gaps' on where to find stuff and how to put the many parts together into a meaningful whole.  This site aims to help do that!
+
+We believe that Open Source business concepts are just as important as for people as computer code.  While this  site is fundamentally our personal resource collection site, we don't wall off others access to it.  If you find it helpful to 'self serve' your own needs great.  If you find it opens your interest in working with practical experts who know how to help you even further, feel free to contact us.
+
+
+[More Chapters on - Information Technology](../chapters.md#information-technology)
+
