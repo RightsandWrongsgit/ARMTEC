@@ -27,4 +27,8 @@ Flesh these out with more explanation or source links but basically the followin
 
 Add - Include a quick discussion of how to get to the parts of VSCode to invoke a terminal to issue git/github commands, to bring up the command palette (like CLI) via shift-command-p, and to install extensions (plus what key extensions will really help you get started).
 
+<br>
+<br>
+<br>
 
+[More Chapters on - Information Technology](../chapters.md#information-technology)
