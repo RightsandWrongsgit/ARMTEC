@@ -87,7 +87,7 @@ Also, you don't always need to think of every Open Source tool as a giant, full 
 We believe that Open Source business concepts are just as important as for people as computer code.  While this  site is fundamentally our personal resource collection site, we don't wall off others access to it.  If you find it helpful to 'self serve' your own needs great.  If you find it opens your interest in working with practical experts who know how to help you even further, feel free to contact us.
 
 
-[More Chapters on - Information Technology](../chapters.md#information-technology)
+
 
 <br>
 <br>
