@@ -9,7 +9,7 @@
 - [Advertising & Promotion](business/adpromo.md)
   - [A & P Summary](business/admathsummary.md)
   - [A & P Details](business/admath.md)
-- [Creative Brief](business/thebrief.md)
+  - [Creative Brief](business/thebrief.md)
 
 ### Chapter: Effective Communication
 - [Positioning](business/positioning.md)
