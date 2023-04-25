@@ -7,7 +7,8 @@
 - [Business Models](business/models.md)
 - [Cost of Goods/Services](business/cogs.md)
 - [Advertising & Promotion](business/adpromo.md)
-- [A & P Performance](business/admath.md)
+  - [A & P Summary](business/admathsummary.md)
+  - [A & P Details](business/admath.md)
 - [Creative Brief](business/thebrief.md)
 
 ### Chapter: Effective Communication
