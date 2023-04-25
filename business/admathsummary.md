@@ -23,7 +23,7 @@ Think about these factors and their meaning to your advertising and promotion ef
 
 While the listed items might be reasonably self explanatory, too many advertising agencies are only good at a few.  They may be extraordinarily good at several but by not considering how they all work together your advertising and promotion ROI is a bust.  Most commonly you have a reasonable handle on your population potential and your target segment(s) such that an advertising agency can coordiate with a media buyer to layout a plan that is economically efficient at placing exposures.  Separately, you and they may have done enough homework to develop creative that is relevant enought to the target to be [persuasive](../business/admath.md#persuasion-scores), sufficiently attention grabbing to produce [stopping power](../business/stoppingpower.md).  The most common failure points are that the media buying plan does not account for [exposure frequency to awareness ratio](../business/admath.md#exposure-to-awareness-ratio) impacts to produce top ROI, does not adequately [time](../business/admath.md#need-state--influence-model) align to your [availability or distribution](../business/availability.md) build, and you disappoint motivated buyers and/or disenfranchise distribution chain retailers.
 
-Trust your success to [ARMTEC](/)!
+Trust your success to [ARMTEC](../)!
 
 <br>
 <br>
