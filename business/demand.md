@@ -12,7 +12,7 @@ These can be a starting point for [positioning](../business/positioning.md) your
 
 ## Who cares
 
-We added that column to your list about 'who cares' and if you still think the idea opportunity might have legs, you want to formalize the details about the who.  You aim to start the journey toward outlining the [potential and structure] (../business/potential.md) for your opportunity.  That step is where you begin to turn a rough description into some basic counts.   With 8 billion people in the world all you need to do is collect a dollar from each and you will be a billionaire!
+We added that column to your list about 'who cares' and if you still think the idea opportunity might have legs, you want to formalize the details about the who.  You aim to start the journey toward outlining the [potential and structure](../business/potential.md) for your opportunity.  That step is where you begin to turn a rough description into some basic counts.   With 8 billion people in the world all you need to do is collect a dollar from each and you will be a billionaire!
 
 Of course the 'who cares' probably already told you that all 8 billion aren't you likely targets.  So the basic count process moves increasingly toward being clear about specific [segments](../business/segmentation.md) who are likely to want what you have to offer.  As you move through the process of crystalizing your potential and most attractive segments, you become more and more clear on who you will want to bounce your [concept](../business/concept.md) off of to get their reaction.
 
