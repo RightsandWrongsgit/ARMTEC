@@ -17,12 +17,8 @@ The main menu which appears on every page, points to the broad subject areas you
 ![visitors](https://page-views.glitch.me/badge?page_id=RightsandWrongsgit.ARMTEC-gh-pages-index)
 
 
-----------
-
-Last Updated on: 2-4-2023
-
 ---------
 [Site by ARMTEC](https://www.drupal.org/u/emofsnead){:target="_blank"}
 
----
+---------
 
