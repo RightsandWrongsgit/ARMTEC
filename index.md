@@ -10,7 +10,7 @@ Are you struggling to find the right approach to your project? ARMTEC provides a
 
 ## What's here
 
-It is likely a number of you got here because you came to our Drupal CMS CI/CD Workflow Jumpstart repository.  That repository itself is intentionally kept very 'clean' so you can clone it to build your own [Content Management System website that leverages Continuous Integration and Continuous Deployment](../chapters.md#chapter-content-management-systems-cms).   If you got here for the help with basic business and those two sentences sound like goggledgoop, don't worry.  We also talk revenue projection, Profit & Loss (P&L) statement analyses, Advertising & Promotion (A&P) performance, Market Research, Customer Relationship Management, Salesforce management, and more. 
+It is likely a number of you got here because you came to our Drupal CMS CI/CD Workflow Jumpstart repository.  That repository itself is intentionally kept very 'clean' so you can clone it to build your own [Content Management System website that leverages Continuous Integration and Continuous Deployment](../chapters.md#chapter-content-management-systems-cms).   If you got here for the help with [basic business](../chapters.md#business) and those two sentences sound like goggledgoop, don't worry.  We also talk revenue projection, Profit & Loss (P&L) statement analyses, Advertising & Promotion (A&P) performance, Market Research, Customer Relationship Management, Salesforce management, and more. 
 
 The main menu which appears on every page, points to the broad subject areas you might find interesting.  However, the resources are extensive.  So you might want to jump to the list of [chapters which present detailed topics to choose from](chapters.md).
 
