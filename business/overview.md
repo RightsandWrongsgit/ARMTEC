@@ -31,7 +31,7 @@ If we look at the line for ‘Taxes’ in the expense list above, ARMTEC, Inc. w
 
 ## Revenue or Sales Leadership
 
-It may sound like ARMTEC, Inc. is talking ourselves out of all sorts of lines in your business.  So exactly what are the areas that we specialize in supporting?  The big one is that ‘top line’ for Revenue or Sales — we aim to help you drive it and that is the most important thing you need your business to do to be successful.  
+It may sound like ARMTEC, Inc. is talking ourselves out of all sorts of lines in your business.  So exactly what are the areas that we specialize in supporting?  The big one is that ‘top line’ for [Revenue or Sales](../business/demand.md) — we aim to help you drive it and that is the most important thing you need your business to do to be successful.  
 
 
 ## Profitable Growth
