@@ -10,14 +10,14 @@ The reason we focus on profit is because it traces so easily to an organization�
 ## P&L Components
 The broad perspective of the large sections of your P & L is pretty instructive in principle.  Noted are the following areas: 
 
-Revenue (or Sales)
-Cost of Goods Sold (or Cost of Sales)
-Selling, General & Administrative (SG&A) Expenses
-Marketing and Advertising
-Technology/Research & Development
-Interest Expense
-Taxes
-Net Income
+  - Revenue (or Sales)
+  - Cost of Goods Sold (or Cost of Sales)
+  - Selling, General & Administrative (SG&A) Expenses
+  - Marketing and Advertising
+  - Technology/Research & Development
+  - Interest Expense
+  - Taxes
+  - Net Income
 
 
 Where the details within each of these broader groups are valuable is understanding what day to day actions are behind each.  If you don’t know what transaction level things are in each group, you look at something called a “[Chart of Accounts](https://www.accountingcoach.com/chart-of-accounts/explanation/2) for the answer.  Here that video offers some general help in regard to how typical businesses put stuff in which bucket; but understand that different businesses follow slightly different practices (and it is perfectly legal).   Also, when we work with large companies, it may not be unreasonable to have a 3-ring binder with how line item expense in one department rolls up to a group at the division level and a higher grouping at a corporate entity level or more at a conglomerate level.  So the engagement diagnostics can become somewhat more time consuming to help provide a strategic solution.
