@@ -43,7 +43,7 @@ All that stuff is important and you are encouraged to understand it.  But if you
 
 If your prospective consumers see it, is it engaging enough at a momentary glance they would stop to read it?  Is the way they are stated persuasively executed?  After seeing the ad, what tiny handful of things would someone logically recall from it?  Are the takeaways just informative or are they enough to intersect with and shift attitudes in your favor?
 
-<img src="../business/captures/admathsummary.png"  width="500">
+<img src="../business/captures/admathsummary.png"  width="300">
 
 <br>
 <br>
