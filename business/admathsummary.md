@@ -7,18 +7,31 @@ At the detailed level, there are some serious number crunching opportunities to 
 
 Think about these factors and their meaning to your advertising and promotion effectiveness
 
-- [Population](../business/admath.md#multiple-media-modifiers): Simple count.  If you sell hats, count heads.  If you sell shows, count feet. 
-- [Target Segment](../business/admath.md#multiple-media-modifiers): Your count.  If you sell men's hats, think age appropriate male heads.
-- [Media Plan/Mix](../business/admath.md#vehicle--targeting): All your ways you will reach your target segment.
-- [Time](../business/admath.md#need-state--influence-model) Nice plan but is it right place at right time?
-- [GRP](../business/admath.md#gross-rating-points): Gross Rating Points. Exposures in the traditional media way of thinking.
-- [Reach](../business/admath.md#media-interaction-overlap): Breadth of your target segment that your media plan covers.
-- [Frequency](../business/admath.md#efficiency-impact): Number of times your message is delivered to the same people.
-- [Awareness](../business/admath.md#awareness-generation): Did your target hear and remember you.
-- [Exposure Frequency to Awareness Ratio](../business/admath.md#exposure-to-awareness-ratio): Not all media hits perform equally.
-- [Persuasion](../business/admath.md#persuasion-scores): They may have heard & remember you but don't intend to buy.
-- [Purchase Intent](../business/purchaseintent.md): So they say they will buy; will they?
-- [Availability or Distribution](../business/availability.md):  They intend to buy but can they?
+- [Population](../business/admath.md#multiple-media-modifiers):
+    Simple count.  If you sell hats, count heads.  If you sell shows, count feet. 
+- [Target Segment](../business/admath.md#multiple-media-modifiers):
+    Your count.  If you sell men's hats, think age appropriate male heads.
+- [Media Plan/Mix](../business/admath.md#vehicle--targeting):
+    All your ways you will reach your target segment.
+- [Time](../business/admath.md#need-state--influence-model):
+    Nice plan but is it right place at right time?
+- [GRP](../business/admath.md#gross-rating-points): 
+   Gross Rating Points. Exposures in the traditional media way of thinking.
+- [Reach](../business/admath.md#media-interaction-overlap): 
+   Breadth of your target segment that your media plan covers.
+- [Frequency](../business/admath.md#efficiency-impact): 
+   Number of times your message is delivered to the same people.
+- [Awareness](../business/admath.md#awareness-generation): 
+   Did your target hear and remember you.
+- [Exposure Frequency to Awareness Ratio](../business/admath.md#exposure-to-awareness-ratio): 
+   Not all media hits perform equally.
+- [Persuasion](../business/admath.md#persuasion-scores): 
+   They may have heard & remember you but don't intend to buy.
+- [Purchase Intent](../business/purchaseintent.md): 
+   So they say they will buy; will they?
+- [Availability or Distribution](../business/availability.md):  
+   They intend to buy but can they?
+<br>
 
 [For More Details On These](../business/admath.md)
 
