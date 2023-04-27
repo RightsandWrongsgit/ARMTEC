@@ -16,7 +16,7 @@ This is not a let's be cheap question.  When you really need research to make an
 
 Ok, so you know all about this research stuff.  And you can maybe figure out a decision tree.  But research isn't just about the "How".  You also need to know what the heck are the important things to ask about.  Here is a generic starting point...
 
-<img src="../business/captures/methods.png"  width="300">
+<img src="../business/captures/methods.png"  width="500">
 
 
 ### Business Understanding
