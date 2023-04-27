@@ -55,6 +55,7 @@
   - [Faceted Search](modules/facetedsearch.md)
   - [Entity Reference](modules/entityref.md)
   - [Views](modules/views.md)
+    - [Create a Search Page with Views](https://www.webwash.net/search-page-using-views-in-drupal/)  
   - [Webform](modules/webform.md)
   - [Performance](modules/performance.md)
   - [Security](modules/security.md)
