@@ -19,7 +19,7 @@ Continuity of Contact offers a whole additional profitability lever than just th
 
 Another way to think of it is that you pursue a progression.  A mass market product that everyone might buy could use broad appeal general advertising.  The more you can pinpoint your targets the more you can use more focused appeals.  And the more you connect those appeals with continuity of contact the more you understand the scope of your customer's needs.  If you bond with those customers so they interact with your brand and share information, especially real-time, the more you hit the holy grail of advertising ... "You know who, you know what, and you know WHEN".
 
-<img src="../business/captures/CRM32.png"  width="600">
+<img src="../business/captures/CRM32.png"  width="400">
 
 The good news in all this is that your promotional efficiency is on an improving path.  The bad news is that the target segment can be getting smaller.
 
@@ -41,39 +41,39 @@ We talked about how understanding your [potential](../business/potential.md) and
 
 So what you you need to put together to construct a CRM capability?  Could be all of these and more!
 
-<img src="../business/captures/CRM0.png"  width="500">
+<img src="../business/captures/CRM0.png"  width="400">
 
 For each step you want to break down the parts and make sure you know the who and how you are getting it done.  Take something as simple as direct mailing...
 
-<img src="../business/captures/CRM3.png"  width="500">
+<img src="../business/captures/CRM3.png"  width="400">
 
 You ideally want to have an integrated database that all the moving parts connect with in real-time.  This can include telephone support for orders and status.  If you offer promotional coupons you might want to know redemption information and remaining eligiblity.  Your view into order history can be important to trigger a recontact to assure repeat and that your competitor isn't slipping into one of your accounts. 
 
-<img src="../business/captures/CRM1.png"  width="500">
+<img src="../business/captures/CRM1.png"  width="400">
 
 Taking an order might be initiated on the internet but a follow up happens by phone.  Your customer service phone staff should be able to see payment, fullfilment, order history, credit status, and more...
 
-<img src="../business/captures/CRM2.png"  width="500">
+<img src="../business/captures/CRM2.png"  width="400">
 
 Don't forget that after the order is taken you need to get it there!
 
-<img src="../business/captures/CRM4.png"  width="500">
+<img src="../business/captures/CRM4.png"  width="400">
 
 Don't forget that Worldwide Web thing is up 24-7-365.  And those people talk differing languages, have countries with their own postal and import regualtions, and may call your product category by a different name.  Heck, don't forget that ounces-grams thing and any other package configuration things you better know about.
 
-<img src="../business/captures/CRM11.png"  width="500">
+<img src="../business/captures/CRM11.png"  width="250">
 
 Coordination across media can be a meaningfully important consideration in how you work your CRM capabilities.  If you might use SPOT Television buys in local markets, are you keeping track of precise flighting dates and times?
 
-<img src="../business/captures/CRM16.png"  width="500">
+<img src="../business/captures/CRM16.png"  width="400">
 
 Why do you care?  Drop that SPOT ad in Los Angles with a 1-800 number on it just as your call center is closing, has low dinner time staffing, etc. and you will have a ton of lost sale call abandons.  Plus, you probably will have some dissatisfieds who will do who knows what to your brand on social media.
 
-<img src="../business/captures/CRM17.png"  width="500">
+<img src="../business/captures/CRM17.png"  width="400">
 
 As you work with ARMTEC or others to establish or enhance your efforts, make sure you understand the value of analytics in delivering profitable performance!!!
 
-<img src="../business/captures/CRM9.png"  width="500">
+<img src="../business/captures/CRM9.png"  width="250">
 
 <br>
 <br>
