@@ -14,6 +14,7 @@
 ### Chapter: Effective Communication
 - [Positioning](business/positioning.md)
 - [Archetype](business/archetype.md)
+- [Customer Relationship Management](business/crm.md)
 
 
 ### Chapter: Market Research
