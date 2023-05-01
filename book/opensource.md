@@ -77,7 +77,7 @@ There are websites where people concentrate on listing all sorts of Open Source 
 
 ## YOU & Open Source
 
-ARMTEC is a huge supporter of what are known as "[Open Source](book/opensource.md)" tools.  People volunteer their time to build things that the public has free access to.  In exchange, you  donate time, resources, or what you can back to the Open Source community.  You don't have to compete with some rocket scientist programmer building tools.  This could be a great way to showcase your writing skills while providing value to people who are struggling with certain topics.  It's 'ok' if you are just really good at making complex topics easier to understand.  In fact, you are probably just what Open Source software developers need...
+ARMTEC is a huge supporter of what are known as "[Open Source](../book/opensource.md)" tools.  People volunteer their time to build things that the public has free access to.  In exchange, you  donate time, resources, or what you can back to the Open Source community.  You don't have to compete with some rocket scientist programmer building tools.  This could be a great way to showcase your writing skills while providing value to people who are struggling with certain topics.  It's 'ok' if you are just really good at making complex topics easier to understand.  In fact, you are probably just what Open Source software developers need...
 
 ["Free software is suffering because coders don’t know how to write documentation", The Next Web, June 2, 2017
 ](https://thenextweb.com/news/free-software-is-suffering-because-coders-dont-know-how-to-write-documentation)
