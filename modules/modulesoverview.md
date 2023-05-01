@@ -37,6 +37,7 @@ You are going to benefit from a bunch more modules that others had contributed t
 - [Taxonomy]()
 - [Special Field Convenience]()
 - [Content Editing]()
+- [Trimming Text Summaries](../modules/smarttexttrim.md)
 - [Media]()
 - [Mapping]()
 - [Flagging](../modules/flagging.md)
