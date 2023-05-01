@@ -10,7 +10,16 @@ Are you struggling to find the right approach to your project? ARMTEC provides a
 
 ## What's here
 
-It is likely a number of you got here because you came to our Drupal CMS CI/CD Workflow Jumpstart repository.  That repository itself is intentionally kept very 'clean' so you can clone it to build your own [Content Management System website that leverages Continuous Integration and Continuous Deployment](chapters.md#chapter-drupal-template-with-cicd-workflow).   If you got here for the help with [basic business](business/overview.md) and those two sentences sound like goggledgoop, don't worry.  We also talk revenue projection, Profit & Loss (P&L) statement analyses, Advertising & Promotion (A&P) performance, Market Research, Customer Relationship Management, Salesforce management, and more. 
+### Business Basics
+If you got here for the help with [basic business](business/overview.md) and those two sentences sound like goggledgoop, don't worry.  We also talk revenue projection, Profit & Loss (P&L) statement analyses, Advertising & Promotion (A&P) performance, Market Research, Customer Relationship Management, Salesforce management, and more. 
+
+### Information Technology
+A lot of time we utilize information technology tools.  They help with business analytics.  They can be important in effective deployment; expecially if you leverage digital media resource in your advertising and promotion.  Even if you got here because of our working in Drupal content management sytems (CMS) and want to know more about how to use a powerful website, you probably will find our [information technology basics](book/infotechoverview.md) valuable.
+
+### CI/CD Workflow
+It is likely a number of you got here because you came to our Drupal CMS CI/CD Workflow Jumpstart repository.  That repository itself is intentionally kept very 'clean' so you can clone it to build your own [Content Management System website that leverages Continuous Integration and Continuous Deployment](chapters.md#chapter-drupal-template-with-cicd-workflow).
+
+
 
 The main menu which appears on every page, points to the broad subject areas you might find interesting.  However, the resources are extensive.  So you might want to jump to the list of [chapters which present detailed topics to choose from](chapters.md).
 
