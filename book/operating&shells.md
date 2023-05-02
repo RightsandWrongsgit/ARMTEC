@@ -24,8 +24,7 @@ Since you want to be clear about which environment you are working in and what s
 <br>
 <br>
 
-[Explaing that Git/GitHub Stuff](../book/gitbasics.md)
-
+[Explain that Git/GitHub Stuff](../book/gitbasics.md)
 <br>
 
 [Show me how to improve that Command Prompt to know where I am](../book/whereami.md)
