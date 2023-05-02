@@ -11,7 +11,7 @@ Most people have enjoyed using their computer via GUI (Graphical User Interface)
 
 - [Integrated Development Environment (IDE): VSCode](ide.md)
 
-- [Something seems broken, what should I look to fix it?](diagnostics.md)
+- [Something seems broken, help!](diagnostics.md)
 
 ## SETTING UP YOUR BASIC SYSTEM BEFORE YOU GET STARTED
 ### WITH THE DRUPAL DOCKER CONTAINER 
