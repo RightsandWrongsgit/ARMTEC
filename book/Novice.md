@@ -18,7 +18,7 @@ Most people have enjoyed using their computer via GUI (Graphical User Interface)
 
 We overviewed what Operating Systems were and that different computers are involved in how your computer code is being held in different environments.  It is very likely these different computer environments have different operating systems and configuration settings that could impact compatibility.  Recognizing this, something called ["Containers"](https://www.docker.com/resources/what-container/) have been developed.  Think of these as sort of artifical environments that create a standardization for operations and thus compatibility.  There are a few different Container options but Docker is a common one and we are going in that direction to try to simplify things. We are going to sort of accellerate the steps by just making sure you install the following tools.  Most you will recognize from the prior discussions; those you don't you can read about right at the set up location these links take you to.
 
-<font color=yellow> NOTE: this is MAC oriented so you might need to do a few different things with Linux or Windows. Although mainly just that Homebrew is a Mac thing and thus you would skip that. The other items generally lead you directly to option choices by OS if it matters:</font> <br>
+<small><font color=yellow> NOTE: this is MAC oriented so you might need to do a few different things with Linux or Windows. Although mainly just that Homebrew is a Mac thing and thus you would skip that. The other items generally lead you directly to option choices by OS if it matters:</font></small> <br>
 
 * [Install Homebrew](https://brew.sh/)
 * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
