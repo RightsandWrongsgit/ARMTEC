@@ -37,6 +37,7 @@
     - [Git & Version Control](book/gitbasics.md)
     - [Where Am I Prompt](book/WhereAmI.md)
     - [Integrated Development Environment](book/ide.md)
+    - [Something seems broken, help](book/diagnostics.html)
   - [Open Source Tools](book/opensource.md)
   - [Cheatsheets](book/cheats.md)
   - [Hosting: How will Others see my website?](book/hosting.md)
