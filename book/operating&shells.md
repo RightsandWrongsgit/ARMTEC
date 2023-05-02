@@ -17,7 +17,7 @@ It probably sounds pretty stupid that you might not know where you are.  Believe
 
 Beleive it or not, it is also good practice to have copies of what you are working with on more than one computer.  The term 'Environment' is commonly used to describe if you are on a 'local' computer or on a 'host' computer; such as making program changes on your local machine and pushing them after testing to a host machine where they are seen by others as a website.  There is something discussed later called ['GIT/GITHUB'](gitbasics.md) regarding your connection between a local computer and a remote computer. 
 
-Since you want to be clear about which environment you are working in and what subdirectory the file you are looking at is located in on that computer, it pays to do a little something special to move beyond your standard 'Command Prompt'.  
+Since you want to be clear about which environment you are working in and what subdirectory the file you are looking at is located in on that computer, it pays to do a little something special to move beyond your standard ['Command Prompt'](https://www.techtarget.com/whatis/definition/command-prompt).  
 
 
 <br>
