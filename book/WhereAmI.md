@@ -9,7 +9,7 @@ When we described [Operating Systems & Shells](operating&shells.md) it was noted
 
 The normal [Command Prompt](https://www.alphr.com/open-command-prompt-mac/) isn't very descriptive.  Usually just a $ sign or a > symbol and your cursor is sitting immediately after it blinking.  Wouldn't it be nice to have a prompt that looked more like this...
 
-<img src="images/media/Expandedprompt.png" align="center" width="530" height="100" alt="Expanded Prompt">
+<img src="images/media/Expandedprompt.png" align="center" width="700" height="100" alt="Expanded Prompt">
 
 What you are seeing is the USER name on the Machine you are working on; in this case ARMTEC is the user on MY-LAPTOP.  Then you see the subdirectory you are located within; showing here as "initial-test-of-platform-ci-with-lando" and a ~ in front of it saying directly below the root.  And the environment being work is 'main'.  If you get to the point of using our [templated ci/cd workflow for a drupal project](drupalcicd.md) you will learn you better just be looking and not changing programs in this important production environment of 'main'.
 
