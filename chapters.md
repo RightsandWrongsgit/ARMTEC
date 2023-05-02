@@ -30,12 +30,15 @@
 - [Topics to include](business/topics.md)
 
 ## Information Technology 
-### Chapter: Information Basics 
-  - [Git & Version Control](book/gitbasics.md)
-  - [Integrated Development Environment](book/ide.md)
+### Chapter: Information Basics
+  - [Overview](book/infotechoverview
+  - [It May be Basic but sometimes you need a boost!](book/Novice.md)
+    - [Operating System & Shells](book/operating&shells.md)
+    - [Git & Version Control](book/gitbasics.md)
+    - [Where Am I Prompt](book/WhereAmI.md)
+    - [Integrated Development Environment](book/ide.md)
   - [Open Source Tools](book/opensource.md)
   - [Cheatsheets](book/cheats.md)
-  - [It May be Basic but sometimes you need a boost!](book/Novice.md)
   - [Hosting: How will Others see my website?](book/hosting.md)
 
 ### Chapter: Content Management Systems (CMS)
