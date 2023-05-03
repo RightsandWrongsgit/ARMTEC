@@ -35,8 +35,6 @@
 - Browser compatibility with Digital Deployment, especially internationally
 - Front-end: CSS/HTML/JS/UI-UX Impacts
 - Host-Client: APACHE/NGNIX
-- Version Control: Git & Repository
-- CMS
 - Containers: Docker
 - Back-end: PHP/SQL
 
