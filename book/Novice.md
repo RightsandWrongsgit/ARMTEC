@@ -13,7 +13,7 @@ Most people have enjoyed using their computer via GUI (Graphical User Interface)
 
 - [Something seems broken, help!](diagnostics.md)
 
-## SETTING UP YOUR BASIC SYSTEM BEFORE YOU GET STARTED
+## SETTING UP YOUR BASIC SYSTEM
 ### WITH THE DRUPAL DOCKER CONTAINER 
 
 We overviewed what Operating Systems were and that different computers are involved in how your computer code is being held in different environments.  It is very likely these different computer environments have different operating systems and configuration settings that could impact compatibility.  Recognizing this, something called ["Containers"](https://www.docker.com/resources/what-container/) have been developed.  Think of these as sort of artifical environments that create a standardization for operations and thus compatibility.  There are a few different Container options but Docker is a common one and we are going in that direction to try to simplify things. We are going to sort of accellerate the steps by just making sure you install the following tools.  Most you will recognize from the prior discussions; those you don't you can read about right at the set up location these links take you to.
