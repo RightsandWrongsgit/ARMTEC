@@ -39,7 +39,7 @@
 - CMS
 - Containers: Docker
 - Back-end: PHP/SQL
-- DevOps:
+
 
 <br>
 <br>
