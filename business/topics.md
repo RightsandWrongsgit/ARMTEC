@@ -4,7 +4,6 @@
 - Digital Assets Development & Placement
 - Tracking/Metrics/Dynamic Adjustment
 - ATU and Source of Awareness Tracking
-- Wear Rates
 - Media Asset Version Management
 - Media Buy: Schedule, Lead times, channel buying agency connections
 - Video: Director Connections, Location w/ seasonality, length edits
