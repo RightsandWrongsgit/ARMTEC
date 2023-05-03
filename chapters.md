@@ -15,7 +15,7 @@
 - [Positioning](business/positioning.md)
 - [Archetype](business/archetype.md)
 - [Customer Relationship Management](business/crm.md)
-
+- [Advertising Wearout](business/adwear.md)
 
 ### Chapter: Market Research
 - [Market Research](business/methods.md)
