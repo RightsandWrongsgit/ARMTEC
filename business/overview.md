@@ -40,7 +40,7 @@ The biggest areas of concentration tend to be these:
  
    - [Revenue or Demand Generation](../business/demand.md)
    - [Marketing and Advertising](../business/adpromo.md)
-   - Selling, General & Administrative (SG&A) Expenses
+   - [Selling, General & Administrative (SG&A) Expenses](../business/selling.md)
    - Technology/Research & Development
 <br>
 
