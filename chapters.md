@@ -52,6 +52,10 @@
 
 ### Chapter: Content Management Systems (CMS)
 
+#### Drupal Basics
+
+  -   [Understand the many types of BLOCKS in Drupal](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/blocks.md)
+
 #### Front-End
   -   [HTML Code Examples](codeexamples/html.md)
   -   [Olivero Theme](theme/olivero.md)
