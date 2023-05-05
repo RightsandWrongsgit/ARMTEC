@@ -12,7 +12,7 @@ A good sales person will also know the importance of a personal rapport and enga
 
 Consultive selling is a personal selling approach that leverages important conversational skills in the sales process.  At the simplest level thing of it as having the goal of first understanding if the customer has a problem they would like to solve for which your product or service would be a fit.  You really shouldn't be rattling off all sorts of features or even benefits of your product or service as the conversation starting point because that is providing random information of which most is likely not relevant to the prospect.  Rather, have the objective of understanding their situation, goals, and even personal values or desires, then speak with more direct relevance and your message will be heard.
 
-There are a whole bunch of [videos on consultive selling but this one is quick and clear(https://www.youtube.com/watch?v=XwdcDY4lD8c).  It hits these seven process points:
+There are a whole bunch of [videos on consultive selling but this one is quick and clear](https://www.youtube.com/watch?v=XwdcDY4lD8c).  It hits these seven process points:
 
 1) Bring Insight.
 2) Disqualify.
