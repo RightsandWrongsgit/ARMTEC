@@ -55,4 +55,4 @@ Unless you are a Developer, you probably don't need to go here.  Even then you m
 <br>
 <br>
 
-[Learn More - CMS Front-end](../chapters.md#chapter-content-management-systems-cms)
+[Learn More - Content Management Systems](../chapters.md#chapter-content-management-systems-cms)
