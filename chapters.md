@@ -31,7 +31,7 @@
 
 ## Information Technology 
 ### Chapter: Information Basics
-  - [Overview](book/infotechoverview)
+  - [Overview](book/infotechoverview.md)
   - [It May be Basic but sometimes you need a boost!](book/Novice.md)
     - [Operating System & Shells](book/operating&shells.md)
     - [Git & Version Control](book/gitbasics.md)
