@@ -15,6 +15,26 @@ Drupal 8+. In earlier versions of Drupal, you were able to insert PHP into theme
 [Don't forget to make sure you have the TWIG templates being used and their preferred alternates turned on](../cicd/envsettings.md#whats-this-twig-stuff)
 
 
+`<?php
+
+function mytheme_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+  // Add very specific content type suggestions
+  if ( Drupal::routeMatch()->getRouteName()== 'entity.mode.canonical') {
+    $node = \Drupal::routeMatch()->getParameter( parameter_name: 'node');
+    array_splice( &input: $suggestions, offset 1, length 0, replacement 'page_node' . $node->getType());
+ }
+}`
+
+
+
+
+
+
+
+
+
+
+
 [EXAMPLE CONNECTING PHP TO THEME YMAL AND TWIG THAT SHOWS USE OF HOOKS](https://www.youtube.com/watch?v=AXtozyHIa040)
 
 ## TWIG Tweak
