@@ -31,6 +31,10 @@ Any place you know of that outlines 'best practices' on how you approach interco
 Drupal 8+. In earlier versions of Drupal, you were able to insert PHP into theme files (the .tpl.php files) because of the theming “engine” that was being used. When Drupal 8 switched to Symphony, the theming engine was replaced with TWIG. Part of the reason was because TWIG is more code agnostic than what was used in earlier versions of Drupal, but also because it is a HUGE security risk to put PHP in the theme layer, because that is what gets executed last on a site. So any code in a .tpl.php file (or more likely the template.php file) was a big risk.  TWIG basically acts as an intermediary between PHP and the front end layer, by allowing you to perform simpler operations (if statements, loops, variables) without the need for full blown PHP functions. Therefore, you can have front end people working on the theme without opening security holes, but also giving you access to the more commonly used elements of PHP. That being said, you CAN still execute PHP in a theme, it is just relegated to the .theme file in your theme. This is mostly for setting theme wide variables that PHP interacts with but also for doing pre and post process steps. If you look at Barrio you will see a lot of what they do on the theme is contained in that because it was the easiest way to bring in Bootstrap 4 functionality to Drupal.  There is nothing wrong with copying over some of the functionality that you like from Olivero (or whatever) to your theme, I would just caution that you understand how the TWIG files are setup when you are copying - there are likely other variables that get referenced within the theme that you need to track down and then recreate in yours to get the full functionality. I would also say that a lot of Olivero may just be accomplished through modern CSS, though I honestly haven’t played with it in a while so I can’t remember. With a little bit of trial and error though, you should be able to recreate your desired effects through copying the TWIG files and mimicking the CSS in there. 
 
 
+## TWIG Editing
+
+Once you are past the faint at heart stage doing minor things to some of the templates you have copied from your base theme, pasted in your custom theme, and renamed to your unique use, you might want to take on something a little more challenging to really get a feel for working with TWIG editing, nodes and views you have created in your Drupal project, and move to the next level.  Here is an [example of Nodes, Views, and Layout actions you can take in TWIG](https://www.youtube.com/watch?v=sP5fzEBEWlM).
+
 
 
 Run this code block from your terminal CLI and it will add more context specific alternative template suggestions for the node twig template you want to customize.
@@ -66,6 +70,26 @@ function simple_preprocess_page(&$variables) {
   }
 }
 ```
+
+We are going to use a template named:
+node--landing-page--full.html.twig
+
+We need to use this preprocess code to attach the article list to that node template.
+```
+// Add the article list to the landing page node template.
+function simple_preprocess_node(&$variables) {
+  $node = $variables['node'];|
+  
+  if($node->getType() == 'landing_page') { 
+    $item = $node->get('field_page_temp')->getValue();
+    $tid = $item[0]['target_id'];
+    $variables['content']['article_list'] = views_embed_view(name: 'landing_page_articles', display_id 'embed_1, $tid;)
+  }
+}
+```
+
+
+
 
 
 
