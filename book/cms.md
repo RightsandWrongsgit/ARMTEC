@@ -20,7 +20,7 @@ It would actually be pretty rare to build a whole Drupal theme.  You see the way
 
 ## Install a Theme
 
-Drupal.org has a menu section called 'Build' and under it is a option for 'Themes' where you can go to find what you want.  Make sure you use the [Composer installation approach](../book/Novice.html#setting-up-your-basic-system) to install the theme of your choice.  Here is a [short video on installing the Bootstrap theme}(https://www.youtube.com/watch?v=M2wcy-vzcWE&list=PLTANew7ttSXfn6azbqjobJk-zkkRSPd7t&index=4).  The one they show is a little outdated but the process is pretty much the same for most.  Of course the exception is for the [Bootstrap Barrio theme](https://www.drupal.org/project/bootstrap_barrio) which is an ARMTEC, Inc. preference.  That theme follows most the the same installation principles but has a few extras shown on that link.
+Drupal.org has a menu section called 'Build' and under it is a option for 'Themes' where you can go to find what you want.  Make sure you use the [Composer installation approach](../book/Novice.html#setting-up-your-basic-system) to install the theme of your choice.  Here is a [short video on installing the Bootstrap theme](https://www.youtube.com/watch?v=M2wcy-vzcWE&list=PLTANew7ttSXfn6azbqjobJk-zkkRSPd7t&index=4).  The one they show is a little outdated but the process is pretty much the same for most.  Of course the exception is for the [Bootstrap Barrio theme](https://www.drupal.org/project/bootstrap_barrio) which is an ARMTEC, Inc. preference.  That theme follows most the the same installation principles but has a few extras shown on that link.
 
 
 ## Customized a Theme
