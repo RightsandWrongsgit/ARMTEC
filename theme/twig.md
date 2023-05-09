@@ -21,7 +21,7 @@ function mytheme_theme_suggestions_page_alter(array &$suggestions, array $variab
   // Add very specific content type suggestions
   if (\Drupal::routeMatch()->getRouteName()== 'entity.mode.canonical') {
     $node = \Drupal::routeMatch()->getParameter( parameter_name: 'node');
-    array_splice( &input: $suggestions, offset 1, length 0, replacement 'page_node' . $node->getType());
+    array_splice( &input: $suggestions, offset: 1, length: 0, replacement: 'page_node' . $node->getType());
  }
 }
 ```
