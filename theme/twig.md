@@ -29,11 +29,25 @@ function mytheme_theme_suggestions_page_alter(array &$suggestions, array $variab
 }
 ```
 
+<br>
+<br>
 
-
-
-
-
+Run this code block which invokes 'view' such that any variable we add, like our node with hero content, it is rendered as just part of the normal display process.
+```
+/**
+* Implements hook_preprocess_page() for PAGE document templates.
+*/
+function simple_preprocess_page(&$variables) {
+  if (!empty($variables['node'])) {
+    $node = $variables['node'];
+   
+    $her_content = $node->get('field_landing_hero')->view();
+    if (!empty($hero_content)) {
+      $variables['hero_content'] = $hero_content;
+    }
+  }
+}
+```
 
 
 
