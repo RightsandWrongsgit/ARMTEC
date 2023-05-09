@@ -19,7 +19,7 @@ Drupal 8+. In earlier versions of Drupal, you were able to insert PHP into theme
 
 function mytheme_theme_suggestions_page_alter(array &$suggestions, array $variables) {
   // Add very specific content type suggestions
-  if ( Drupal::routeMatch()->getRouteName()== 'entity.mode.canonical') {
+  if (\Drupal::routeMatch()->getRouteName()== 'entity.mode.canonical') {
     $node = \Drupal::routeMatch()->getParameter( parameter_name: 'node');
     array_splice( &input: $suggestions, offset 1, length 0, replacement 'page_node' . $node->getType());
  }
