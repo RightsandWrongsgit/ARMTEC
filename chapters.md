@@ -52,7 +52,7 @@
 
 ### Chapter: Content Management Systems (CMS)
 
-  -  [Content Management System Overview](book/cms.md)
+-  [Content Management System Overview](book/cms.md)
 
 #### Drupal Basics
 
