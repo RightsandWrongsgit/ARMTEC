@@ -14,6 +14,9 @@ Drupal 8+. In earlier versions of Drupal, you were able to insert PHP into theme
 
 [Don't forget to make sure you have the TWIG templates being used and their preferred alternates turned on](../cicd/envsettings.md#whats-this-twig-stuff)
 
+
+Run this code block from your terminal CLI and it will add more context specific alternative template suggestions for the node twig template you want to customize.
+
 ```
 <?php
 
@@ -22,7 +25,7 @@ function mytheme_theme_suggestions_page_alter(array &$suggestions, array $variab
   if (\Drupal::routeMatch()->getRouteName()== 'entity.mode.canonical') {
     $node = \Drupal::routeMatch()->getParameter( parameter_name: 'node');
     array_splice( &input: $suggestions, offset: 1, length: 0, replacement: 'page_node' . $node->getType());
- }
+  }
 }
 ```
 
