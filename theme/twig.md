@@ -54,19 +54,17 @@ TWIG Tweak adds access to additional variables that might not be shown in the do
 
 [Twig Tweak Cheatsheet](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/cheat-sheet.md) offers you a quick reminder to turn to as you work.
 
-[Twig Tools and Pattern Lab component linking](https://www.videodrupal.org/video/20210127/integrating-components-drupal-mapping-fields)
-
-
-
+<br>
+<br>
 
 
 ## TWIG & Preprocessing
 
 Once you are past the faint at heart stage doing minor things to some of the templates you have copied from your base theme, pasted in your custom theme, and renamed to your unique use, you might want to take on something a little more challenging to really get a feel for working with TWIG editing, nodes and views you have created in your Drupal project, and move to the next level.  Here is an [example of Nodes, Views, and Layout actions you can take in TWIG](https://www.youtube.com/watch?v=sP5fzEBEWlM).
 
+For convenient use in following along with the recommended steps in the video, 
 
-
-Run this code block from your terminal CLI and it will add more context specific alternative template suggestions for the node twig template you want to customize.
+the code blocks below are provided.  You run these from your terminal CLI.   This first block will add more 'context specific' alternative template suggestions for the node twig template being customized.
 
 ```
 <?php
@@ -100,10 +98,10 @@ function simple_preprocess_page(&$variables) {
 }
 ```
 
-We are going to use a template named:
-node--landing-page--full.html.twig
+The context specific template being added is named:
+`node--landing-page--full.html.twig`
 
-We need to use this preprocess code to attach the article list to that node template.
+You need to use this 'preprocess code' to attach the article list to that node template.
 ```
 // Add the article list to the landing page node template.
 function simple_preprocess_node(&$variables) {
@@ -116,9 +114,10 @@ function simple_preprocess_node(&$variables) {
   }
 }
 ```
+<br>
 
-
-
+Hope you enjoyed this more advanced example and want to learn more about [data processing concepts in drupal theming
+](https://mycode.blog/lakshmi/data-processing-concepts-drupal-theming).
 
 
 
