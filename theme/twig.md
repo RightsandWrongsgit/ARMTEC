@@ -34,26 +34,33 @@ By the way, if you notice in the first line showing a variable that there is a c
 
 ## TWIG Basics
 
-Obviously you need to know a few more things about reading, editing, or writing TWIG code if you are going to modify TWIG Templates provided by your base theme.  Some of the real basics are not much more difficult than knowing the variables available as discussed above. In addition to [grabbing those variables, to apply the logic to them you probably should review this basic overview](https://symfonycasts.com/screencast/twig/basics).  Then Selwyn Polit's online Drupal book is a good reference to [work with TWIG code](https://selwynpolit.github.io/d9book/twig.html).  You can also go to the source by reviewing [TWIG for Template Designers
-](https://twig.symfony.com/doc/3.x/templates.html) right on the Symfony documentation site. 
+Lets put the [use of TWIG in easy context with how you first get the basics set up with the Drupal GUI where you have set up a new content type](https://www.youtube.com/watch?v=BCEovMcvWX0).  Once you have down those basics, you are probably ready to turn to more advanced edits [of your TWIG templates, especially the various 'logic' options](https://www.youtube.com/watch?v=S0oJGy4a65Q).  After you view that video and start to feel comfortable, you might try [practicing TWIG editing online](https://twigfiddle.com/) to see how you are doing.
+
+We discussed earlier discovering the available variables.  In addition to [grabbing those variables you will want to learn the basics of applying code logic to them](https://symfonycasts.com/screencast/twig/basics).  Then Selwyn Polit's online Drupal book is a good reference to [work with TWIG code](https://selwynpolit.github.io/d9book/twig.html).  You can also go to the source by reviewing [TWIG for Template Designers](https://twig.symfony.com/doc/3.x/templates.html) right on the Symfony documentation site. 
+
+<br>
+<br>
 
 ## TWIG Tweak
+
+Some people who are developers experienced in the templating approach before TWIG feel like they gave up some power with its adoption by Drupal in version 8 forward and [want to leverage approaches to TWIG extentions](https://www.youtube.com/watch?v=kEy89A0rpkQ).  One of those approaches is a contributed module called TWIG Tweak..
 
 `composer require drupal/twig_tweak`
 `drush en twig_tweak`
 
-[Practice trial TWIG edit approaches](TwigFiddle.com)
+TWIG Tweak adds access to additional variables that might not be shown in the documentation in the templates you got from your parent theme; perhaps some global system variables you want to use.  It also offers you some additional controls of TWIG code logic you might apply.  A first peek at the use of [TWIG Tweak might be to use it to place a 'block' in a TWIG template](https://befused.com/drupal/twig-block/).   TWIG Tweak exposes a number of [additional functions and filters that add power to what your templates can accomplish
+](https://www.droptica.com/blog/enhanced-drupal-templates-review-twig-tweak-module/).
 
-[Twig Tweak Cheatsheet](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/cheat-sheet.md)
+
+[Twig Tweak Cheatsheet](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/cheat-sheet.md) offers you a quick reminder to turn to as you work.
 
 [Twig Tools and Pattern Lab component linking](https://www.videodrupal.org/video/20210127/integrating-components-drupal-mapping-fields)
 
-[How do you place a block in a Twig template](https://befused.com/drupal/twig-block/)
 
 
 
 
-## TWIG Editing
+## TWIG & Preprocessing
 
 Once you are past the faint at heart stage doing minor things to some of the templates you have copied from your base theme, pasted in your custom theme, and renamed to your unique use, you might want to take on something a little more challenging to really get a feel for working with TWIG editing, nodes and views you have created in your Drupal project, and move to the next level.  Here is an [example of Nodes, Views, and Layout actions you can take in TWIG](https://www.youtube.com/watch?v=sP5fzEBEWlM).
 
