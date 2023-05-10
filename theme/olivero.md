@@ -5,7 +5,7 @@
 
 # Olivero Theme
 
-(https://imagexmedia.com/blog/drupal-new-front-end-theme-olivero)
+https://imagexmedia.com/blog/drupal-new-front-end-theme-olivero
 <br>
 https://evolvingweb.com/blog/hands-drupal-10-olivero-new-theme-meaningful-name
 
@@ -13,11 +13,11 @@ https://evolvingweb.com/blog/hands-drupal-10-olivero-new-theme-meaningful-name
 
 ## Olivero Sub-theme
 
-(https://developpeur-drupal.com/en/article/create-drupal-9-olivero-sub-theme)
+https://developpeur-drupal.com/en/article/create-drupal-9-olivero-sub-theme
 
 <br>
 
-(https://designkojo.com/drupal-theme-primer-part-1-creating-drupal-sub-theme)
+https://designkojo.com/drupal-theme-primer-part-1-creating-drupal-sub-theme
 
 - Theming & Modules for some Good Specific Themes -
 (You probably used a default theme as you laid out your fields, content types, blocks, etc.
