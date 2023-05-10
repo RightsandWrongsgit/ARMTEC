@@ -123,15 +123,9 @@ Hope you enjoyed this more advanced example and want to learn more about [data p
 
 
 
-[EXAMPLE CONNECTING PHP TO THEME YMAL AND TWIG THAT SHOWS USE OF HOOKS](https://www.youtube.com/watch?v=AXtozyHIa040)
 
 
 
-
-
-
-
-Wow!  As usual "you the man".  Love your advice and it makes sense.  Bootstrap 4 Barrio seems so capable at the TWIG level.  And I have both made copies of those TWIG templates to modify them in my custom theme and I have added CSS to make further adjustments. The key is that I am probably pretty unskilled at it and thought I might be able to benefit from the components in Olivero to speed things up. But them when I started looking at what I would have to do to build the 'functional' elements I wanted to add to Olivero I headed your way for that key wisdom (Barrio -> Olivero, not Olivero -> Barrio).
 
 I want to see if I am correctly understanding something else about this overall process.  At the foundational level, PHP itself has some potential to 'theme'; and before Drupal 8 that was in fact where some level of it was done.  At the PHP level there are variables and in TWIG based Drupal, TWIG starts by addressing those variables and then doing something with them [if this first step is correct, is there a good way or tool to dump what PHP variables are most logically brought into TWIG for then further theming].    Within TWIG there isn't too much you do to 'make it pretty' but that is where you might apply logic like any looping or functional manipulation that would benefit a theme.  But it is also within TWIG that you are to write your HTML that might hardcode something into the template while the template also grabs what is being pulled from the database to be presented.  The HTML is where you are preparing the first level 'display' characteristics of the presentation so you are defining a 'card', a 'grid', an 'accordion', 'checkboxes', 'radio buttons', etc. with that code; and most importantly defining 'class'.  Then CSS generally is adding color, location, size, font style, and the 'pretty' aspects to the final presentation.    [please let me know if this is correct or where it is goofed up].
 
