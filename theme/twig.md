@@ -5,7 +5,7 @@ TWIG is termed a 'templating engine'; fancy way of saying something needs to pai
 
 ## Sub-theming
 
-One of the key things to understand is that you are pretty unlikely to start out by writing TWIG templates yourself.  Rather, you are most likely to install an existing Drupal theme which has a bunch of TWIG templates that define it.  What you are probably going to want to do is to create a sub-theme from one of these already available themes and then just edit those parts of it you want to customize. Here is [how to set up your sub-theme](https://www.drupal.org/docs/theming-drupal/creating-sub-themes#:~:text=Sub%2Dthemes%20are%20just%20like,organized%20however%20you%20see%20fit.)
+One of the key things to understand is that you are pretty unlikely to start out by writing TWIG templates yourself.  Rather, you are most likely to install an existing Drupal theme which has a bunch of TWIG templates that define it.  If you are just making a real basic website you can probably use the [Olivero theme](../theme/olivero.md) and perhaps ignore this TWIG and Subtheming stuff.   But if you are going after a more unique, customized website, give serious thought to the [Bootstrap theme options](../theme/bootstrap.md)  Then what you are probably going to want to do is to create a sub-theme from one of these already available themes and just edit those parts of it you want to customize. Here is [how to set up your sub-theme](https://www.drupal.org/docs/theming-drupal/creating-sub-themes#:~:text=Sub%2Dthemes%20are%20just%20like,organized%20however%20you%20see%20fit.)
 
 The highlights of what need to be done are:
   -  Under the 'themes' sub-directory, create an additional sub-directory with whatever you want to call your theme (e.g. 'mytheme')
