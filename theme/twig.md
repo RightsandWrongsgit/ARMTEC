@@ -31,10 +31,21 @@ By the way, if you notice in the first two of these there is a capital letter in
 
 ## TWIG Basics
 
-Obviously you need to know a few more things about reading, editing, or writing TWIG code if you are going to modify TWIG Templates provided by your base theme.  Some of the real basics are not much more difficult than knowing the variables available as discussed above. In addition to [grabbing those variables, to apply the logic to them you probably should review this basic overview](https://symfonycasts.com/screencast/twig/basics).  Then Selwyn Polit's online Drupal book is a good reference to [work with TWIG code](https://selwynpolit.github.io/d9book/twig.html).  You can also go to the source by reviewing [TWIG for Template Designer
+Obviously you need to know a few more things about reading, editing, or writing TWIG code if you are going to modify TWIG Templates provided by your base theme.  Some of the real basics are not much more difficult than knowing the variables available as discussed above. In addition to [grabbing those variables, to apply the logic to them you probably should review this basic overview](https://symfonycasts.com/screencast/twig/basics).  Then Selwyn Polit's online Drupal book is a good reference to [work with TWIG code](https://selwynpolit.github.io/d9book/twig.html).  You can also go to the source by reviewing [TWIG for Template Designers
 ](https://twig.symfony.com/doc/3.x/templates.html) right on the Symfony documentation site. 
 
+## TWIG Tweak
 
+`composer require drupal/twig_tweak`
+`drush en twig_tweak`
+
+[Practice trial TWIG edit approaches](TwigFiddle.com)
+
+[Twig Tweak Cheatsheet](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/cheat-sheet.md)
+
+[Twig Tools and Pattern Lab component linking](https://www.videodrupal.org/video/20210127/integrating-components-drupal-mapping-fields)
+
+[How do you place a block in a Twig template](https://befused.com/drupal/twig-block/)
 
 
 
@@ -105,18 +116,7 @@ function simple_preprocess_node(&$variables) {
 
 [EXAMPLE CONNECTING PHP TO THEME YMAL AND TWIG THAT SHOWS USE OF HOOKS](https://www.youtube.com/watch?v=AXtozyHIa040)
 
-## TWIG Tweak
 
-`composer require drupal/twig_tweak`
-`drush en twig_tweak`
-
-[Practice trial TWIG edit approaches](TwigFiddle.com)
-
-[Twig Tweak Cheatsheet](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/cheat-sheet.md)
-
-[Twig Tools and Pattern Lab component linking](https://www.videodrupal.org/video/20210127/integrating-components-drupal-mapping-fields)
-
-[How do you place a block in a Twig template](https://befused.com/drupal/twig-block/)
 
 
 
