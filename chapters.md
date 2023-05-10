@@ -59,7 +59,9 @@
   -   [Understand the many types of BLOCKS in Drupal](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/blocks.md)
 
 #### Front-End
-  -   [HTML Code Examples](codeexamples/html.md)
+  -   [HTML.com](html.com)
+  -   [W3 School HTML, CSS, JS, and more](https://www.w3schools.com/html/) 
+  -   [HTML Code Examples for some unique things](codeexamples/html.md)
   -   [Olivero Theme](theme/olivero.md)
   -   [Bootstrap Theme](theme/bootstrap.md)
   -   [TWIG](theme/twig.md)
