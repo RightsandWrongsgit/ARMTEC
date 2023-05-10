@@ -24,8 +24,8 @@ One of the other things you may need to know to edit this TWIG template copy you
 TWIG was added to Drupal for both a security benefit of isolation from direct PHP and for its comparative simplicity.  As noted, TWIG is going to grab information from the database and PHP with an aim to render it in HTML.  Plus, if you look at a TWIG template you will see a whole bunch of it is extremely similar to HTML itself; easing use by those already familiar with front-end website code.  TWIG basically adds only three basic things with this syntax:
 
   - Grabbing a variable to display...<br>
-         <img src="../codeexamples/capture/TWIGVariable.png"  width="100">
-  - Running simple logic...<br
+         <img src="../codeexamples/capture/TWIGVariable.png"  width="200">
+  - Running simple logic...<br>
          <img src="../codeexamples/capture/TWIGCode.png"  width="200">
   - Allowing you to comment the code...<br>
          <img src="../codeexamples/capture/TWIGComment.png"  width="400">
