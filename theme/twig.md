@@ -49,8 +49,7 @@ Some people who are developers experienced in the templating approach before TWI
 `drush en twig_tweak`
 
 TWIG Tweak adds access to additional variables that might not be shown in the documentation in the templates you got from your parent theme; perhaps some global system variables you want to use.  It also offers you some additional controls of TWIG code logic you might apply.  A first peek at the use of [TWIG Tweak might be to use it to place a 'block' in a TWIG template](https://befused.com/drupal/twig-block/).   TWIG Tweak exposes a number of [additional functions and filters that add power to what your templates can accomplish
-](https://www.droptica.com/blog/enhanced-drupal-templates-review-twig-tweak-module/).
-
+](https://www.droptica.com/blog/enhanced-drupal-templates-review-twig-tweak-module/).  See a [demonstration of using TWIG Tweak to deploy some functions and filters](https://www.youtube.com/watch?v=7UlGAeKYoa8).
 
 [Twig Tweak Cheatsheet](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/cheat-sheet.md) offers you a quick reminder to turn to as you work.
 
