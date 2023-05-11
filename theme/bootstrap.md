@@ -14,243 +14,44 @@ As Drupal moved to version 10, its standard base theme moved from its old Bartik
 [Bootstrap Barrio](https://www.drupal.org/project/bootstrap_barrio)
 
 
-Wow!   “you the man”.  Love your advice and it makes sense.  Bootstrap 4 Barrio seems so capable at the TWIG level.  And I have both made copies of those TWIG templates to modify them in my custom theme and I have added CSS to make further adjustments. The key is that I am probably pretty unskilled at it and thought I might be able to benefit from the components in Olivero to speed things up. But them when I started looking at what I would have to do to build the ‘functional’ elements I wanted to add to Olivero I headed your way for that key wisdom (Barrio -> Olivero, not Olivero -> Barrio).
-I want to see if I am correctly understanding something else about this overall process.  At the foundational level, PHP itself has some potential to ‘theme’; and before Drupal 8 that was in fact where some level of it was done.  At the PHP level there are variables and in TWIG based Drupal, TWIG starts by addressing those variables and then doing something with them [if this first step is correct, is there a good way or tool to dump what PHP variables are most logically brought into TWIG for then further theming].    Within TWIG there isn’t too much you do to ‘make it pretty’ but that is where you might apply logic like any looping or functional manipulation that would benefit a theme.  But it is also within TWIG that you are to write your HTML that might hardcode something into the template while the template also grabs what is being pulled from the database to be presented.  The HTML is where you are preparing the first level ‘display’ characteristics of the presentation so you are defining a ‘card’, a ‘grid’, an ‘accordion’, ‘checkboxes’, ‘radio buttons’, etc. with that code; and most importantly defining ‘class’.  Then CSS generally is adding color, location, size, font style, and the ‘pretty’ aspects to the final presentation.    [please let me know if this is correct or where it is goofed up].
-Assuming I am reasonably on track with the above, then the balancing act becomes how one might think about the HTML portion in the Layout Builder world.  If I was going to write native HTML I would be all worried about the DIV stacking so one part of the code isn’t stepping on the next.  But is it reasonable to assume that with Layout Builder you are assembling the blocks you have defined into a node and after you have it generally laid out using that tool you could look at the code in the developer view in your browser and you would see all the DIVs, Classes, IDs, etc. all ready generated; thus allowing you to tweak with CSS by addressing them at that point to make any final customization you desire?
-I am hoping to get a broad handle on all the interconnections with the thought that I might copy, paste, and edit some components from one theme  to a totally different theme.  Like if I want to to grab some features I really like from Olivero and put them in Bootstrap.  I really like Olivero’s site-style logo & image contraction upon scroll and the menu approach and responsive presentation.  So that is mainly what I want to try to recreate.  Color schemes, and font styles, etc. are easy to make it look like that.  But I am thinking the core parts I like are doing to be much harder to figure out how they have set up because I suspect it is an interworking of PHP pass of the title, image and slogan fields to TWIG and then not only HTML and CSS but may involve JS to try to figure out.  But, if my description about how all these connect are generally on track, then it will be good practice to work on this.
-Any place you know of that outlines ‘best practices’ on how you approach interconnecting these moving parts?  Seems like Drupal allows so many ways I could approach it.  But experienced people must has some principles they tend to stick to so others can work on their code later. Drupal 8+. In earlier versions of Drupal, you were able to insert PHP into theme files (the .tpl.php files) because of the theming “engine” that was being used. When Drupal 8 switched to Symphony, the theming engine was replaced with TWIG. Part of the reason was because TWIG is more code agnostic than what was used in earlier versions of Drupal, but also because it is a HUGE security risk to put PHP in the theme layer, because that is what gets executed last on a site. So any code in a .tpl.php file (or more likely the template.php file) was a big risk.  TWIG basically acts as an intermediary between PHP and the front end layer, by allowing you to perform simpler operations (if statements, loops, variables) without the need for full blown PHP functions. Therefore, you can have front end people working on the theme without opening security holes, but also giving you access to the more commonly used elements of PHP. That being said, you CAN still execute PHP in a theme, it is just relegated to the .theme file in your theme. This is mostly for setting theme wide variables that PHP interacts with but also for doing pre and post process steps. If you look at Barrio you will see a lot of what they do on the theme is contained in that because it was the easiest way to bring in Bootstrap 4 functionality to Drupal.  There is nothing wrong with copying over some of the functionality that you like from Olivero (or whatever) to your theme, I would just caution that you understand how the TWIG files are setup when you are copying - there are likely other variables that get referenced within the theme that you need to track down and then recreate in yours to get the full functionality. I would also say that a lot of Olivero may just be accomplished through modern CSS, though I honestly haven’t played with it in a while so I can’t remember. With a little bit of trial and error though, you should be able to recreate your desired effects through copying the TWIG files and mimicking the CSS in there. 
+MODULES UNIQUE TO BOOTSTRAP THEME DECISION:
+(Theme: Bootstrap Barrio)
+N1ED Module:
+Integrated them editor front-end for Bootstrap 4.  Think of this is the most integrated CKEditor Plugin available with a ton of widget features.  And because of the way it is built uniquely for CKEditor itself, it claims NOT to interfere with any of the other customization you might put in that editor (e.g. think about things like entity embedding).  
 
-- Theming & Modules for some Good Specific Themes -
-(You probably used a default theme as you laid out your fields, content types, blocks, etc.
-Making your site look good leverages themes and you can do a lot to even customize the Core)
+composer require drupal/n1ed
+drush en n1ed
 
-There is a lot of functionality right in Core.  You have a WYSIWYG editor, you have a media library for images, videos and more, you have the base theme, and you have the potential to leverage TWIG templates along with HTML, CSS, and JS in managing your presentation of you website.  The key thing to understand about Drupal is that it is a CMS or Content Management system and therefore, the first thing you are doing is setting up precise detail about what is in the content sections you will build.  So that is why thinking about fields, taxonomies, and the content types or nodes/blocks they will be presented in is the first order of business.  Making it look pretty with the theme you select, the images you apply, and the display of all the content happens after; the good news being that this separation of duties in Drupal allows you to later modify the look you present without having to redo all the content you have already dropped in.
 
-Think of the work flow like this:
+Views Bootstrap Module (NOTE: If you use the Bootstrap or Bootstrap Barrio theme):
+This module has unique install instructions depending on the version of Bootstrap you are using in theming.  So go to the Drupa.org site for the latest install instructions. https://www.drupal.org/project/views_bootstrap
 
-Content→Database→PHP(core)→TWIG/HTML→CSS & JS→View by user in Browser
 
-PHP itself renders a first level of HTML output but delivering it to TWIG Templates really gooses things up a notch in terms of HTML display of your content and with HTML5 some might argue state management might be enough to be done at that level.  But most will want to further enhance with CSS and JS to really leverage the power of display control.   
+Bootstrap Layout Builder module:
+If you want to use the GUI interface in modern Drupal to do much of your front-end work, consider using this module with your installed and default Bootstrap theme.  https://www.youtube.com/watch?v=sMbiqSMiZ6Y
 
-Installing a base theme is a straightforward process.  First, one probably came by default in what you installed.  And if you want to change themes you go into ADMINISTRATION/APPEARANCE and install and make default a different one.  The default theme with Core are underneath the Core/themes subdirectory; YOU DO NOT EDIT ANYTHING IN CORE EVER!  You do, however, copy stuff from core, especially under your base theme's templates subdirectory which is where the TWIG templates live.
+composer require drupal/bootstrap_layout_builder
+drush en bootstrap_layout_builder
 
 
+Bootstrap Styles module:
+This underlies the Bootstrap Layoutbuilder's styles plugins.
 
-It is very common that you might find a template under your base theme that you might want to tweak in some way; either across all places it is used on your site or on a specific page or node.  You are only going to edit a copy of a twig template.  Note two things on the next image; a) there is a themes subdirectory at the same level as the core subdirectory and that is where you are going to put any customization to your base them (ie. where you are going to put the copy to edit) and b) there is a sites/default subdirectory also starting at that top level and in it is a services.yml file (which you can make by duplicating the default.services.yml file and renaming it).
+composer require drupal/bootstrap_styles
+drush en bootstrap_styles
 
-The logic of messing with the services.yml file is that you are going to make one super simple edit within it.  Look down say 50-60 lines for the word 'debug:' and where it says false, change it to true and same the file.  Clear your cache and when you 'inspect source' on any page on your Drupal site you will find a list of the TWIG file that is active PLUS some suggested names of an 'override' file.  
 
+Bootstrap Layout Builder Section Library module:
+This is key to saving reusable layout sections and whole templates within Bootstrap Layout builder's GUI interface so you can speed development by grabbing stuff from a library you build up specific to your site.  There is a library add on module that allows for sharing templates and discussion of establishing a repository of templates you might benefit from others work efforts. 
 
+composer require drupal/section_library
+drush en section_library
 
+https://www.youtube.com/watch?v=-dhI5-Fs4qk OSTraining:: https://www.youtube.com/watch?v=E68DxSLcCd0
 
 
 
-
-
-
-
-
-
-
-
-
-
-Overriding is done all over Drupal as the way it is so flexible.  Drupal is a super CMS out of the box but the fact you can override all sorts of stuff makes it the best CMS out there to service a huge range of applications.  The TWIG template override is a first line of flexibility and the debug you just turned 'true' means the inspection of source will note a) where the template used in that area is located (helpful to find it to make a copy) at the bottom of the snippet below; b) the name of the currently used template (the one with 'x' in front of it below); and c) some alternative names you might consider for a copy you want to use as an override on the copy you are editing (from bottom upward, more general to more specific).  If you are overriding all uses of the current across your whole site you can keep the same name on the copy but if you are targeting the edit, think how focused you need it to be and move up the list accordingly. 
-
-
-
-
-
-
-
-
-
-
-
-
-You aren't editing the original twig template in core, you are doing it to the copy under your custom theme.  In the example below, the subdirectory for that custom theme is named 'eg' and underneath it are subdirectories for 'templates' where the twig templates go and another subdirectory for 'css' styling.  It is standard practice in Drupal to separate your css into 'base', 'components', and 'layout'; so you see those as even deeper subdirectories in the image below.
-
-In addition to having the twig and css assets in your custom theme subdirectories, you need to tell Drupal about where they are.  First you simply tell Drupal about what you are calling the custom theme and what base theme it is built upon in the file <yourcustomthemesname>.info.yml; in the example the custom them is simply called 'eg'.  See that file name in the same subdirectory at the css and templates subdirectories in the image above.
-
-The content of that file are simple, as are most yml or yaml files.  The key thing when ever you do an of these file is the indents are TWO SPACES (so don't 'tab').  Here is what eg.info.yml looks like:
-
-
-
-
-
-You also need to more specifically tell Drupal about the assets by showing where the css files you will use are located via <yourcustomthemesname>.libraries.yml; in the example at that same subdirectory level it is eg.libraries.yml and what is inside it is shown below:
-
-
-
-The examples above are from some excellent training videos on YOUTUBE that Acquia has provided to the Drupal community.  Follow this link to the "Intro to twig templates" but make sure to watch those after it in the series to get a further understanding: https://www.youtube.com/watch?v=2cHe50tp_U4&list=PLpVC00PAQQxG0sW9YOueVgouRp4aj1bng&index=23
-
-
-Beyond Core -
-
-Drupal core is already very capable.  And there is even a tool called Layout Builder (in core, but must be enabled) and it really gives lots of ability to the newer users.   However, there are a ton of what are known as "front-end" options to use with Drupal; all the way to even doing a de-coupled site with a JS framework like React or Vue grabbing content from Drupal.  Closer to home, there are a few current and emerging modules that might be considered. 
-
-For the options closer to home but that add capability, a review of a presentation from an Asheville Drupal Camp in the summer of 2020 is worth watching.  It is titled 'An Overview of Front End Component Integration Methods in Drupal' and can be found here:  https://www.youtube.com/watch?v=UQ-SRGVV9k8
-About 17 minutes into the video two broad approached to integration of components is compared.  One is 'Mapping Data In Code'  and you can think of that as more at the TWIG or even PHP preprocessing level (which backend programmers probably gravitate toward).  The other is 'Mapping Data In Admin UI' and you can think of this as aiming toward integration with things like PatternLab and Storybook components.  This video is about understanding the options and their pros and cons; but it doesn't just boldly give an answer.
-
-As discussed earlier, the variables from Drupal go through Twig Templates to provide a first level rendering of an entity like a page, block, etc.  You are going to want to work at the level of these templates at some point and we showed how different names, from generic to specific are shown with you have debug on.  To make that even easier, you might want to install and enable the Twig Debugger module that lets you click the little edit pencil from your GUI view of your page and then use your browser's 'source' view to see how that specific area of your page is controlled by a certain twig template (composer require drupal/twig_debugger and the drush en twig_debugger).
-
-At the TWIG level two other helper modules are discussed in the video; 'Twig Field Value' and 'Twig Tweak'.  That later of these is broadly more capable so is worth considering.  The way to think about Twig Tweak as a module is that it aims to bring a richer toolset; but unlike a lot of modules don't necessarily think of it as a GUI keeping you away from code level efforts.  TWIG is a pretty rich framework in and of itself.  Drupal only brings a portion of it to bear.  What Twig Tweak will do is give you access to all the functions of the broader framework.  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-If you start getting into TWIG template editing, you may want to go to TwigFiddle.com where you can practice editing approaches. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Components and how they fit with certain theme decisions:
-The 'Map Data in Admin UI' direction is rapidly emerging.  As noted, not going to decoupled but that remains a possibility.  Instead, think about two 'Component' library or additions with Javascript that have developing or beta projects in Drupal aimed to facilitate their use integration; PatternLabs and Storybook.  Some of the PatternLabs modules are discussed in the back half of the 'An Overview of Front End Component Integration Methods in Drupal' video.  
-
-Let's look at the Storybook emerging option.  First, Storybook itself can be found at https://storybook.js.org/  Note that it, like Drupal is also OpenSource.
-
-
-
-When you look at Storybook, you will find it can be used with React, Angular, etc. and thus might be able to use the decoupled Drupal approach should you eventually go that way.  But for now, lets look at some Drupal modules that are specifically designed to integrate the two.  The Component Libraries Module works toward a regular Twig template combined with a metadata.json file describing the input data to connect the component JavaScript to the template.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Expect some pretty detailed set up steps but the documentation link to a GitLab repo read.me is pretty helpful in walking you through it. https://git.drupalcode.org/project/cl_server/-/blob/1.x/docs/storybook.md
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-To understand just how powerful and comprehensive Storybook is, you really need to go to the site and drive around.  You will see specific examples of components being deployed in many ways, even with links to access the underlying example code.  So if you are going to be doing a number of sites, it may be worth the trouble of the complex setup of the components so you have your own library.  And, of course, keep an eye out for others who publish their Drupal-Storybook Component to adopt. 
-
-This module works with the Component Libraries: Theme Server.  You can go to the Theme Server module on Drupal.org and there is a link to a 'Step-by-Step' tutorial.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The newly release 'Component Libraries: Blocks' module it the third in this group that further expands the power of this approach.  It appears to integrate well with Views, Layout Builder, and other standard Drupal core common tools.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*****
 Bootstrap Barrio Theme:
 
 How to set up your own subtheme using Bootstrap Barrio:
@@ -292,9 +93,6 @@ The flex slider Library is needed: http://flexslider.woothemes.com/
 How TO: http://codekarate.com/daily-dose-of-drupal/drupal-8-flexslider-module
 	https://www.youtube.com/watch?v=sKmmAL_dZtU&list=PLKdePeSydSBv9ro-	oJoxnhAFInyDdU4o9&index=1
 COMPARE THIS TO SLICK CAROUSEL MODULE BEFORE COMMITTING:
-
-
-
 composer require 'drupal/views_accordion:^2.0'
 composer require 'drupal/views_slideshow:^4.8'
 
@@ -328,313 +126,43 @@ Could be that the components module may offer some easy style editing via its GU
 
 
 
+****
+Wow!   “you the man”.  Love your advice and it makes sense.  Bootstrap 4 Barrio seems so capable at the TWIG level.  And I have both made copies of those TWIG templates to modify them in my custom theme and I have added CSS to make further adjustments. The key is that I am probably pretty unskilled at it and thought I might be able to benefit from the components in Olivero to speed things up. But them when I started looking at what I would have to do to build the ‘functional’ elements I wanted to add to Olivero I headed your way for that key wisdom (Barrio -> Olivero, not Olivero -> Barrio).
+I want to see if I am correctly understanding something else about this overall process.  At the foundational level, PHP itself has some potential to ‘theme’; and before Drupal 8 that was in fact where some level of it was done.  At the PHP level there are variables and in TWIG based Drupal, TWIG starts by addressing those variables and then doing something with them [if this first step is correct, is there a good way or tool to dump what PHP variables are most logically brought into TWIG for then further theming].    Within TWIG there isn’t too much you do to ‘make it pretty’ but that is where you might apply logic like any looping or functional manipulation that would benefit a theme.  But it is also within TWIG that you are to write your HTML that might hardcode something into the template while the template also grabs what is being pulled from the database to be presented.  The HTML is where you are preparing the first level ‘display’ characteristics of the presentation so you are defining a ‘card’, a ‘grid’, an ‘accordion’, ‘checkboxes’, ‘radio buttons’, etc. with that code; and most importantly defining ‘class’.  Then CSS generally is adding color, location, size, font style, and the ‘pretty’ aspects to the final presentation.    [please let me know if this is correct or where it is goofed up].
+Assuming I am reasonably on track with the above, then the balancing act becomes how one might think about the HTML portion in the Layout Builder world.  If I was going to write native HTML I would be all worried about the DIV stacking so one part of the code isn’t stepping on the next.  But is it reasonable to assume that with Layout Builder you are assembling the blocks you have defined into a node and after you have it generally laid out using that tool you could look at the code in the developer view in your browser and you would see all the DIVs, Classes, IDs, etc. all ready generated; thus allowing you to tweak with CSS by addressing them at that point to make any final customization you desire?
+I am hoping to get a broad handle on all the interconnections with the thought that I might copy, paste, and edit some components from one theme  to a totally different theme.  Like if I want to to grab some features I really like from Olivero and put them in Bootstrap.  I really like Olivero’s site-style logo & image contraction upon scroll and the menu approach and responsive presentation.  So that is mainly what I want to try to recreate.  Color schemes, and font styles, etc. are easy to make it look like that.  But I am thinking the core parts I like are doing to be much harder to figure out how they have set up because I suspect it is an interworking of PHP pass of the title, image and slogan fields to TWIG and then not only HTML and CSS but may involve JS to try to figure out.  But, if my description about how all these connect are generally on track, then it will be good practice to work on this.
+Any place you know of that outlines ‘best practices’ on how you approach interconnecting these moving parts?  Seems like Drupal allows so many ways I could approach it.  But experienced people must has some principles they tend to stick to so others can work on their code later. Drupal 8+. In earlier versions of Drupal, you were able to insert PHP into theme files (the .tpl.php files) because of the theming “engine” that was being used. When Drupal 8 switched to Symphony, the theming engine was replaced with TWIG. Part of the reason was because TWIG is more code agnostic than what was used in earlier versions of Drupal, but also because it is a HUGE security risk to put PHP in the theme layer, because that is what gets executed last on a site. So any code in a .tpl.php file (or more likely the template.php file) was a big risk.  TWIG basically acts as an intermediary between PHP and the front end layer, by allowing you to perform simpler operations (if statements, loops, variables) without the need for full blown PHP functions. Therefore, you can have front end people working on the theme without opening security holes, but also giving you access to the more commonly used elements of PHP. That being said, you CAN still execute PHP in a theme, it is just relegated to the .theme file in your theme. This is mostly for setting theme wide variables that PHP interacts with but also for doing pre and post process steps. If you look at Barrio you will see a lot of what they do on the theme is contained in that because it was the easiest way to bring in Bootstrap 4 functionality to Drupal.  There is nothing wrong with copying over some of the functionality that you like from Olivero (or whatever) to your theme, I would just caution that you understand how the TWIG files are setup when you are copying - there are likely other variables that get referenced within the theme that you need to track down and then recreate in yours to get the full functionality. I would also say that a lot of Olivero may just be accomplished through modern CSS, though I honestly haven’t played with it in a while so I can’t remember. With a little bit of trial and error though, you should be able to recreate your desired effects through copying the TWIG files and mimicking the CSS in there. 
 
+***
+Beyond Core -
 
+Drupal core is already very capable.  And there is even a tool called Layout Builder (in core, but must be enabled) and it really gives lots of ability to the newer users.   However, there are a ton of what are known as "front-end" options to use with Drupal; all the way to even doing a de-coupled site with a JS framework like React or Vue grabbing content from Drupal.  Closer to home, there are a few current and emerging modules that might be considered. 
 
+For the options closer to home but that add capability, a review of a presentation from an Asheville Drupal Camp in the summer of 2020 is worth watching.  It is titled 'An Overview of Front End Component Integration Methods in Drupal' and can be found here:  https://www.youtube.com/watch?v=UQ-SRGVV9k8
+About 17 minutes into the video two broad approached to integration of components is compared.  One is 'Mapping Data In Code'  and you can think of that as more at the TWIG or even PHP preprocessing level (which backend programmers probably gravitate toward).  The other is 'Mapping Data In Admin UI' and you can think of this as aiming toward integration with things like PatternLab and Storybook components.  This video is about understanding the options and their pros and cons; but it doesn't just boldly give an answer.
 
+As discussed earlier, the variables from Drupal go through Twig Templates to provide a first level rendering of an entity like a page, block, etc.  You are going to want to work at the level of these templates at some point and we showed how different names, from generic to specific are shown with you have debug on.  To make that even easier, you might want to install and enable the Twig Debugger module that lets you click the little edit pencil from your GUI view of your page and then use your browser's 'source' view to see how that specific area of your page is controlled by a certain twig template (composer require drupal/twig_debugger and the drush en twig_debugger).
 
+At the TWIG level two other helper modules are discussed in the video; 'Twig Field Value' and 'Twig Tweak'.  That later of these is broadly more capable so is worth considering.  The way to think about Twig Tweak as a module is that it aims to bring a richer toolset; but unlike a lot of modules don't necessarily think of it as a GUI keeping you away from code level efforts.  TWIG is a pretty rich framework in and of itself.  Drupal only brings a portion of it to bear.  What Twig Tweak will do is give you access to all the functions of the broader framework.  
 
+If you start getting into TWIG template editing, you may want to go to TwigFiddle.com where you can practice editing approaches. 
 
+Components and how they fit with certain theme decisions:
+The 'Map Data in Admin UI' direction is rapidly emerging.  As noted, not going to decoupled but that remains a possibility.  Instead, think about two 'Component' library or additions with Javascript that have developing or beta projects in Drupal aimed to facilitate their use integration; PatternLabs and Storybook.  Some of the PatternLabs modules are discussed in the back half of the 'An Overview of Front End Component Integration Methods in Drupal' video.  
 
+Let's look at the Storybook emerging option.  First, Storybook itself can be found at https://storybook.js.org/  Note that it, like Drupal is also OpenSource.
 
+When you look at Storybook, you will find it can be used with React, Angular, etc. and thus might be able to use the decoupled Drupal approach should you eventually go that way.  But for now, lets look at some Drupal modules that are specifically designed to integrate the two.  The Component Libraries Module works toward a regular Twig template combined with a metadata.json file describing the input data to connect the component JavaScript to the template.
 
+Expect some pretty detailed set up steps but the documentation link to a GitLab repo read.me is pretty helpful in walking you through it. https://git.drupalcode.org/project/cl_server/-/blob/1.x/docs/storybook.md
 
+To understand just how powerful and comprehensive Storybook is, you really need to go to the site and drive around.  You will see specific examples of components being deployed in many ways, even with links to access the underlying example code.  So if you are going to be doing a number of sites, it may be worth the trouble of the complex setup of the components so you have your own library.  And, of course, keep an eye out for others who publish their Drupal-Storybook Component to adopt. 
 
+This module works with the Component Libraries: Theme Server.  You can go to the Theme Server module on Drupal.org and there is a link to a 'Step-by-Step' tutorial.
 
+The newly release 'Component Libraries: Blocks' module it the third in this group that further expands the power of this approach.  It appears to integrate well with Views, Layout Builder, and other standard Drupal core common tools.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-MODULES UNIQUE TO BOOTSTRAP THEME DECISION:
-(Theme: Bootstrap Barrio)
-N1ED Module:
-Integrated them editor front-end for Bootstrap 4.  Think of this is the most integrated CKEditor Plugin available with a ton of widget features.  And because of the way it is built uniquely for CKEditor itself, it claims NOT to interfere with any of the other customization you might put in that editor (e.g. think about things like entity embedding).  
-
-composer require drupal/n1ed
-drush en n1ed
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Views Bootstrap Module (NOTE: If you use the Bootstrap or Bootstrap Barrio theme):
-This module has unique install instructions depending on the version of Bootstrap you are using in theming.  So go to the Drupa.org site for the latest install instructions. https://www.drupal.org/project/views_bootstrap
-
-
-
-
-
-
-
-
-
-
-
-Bootstrap Layout Builder module:
-If you want to use the GUI interface in modern Drupal to do much of your front-end work, consider using this module with your installed and default Bootstrap theme.  https://www.youtube.com/watch?v=sMbiqSMiZ6Y
-
-composer require drupal/bootstrap_layout_builder
-drush en bootstrap_layout_builder
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Bootstrap Styles module:
-This underlies the Bootstrap Layoutbuilder's styles plugins.
-
-composer require drupal/bootstrap_styles
-drush en bootstrap_styles
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Bootstrap Layout Builder Section Library module:
-This is key to saving reusable layout sections and whole templates within Bootstrap Layout builder's GUI interface so you can speed development by grabbing stuff from a library you build up specific to your site.  There is a library add on module that allows for sharing templates and discussion of establishing a repository of templates you might benefit from others work efforts. 
-
-composer require drupal/section_library
-drush en section_library
-
-https://www.youtube.com/watch?v=-dhI5-Fs4qk OSTraining:: https://www.youtube.com/watch?v=E68DxSLcCd0
- 
 
 
 <br>
