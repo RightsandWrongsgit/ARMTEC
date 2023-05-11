@@ -5,11 +5,11 @@ Drupal [Content Management System (CMS)](chapters.md#chapter-content-management-
 
 Think of the workflow like this:
 
-<font color=d4fofo>CSS & JS→Display in Browser</font>
-<font color=8fcaca>TWIG/HTML→CSS & JS</font>
-<font color=cce2cb>PHP(core)→TWIG/HTML</font>
-<font color=b6cfb6>Database→PHP(core)</font>
-<font color=97c1a9>Content→Database</font>
+<font color=d4fofo>CSS & JS→Display in Browser</font><br>
+<font color=8fcaca>TWIG/HTML→CSS & JS</font><br>
+<font color=cce2cb>PHP(core)→TWIG/HTML</font><br>
+<font color=b6cfb6>Database→PHP(core)</font><br>
+<font color=97c1a9>Content→Database</font><br>
 
 The 'Content' is what you would write and it is stored in the 'Database' for each article in your newspaper.  The Drupal 'PHP' core has the code not only for a content type called 'Article' but you probably have other content types for, the newspaper's name, for advertisements, for your about the editor/publisher and contact each department type information, etc.  And all that defines your newspaper to the database so it knows where to store different parts.  And that also talks to the 'TWIG' layer which are templates for what goes in each region or section of your newspaper.  Now the look and feel of each section appear in their 'presention' is further managed by CCS or JavaScript(JS) that interact with the reader's browser. 
 
