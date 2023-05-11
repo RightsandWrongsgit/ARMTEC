@@ -3,15 +3,13 @@
 
 [The Bootstrap framework](https://getbootstrap.com/) is a highly capable website front-end toolkit.  It is [responsive](https://www.youtube.com/watch?v=srvUrASNj0s) so your website will look good on a computer, a tablet, a phone, etc.  It is also well integrated with CSS via a call from the 'head' and with JavaScipt (JS) from a similar script call.  The Flexbox capability allows the creative use of a grid style which provides interesting layout throughout your web pages; though do leverage [Semantic Design principles](https://www.semrush.com/blog/semantic-html5-guide/) as you manage your design deployment.  Another great factor that draws one to Bootstrap is its inclusion of [many prebuilt components](https://getbootstrap.com/docs/5.0/components/accordion/).
 
-## Vs Olivero
-
-As Drupal moved to version 10, its standard base theme moved from its old Bartik theme to the much cleaner and more modern [Olivero theme](../theme/olivero)
-
-
 
 ## Bootstrap Barrio
 
-[Bootstrap Barrio](https://www.drupal.org/project/bootstrap_barrio)
+Bootstrap is so commonly used with Drupal that tens of thousands of site report using it via the [Bootstrap Barrio](https://www.drupal.org/project/bootstrap_barrio) theme.  What this offers over the basic Bootstrap is that someone has written loads of [TWIG templates](../theme/twig.md) to jumpstart your own site.  Think of this as having things like off the shelf components for stuff like cards already available to use directly in Drupal.  Since Barrio is built upon Bootstrap you can also go native if you need something beyond what has been pre-built.
+
+Another thing that makes Bootstrap Barrio's popularity an advantage is there are [good videos on how to install and use it](https://www.youtube.com/watch?v=D5A_aFdlWEs); don't be thrown off that the Bootstrap version has been updated since this video as all that is covered is still accurate.  You also have probably heard about Drupal's own ['Layout Builder' module](https://www.specbee.com/blogs/layout-builder-in-drupal-9-complete-guide#:~:text=Scroll%20to%20the%20bottom%20and,of%20the%20view%20modes%20present.) that offers some nice drag and drop site building support.  The good news is that [Layout Builder and Bootstrap can play nice together as demonstrated in this video on using Bootstrap's card component in it](https://www.youtube.com/watch?v=iwJW18NA_S4).
+
 
 
 MODULES UNIQUE TO BOOTSTRAP THEME DECISION:
