@@ -28,6 +28,9 @@ It is pretty much standard practice to design your first website using some sort
 - [AI Image Generator (Software)](https://diffusionbee.com/){:target="_blank"}
 - [Compress an Image (Online)](https://compressor.io/){:target="_blank"}
 - [Edit a Video (Software)](https://www.vlognow.me){:target="_blank"}
+- [Potential free image sources](https://Pexels.com){:target="_blank"}
+- [Free & Paid images](https://unsplash.com/){:target="_blank"}
+	
 
 ### Layout
 - [AI Color Palatte Generator (Online)](https://huemint.com/){:target="_blank"}
