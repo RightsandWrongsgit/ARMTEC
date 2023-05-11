@@ -67,6 +67,7 @@
     -  [Olivero Theme](theme/olivero.md)
     -  [Bootstrap Theme](theme/bootstrap.md)
     -  [TWIG](theme/twig.md)
+    -  [Decoupled](theme/decoupled.md)
 
 #### Drupal Modules
 
