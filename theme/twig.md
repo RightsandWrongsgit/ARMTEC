@@ -5,7 +5,7 @@ TWIG is termed a 'templating engine'.  For an overview watch ["Intro to twig tem
 
 ## Sub-theming
 
-Drupal themes have TWIG Templates.  If you want to change something in the way your current theme displays something on your website you can, in a lot of cases, [create a customer subtheme](../theme/subtheming.md)
+Drupal themes have TWIG Templates.  If you want to change something in the way your current theme displays something on your website you can, in a lot of cases, [create a custom subtheme](../theme/subtheming.md)
 
 ## Edit TWIG Templates
 
