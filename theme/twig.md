@@ -1,7 +1,7 @@
 
 # TWIG
 
-TWIG is termed a 'templating engine'; fancy way of saying something needs to paint your PHP variable in Drupal into the HTML that browsers understand.  TWIG actually allows HTML to be used directly in its templates.  Plus, it reads the variables from your Drupal PHP code and spits it back out as HTML.  Easiest way to see this is to look at a VSCode IDE editor extension which [shows the TWIG template on the left pane and the resulting HTML in the right pane (if you are if a rush about 27 seconds in)](https://www.youtube.com/watch?v=P10QBhoFgEs).  Don't automatically take the visual showing this comparison as the best tool for working with TWIG templates in your front-end work; there are many options    There is an ['xdebug' extension that can be added to your VSCode Integrated Development Environment](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug).
+TWIG is termed a 'templating engine'.  For an overview watch ["Intro to twig templates"] (https://www.youtube.com/watch?v=2cHe50tp_U4&list=PLpVC00PAQQxG0sW9YOueVgouRp4aj1bng&index=23).  A templating engine is a fancy way of saying something needs to paint your PHP variable from within Drupal to the HTML that browsers understand.  TWIG actually allows HTML to be used directly in its templates.  Plus, it reads the variables from your Drupal PHP code and spits it back out as HTML.  Easiest way to see this is to look at a VSCode IDE editor extension which [shows the TWIG template on the left pane and the resulting HTML in the right pane (if you are if a rush about 27 seconds in)](https://www.youtube.com/watch?v=P10QBhoFgEs).  Don't automatically take the visual showing this comparison as the best tool for working with TWIG templates in your front-end work; there are many options    There is an ['xdebug' extension that can be added to your VSCode Integrated Development Environment](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug).
 
 ## Sub-theming
 
@@ -12,12 +12,6 @@ The highlights of what need to be done are:
   -  In that my-theme sub-directory make a file called 'my-theme.info.yml' and another called 'my-theme.libraries.yml'
 
 That 'my-theme.info.yml' is basically going to tell your system what parent theme it is referencing, what 'regions' your website contains (likely all or a subset of the parent's), and the libraries location and file sames (typically the css and js file locations and components). The contents of that file are simple, as are most yml or yaml files.  The key thing when ever you edit one of these file is to know that the indents are TWO SPACES (so don't 'tab').  As you work on your site, you might need to jump back into that file to update this library information if you start adding extra css and js files beyond the main style sheet.  It has been [standard practice in Drupal to separate your css into 'base', 'components', and 'layout'](https://www.drupal.org/docs/develop/theming-drupal/adding-assets-css-js-to-a-drupal-theme-via-librariesyml). Although keep your eye on the [single directory components iniative](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components) for possible changes. 
-
-
-The examples above are from some excellent training videos on YOUTUBE that Acquia has provided to the Drupal community.  Follow this link to the "Intro to twig templates" but make sure to watch those after it in the series to get a further understanding: https://www.youtube.com/watch?v=2cHe50tp_U4&list=PLpVC00PAQQxG0sW9YOueVgouRp4aj1bng&index=23
-
-
-******
 
 ## Edit TWIG Templates
 
