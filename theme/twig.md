@@ -11,18 +11,8 @@ The highlights of what need to be done are:
   -  Under the 'themes' sub-directory, create an additional sub-directory with whatever you want to call your theme (e.g. 'mytheme')
   -  In that my-theme sub-directory make a file called 'my-theme.info.yml' and another called 'my-theme.libraries.yml'
 
-That 'my-theme.info.yml' is basically going to tell your system what parent theme it is referencing, what 'regions' your website contains (likely all or a subset of the parent's), and the libraries location and file sames (typically the css and js file locations and components).  As you work on your site, you might need to jump back into that file to update this library information if you start adding extra css and js files beyond the main style sheet.   
+That 'my-theme.info.yml' is basically going to tell your system what parent theme it is referencing, what 'regions' your website contains (likely all or a subset of the parent's), and the libraries location and file sames (typically the css and js file locations and components). The contents of that file are simple, as are most yml or yaml files.  The key thing when ever you edit one of these file is to know that the indents are TWO SPACES (so don't 'tab').  As you work on your site, you might need to jump back into that file to update this library information if you start adding extra css and js files beyond the main style sheet.  It has been [standard practice in Drupal to separate your css into 'base', 'components', and 'layout'](https://www.drupal.org/docs/develop/theming-drupal/adding-assets-css-js-to-a-drupal-theme-via-librariesyml). Although keep your eye on the [single directory components iniative](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components) for possible changes. 
 
-***
-
-You aren't editing the original twig template in core, you are doing it to the copy under your custom theme.  In the example below, the subdirectory for that custom theme is named 'eg' and underneath it are subdirectories for 'templates' where the twig templates go and another subdirectory for 'css' styling.  It is standard practice in Drupal to separate your css into 'base', 'components', and 'layout'; so you see those as even deeper subdirectories in the image below.
-
-In addition to having the twig and css assets in your custom theme subdirectories, you need to tell Drupal about where they are.  First you simply tell Drupal about what you are calling the custom theme and what base theme it is built upon in the file <yourcustomthemesname>.info.yml; in the example the custom them is simply called 'eg'.  See that file name in the same subdirectory at the css and templates subdirectories in the image above.
-
-The content of that file are simple, as are most yml or yaml files.  The key thing when ever you do an of these file is the indents are TWO SPACES (so don't 'tab').  Here is what eg.info.yml looks like:
-
-
-You also need to more specifically tell Drupal about the assets by showing where the css files you will use are located via <yourcustomthemesname>.libraries.yml; in the example at that same subdirectory level it is eg.libraries.yml and what is inside it is shown below:
 
 The examples above are from some excellent training videos on YOUTUBE that Acquia has provided to the Drupal community.  Follow this link to the "Intro to twig templates" but make sure to watch those after it in the series to get a further understanding: https://www.youtube.com/watch?v=2cHe50tp_U4&list=PLpVC00PAQQxG0sW9YOueVgouRp4aj1bng&index=23
 
