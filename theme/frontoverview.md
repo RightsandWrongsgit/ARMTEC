@@ -197,4 +197,4 @@ https://www.youtube.com/watch?v=-dhI5-Fs4qk OSTraining:: https://www.youtube.c
 <br>
 <br>
 
-[Learn More - CMS Front-end](../chapters.md#f
+[Learn More - CMS Front-end](../chapters.md#front-end)
