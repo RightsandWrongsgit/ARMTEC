@@ -58,13 +58,13 @@ This module provides a Pop up Modal warning of an external link leaving site.
 `composer require drupal/bootstrap_external_link_popup`<br>
 `drush en bootstrap_external_link_popup`
 
+### Bootstrap SASS
+[Bootstrap SASS](https://www.drupal.org/project/bootstrap_sass) provides the SASS approach to CSS compiling within Bootstrap.  It is typically listed as an option on the [Bootstrap Barrio theme overview.](https://www.drupal.org/project/bootstrap_barrio) Confirm that it isn't already installed via some sort of a dependency with the basic theme.  If you need to add the SASS Start Kit separately it is installed like a normal theme with composer.
+
+`composer require drupal/bootstrap_sass`<br>
+`drush en bootstrap_sass`
 
 
-
-composer require 'drupal/bootstrap_sass:^5.0'
-
-Confirm is the sass subtheme install automatically installs the barrio base theme; if not, here it is:
-composer require 'drupal/bootstrap_barrio:^5.1'
 
 
 If you want to load the bootstrap library locally you use this module; otherwise you set up the CDN approach in the first two.
