@@ -13,6 +13,27 @@ The highlights of what need to be done are:
 
 That 'my-theme.info.yml' is basically going to tell your system what parent theme it is referencing, what 'regions' your website contains (likely all or a subset of the parent's), and the libraries location and file sames (typically the css and js file locations and components).  As you work on your site, you might need to jump back into that file to update this library information if you start adding extra css and js files beyond the main style sheet.   
 
+***
+It is very common that you might find a template under your base theme that you might want to tweak in some way; either across all places it is used on your site or on a specific page or node.  You are only going to edit a copy of a twig template.  Note two things on the next image; a) there is a themes subdirectory at the same level as the core subdirectory and that is where you are going to put any customization to your base them (ie. where you are going to put the copy to edit) and b) there is a sites/default subdirectory also starting at that top level and in it is a services.yml file (which you can make by duplicating the default.services.yml file and renaming it).
+
+The logic of messing with the services.yml file is that you are going to make one super simple edit within it.  Look down say 50-60 lines for the word 'debug:' and where it says false, change it to true and same the file.  Clear your cache and when you 'inspect source' on any page on your Drupal site you will find a list of the TWIG file that is active PLUS some suggested names of an 'override' file.  
+
+Overriding is done all over Drupal as the way it is so flexible.  Drupal is a super CMS out of the box but the fact you can override all sorts of stuff makes it the best CMS out there to service a huge range of applications.  The TWIG template override is a first line of flexibility and the debug you just turned 'true' means the inspection of source will note a) where the template used in that area is located (helpful to find it to make a copy) at the bottom of the snippet below; b) the name of the currently used template (the one with 'x' in front of it below); and c) some alternative names you might consider for a copy you want to use as an override on the copy you are editing (from bottom upward, more general to more specific).  If you are overriding all uses of the current across your whole site you can keep the same name on the copy but if you are targeting the edit, think how focused you need it to be and move up the list accordingly. 
+
+You aren't editing the original twig template in core, you are doing it to the copy under your custom theme.  In the example below, the subdirectory for that custom theme is named 'eg' and underneath it are subdirectories for 'templates' where the twig templates go and another subdirectory for 'css' styling.  It is standard practice in Drupal to separate your css into 'base', 'components', and 'layout'; so you see those as even deeper subdirectories in the image below.
+
+In addition to having the twig and css assets in your custom theme subdirectories, you need to tell Drupal about where they are.  First you simply tell Drupal about what you are calling the custom theme and what base theme it is built upon in the file <yourcustomthemesname>.info.yml; in the example the custom them is simply called 'eg'.  See that file name in the same subdirectory at the css and templates subdirectories in the image above.
+
+The content of that file are simple, as are most yml or yaml files.  The key thing when ever you do an of these file is the indents are TWO SPACES (so don't 'tab').  Here is what eg.info.yml looks like:
+
+
+You also need to more specifically tell Drupal about the assets by showing where the css files you will use are located via <yourcustomthemesname>.libraries.yml; in the example at that same subdirectory level it is eg.libraries.yml and what is inside it is shown below:
+
+The examples above are from some excellent training videos on YOUTUBE that Acquia has provided to the Drupal community.  Follow this link to the "Intro to twig templates" but make sure to watch those after it in the series to get a further understanding: https://www.youtube.com/watch?v=2cHe50tp_U4&list=PLpVC00PAQQxG0sW9YOueVgouRp4aj1bng&index=23
+
+
+******
+
 ## Edit TWIG Templates
 
 ARMTEC, Inc. documentation includes a section on [Continuous Integration/Continuous Deployment (CI/CD) Workflow](../cicd/cicdoverview.md) and if you use that base, this key step is already established.  However, one of the really important things you need to know is that when you are building a sub-theme, it is pretty common that you copy but rename one of the parent theme's TWIG templates to handle some specific page or content type need unique to your own site.  But you also need to worry about how the heck Drupal will know about this customized or edited template.  The way this happens is that you use naming suggestions which Drupal offers up if you turn on [theme debugging](../cicd/envsettings.md#whats-this-twig-stuff).  Here is a [video overview of theme theme debugging](https://www.youtube.com/watch?v=rRsOxSuJ4OU) and it also shows how to disable the 'cache' so you don't need to keep doing this manually as you work on your website.  Note that ARMTEC, Inc.'s CI/CD Workflow process already does this and much more; so it is obviously the recommended way to go.
