@@ -25,35 +25,40 @@ This module has unique install instructions depending on the version of Bootstra
 
 ### Bootstrap Layout Builder
 
-Layout Builder uses different configuration settings for the grid layout choices, gutters, container widths, etc.  You can jump start the utility of its combination with Bootstrap by using this module.  See how using the [GUI interface in modern Drupal to do much of your front-end work, is enhanced by using this module with the Bootstrap theme.](https://www.youtube.com/watch?v=sMbiqSMiZ6Y)
+First try using native Layout Builder after you have Bootstrap installed and set as default.  Then consider adding this views bootstrap module to get some potential additional functionality around accordion, carousel, etc.  Bootstrap Layout Builder uses different configuration settings for the grid layout choices, gutters, container widths, etc.  You can jump start the utility of its combination with Bootstrap by using this module.  See how using the [GUI interface in modern Drupal to do much of your front-end work, is enhanced by using this module with the Bootstrap theme.](https://www.youtube.com/watch?v=sMbiqSMiZ6Y)
 
-composer require drupal/bootstrap_layout_builder
-drush en bootstrap_layout_builder
+`composer require drupal/bootstrap_layout_builder`<br>
+`drush en bootstrap_layout_builder`
 
+### Bootstrap Block Styles
+
+The Block Styles Module adds a styles selector at the end of the block configuration form.  Included styles support Bootstrap Styles on submodule for (modal, Dropdown, card, and collapse). The assumption is that a dependency on the Styles API will install it at the same time.
+
+`composer require drupal/block_styles`<br>
+`drush en block_styles`
 
 ### Bootstrap Styles
 
 This underlies the Bootstrap Layout Builder's styles plugins. 
 
-composer require drupal/bootstrap_styles
-drush en bootstrap_styles
-
+`composer require drupal/bootstrap_styles`<br>
+`drush en bootstrap_styles`
 
 ### Bootstrap Layout Builder Library
 
 This is key to [saving reusable layout sections and whole templates within Bootstrap Layout builder's GUI interface](https://www.youtube.com/watch?v=-dhI5-Fs4qk) so you can speed development by grabbing stuff from a library you build up specific to your site.  Learn more about how this library add-on module allows for sharing templates and discussion of establishing a repository of templates](https://www.youtube.com/watch?v=E68DxSLcCd0) you might benefit from others work efforts. 
 
-composer require drupal/section_library
-drush en section_library
+`composer require drupal/section_library`<br>
+`drush en section_library`
+
+### Bootstrap external link
+
+This module provides a Pop up Modal warning of an external link leaving site.
+
+`composer require drupal/bootstrap_external_link_popup`<br>
+`drush en bootstrap_external_link_popup`
 
 
-
-
-*****
-Bootstrap Barrio Theme:
-
-How to set up your own subtheme using Bootstrap Barrio:
-https://www.webwash.net/getting-started-with-bootstrap-4-using-barrio-in-drupal-8/
 
 
 composer require 'drupal/bootstrap_sass:^5.0'
@@ -65,11 +70,8 @@ composer require 'drupal/bootstrap_barrio:^5.1'
 If you want to load the bootstrap library locally you use this module; otherwise you set up the CDN approach in the first two.
 composer require 'drupal/bootstrap_library:^1.14'
 
-The Block Styles Module adds a styles selector at the end of the block configuration form.  Included styles support Bootstrap Styles on submodule for (modal, Dropdown, card, and collapse). The assumption is that a dependency on the Styles API will install it at the same time.
-composer require 'drupal/block_styles:^2.0'
 
-First try the above with Layout Builder native.  Then consider adding this views bootstrap module to get some potential additional functionality around accordion, carousel, etc. 
-composer require 'drupal/views_bootstrap:^4.3'
+
 
 (Theme: Bootstrap Barrio)
 N1ED Module:
@@ -81,8 +83,7 @@ May also consider adding this module for the capability that it enhances the nor
 composer require 'drupal/editor_advanced_link:^1.8'
 
 
-External Link Pop up Modal warning of leaving site:
-composer require 'drupal/bootstrap_external_link_popup:^2.0'
+
 
 
 The External Links module is a small module used to differentiate between internal and external links. Using jQuery, it will find all external links on a page and add an external icon  indicating it will take you offsite or a mail icon  for mailto: links.
