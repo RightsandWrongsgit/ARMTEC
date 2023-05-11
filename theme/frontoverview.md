@@ -33,35 +33,12 @@ PHP itself renders a first level of HTML output but delivering it to TWIG templa
 
 Drupal themes have TWIG templates.  Those templates are located in sub-directories under Drupal core are the base for any display that you haven't overridden.  You override them by installing 'contributed themes' in your themes sub-directory (see above note for location).  <font color=yellow>YOU DO NOT EDIT EITHER THE CORE OR CONTRIBUTED THEMES!</font>  This is because any updates to either as you refresh your site would then overwrite your edits and your work is screwed...  Rather, you make a custom theme in its own sub-directory.  Drupal, being as smart as it is, starts looking first in your custom theme sub-directory for a template, then falls back to the base contributed theme, and finally to the core base theme for any template backups it needs. What that customization for your own unique purpose is called is [creating a subtheme](../theme/twig.md#sub-theming).
 
-It is very common that you might find a template under your base theme that you might want to tweak in some way; either across all places it is used on your site or on a specific page or node.  You are only going to edit a copy of a twig template.  Note two things on the next image; a) there is a themes subdirectory at the same level as the core subdirectory and that is where you are going to put any customization to your base them (ie. where you are going to put the copy to edit) and b) there is a sites/default subdirectory also starting at that top level and in it is a services.yml file (which you can make by duplicating the default.services.yml file and renaming it).
-
-The logic of messing with the services.yml file is that you are going to make one super simple edit within it.  Look down say 50-60 lines for the word 'debug:' and where it says false, change it to true and same the file.  Clear your cache and when you 'inspect source' on any page on your Drupal site you will find a list of the TWIG file that is active PLUS some suggested names of an 'override' file.  
-
-
-Overriding is done all over Drupal as the way it is so flexible.  Drupal is a super CMS out of the box but the fact you can override all sorts of stuff makes it the best CMS out there to service a huge range of applications.  The TWIG template override is a first line of flexibility and the debug you just turned 'true' means the inspection of source will note a) where the template used in that area is located (helpful to find it to make a copy) at the bottom of the snippet below; b) the name of the currently used template (the one with 'x' in front of it below); and c) some alternative names you might consider for a copy you want to use as an override on the copy you are editing (from bottom upward, more general to more specific).  If you are overriding all uses of the current across your whole site you can keep the same name on the copy but if you are targeting the edit, think how focused you need it to be and move up the list accordingly. 
-
-
-You aren't editing the original twig template in core, you are doing it to the copy under your custom theme.  In the example below, the subdirectory for that custom theme is named 'eg' and underneath it are subdirectories for 'templates' where the twig templates go and another subdirectory for 'css' styling.  It is standard practice in Drupal to separate your css into 'base', 'components', and 'layout'; so you see those as even deeper subdirectories in the image below.
-
-In addition to having the twig and css assets in your custom theme subdirectories, you need to tell Drupal about where they are.  First you simply tell Drupal about what you are calling the custom theme and what base theme it is built upon in the file <yourcustomthemesname>.info.yml; in the example the custom them is simply called 'eg'.  See that file name in the same subdirectory at the css and templates subdirectories in the image above.
-
-The content of that file are simple, as are most yml or yaml files.  The key thing when ever you do an of these file is the indents are TWO SPACES (so don't 'tab').  Here is what eg.info.yml looks like:
-
-
-You also need to more specifically tell Drupal about the assets by showing where the css files you will use are located via <yourcustomthemesname>.libraries.yml; in the example at that same subdirectory level it is eg.libraries.yml and what is inside it is shown below:
-
-
-
-The examples above are from some excellent training videos on YOUTUBE that Acquia has provided to the Drupal community.  Follow this link to the "Intro to twig templates" but make sure to watch those after it in the series to get a further understanding: https://www.youtube.com/watch?v=2cHe50tp_U4&list=PLpVC00PAQQxG0sW9YOueVgouRp4aj1bng&index=23
-
-
-
-
-
-
-
+It is very common that you might find a template under your base theme that you might want to tweak in some way; either across all places it is used on your site or on a specific page or node.  You are going to <font color=yellow>edit a copy of a twig template.</font>  TWIG templates are very similar to HTML with just three additional basic TWIG specific pieces of syntax; [how to proceed with your own TWIG edits is outlined here.](../theme/twig.md)
 
 ## Decoupled
+
+
+
 
 - Theming & Modules for some Good Specific Themes -
 (You probably used a default theme as you laid out your fields, content types, blocks, etc.
