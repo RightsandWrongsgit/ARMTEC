@@ -33,7 +33,7 @@ Installing a base theme is a straightforward process.  First, one theme came as 
 
 ## TWIG
 
-PHP itself renders a first level of HTML output but delivering it to TWIG templates. Those TWIG templates really goose things up a notch in terms of HTML display of your content.   Then, like in most website work, CSS and JS really leverage the power of display control.   
+PHP itself renders a first level of HTML output by delivering it to TWIG templates. Those TWIG templates really goose things up a notch in terms of HTML display of your content.   Then, like in most website work, CSS and JS really leverage the power of display control.   
 
 Drupal themes have TWIG templates.  Those templates are located in sub-directories under Drupal core are the base for any display that you haven't overridden.  You override them by installing 'contributed themes' in your themes sub-directory (see above note for location).  <font color=yellow>YOU DO NOT EDIT EITHER THE CORE OR CONTRIBUTED THEMES!</font>  This is because any updates to either as you refresh your site would then overwrite your edits and your work is screwed...  Rather, you make a custom theme in its own sub-directory.  Drupal, being as smart as it is, starts looking first in your custom theme sub-directory for a template, then falls back to the base contributed theme, and finally to the core base theme for any template backups it needs. What that customization for your own unique purpose is called is [creating a subtheme](../theme/twig.md#sub-theming).
 
