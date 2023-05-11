@@ -13,6 +13,22 @@ When we talk about the "Front-end" we are referencing the TWIG, HTML, CSS, and J
 
 ## Olivero
 
+Drupal comes with a standard theme automatically.  The most current version of Drupal is using a presentation theme called [Olivero](../theme/olivero.md).  It is a relatively new addition that looks clean and modern.  For a fairly basic website you might give it a try.  It has a nice menu approach, is responsive for different devices, and it known for its accessiblity.  It is going through further updates and that might correct some potential limitations; because of some limits to your ability to customize certain parts of it you risk having your website sort of look generic. 
+
+## Bootstrap
+
+[Bootstrap](../theme/bootstrap.md) is one of the more common and powerful front-end frameworks.  It opens up a ton of flexiblity to go your own way with the look and feel of your website.  Flexibility is usually at the price of complexity and there is a little more to go this way.  However, because it is so commonly used, a version of [Bootstrap called Barrio](https://www.drupal.org/project/bootstrap_barrio) is set up specifically for use in Drupal.
+
+## Alternatives
+
+There are other alternatives that can be installed with Drupal. Right on the [Drupal website](http://Drupal.org) under the 'build' menu option you will find themes listed and a search function to look at some.  There are also commercially available themes but a watch out is that you need to be careful that the version of Drupal is supported before you buy one.  And, you might end up doing as much work with these commercial themes as just using the free ones as your starting point. 
+
+## Install Themes
+
+[Installing a Drupal theme](https://www.drupal.org/docs/user_guide/en/extend-theme-install.html) is pretty straight forward.  Just keep in mind that you not only have to install it, but you need to set it as 'default' before it is the one that your website will be using.
+
+
+
 - Theming & Modules for some Good Specific Themes -
 (You probably used a default theme as you laid out your fields, content types, blocks, etc.
 Making your site look good leverages themes and you can do a lot to even customize the Core)
