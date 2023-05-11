@@ -25,21 +25,13 @@ There are other alternatives that can be installed with Drupal. Right on the [Dr
 
 ## Install Themes
 
-[Installing a Drupal theme](https://www.drupal.org/docs/user_guide/en/extend-theme-install.html) is pretty straight forward.  Just keep in mind that you not only have to install it, but you need to set it as 'default' before it is the one that your website will be using.
+Installing a base theme is a straightforward process.  First, one theme came as default in what you installed Drupal.  [To install a Drupal theme](https://www.drupal.org/docs/user_guide/en/extend-theme-install.html) after you find it, you use [composer](../book/Novice.html#setting-up-your-basic-system) just like you do to install [Drupal modules](chapters.md#drupal-modules).  Keep in mind that you not only have to install it, but you need to set it as 'default' before it is the one that your website will be using.  To do that you go into ADMINISTRATION/APPEARANCE and install and make default.  The default theme files from Core are underneath the Core/themes subdirectory; <font color=red>YOU DO NOT EDIT ANYTHING IN CORE EVER!</font>  You can, however, copy stuff from core or from most 'contributed themes', into [your own custom theme's templates sub-directory (see last sub-directory listed in the red line section on this map)](../cicd/directorymap.html).  That is where any TWIG templates you will edit for your own unique proposes should be located. 
+
+## TWIG
+
+PHP itself renders a first level of HTML output but delivering it to TWIG templates. Those TWIG templates really goose things up a notch in terms of HTML display of your content.   Then, like in most website work, CSS and JS really leverage the power of display control.   
 
 
-
-- Theming & Modules for some Good Specific Themes -
-(You probably used a default theme as you laid out your fields, content types, blocks, etc.
-Making your site look good leverages themes and you can do a lot to even customize the Core)
-
-There is a lot of functionality right in Core.  You have a WYSIWYG editor, you have a media library for images, videos and more, you have the base theme, and you have the potential to leverage TWIG templates along with HTML, CSS, and JS in managing your presentation of you website.  The key thing to understand about Drupal is that it is a CMS or Content Management system and therefore, the first thing you are doing is setting up precise detail about what is in the content sections you will build.  So that is why thinking about fields, taxonomies, and the content types or nodes/blocks they will be presented in is the first order of business.  Making it look pretty with the theme you select, the images you apply, and the display of all the content happens after; the good news being that this separation of duties in Drupal allows you to later modify the look you present without having to redo all the content you have already dropped in.
-
-
-
-PHP itself renders a first level of HTML output but delivering it to TWIG Templates really gooses things up a notch in terms of HTML display of your content and with HTML5 some might argue state management might be enough to be done at that level.  But most will want to further enhance with CSS and JS to really leverage the power of display control.   
-
-Installing a base theme is a straightforward process.  First, one probably came by default in what you installed.  And if you want to change themes you go into ADMINISTRATION/APPEARANCE and install and make default a different one.  The default theme with Core are underneath the Core/themes subdirectory; YOU DO NOT EDIT ANYTHING IN CORE EVER!  You do, however, copy stuff from core, especially under your base theme's templates subdirectory which is where the TWIG templates live.
 
 
 It is very common that you might find a template under your base theme that you might want to tweak in some way; either across all places it is used on your site or on a specific page or node.  You are only going to edit a copy of a twig template.  Note two things on the next image; a) there is a themes subdirectory at the same level as the core subdirectory and that is where you are going to put any customization to your base them (ie. where you are going to put the copy to edit) and b) there is a sites/default subdirectory also starting at that top level and in it is a services.yml file (which you can make by duplicating the default.services.yml file and renaming it).
@@ -65,15 +57,18 @@ The examples above are from some excellent training videos on YOUTUBE that Acqui
 
 
 
-## Olivero
 
-## Bootstrap
 
-## TWIG
+
+
 
 ## Decoupled
 
+- Theming & Modules for some Good Specific Themes -
+(You probably used a default theme as you laid out your fields, content types, blocks, etc.
+Making your site look good leverages themes and you can do a lot to even customize the Core)
 
+There is a lot of functionality right in Core.  You have a WYSIWYG editor, you have a media library for images, videos and more, you have the base theme, and you have the potential to leverage TWIG templates along with HTML, CSS, and JS in managing your presentation of you website.  The key thing to understand about Drupal is that it is a CMS or Content Management system and therefore, the first thing you are doing is setting up precise detail about what is in the content sections you will build.  So that is why thinking about fields, taxonomies, and the content types or nodes/blocks they will be presented in is the first order of business.  Making it look pretty with the theme you select, the images you apply, and the display of all the content happens after; the good news being that this separation of duties in Drupal allows you to later modify the look you present without having to redo all the content you have already dropped in.
 
 
 Beyond Core -
