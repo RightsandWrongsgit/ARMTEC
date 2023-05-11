@@ -10,42 +10,42 @@ Bootstrap is so commonly used with Drupal that tens of thousands of site report 
 
 Another thing that makes Bootstrap Barrio's popularity an advantage is there are [good videos on how to install and use it](https://www.youtube.com/watch?v=D5A_aFdlWEs); don't be thrown off that the Bootstrap version has been updated since this video as all that is covered is still accurate.  You also have probably heard about Drupal's own ['Layout Builder' module](https://www.specbee.com/blogs/layout-builder-in-drupal-9-complete-guide#:~:text=Scroll%20to%20the%20bottom%20and,of%20the%20view%20modes%20present.) that offers some nice drag and drop site building support.  The good news is that [Layout Builder and Bootstrap can play nice together as demonstrated in this video on using Bootstrap's card component in it](https://www.youtube.com/watch?v=iwJW18NA_S4).
 
+## Install Bootstrap Barrio
+
+[Bootstrap Barrio installation](https://www.drupal.org/project/bootstrap_barrio) has enough features and options plus frequent updates you are best off following the modules' specific instructions on the Drupal.org site.
+
+## Extras/modules
+
+If you decide to use the Bootstrap theme (or it's Barrio deployment) you may want to at the following contributed modules to enhance its utility even further.
+
+### Views Bootstrap 
+
+This module has unique install instructions depending on the version of Bootstrap you are using in theming. Views is one of the most powerful features of Drupal so having bootstrap features integrated with it is great.   Go to the Drupal.org site for the right version install instructions to [match your Bootstrap and Drupal versions](https://www.drupal.org/project/views_bootstrap).
 
 
-MODULES UNIQUE TO BOOTSTRAP THEME DECISION:
-(Theme: Bootstrap Barrio)
-N1ED Module:
-Integrated them editor front-end for Bootstrap 4.  Think of this is the most integrated CKEditor Plugin available with a ton of widget features.  And because of the way it is built uniquely for CKEditor itself, it claims NOT to interfere with any of the other customization you might put in that editor (e.g. think about things like entity embedding).  
+### Bootstrap Layout Builder
 
-composer require drupal/n1ed
-drush en n1ed
-
-
-Views Bootstrap Module (NOTE: If you use the Bootstrap or Bootstrap Barrio theme):
-This module has unique install instructions depending on the version of Bootstrap you are using in theming.  So go to the Drupa.org site for the latest install instructions. https://www.drupal.org/project/views_bootstrap
-
-
-Bootstrap Layout Builder module:
-If you want to use the GUI interface in modern Drupal to do much of your front-end work, consider using this module with your installed and default Bootstrap theme.  https://www.youtube.com/watch?v=sMbiqSMiZ6Y
+Layout Builder uses different configuration settings for the grid layout choices, gutters, container widths, etc.  You can jump start the utility of its combination with Bootstrap by using this module.  See how using the [GUI interface in modern Drupal to do much of your front-end work, is enhanced by using this module with the Bootstrap theme.](https://www.youtube.com/watch?v=sMbiqSMiZ6Y)
 
 composer require drupal/bootstrap_layout_builder
 drush en bootstrap_layout_builder
 
 
-Bootstrap Styles module:
-This underlies the Bootstrap Layoutbuilder's styles plugins.
+### Bootstrap Styles
+
+This underlies the Bootstrap Layout Builder's styles plugins. 
 
 composer require drupal/bootstrap_styles
 drush en bootstrap_styles
 
 
-Bootstrap Layout Builder Section Library module:
-This is key to saving reusable layout sections and whole templates within Bootstrap Layout builder's GUI interface so you can speed development by grabbing stuff from a library you build up specific to your site.  There is a library add on module that allows for sharing templates and discussion of establishing a repository of templates you might benefit from others work efforts. 
+### Bootstrap Layout Builder Library
+
+This is key to [saving reusable layout sections and whole templates within Bootstrap Layout builder's GUI interface](https://www.youtube.com/watch?v=-dhI5-Fs4qk) so you can speed development by grabbing stuff from a library you build up specific to your site.  Learn more about how this library add-on module allows for sharing templates and discussion of establishing a repository of templates](https://www.youtube.com/watch?v=E68DxSLcCd0) you might benefit from others work efforts. 
 
 composer require drupal/section_library
 drush en section_library
 
-https://www.youtube.com/watch?v=-dhI5-Fs4qk OSTraining:: https://www.youtube.com/watch?v=E68DxSLcCd0
 
 
 
@@ -71,7 +71,12 @@ composer require 'drupal/block_styles:^2.0'
 First try the above with Layout Builder native.  Then consider adding this views bootstrap module to get some potential additional functionality around accordion, carousel, etc. 
 composer require 'drupal/views_bootstrap:^4.3'
 
+(Theme: Bootstrap Barrio)
+N1ED Module:
+Integrated them editor front-end for Bootstrap 4.  Think of this is the most integrated CKEditor Plugin available with a ton of widget features.  And because of the way it is built uniquely for CKEditor itself, it claims NOT to interfere with any of the other customization you might put in that editor (e.g. think about things like entity embedding).  
 
+composer require drupal/n1ed
+drush en n1ed
 May also consider adding this module for the capability that it enhances the normal link dialog in CKEditor to allow CSS classes, ID's, and Relation control (e.g. no follow, etc.).
 composer require 'drupal/editor_advanced_link:^1.8'
 
