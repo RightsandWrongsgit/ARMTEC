@@ -31,8 +31,7 @@ Installing a base theme is a straightforward process.  First, one theme came as 
 
 PHP itself renders a first level of HTML output but delivering it to TWIG templates. Those TWIG templates really goose things up a notch in terms of HTML display of your content.   Then, like in most website work, CSS and JS really leverage the power of display control.   
 
-
-
+Drupal themes have TWIG templates.  Those templates are located in sub-directories under Drupal core are the base for any display that you haven't overridden.  You override them by installing 'contributed themes' in your themes sub-directory (see above note for location).  <font color=yellow>YOU DO NOT EDIT EITHER THE CORE OR CONTRIBUTED THEMES!</font>  This is because any updates to either as you refresh your site would then overwrite your edits and your work is screwed...  Rather, you make a custom theme in its own sub-directory.  Drupal, being as smart as it is, starts looking first in your custom theme sub-directory for a template, then falls back to the base contributed theme, and finally to the core base theme for any template backups it needs. What that customization for your own unique purpose is called is [creating a subtheme](../theme/twig.md#sub-theming).
 
 It is very common that you might find a template under your base theme that you might want to tweak in some way; either across all places it is used on your site or on a specific page or node.  You are only going to edit a copy of a twig template.  Note two things on the next image; a) there is a themes subdirectory at the same level as the core subdirectory and that is where you are going to put any customization to your base them (ie. where you are going to put the copy to edit) and b) there is a sites/default subdirectory also starting at that top level and in it is a services.yml file (which you can make by duplicating the default.services.yml file and renaming it).
 
