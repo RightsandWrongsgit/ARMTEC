@@ -1,7 +1,7 @@
 
 # Front-end Overview
 
-Drupal [Content Management System (CMS)](chapters.md#chapter-content-management-system-cms) is an integrated website platform.  You select it because you have 'Content' that you which to 'Display' in a users 'Browser' in a 'Templated' manner which has some consistency.  A common example might be a newspaper which presents articles that have a title, subject, author, date, and story element consistently included in a template.  You might use the 'subject' to reference the sports, financial, lifestyle, business, and other sections in your newspaper.  In each of those sections you might 'present' the article in a slightly different style; font, color, size, etc.  Drupal has all the parts needed to control and manage the integrated workflow of all this stuff.
+Drupal [Content Management System (CMS)](chapters.md#chapter-content-management-system-cms) is an integrated website platform.  You select it because you have 'Content' that you wish to 'Display' in a users 'Browser' in a 'Templated' manner which has some consistency.  A common example might be a newspaper which presents articles that have a title, subject, author, date, and story element consistently included in a template.  You might use the 'subject' to reference the sports, financial, lifestyle, business, and other sections in your newspaper.  In each of those sections you might 'present' the article in a slightly different style; font, color, size, etc.  Drupal has all the parts needed to control and manage the integrated workflow of all this stuff.
 
 Think of the workflow like this:
 
