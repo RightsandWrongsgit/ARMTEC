@@ -68,6 +68,8 @@
     -  [Bootstrap Theme](theme/bootstrap.md)
     -  [TWIG](theme/twig.md)
     -  [Decoupled](theme/decoupled.md)
+    -  [Front-end needs investigation](../theme/frontmodules.md)
+
 
 #### Drupal Modules
 
