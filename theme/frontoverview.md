@@ -37,22 +37,11 @@ It is very common that you might find a template under your base theme that you 
 
 ## Decoupled
 
+Think of a de-coupled Drupal site as using something like a JavaScript(JS) framework like React or Vue and having it grab content from Drupal.  There are some performance benefits of a JS client inactive deployment.  There are also some breadth of device opportunities when we think of moving past computers, tables, and mobile to watches, smart TV's, vitual, other devices, and AI.  But all of these need the data or content and this brings in a real Drupal strength.  
 
+You probably should think of decoupled as a continuum rather than a cleaver.  The front-end and back-end need to talk one way or another.  There have been some [bleeding edge attempts at decoupled Drupal and interesting bumps along the way](https://www.youtube.com/watch?v=RK4BG3hsN3I).  Excitement and reality have some tendency to diverge, so be careful on your approach.
 
-
-- Theming & Modules for some Good Specific Themes -
-(You probably used a default theme as you laid out your fields, content types, blocks, etc.
-Making your site look good leverages themes and you can do a lot to even customize the Core)
-
-There is a lot of functionality right in Core.  You have a WYSIWYG editor, you have a media library for images, videos and more, you have the base theme, and you have the potential to leverage TWIG templates along with HTML, CSS, and JS in managing your presentation of you website.  The key thing to understand about Drupal is that it is a CMS or Content Management system and therefore, the first thing you are doing is setting up precise detail about what is in the content sections you will build.  So that is why thinking about fields, taxonomies, and the content types or nodes/blocks they will be presented in is the first order of business.  Making it look pretty with the theme you select, the images you apply, and the display of all the content happens after; the good news being that this separation of duties in Drupal allows you to later modify the look you present without having to redo all the content you have already dropped in.
-
-
-Beyond Core -
-
-Drupal core is already very capable.  And there is even a tool called Layout Builder (in core, but must be enabled) and it really gives lots of ability to the newer users.   However, there are a ton of what are known as "front-end" options to use with Drupal; all the way to even doing a de-coupled site with a JS framework like React or Vue grabbing content from Drupal.  Closer to home, there are a few current and emerging modules that might be considered. 
-
-For the options closer to home but that add capability, a review of a presentation from an Asheville Drupal Camp in the summer of 2020 is worth watching.  It is titled 'An Overview of Front End Component Integration Methods in Drupal' and can be found here:  https://www.youtube.com/watch?v=UQ-SRGVV9k8
-About 17 minutes into the video two broad approached to integration of components is compared.  One is 'Mapping Data In Code'  and you can think of that as more at the TWIG or even PHP preprocessing level (which backend programmers probably gravitate toward).  The other is 'Mapping Data In Admin UI' and you can think of this as aiming toward integration with things like PatternLab and Storybook components.  This video is about understanding the options and their pros and cons; but it doesn't just boldly give an answer.
+Closer to home, there are a few current and emerging modules that might be considered.  For the options closer to home but that add capability, a review of a presentation from an Asheville Drupal Camp in the summer of 2020 is worth watching.  ['An Overview of Front End Component Integration Methods in Drupal'](https://www.youtube.com/watch?v=UQ-SRGVV9k8) is especially worth watching about 17 minutes into the video where two broad approaches to integration of components are compared.  One is 'Mapping Data In Code' and you can think of that as more at the TWIG or even PHP preprocessing level (which backend programmers probably gravitate toward).  The other is 'Mapping Data In Admin UI' and you can think of this as aiming toward integration with things like PatternLab and Storybook components.  This video is about understanding the options and their pros and cons; but it doesn't just boldly give an answer.
 
 As discussed earlier, the variables from Drupal go through Twig Templates to provide a first level rendering of an entity like a page, block, etc.  You are going to want to work at the level of these templates at some point and we showed how different names, from generic to specific are shown with you have debug on.  To make that even easier, you might want to install and enable the Twig Debugger module that lets you click the little edit pencil from your GUI view of your page and then use your browser's 'source' view to see how that specific area of your page is controlled by a certain twig template (composer require drupal/twig_debugger and the drush en twig_debugger).
 
