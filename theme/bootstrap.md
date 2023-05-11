@@ -64,32 +64,21 @@ This module provides a Pop up Modal warning of an external link leaving site.
 `composer require drupal/bootstrap_sass`<br>
 `drush en bootstrap_sass`
 
+### Bootstrap Local
+
+You probably don't need this module.  Normally the 'head' of your website pages will tell the page to look for the bootstrap library on the web.  There are times when having that bootstrap library locally can be useful.  For example, if you have an existing theme on your site and are replacing it with bootstrap you may prefer to do all your work locally; say in a Lando or other local Docker container instance of your website and put it through your normal [CI/CD workflow (e.g. GitOps).](../book/drupalcicd.md)  If you want to load the bootstrap library locally you use this module; otherwise you set up the CDN approach.
+
+`composer require drupal/bootstrap_library`<br>
+`drush en bootstrap_library`
 
 
 
-If you want to load the bootstrap library locally you use this module; otherwise you set up the CDN approach in the first two.
-composer require 'drupal/bootstrap_library:^1.14'
 
-
-
-
-(Theme: Bootstrap Barrio)
-N1ED Module:
-Integrated them editor front-end for Bootstrap 4.  Think of this is the most integrated CKEditor Plugin available with a ton of widget features.  And because of the way it is built uniquely for CKEditor itself, it claims NOT to interfere with any of the other customization you might put in that editor (e.g. think about things like entity embedding).  
-
-composer require drupal/n1ed
-drush en n1ed
 May also consider adding this module for the capability that it enhances the normal link dialog in CKEditor to allow CSS classes, ID's, and Relation control (e.g. no follow, etc.).
 composer require 'drupal/editor_advanced_link:^1.8'
 
-
-
-
-
 The External Links module is a small module used to differentiate between internal and external links. Using jQuery, it will find all external links on a page and add an external icon  indicating it will take you offsite or a mail icon  for mailto: links.
 composer require 'drupal/extlink:^1.6'
-
-
 
 Flexslider module provides carousels and picture sliders; requires several configuration steps beyond the install and enable:
 composer require 'drupal/flexslider:^2.0'
