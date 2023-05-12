@@ -14,6 +14,13 @@ Another thing that makes Bootstrap Barrio's popularity an advantage is there are
 
 [Bootstrap Barrio installation](https://www.drupal.org/project/bootstrap_barrio) has enough features and options plus frequent updates you are best off folling the modules' specific instructions on the Drupal.org site.  Once you have that in place you will want to create your custom [subtheme](subtheming.md) to run under it and a [super simple overview of installing a Bootstrap Barrio subtheme via a script makes is easy.](https://www.youtube.com/watch?v=6paPMGxPu4g)
 
+## Barrio w/SASS
+
+One of the options in Bootstrap Barrio is to use SASS compiling.  It may even be noted in the Barrio Starter Kit.  Here the instructions on the Drupal.org site for the theme may need to be tweaked; not the basic install of the theme or creating a sub-theme, there you are ok.  It is after those are done and you want to do the part where you use 'npm', 'node js', etc. for the SASS overlay.   Don't worry, if you are running on a classic server.  However, as noted in the [CI/CD Workflow overview](../cicd/cicdoverview.md), there are strong reasons to use local and matched host containers coordiated with Git and a Git Repository.  
+
+All this means is that you need to figure out how to install the required tools noted in the theme documentation into your local container; in our case into Lando.  Without getting into super detail about the inner workings of containers, it means you need to [specify some 'services and some 'tooling'](http://www.lowgravitystudios.com/knowledge-base/compiling-sass-gulp) first; then to the install procedure.
+
+
 ## Extras/modules
 
 If you decide to use the Bootstrap theme (or it's Barrio deployment) you may want to at the following contributed modules to enhance its utility even further.
