@@ -45,8 +45,9 @@ Think of a [de-coupled Drupal](../theme/decoupled.md) site as using something li
 
 You probably should think of decoupled as a continuum rather than a cleaver.  The front-end and back-end need to talk one way or another.  There have been some [bleeding edge attempts at decoupled Drupal and interesting bumps along the way](https://www.youtube.com/watch?v=RK4BG3hsN3I).  Excitement and reality have some tendency to diverge, so be careful on your approach.
 
+## Render Arrays
 
-
+If you are more of a back-end developer and want to understand how Drupal is sending PHP messages to the front-end, you want to userstand [Render Arrays.](https://selwynpolit.github.io/d9book/render.html)
 
 <br>
 <br>
