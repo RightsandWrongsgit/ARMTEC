@@ -114,6 +114,9 @@ function simple_preprocess_node(&$variables) {
 Hope you enjoyed this more advanced example and want to learn more about [data processing concepts in drupal theming
 ](https://mycode.blog/lakshmi/data-processing-concepts-drupal-theming).
 
+<br>
+<br>
+
 ### Thank you sir
 ## May I have another
 
