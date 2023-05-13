@@ -12,7 +12,8 @@ Another thing that makes Bootstrap Barrio's popularity an advantage is there are
 
 ## Install Bootstrap Barrio
 
-[Bootstrap Barrio installation](https://www.drupal.org/project/bootstrap_barrio) has enough features and options plus frequent updates you are best off folling the modules' specific instructions on the Drupal.org site.  Once you have that in place you will want to create your custom [subtheme](subtheming.md) to run under it and a [super simple overview of installing a Bootstrap Barrio subtheme via a script makes is easy.](https://www.youtube.com/watch?v=6paPMGxPu4g)
+[Bootstrap Barrio installation](https://www.drupal.org/project/bootstrap_barrio) has enough features and options plus frequent updates you are best off folling the modules' specific instructions on the Drupal.org site.  Once you have that in place you will want to create your custom [subtheme](subtheming.md) to run under it and a [super simple overview of installing a Bootstrap Barrio subtheme via a script makes is easy.](https://www.youtube.com/watch?v=6paPMGxPu4g)  While all for the 'super simple' for many things in life, sometimes [seeing something done the old fashion manual way can provide better context for understanding how things work together] (https://www.youtube.com/watch?v=pEcHg3D4QHA&list=PLTANew7ttSXfn6azbqjobJk-zkkRSPd7t&index=2); <font color=yellow> NOTE: this video shows doing this with an older version of Bootstrap but the process is the same with the newer versions.</font>
+
 
 ## Barrio w/SASS
 
