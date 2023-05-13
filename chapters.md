@@ -56,6 +56,7 @@
 
 #### Drupal Basics
 
+  -   [Tutorial & Test Drive](book/drupalbasics.md)  
   -   [Understand the many types of BLOCKS in Drupal](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/blocks.md)
 
 #### Front-End
