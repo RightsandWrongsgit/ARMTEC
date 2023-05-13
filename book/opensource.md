@@ -20,6 +20,7 @@ It is pretty much standard practice to design your first website using some sort
 - [Markup Editor (Online & Download)](https://readme.so/editor){:target="_blank"}
 - [Find a Quote (Online)](https://metaphor.systems/){:target="_blank"}
 - [AI Content Writer (Online)](https://rytr.me){:target="_blank"}
+- [Available Fonts](https://fonts.google.com/)
 
 ### Graphical
 - [Remove a Photo Background (Online)](https://www.remove.bg/upload){:target="_blank"}
