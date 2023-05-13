@@ -9,6 +9,16 @@ https://imagexmedia.com/blog/drupal-new-front-end-theme-olivero
 <br>
 https://evolvingweb.com/blog/hands-drupal-10-olivero-new-theme-meaningful-name
 
+[GGG](https://www.youtube.com/watch?v=dn-JN2bcw1s)
+
+[The Best Of Drupal 10](https://pantheon.io/blog/explore-best-drupal-10)
+
+[The Making of Olivero](https://www.youtube.com/watch?v=ohPaYEbC4Lk)
+
+## Sites By Olivero
+
+[APL Pest Control](https://aplpestcontrol.com/)
+
 
 
 ## Olivero Sub-theme
@@ -17,7 +27,25 @@ https://developpeur-drupal.com/en/article/create-drupal-9-olivero-sub-theme
 
 <br>
 
+
+
+
+
+
+
+
 https://designkojo.com/drupal-theme-primer-part-1-creating-drupal-sub-theme
+
+
+
+
+
+
+
+
+
+
+
 
 - Theming & Modules for some Good Specific Themes -
 (You probably used a default theme as you laid out your fields, content types, blocks, etc.
