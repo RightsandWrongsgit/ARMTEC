@@ -39,7 +39,7 @@ We discussed earlier discovering the available variables.  In addition to [grabb
 
 ## TWIG Tweak
 
-Some people who are developers experienced in the templating approach before TWIG feel like they gave up some power with its adoption by Drupal in version 8 forward and [want to leverage approaches to TWIG extentions](https://www.youtube.com/watch?v=kEy89A0rpkQ).  One of those approaches is a contributed module called TWIG Tweak..
+Some people who are developers experienced in the templating approach before TWIG feel like they gave up some power with its adoption by Drupal in version 8 forward and [want to leverage approaches to TWIG extensions](https://www.youtube.com/watch?v=kEy89A0rpkQ).  One of those approaches is a contributed module called TWIG Tweak..
 
 `composer require drupal/twig_tweak`
 `drush en twig_tweak`
