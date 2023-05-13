@@ -114,6 +114,11 @@ function simple_preprocess_node(&$variables) {
 Hope you enjoyed this more advanced example and want to learn more about [data processing concepts in drupal theming
 ](https://mycode.blog/lakshmi/data-processing-concepts-drupal-theming).
 
+### Thank you sir
+## May I have another
+
+If you are really ready to jump in the deep end and want to [Demystifying Rendered Content in Drupal Twig Files](https://events.drupal.org/baltimore2017/sessions/demystifying-rendered-content-drupal-8-twig-files) your brain might hurt but you can get there!
+
 <br>
 <br>
 <br>
