@@ -37,7 +37,7 @@ First try using native Layout Builder after you have Bootstrap installed and set
 `composer require drupal/bootstrap_layout_builder`<br>
 `drush en bootstrap_layout_builder`
 
-### Bootstrap Block Styles
+### Block Styles
 
 The Block Styles Module adds a styles selector at the end of the block configuration form.  Included styles support Bootstrap Styles on submodule for (modal, Dropdown, card, and collapse). The assumption is that a dependency on the Styles API will install it at the same time.
 
