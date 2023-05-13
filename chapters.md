@@ -89,6 +89,7 @@
   - [Mapping](modules/mapping.md)
     - [Example: Map & Taxonomy Node Build](modules/mapinnodes.md)
   - [Links & Modals](modules/linksmodals.md)
+    - [Create your own module: Embeded YouTube Video](https://www.webwash.net/how-to-create-a-custom-field-formatter-in-drupal-8/) 
   - [Trimming Text Summaries](/modules/smarttexttrim.md)
   - [Media](modules/media.md)
   - [Layout Builder](modules/layoutbuilder.md)
