@@ -39,7 +39,7 @@
     - [Integrated Development Environment](book/ide.md)
     - [Something seems broken, help](book/diagnostics.md)
     - [Install Homebrew](book/Novice.md#setting-up-your-basic-system)
-    - [Install npm & Node JS](../book/npmnodejs.md)
+    - [Install npm & Node JS](/book/npmnodejs.md)
     - [Install Git](book/Novice.md#setting-up-your-basic-system)
     - [Obtain GitHub account](book/Novice.md#setting-up-your-basic-system)
     - [Establish SSH Key to GitHub account](book/Novice.md#setting-up-your-basic-system)
