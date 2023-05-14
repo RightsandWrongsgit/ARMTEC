@@ -15,7 +15,7 @@ ARMTEC, Inc. tends to the [Container](https://code.visualstudio.com/docs/devcont
 
 Since Lando on your local machine is where you are going to do your development, what you want to accomplish is to "inject" the tools you will be needing inside your container.  [Here is how you need to do that in Lando.](https://docs.lando.dev/node/frontend-tooling.html)  In addition to getting these into your local container [you need to tell it you want to use the Node JS service like this](https://docs.lando.dev/node/)
 
-If you are going to use the [Bootstrap theme](../theme/bootstrap.md) and leverage the extraordinary capabilities of doing so with the [SASS front-end development option](../theme/bootstrap.md#barrio-wsass), <font color=yellow>[you will want to also include the additional tooling noted for Gulp and potentially YARN](https://docs.lando.dev/node/frontend-tooling.html#making-tooling-available-on-the-cli).</font>
+If you are going to use the [Bootstrap theme](../theme/bootstrap.md) and leverage the extraordinary capabilities of doing so with the [SASS front-end development option](../theme/bootstrap.md#barrio-wsass), [<font color=yellow>you will want to also include the additional tooling noted for Gulp and potentially YARN.</font>](https://docs.lando.dev/node/frontend-tooling.html#making-tooling-available-on-the-cli)
 
 <br>
 <br>
