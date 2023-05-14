@@ -28,7 +28,7 @@ We overviewed what Operating Systems were and that different computers are invol
 * [Install Visual Studio Code](https://code.visualstudio.com/download)
 * [Install Composer](https://www.drupal.org/docs/develop/using-composer)
 * [Install Lando](https://docs.lando.dev/getting-started/installation.html)
-* Installing Docker ... Let Lando do this as it installs so version align properly
+* Installing Docker ... Let Lando do this to assure it aligns versions properly
 
 <br>
 
