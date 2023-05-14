@@ -21,6 +21,7 @@ We overviewed what Operating Systems were and that different computers are invol
 <small><font color=yellow> NOTE: this is MAC oriented so you might need to do a few different things with Linux or Windows. Although mainly just that Homebrew is a Mac thing and thus you would skip that. The other items generally lead you directly to option choices by OS if it matters:</font></small> <br>
 
 * [Install Homebrew](https://brew.sh/)
+* [NPM & Node JS](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Obtain GitHub account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
 * [Establish SSH Key to GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)
