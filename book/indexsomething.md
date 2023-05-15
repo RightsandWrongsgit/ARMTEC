@@ -3,7 +3,7 @@
 # Browser & Index.something
 
 
-Browsers on your computer are something like [Safari](https://www.apple.com/safari/), [Chrome](https://www.google.com/chrome/browser-tools/), [FireFox](https://www.mozilla.org/en-US/firefox/), [Opera](https://www.opera.com/browsers), the [Tor](https://www.torproject.org/) Privacy Browser [Onion](https://onionbrowser.com/)and others.  Browsers have built in 'smarts'.  They know how to run code for things on the [Front-end](../theme/frontoverview.md) like HTML, JavaScript, CSS, etc.  
+Browsers on your computer are something like [Safari](https://www.apple.com/safari/), [Chrome](https://www.google.com/chrome/browser-tools/), [FireFox](https://www.mozilla.org/en-US/firefox/), [Opera](https://www.opera.com/browsers), the [Tor](https://www.torproject.org/) Privacy Browser [Onion](https://onionbrowser.com/) and others.  Browsers have built in 'smarts'.  They know how to run code for things on the [Front-end](../theme/frontoverview.md) like HTML, JavaScript, CSS, etc.  
 
 ## Index File
 
