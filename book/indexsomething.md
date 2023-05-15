@@ -11,7 +11,6 @@ The first file a browser looks for at the start is an 'index' file.  Most people
 
 <br>
 
-<table align="center"><tr><td align="center" width="9999">
 <img src="images/media/indexhtml.png" width="400" height="350" alt="index.html file example">
   
 <br>
