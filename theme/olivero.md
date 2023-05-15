@@ -1,8 +1,4 @@
 
-[Drupal Theming Options](https://www.zyxware.com/article/6467/drupal-custom-theme-development)
-
-
-
 # Olivero Theme
 
 Drupal earned itself a bad reputation.  Even if people bought into the point that it is the powerhouse [CMS](../book/cms.md) they were turned off by the initial look of it; a function of the [Bartik theme](https://drupalize.me/tutorial/core-themes-bartik) being from a past generation. 
