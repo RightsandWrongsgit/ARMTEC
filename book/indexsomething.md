@@ -15,7 +15,8 @@ The first file a browser looks for at the start is an 'index' file.  Most people
 <img src="images/media/indexhtml.png" align="center" width="400" height="350" alt="index.html file example">
   
 <br>
-  
+<align="left>
+        
 This [example from "FreeCodeCamp" is explained in detail on their site.](https://www.freecodecamp.org/news/html-starter-template-a-basic-html5-boilerplate-for-index-html/) Generally think of the first line of an index file like this telling the browser what language to talk.  Then the stuff between <head> and </head> are behind the scenes instructions and calls to supporting links that your site might need; and sometimes the list is way, way more extensive than the above example.  The stuff between <body> and </body> is really the working part of your website that people see; or at least the parts between <main> and </main> in the example.  Why is that <script> stuff in the <body> area then if it isn't showing directly?  Think of it because JS or JavaScript is actually very involved in unique display aspects of your site, especially where interaction or actions are displayed.
 
 ## Other Index
