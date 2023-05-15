@@ -1,21 +1,28 @@
 
 # Misc Front-end Modules
 
-Raw notes to clean up of possibly interesting front-end modules to check out, confirm value, categorize, and edit to a good entry:
+#### Raw notes to clean up of possibly interesting front-end modules to check out, confirm value, categorize, and edit to a good entry:
 
 
 
 May also consider adding this module for the capability that it enhances the normal link dialog in CKEditor to allow CSS classes, ID's, and Relation control (e.g. no follow, etc.).
+
 composer require 'drupal/editor_advanced_link:^1.8'
 
 The External Links module is a small module used to differentiate between internal and external links. Using jQuery, it will find all external links on a page and add an external icon  indicating it will take you offsite or a mail icon  for mailto: links.
+
 composer require 'drupal/extlink:^1.6'
 
 Flexslider module provides carousels and picture sliders; requires several configuration steps beyond the install and enable:
+
 composer require 'drupal/flexslider:^2.0'
+
 The flex slider Library is needed: http://flexslider.woothemes.com/
 How TO: http://codekarate.com/daily-dose-of-drupal/drupal-8-flexslider-module
 	https://www.youtube.com/watch?v=sKmmAL_dZtU&list=PLKdePeSydSBv9ro-	oJoxnhAFInyDdU4o9&index=1
+
+<br>
+
 COMPARE THIS TO SLICK CAROUSEL MODULE BEFORE COMMITTING:
 composer require 'drupal/views_accordion:^2.0'
 composer require 'drupal/views_slideshow:^4.8'
