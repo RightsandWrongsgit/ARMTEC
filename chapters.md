@@ -37,6 +37,7 @@
     - [Git & Version Control](book/gitbasics.md)
     - [Where Am I Prompt](book/WhereAmI.md)
     - [Integrated Development Environment](book/ide.md)
+    - [Browsers and Index dot something](book/indexsomething.md)
     - [Something seems broken, help](book/diagnostics.md)
     - [Install Homebrew](book/Novice.md#setting-up-your-basic-system)
     - [Install npm & Node JS](/book/npmnodejs.md)
