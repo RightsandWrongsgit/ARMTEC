@@ -11,11 +11,10 @@ The world experiences the web with highly graphical beauty.  Heck, some sites se
 
 ## This Changes Everything
 
-[The new Olivero theme is something you need to see](https://imagexmedia.com/blog/drupal-new-front-end-theme-olivero).  The menu flow if outstanding.  The graphic frame is clean.  Its ability to work with a [Drupal GUI drag and drop tool called Layout Builder.](https://www.youtube.com/watch?v=OOM4yRWv7Ew)  Olivero is worth a quick review of its [many features and benefits](https://evolvingweb.com/blog/hands-drupal-10-olivero-new-theme-meaningful-name) before you consider any other alternatives.  
+[The new Olivero theme is something you need to see](https://imagexmedia.com/blog/drupal-new-front-end-theme-olivero).  The menu flow if outstanding.  The graphic frame is clean.  Its ability to work with a [Drupal GUI drag and drop tool called Layout Builder.](https://www.youtube.com/watch?v=OOM4yRWv7Ew)  Olivero is worth a quick review of its [many features and benefits](https://evolvingweb.com/blog/hands-drupal-10-olivero-new-theme-meaningful-name) before you consider any other alternatives.  Olivero is just the theme part of the recent advances in Drupal.  There are many more; see [The Best Of Drupal 10.](https://pantheon.io/blog/explore-best-drupal-10)
 
-[GGG](https://www.youtube.com/watch?v=dn-JN2bcw1s)
+[To really get under the hood and see what a powerhouse Olivero really is, you should hear from its lead developer.](https://www.youtube.com/watch?v=dn-JN2bcw1s)  Sure, he gives you some nuts and bolts level things but more importanly he reviews its huge range of features.  When you listen to his presentation please think about if and how any other approach you are going to try to build your own site with is going to handle all these critical things.
 
-[The Best Of Drupal 10](https://pantheon.io/blog/explore-best-drupal-10)
 
 [The Making of Olivero](https://www.youtube.com/watch?v=ohPaYEbC4Lk)
 
