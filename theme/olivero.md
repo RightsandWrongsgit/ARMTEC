@@ -13,10 +13,7 @@ The world experiences the web with highly graphical beauty.  Heck, some sites se
 
 [The new Olivero theme is something you need to see](https://imagexmedia.com/blog/drupal-new-front-end-theme-olivero).  The menu flow if outstanding.  The graphic frame is clean.  Its ability to work with a [Drupal GUI drag and drop tool called Layout Builder.](https://www.youtube.com/watch?v=OOM4yRWv7Ew)  Olivero is worth a quick review of its [many features and benefits](https://evolvingweb.com/blog/hands-drupal-10-olivero-new-theme-meaningful-name) before you consider any other alternatives.  Olivero is just the theme part of the recent advances in Drupal.  There are many more; see [The Best Of Drupal 10.](https://pantheon.io/blog/explore-best-drupal-10)
 
-[To really get under the hood and see what a powerhouse Olivero really is, you should hear from its lead developer.](https://www.youtube.com/watch?v=dn-JN2bcw1s)  Sure, he gives you some nuts and bolts level things but more importanly he reviews its huge range of features.  When you listen to his presentation please think about if and how any other approach you are going to try to build your own site with is going to handle all these critical things.
-
-
-[The Making of Olivero](https://www.youtube.com/watch?v=ohPaYEbC4Lk)
+[To really get under the hood and see what a powerhouse Olivero really is, you should hear from its lead developer.](https://www.youtube.com/watch?v=dn-JN2bcw1s)  Sure, he gives you some nuts and bolts level things but more importanly he reviews its huge range of features.  When you listen to his presentation please think about if and how any other approach you are going to try to build your own site with is going to handle all these critical things.  [Olivero not only has outstanding navigation and great accessiblity features, its Flexbox deployment provides super responsiveness on devicesThe Making of Olivero](https://www.youtube.com/watch?v=ohPaYEbC4Lk); <font color=yellow> Please jump ahead to 19:30 to get to the good stuff on this video.
 
 ## Sites By Olivero
 
@@ -32,11 +29,6 @@ https://developpeur-drupal.com/en/article/create-drupal-9-olivero-sub-theme
 
 
 
-
-
-
-
-
 https://designkojo.com/drupal-theme-primer-part-1-creating-drupal-sub-theme
 
 
@@ -46,7 +38,7 @@ https://designkojo.com/drupal-theme-primer-part-1-creating-drupal-sub-theme
 
 
 
-
+*************
 
 
 
@@ -56,9 +48,7 @@ Making your site look good leverages themes and you can do a lot to even customi
 
 There is a lot of functionality right in Core.  You have a WYSIWYG editor, you have a media library for images, videos and more, you have the base theme, and you have the potential to leverage TWIG templates along with HTML, CSS, and JS in managing your presentation of you website.  The key thing to understand about Drupal is that it is a CMS or Content Management system and therefore, the first thing you are doing is setting up precise detail about what is in the content sections you will build.  So that is why thinking about fields, taxonomies, and the content types or nodes/blocks they will be presented in is the first order of business.  Making it look pretty with the theme you select, the images you apply, and the display of all the content happens after; the good news being that this separation of duties in Drupal allows you to later modify the look you present without having to redo all the content you have already dropped in.
 
-Think of the work flow like this:
 
-Content→Database→PHP(core)→TWIG/HTML→CSS & JS→View by user in Browser
 
 PHP itself renders a first level of HTML output but delivering it to TWIG Templates really gooses things up a notch in terms of HTML display of your content and with HTML5 some might argue state management might be enough to be done at that level.  But most will want to further enhance with CSS and JS to really leverage the power of display control.   
 
@@ -154,8 +144,7 @@ May also consider adding this module for the capability that it enhances the nor
 composer require 'drupal/editor_advanced_link:^1.8'
 
 
-External Link Pop up Modal warning of leaving site:
-composer require 'drupal/bootstrap_external_link_popup:^2.0'
+
 
 
 The External Links module is a small module used to differentiate between internal and external links. Using jQuery, it will find all external links on a page and add an external icon  indicating it will take you offsite or a mail icon  for mailto: links.
@@ -194,23 +183,14 @@ Animate.css
 Hover.css
 
 
-Potential free image sources -
-	Pexels.com
-unsplash.com/
-upsplash.com
+
 
 
 composer require 'drupal/components:^3.0@beta'
 Could be that the components module may offer some easy style editing via its GUI.  But you are probably better to stick with direct TWIG and CSS and JS editing.
 
 
-MODULES UNIQUE TO BOOTSTRAP THEME DECISION:
-(Theme: Bootstrap Barrio)
-N1ED Module:
-Integrated them editor front-end for Bootstrap 4.  Think of this is the most integrated CKEditor Plugin available with a ton of widget features.  And because of the way it is built uniquely for CKEditor itself, it claims NOT to interfere with any of the other customization you might put in that editor (e.g. think about things like entity embedding).  
 
-composer require drupal/n1ed
-drush en n1ed
 
 
 Views Bootstrap Module (NOTE: If you use the Bootstrap or Bootstrap Barrio theme):
