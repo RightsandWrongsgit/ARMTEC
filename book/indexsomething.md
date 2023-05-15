@@ -3,7 +3,7 @@
 # Browser & Index.something
 
 
-Browsers on your computer are something like Safari, Chrome, FireFox, Opera, and others.  Browsers have built in 'smarts'.  They know how to run code for things on the Front-end like HTML, JavaScript, CSS, etc.  
+Browsers on your computer are something like [Safari](https://www.apple.com/safari/), [Chrome](https://www.google.com/chrome/browser-tools/), [FireFox](https://www.mozilla.org/en-US/firefox/), [Opera](https://www.opera.com/browsers), the [Tor](https://www.torproject.org/)Privacy Browser [Onion](https://onionbrowser.com/)and others.  Browsers have built in 'smarts'.  They know how to run code for things on the [Front-end](../theme/frontoverview.md) like HTML, JavaScript, CSS, etc.  
 
 ## Index File
 
@@ -23,7 +23,7 @@ This [example from "FreeCodeCamp" is explained in detail on their site.](https:/
 
 `index.html index.cgi index.pl index.php index.xhtml index.htm`
 
-These other index.something files are often called when a website has more depth to it and the [front-end ](../theme/frontoverview.md)  speaks to a back-end server-side component.  Since Drupal's [CMS](../book/cms.md) is built upon a 'php' framework, a q[uick peek at index.php may be worth understanding.](https://www.youtube.com/watch?v=0YMt5JdvOmc)
+These other index.something files are often called when a website has more depth to it and the [front-end ](../theme/frontoverview.md)  speaks to a back-end server-side component.  Since Drupal's [CMS](../book/cms.md) is built upon a 'php' framework, a [quick peek at index.php may be worth understanding.](https://www.youtube.com/watch?v=0YMt5JdvOmc)
 
 If you happen to know HTML already, you will find it interesting that you can mix it with 'php' to quickly add some dynamic updates to your work.  An example of [building several parts of a website with HTML and having index.php make key calls to it is worth understanding.](https://www.makeuseof.com/tag/build-simple-php-website/) For a more [in depth review of mixing HTML and php you might find this summary tutorial session valuable.](https://code.tutsplus.com/tutorials/how-to-use-php-in-html-code--cms-34378)
 
