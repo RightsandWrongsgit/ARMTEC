@@ -64,7 +64,7 @@ This underlies the Bootstrap Layout Builder's styles plugins.
 
 ### Bootstrap Layout Builder Library
 
-This is key to [saving reusable layout sections and whole templates within Bootstrap Layout builder's GUI interface](https://www.youtube.com/watch?v=-dhI5-Fs4qk) so you can speed development by grabbing stuff from a library you build up specific to your site.  Learn more about how this library add-on module allows for sharing templates and discussion of establishing a repository of templates](https://www.youtube.com/watch?v=E68DxSLcCd0) you might benefit from others work efforts. 
+This is key to [saving reusable layout sections and whole templates within Bootstrap Layout builder's GUI interface](https://www.youtube.com/watch?v=-dhI5-Fs4qk) so you can speed development by grabbing stuff from a library you build up specific to your site.  Learn more about how [this library add-on module allows for sharing templates and discussion of establishing a repository of templates](https://www.youtube.com/watch?v=E68DxSLcCd0) you might benefit from others work efforts. 
 
 `composer require drupal/section_library`<br>
 `drush en section_library`
