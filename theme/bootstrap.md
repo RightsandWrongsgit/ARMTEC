@@ -19,7 +19,7 @@ Another thing that makes Bootstrap Barrio's popularity an advantage is there are
 
 ### Not using containers
 
-If you are using a classic server installation or what we might call 'installing on metal', you can [follow this process that outlines the Bootstrap Barrio theme installation including the SASS option and creating your own custom subtheme from it.](https://ostraining.com/blog/drupal/how-to-use-bootstrap-5-and-sass-in-drupal-9/) <font color=yellow>Please use your</font> [Integrated Development Environment](../book/ide.md) <font color=yellow>to move around into the correct sub-directories to run the various commands rather than some of the command line syntax shown in that tutorial in a rather confusing way.</font>  Other than that that Ostraining overview is excellent.
+If you are using a classic server installation or what we might call 'installing on metal', you can [follow this process that outlines the Bootstrap Barrio theme installation including the SASS option and creating your own custom subtheme from it.](https://ostraining.com/blog/drupal/how-to-use-bootstrap-5-and-sass-in-drupal-9/) <font color=yellow>Please use your</font> [Integrated Development Environment](../book/ide.md) <font color=yellow>to move around into the correct sub-directories to run the various commands rather than some of the command line syntax shown in that tutorial in a rather confusing way.</font>  Other than that the Ostraining overview is excellent.
 
 ### Using Containers
 
