@@ -5,9 +5,13 @@
 
 # Olivero Theme
 
-https://imagexmedia.com/blog/drupal-new-front-end-theme-olivero
-<br>
-https://evolvingweb.com/blog/hands-drupal-10-olivero-new-theme-meaningful-name
+Drupal earned itself a bad reputation.  Even if people bought into the point that it is the powerhouse [CMS](../book/cms.md) they were turned off by the initial look of it; a function of the [Bartik theme](https://drupalize.me/tutorial/core-themes-bartik) being from a past generation. 
+
+The world experiences the web with highly graphical beauty.  Heck, some sites seem to offer little more than pictures.  Drupal was build for function and it speaks to the developer community who create performance that way.  Drupal has been on a tremendous update mode for several years now and has learned to speak to both Developers and Site Builders.  That later group probably migrated from trying [Wix](https://www.wix.com/) not really haveing to know anything but wanting more, rolled through [WordPress](https://wordpress.com/) but hit the wall quickly, and has now heard Drupal can accomplish any of their goals.  A new "WELCOME" sign is out with the Olivero theme presenting a clean, modern style while front-ending real functionality.
+
+## This Changes Everything
+
+[The new Olivero theme is something you need to see](https://imagexmedia.com/blog/drupal-new-front-end-theme-olivero).  The menu flow if outstanding.  The graphic frame is clean.  Its ability to work with a [Drupal GUI drag and drop tool called Layout Builder.](https://www.youtube.com/watch?v=OOM4yRWv7Ew)  Olivero is worth a quick review of its [many features and benefits](https://evolvingweb.com/blog/hands-drupal-10-olivero-new-theme-meaningful-name) before you consider any other alternatives.  
 
 [GGG](https://www.youtube.com/watch?v=dn-JN2bcw1s)
 
