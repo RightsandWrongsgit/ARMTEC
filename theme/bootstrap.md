@@ -40,6 +40,8 @@ If you decide to use the Bootstrap theme (or it's Barrio deployment) you may wan
 
 This module has unique install instructions depending on the version of Bootstrap you are using in theming. Views is one of the most powerful features of Drupal so having bootstrap features integrated with it is great.   Go to the Drupal.org site for the right version install instructions to [match your Bootstrap and Drupal versions](https://www.drupal.org/project/views_bootstrap).
 
+`composer require drupal/views_bootstrap`
+`drush en views_bootstrap`
 
 ### Bootstrap Layout Builder
 
