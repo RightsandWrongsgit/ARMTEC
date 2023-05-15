@@ -17,7 +17,7 @@ When we talk about the "Front-end" we are referencing the TWIG, HTML, CSS, and J
 
 ## Olivero
 
-Drupal comes with a standard theme automatically.  The most current version of Drupal is using a presentation theme called [Olivero](../theme/olivero.md).  It is a relatively new addition that looks clean and modern.  For a fairly basic website you might give it a try.  It has a nice menu approach, is responsive for different devices, and it known for its accessiblity.  It is going through further updates and that might correct some potential limitations; because of some limits to your ability to customize certain parts of it you risk having your website sort of look generic. 
+Drupal comes with a standard theme automatically.  The most current version of Drupal is using a presentation theme called [Olivero](../theme/olivero.md).  It is a relatively new addition that looks clean and modern.  It has a nice menu approach, is responsive for different devices, and it known for its accessiblity.  It is going through further updates but is ready out of the box for many uses.  If you have come from things like [Wix](https://www.wix.com/) or are a frustrated [WordPress](https://wordpress.com/) user, Olivero as the default theme is the most current version of Drupal is well worth your trying.
 
 ## Bootstrap
 
