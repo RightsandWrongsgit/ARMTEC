@@ -123,17 +123,8 @@ https://www.webwash.net/getting-started-with-bootstrap-4-using-barrio-in-drupal-
 composer require 'drupal/bootstrap_sass:^5.0'
 
 Confirm is the sass subtheme install automatically installs the barrio base theme; if not, here it is:
+	
 composer require 'drupal/bootstrap_barrio:^5.1'
-
-
-If you want to load the bootstrap library locally you use this module; otherwise you set up the CDN approach in the first two.
-composer require 'drupal/bootstrap_library:^1.14'
-
-The Block Styles Module adds a styles selector at the end of the block configuration form.  Included styles support Bootstrap Styles on submodule for (modal, Dropdown, card, and collapse). The assumption is that a dependency on the Styles API will install it at the same time.
-composer require 'drupal/block_styles:^2.0'
-
-First try the above with Layout Builder native.  Then consider adding this views bootstrap module to get some potential additional functionality around accordion, carousel, etc. 
-composer require 'drupal/views_bootstrap:^4.3'
 
 
 
@@ -146,35 +137,8 @@ composer require 'drupal/components:^3.0@beta
 Could be that the components module may offer some easy style editing via its GUI.  But you are probably better to stick with direct TWIG and CSS and JS editing.
 
 
-Views Bootstrap Module (NOTE: If you use the Bootstrap or Bootstrap Barrio theme):
-This module has unique install instructions depending on the version of Bootstrap you are using in theming.  So go to the Drupa.org site for the latest install instructions. https://www.drupal.org/project/views_bootstrap
 
 
-
-Bootstrap Layout Builder module:
-If you want to use the GUI interface in modern Drupal to do much of your front-end work, consider using this module with your installed and default Bootstrap theme.  https://www.youtube.com/watch?v=sMbiqSMiZ6Y
-
-composer require drupal/bootstrap_layout_builder
-drush en bootstrap_layout_builder
-
-
-
-Bootstrap Styles module:
-This underlies the Bootstrap Layoutbuilder's styles plugins.
-
-composer require drupal/bootstrap_styles
-drush en bootstrap_styles
-
-
-
-Bootstrap Layout Builder Section Library module:
-This is key to saving reusable layout sections and whole templates within Bootstrap Layout builder's GUI interface so you can speed development by grabbing stuff from a library you build up specific to your site.  There is a library add on module that allows for sharing templates and discussion of establishing a repository of templates you might benefit from others work efforts. 
-
-composer require drupal/section_library
-drush en section_library
-
-https://www.youtube.com/watch?v=-dhI5-Fs4qk OSTraining:: https://www.youtube.com/watch?v=E68DxSLcCd0
- 
 
 
 <br>
