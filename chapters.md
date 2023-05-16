@@ -58,7 +58,7 @@
 
 ##### Office Suite
 
-- [LibreOffice (Software)](<iframe src="http://www.libreoffice.org/" height="500" width="750" allowfullscreen="" frameborder="50"></iframe>)   
+- [LibreOffice (Software)](<iframe src="http://www.libreoffice.org/" height="500" width="750" frameborder="50"></iframe>)   
 - [Remember LibreOffice Extensions](https://extensions.libreoffice.org/)
 
 ##### Text
