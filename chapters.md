@@ -66,7 +66,7 @@
     - [Doc/DocX to Markup Converter (Online)](https://word2md.com/){:target="_blank"}
     - [Markup Editor (Online & Download)](https://readme.so/editor){:target="_blank"}
     - [Find a Quote (Online)](https://metaphor.systems/){:target="_blank"}
-    - [Lorem Ipsum Generator (Online)][(https://lipsum.com/){:target="_blank"}
+    - [Lorem Ipsum Generator (Online)](https://lipsum.com/){:target="_blank"}
     - [AI Content Writer (Online)](https://rytr.me){:target="_blank"}
     - [Available Fonts](https://fonts.google.com/){:target="_blank"}
 
