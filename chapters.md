@@ -79,6 +79,7 @@
     - [Compress an Image (Online)](https://compressor.io/){:target="_blank"}
     - [Edit a Video (Software)](https://www.vlognow.me){:target="_blank"}
     - [Potential free image sources](https://Pexels.com){:target="_blank"}
+    - [Free Video and Images](https://coverr.co/) 
     - [Free Plus optional Paid images](https://unsplash.com/){:target="_blank"}
 
 - ##### Layout
