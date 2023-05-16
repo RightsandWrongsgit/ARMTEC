@@ -66,11 +66,11 @@
     - [Doc/DocX to Markup Converter (Online)](https://word2md.com/){:target="_blank"}
     - [Markup Editor (Online & Download)](https://readme.so/editor){:target="_blank"}
     - [Find a Quote (Online)](https://metaphor.systems/){:target="_blank"}
-    - [Lorem Ipsum Generator (Online)][(https://lipsum.com/)
+    - [Lorem Ipsum Generator (Online)][(https://lipsum.com/){:target="_blank"}
     - [AI Content Writer (Online)](https://rytr.me){:target="_blank"}
-    - [Available Fonts](https://fonts.google.com/)
+    - [Available Fonts](https://fonts.google.com/){:target="_blank"}
 
-###### Graphical
+- ###### Graphical
 
     - [Remove a Photo Background (Online)](https://www.remove.bg/upload){:target="_blank"}
     - [Object Eraser (Online)](https://magicstudio.com/magiceraser){:target="_blank"}
@@ -81,13 +81,13 @@
     - [Potential free image sources](https://Pexels.com){:target="_blank"}
     - [Free Plus optional Paid images](https://unsplash.com/){:target="_blank"}
 
-##### Layout
+- ##### Layout
 
     - [AI Color Palatte Generator (Online)](https://huemint.com/){:target="_blank"}
     - [Make a Formal Mockup (Online)](https://penpot.app/){:target="_blank"}
     - [UI/UX Design Tutorial](https://www.youtube.com/watch?v=c9Wg6Cb_YlU){:target="_blank"}
 
-##### Front-end
+- ##### Front-end
 
     - [Color Palette Combinations](https://fffuel.co){:target="_blank"}
     - [Animation with CSS (Online)](https://animista.net/){:target="_blank"}
@@ -103,7 +103,7 @@
     - [Bootstrap](https://getbootstrap.com/){:target="_blank"}
     - [Electron Cross-Platform](https://www.electronjs.org/){:target="_blank"}
 
-##### Developer
+- ##### Developer
 
     - [Composer (coordinate Drupal modules)](https://getcomposer.org/){:target="_blank"}
     - [npm (Node Package Manager, JavaScript Library/Registry)](https://www.npmjs.com/){:target="_blank"}
@@ -113,14 +113,14 @@
     - [Docker & Docker-Compose](book/docker)
     - [PHP Code Checker (Online)](https://extendsclass.com/php-tester.html){:target="_blank"}
 
-##### Handy Utilities
+- ##### Handy Utilities
 
     - [Sticky Notes (part of Mac)](https://support.apple.com/guide/stickies/welcome/mac){:target="_blank"}
     - [Calculators for EVERYTHING](https://www.omnicalculator.com/){:target="_blank"}
     - [Clipboard on Steroids](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12){:target="_blank"}
     - [AI Code Documentation/Generation (Online)](https://www.figstack.com/){:target="_blank"}
 
-##### Sources for more tools
+- ##### Sources for more tools
 
     - [Open Source Alternative](https://www.opensourcealternative.to/){:target="_blank"}
     - [Tiny Wow](https://tinywow.com/){:target="_blank"}
