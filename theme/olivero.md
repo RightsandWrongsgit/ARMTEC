@@ -20,16 +20,9 @@ The world experiences the web with highly graphical beauty.  Heck, some sites se
 
 Normally many themes in Drupal are meant to be further customized using a process called [sub-theming.](../theme/subtheming.md)	 This formally isn't the case with Olivero.  Rather, it is meant to be used directly.  That sort of makes life a little easier in terms of setting things up.  But it makes things a little less flexible for where you might head.  What is behind this is that Drupal is aiming to make things increasingly easy so it attracts more people to use it and is adding to its [theme StarterKit effort.](https://www.youtube.com/watch?v=gkUAjQ5xKT8)  There is actually something underlying this even deeper and that is an initiative to [automate the Drupal version update process.](https://www.youtube.com/watch?v=Fp0bVnCs0R8)  Eventually this will make Drupal even more capable of serving the needs of Site Builder.  Still, the underlying architecture wouuld appear to assure continuity with the needs of Developers who prefer independently installed themes that they sub-theme.	
 	
-	
-	
-[order a](https://developpeur-drupal.com/en/article/create-drupal-9-olivero-sub-theme)
+People have gone ahead and directly [sub-themed Olivero.](https://designkojo.com/drupal-theme-primer-part-1-creating-drupal-sub-theme)  The risk of doing so it that the Olivero parent theme could change in ways that will break stuff the custom theme relies upon.  Do you take that risk?  Well it isn't an insurmountable thing to go back in and figure out how to fix your custom theme files to work with an updated if you are comfortable in how [TWIG](../theme/twig.md) , [HTML, and CSS](.. /book/opensource.md#front-end) in a priority to backup default flow; then you can trace what broke and just edit it.  Others have also shown how the created an [Olivero sub-theme at a much more detailed level to give you a feel for more of the code level things going on under the hood](https://developpeur-drupal.com/en/article/create-drupal-9-olivero-sub-theme)
 
-<br>
-
-
-
-[order b](https://designkojo.com/drupal-theme-primer-part-1-creating-drupal-sub-theme)
-
+If you are simply wanting to have a great theme out of the box give Olivero a shot.  It has a lot of customizations you can do directly and the example sites using that theme show you some.  If you grow in comfort with the underlying front-end tool set of [TWIG](../theme/twig.md) , [HTML, and CSS](.. /book/opensource.md#front-end) you might dare to sub-theme Olivero.  If you are that far along, you might also be ready to head toward the [Bootstrap theme.](../theme/bootstrap.md)  Good news either way, you can switch themes in Drupal very easily in terms of the front-end to back-end connection; might not look pretty right away but that will be all front-end stuff you then will want to tweak.	
 
 
 <br>
