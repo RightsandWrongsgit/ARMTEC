@@ -56,12 +56,12 @@
 
   - [Open Source Tools Overview](book/opensource.md)
 
-##### Office Suite
-  -
+- ##### Office Suite
+  
     - [LibreOffice (Software)](http://www.libreoffice.org/)   
     - [Remember LibreOffice Extensions](https://extensions.libreoffice.org/)
 
-##### Text
+- ##### Text
 
     - [Doc/DocX to Markup Converter (Online)](https://word2md.com/){:target="_blank"}
     - [Markup Editor (Online & Download)](https://readme.so/editor){:target="_blank"}
