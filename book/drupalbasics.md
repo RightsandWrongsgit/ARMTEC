@@ -9,6 +9,11 @@ All that is getting way ahead of ourselves.  If you don't know much about using 
 
 If we assume you found all that to your liking, then turn to our [CI/CD Drupal Base Project](../book/drupalcicd.md) to get rolling with your own first project.  This workflow uses Lando and Platform.sh as local-host connected [containers.](https://code.visualstudio.com/docs/devcontainers/containers) One of the key [benefits of a containerization approach](https://www.mendix.com/blog/benefits-of-containerization/) is the simplicity of building, destroying, and rebuilding a Drupal website.  Don't worry, that workflow set up provided does this in a way that stores your work, lets you backtrack to recover from 'mess ups', and makes learning itself also an iterative process.
 
+## Learning Sources
+
+Besides this site itself, there are a ton of resources to learn more about Drupal.  Never one to reinvent the wheel checkout a solid list from [Selwyn Polit's Site.](https://selwynpolit.github.io/d9book/learn)  One he may have overlooked that is real strong is called [WebWash from Ivan Zugec](https://www.webwash.net/) over in Australia; he reviews things with real practical 'how to' depth.  When I was first learning Drupal one of my favorites was the [Code Karate Kid and his 'another daily dose of Drupal' videos;](https://www.youtube.com/@codekaratetutorials) these are somewhat dated at this point but many modules he reviews has current versions worth checking out.  I love how brief they are and wish the new Drupal [Project Browser wish is a better way to find valuable contributed modules](https://www.drupal.org/project/project_browser) would require or at least encourage module developers to provide these type of brief video overviews there.  Perhaps this is your [Open Source Contribution Opportunity](../book/opensource.md)
+
+
 <br>
 <br>
 <br>
