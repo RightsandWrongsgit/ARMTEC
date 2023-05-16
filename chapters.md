@@ -58,6 +58,11 @@
 
 ##### Office Suite
 
+<div class="video-container">
+    <iframe style="position: relative;padding-bottom: 56.25%;padding-top: 35px;" src="http://www.libreoffice.org/" height="315" width="560" allowfullscreen="" frameborder="0">
+    </iframe>
+</div>
+
 - [LibreOffice (Software)](<iframe src="http://www.libreoffice.org/" height="500" width="750" allowfullscreen="" frameborder="0"></iframe>)   
 - [Remember LibreOffice Extensions](https://extensions.libreoffice.org/)
 
