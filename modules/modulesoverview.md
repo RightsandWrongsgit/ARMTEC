@@ -44,7 +44,7 @@ You are going to benefit from a bunch more modules that others had contributed t
 - [Search]()
 - [Themes]()
 - [Menu Enhancements]()
-- [Forms]()
+- [Forms](../modules/forms.md)
 - [Roles/Content Moderation]()
 - [Mail]()
 - [Marketing]()
