@@ -31,6 +31,7 @@ It is pretty much standard practice to design your first website using some sort
 - [Compress an Image (Online)](https://compressor.io/){:target="_blank"}
 - [Edit a Video (Software)](https://www.vlognow.me){:target="_blank"}
 - [Potential free image sources](https://Pexels.com){:target="_blank"}
+- [Free Video and Images](https://coverr.co/){:target="_blank"}
 - [Free Plus optional Paid images](https://unsplash.com/){:target="_blank"}
 	
 
