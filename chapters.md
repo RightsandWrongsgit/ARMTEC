@@ -57,7 +57,7 @@
   - [Open Source Tools Overview](book/opensource.md)
 
 ##### Office Suite
-
+  -
     - [LibreOffice (Software)](http://www.libreoffice.org/)   
     - [Remember LibreOffice Extensions](https://extensions.libreoffice.org/)
 
