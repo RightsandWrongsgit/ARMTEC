@@ -58,8 +58,8 @@
 
 ##### Office Suite
 
-    - [LibreOffice (Software)](https://www.libreoffice.org/){:target="_blank"}
-    - [Remember LibreOffice Extensions](https://extensions.libreoffice.org/){:target="_blank"}
+    - [LibreOffice (Software)](https://www.libreoffice.org/){:target="_blank"}<br>
+    - [Remember LibreOffice Extensions](https://extensions.libreoffice.org/){:target="_blank"}<br>
 
 ##### Text
 
