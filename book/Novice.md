@@ -24,7 +24,7 @@ We overviewed what Operating Systems were and that different computers are invol
 * [npm & Node JS](../book/npmnodejs.md)
 * [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 * [Obtain GitHub account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
-* [Establish SSH Key to GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)
+* [Establish SSH Key to GitHub account](../book/ssh.md)
 * [Install Visual Studio Code](https://code.visualstudio.com/download)
 * [Install Composer](https://www.drupal.org/docs/develop/using-composer)
 * [Install Lando](https://docs.lando.dev/getting-started/installation.html)
