@@ -48,9 +48,63 @@
     - [Install Composer](book/Novice.md#setting-up-your-basic-system)
     - [Install Lando](book/Novice.md#setting-up-your-basic-system)
     - [Installing Docker](book/Novice.md#setting-up-your-basic-system)
-  - [Open Source Tools](book/opensource.md)
-  - [Cheatsheets](book/cheats.md)
-  - [Hosting: How will Others see my website?](book/hosting.md)
+### Open Source Tools
+  - [Open Source Tools Overview](book/opensource.md)
+##### Office Suite
+    - [LibreOffice (Software)](https://www.libreoffice.org/){:target="_blank"}
+    - [Remember LibreOffice Extensions](https://extensions.libreoffice.org/){:target="_blank"}
+##### Text
+    - [Doc/DocX to Markup Converter (Online)](https://word2md.com/){:target="_blank"}
+    - [Markup Editor (Online & Download)](https://readme.so/editor){:target="_blank"}
+    - [Find a Quote (Online)](https://metaphor.systems/){:target="_blank"}
+    - [Lorem Ipsum Generator (Online)][(https://lipsum.com/)
+    - [AI Content Writer (Online)](https://rytr.me){:target="_blank"}
+    - [Available Fonts](https://fonts.google.com/)
+###### Graphical
+    - [Remove a Photo Background (Online)](https://www.remove.bg/upload){:target="_blank"}
+    - [Object Eraser (Online)](https://magicstudio.com/magiceraser){:target="_blank"}
+    - [Edit a Photo (Software)](https://www.gimp.org/){:target="_blank"}
+    - [AI Image Generator (Software)](https://diffusionbee.com/){:target="_blank"}
+    - [Compress an Image (Online)](https://compressor.io/){:target="_blank"}
+    - [Edit a Video (Software)](https://www.vlognow.me){:target="_blank"}
+    - [Potential free image sources](https://Pexels.com){:target="_blank"}
+    - [Free Plus optional Paid images](https://unsplash.com/){:target="_blank"}
+##### Layout
+    - [AI Color Palatte Generator (Online)](https://huemint.com/){:target="_blank"}
+    - [Make a Formal Mockup (Online)](https://penpot.app/){:target="_blank"}
+    - [UI/UX Design Tutorial](https://www.youtube.com/watch?v=c9Wg6Cb_YlU){:target="_blank"}
+##### Front-end:
+    - [Color Palette Combinations](https://fffuel.co){:target="_blank"}
+    - [Animation with CSS (Online)](https://animista.net/){:target="_blank"}
+    - [CSS Shadows](https://neumorphism.io/#8c00ff){:target="_blank"}
+    - [CSS Components](https://uiverse.io/all){:target="_blank"}
+    - [CSS Hovers](http://ianlunn.github.io/Hover/){:target="_blank"}
+    - [CSS Dynamic Scroll](https://michalsnik.github.io/aos/){:target="_blank"}
+    - [Whirl & Signal Load Effects](https://whirl.netlify.app/){:target="_blank"}
+    - [CSS Magic, Bling, Perspective](https://www.minimamente.com/project/magic/){:target="_blank"}
+    - [CSS Tricks](https://css-tricks.com/){:target="_blank"}
+    - [Full Integration Toolbox](https://10015.io/){:target="_blank"}
+    - [HyperLink Parts of a Graphic](http://www.javascriptkit.com/howto/imagemap.shtml){:target="_blank"}
+    - [Bootstrap](https://getbootstrap.com/){:target="_blank"}
+    - [Electron Cross-Platform](https://www.electronjs.org/){:target="_blank"}
+##### Developer:
+    - [Composer (coordinate Drupal modules)](https://getcomposer.org/){:target="_blank"}
+    - [npm (Node Package Manager, JavaScript Library/Registry)](https://www.npmjs.com/){:target="_blank"}
+    - [vim (ultralight editor useful within a container)](https://www.vim.org/){:target="_blank"}
+    - [VSCode- IDE](https://code.visualstudio.com/){:target="_blank"}
+    - [Lando (containers locally)](https://lando.dev/){:target="_blank"}
+    - [Docker & Docker-Compose](book/docker)
+    - [PHP Code Checker (Online)](https://extendsclass.com/php-tester.html){:target="_blank"}
+##### Handy Utilities:
+    - [Sticky Notes (part of Mac)](https://support.apple.com/guide/stickies/welcome/mac){:target="_blank"}
+    - [Calculators for EVERYTHING](https://www.omnicalculator.com/){:target="_blank"}
+    - [Clipboard on Steroids](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12){:target="_blank"}
+    - [AI Code Documentation/Generation (Online)](https://www.figstack.com/){:target="_blank"}
+##### Sources for more tools
+    - [Open Source Alternative](https://www.opensourcealternative.to/){:target="_blank"}
+    - [Tiny Wow](https://tinywow.com/){:target="_blank"}
+ - [Cheatsheets](book/cheats.md)
+ - [Hosting: How will Others see my website?](book/hosting.md)
 
 ### Chapter: Content Management Systems (CMS)
 
