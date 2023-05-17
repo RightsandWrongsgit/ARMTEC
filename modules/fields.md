@@ -97,9 +97,9 @@ As handy as an address is, a telephone is as well.  You just want to make sure t
 
 ## Some important calendar modules
 
-### Smart Date module
+### [Smart Date module](https://www.drupal.org/docs/contributed-modules/smart-date)
 
-Duration and format improvements & calendar display to core dates.
+[Duration and format improvements & calendar display](https://www.youtube.com/watch?v=md86O7Y7rWU) compared to the basic dates in core.
 
 `composer require drupal/smart_date`<br>
 `drush en smart_date`
