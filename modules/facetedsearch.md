@@ -7,6 +7,8 @@ Two parts, Search and Facets.  Search if just what it says, finding stuff.  But 
 
 [Ivan Zugec of WebWash does the simplest 'Search' within the standard Drupal database and then shows putting Facets on them at the end.](https://www.youtube.com/watch?v=dj4gtbc4LyY) He does admit at the end that using the Search API rather than the basic standard search in core Drupal is much, much stronger but also much more challenging to set up.  So consider using the basic search for reasonably basic sites without huge content volumes that need speed and sophisticated combination queries.  
 
+
+**********
 ## Solr Search
 
 The Video Below gives a good overview on setting up a Solr Search
@@ -74,11 +76,12 @@ The Result
 And just like that, your faceted search page and functionality is ready! Notice the Facet called Type (display name) that has Basic page and Article listed as content types to filter against.
 Result: The Faceted Search Page  Result: The Faceted Search Page 
  
-
-
 https://www.youtube.com/watch?v=nmUgBTy2hls
 
 This is a very, very slow video overview of the steps.  Start about 3.5 minutes into it.  The key summary points are noted here:
+
+**********
+
 
 # Facets Modules
 
@@ -88,19 +91,19 @@ Using Composer, install the Facets module.  Then under extend, activate the modu
 
 Giving the User the power to leverage taxonomies beyond a search box.
 
-`composer require drupal/facets`
+`composer require drupal/facets`<br>
 `drush en facets`
 
 ## Facets within Views
 
-`composer require drupal/core_views_facets`
+`composer require drupal/core_views_facets`<br>
 `drush en core_views_facets`
 
 ## Facet Block Module
 
 The facet block module is an add-on to facets that places multiple search facets into a combination block you can then place; for example multiple taxonomies used in a combo filter. 
  
-`composer require drupal/facets_block`
+`composer require drupal/facets_block`<br>
 `drush en facets_block`
 
 
