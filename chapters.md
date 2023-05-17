@@ -101,7 +101,7 @@
     - [CSS Tricks](https://css-tricks.com/){:target="_blank"}
     - [Full Integration Toolbox](https://10015.io/){:target="_blank"}
     - [HyperLink Parts of a Graphic](http://www.javascriptkit.com/howto/imagemap.shtml){:target="_blank"}
-    - [Bootstrap](https://getbootstrap.com/){:target="_blank"}
+    - [Special Use HTML](https://levelup.gitconnected.com/10-best-html-tags-that-you-probably-didnt-know-about-841e5c21348f){:target="_blank"}
     - [Electron Cross-Platform](https://www.electronjs.org/){:target="_blank"}
 
 - ##### Developer
@@ -143,6 +143,7 @@
     -  [W3 School HTML, CSS, JS, and more](https://www.w3schools.com/html/)
     -  [Semantic HTML: Let's Use more than DIV's](https://www.semrush.com/blog/semantic-html5-guide/) 
     -  [HTML Code Examples for some unique things](codeexamples/html.md)
+    -  [Special Use HTML](https://levelup.gitconnected.com/10-best-html-tags-that-you-probably-didnt-know-about-841e5c21348f)
     -  [Olivero Theme](theme/olivero.md)
     -  [Bootstrap Theme](theme/bootstrap.md)
     -  [TWIG](theme/twig.md)
