@@ -148,6 +148,7 @@
     -  [Bootstrap Theme](theme/bootstrap.md)
     -  [TWIG](theme/twig.md)
     -  [Decoupled](theme/decoupled.md)
+    -  [Edit the CSS and JS (JavaScript) in your custom theme](https://www.youtube.com/watch?v=afoIrMeZyts&list=PLTANew7ttSXfn6azbqjobJk-zkkRSPd7t&index=6)
     -  [Front-end needs investigation](../theme/frontmodules.md)
 
 
