@@ -70,7 +70,7 @@
     - [AI Content Writer (Online)](https://rytr.me){:target="_blank"}
     - [Available Fonts](https://fonts.google.com/){:target="_blank"}
 
-- ###### Graphical
+- ##### Graphical
 
     - [Remove a Photo Background (Online)](https://www.remove.bg/upload){:target="_blank"}
     - [Object Eraser (Online)](https://magicstudio.com/magiceraser){:target="_blank"}
