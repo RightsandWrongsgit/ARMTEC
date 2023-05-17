@@ -3,7 +3,8 @@
 
 ## [Visitors Module](https://www.drupal.org/project/visitors)
 
-Would it be cool to know all this about your site?
+Would it be cool to know all this about your site?<br>
+
 <img src="../modules/images/visitors.png"  width="400">
 
 
