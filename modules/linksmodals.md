@@ -1,8 +1,20 @@
 
 # Links & Modals
 
+## [Linkit module](https://www.drupal.org/project/linkit)
 
-## Field Group Link
+The [Linkit module](https://www.drupal.org/project/linkit) claims three main advantages over traditional linking:
+
+1. The user does not have to copy or remember a URL
+2. If a URL alias of a link changes, the link still works
+3. It provides configurable information about matching links in the autocomplete
+ 
+The good news is it has the same "look and feel" as the core linking.  The autocomplete, the Token support, settings adjustments by profile, and integration with configuration synchronization makes it comfortable to use. 
+
+`composer require drupal/linkit`<br>
+`drush en linkit`
+
+## Field Group Link module
 
 So you can have the whole group you established set up to allow a link.
 
