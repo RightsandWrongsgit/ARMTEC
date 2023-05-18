@@ -102,7 +102,9 @@
     - [Full Integration Toolbox](https://10015.io/){:target="_blank"}
     - [HyperLink Parts of a Graphic](http://www.javascriptkit.com/howto/imagemap.shtml){:target="_blank"}
     - [Special Use HTML](https://levelup.gitconnected.com/10-best-html-tags-that-you-probably-didnt-know-about-841e5c21348f){:target="_blank"}
+    - [Theming](theme/frontoverview.md)
     - [Electron Cross-Platform](https://www.electronjs.org/){:target="_blank"}
+    - [JavaScript (JS) Basics](https://khosee6.medium.com/an-intro-to-javascript-its-history-and-attributes-ca4d122e6450){:target="_blank"}
 
 - ##### Developer
 
