@@ -34,7 +34,10 @@ You are going to benefit from a bunch more modules that others had contributed t
 `composer require drupal/module_filter`<br>
 `drush en module_filter`
 
-## Categories of Modules
+# Categories of Modules
+
+When you think about adding modules to your Drupal website on top of the [CI/CD Project Base](../book/drupalcicd.md) consider two schools of thought.  One of these is obviously what sort of extra features or functions you want to include on the site.  The other consideration is around the stage you are in the project. For example, you want tools while you are building your site that are 'Development' related modules; and you may keep these in the 'local' and 'develop' environments simply because you are in a continous improvement mindset.  But do you really want to have Google Analytics running during initial development?  There are lots of other modules that you will want in an 'Active' website that you won't install until you are ready to launch.  Consider both factors as you plan your website.
+
 
 - [Development]()
 - [Taxonomy]()
@@ -55,69 +58,9 @@ You are going to benefit from a bunch more modules that others had contributed t
 - [Tracking]()
 - [Security]()
 - [Legal/Regulatory/Compliance]()
+- [Active Site Modules](../modules/activesite.md)
 
 
-***********
-
-# This stuff needs to find its correct home 
-
-
-## Exclude Node Title module
-
-`composer require drupal/exclude_node_title`<br>
-`drush en exclude_node title`
-
-## Media Entity Embed module
-#### Inline Entity Form, Entity Browser, Entity Embed dependencies
-
-"consider this module a priority" 
-
-`composer require drupal/media_entity_browser`<br>
-`drush en media_entity_browser`
-
-## Entity Reference Revisions module
-
-`composer require drupal/entity_reference_revisions`<br>
-`drush en entity_reference_revisions`
-
-## Entity Browser Enhanced module
-
-`composer require drupal/entity_browser_enhanced`<br>
-`drush en entity_browser_enhanced`
-
-## Entity Usage module
-
-`composer require drupal/entity_usage`<br>
-`drush en entity_usage`
-
-## Entity Reference Preview module
-
-`composer require drupal/entity_reference_preview`<br>
-`drush en entity_reference_preview`
-
-## Link Related Entitities module
-
-[Linking two related entities (e.g. person like spouses, children)](https://www.drupal.org/project/cer)
-
-
-## Block Visibility Groups module
-#### Enhancement to control and placement of blocks
-
-You can put the [Block Visiblity Group module](https://www.drupal.org/project/block_visibility_groups) in the "greater than sliced bread" category!  Think of website building as putting chucks of things in different areas for display.  You probably already know this relative to 'Regions' that your theme includes.  People who have used an older approach called Panels also know about moving chucks of stuff in different parts of a region.  Drupal from version 8 forward rallys around the use of Blocks for the term of what these chucks are called; and if you use the GUI drag-n-drop Layout Builder function included in Drupal Core you also know how moving the blocks around is pretty cool.  You also may know about how in the 'Administration/Structure' menu in your Drupal site building system you can look at a Blocks Layout Page you can see on what content type and region blocks appear.  But sometimes you want those blocks to show up conditionally; say for a logged in user versus a stop-by.  See this [quick video on how the Block Visibility Group module adds conditional control in a very simple, comfortable way.](https://www.youtube.com/watch?v=ZKwkaMUbJIs)
-
-`composer require drupal/block_visibility_groups`<br>
-`drush en block_visibility_groups`
-
-## Add Another module
-#### Sort of speed copy another replication of a node
-
-`composer require drupal/addanother`<br>
-`drush en addanother`
-
-## Content Type Modules
-
-[Acquia](https://www.acquia.com/) is a commercial company founded by the [original developer of Drupal.](https://dri.es/)  They continue to [Open Source](../book/opensource.md) many of the tools they use.  You might want to glance through their GitHub repository, especially their [Acquia/CMS that provides some modules aimed at building some valuable content types.](https://github.com/acquia/acquia_cms/tree/develop/modules) for things like Person, Event, Place, Document, etc.
-************
 
 <br>
 <br>
