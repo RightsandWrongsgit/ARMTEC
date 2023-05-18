@@ -54,8 +54,9 @@ It is pretty much standard practice to design your first website using some sort
 - [CSS Tricks](https://css-tricks.com/){:target="_blank"}
 - [Full Integration Toolbox](https://10015.io/){:target="_blank"}
 - [HyperLink Parts of a Graphic](http://www.javascriptkit.com/howto/imagemap.shtml){:target="_blank"}
-- [Bootstrap](https://getbootstrap.com/){:target="_blank"}
+- [Theming](../theme/frontoverview.md)
 - [Electron Cross-Platform](https://www.electronjs.org/){:target="_blank"}
+- [JavaScript (JS) Basics](https://khosee6.medium.com/an-intro-to-javascript-its-history-and-attributes-ca4d122e6450){:target="_blank"}
 
 ## Developer:
 
