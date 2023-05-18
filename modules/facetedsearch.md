@@ -7,13 +7,12 @@ Two parts, Search and Facets.  Search if just what it says, finding stuff.  But 
 
 [Ivan Zugec of WebWash does the simplest 'Search' within the standard Drupal database and then shows putting Facets on them at the end.](https://www.youtube.com/watch?v=dj4gtbc4LyY) He does admit at the end that using the Search API rather than the basic standard search in core Drupal is much, much stronger but also much more challenging to set up.  So consider using the basic search for reasonably basic sites without huge content volumes that need speed and sophisticated combination queries.  
 
-
-**********
 ## Solr Search
 
 ### Overview
 
 Mike from Acro Media does a good job of [setting up a Solr Search in Drupal and then putting in Facets for using them as filters.](https://www.youtube.com/watch?v=PeaiWXy6ZsY)  The limits on this video are:<br>
+
 a) He does NOT show his creation of a Solr Core because he did it in advance; so look at Lando Solr and Platform.sh Solr container set ups and make sure to create a uniquely 'named' core in the process. (His pre-established 'core' is called Products in his video but you want yours to be something unique to your project intent unless you are doing commerce as well.)<br>  
 b) He sets the search up under a Product from the the Ecommerce module he has installed and you may want to search on something different like Content or Taxonomy Term (if you watch closely you will see where he makes this selection about the 5.0 minute mark of the video).<br>  
 c) Unless you start snapshot screen captures as the video plays, it may go by too fast so the next section that has screens shots may be better references as you work. 
