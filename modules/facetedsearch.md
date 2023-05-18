@@ -17,10 +17,9 @@ a) He does NOT show his creation of a Solr Core because he did it in advance; so
 b) He sets the search up under a Product from the the Ecommerce module he has installed and you may want to search on something different like Content or Taxonomy Term (if you watch closely you will see where he makes this selection about the 5.0 minute mark of the video).<br>  
 c) Unless you start snapshot screen captures as the video plays, it may go by too fast so the next section that has screens shots may be better references as you work. 
 
-### Cookbook Steps
+### Cookbook of Steps
 
-If you find you want to move to the [Search API level of Facet deployment you might follow this.](https://www.specbee.com/blogs/how-configure-faceted-search-drupal-8-and-9-easy-step-step-tutorial)
-
+If you are more of a tutorial type person you might find you want to move to this on the [Search API Solr Facet deployment outline.](https://www.specbee.com/blogs/how-configure-faceted-search-drupal-8-and-9-easy-step-step-tutorial)  Without the screen shots from that link, below are the highlights of the steps in case you just need high level reminders.
 
 #### Install the Facets and Search API modules
 
@@ -86,17 +85,14 @@ Placing the Facet blocks in the chosen page regions  Step 10: Placing the Facet 
 In the Configure Block section, mention the Search page path that you had previously created. Here -“site-search” is our page we had created.  Give a display name for your Block and select the Display title checkbox if you want the block name to be displayed (here – Type). Click on Save Block.
 
 - The Result
+
 And just like that, your faceted search page and functionality is ready! Notice the Facet called Type (display name) that has Basic page and Article listed as content types to filter against.
 
-[To see a video on building a Faceted Search with with Solr, including a commerce use](https://www.youtube.com/watch?v=nmUgBTy2hls) this might help.  However, make sure you have a large display screen to be able to see it and start about 3.5 minutes into it.  This is a very, very slow video overview of the steps.   The key summary points are noted here:
-
-
-
-# Facets Modules
+# Several Facets Modules
 
 Using Composer, install the Facets module.  Then under extend, activate the module.  You also need to install the Search API with Composer and activate it under extend as shown below.
 
-## Facets module
+## Base Facets module
 
 Giving the User the power to leverage taxonomies beyond a search box.
 
