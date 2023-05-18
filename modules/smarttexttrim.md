@@ -7,7 +7,10 @@ The trim capability in Drupal core is pretty basic.  What if you wanted to trim 
 
 ## The Module
 
-https://www.drupal.org/project/smart_trim
+The [Smart Trim module](https://www.drupal.org/project/smart_trim) installs in the usual way with [composer](../book/Novice.html#setting-up-your-basic-system) and is enabled with [drush.](/modules/development.md#drush)
+
+`composer require drupal/smart_trim`<br>
+`drush en smart_trim`
 
 ## Using Smart Trim
 
