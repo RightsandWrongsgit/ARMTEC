@@ -77,7 +77,7 @@ Select the Facet Source; This will be your View that you created previously.  Se
 
 Next, you will then see more configuration options for displaying the facets. Widgets will list out a number of options like List of links, array, dropdown, etc. You can choose what suits your website the best.  Select the “Transform entity ID to label” to avoid displaying the machine name of the content type.  Click on Save.
 
-- Step 10: Placing the Facet blocks in the chosen page regions
+- Step 10: Placing the Facet blocks in the chosen page regions<br>
  
 Next, place the Facets you created as blocks in a page region of your choice.  Navigate to Structure -> Block Layout. Select the region of the page where you would like to place the block containing the Facets.  Here, we are selecting Sidebar. Click on the Place Block button next to the Sidebar.  In the next dialog box, search for the Facet name and click on Place Block.
  
