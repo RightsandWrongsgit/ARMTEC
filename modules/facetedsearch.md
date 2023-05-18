@@ -35,7 +35,6 @@ Installing the Facets Module for Drupal.  As previously discussed, we will be im
 Install and enable these modules      
 
 `drush en facets`
-
 `drush en search_api`
 
 - Step 2: Creating Content Types
