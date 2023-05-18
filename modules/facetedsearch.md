@@ -11,72 +11,86 @@ Two parts, Search and Facets.  Search if just what it says, finding stuff.  But 
 **********
 ## Solr Search
 
-The Video Below gives a good overview on setting up a Solr Search
-Mike from Acro Media does a good job of setting up a Solr Search in Drupal and then putting in Facets for using them as filters.  The limits on this video are: a) He does NOT show his creation of a Solr Core because he did it in advance; so look at Lando Solr and Platform.sh Solr container set ups and make sure to create a uniquely 'named' core in the process. (His pre-established 'core' is called Products in his video but you want yours to be something unique to your project intent unless you are doing commerce as well.)  b) He sets the search up under a Product from the the Ecommerce module he has installed and you may want to search on something different like Content or Taxonomy Term (if you watch closely you will see where he makes this selection about the 5.0 minute mark of the video).  c) Unless you start snapshot screen captures as the video plays, it may go by too fast so the next section that has screens shots may be better references as you work. 
+### Overview
 
-https://www.youtube.com/watch?v=PeaiWXy6ZsY
+Mike from Acro Media does a good job of [setting up a Solr Search in Drupal and then putting in Facets for using them as filters.](https://www.youtube.com/watch?v=PeaiWXy6ZsY)  The limits on this video are:<br>
+a) He does NOT show his creation of a Solr Core because he did it in advance; so look at Lando Solr and Platform.sh Solr container set ups and make sure to create a uniquely 'named' core in the process. (His pre-established 'core' is called Products in his video but you want yours to be something unique to your project intent unless you are doing commerce as well.)<br>  
+b) He sets the search up under a Product from the the Ecommerce module he has installed and you may want to search on something different like Content or Taxonomy Term (if you watch closely you will see where he makes this selection about the 5.0 minute mark of the video).<br>  
+c) Unless you start snapshot screen captures as the video plays, it may go by too fast so the next section that has screens shots may be better references as you work. 
 
+### Cookbook
 
-If you find you want to move to the Search API level of Facet deployment
+If you find you want to move to the [Search API level of Facet deployment you might follow this.](https://www.specbee.com/blogs/how-configure-faceted-search-drupal-8-and-9-easy-step-step-tutorial)
 
-FROM: 
-https://www.specbee.com/blogs/how-configure-faceted-search-drupal-8-and-9-easy-step-step-tutorial
-Installing the Facets Module for Drupal 8
-As previously discussed, we will be implementing Faceted search using Drupal’s Search API module.
+Installing the Facets Module for Drupal.  As previously discussed, we will be implementing Faceted search using Drupal’s Search API module.
+
+#### Install the Facets and Search API modules
+
+- Prerequisite:
+
+`composer require drupal/facets`<br>
+`composer require drupal/search_api`
 
 - Step 1: Enabling the modules
-Install and enable these modules •    The Facet Module  •    Search API module
+Install and enable these modules      
+
+`drush en facets`
+
+`drush en search_api`
 
 - Step 2: Creating Content Types
-Create the content you would like to include in the faceted search by adding Content types as shown below. You can also use the default content types provided by Drupal.
-Create Content Types    Step 2: Create Content Types
+
+[Create the content you would like to include in the faceted search.](https://www.drupal.org/docs/user_guide/en/structure-content-type.html)  You can also use the default content types provided by Drupal.
 
 - Step 3: Configuring the Search server
-Navigate to Configuration -> Search and metadata -> Search-API from the admin interface to configure your search server. Give a name to your search server (here - data server). 
-Configure the Search server    Step 3: Configure the Search server 
+
+Navigate to Configuration -> Search and metadata -> Search-API from the admin interface to configure your search server. Give a name to your search server. 
  
 - Step 4: Configuring the Search Index
+
 Next, configure the search index to improve the search performance. Navigate to Configuration -> Search and metadata -> Search-API -> Index -> data_index.
-Configuring the Search Index         Step 4: Configuring the Search Index 
-Give a name to your index and then select Content as your Datasources since we will be indexing the Content entities here. You can then move on to the next section - Configuring the Datasource (here – Content). Here you can choose to select all the bundles or only select a few from the below list to index. Next, select your server that you had already created (here - data server). Select the “Index items immediately” option to begin the indexing process. Click on Save.
-Configuring the Datasource        Configuring the Datasource
+
+Give a name to your index and then select Content as your Datasources since we will be indexing the Content entities here.  You can then move on to the next section - Configuring the Datasource (here – Content).  Here you can choose to select all the bundles or only select a few from the below list to index.  Next, select your server that you had already created (here - data server).  Select the “Index items immediately” option to begin the indexing process. Click on Save.
 
 - Step 5: Adding Fields for Indexing
+
 Next, we need to add Fields to be indexed. Navigate to Configuration -> Search and metadata ->Search API -> data index and select the Fields tab. Click on the Add fields button to create fields according to your requirement.
-Step 5: Adding Fields for Indexing    Step 5: Adding Fields for Indexing
 
 - Step 6: Indexing the Content
+
 Under the same location, click on the View tab to start the process of indexing your content. In the Start Indexing Now section, click on the Index Now button. It will then show you a progress bar with the status of the number of items that have been indexed.
-Faceted Search      Step 6: Index the Content 
  
 - Step 7: Creating a View
+
 Now we will be creating a view for the data that needs to be indexed and displayed to your users. Navigate to Structure -> Views -> Add View.
-Creating a View     Step 7: Creating a View 
-Give a name for the View. Under View Settings dropdown list, select the index that you have created in Step 4. Create a page for your search results by clicking on the Create a page checkbox under the Page Settings tab. Give a name and a path for the same.  Under Items to Display, select 0 if you want to display all the results in one page. Else, select a number of results to be displayed.  Under Page Display settings, you can select the format in which you want to display your results – Table, Grid, HTML list or Unformatted list. We have selected Unformatted list here. Click on Save.
+
+Give a name for the View.  Under View Settings dropdown list, select the index that you have created in Step 4.  Create a page for your search results by clicking on the Create a page checkbox under the Page Settings tab. Give a name and a path for the same.  Under Items to Display, select 0 if you want to display all the results in one page. Else, select a number of results to be displayed.  Under Page Display settings, you can select the format in which you want to display your results – Table, Grid, HTML list or Unformatted list. We have selected Unformatted list here. Click on Save.
 
 - Step 8: Adding Fields to the View
-Here we will be adding fields that we have indexed earlier to the View. Go to Views, click on Add button next to the Fields section. Select the Fields, click on Add and Configure.  Under Render Settings, select the Link to Content checkbox so that the results displayed are clickable.  Click Save.
-Adding Fields to the View       Step 8: Adding Fields to the View 
+
+Here we will be adding fields that we have indexed earlier to the View. Go to Views, click on Add button next to the Fields section. Select the Fields, click on Add and Configure.  Under Render Settings, select the Link to Content checkbox so that the results displayed are clickable.  Click Save.
+
 
 - Step 9: Configuring the Facets
-Now let’s begin configuring and enabling the facets. Navigate to Configuration -> Search and meta data -> Facets  Click on the Add Facet button.
- 
-Configuring the Facets      Step 9: Configuring the Facets 
-Select the Facet Source – This will be your View that you created previously. Select the Field – This will display the fields you had added for indexing in Step 5. Give a name to the Facet. Click on Save.
-Next, you will then see more configuration options for displaying the facets (as shown in the below image). Widgets will list out a number of options like List of links, array, dropdown, etc. You can choose what suits your website the best. Select the “Transform entity ID to label” to avoid displaying the machine name of the content type. Click on Save.
-Faceted Search 
-Configuring the Facets 
 
-- Step 10: Placing the Facet blocks in the chosen page regions 
-Next, place the Facets you created as blocks in a page region of your choice.  Navigate to Structure -> Block Layout. Select the region of the page where you would like to place the block containing the Facets. Here, we are selecting Sidebar. Click on the Place Block button next to the Sidebar. In the next dialog box, search for the Facet name and click on Place Block.
+Now let’s begin configuring and enabling the facets. Navigate to Configuration -> Search and meta data -> Facets  Click on the Add Facet button.
  
-Placing the Facet blocks in the chosen page regions  Step 10: Placing the Facet blocks in the chosen page regions 
- In the Configure Block section, mention the Search page path that you had previously created. Here -“site-search” is our page we had created.  Give a display name for your Block and select the Display title checkbox if you want the block name to be displayed (here – Type). Click on Save Block.
-The Result
+Select the Facet Source; This will be your View that you created previously.  Select the Field; This will display the fields you had added for indexing in Step 5. Give a name to the Facet.  Click on Save.
+
+Next, you will then see more configuration options for displaying the facets. Widgets will list out a number of options like List of links, array, dropdown, etc. You can choose what suits your website the best.  Select the “Transform entity ID to label” to avoid displaying the machine name of the content type.  Click on Save.
+
+- Step 10: Placing the Facet blocks in the chosen page regions
+ 
+Next, place the Facets you created as blocks in a page region of your choice.  Navigate to Structure -> Block Layout. Select the region of the page where you would like to place the block containing the Facets.  Here, we are selecting Sidebar. Click on the Place Block button next to the Sidebar.  In the next dialog box, search for the Facet name and click on Place Block.
+ 
+Placing the Facet blocks in the chosen page regions  Step 10: Placing the Facet blocks in the chosen page regions 
+In the Configure Block section, mention the Search page path that you had previously created. Here -“site-search” is our page we had created.  Give a display name for your Block and select the Display title checkbox if you want the block name to be displayed (here – Type). Click on Save Block.
+
+- The Result
 And just like that, your faceted search page and functionality is ready! Notice the Facet called Type (display name) that has Basic page and Article listed as content types to filter against.
-Result: The Faceted Search Page  Result: The Faceted Search Page 
+
  
-https://www.youtube.com/watch?v=nmUgBTy2hls
+[See what this is](https://www.youtube.com/watch?v=nmUgBTy2hls)
 
 This is a very, very slow video overview of the steps.  Start about 3.5 minutes into it.  The key summary points are noted here:
 
