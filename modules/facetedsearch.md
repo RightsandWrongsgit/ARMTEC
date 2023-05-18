@@ -89,9 +89,7 @@ In the Configure Block section, mention the Search page path that you had previo
 - The Result
 And just like that, your faceted search page and functionality is ready! Notice the Facet called Type (display name) that has Basic page and Article listed as content types to filter against.
 
-[See what this is](https://www.youtube.com/watch?v=nmUgBTy2hls)
-
-This is a very, very slow video overview of the steps.  Start about 3.5 minutes into it.  The key summary points are noted here:
+[To see a video on building a Faceted Search with with Solr, including a commerce use](https://www.youtube.com/watch?v=nmUgBTy2hls) this might help.  However, make sure you have a large display screen to be able to see it and start about 3.5 minutes into it.  This is a very, very slow video overview of the steps.   The key summary points are noted here:
 
 
 
