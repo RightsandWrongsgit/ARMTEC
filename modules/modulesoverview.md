@@ -56,41 +56,49 @@ You are going to benefit from a bunch more modules that others had contributed t
 - [Security]()
 - [Legal/Regulatory/Compliance]()
 
-*************
+
+***********
+
+# This stuff needs to find its correct home 
 
 
+## Exclude Node Title module
 
+`composer require drupal/exclude_node_title`<br>
+`drush en exclude_node title`
 
+## Media Entity Embed module
+#### Inline Entity Form, Entity Browser, Entity Embed dependencies
 
-## MODULES IMPROVING BASIC SITE FUNCTIONS 
-(These are common in many sites.  CKEditor & Taxonomy Improvements listed separately.)
-
-
-
-Exclude Node Title module:
-composer require drupal/exclude_node_title
-drush en exclude_node title
-
-Media Entity Embed module (Inline Entity Form, Entity Browser, Entity Embed dependencies):
 "consider this module a priority" 
-composer require drupal/media_entity_browser
-drush en media_entity_browser
 
-Entity Reference Revisions module:
-composer require drupal/entity_reference_revisions
-drush en entity_reference_revisions
+`composer require drupal/media_entity_browser`<br>
+`drush en media_entity_browser`
 
-Entity Browser Enhanced module:
-composer require drupal/entity_browser_enhanced
-drush en entity_browser_enhanced
+## Entity Reference Revisions module
 
-Entity Usage module:
-composer require drupal/entity_usage
-drush en entity_usage
+`composer require drupal/entity_reference_revisions`<br>
+`drush en entity_reference_revisions`
 
-Entity Reference Preview module:
-composer require drupal/entity_reference_preview
-drush en entity_reference_preview
+## Entity Browser Enhanced module
+
+`composer require drupal/entity_browser_enhanced`<br>
+`drush en entity_browser_enhanced`
+
+## Entity Usage module
+
+`composer require drupal/entity_usage`<br>
+`drush en entity_usage`
+
+## Entity Reference Preview module
+
+`composer require drupal/entity_reference_preview`<br>
+`drush en entity_reference_preview`
+
+## Link Related Entitities module
+
+[Linking two related entities (e.g. person like spouses, children)](https://www.drupal.org/project/cer)
+
 
 ## Block Visibility Groups module
 #### Enhancement to control and placement of blocks
@@ -99,13 +107,6 @@ You can put the [Block Visiblity Group module](https://www.drupal.org/project/bl
 
 `composer require drupal/block_visibility_groups`<br>
 `drush en block_visibility_groups`
-
-
-
-[Linking two related entities (e.g. person like spouses, children)](https://www.drupal.org/project/cer)
-
-
-
 
 ## Add Another module
 #### Sort of speed copy another replication of a node
@@ -116,7 +117,7 @@ You can put the [Block Visiblity Group module](https://www.drupal.org/project/bl
 ## Content Type Modules
 
 [Acquia](https://www.acquia.com/) is a commercial company founded by the [original developer of Drupal.](https://dri.es/)  They continue to [Open Source](../book/opensource.md) many of the tools they use.  You might want to glance through their GitHub repository, especially their [Acquia/CMS that provides some modules aimed at building some valuable content types.](https://github.com/acquia/acquia_cms/tree/develop/modules) for things like Person, Event, Place, Document, etc.
-
+************
 
 <br>
 <br>
