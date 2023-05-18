@@ -66,29 +66,10 @@ You are going to benefit from a bunch more modules that others had contributed t
 (These are common in many sites.  CKEditor & Taxonomy Improvements listed separately.)
 
 
-Linked Field module: 
-composer require 'drupal/linked_field
-drush en linked_field
-
-Linkit module: 
-composer require 'drupal/linkit
-drush en linkit
-
-Iframe module:
-composer require drupal/iframe
-drush en iframe
-
-Modal module:
-composer require drupal/modal_page
-drush en modal_page
 
 Exclude Node Title module:
 composer require drupal/exclude_node_title
 drush en exclude_node title
-
-Smart Trim module:
-composer require drupal/smart_trim
-drush en smart_trim
 
 Media Entity Embed module (Inline Entity Form, Entity Browser, Entity Embed dependencies):
 "consider this module a priority" 
@@ -110,28 +91,27 @@ drush en entity_usage
 Entity Reference Preview module:
 composer require drupal/entity_reference_preview
 drush en entity_reference_preview
-Block Visibility Groups module (enhancement to control and placement of blocks over core):
-"greater than sliced bread" category! 
-composer require drupal/block_visibility_groups
-drush en block_visibility_groups
+
+## Block Visibility Groups module
+#### Enhancement to control and placement of blocks
+
+You can put the [Block Visiblity Group module](https://www.drupal.org/project/block_visibility_groups) in the "greater than sliced bread" category!  Think of website building as putting chucks of things in different areas for display.  You probably already know this relative to 'Regions' that your theme includes.  People who have used an older approach called Panels also know about moving chucks of stuff in different parts of a region.  Drupal from version 8 forward rallys around the use of Blocks for the term of what these chucks are called; and if you use the GUI drag-n-drop Layout Builder function included in Drupal Core you also know how moving the blocks around is pretty cool.  You also may know about how in the 'Administration/Structure' menu in your Drupal site building system you can look at a Blocks Layout Page you can see on what content type and region blocks appear.  But sometimes you want those blocks to show up conditionally; say for a logged in user versus a stop-by.  See this [quick video on how the Block Visibility Group module adds conditional control in a very simple, comfortable way.](https://www.youtube.com/watch?v=ZKwkaMUbJIs)
+
+`composer require drupal/block_visibility_groups`<br>
+`drush en block_visibility_groups`
+
+
 
 [Linking two related entities (e.g. person like spouses, children)](https://www.drupal.org/project/cer)
 
-Views Block Expose Filter Blocks module:
-composer require drupal/views_block_filter_block
-drush en views_block_filter_block
 
-Views Flipped Table module:
-composer require drupal/views_flipped_table
-drush en views_flipped_table
 
-Views Infinite Scroll module:
-composer require drupal/views_infinite_scroll
-drush en views_infinite_scroll
 
-Add Another module (sort of speed copy another iteration of a node as a good near replication):
-composer require drupal/addanother
-drush en addanother
+## Add Another module
+#### Sort of speed copy another replication of a node
+
+`composer require drupal/addanother`<br>
+`drush en addanother`
 
 ## Content Type Modules
 
