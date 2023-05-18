@@ -14,6 +14,9 @@ You want to give a try with the ...
 `composer require drupal/viewer`<br>
 `drush en viewer`
 
+## Digital Asset Management
+
+This is stepping over the boundary to more than just a module.  However, if you are looking to deal with lots of files, you may want to consider a serious Drupal based off the shelf option.  There may be some expense involved depending on how you define your connection to the underlying group responsible for the system.  It is something that universities, museums, or other organizations who have a range of digital assets that they are responsible for turn to for a solution.  And being basic upon Drupal, you already know you can do so much more wrapped around this as well.  Checkout [Islandora!](https://www.islandora.ca/)
 
 <br>
 <br>
