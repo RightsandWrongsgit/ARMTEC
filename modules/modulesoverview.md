@@ -26,6 +26,9 @@ From within Core, enable these -
 `drush en media_library`<br>
 `drush en link`
 
+## Module Filter
+#### A module for better categorization of what you install/enable
+
 You are going to benefit from a bunch more modules that others had contributed to Drupal as an [open source](../book/opensource.md) CMS.  So the very first "extra" module you are going to put in place is one that simply better categorizes modules in the 'Administration/Extend' part of Drupal so it is easier to track what is in, what is enabled, and thus, what else you might want to add.  This is the 'Module Filter module': 
 
 `composer require drupal/module_filter`<br>
@@ -53,64 +56,11 @@ You are going to benefit from a bunch more modules that others had contributed t
 - [Security]()
 - [Legal/Regulatory/Compliance]()
 
+*************
 
 
 
-## Module Filter module for better categorization of what you install/enable:
-composer require drupal/module_filter
-drush en module_filter
 
-From within Core, enable these -
-drush en responsive_image
-drush en media
-drush en media_library
-drush en link
-
-Environment Indicator module (To easily see which environment split you are in):
-composer require drupal/environment_indicator
-drush en environment_indicator
-
-Development Mode module (stop cache, aggregation, turn on debug, in your 'Development' Split:
-composer require –dev drupal/dev_mode
-drush en dev_mode
-
-Devel module (generate mock content, masquerade user, redirect email, etc.):
-composer require drupal/devel
-drush en devel
-
-Stage File Proxy module (Real content sharing from Production to Development Environments):
-composer require drupal/stage_file_proxy
-drush en stage_file_proxy
-
-Backup and Migrate module:
-composer require drupal/backup_migrate
-drush en backup_migrate
-
-Password Reset Landing Page module (clarifies password reset process from core):
-composer require drupal/prlp
-drush en prlp
-
-Super Login module (take control of the appearance of log in):
-composer require drupal/super_login
-drush en super_login
-
-Token module:
-composer require drupal/token
-drush en token
-
-PathAuto module:
-composer require drupal/pathauto
-drush en pathauto
-
-Redirect module (assures external links back to your site pages work if you change your site):
-composer require drupal/redirect
-drush en redirect
-
-Ctools or Chaos Tools module (If you just installed PathAuto, it already installed Ctools.):
-composer require drupal/ctools
-drush en ctools
-
-[Linking two related entities (e.g. person like spouses, children)](https://www.drupal.org/project/cer)
 
 ## MODULES IMPROVING BASIC SITE FUNCTIONS 
 (These are common in many sites.  CKEditor & Taxonomy Improvements listed separately.)
@@ -164,6 +114,8 @@ Block Visibility Groups module (enhancement to control and placement of blocks o
 "greater than sliced bread" category! 
 composer require drupal/block_visibility_groups
 drush en block_visibility_groups
+
+[Linking two related entities (e.g. person like spouses, children)](https://www.drupal.org/project/cer)
 
 Views Block Expose Filter Blocks module:
 composer require drupal/views_block_filter_block
