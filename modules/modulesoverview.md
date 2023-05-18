@@ -110,6 +110,7 @@ Ctools or Chaos Tools module (If you just installed PathAuto, it already install
 composer require drupal/ctools
 drush en ctools
 
+[Linking two related entities (e.g. person like spouses, children)](https://www.drupal.org/project/cer)
 
 ## MODULES IMPROVING BASIC SITE FUNCTIONS 
 (These are common in many sites.  CKEditor & Taxonomy Improvements listed separately.)
