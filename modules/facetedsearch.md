@@ -17,11 +17,10 @@ a) He does NOT show his creation of a Solr Core because he did it in advance; so
 b) He sets the search up under a Product from the the Ecommerce module he has installed and you may want to search on something different like Content or Taxonomy Term (if you watch closely you will see where he makes this selection about the 5.0 minute mark of the video).<br>  
 c) Unless you start snapshot screen captures as the video plays, it may go by too fast so the next section that has screens shots may be better references as you work. 
 
-### Cookbook
+### Cookbook Steps
 
 If you find you want to move to the [Search API level of Facet deployment you might follow this.](https://www.specbee.com/blogs/how-configure-faceted-search-drupal-8-and-9-easy-step-step-tutorial)
 
-Installing the Facets Module for Drupal.  As previously discussed, we will be implementing Faceted search using Drupal’s Search API module.
 
 #### Install the Facets and Search API modules
 
