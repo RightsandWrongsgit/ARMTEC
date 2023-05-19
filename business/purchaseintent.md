@@ -61,9 +61,25 @@ The general flow of the study design for this research project is anticipated to
 
 I. Screener and Awareness Measurement via Phone.
 
+Awareness of Carrier
+Awareness of specific product
+Screener (by product eligibility requirements for all respondents and confirming current product use for Control Group.
+Current Product Carrier and Product (for share calculation in internal control logic)
+
 II. Mail the Concepts to be tested to respondents.
 
 III. Phone Questionnaire Follow-up.
+
+Five-point purchase intent scale
+Number of units would purchase (individual, spouse, etc)
+Six-point intensity-of-liking scale
+Five-point value-for-the-price scale
+Five-point new and different scale
+Diagnostics (strengths, weaknesses, attributes)
+Current Product Use (reconfirm or minimally link in from screener response to those will full survey record from follow-up questionnaire).
+Demographics
+
+
 
 
 Core to this STM capability is to present a well developed product concept statement for consumers to react to via a statement of ‘purchase intent’. A well developed concept statement will be worded much like finished promotional material would read.  It will clearly note a realistic price or price options.  It will ideally be presented in finished quality that includes complete graphics and brand imaging elements; at a minimum, it will include Humana’s mark.
@@ -80,7 +96,7 @@ As mentioned in the background section, the top box of the purchase intent scale
 
 The table below shows a mock-up of the potential results and Phase II decision for which alternatives to continue further survey fieldwork on for more sample size to obtain appropriate statistical accuracy for decision making.   It shows that alternative-2 scores the highest adjusted top two box score with a 54.  For each of the other alternatives, a quick comparison of the “Top of Interval” score shows that all are below 54 with the except of alternative-6.  This means that alternative-2 remains within the statistical range of alternative-6 since its mid-point overlaps the 95% confidence interval defined range of that option.  In the example shown, the decision point to move forward only alternative-2 and alternative-6 for additional surveying is done on a one-tailed test.  A two-tailed test would imply a +/- 6% spread on both the bottom of the highest alternative and top of those alternatives that it is compared against.  Under this more rigid test criteria, in the example table alternative-2 having a “Bottom of Interval” value of 48% would be compared to the “Top of Interval” level for the other six; only alternative-4 and alternative-7 drop out of this more rigid test.   We would keep surveying for each of the other alternatives.  A decision on the final criteria cut off levels and which alternatives to continue further interviewing on, will be made at the time ‘marginal counts’ are delivered from the first hundred interviews for the original seven options being tested.
 
-					      Over-65 Pharmacy Benefit Alternative
+
                 
 From (CONCEPT VOLUMETRIC QUESIONNAIRE DRAFT)
 
@@ -90,93 +106,9 @@ It is also possible that during competitive bidding, that the alternative of Int
 
 A positive of the internet option is better security of the concept statements being used in the research than what is physically mailed.  The negative aspects of the internet approach is concern over sample frame skew among seniors who can’t be assumed to have ubiquitous high speed connections, needed to display highly graphical promotional concepts, is uniformly across all senior age groups.  Bids recommending internet fielding must address how these limitations will be managed.
 
-Study Flow and Information to be Collected:
-
-PHASE-I
-
-Seven Over-65 Pharmacy Benefit Test Concepts (100 Interviews per cell, 700 total Interviews):
-
-I. Screener and Awareness Measurement.
-Awareness of Carrier
-Awareness of specific product
-Screener (by product eligibility requirements for all respondents and confirming Humana product use for Control Group.
-Current Product Carrier and Product (for share calculation in internal control logic)
-
-II. Mail the Concepts to be tested.
-
-III. Phone Questionnaire Follow-up.
-
-Seven Over-65 Pharmacy Benefit Concepts, each with a Second Existing Product Calibration Concept for STM purchase intent control adjustment back validation.  Both concepts in each cell will minimally include the purchase intent measures for both and enough diagnostics for the calibration control concept that it is not obvious to the respondent which the test and which is the control concept.
-	
-Five-point purchase intent scale
-Number of units would purchase (individual, spouse, etc)
-Six-point intensity-of-liking scale
-Five-point value-for-the-price scale
-Five-point new and different scale
-Diagnostics (strengths, weaknesses, attributes)
-Current Product Use (reconfirm or minimally link in from screener response to those will full survey record from follow-up questionnaire).
-Demographics
 
 
 
-
-
-
-
-PHASE-II
-
-Three run-off Over-65 Pharmacy Benefit Test Concepts (500 Interviews per cell, 1500 total Interviews):
-
-I. Screener and Awareness Measurement.
-Awareness of Carrier
-Awareness of specific product
-Screener (by product eligibility requirements for all respondents and confirming Humana product use for Control Group.
-Current Product Carrier and Product (for share calculation in internal control logic)
-
-II. Mail the Concepts to be tested.
-
-III. Phone Questionnaire Follow-up.
-
-Three Over-65 Pharmacy Benefit Concepts, each with a Second Existing Product Calibration Concept for STM purchase intent control adjustment back validation.  Both concepts in each cell will minimally include the purchase intent measures for both and enough diagnostics for the calibration control concept that it is not obvious to the respondent which the test and which is the control concept.
-	
-Five-point purchase intent scale
-Number of units would purchase (individual, spouse, etc)
-Six-point intensity-of-liking scale
-Five-point value-for-the-price scale
-Five-point new and different scale
-Diagnostics (strengths, weaknesses, attributes)
-Current Product Use (reconfirm or minimally link in from screener response to those will full survey record from follow-up questionnaire).
-Demographics
-
-
-Data Tabulation:
-
-Screener Collected Data –
-
-Awareness Measures-Company:
-Top of Mind Company Awareness
-Unaided Company Awareness
-Aided Company Awareness
-
-Awareness Measures-Product:
-Aided Awareness Over-65 Pharmacy Benefit Product (ghost measure calibration)
-Aided Awareness Humana Control Calibration Product
-Aided Awareness Competitive Over-65 Pharmacy Benefit Product(s)
-Aided Awareness Competitive Product within Control Calibration Product Type
-Aided Awareness Bogus Product within Control Calibration Product Type (bogus measure calibration)
-Insured Rates:
-Uninsured Rate
-Type of Coverage Rates
-Carrier Company
-Carrier Product
-
-Product Understanding:
-Product Features by –
-Type of Coverage
-Carrier Company
-Carrier Product
-
-**************************
 
 #### Screener and Awareness Questionnaire
 
@@ -276,18 +208,21 @@ We will be mailing you an envelop with some additional materials for a follow up
 
 #### In the Envelop
 
-
+There is an outer envelop for postal mailing requirements.  There is an inner master envelop with the statement below printed on its outside.  Within that master envelop are smaller envelops which contain a code like "A", "B", "C", etc. so the respondent can be instructed to open a specific one and you will record which as the interview commences.  Within each smaller inner envelop is a stimulus in concept statement or full advertisement form for them to read just before you proceed with the interview about it.
 
 
 #### Concepts Mailed in Envelop with the following statement imprinted on the outside
 ___________________________________________________________________________________________________________________________________________________________
 By opening this envelop to participate in the following survey for _________ Research, you hereby agree to keep all information about the survey, including the products and concepts being tested, completely confidential and further agree not to disclose such information to any other party nor to attempt to copy, print, record, or download any information from this survey.  As to members of your household, you agree that they are also under this same obligation of confidentiality.                                                                       ___________________________________________________________________________________________________________________________________________________________
 
+#### Measure Concept Reaction
+
+After the respondent recieves the envelop with the concept(s) you want to measure you they will recieve a phone call with instructions to open one of the internal envelops in the mailed set, given a few moments to review it, and [asked these questions](../business/conceptquestions.md)
 
 
-
-
-
+<br>
+<br>
+<br>
 
 [Purchase Intent Questions](../business/conceptquestions.md#example-concept-test-questionaire)
 
