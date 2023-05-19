@@ -1,5 +1,8 @@
 
-## Purchase Intent
+# Purchase Intent
+
+
+<img src="../business/captures/purchaseintentscale.png"  width="200">
 
 You also need to generate interest in the product and this is typically measured via purchase intent on a five-point scale.  Purchase intent to actual purchase behavior needs to be calibrated for each point on that scale; the ‘do what you say you will do’ adjustment factor.  There are a variety of calibration approaches which need to be included and monitored in full data architecture design.
 
