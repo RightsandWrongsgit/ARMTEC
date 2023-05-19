@@ -25,6 +25,7 @@
 - [Value Ladder](business/ladder.md)
 - [Concept Development](business/concept.md)
 - [Concept Scoring](business/conceptquestions.md)
+- [Purchase Intent](business/purchaseintent.md)
 - [Claims](business/claims.md)
 
 - [Topics to include](business/topics.md)
