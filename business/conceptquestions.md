@@ -12,13 +12,15 @@ Concept testing is a critical step in assuring your communications are relevant 
 INSTRUCT RESPONDENT TO OPEN FIRST ENVELOP CONTAINING CALIBRATION CONTROL CONCEPT, STATE “I would like you to look at this picture and carefully read the description of the product shown.  Please take your time.”  
 THEN ASK THE FOLLOWING QUESTIONS:
 
- Based on the picture and description that you just read, which statement below best describes how you feel about buying ()?
+ Based on the picture and description that you just read, which statement below best describes how you feel about buying (Insert Stimulus Description)?
                                                                                   
            Definitely would buy .............................1
            Probably would buy ...............................2
            Might or might not buy ...........................3   GO TO CDIS
            Probably would not buy ...........................4   GO TO CDIS
            Definitely would not buy .........................5   GO TO CDIS
+
+[<font color=green>This is known as a purchase intent question that may be used to project volumes.</font>](../business/purchaseintent.md)
 
  Based on the description you just read, what is there about () that you think you'd like? Please be as specific as possible.  
 
