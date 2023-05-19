@@ -47,9 +47,10 @@ The basic math is straight forward in that you adjust for the percentage of stor
 You can put all these parts together, even uniquely tuned to your product/service market situation, in what is know as a [simulated test market (STM)
 ](https://dspace.mit.edu/handle/1721.1/37225)  What the actual STM development adds beyond the purchase intent measure is volumetric scaling. This means the ability to project the survey findings into to an estimate of contracts, revenues, and total profit.  The STM tool will relate survey findings to market demographics and network geographic information in this projection process.  The result will be a prototype database with a simple to use “what if” front-end that will allow performance scenario estimates to be projected and refined.
 
-<img src="../business/captures/stm1.png"  width="350">
+<img src="../business/captures/stm1.png"  width="600">
 
-Through the methods development effort, the process of volume projection will be standardized so that Humana can improve consistency across all product options evaluated over time.  This establishment of a standardized process is viewed to be a key capability in systematically evaluating and prioritizing alternatives competing for Humana’s human and financial resources.  Doing so will help assure the best alternatives are receiving the most attention for expedient development and launch.
+The real advantage of a Simulated Test Market model approach is that you can run scenarios.  You might adjust the target segment you are going after.  You might adjust which state or states you will be doing business in.  You might look at how your [advertising plan time alignment might be adjusted.](../business/admath.md#time-alignment) You might look at how your [price elasticity](../business/priceelasticity.md) interacting with your purchase intent scores points to a volume optimization point.  You might look at your [Cost of Goods Sold (CGOS)](../business/cogs.md) plays out against your price point and implied margin and find the profit optimization point.  We have even built models where market by market, store by store distribution build by calendar date has been modeled and aligned this with subsequent [Trade Sales Force](https://www.ksolves.com/blog/salesforce/salesforce-trade-promotion-management-and-implementation) objectives in their [incentive compensation plans.](https://www.anaplan.com/blog/complete-introduction-incentive-compensation-sales/#:~:text=Incentive%20compensation%20is%20a%20form,team%2C%20or%20the%20organization's%20success.)
+
 
 Methodology:
 
