@@ -11,7 +11,7 @@ The [Purge module](https://www.drupal.org/project/purge) is a cache management a
 
 ## Quicklink module
 
-[Quicklink](https://www.drupal.org/project/quicklink) uses Google's JavaScript Quicklink library to enable faster subsequent page-loads by prefetching in-viewport links while your input otherwise may be idle.
+[Quicklink](https://www.drupal.org/project/quicklink) uses Google's JavaScript Quicklink library to enable faster subsequent page-loads by prefetching in-viewport links while your input otherwise may be idle. It is [claimed to improve load times by 50% via a sort of "look ahead" JavaScript effort.](https://fivejars.com/blog/quicklink-tool-boosts-website-conversions-50)
 
 `composer require drupal/quicklink`<br>
 `drush en quicklink`
