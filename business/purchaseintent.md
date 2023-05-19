@@ -1,8 +1,22 @@
 
 # Purchase Intent
 
+## Measurement
 
-<img src="../business/captures/purchaseintentscale.png"  width="200">
+The key to measuring purchase intent is to assure a proper stimulus.  In an ideal fantasy world this would be the actual product with full explanation of all use benefits clearly elaborated and a price with any adjustments provided.  With a new product we back down from that and show a fully developed advertisement or even a concept statement; but we never back down from showing the price.  This is because [price elasticity](../business/priceelasticity.md) is likely an important decision influence is intent choice.  In more sophisticated research we often include multiple price points being tested, any price discounting actions like coupons, BOGOs, etc. We even can consider using filter questions for store location adjustments by asking respondents their typical shopping aisle section visit behaviors.
+
+What we ask after showing the stimulus is an intent to purchase question with this type of response scale.
+<img src="../business/captures/purchaseintentscale.png"  width="150">
+
+## Top Two Box
+
+It is common for organizations to establish hurdle rates for what percent of the survey respondents answer in the Very or Probably will buy [Top Two Box answers](https://help.honestly.com/knowledge/how-your-scores-are-calculated-top2-vs.-average).  In fact, this can be an important criteria in a [Stage Gate](https://slidemodel.com/stage-gate-process-for-product-development/) decision to proceed process.   That may make sense for an organization which has an organization advantage or skill in distribution through the Food/Drug/Mass Merchandise channels to a general population buyer set that they can't sort out very easily at point of purchase.  However, for many other types of businesses they have the potential to more directly speak to and deliver to highly targeted populations.  In those types of businesses it makes more sense to include very carefully considered demographic and list source targeting questions in the survey of purchase intent and simply align the top intent to purchase questions to these.  They you create an advertising and promotion strategy aim effectively and efficiently at the most receptive.
+
+## Revenue Projection
+
+
+
+[BASES](https://www.ashokcharan.com/Marketing-Analytics/~pv-BASES.php#gsc.tab=0)
 
 You also need to generate interest in the product and this is typically measured via purchase intent on a five-point scale.  Purchase intent to actual purchase behavior needs to be calibrated for each point on that scale; the ‘do what you say you will do’ adjustment factor.  There are a variety of calibration approaches which need to be included and monitored in full data architecture design.
 
