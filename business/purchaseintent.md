@@ -178,11 +178,11 @@ Carrier Product
 
 **************************
 
-Screener and Awareness Questionnaire:
+#### Screener and Awareness Questionnaire
 
 Are you or anyone in your home age 65 or over?
 
-___Yes		___No  Thank and Terminate!
+___Yes		___No -> Thank and Terminate!
 
 Which of the following statements best describes your personal involvement in the choice of health care coverage for you:
 
@@ -207,10 +207,9 @@ ___ A health care provider such as a physician, hospital, nursing home,
  
 If employed by any listed, Thank and Terminate! Otherwise continue.
 
-Please tell me the name of the Health Insurance Company which first comes to mind? What other Health Insurance companies are you aware of?	Have you ever heard of (READ LIST)?
+Please tell me the name of the Health Insurance Company which first comes to mind? What other Health Insurance companies are you aware of? (Probe: Have you ever heard of (READ LIST)?
 
-
-     First   Unaided  Aided
+First   Unaided  Aided
 ___     ___      ___ 	Aetna
 ___     ___      ___	Anthem
 ___     ___      ___	Blue Cross/Blue Shield
@@ -221,7 +220,7 @@ ___     ___      ___	Kaiser
 ___     ___      ___	United Health Care
 ___     ___      ___	Wellpoint
 ___     ___      ___	Other: _______________________________
-      (Specify)
+                               (Specify)
 
 Now I would like to ask you about specific Health Insurance Products offered by various companies.  Have you ever heard of the following?
 
@@ -258,7 +257,7 @@ ___ Other: _______________________________
 
 
 
-Can you tell me the name of the specific product you have with (insert company from Q6)?
+Can you tell me the name of the specific product you have with (insert company from Question X)?
 
 ___ YES, Record Product Name ______________________________________
 ___ NO
@@ -273,11 +272,16 @@ Your Plan’s Family Deductible amount          $_____________, Don’t Know
 If your plan covers drug benefits?    ___ Yes, ___ No
 If your plan covers vision benefits?  ___ Yes, ___ No
 
+We will be mailing you an envelop with some additional materials for a follow up set of questions.  It should be there within a week.  Can you tell me a good time to reach you for a few final questions about reaction to the materials in that envelop?  Set Date: ______________  Preferred Time(s): _________________
+
+#### In the Envelop
 
 
-Concepts Mailed in Envelop with the following statement imprinted on the outside:
-_______________________________________________________________________________
-By opening this envelop to participate in the following survey for _________ Research, you hereby agree to keep all information about the survey, including the products and concepts being tested, completely confidential and further agree not to disclose such information to any other party nor to attempt to copy, print, record, or download any information from this survey.  As to members of your household, you agree that they are also under this same obligation of confidentiality.                                                                       ________________________________________________________________________________
+
+
+#### Concepts Mailed in Envelop with the following statement imprinted on the outside
+___________________________________________________________________________________________________________________________________________________________
+By opening this envelop to participate in the following survey for _________ Research, you hereby agree to keep all information about the survey, including the products and concepts being tested, completely confidential and further agree not to disclose such information to any other party nor to attempt to copy, print, record, or download any information from this survey.  As to members of your household, you agree that they are also under this same obligation of confidentiality.                                                                       ___________________________________________________________________________________________________________________________________________________________
 
 
 
