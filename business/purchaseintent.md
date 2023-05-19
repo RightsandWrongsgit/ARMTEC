@@ -29,13 +29,18 @@ So what do you do if country/category norms aren't available for the type of goo
 
 ### Know about it
 
+You have to know about something to want to buy it; that is having awareness.  In a purchase intent survey, all of the respondents who answer the question know about the product/service from the stimulus presented.  That means your respondents to the survey have 100% awareness.  There isn't a product or service on the planet that actually has 100% awareness in the real world.  Most companies would be ecstatic if it was 70% of their target audience and most have way, way less.
 
-Awareness
-
-
+So your math in converting purchase intent results to revenue has to be adjusted for the percent of your target who has awareness of it.  There is a big debate about whether than is "aided" or "unaided" awareness.  Unless you are absolutely sure you have an 'impulse buy' item that is distributed in a highly visible way at its point of distribution, please use unaided awareness in this calculation adjustment.
 
 ### Find It
-Distribution
+
+To buy it, you need to be able to find it; what is and where is your item's "Distribution"?  In the world typical of Food/Drug/Mass Merchandise products, this measurement is done with an [ACV (All Commondity Volume) measure of distribution.](https://mobileinsight.com/what-is-all-commodity-volume-acv-why-brands-care/#:~:text=ACV%20stands%20for%20%E2%80%9CAll%20Commodities,a%20specified%20region%20or%20territory.)  This sounds fancy but just think of it as a way that one accounts for the fact that all stores don't have equal traffic or eyeballs going through their aisles; it adjusts distribution for consumer count.
+
+The basic math is straight forward in that you adjust for the percentage of stores that care your item if that is how you distribute it.  If you sell on-line you don't need to adjust this because they see and buy your product sort of side-by-side.  If your item is in only 10% of stores, you can knock 90% of the volume off your prior calculation to get your answer.  To be fair, there are some potential reasons for modifiers on this adjustment.  For example, it we know your buyers from confirming direct research with them say they will visit several stores to find it until the do, you might not knock it down as far; but rememeber the 'lie factor' before you get carried away.  You also see products being very clear right in their advertisements statements like "Can be found at...".
+
+<big><font color=yellow>Important side note:</font></big> One of the biggest causes of [failures in a new product launch is not coordinating the media plan with the distribution availability.](../business/admath.html#need-state--influence-model)
+
 
 You also need to generate interest in the product and this is typically measured via purchase intent on a five-point scale.  Purchase intent to actual purchase behavior needs to be calibrated for each point on that scale; the ‘do what you say you will do’ adjustment factor.  There are a variety of calibration approaches which need to be included and monitored in full data architecture design.
 
