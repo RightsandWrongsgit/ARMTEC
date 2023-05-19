@@ -15,9 +15,29 @@ It is common for organizations to establish hurdle rates for what percent of the
 
 ## Revenue Projection
 
+So you think you can just take the percent of people who say they will by times the count from the underlying [potential](../business/potential.md) times the  price of what you offer and project your revenue.  Now conclude "I will be RICH".  
+
+Time to burst your bubble.  A couple things get in the way of that simple logic.
+
+### Lie Factor
+
+You get a hint of some issue by the fact we ask a five level purchase intent question; so the people to say "definitely" must count more than the "probably".  Yeah, well in the real world not even all of the "definitely" people will actually make a purchase.  We can conclude that people lie on surveys...  
+
+It is actually pretty interesting that the follow through rate from these purchase intent answers differs by country and product category.  Think about the stories you have heard about how different people from various countries are known in terms of being polite.  Some regard telling you that your product kind of sucks as being impolite and the response scale in such countries scales up.  There are also differences by category because some things are considered more personally sensitive than others.  It is one thing to tell you your beautiful lipstick is nasty versus that I simply am not a fan of eating spicy food.  Don't believe this?  There is a company who has made a whole business model out of [establishing adjustment norms by country & category.](https://www.ashokcharan.com/Marketing-Analytics/~pv-BASES.php#gsc.tab=0)
+
+The percent of respondents replying ‘definitely’ or ‘probably’ will buy is the basis for measuring expected product performance. Those answering ‘definitely’ will be valued with a three fold weight factor compared to ‘probably’ respondents. This recognizes the relative strength of commitment to actual purchase scene from survey intent to purchase statement responses.
 
 
-[BASES](https://www.ashokcharan.com/Marketing-Analytics/~pv-BASES.php#gsc.tab=0)
+
+
+
+### Know about it
+Awareness
+
+
+
+### Find It
+Distribution
 
 You also need to generate interest in the product and this is typically measured via purchase intent on a five-point scale.  Purchase intent to actual purchase behavior needs to be calibrated for each point on that scale; the ‘do what you say you will do’ adjustment factor.  There are a variety of calibration approaches which need to be included and monitored in full data architecture design.
 
@@ -25,14 +45,7 @@ Core to this STM capability is to present a well developed product concept state
 
 A well developed concept statement will be words much like finished promotional material would read.  It will clearly note a realistic price or price options for the product presented.  It will ideally be presented in finished quality.  This would include complete graphics and brand imaging elements; at a minimum, it will include Humana’s mark.
 
-Interest in products will be measured via purchase intent scores.  The purchase intent scores will be collected from the survey research portion of the project on a five-point scale:
-definitely will buy
-probably will buy
-might or might not buy
-probably will not buy
-definitely will not buy
 
-The percent of respondents replying ‘definitely’ or ‘probably’ will buy is the basis for measuring expected product performance. Those answering ‘definitely’ will be valued with a three fold weight factor compared to ‘probably’ respondents. This recognizes the relative strength of commitment to actual purchase scene from survey intent to purchase statement responses.
 
 
 Understanding differences in consumer interest in the feature alternatives at various prices can provide an estimate of the likely purchase pattern each of the seven options might expect to enjoy.  Direct comparison of the different purchase intent levels will be sufficient to guide this choice and can be collected as a foundational step of this methods development project as a way to save time and money.
