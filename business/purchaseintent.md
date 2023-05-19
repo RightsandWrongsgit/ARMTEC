@@ -42,18 +42,12 @@ The basic math is straight forward in that you adjust for the percentage of stor
 <big><font color=yellow>Important side note:</font></big> One of the biggest causes of [failures in a new product launch is not coordinating the media plan with the distribution availability.](../business/admath.html#need-state--influence-model)
 
 
-You also need to generate interest in the product and this is typically measured via purchase intent on a five-point scale.  Purchase intent to actual purchase behavior needs to be calibrated for each point on that scale; the ‘do what you say you will do’ adjustment factor.  There are a variety of calibration approaches which need to be included and monitored in full data architecture design.
+## Simulated Test Market
 
-Core to this STM capability is to present a well developed product concept statement for consumers or employers to react to via a statement of ‘purchase intent’.  Purchase intent is gathered through a survey of members of the target segment for the product.
+You can put all these parts together, even uniquely tuned to your product/service market situation, in what is know as a [simulated test market (STM)
+](https://dspace.mit.edu/handle/1721.1/37225)  What the actual STM development adds beyond the purchase intent measure is volumetric scaling. This means the ability to project the survey findings into to an estimate of contracts, revenues, and total profit.  The STM tool will relate survey findings to market demographics and network geographic information in this projection process.  The result will be a prototype database with a simple to use “what if” front-end that will allow performance scenario estimates to be projected and refined.
 
-A well developed concept statement will be words much like finished promotional material would read.  It will clearly note a realistic price or price options for the product presented.  It will ideally be presented in finished quality.  This would include complete graphics and brand imaging elements; at a minimum, it will include Humana’s mark.
-
-
-
-
-Understanding differences in consumer interest in the feature alternatives at various prices can provide an estimate of the likely purchase pattern each of the seven options might expect to enjoy.  Direct comparison of the different purchase intent levels will be sufficient to guide this choice and can be collected as a foundational step of this methods development project as a way to save time and money.
-
-What the actual STM development will add beyond the purchase intent measure is volumetric scaling. This means the ability to project the survey findings into to an estimate of contracts, revenues, and total profit.  The STM tool will relate survey findings to market demographics and network geographic information in this projection process.  The result will be a prototype database with a simple to use “what if” front-end that will allow performance scenario estimates to be projected and refined.
+<img src="../business/captures/stm1.png"  width="350">
 
 Through the methods development effort, the process of volume projection will be standardized so that Humana can improve consistency across all product options evaluated over time.  This establishment of a standardized process is viewed to be a key capability in systematically evaluating and prioritizing alternatives competing for Humana’s human and financial resources.  Doing so will help assure the best alternatives are receiving the most attention for expedient development and launch.
 
