@@ -25,13 +25,11 @@ You get a hint of some issue by the fact we ask a five level purchase intent que
 
 It is actually pretty interesting that the follow through rate from these purchase intent answers differs by country and product category.  Think about the stories you have heard about how different people from various countries are known in terms of being polite.  Some regard telling you that your product kind of sucks as being impolite and the response scale in such countries scales up.  There are also differences by category because some things are considered more personally sensitive than others.  It is one thing to tell you your beautiful lipstick is nasty versus that I simply am not a fan of eating spicy food.  Don't believe this?  There is a company who has made a whole business model out of [establishing adjustment norms by country & category.](https://www.ashokcharan.com/Marketing-Analytics/~pv-BASES.php#gsc.tab=0)
 
-The percent of respondents replying ‘definitely’ or ‘probably’ will buy is the basis for measuring expected product performance. Those answering ‘definitely’ will be valued with a three fold weight factor compared to ‘probably’ respondents. This recognizes the relative strength of commitment to actual purchase scene from survey intent to purchase statement responses.
-
-
-
-
+So what do you do if country/category norms aren't available for the type of good or service you plan to offer.  Our starting point is that about 86% of those who answer that they will 'definitely' buy will follow through in the real world.  Of those who say they 'probably' will buy we would apply the follow through rate of only 29%.  The 'might or might not', 'probably not' and 'definitely not' are given zero's for actual purchase estimation.  Sometimes we aim to tighten up these general adjustment factors by injecting an internal study norming approach in the study design.  This requires for also accounting for the other factors discussed below in our modeling; including awareness measurement within the survey and having sources for actual distribution.  The basic logic is to include an actual existing product(s) in the same survey as the new product and working the simulated test market model backward to match the known sales of the actual product we use in the study.  The key to the math solution is that those answering ‘definitely’ will be valued with a three fold weight factor compared to ‘probably’ respondents. This recognizes the relative strength of commitment to actual purchase seen from survey intent to purchase statement responses.
 
 ### Know about it
+
+
 Awareness
 
 
