@@ -6,6 +6,7 @@
 The key to measuring purchase intent is to assure a proper stimulus.  In an ideal fantasy world this would be the actual product with full explanation of all use benefits clearly elaborated and a price with any adjustments provided.  With a new product we back down from that and show a fully developed advertisement or even a concept statement; but we never back down from showing the price.  This is because [price elasticity](../business/priceelasticity.md) is likely an important decision influence is intent choice.  In more sophisticated research we often include multiple price points being tested, any price discounting actions like coupons, BOGOs, etc. We even can consider using filter questions for store location adjustments by asking respondents their typical shopping aisle section visit behaviors.
 
 What we ask after showing the stimulus is an intent to purchase question with this type of response scale.<br>
+
 <img src="../business/captures/purchaseintentscale.png"  width="150">
 
 ## Top Two Box
