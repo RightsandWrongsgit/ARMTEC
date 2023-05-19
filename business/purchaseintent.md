@@ -51,8 +51,11 @@ You can put all these parts together, even uniquely tuned to your product/servic
 
 The real advantage of a Simulated Test Market model approach is that you can run scenarios.  You might adjust the target segment you are going after.  You might adjust which state or states you will be doing business in.  You might look at how your [advertising plan time alignment might be adjusted.](../business/admath.md#time-alignment) You might look at how your [price elasticity](../business/priceelasticity.md) interacting with your purchase intent scores points to a volume optimization point.  You might look at your [Cost of Goods Sold (CGOS)](../business/cogs.md) plays out against your price point and implied margin and find the profit optimization point.  We have even built models where market by market, store by store distribution build by calendar date has been modeled and aligned this with subsequent [Trade Sales Force](https://www.ksolves.com/blog/salesforce/salesforce-trade-promotion-management-and-implementation) objectives in their [incentive compensation plans.](https://www.anaplan.com/blog/complete-introduction-incentive-compensation-sales/#:~:text=Incentive%20compensation%20is%20a%20form,team%2C%20or%20the%20organization's%20success.)
 
+## Example Methodology
 
-Methodology:
+The specific methodology is adapted to the product/service situation, market segment, and the additional measures needed in the Simulated Test Market modeling design (which should be framed out in protype before the survey research collection to the point of mock output data from the survey analytics testing the model logic).
+
+### General Design Flow
 
 The general flow of the study design for this research project is anticipated to be --
 
@@ -61,6 +64,7 @@ I. Screener and Awareness Measurement via Phone.
 II. Mail the Concepts to be tested to respondents.
 
 III. Phone Questionnaire Follow-up.
+
 
 Core to this STM capability is to present a well developed product concept statement for consumers to react to via a statement of ‘purchase intent’. A well developed concept statement will be worded much like finished promotional material would read.  It will clearly note a realistic price or price options.  It will ideally be presented in finished quality that includes complete graphics and brand imaging elements; at a minimum, it will include Humana’s mark.
 
@@ -182,15 +186,11 @@ ___Yes		___No  Thank and Terminate!
 
 Which of the following statements best describes your personal involvement in the choice of health care coverage for you:
 
-___ I am the decision-maker when it comes to health care coverage (			CONTINUE)
-___ I share health care coverage decisions equally with my partner or
-spouse (CONTINUE)
-___ I share decisions with my partner or spouse, but I am the primary
-decision-maker (CONTINUE)
-___ We share decisions, but my partner or spouse is the primary decision-
-maker (ASK TO SPEAK WITH DECISION-MAKER OR TERMINATE)
-___ I am not at all involved in the decisions regarding my health care
-coverage (ASK TO SPEAK WITH DECISION-MAKER OR TERMINATE)
+___ I am the decision-maker when it comes to health care coverage (CONTINUE)
+___ I share health care coverage decisions equally with my partner or spouse (CONTINUE)
+___ I share decisions with my partner or spouse, but I am the primary decision-maker (CONTINUE)
+___ We share decisions, but my partner or spouse is the primary decision-maker (ASK TO SPEAK WITH DECISION-MAKER OR TERMINATE)
+___ I am not at all involved in the decisions regarding my health carecoverage (ASK TO SPEAK WITH DECISION-MAKER OR TERMINATE)
 ___ Don’t Know/Refused (TERMINATE)
 
 
@@ -225,8 +225,8 @@ ___     ___      ___	Other: _______________________________
 
 Now I would like to ask you about specific Health Insurance Products offered by various companies.  Have you ever heard of the following?
 
-Humana Test Product(s) (ghost measure calibration)
-Humana Control Calibration Product
+Test Product(s) (ghost measure calibration)
+Control Calibration Product
 Competitor Product(s) around both the test and control
 Bogus product(s) to gauge the error band of false awareness
 
@@ -237,7 +237,7 @@ ___ No, Skip to Q????
 
 Which of the following best describes the type of health insurance you have?
 
-___ Medicaid
+        ___ Medicaid
 	___ Medicare only
 	___ Medicare supplement
 	___ HMO
@@ -275,12 +275,13 @@ If your plan covers vision benefits?  ___ Yes, ___ No
 
 
 
-
-
-
 Concepts Mailed in Envelop with the following statement imprinted on the outside:
 _______________________________________________________________________________
-By opening this envelop to participate in the following survey for _________ Research, you hereby agree to keep all information about the survey, including the products and concepts being tested, completely confidential and            further agree not to disclose such information to any other party nor to attempt to copy, print, record, or download any information from this survey.  As to members of your household, you agree that they are also under this same obligation of confidentiality.                                                                       ________________________________________________________________________________
+By opening this envelop to participate in the following survey for _________ Research, you hereby agree to keep all information about the survey, including the products and concepts being tested, completely confidential and further agree not to disclose such information to any other party nor to attempt to copy, print, record, or download any information from this survey.  As to members of your household, you agree that they are also under this same obligation of confidentiality.                                                                       ________________________________________________________________________________
+
+
+
+
 
 
 
