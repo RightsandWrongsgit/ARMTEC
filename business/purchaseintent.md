@@ -15,7 +15,7 @@ It is common for organizations to establish hurdle rates for what percent of the
 
 ## Revenue Projection
 
-So you think you can just take the percent of people who say they will by times the count from the underlying [potential](../business/potential.md) times the  price of what you offer and project your revenue.  Now conclude "I will be RICH".  
+So you think you can just take the percent of people who say they will buy times the count from the underlying [potential](../business/potential.md) times the  price of what you offer and project your revenue.  Then conclude "I will be RICH".  
 
 Time to burst your bubble.  A couple things get in the way of that simple logic.
 
