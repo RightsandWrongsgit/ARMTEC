@@ -21,7 +21,7 @@ Time to burst your bubble.  A couple things get in the way of that simple logic.
 
 ### Lie Factor
 
-You get a hint of some issue by the fact we ask a five level purchase intent question; so the people to say "definitely" must count more than the "probably".  Yeah, well in the real world not even all of the "definitely" people will actually make a purchase.  We can conclude that people lie on surveys...  
+There is a hint of an issue from the fact we ask a five level purchase intent question; people who say "definitely" must count more than the "probably".  Yeah, well in the real world not even all of the "definitely" people will actually make a purchase.  We can conclude that people lie on surveys...  
 
 It is actually pretty interesting that the follow through rate from these purchase intent answers differs by country and product category.  Think about the stories you have heard about how different people from various countries are known in terms of being polite.  Some regard telling you that your product kind of sucks as being impolite and the response scale in such countries scales up.  There are also differences by category because some things are considered more personally sensitive than others.  It is one thing to tell you your beautiful lipstick is nasty versus that I simply am not a fan of eating spicy food.  Don't believe this?  There is a company who has made a whole business model out of [establishing adjustment norms by country & category.](https://www.ashokcharan.com/Marketing-Analytics/~pv-BASES.php#gsc.tab=0)
 
