@@ -194,14 +194,14 @@ By opening this envelop to participate in the following survey for _________ Res
 
 #### Measure Concept Reaction
 
-After the respondent recieves the envelop with the concept(s) you want to measure you they will recieve a phone call with instructions to open one of the internal envelops in the mailed set, given a few moments to review it, and [asked these questions](../business/conceptquestions.md)
+After the respondent recieves the envelop with the concept(s) you want to measure you they will recieve a phone call with instructions to open one of the internal envelops in the mailed set, given a few moments to review it, and [asked these questions](../business/conceptquestions.md#example-concept-test-questionaire)
 
 
 <br>
 <br>
 <br>
 
-[Purchase Intent Questions](../business/conceptquestions.md#example-concept-test-questionaire)
+[Learn More - Business Chapter Index](../chapters.md#business)
 
 
 
