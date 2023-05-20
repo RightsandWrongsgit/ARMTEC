@@ -111,7 +111,7 @@ A positive of the internet option is better security of the concept statements b
 
 
 #### Screener and Awareness Questionnaire
-
+```
 Are you or anyone in your home age 65 or over?
 
 ___Yes		___No -> Thank and Terminate!
@@ -205,6 +205,8 @@ If your plan covers drug benefits?    ___ Yes, ___ No
 If your plan covers vision benefits?  ___ Yes, ___ No
 
 We will be mailing you an envelop with some additional materials for a follow up set of questions.  It should be there within a week.  Can you tell me a good time to reach you for a few final questions about reaction to the materials in that envelop?  Set Date: ______________  Preferred Time(s): _________________
+```
+
 
 #### In the Envelop
 
@@ -212,8 +214,10 @@ There is an outer envelop for postal mailing requirements.  There is an inner ma
 
 
 #### Concepts Mailed in Envelop with the following statement imprinted on the outside
+```
 ___________________________________________________________________________________________________________________________________________________________
 By opening this envelop to participate in the following survey for _________ Research, you hereby agree to keep all information about the survey, including the products and concepts being tested, completely confidential and further agree not to disclose such information to any other party nor to attempt to copy, print, record, or download any information from this survey.  As to members of your household, you agree that they are also under this same obligation of confidentiality.                                                                       ___________________________________________________________________________________________________________________________________________________________
+```
 
 #### Measure Concept Reaction
 
