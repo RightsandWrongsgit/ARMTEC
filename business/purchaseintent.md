@@ -31,7 +31,7 @@ So what do you do if country/category norms aren't available for the type of goo
 
 You have to know about something to want to buy it; that is having awareness.  In a purchase intent survey, all of the respondents who answer the question know about the product/service from the stimulus presented.  That means your respondents to the survey have 100% awareness.  There isn't a product or service on the planet that actually has 100% awareness in the real world.  Most companies would be ecstatic if it was 70% of their target audience and most have way, way less.
 
-So your math in converting purchase intent results to revenue has to be adjusted for the percent of your target who has awareness of it.  There is a big debate about whether than is "aided" or "unaided" awareness.  Unless you are absolutely sure you have an 'impulse buy' item that is distributed in a highly visible way at its point of distribution, please use unaided awareness in this calculation adjustment.
+So your math in converting purchase intent results to revenue has to be adjusted for the percent of your target who has awareness of it.  There is a big debate about whether it is better to use "aided" or "unaided" awareness.  Unless you are absolutely sure you have an 'impulse buy' item that is distributed in a highly visible way at its point of distribution, please use "unaided" awareness in this calculation adjustment.
 
 ### Find It
 
