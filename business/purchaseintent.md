@@ -53,7 +53,7 @@ The real advantage of a Simulated Test Market model approach is that you can run
 
 ## Example Methodology
 
-The specific methodology is adapted to the product/service situation, market segment, and the additional measures needed in the Simulated Test Market modeling design (which should be framed out in protype before the survey research collection to the point of mock output data from the survey analytics testing the model logic).
+The specific methodology is adapted to the product/service situation, market segment, and the additional measures needed in the Simulated Test Market modeling design. The model logic should be developed in protype before the survey research collection itself.  You want to take mock output data from the survey data management plan output and test drive it for the analytics of the model.  This needs to be totally buttoned down because the expensive part is collecting the survey data and you probably won't get a second chance.
 
 ### General Design Flow
 
@@ -61,10 +61,10 @@ The general flow of the study design for this research project is anticipated to
 
 I. Screener and Awareness Measurement via Phone.
 
-Awareness of Carrier
+Awareness of Company
 Awareness of specific product
-Screener (by product eligibility requirements for all respondents and confirming current product use for Control Group.
-Current Product Carrier and Product (for share calculation in internal control logic)
+Screener by product for eligibility requirements for all respondents and confirming current product use for Control product calibration.
+Current Product Company and Product (for share calculation in internal control logic)
 
 II. Mail the Concepts to be tested to respondents.
 
@@ -77,40 +77,13 @@ Five-point value-for-the-price scale
 Five-point new and different scale
 Diagnostics (strengths, weaknesses, attributes)
 Current Product Use (reconfirm or minimally link in from screener response to those will full survey record from follow-up questionnaire).
-Demographics
-
-
-
-
-Core to this STM capability is to present a well developed product concept statement for consumers to react to via a statement of ‘purchase intent’. A well developed concept statement will be worded much like finished promotional material would read.  It will clearly note a realistic price or price options.  It will ideally be presented in finished quality that includes complete graphics and brand imaging elements; at a minimum, it will include Humana’s mark.
-
-
-Each cell will have the general eligibility requirements for access to the product; that being people who are age 65 and over.  Beyond that, any additional filtering of respondents will be done via the screener questionnaire which is part of this design proposal. The screening process will include data collection for all respondents, both qualified and terminated; the collected will be used in the full analysis of this project and is critical to retain and tabulate.  It is a critical element of effectively linking study results back to the total population, Census count information of the broad demographic group.
-
-Projection of the survey results will be through Census counts of the Over-65 population.  That population will be available from a Humana developed database which maintains it at the county level.  The same database will maintain a list of those counties which define Humana’s Regional Networks, ChoiceCare® Network, and non-network geographies.  This will allow for projection of market volume potential for product alternatives by sub-geographic market area.
-
-The screener element of this study contains a critical component measure of ‘awareness’ of Humana and select products.  Awareness, closely tied to the full Census demographic counts for projection scaling, is a critical component of a simulated test marketing (STM) model.  Only those who are aware of a product have the potential to buy it and media plans are built around this point in STM modeling.  Thus, while the main study will gauge purchase intent among those shown alternative concept statements, all of these individuals could not be projected to the full universe of Over-65 people to be potential buyers.  Rather, only those aware can be counted in a projection.  The screener collected awareness data will form a baseline in the STM and media planning alternatives will be used to evaluate the impact in sales that is likely to result from different levels of A&P spending.
-
-When people are shown a concept for a product and asked if they how likely they are to by it on a purchase intent scale, they have a tendency to overstate the reality of their true purchase activities.  Adjustment norms are developed to correct this overstatement bias.  The challenge for STM development to forecast the potential of new products in the Health Services field is the lack of a normative database.  In the Consumer Packaged Goods (CPG) area, STM modeling enjoys the benefit of decades of prior projections being validated by category and country norms.  Thus, the current study will utilize an internal control group approach to derive the adjustment norms.  This control group will be managed as an internal calibration product concept within each of the seven Over-65 Pharmacy Benefit alternative cells.  The internal calibration product concept will be an existing Humana Over-65 Health Benefits product available in the broader ChoiceCare® geographic market area.  Utilizing ‘awareness’ for the calibration product collected from the screener, and the purchase intent scores which the product obtains with the survey, the normative adjustments of the purchase intent box scores will be balanced back to the actual Sales of the product in the measured markets.
-As mentioned in the background section, the top box of the purchase intent scale will be weighted three fold the second box on the scale in this work.  This will be true for the STM volumetric forecasting and also for the selection of the best alternative for among the seven Over-65 Pharmacy Benefits products being tested.  The logic of the top to second box weighting is that while CPG norms differ by category and country in terms of the ‘level’ of the adjustment factor, there is less variance in the distribution central tendency or dispersion. Thus, the least risk calibration approach without waiting for the accumulation of decades of historical norms to be collected is to standardize the distribution curve of the normative adjustments to be similar to what is found in CPG situations, but to let the levels for Health Services products to float against the calibration product.
-
-The table below shows a mock-up of the potential results and Phase II decision for which alternatives to continue further survey fieldwork on for more sample size to obtain appropriate statistical accuracy for decision making.   It shows that alternative-2 scores the highest adjusted top two box score with a 54.  For each of the other alternatives, a quick comparison of the “Top of Interval” score shows that all are below 54 with the except of alternative-6.  This means that alternative-2 remains within the statistical range of alternative-6 since its mid-point overlaps the 95% confidence interval defined range of that option.  In the example shown, the decision point to move forward only alternative-2 and alternative-6 for additional surveying is done on a one-tailed test.  A two-tailed test would imply a +/- 6% spread on both the bottom of the highest alternative and top of those alternatives that it is compared against.  Under this more rigid test criteria, in the example table alternative-2 having a “Bottom of Interval” value of 48% would be compared to the “Top of Interval” level for the other six; only alternative-4 and alternative-7 drop out of this more rigid test.   We would keep surveying for each of the other alternatives.  A decision on the final criteria cut off levels and which alternatives to continue further interviewing on, will be made at the time ‘marginal counts’ are delivered from the first hundred interviews for the original seven options being tested.
-
-
-                
-From (CONCEPT VOLUMETRIC QUESIONNAIRE DRAFT)
-
-It is anticipated that this study will be carried out via a phone-mail-phone fielding sequence.  Phone for a screening interview, mail the concept statements to respondents who agree to participate in the second step, and phone call-backs once the concepts have arrived.  The implied timing issues of this approach are recognized and Phase-I research needs to proceed immediately to allow sufficient time for the phone-mail-phone sequence and the fact select alternatives will move to a Phase-II process of additional interviewing.  Bids for this execution of this study need to explicitly note a timeline commitment. 
-
-It is also possible that during competitive bidding, that the alternative of Internet interviewing will be considered.  If an internet option is selected, it will utilize an interview flow leading with the awareness data collection elements of the screener and sequence to avoid potential influence of the screener questions on the purchase intent questionnaire elements of the main survey component.  The screener qualification series must also fully acknowledge collection and tabulation of all data from screened as well as full study participating respondents to support the STM model purposed of this study.
-
-A positive of the internet option is better security of the concept statements being used in the research than what is physically mailed.  The negative aspects of the internet approach is concern over sample frame skew among seniors who can’t be assumed to have ubiquitous high speed connections, needed to display highly graphical promotional concepts, is uniformly across all senior age groups.  Bids recommending internet fielding must address how these limitations will be managed.
-
-
-
+Demographics: They being designed to carefully match secondary data sources for projection scaling and list sources for subsequent target marketing.
 
 
 #### Screener and Awareness Questionnaire
+
+The screener and questionnaires presented in this example are for an over-65 health care product.  One would make the appropriate edits for different targets and product category.
+
 ```
 Are you or anyone in your home age 65 or over?
 
@@ -210,7 +183,7 @@ We will be mailing you an envelop with some additional materials for a follow up
 
 #### In the Envelop
 
-There is an outer envelop for postal mailing requirements.  There is an inner master envelop with the statement below printed on its outside.  Within that master envelop are smaller envelops which contain a code like "A", "B", "C", etc. so the respondent can be instructed to open a specific one and you will record which as the interview commences.  Within each smaller inner envelop is a stimulus in concept statement or full advertisement form for them to read just before you proceed with the interview about it.
+We are sending the eligible respondents concept statement or ads for a subsequent phone survey follow up of the concept test evaluation portion of the study.  There is an outer envelop for postal mailing requirements.  There is an inner master envelop with the statement below printed on its outside.  Within that master envelop are smaller envelops which contain a code like "A", "B", "C", etc. so the respondent can be instructed to open a specific one and you will record which as the interview commences.  Within each smaller inner envelop is a stimulus in concept statement or full advertisement form for them to read just before you proceed with the interview about it.
 
 
 #### Concepts Mailed in Envelop with the following statement imprinted on the outside
