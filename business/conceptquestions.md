@@ -22,23 +22,23 @@ THEN ASK THE FOLLOWING QUESTIONS:
 
 [<font color=green>This is known as a purchase intent question that may be used to project volumes.</font>](../business/purchaseintent.md)
 
- Based on the description you just read, what is there about () that you think you'd like? Please be as specific as possible.  
-
+```
+Based on the description you just read, what is there about () that you think you'd like? Please be as specific as possible.  
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
-
-
- Based on the description you just read, what is there about () that you think you'd dislike? Please be as specific as possible.  
+```
+```
+Based on the description you just read, what is there about () that you think you'd dislike? Please be as specific as possible.  
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
-
+```
 
 Which statement best describes how much you think you would like or dislike (   )? 
                                                             
@@ -71,23 +71,23 @@ THEN ASK THE FOLLOWING QUESTIONS:
            Probably would not buy ...........................4   GO TO CDIS
            Definitely would not buy .........................5   GO TO CDIS
 
- Based on the description you just read, what is there about () that you think you'd like? Please be as specific as possible.  
-
+```
+Based on the description you just read, what is there about () that you think you'd like? Please be as specific as possible.  
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
-
-
- Based on the description you just read, what is there about () that you think you'd dislike? Please be as specific as possible.  
+```
+```
+Based on the description you just read, what is there about () that you think you'd dislike? Please be as specific as possible.  
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
 __________________________________________________________________________
-
+```
 
  Which statement best describes how much you think you would like or dislike ()? 
                                                             
@@ -137,16 +137,17 @@ If you tried this plan and liked it, which of the following best describes how l
            Neither believable nor unbelievable ..............3   GO TO Q???
            Somewhat unbelievable ............................4
            Completely unbelievable ..........................5
+```
+Why do you say the statements made about () are somewhat/completely) unbelievable?  Please be as specific as possible.  
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+__________________________________________________________________________
+```
 
- Why do you say the statements made about () are somewhat/completely) unbelievable?  Please be as specific as possible.  
-__________________________________________________________________________
-__________________________________________________________________________
-__________________________________________________________________________
-__________________________________________________________________________
-__________________________________________________________________________
-__________________________________________________________________________
-
- Next, I would like to know how much you agree or disagree with some statements about this product.  While I realize that you  tried this product, I would like you to base your answers on what you have seen and read in the product description.
+Next, I would like to know how much you agree or disagree with some statements about this product.  While I realize that you  tried this product, I would like you to base your answers on what you have seen and read in the product description.
            
 How much do you agree or disagree with each of the following statements about ()?  (RANDOMIZE STATEMENTS)<br>
 <font color=yellow>(These should be more “feature like” elements we expect a person to take away from the concept statement)</font>          
@@ -208,12 +209,12 @@ ________________________________________________________________________________
            Other (specify) ____________________________ .....19
 
 
-Are you currently buying some type of _________(insert category)___________, or not?
+Are you currently buying some type of `_________(insert category)___________, or not?`
 
       ___ Yes
       ___ No, Skip to Q????
 
-What company/product currently provides your  _________(insert category)__________?
+What company/product currently provides your  `_________(insert category)__________?`
 
           ___ Company/Product
           ___ Company/Product
@@ -226,7 +227,7 @@ What company/product currently provides your  _________(insert category)________
           ___ Company/Product
           ___ Other: _______________________________
 
-Which of the following best describes the type of _________(insert category)_________ you have? (READ LIST)
+Which of the following best describes the type of `_________(insert category)_________` you have? (READ LIST)
 
               ___ Company/Product Subtype Descriptor
               ___ Company/Product Subtype Descriptor
@@ -234,12 +235,12 @@ Which of the following best describes the type of _________(insert category)____
               ___ Company/Product Subtype Descriptor
               ___ Company/Product Subtype Descriptor
 
-Can you tell me the name of the specific product you have with (insert company from Q??)?
+Can you tell me the name of the specific product you have with `(insert company from Q??)?`
 
       ___ YES, Record Product Name ______________________________________
       ___ NO
 
- Home long have you had that (insert company/product from Q???)?  Would you say … ?
+ Home long have you had that `(insert company/product from Q???)`?  Would you say … ?
  
       ___ Less than one month
       ___ 1 to 6 months
