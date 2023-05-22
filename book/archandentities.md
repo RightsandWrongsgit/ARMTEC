@@ -43,7 +43,7 @@ Content Types are just one of the fieldable entities in Drupal.   That shouldn't
 
 We understand that Drupal is using its Object Oriented Programming (OOP) approach to make fields we want to add to a content type or any other entity on our system.  These are inserted into database tables so what we put in that field on any given page of our website has a home to be saved.  And, since additional entities can be created, you can assume that OOP is able to even allow the insertion of a table into the relational database for storage needs unique to it.   If you are from the database world you probably know about how you can see tables, relationships between tables, and fields in tables in an [Entity Relationship Diagram.](https://betterprogramming.pub/what-is-an-entity-relationship-diagram-d5db69a87971)  The data model presented in a good diagram can communicate additional perspective with the line end symbols you see between tables which communicate one-to-one, one-to-many, and many-to-many relationships.  For another time and place, you might even talk to a professional data architect and learn the interesting schema approaches that are used for various types of optimization.
 
-
+For course, even more interesting is to see an actual [entity relationship diagram for a modern Drupal database instance](https://www.drupal.org/files/Drupal8_UPsitesWeb_Schema_10-19-2013.png)
 
 <br>
 <br>
