@@ -1,11 +1,24 @@
 
-# Entity Reference modules
+# Special Entity modules
+
+Entities are a foundational concept in Drupal.  Most commonly people think about the Content Type entity which they most often work with for what they are putting into there website.  Perhaps next they think about User or Permission related entity considerations.  If this entity concept is not part of your existing understanding, before you look at the various contributed modules that follow, please take the time to first read the section on [Architecture and Entities](../book/archandentities.md)
 
 
-## Exclude Node Title module
+## Exclude Title or Author 
+
+It is standard that out of the box Drupal will put a Title on a Content Node as well as the Authored by/when information.  If you have some reason you don't want this to show up, you can exclude either.
+
+### Exclude Title Module
 
 `composer require drupal/exclude_node_title`<br>
-`drush en exclude_node title`
+`drush en exclude_node_title`
+
+### Exclude Author Module
+
+`composer require drupal/exclude_node_author`<br>
+`drush en exclude_node_author`
+
+
 
 ## Media Entity Embed module
 #### Inline Entity Form, Entity Browser, Entity Embed dependencies
@@ -26,6 +39,8 @@
 `drush en entity_browser_enhanced`
 
 ## Entity Usage module
+
+Entities which are related to one another are set up using some of the approaches provided here.  But the [Entity Usage module](https://www.thedroptimes.com/30817/video-know-more-about-entity-usage-module) is a good one to track what is connected to whatelse so you can manage them as needed.  People tend to like it to track where media from the media manager are used.
 
 `composer require drupal/entity_usage`<br>
 `drush en entity_usage`
