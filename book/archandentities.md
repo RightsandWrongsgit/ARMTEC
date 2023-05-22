@@ -45,4 +45,4 @@ Content Types are just one of the fieldable entities in Drupal.   That shouldn't
 <br>
 <br>
 
-[Learn more... Drupal Basics](chapters.md#drupal-basics)
+[Learn more... Drupal Basics](/chapters.md#drupal-basics)
