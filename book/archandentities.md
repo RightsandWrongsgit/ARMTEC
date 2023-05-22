@@ -39,7 +39,9 @@ One of the things that makes Drupal superior is that it is 'fieldable'.  Not a f
 
 ### Entities
 
-Content Types are just one of the fieldable entities in Drupal.   That shouldn't surprise us if we just go look at the definition of an [Entity](https://www.merriam-webster.com/dictionary/entity) as something of an independent, separate, or self-contained existence.   So Drupal Core also considers a "User" as an entity different from content plus "Vocabulary", "Block", "Media", "Comment", and "Contact Form".  Contributed modules have added [several more.](https://www.drupaleasy.com/blogs/ultimike/2021/01/10-fieldable-entity-types-every-drupal-developer-should-know-about)
+Content Types are just one of the fieldable entities in Drupal.   That shouldn't surprise us if we just go look at the definition of an [Entity](https://www.merriam-webster.com/dictionary/entity) as something of an independent, separate, or self-contained existence.   So Drupal Core also considers a "User" as an entity different from content plus "Vocabulary", "Block", "Media", "Comment", and "Contact Form".  Contributed modules have added [several more.](https://www.drupaleasy.com/blogs/ultimike/2021/01/10-fieldable-entity-types-every-drupal-developer-should-know-about) With a tool called Drupal Console]() you can actually [query your system to see which entity types are available.](https://trainingcloud.io/blog/2021/05/drupal-8-9-listing-available-entity-types/)
+
+
 
 <br>
 <br>
