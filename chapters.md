@@ -171,6 +171,7 @@
   - [File Viewer](/modules/filedisplay.md)
   - [Performance](modules/performance.md)
   - [Security](modules/security.md)
+  - [Groups](https://www.drupal.org/project/group) 
   - [Mapping](modules/mapping.md)
     - [Example: Map & Taxonomy Node Build](modules/mapinnodes.md)
   - [Links & Modals](modules/linksmodals.md)
