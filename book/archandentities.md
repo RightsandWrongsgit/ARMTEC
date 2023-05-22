@@ -55,4 +55,4 @@ However, even that might be more than a basic site builder is going to care alot
 <br>
 <br>
 
-[Learn more... Drupal Basics](/chapters.md#drupal-basics)
+[Learn more... Drupal Basics](chapters.md#drupal-basics)
