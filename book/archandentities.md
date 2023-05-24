@@ -61,6 +61,11 @@ It has previously been noted that Object Inheritance in OOP sets up a way to cal
 
 Trying to relate a GUI you have been used to working with and the underlying OOP that is behind it, especially with the Object Inheritance stringing all sorts of part together needs you to consider using the [WebProfiler Module.](https://www.webwash.net/debug-site-performance-using-web-profiler-in-drupal-8/) About 3-minutes into that video you will see Ivan go into configuration and activate two part to the module that weren't on by default.  After he does that you will all of a sudden get the idea on how all these PHP components are available and being used to create a potentially simple looking page.  Another step to seeing the developer world view of Drupal.
 
+## Just Make One
+
+Ok, you don't need to know how to be a great chef to enjoy a good meal.  Same thing with adding a whole new entity type.  There are tools that help do this on your behalf.  That [Drupal Console we talked about earlier is one way to add a custom entity.](https://www.youtube.com/watch?v=leodwoFUm54) And just like so many other things in Drupal, there's also [a module to create a custom entity](https://www.youtube.com/watch?v=9eDyAWE5WHw)
+
+
 <br>
 <br>
 <br>
