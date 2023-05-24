@@ -5,7 +5,7 @@ Drupal has lots of basic parts.  Things like an 'Appearance' interface for setti
 
 ## Managing Content
 
-Websites are made up of many different things.  You have the front-page, perhaps sets of article pages for news, sports, financial, social, and an about or contact us page.   Before you actually get to the process of building your website you should make sure you have it designed.  That can range of a pencil and paper set of drawings, to using presentation or drawing tools, to wireframes, and even using [layout tools meant to really nail down all aspects of design.] (chapters.md#layout)
+Websites are made up of many different things.  You have the front-page, perhaps sets of article pages for news, sports, financial, social, and an about or contact us page.   Before you actually get to the process of building your website you should make sure you have it designed.  That can range of a pencil and paper set of drawings, to using presentation or drawing tools, to wireframes, and even using [layout tools meant to really nail down all aspects of design.](chapters.md#layout)
 
 Your website mockup will logically show the type of things to appear on any given page; or the content.  And that content is in need of a home; which is commonly a 'field'.   A page might have a field for a "title", a "sub-title", a main "body" or "story", an "address", a "phone number", an "email address", the "name of a business", and about anything else you can think of.
 
