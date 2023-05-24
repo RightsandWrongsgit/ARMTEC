@@ -1,7 +1,7 @@
 
 # Architecture & Entities
 
-In the [Content Management System Overview](../book/cms.md) it was noted that a CMS has a database component and a display component where "There is also code in between the data and display that applies any logic."  Some of that logic might be things you code in to do stuff unique to your website; either coded directly or grabbed from a [contributed module](chapters.md#drupal-modules) that has underlying code accomplishing what you want.   However, before all that happens it is being applied to Drupal's Core.  Understanding some of the logic in what Drupal Core is doing can be helpful in using Drupal no matter if you are just working with modules as a site builder or you get under the hood as a developer.
+In the [Content Management System Overview](../book/cms.md) it was noted that a CMS has a database component and a display component where "There is also code in between the data and display that applies any logic."  Some of that logic might be things you code in to do stuff unique to your website; either coded directly or grabbed from a [contributed module](../chapters.md#drupal-modules) that has underlying code accomplishing what you want.   However, before all that happens it is being applied to Drupal's Core.  Understanding some of the logic in what Drupal Core is doing can be helpful in using Drupal no matter if you are just working with modules as a site builder or you get under the hood as a developer.
 
 ##  Information Types
 
