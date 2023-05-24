@@ -54,8 +54,7 @@ One of the things that makes Drupal superior is that it is 'fieldable'.  Not a f
 
 <img src="../book/images/media/datadefinition.png"  width="500">
 
-
-
+It has previously been noted that Object Inheritance in OOP sets up a way to call various pre-established sub-functions to then build upon for your own use.  This can involve 'BaseXxxxx' being "Extended" and using the "Get" function to use things you need.  With respect to moving from the GUI world to really getting into creating Entities at the code level this veiw of the [Enitity API interactions with the database](https://www.youtube.com/watch?v=FrSjwe8bh7I) is a pretty long and complicated overview but will help you understand if you want to move into the full developer world.  The only caution I would suggest in watching it is to pay attention in the many "you can to it several ways" examples to the last, and preferred way in each; then take notes or screenshot that syntax to get yourself going.
 
 <br>
 <br>
