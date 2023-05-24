@@ -136,6 +136,7 @@
 #### Drupal Basics
 
   -   [Tutorial & Test Drive](book/drupalbasics.md)
+  -   [Content Types & Fields](book/contenttype.md)  
   -   [Architecture & Entities](book/archandentities.md)  
   -   [Understand the many types of BLOCKS in Drupal](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/blocks.md)
   -   [Learning More](book/drupalbasics.md#learning-sources)
