@@ -31,9 +31,11 @@ Both Configuration Information Types and Content Information Types are common "E
 
 One of the things that makes Drupal superior is that it is 'fieldable'.  Not a farming term.  Rather, in the discussion on ['content types'](../book/contenttype.md) we saw how you can associate all sorts of different fields for you to use with them.  Not all 'Content Information Types' are necessarily fieldable.  'Content types' like articles and even users are.  But a 'content information type' like 'file' is not.  
 
-Regarding field on 'content information types' we sort of need to think of a couple broad kinds.  One you might not normally think of is sometimes called 'properties' and are basically universally used; I mean unique individually but universally present.  An example is an 'id' for the entity or a 'vid' for the version of an entity.  
+Regarding field on 'content information types' we sort of need to think of a couple broad kinds.  One you might not normally think of is sometimes called 'properties' which are universally used; I mean unique individually but universally present.  An example is an 'id' for the entity or a 'vid' for the version of an entity. 
 
-While a little old, one of the [clearest explanations of some of these field, node, type, bundle, entity things is from a video that Drupalize.me presents.](https://www.youtube.com/watch?v=coephBu07Ks)
+Another thing of about 'fieldable' is that in something like the 'article' content type that come with the initial install of Drupal, the field 'title' is a standard element within it.  There are times when you might not want the title. For example, let's say you are setting up just an image of magazine covers with an associated link that people click on to go to the magazine's website.  The cover of the magazine itself shows the name or title of it; so you do NOT want to display a redundant title obligated by the content type.  This is an area where you would look to [contributed modules that have been built by the Drupal community members to drop the title requirement from an entity.](../modules/entityref.md#exclude-title-module)
+
+The better you understand the basics of these principles, the easier working with Drupal will be.  While a little old, one of the [clearest explanations of some of these field, node, type, bundle, entity things is from a video that Drupalize.me presents.](https://www.youtube.com/watch?v=coephBu07Ks)
 
 ## Entities
 
