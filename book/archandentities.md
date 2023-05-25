@@ -33,6 +33,7 @@ One of the things that makes Drupal superior is that it is 'fieldable'.  Not a f
 
 Regarding field on 'content information types' we sort of need to think of a couple broad kinds.  One you might not normally think of is sometimes called 'properties' and are basically universally used; I mean unique individually but universally present.  An example is an 'id' for the entity or a 'vid' for the version of an entity.  
 
+While a little old, one of the [clearest explanations of some of these field, node, type, bundle, entity things is from a video that Drupalize.me presents.](https://www.youtube.com/watch?v=coephBu07Ks)
 
 ## Entities
 
