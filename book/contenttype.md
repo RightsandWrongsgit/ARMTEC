@@ -28,7 +28,7 @@ The 'content types' that came with the install and the ones you create as outlin
 
 Content entities besides 'node' might be 'comment', or 'block' or 'user' or even 'file' and 'taxonomy_term'.  Interestingly you can also [add your own 'content entity' in Drupal using something called Drupal Console](https://www.youtube.com/watch?v=leodwoFUm54) or, if you aren't ready to jump into 'code' level stuff, you can also [create your own 'content entity' with a module called the Entity Construction Kit (ECK)](https://www.youtube.com/watch?v=9eDyAWE5WHw)
 
-Since we are already a little way into the deep end, we might also note that in addition to entities that are 'content entity type' there are also others which are 'configuration entity type'.  While a little old, one of the [clearest explanations of some of these field, node, type, bundle, entity things is from a video that Drupalize.me presents](https://www.youtube.com/watch?v=coephBu07Ks)
+Since we are already a little way into the deep end, we might also note that in addition to entities that are 'content entity type' there are also others which are 'configuration entity type'.  While a little old, one of the [clearest explanations of some of these field, node, type, bundle, entity things is from a video that Drupalize.me presents.](https://www.youtube.com/watch?v=coephBu07Ks)
 
 [There is more about entities on our own site](../book/archandentities.md)
 
