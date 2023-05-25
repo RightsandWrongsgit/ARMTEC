@@ -29,7 +29,7 @@ Both Configuration Information Types and Content Information Types are common "E
 
 ### Fieldable
 
-One of the things that makes Drupal superior is that it is 'fieldable'.  Not a farming term.  Rather, the discussion on 'content types' we saw how you can associate all sorts of different fields for you to use with them.  Not all 'Content Information Types' are necessarily fieldable.  'Content types' like articles and even users are.  But a 'content information type' like 'file' is not.  
+One of the things that makes Drupal superior is that it is 'fieldable'.  Not a farming term.  Rather, in the discussion on ['content types'](../book/contenttype.md) we saw how you can associate all sorts of different fields for you to use with them.  Not all 'Content Information Types' are necessarily fieldable.  'Content types' like articles and even users are.  But a 'content information type' like 'file' is not.  
 
 Regarding field on 'content information types' we sort of need to think of a couple broad kinds.  One you might not normally think of is sometimes called 'properties' and are basically universally used; I mean unique individually but universally present.  An example is an 'id' for the entity or a 'vid' for the version of an entity.  
 
