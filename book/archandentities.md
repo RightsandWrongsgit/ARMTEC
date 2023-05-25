@@ -57,23 +57,41 @@ Perhaps of more direct practical value is to look at the [Drupal Entity API.](ht
 
 Just like OOP adding, editing, and deleting capabilities in a base database php capability, base capabilities are available for many other higher order capabilities.  You can tap into these at the appropriate level for needs you might find if you decide to try a little code level work on your own.
 
-[Entity Base](https://api.drupal.org/api/drupal/core%21modules%21migrate%21src%21Plugin%21migrate%21destination%21EntityContentBase.php/class/EntityContentBase/10)
-['Create' from the Entity Base](https://api.drupal.org/api/drupal/core%21modules%21migrate%21src%21Plugin%21migrate%21destination%21EntityContentBase.php/function/EntityContentBase%3A%3Acreate/10)
-[Other Action besides 'Create' you might use the Entity Base](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Entity%21EntityBase.php/class/EntityBase/9.0.x)
-[Using the entity definition update manager](https://www.previousnext.com.au/blog/using-drupals-entity-definition-update-manager-add-bundle-support-existing-content-entity)
-
-
-### Understand? Care?
-
-However, even that might be more than a basic site builder is going to care alot about in Drupal.  Rather, one probably simply wants to think of Drupal as able to make new entities, edit, and insert or remove fields in them, and manage the supporting the database structure behind all this that makes a home to store your important stuff.  From that mindset, you can then probably better understand [contributed modules which do extra things on your behalf around the entity concept.](../modules/entityref.md) 
+## Glimpse The Code
 
 It has previously been noted that Object Inheritance in OOP sets up a way to call various pre-established sub-functions to then build upon for your own use.  This can involve 'BaseXxxxx' being "Extended" and using the "Get" function to use things you need.  With respect to moving from the GUI world to really getting into creating Entities at the code level this veiw of the [Enitity API interactions with the database](https://www.youtube.com/watch?v=FrSjwe8bh7I) is a pretty long and complicated overview but will help you understand if you want to move into the full developer world.  The only caution I would suggest in watching it is to pay attention in the many "you can to it several ways" examples to the last, and preferred way in each; then take notes or screenshot that syntax to get yourself going.
 
-Trying to relate a GUI you have been used to working with and the underlying OOP that is behind it, especially with the Object Inheritance stringing all sorts of part together needs you to consider using the [WebProfiler Module.](https://www.webwash.net/debug-site-performance-using-web-profiler-in-drupal-8/) About 3-minutes into that video you will see Ivan go into configuration and activate two part to the module that weren't on by default.  After he does that you will all of a sudden get the idea on how all these PHP components are available and being used to create a potentially simple looking page.  Another step to seeing the developer world view of Drupal.
+##### Entity Actions
+[Entity Base](https://api.drupal.org/api/drupal/core%21modules%21migrate%21src%21Plugin%21migrate%21destination%21EntityContentBase.php/class/EntityContentBase/10)<br>
+['Create' from the Entity Base](https://api.drupal.org/api/drupal/core%21modules%21migrate%21src%21Plugin%21migrate%21destination%21EntityContentBase.php/function/EntityContentBase%3A%3Acreate/10)<br>
+[Other Action besides 'Create' you might use the Entity Base](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Entity%21EntityBase.php/class/EntityBase/9.0.x)<br>
+[Using the entity definition update manager](https://www.previousnext.com.au/blog/using-drupals-entity-definition-update-manager-add-bundle-support-existing-content-entity)<br>
+##### Field Actions
+[Field Base](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Field%21BaseFieldDefinition.php/class/BaseFieldDefinition/10)<br>
+['Field' referencing a Base Entity](https://www.drupaldump.com/tips-basefielddefinition-and-entity-references)<br>
+
+##### All the OOP parts
+[List of All 'Classes'](https://api.drupal.org/api/drupal/classes/10)<br>
+[List of All 'Functions'](https://api.drupal.org/api/drupal/functions/10)<br>
+[List of All 'Files'](https://api.drupal.org/api/drupal/files/10)<br>
+[List of All 'NameSpaces'](https://api.drupal.org/api/drupal/namespaces/10)<br>
+[List of All 'Services'](https://api.drupal.org/api/drupal/services/10)<br>
+[List of All 'Form and Render Elements'](https://api.drupal.org/api/drupal/elements/10)<br>
+[List of All 'Constants'](https://api.drupal.org/api/drupal/constants/10)<br>
+[List of All 'Globals'](https://api.drupal.org/api/drupal/globals/10)
+[Extending and Altering Drupal](https://api.drupal.org/api/drupal/core%21core.api.php/group/extending/10)
+
+### Understand?
+
+A normal Site Builder's peek under the hood needs a bridge from looking at the various Administration screens offered by Drupal for a Graphical User Interface (GUI) view into the tool.   Trying to relate the familiar GUI you use to the underlying OOP that is behind it, especially with the Object Inheritance stringing all sorts of part together, can be a nightmare.  Luckly you can sort of sneak your way up to it by using the [WebProfiler Module.](https://www.webwash.net/debug-site-performance-using-web-profiler-in-drupal-8/) About 3-minutes into that video you will see Ivan go into configuration and activate two part to the module that weren't on by default.  After he does that you will all of a sudden get the idea on how all these PHP components are available and being used to create a potentially simple looking page.  This is another step to seeing the developer world view of Drupal.
+
+### Care?
+
+However, even that might be more than a basic site builder is going to care alot about in Drupal.  Rather, one probably simply wants to think of Drupal as able to make new entities, edit, and insert or remove fields in them, and manage the supporting the database structure behind all this that makes a home to store your important stuff.  From that mindset, you can then probably better understand [contributed modules which do extra things on your behalf around the entity concept.](../modules/entityref.md) 
 
 ## Just Make One
 
-Ok, you don't need to know how to be a great chef to enjoy a good meal.  Same thing with adding a whole new entity type.  There are tools that help do this on your behalf.  That [Drupal Console we talked about earlier is one way to add a custom entity.](https://www.youtube.com/watch?v=leodwoFUm54) And just like so many other things in Drupal, there's also [a module to create a custom entity](https://www.youtube.com/watch?v=9eDyAWE5WHw)
+Ok, you don't need to know how to be a great chef to enjoy a good meal.  Same thing with adding a whole new entity type.  Instead of mixing the right code level ingredients on your own, there are tools that help do this for you.  That [Drupal Console we talked about earlier is one way to add a custom entity.](https://www.youtube.com/watch?v=leodwoFUm54) And just like so many other things in Drupal, there's also [a module to create a custom entity](https://www.youtube.com/watch?v=9eDyAWE5WHw)
 
 
 <br>
