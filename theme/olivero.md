@@ -24,7 +24,10 @@ People have gone ahead and directly [sub-themed Olivero.](https://designkojo.com
 
 If you are simply wanting to have a great theme out of the box give Olivero a shot.  It has a lot of customizations you can do directly and the example sites using that theme show you some.  If you grow in comfort with the underlying front-end tool set of [TWIG](../theme/twig.md) , [HTML](html.com), and [CSS](../book/opensource.md#front-end) you might dare to sub-theme Olivero.  If you are that far along, you might also be ready to head toward the [Bootstrap theme.](../theme/bootstrap.md)  Good news either way, you can switch themes in Drupal very easily in terms of the front-end to back-end connection; might not look pretty right away but that will be all front-end stuff you then will want to tweak.	
 
-
+## Events
+	
+Modules normally have worked across all themes.  This one may too.  But for some reason it is being communicated as an [Event Management capability for the Olivero Theme.](https://www.drupal.org/project/event_platform)
+	
 <br>
 <br>
 <br>
