@@ -55,6 +55,13 @@ With that mindset and the fact that "Classes" in OOP provide the definition for 
 
 Perhaps of more direct practical value is to look at the [Drupal Entity API.](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Entity%21entity.api.php/group/entity_api/10)  Again, if we remember that we should think about Drupal as a services and objects OOP application that drives the supporting data structure, it is more valuable to know how the classes and functions in Drupal's [Symfony](https://symfony.com/) underpinnings are interacting to define and manage data, entities, and fields.
 
+Just like OOP adding, editing, and deleting capabilities in a base database php capability, base capabilities are available for many other higher order capabilities.  You can tap into these at the appropriate level for needs you might find if you decide to try a little code level work on your own.
+
+[Entity Base](https://api.drupal.org/api/drupal/core%21modules%21migrate%21src%21Plugin%21migrate%21destination%21EntityContentBase.php/class/EntityContentBase/10)
+['Create' from the Entity Base](https://api.drupal.org/api/drupal/core%21modules%21migrate%21src%21Plugin%21migrate%21destination%21EntityContentBase.php/function/EntityContentBase%3A%3Acreate/10)
+[Other Action besides 'Create' you might use the Entity Base](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Entity%21EntityBase.php/class/EntityBase/9.0.x)
+[Using the entity definition update manager](https://www.previousnext.com.au/blog/using-drupals-entity-definition-update-manager-add-bundle-support-existing-content-entity)
+
 
 ### Understand? Care?
 
