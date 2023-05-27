@@ -18,5 +18,5 @@ Besides this site itself, there are a ton of resources to learn more about Drupa
 <br>
 <br>
 
-[Learn More... Drupal Basics](chapters.md#drupal-basics)
+[Learn More... Drupal Basics](../chapters.md#drupal-basics)
 
