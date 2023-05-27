@@ -91,7 +91,7 @@ However, even that might be more than a basic site builder is going to care alot
 
 ## Just Make One
 
-Ok, you don't need to know how to be a great chef to enjoy a good meal.  Same thing with adding a whole new entity type.  Instead of mixing the right code level ingredients on your own, there are tools that help do this for you.  That [Drupal Console we talked about earlier is one way to add a custom entity.](https://www.youtube.com/watch?v=leodwoFUm54) And just like so many other things in Drupal, there's also [a module to create a custom entity](https://www.youtube.com/watch?v=9eDyAWE5WHw)
+Ok, you don't need to know how to be a great chef to enjoy a good meal.  Same thing with adding a whole new entity type.  Instead of mixing the right code level ingredients on your own, there are tools that help do this for you.  That [Drupal Console we talked about earlier is one way to add a custom entity.](https://www.youtube.com/watch?v=leodwoFUm54) And just like so many other things in Drupal, there's also [a module to create a custom entity called the Entity Construction Kit.](https://www.youtube.com/watch?v=9eDyAWE5WHw)
 
 
 <br>
