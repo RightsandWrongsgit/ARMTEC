@@ -1,5 +1,5 @@
 
-# Special Entity modules
+# Edit an Entity 
 
 Entities are a foundational concept in Drupal.  Most commonly people think about the Content Type entity which they most often work with for what they are putting into there website.  Perhaps next they think about User or Permission related entity considerations.  If this entity concept is not part of your existing understanding, before you look at the various contributed modules that follow, please take the time to first read the section on [Architecture and Entities](../book/archandentities.md)
 
@@ -18,7 +18,13 @@ It is standard that out of the box Drupal will put a Title on a Content Node as 
 `composer require drupal/exclude_node_author`<br>
 `drush en exclude_node_author`
 
+# Link an Entity
 
+Remember that in Drupal there all lots of different types of entities even before you would move to [create you own.](#create-one)  The most common are content and user entities but note forget comments, files, and media.   Linking, often including reusing, entities is typical; think about how your content entity probably would benefit from a media entity used in it.  And media entities come in different types like images, videos, audio, and a who bunch of [Media provider modules;](https://www.drupal.org/project/media_entity) think things like Twitter, Facebook, Instagram, etc.
+
+## Media Entity Browser
+
+The more modern versions of Drupal have incorporated [Media Entity Browser](https://www.drupal.org/project/media_entity_browser) right into the Core.  The reason this happened is simply that it was so common that people included media in their website content that contributed modules had been built and were heavily utilized to do this, so several of the most integrated were folded into Drupal Core to make it easier for people to get started.  
 
 ## Media Entity Embed module
 #### Inline Entity Form, Entity Browser, Entity Embed dependencies
@@ -129,7 +135,7 @@ composer require drupal/entity_reference_preview
 drush en entity_reference_preview
 
 
-
+# Create One
 ## Entity Construction Kit (ECK)
 
 Under architecture and entities we noted you could actually make a whole new entity type with [the Entity Construction Kit.](../book/archandentities.md#just-make-one) This module is only going to be of value for some pretty specific needs; but important ones when they arise.  It actually supports you in creating a whole new 'Entity TYPE'.  Not just an additional 'content type' which is a subset of the Node Entity.  A User Entity is another existing entity type.  But what happens is that entity types have bundles associated with them like fields in content type node entities.  You, however, may not want to be at the mercy of Drupal standard entities because of the bundle definitions.  A one to many heirarchy but that has different allowable substructures is an example where two different bundles of your own making is important.  Vehicles might split by cars, trucks, motorcycles, airplanes, tanks, etc. and the same feature fields wouldn't always be common (although some are).  Thus you might want to make your own content type for vehicles but split the bundles by those different vehicle types so that trucks can have beds, airplanes different wing configurations, etc.  The ECK module is the tool for you to do this type of thing.  An old, but still relevant [video gives the basic logic even if the exact GUI might have shifted some with module updates.](http://codekarate.com/daily-dose-of-drupal/drupal-7-entity-construction-kit)
