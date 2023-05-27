@@ -130,11 +130,12 @@ drush en entity_reference_preview
 
 
 
-Entity Construction Kit (ECK) Module:
-This module is only going to be of value for some pretty specific needs; but important ones when they arise.  It actually supports you in creating a whole new entity TYPE.  Not a content type with is a Node Entity.  A User Entity is another existing entity type.  But what happens is that entity types have bundles associated with them like fields in content type node entities.  You, however, may not want to be at the mercy of Drupal standard entities because of the bundle definitions.  A one to many heirarchy but that has different allowable substructures is an example where two different bundles of your own making is important.  Vehicles might split by cars, trucks, motorcycles, airplanes, tanks, etc. and the same feature fields wouldn't always be common (although some are).  Thus you might want to make your own content type for vehicles but split the bundles by those different vehicle types so that trucks can have beds, airplanes different wing configurations, etc.  The ECK module is the tool for you to do this type of thing.  An old, but still relevant video gives the basic logic even if the exact GUI might have shifted some which module updates … http://codekarate.com/daily-dose-of-drupal/drupal-7-entity-construction-kit
+## Entity Construction Kit (ECK)
 
-composer require drupal/eck
-drush en eck
+Under architecture and entities we noted you could actually make a whole new entity type with [the Entity Construction Kit.](../book/archandentities.md#just-make-one) This module is only going to be of value for some pretty specific needs; but important ones when they arise.  It actually supports you in creating a whole new 'Entity TYPE'.  Not just an additional 'content type' which is a subset of the Node Entity.  A User Entity is another existing entity type.  But what happens is that entity types have bundles associated with them like fields in content type node entities.  You, however, may not want to be at the mercy of Drupal standard entities because of the bundle definitions.  A one to many heirarchy but that has different allowable substructures is an example where two different bundles of your own making is important.  Vehicles might split by cars, trucks, motorcycles, airplanes, tanks, etc. and the same feature fields wouldn't always be common (although some are).  Thus you might want to make your own content type for vehicles but split the bundles by those different vehicle types so that trucks can have beds, airplanes different wing configurations, etc.  The ECK module is the tool for you to do this type of thing.  An old, but still relevant [video gives the basic logic even if the exact GUI might have shifted some with module updates.](http://codekarate.com/daily-dose-of-drupal/drupal-7-entity-construction-kit)
+
+`composer require drupal/eck`<br>
+`drush en eck`
 
 
 <br>
