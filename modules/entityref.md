@@ -24,7 +24,7 @@ Remember that in Drupal there all lots of different types of entities even befor
 
 ## Media 
 
-The more modern versions of Drupal have incorporated [Media Management](../modules/media.md) right into the Core.  The reason this happened is  media are part of a website content page so often that contributed modules had been built and were heavily utilized to accomplish this.  Several of the most common were integrated and folded into Drupal Core to make it easier for people to get started.  For the new core media basics, it is probably easiest to just go into your Administration/Extend option and enable the media and media library modules,
+The more modern versions of Drupal have incorporated [Media Management](../modules/media.md) right into the Core.  The reason this happened is  media are part of a website content page so often that contributed modules had been built and were heavily utilized to accomplish this.  Several of the most common were integrated and folded into Drupal Core to make it easier for people to get started.  For the new core media basics, it is probably easiest to just go into your Administration/Extend option and enable the media and media library modules.
 
 ### Media Entity Browser
 
