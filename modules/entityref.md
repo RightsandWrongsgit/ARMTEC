@@ -86,7 +86,7 @@ Another factor around entity reference versions is that the preview is connected
 `composer require drupal/entity_reference_preview`<br>
 `drush en entity_reference_preview`
 
-## Entity Usage module
+### Entity Usage module
 
 Alright, you are now so bright you know about entity references and you can even browse entities to find what you might want to reference where.  But, you probably don't remember from last time you worked on the site where all those entity references are and what you have referenced by what.  So you want to install and enable the Entity Usage module.
 
@@ -103,6 +103,10 @@ You can put the [Block Visiblity Group module](https://www.drupal.org/project/bl
 
 `composer require drupal/block_visibility_groups`<br>
 `drush en block_visibility_groups`
+
+### Rabbit Hole module
+
+This one sounds odd.  But what you need to think about is that almost all the other linking and referencing of entities what we are showing is about expanding access to one part from from another; e.g. a block within a node.  What if you want to limit rather than expand access?  An example might be that you have a slideshow you have developed as a content type but you don't want to let me click on the individual slide images as they come up and get to them; you just want them to see the slideshow itself.  You want the [Rabbit Hole module](https://www.youtube.com/watch?v=EkLS1hlLFnI) to bring this enhanced level of control; if they do click on it and you don't want it to do the normal thing, what do you want it to do?  Do a redirect, send a warning, etc.
 
 ## Add Another module
 #### Sort of speed copy another replication of a node
