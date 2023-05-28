@@ -47,7 +47,7 @@ The [Content Entity Browser module](https://www.drupal.org/project/content_brows
 
 ### Entity Embed
 
-The [Entity Embed module](https://www.drupal.org/project/entity_embed) is the way you interface the access to entities into your [CKEditor](https://www.drupal.org/docs/core-modules-and-themes/core-modules/ckeditor-5-module) so you can grab and insert content while WYSIWYG editing.
+The [Entity Embed module](https://www.drupal.org/project/entity_embed) is the way you interface the access to entities into your [CKEditor](https://www.drupal.org/docs/core-modules-and-themes/core-modules/ckeditor-5-module) so you can grab and insert content while WYSIWYG editing.  Besides using Composer and Drush to [install and enable this module, you also need to do some set up to put it in your editor like this.](https://www.youtube.com/watch?v=B3ccBz1LgzQ)
 
 ### File Entity Browser
 
