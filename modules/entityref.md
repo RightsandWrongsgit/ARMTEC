@@ -53,6 +53,10 @@ The [Entity Embed module](https://www.drupal.org/project/entity_embed) is the wa
 
 We noted that besides content, user, comment, etc. there is a type of entity that is unique for files.  This [File Entity Browser module](https://www.drupal.org/project/file_browser) is sort of the counter-part to the media or content entity browsers but to see the files available to use. You can [see the basics of its use here.](https://i.imgur.com/MokNcf4.gif)  Make sure you go to the [set up of this module right from the Drupal.Org site](https://www.drupal.org/project/file_browser) as there are a few minor, unique things to use it.
 
+### Entity Embed Links
+
+[Sometimes you might find it valuable to have a link associated with a type of media;](https://www.drupal.org/project/entity_embed_link) perhaps an image thumbnail that the link points to the URL of the full size original.  We might consider the [Linkit module](../modules/linksmodals.md) but more fulling integrated with our entity media management might be to use the Entity Embed Links module.
+
 # Entity Relationship
 
 ## Entity Reference
