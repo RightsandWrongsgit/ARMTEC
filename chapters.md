@@ -98,6 +98,7 @@
     - [CSS Hovers](http://ianlunn.github.io/Hover/){:target="_blank"}
     - [CSS Dynamic Scroll](https://michalsnik.github.io/aos/){:target="_blank"}
     - [Whirl & Signal Load Effects](https://whirl.netlify.app/){:target="_blank"}
+    - [SVG Spinner/delay](https://github.com/n3r4zzurr0/svg-spinners){:target="_blank"}   
     - [CSS Magic, Bling, Perspective](https://www.minimamente.com/project/magic/){:target="_blank"}
     - [CSS Tricks](https://css-tricks.com/){:target="_blank"}
     - [Full Integration Toolbox](https://10015.io/){:target="_blank"}
