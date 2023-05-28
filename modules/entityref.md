@@ -31,10 +31,8 @@ The more modern versions of Drupal have incorporated [Media Management](../modul
 The [Media Entity Browser](https://www.drupal.org/project/media_entity_browser) has mostly been replaced by what is in core; but not totally.  So some people might want to go the extra step.  Remember that with Media Entity Browser you basically get the underlying 'Inline Entity Form', 'Entity Embed', and 'Entity Browser'.  <font color=yellow>You care about all of them but having that last one in place is key for several others we will look at next.</font>
 
 ### Entity Browser module 
-Sounds like a good idea to use that entity reference stuff but how about chasing down what you have available to reference?  Yeah, figuring that out on a site of any size in terms of stuff or entities already developed can be a pain, so some bright people developed the Entity Browser module to solve the problem; install and enable it.
 
-composer require drupal/entity_browser
-drush en entity_browser
+The [Entity Browser module](https://www.drupal.org/project/entity_browser) is probably not something you are going to bother adding on a stand alone basis if you are using the [media management already part of Drupal Core.](../modules/media.md)  However, what follows are several additional entity linking types of modules which have a dependency on it and would, therefore, bring it into play if you elect to use any of them.
 
 ### Entity Browser Enhanced
 
@@ -51,10 +49,9 @@ The [Content Entity Browser module](https://www.drupal.org/project/content_brows
 
 The [Entity Embed module](https://www.drupal.org/project/entity_embed) is the way you interface the access to entities into your [CKEditor](https://www.drupal.org/docs/core-modules-and-themes/core-modules/ckeditor-5-module) so you can grab and insert content while WYSIWYG editing.
 
-
 ### File Entity Browser
 
-
+We noted that besides content, user, comment, etc. there is a type of entity that is unique for files.  This [File Entity Browser module](https://www.drupal.org/project/file_browser) is sort of the counter-part to the media or content entity browsers but to see the files available to use. You can [see the basics of its use here.](https://i.imgur.com/MokNcf4.gif)  Make sure you go to the [set up of this module right from the Drupal.Org site](https://www.drupal.org/project/file_browser) as there are a few minor, unique things to use it.
 
 *********
 Media Entity Embed Module:
