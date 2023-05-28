@@ -106,11 +106,6 @@ You can put the [Block Visiblity Group module](https://www.drupal.org/project/bl
 `composer require drupal/addanother`<br>
 `drush en addanother`
 
-## Content Type Modules
-
-[Acquia](https://www.acquia.com/) is a commercial company founded by the [original developer of Drupal.](https://dri.es/)  They continue to [Open Source](../book/opensource.md) many of the tools they use.  You might want to glance through their GitHub repository, especially their [Acquia/CMS that provides some modules aimed at building some valuable content types.](https://github.com/acquia/acquia_cms/tree/develop/modules) for things like Person, Event, Place, Document, etc.
-
-
 **********
 
 # Create One
