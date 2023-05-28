@@ -1,5 +1,8 @@
 # Blocks
 
+## Block and TWIG
+
+[Understanding the many types of Blocks in Drupal](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/blocks.md)
 
 ## Block Visibility Groups module
 #### Enhancement to control and placement of blocks
