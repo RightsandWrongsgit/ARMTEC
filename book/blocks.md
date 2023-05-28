@@ -18,6 +18,10 @@ You can put the [Block Visiblity Group module](https://www.drupal.org/project/bl
 `composer require drupal/block_visibility_groups`<br>
 `drush en block_visibility_groups`
 
+## Create Block in Views
+
+Views is an important part of Drupal. From within it you can [create a Views Block.](https://www.youtube.com/watch?v=dZodp6GzvG0)  You might think of putting a list of the five most recent article posts in the sidebar of your front page or some other creative way of inviting users to engage you website with greater depth.
+
 ## Block and TWIG
 
 [Drupal Blocks Relationship to TWIG Templates (Video)](https://www.youtube.com/watch?v=Q-Pp0mw0Wm4)
