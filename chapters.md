@@ -138,7 +138,8 @@
   -   [Tutorial & Test Drive](book/drupalbasics.md)
   -   [Content Types & Fields](book/contenttype.md)  
   -   [Architecture & Entities](book/archandentities.md)  
-  -   [BLOCKS](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/blocks.md)
+  -   [BLOCKS](book/blocks.md)
+  -   [Example Drupal Sites](book/examples.md)
   -   [Learning More](book/drupalbasics.md#learning-sources)
 
 
