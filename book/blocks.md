@@ -2,6 +2,8 @@
 
 ## Block and TWIG
 
+[Drupal Blocks Relationship to TWIG Templates (Video)](https://www.youtube.com/watch?v=Q-Pp0mw0Wm4)
+
 [Understanding the many types of Blocks in Drupal](https://git.drupalcode.org/project/twig_tweak/-/blob/3.x/docs/blocks.md)
 
 ## Block Visibility Groups module
