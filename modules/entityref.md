@@ -62,7 +62,7 @@ One of the most powerful concepts in Drupal is an Entity Reference.  Thing of th
 
 You care a lot about this entity reference stuff and are going to add a bunch of contributed modules that have been developed to make it easier to use.  The general logic of entity reference is better ways to put stuff together rather than re-enter or redundantly maintain stuff.  An example might be something like you wanting to put a staff list in your menu where you have pictures of people, their unique email and phone numbers, but also want to list their business address which is broadly the same for those at the same physical location.  Instead of redundantly putting it in a dozen times, you make a business address entity for each site your business operates, and then when you create an entity with each staff picture and contact information you just 'reference' the business site address entity(ies) you created to plunk them in.  That is an entity reference, one entity referring to another.  
 
-Don't get too hung up on the name of the article or its worry about some pitfalls on how the basic core entity reference can cause some bumps for content editors. But a review of [this article gives a good overview of the logic of being able to not only use entity references but on how to update entities that are involved.](https://www.lullabot.com/articles/dangers-inline-editing-structured-content)
+Don't get too hung up on the name of the article or its worry about some pitfalls on how the basic core entity reference can cause some bumps for content editors. But a review of [this article gives a good overview of the logic of being able to not only use entity references but on how to update entities that are involved.](https://www.lullabot.com/articles/dangers-inline-editing-structured-content)  One way you are not going to worry about the update points in that article is that you are going to install and enable the [Entity Reference Revisions module.](#Entity-reference-revisions-module)
 
 ### Inline Entity Form module
 
@@ -70,20 +70,14 @@ Think of the [Inline Entity Form module](https://www.drupal.org/project/inline_e
 
 ### Entity Reference Revisions module
 
-So one way you are not going to worry about the update points in that article is that you are going to install and enable this module.  
-
-composer require drupal/entity_reference_revisions
-drush en entity_reference_revisions
-
-## Entity Reference Revisions module
-
+Drupal is said to be generally "revisionable".  Meaning sort of what version control does but to an entity within Drupal.  What this module does is provide access to those revisions for entity reference entities.
+  
 `composer require drupal/entity_reference_revisions`<br>
 `drush en entity_reference_revisions`
 
-## Entity Reference Preview module
+### Entity Reference Preview module
 
-Entity Reference Preview module:
-As that link on entity references warns, the 'revision' management relationship for referenced items isn't out of the box in synch with the edits you might have made to the parent entity it is linked to.  What that means is that your edit preview might be the unpublished revision you just worked on but the referenced entity connected to it is the published not the unpublished working edit version.  This Entity Reference Preview module steps up to that issue so you can see a previews of edits on the base entity and on any edits you made 'inline' to the referenced entity. 
+Another factor around entity reference versions is that the preview is connected to whatever the published looks like, not what you might be currently editing.  What that means is that your edit preview might be the unpublished revision you just worked on but the referenced entity connected to it is the published version.  This Entity Reference Preview module steps up to that issue so you can see a previews of edits on the base entity and on any edits you made 'inline' to the referenced entity. 
 
 `composer require drupal/entity_reference_preview`<br>
 `drush en entity_reference_preview`
