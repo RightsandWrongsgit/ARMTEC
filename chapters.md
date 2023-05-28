@@ -95,6 +95,7 @@
     - [Animation with CSS (Online)](https://animista.net/){:target="_blank"}
     - [CSS Shadows](https://neumorphism.io/#8c00ff){:target="_blank"}
     - [CSS Components](https://uiverse.io/all){:target="_blank"}
+    - [Every Imaginable Button Style](https://ui-buttons.web.app/){:target="_blank"}    
     - [CSS Hovers](http://ianlunn.github.io/Hover/){:target="_blank"}
     - [CSS Dynamic Scroll](https://michalsnik.github.io/aos/){:target="_blank"}
     - [Whirl & Signal Load Effects](https://whirl.netlify.app/){:target="_blank"}
