@@ -24,7 +24,10 @@ Remember that in Drupal there all lots of different types of entities even befor
 
 ## Media Entity Browser
 
-The more modern versions of Drupal have incorporated [Media Entity Browser](https://www.drupal.org/project/media_entity_browser) right into the Core.  The reason this happened is simply that it was so common that people included media in their website content that contributed modules had been built and were heavily utilized to do this, so several of the most integrated were folded into Drupal Core to make it easier for people to get started.  
+The more modern versions of Drupal have incorporated [Media Entity Browser](https://www.drupal.org/project/media_entity_browser) right into the Core.  The reason this happened is simply that it was so common that people included media in their website content that contributed modules had been built and were heavily utilized to do this, so several of the most integrated were folded into Drupal Core to make it easier for people to get started.  For this one, it is probably easiest to just go into your Administration/Extend option and enable it there if it isn't already.
+
+Remember that with Media Entity Browser you basically get the underlying 'Inline Entity Form', 'Entity Embed', and 'Entity Browser'.  <font color=yellow>You care about all of them but having that last one in place is key for several others we will look at next.</font>
+
 
 ## Media Entity Embed module
 #### Inline Entity Form, Entity Browser, Entity Embed dependencies
