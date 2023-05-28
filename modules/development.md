@@ -149,7 +149,7 @@ Super Login module (take control of the appearance of log in):
 composer require drupal/super_login
 drush en super_login
 
-
+[Login with Google module (set up)](https://www.codimth.com/blog/web/drupal/how-login-google-drupal-8-9)
 
 Redirect module (assures external links back to your site pages work if you change your site):
 composer require drupal/redirect
