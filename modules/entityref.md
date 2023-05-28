@@ -53,40 +53,48 @@ The [Entity Embed module](https://www.drupal.org/project/entity_embed) is the wa
 
 We noted that besides content, user, comment, etc. there is a type of entity that is unique for files.  This [File Entity Browser module](https://www.drupal.org/project/file_browser) is sort of the counter-part to the media or content entity browsers but to see the files available to use. You can [see the basics of its use here.](https://i.imgur.com/MokNcf4.gif)  Make sure you go to the [set up of this module right from the Drupal.Org site](https://www.drupal.org/project/file_browser) as there are a few minor, unique things to use it.
 
+### Inline Entity Form module
+
+Media is discussed more later but one thing you probably want to consider it that media also may be reused in other entities more than once, so we can treat it like an entity reference with this module to embed it as we needed.  This module leverages the 'Inline Entity Form' module, the 'Entity Browser' module, and the 'Entity Embed' module (https://www.youtube.com/watch?v=PA9PVwWClX0); so if we logically prioritize it for installation and being enabled, we can do a bunch of things we want all at once.  It is also worth checking out Ivan's video on how you can embed blocks in an entity like an article, basic page or whatever in a much more coordinated way then is found just in Core (https://www.youtube.com/watch?v=PYTb-WwIt40). Using Firefox has some GUI advantages with using this resizing step over Safari or Chrome.
+
 
 ********
 
-## Media Entity Embed module
-#### Inline Entity Form, Entity Browser, Entity Embed dependencies
+### Entity Reference
+<font color=grey>(automatically in Core)</font>
 
-"consider this module a priority" 
+You care a lot about this entity reference stuff and are going to add a bunch of contributed modules that have been developed to make it easier to use.  The general logic of entity reference is better ways to put stuff together rather than re-enter or redundantly maintain stuff.  An example might be something like you wanting to put a staff list in your menu where you have pictures of people, their unique email and phone numbers, but also want to list their business address which is broadly the same for those at the same physical location.  Instead of redundantly putting it in a dozen times, you make a business address entity for each site your business operates, and then when you create an entity with each staff picture and contact information you just 'reference' the business site address entity(ies) you created to plunk them in.  That is an entity reference, one entity referring to another.  
 
-`composer require drupal/media_entity_browser`<br>
-`drush en media_entity_browser`
+Don't get too hung up on the name of the article or its worry about some pitfalls on how the basic core entity reference can cause some bumps for content editors. But a review of this article gives a good overview of the logic of being able to not only use entity references but on how to update entities that are involved …  https://www.lullabot.com/articles/dangers-inline-editing-structured-content
+
+Entity Reference Revisions module:
+So one way you are not going to worry about the update points in that article is that you are going to install and enable this module.  
+
+composer require drupal/entity_reference_revisions
+drush en entity_reference_revisions
 
 ## Entity Reference Revisions module
 
 `composer require drupal/entity_reference_revisions`<br>
 `drush en entity_reference_revisions`
 
+## Entity Reference Preview module
 
-### Inline Entity Form module
+Entity Reference Preview module:
+As that link on entity references warns, the 'revision' management relationship for referenced items isn't out of the box in synch with the edits you might have made to the parent entity it is linked to.  What that means is that your edit preview might be the unpublished revision you just worked on but the referenced entity connected to it is the published not the unpublished working edit version.  This Entity Reference Preview module steps up to that issue so you can see a previews of edits on the base entity and on any edits you made 'inline' to the referenced entity. 
 
-Media is discussed more later but one thing you probably want to consider it that media also may be reused in other entities more than once, so we can treat it like an entity reference with this module to embed it as we needed.  This module leverages the 'Inline Entity Form' module, the 'Entity Browser' module, and the 'Entity Embed' module (https://www.youtube.com/watch?v=PA9PVwWClX0); so if we logically prioritize it for installation and being enabled, we can do a bunch of things we want all at once.  It is also worth checking out Ivan's video on how you can embed blocks in an entity like an article, basic page or whatever in a much more coordinated way then is found just in Core (https://www.youtube.com/watch?v=PYTb-WwIt40). Using Firefox has some GUI advantages with using this resizing step over Safari or Chrome.
-
+`composer require drupal/entity_reference_preview`<br>
+`drush en entity_reference_preview`
 
 
 ## Entity Usage module
 
+Alright, you are now so bright you know about entity references and you can even browse entities to find what you might want to reference where.  But, you probably don't remember from last time you worked on the site where all those entity references are and what you have referenced by what.  So you want to install and enable the Entity Usage module.
 Entities which are related to one another are set up using some of the approaches provided here.  But the [Entity Usage module](https://www.thedroptimes.com/30817/video-know-more-about-entity-usage-module) is a good one to track what is connected to whatelse so you can manage them as needed.  People tend to like it to track where media from the media manager are used.
 
 `composer require drupal/entity_usage`<br>
 `drush en entity_usage`
 
-## Entity Reference Preview module
-
-`composer require drupal/entity_reference_preview`<br>
-`drush en entity_reference_preview`
 
 ## Link Related Entitities module
 
@@ -110,33 +118,7 @@ You can put the [Block Visiblity Group module](https://www.drupal.org/project/bl
 ## Content Type Modules
 
 [Acquia](https://www.acquia.com/) is a commercial company founded by the [original developer of Drupal.](https://dri.es/)  They continue to [Open Source](../book/opensource.md) many of the tools they use.  You might want to glance through their GitHub repository, especially their [Acquia/CMS that provides some modules aimed at building some valuable content types.](https://github.com/acquia/acquia_cms/tree/develop/modules) for things like Person, Event, Place, Document, etc.
-************
 
-
-Entity Reference (automatically in Core):
-You care a lot about this entity reference stuff and are going to add a bunch of contributed modules that have been developed to make it easier to use.  The general logic of entity reference is better ways to put stuff together rather than re-enter or redundantly maintain stuff.  An example might be something like you wanting to put a staff list in your menu where you have pictures of people, their unique email and phone numbers, but also want to list their business address which is broadly the same for those at the same physical location.  Instead of redundantly putting it in a dozen times, you make a business address entity for each site your business operates, and then when you create an entity with each staff picture and contact information you just 'reference' the business site address entity(ies) you created to plunk them in.  That is an entity reference, one entity referring to another.  
-
-Don't get too hung up on the name of the article or its worry about some pitfalls on how the basic core entity reference can cause some bumps for content editors. But a review of this article gives a good overview of the logic of being able to not only use entity references but on how to update entities that are involved …  https://www.lullabot.com/articles/dangers-inline-editing-structured-content
-
-Entity Reference Revisions module:
-So one way you are not going to worry about the update points in that article is that you are going to install and enable this module.  
-
-composer require drupal/entity_reference_revisions
-drush en entity_reference_revisions
-
-
-Entity Usage module:
-Alright, you are now so bright you know about entity references and you can even browse entities to find what you might want to reference where.  But, you probably don't remember from last time you worked on the site where all those entity references are and what you have referenced by what.  So you want to install and enable the Entity Usage module.
-
-composer require drupal/entity_usage
-drush en entity_usage
-
-
-Entity Reference Preview module:
-As that link on entity references warns, the 'revision' management relationship for referenced items isn't out of the box in synch with the edits you might have made to the parent entity it is linked to.  What that means is that your edit preview might be the unpublished revision you just worked on but the referenced entity connected to it is the published not the unpublished working edit version.  This Entity Reference Preview module steps up to that issue so you can see a previews of edits on the base entity and on any edits you made 'inline' to the referenced entity. 
-
-composer require drupal/entity_reference_preview
-drush en entity_reference_preview
 
 **********
 
