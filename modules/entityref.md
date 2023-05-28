@@ -86,7 +86,8 @@ Another factor around entity reference versions is that the preview is connected
 ## Entity Usage module
 
 Alright, you are now so bright you know about entity references and you can even browse entities to find what you might want to reference where.  But, you probably don't remember from last time you worked on the site where all those entity references are and what you have referenced by what.  So you want to install and enable the Entity Usage module.
-Entities which are related to one another are set up using some of the approaches provided here.  But the [Entity Usage module](https://www.thedroptimes.com/30817/video-know-more-about-entity-usage-module) is a good one to track what is connected to whatelse so you can manage them as needed.  People tend to like it to track where media from the media manager are used.
+
+Entities which are related to one another are set up using some of the approaches provided here.  But the [Entity Usage module](https://www.thedroptimes.com/30817/video-know-more-about-entity-usage-module) is a good one to track what is connected to whatelse so you can manage them as needed.  People tend to like it to track where media from the media manager are used. It will insert an extra tab titled 'Usage' right after the 'View', 'Edit', 'Delete', options.
 
 `composer require drupal/entity_usage`<br>
 `drush en entity_usage`
