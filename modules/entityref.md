@@ -53,20 +53,23 @@ The [Entity Embed module](https://www.drupal.org/project/entity_embed) is the wa
 
 We noted that besides content, user, comment, etc. there is a type of entity that is unique for files.  This [File Entity Browser module](https://www.drupal.org/project/file_browser) is sort of the counter-part to the media or content entity browsers but to see the files available to use. You can [see the basics of its use here.](https://i.imgur.com/MokNcf4.gif)  Make sure you go to the [set up of this module right from the Drupal.Org site](https://www.drupal.org/project/file_browser) as there are a few minor, unique things to use it.
 
-### Inline Entity Form module
+# Entity Relationship
 
-The [Inline Entity Form module](https://www.drupal.org/project/inline_entity_form) leverages the 'Entity Browser' module, and the 'Entity Embed' module to do a bunch of things we want all at once.  It is also worth checking out Ivan's video on how you can embed blocks in an entity like an article, basic page and [create and edit them directly rather than first creating the block you want to embed](https://www.youtube.com/watch?v=PYTb-WwIt40). You can also see a [write up about how this integrates a selection set up to make it easier to do this](https://www.drupal.org/docs/8/modules/entity-browser/inline-entity-form) but Ivan's video makes the benefit more clear if you aren't familiar with the concept.
-
-********
-
-### Entity Reference
+## Entity Reference
 <font color=grey>(automatically in Core)</font>
+
+One of the most powerful concepts in Drupal is an Entity Reference.  Thing of this as helping define things that belong together.  For example, a song might be one-of-many which make up and album and an artist might have more than one albumn.  So you might create a content type for song, then albumn, then article in sort of a hierarchical low to higher logic.  What that is doing is having the lower level item present so that when you create the next higher one the lower is available to point to it.  A [video overview from Drupal.Org shows a simple example with recipes and those who submitted them.](https://www.youtube.com/watch?v=hAhWiqPlKh0&t=142s)
 
 You care a lot about this entity reference stuff and are going to add a bunch of contributed modules that have been developed to make it easier to use.  The general logic of entity reference is better ways to put stuff together rather than re-enter or redundantly maintain stuff.  An example might be something like you wanting to put a staff list in your menu where you have pictures of people, their unique email and phone numbers, but also want to list their business address which is broadly the same for those at the same physical location.  Instead of redundantly putting it in a dozen times, you make a business address entity for each site your business operates, and then when you create an entity with each staff picture and contact information you just 'reference' the business site address entity(ies) you created to plunk them in.  That is an entity reference, one entity referring to another.  
 
-Don't get too hung up on the name of the article or its worry about some pitfalls on how the basic core entity reference can cause some bumps for content editors. But a review of this article gives a good overview of the logic of being able to not only use entity references but on how to update entities that are involved …  https://www.lullabot.com/articles/dangers-inline-editing-structured-content
+Don't get too hung up on the name of the article or its worry about some pitfalls on how the basic core entity reference can cause some bumps for content editors. But a review of [this article gives a good overview of the logic of being able to not only use entity references but on how to update entities that are involved.](https://www.lullabot.com/articles/dangers-inline-editing-structured-content)
 
-Entity Reference Revisions module:
+### Inline Entity Form module
+
+Think of the [Inline Entity Form module](https://www.drupal.org/project/inline_entity_form) as a shortcut.  In that logic of creating the first or lower level content type first and then referencing it as you create the next up the sequence, you could be going in and out of different Drupal GUI Administrative set up areas.  This module bridges that issue so you can jump from within (inline) and do the creation of what you will reference right in part of the set up.  If your are making a ['block'](../chapters.md#understand-the-many-types-of-BLOCKS-in-drupal) it can be really handy for when you save a content type as a block.  It is worth checking out this video on how you can [create and edit them directly rather than first creating the block you want to embed](https://www.youtube.com/watch?v=PYTb-WwIt40). You can also see a [write up about how this integrates a selection set up to make it easier to do this](https://www.drupal.org/docs/8/modules/entity-browser/inline-entity-form) but Ivan's video makes the benefit more clear if you aren't familiar with the concept.
+
+### Entity Reference Revisions module
+
 So one way you are not going to worry about the update points in that article is that you are going to install and enable this module.  
 
 composer require drupal/entity_reference_revisions
