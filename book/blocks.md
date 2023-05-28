@@ -1,8 +1,10 @@
 # Blocks
 
-Drupal website pages are made up of different sections called 'Regions'.  Where these Regions come from is your ['Theme'](../theme/frontoverview.md)  Most people are familiar with websites having a main content area, a header, a footer, one or more sidebars, etc. and these would be Regions.  What you put into these regions are 'Blocks'.  So, for example, you might put a search block in a sidebar region or an extra navigation block in the footer region.  [Blocks and Regions are intimately tied in Drupal.](https://www.drupal.org/docs/user_guide/en/block-concept.html)
+Drupal website pages are made up of different sections called 'Regions'.  Where these Regions come from is your ['Theme'.](../theme/frontoverview.md)  Most people are familiar with websites having a main content area, a header, a footer, one or more sidebars, etc. and these would be Regions.  What you put into these regions are 'Blocks'.  So, for example, you might put a search block in a sidebar region or an extra navigation block in the footer region.  [Blocks and Regions are intimately tied in Drupal.](https://www.drupal.org/docs/user_guide/en/block-concept.html)
 
-You are likely to want to make [Custom Blocks](https://youtu.be/sI2wrbn3cPg) that serve your purpose; an example might be the hours and location of your business.  The interesting thing about Blocks is that most are reusable and thus you may put them into different locations on your website as you find appropriate. 
+[Managing Blocks in Regions will be a significant part of what you do with Drupal](https://www.drupal.org/docs/core-modules-and-themes/core-modules/block-module/managing-blocks) regardless of how you work toward builing your website.  The Layout Builder approach is yet an additional step to make it easier for site builders to take advantage of Drupal's extraordinary capabilities while staying away from code level work.  Yet, for developers they can do all sorts of thing using code to streamline building or populating blocks in a website.
+
+Even novice users are likely to want to make [Custom Blocks](https://youtu.be/sI2wrbn3cPg) that serve their purpose; an example might be the hours and location of your business.  The interesting thing about Blocks is that most are reusable and thus you may put them into different locations on your website as you find appropriate. 
 
 ## Blocks and Layout Builder
 
