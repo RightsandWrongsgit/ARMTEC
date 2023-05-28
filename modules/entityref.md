@@ -20,14 +20,39 @@ It is standard that out of the box Drupal will put a Title on a Content Node as 
 
 # Link an Entity
 
-Remember that in Drupal there all lots of different types of entities even before you would move to [create you own.](#create-one)  The most common are content and user entities but note forget comments, files, and media.   Linking, often including reusing, entities is typical; think about how your content entity probably would benefit from a media entity used in it.  And media entities come in different types like images, videos, audio, and a who bunch of [Media provider modules;](https://www.drupal.org/project/media_entity) think things like Twitter, Facebook, Instagram, etc.
+Remember that in Drupal there all lots of different types of entities even before you would move to [create you own.](#create-one)  The most common are content and user entities but don't forget comments, files, and media.   Linking entities is typical; think about how your content entity probably would benefit from a media entity used in it.  And media entities come in different types like images, videos, audio, and a whole bunch of [Media provider modules;](https://www.drupal.org/project/media_entity) things like Twitter, Facebook, Instagram, etc.
 
-## Media Entity Browser
+## Media 
 
-The more modern versions of Drupal have incorporated [Media Entity Browser](https://www.drupal.org/project/media_entity_browser) right into the Core.  The reason this happened is simply that it was so common that people included media in their website content that contributed modules had been built and were heavily utilized to do this, so several of the most integrated were folded into Drupal Core to make it easier for people to get started.  For this one, it is probably easiest to just go into your Administration/Extend option and enable it there if it isn't already.
+The more modern versions of Drupal have incorporated [Media Management](../modules/media.md) right into the Core.  The reason this happened is simply so common people included media in their website content that contributed modules had been built and were heavily utilized to do this. Thus several of the most common were integrated and folded into Drupal Core to make it easier for people to get started.  For this one, it is probably easiest to just go into your Administration/Extend option and enable the media and media library.
 
-Remember that with Media Entity Browser you basically get the underlying 'Inline Entity Form', 'Entity Embed', and 'Entity Browser'.  <font color=yellow>You care about all of them but having that last one in place is key for several others we will look at next.</font>
+### Media Entity Browser
 
+The [Media Entity Browser](https://www.drupal.org/project/media_entity_browser)has mostly been replaced by what is in core; but not totally.  So some people might want to so the extra step.  Remember that with Media Entity Browser you basically get the underlying 'Inline Entity Form', 'Entity Embed', and 'Entity Browser'.  <font color=yellow>You care about all of them but having that last one in place is key for several others we will look at next.</font>
+
+*********
+Media Entity Embed Module:
+Media is discussed more later but one thing you probably want to consider it that media also may be reused in other entities more than once, so we can treat it like an entity reference with this module to embed it as we needed.  This module leverages the 'Inline Entity Form' module, the 'Entity Browser' module, and the 'Entity Embed' module (https://www.youtube.com/watch?v=PA9PVwWClX0); so if we logically prioritize it for installation and being enabled, we can do a bunch of things we want all at once.  It is also worth checking out Ivan's video on how you can embed blocks in an entity like an article, basic page or whatever in a much more coordinated way then is found just in Core (https://www.youtube.com/watch?v=PYTb-WwIt40). Using Firefox has some GUI advantages with using this resizing step over Safari or Chrome.
+
+- CONSIDER THIS MODULE A PRIORITY FOR INSTALLATION AND ENABLING -
+
+composer require drupal/media_entity_browser
+drush en media_entity_browser
+
+********
+Entity Browser module: 
+Sounds like a good idea to use that entity reference stuff but how about chasing down what you have available to reference?  Yeah, figuring that out on a site of any size in terms of stuff or entities already developed can be a pain, so some bright people developed the Entity Browser module to solve the problem; install and enable it.
+
+composer require drupal/entity_browser
+drush en entity_browser
+
+Entity Browser Enhanced module:
+This module add some features like multi-select to the basic entity browser module.  
+
+composer require drupal/entity_browser_enhanced
+drush en entity_browser_enhanced
+
+********
 
 ## Media Entity Embed module
 #### Inline Entity Form, Entity Browser, Entity Embed dependencies
@@ -86,13 +111,6 @@ You can put the [Block Visiblity Group module](https://www.drupal.org/project/bl
 
 
 
-Media Entity Embed Module:
-Media is discussed more later but one thing you probably want to consider it that media also may be reused in other entities more than once, so we can treat it like an entity reference with this module to embed it as we needed.  This module leverages the 'Inline Entity Form' module, the 'Entity Browser' module, and the 'Entity Embed' module (https://www.youtube.com/watch?v=PA9PVwWClX0); so if we logically prioritize it for installation and being enabled, we can do a bunch of things we want all at once.  It is also worth checking out Ivan's video on how you can embed blocks in an entity like an article, basic page or whatever in a much more coordinated way then is found just in Core (https://www.youtube.com/watch?v=PYTb-WwIt40). Using Firefox has some GUI advantages with using this resizing step over Safari or Chrome.
-
-- CONSIDER THIS MODULE A PRIORITY FOR INSTALLATION AND ENABLING -
-
-composer require drupal/media_entity_browser
-drush en media_entity_browser
 
 
 Entity Reference (automatically in Core):
@@ -107,19 +125,6 @@ composer require drupal/entity_reference_revisions
 drush en entity_reference_revisions
 
 
-Entity Browser module: 
-Sounds like a good idea to use that entity reference stuff but how about chasing down what you have available to reference?  Yeah, figuring that out on a site of any size in terms of stuff or entities already developed can be a pain, so some bright people developed the Entity Browser module to solve the problem; install and enable it.
-
-composer require drupal/entity_browser
-drush en entity_browser
-
-
-
-Entity Browser Enhanced module:
-This module add some features like multi-select to the basic entity browser module.  
-
-composer require drupal/entity_browser_enhanced
-drush en entity_browser_enhanced
 
 
 
