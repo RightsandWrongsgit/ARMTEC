@@ -82,7 +82,6 @@ Another factor around entity reference versions is that the preview is connected
 `composer require drupal/entity_reference_preview`<br>
 `drush en entity_reference_preview`
 
-
 ## Entity Usage module
 
 Alright, you are now so bright you know about entity references and you can even browse entities to find what you might want to reference where.  But, you probably don't remember from last time you worked on the site where all those entity references are and what you have referenced by what.  So you want to install and enable the Entity Usage module.
@@ -91,11 +90,6 @@ Entities which are related to one another are set up using some of the approache
 
 `composer require drupal/entity_usage`<br>
 `drush en entity_usage`
-
-
-## Link Related Entitities module
-
-[Linking two related entities (e.g. person like spouses, children)](https://www.drupal.org/project/cer)
 
 
 ## Block Visibility Groups module
