@@ -139,7 +139,7 @@
   -   [Content Types & Fields](book/contenttype.md)  
   -   [Architecture & Entities](book/archandentities.md)  
   -   [BLOCKS](book/blocks.md)
-  -   [Example Drupal Sites](book/examples.md)
+  -   [Example Drupal Sites](book/exampledrupal.md)
   -   [Learning More](book/drupalbasics.md#learning-sources)
 
 
