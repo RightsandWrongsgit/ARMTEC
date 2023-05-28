@@ -53,16 +53,6 @@ The [Entity Embed module](https://www.drupal.org/project/entity_embed) is the wa
 
 We noted that besides content, user, comment, etc. there is a type of entity that is unique for files.  This [File Entity Browser module](https://www.drupal.org/project/file_browser) is sort of the counter-part to the media or content entity browsers but to see the files available to use. You can [see the basics of its use here.](https://i.imgur.com/MokNcf4.gif)  Make sure you go to the [set up of this module right from the Drupal.Org site](https://www.drupal.org/project/file_browser) as there are a few minor, unique things to use it.
 
-*********
-Media Entity Embed Module:
-Media is discussed more later but one thing you probably want to consider it that media also may be reused in other entities more than once, so we can treat it like an entity reference with this module to embed it as we needed.  This module leverages the 'Inline Entity Form' module, the 'Entity Browser' module, and the 'Entity Embed' module (https://www.youtube.com/watch?v=PA9PVwWClX0); so if we logically prioritize it for installation and being enabled, we can do a bunch of things we want all at once.  It is also worth checking out Ivan's video on how you can embed blocks in an entity like an article, basic page or whatever in a much more coordinated way then is found just in Core (https://www.youtube.com/watch?v=PYTb-WwIt40). Using Firefox has some GUI advantages with using this resizing step over Safari or Chrome.
-
-- CONSIDER THIS MODULE A PRIORITY FOR INSTALLATION AND ENABLING -
-
-composer require drupal/media_entity_browser
-drush en media_entity_browser
-
-
 
 ********
 
@@ -78,6 +68,12 @@ drush en media_entity_browser
 
 `composer require drupal/entity_reference_revisions`<br>
 `drush en entity_reference_revisions`
+
+
+### Inline Entity Form module
+
+Media is discussed more later but one thing you probably want to consider it that media also may be reused in other entities more than once, so we can treat it like an entity reference with this module to embed it as we needed.  This module leverages the 'Inline Entity Form' module, the 'Entity Browser' module, and the 'Entity Embed' module (https://www.youtube.com/watch?v=PA9PVwWClX0); so if we logically prioritize it for installation and being enabled, we can do a bunch of things we want all at once.  It is also worth checking out Ivan's video on how you can embed blocks in an entity like an article, basic page or whatever in a much more coordinated way then is found just in Core (https://www.youtube.com/watch?v=PYTb-WwIt40). Using Firefox has some GUI advantages with using this resizing step over Safari or Chrome.
+
 
 
 ## Entity Usage module
