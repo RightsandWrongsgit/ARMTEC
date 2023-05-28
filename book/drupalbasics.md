@@ -13,6 +13,11 @@ If we assume you found all that to your liking, then turn to our [CI/CD Drupal B
 
 Besides this site itself, there are a ton of resources to learn more about Drupal.  Never one to reinvent the wheel checkout a solid list from [Selwyn Polit's Site.](https://selwynpolit.github.io/d9book/learn)  One he may have overlooked that is real strong is called [WebWash from Ivan Zugec](https://www.webwash.net/) over in Australia; he reviews things with real practical 'how to' depth.  When I was first learning Drupal one of my favorites was the [Code Karate Kid and his 'another daily dose of Drupal' videos;](https://www.youtube.com/@codekaratetutorials) these are somewhat dated at this point but many modules he reviews has current versions worth checking out.  I love how brief they are and wish the new Drupal [Project Browser aimed at a better way to find valuable contributed modules](https://www.drupal.org/project/project_browser) would require or at least encourage module developers to provide these type of brief video overviews.  Perhaps this is your [Open Source Contribution Opportunity.](../book/opensource.md)
 
+### Bridging to Code
+
+Drupal serves the relative novice with many of the features included in its Core installation.  It benefits from adding of the [Layout Builder](../modules/layoutbuilder.md) GUI interface approach and its folding in of much enhanced [Media Management.](../modules/media.md)  Next level enhancements come with its many [contributed modules easily installed by site builders.](../modules/modulesoverview.md)  Understanding the basic [architecture and entities](../book/archandentities.md) moves you closer to being able to try some initial code level developer type efforts.
+
+You might now try to look at the many [slices of solutions provided by a mix of either examples of how to use some modules OR of brief code block examples that you can give a try yourself.](https://www.codimth.com/category/web/drupal)
 
 <br>
 <br>
