@@ -22,6 +22,11 @@ If the design process you went through finds you need more than an article and b
 
 ## A little Techie
 
+### Borrow a friend's
+
+[Acquia](https://www.acquia.com/) is a commercial company founded by the [original developer of Drupal.](https://dri.es/)  They continue to [Open Source](../book/opensource.md) many of the tools they use.  You might want to glance through their GitHub repository, especially their [Acquia/CMS that provides some modules aimed at building some valuable content types.](https://github.com/acquia/acquia_cms/tree/develop/modules) for things like Person, Event, Place, Document, etc.  This is code level stuff, but if you are familiar with cloning a Git repository and how to create the right sub-directory relationship to bring a module in this way, it may get you a step forward.
+
+### Build your own
 Many websites can be built by just using the content types you set up.  However, sometimes there is something a little unusual about what you need which might result in you having to run a little deeper.  The real detailed, details will be presented on a separate section of this documentation.  But even novice site builders can benefit from a little understanding about what these 'content types' and their 'fields' represent in Drupal jargon.
 
 The 'content types' that came with the install and the ones you create as outlined above are each considered unique 'bundles' of something called a 'node'.   A 'node' is one type of a 'content entity'; careful there, a 'content type' is a subset of a 'content entity'.  So a 'content entity' is something bigger in concept.  Well if that is the case, then there must be some other 'content entities' and we want to know what the heck they are…
