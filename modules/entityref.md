@@ -32,11 +32,11 @@ The [Media Entity Browser](https://www.drupal.org/project/media_entity_browser) 
 
 ### Entity Browser module 
 
-The [Entity Browser module](https://www.drupal.org/project/entity_browser) is probably not something you are going to bother adding on a stand alone basis if you are using the [media management already part of Drupal Core.](../modules/media.md)  However, what follows are several additional entity linking types of modules which have a dependency on it and would, therefore, bring it into play if you elect to use any of them.
+The [Entity Browser module](https://www.drupal.org/project/entity_browser) is probably not something you are going to bother adding on a stand alone basis if you are using the [media management already part of Drupal Core.](../modules/media.md)  However, what follows are several additional entity linking types of modules which have a dependency on it and would, therefore, bring it into play if you elect to use any of them.  The authors describe this as a 'generic picker' module that you can expect to use against all sorts of different entities.  If you get into [creating your own entity](#create-one) and love all that stuff under [architecture and entities](../book/archandentities.md) this might be a perfect opportunity to clone and edit one of the tools used for another entity type and code your own companion tool for your custom entity.
 
 ### Entity Browser Enhanced
 
-This module add some features like multi-select to the basic entity browser module.  
+This module adds some features like multi-select to the basic entity browser module.  
 
 `composer require drupal/entity_browser_enhanced`<br>
 `drush en entity_browser_enhanced`
@@ -55,8 +55,7 @@ We noted that besides content, user, comment, etc. there is a type of entity tha
 
 ### Inline Entity Form module
 
-Media is discussed more later but one thing you probably want to consider it that media also may be reused in other entities more than once, so we can treat it like an entity reference with this module to embed it as we needed.  This module leverages the 'Inline Entity Form' module, the 'Entity Browser' module, and the 'Entity Embed' module (https://www.youtube.com/watch?v=PA9PVwWClX0); so if we logically prioritize it for installation and being enabled, we can do a bunch of things we want all at once.  It is also worth checking out Ivan's video on how you can embed blocks in an entity like an article, basic page or whatever in a much more coordinated way then is found just in Core (https://www.youtube.com/watch?v=PYTb-WwIt40). Using Firefox has some GUI advantages with using this resizing step over Safari or Chrome.
-
+The [Inline Entity Form module](https://www.drupal.org/project/inline_entity_form) leverages the 'Entity Browser' module, and the 'Entity Embed' module to do a bunch of things we want all at once.  It is also worth checking out Ivan's video on how you can embed blocks in an entity like an article, basic page or whatever in a much more coordinated way then is found just in Core (https://www.youtube.com/watch?v=PYTb-WwIt40). You can also see a [write up about how this integrates a selection set up to make it easier to](https://www.drupal.org/docs/8/modules/entity-browser/inline-entity-form)
 
 ********
 
