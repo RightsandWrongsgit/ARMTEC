@@ -55,7 +55,7 @@ We noted that besides content, user, comment, etc. there is a type of entity tha
 
 ### Inline Entity Form module
 
-The [Inline Entity Form module](https://www.drupal.org/project/inline_entity_form) leverages the 'Entity Browser' module, and the 'Entity Embed' module to do a bunch of things we want all at once.  It is also worth [checking out Ivan's video on how you can embed blocks in an entity like an article, basic page and create and edit them directly rather than first creating the block you want to embed](https://www.youtube.com/watch?v=PYTb-WwIt40). You can also see a [write up about how this integrates a selection set up to make it easier to do this.](https://www.drupal.org/docs/8/modules/entity-browser/inline-entity-form)
+The [Inline Entity Form module](https://www.drupal.org/project/inline_entity_form) leverages the 'Entity Browser' module, and the 'Entity Embed' module to do a bunch of things we want all at once.  It is also worth checking out Ivan's video on how you can embed blocks in an entity like an article, basic page and [create and edit them directly rather than first creating the block you want to embed](https://www.youtube.com/watch?v=PYTb-WwIt40). You can also see a [write up about how this integrates a selection set up to make it easier to do this](https://www.drupal.org/docs/8/modules/entity-browser/inline-entity-form) but Ivan's video makes the benefit more clear if you aren't familiar with the concept.
 
 ********
 
