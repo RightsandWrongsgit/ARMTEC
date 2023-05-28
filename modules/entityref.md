@@ -28,7 +28,33 @@ The more modern versions of Drupal have incorporated [Media Management](../modul
 
 ### Media Entity Browser
 
-The [Media Entity Browser](https://www.drupal.org/project/media_entity_browser)has mostly been replaced by what is in core; but not totally.  So some people might want to so the extra step.  Remember that with Media Entity Browser you basically get the underlying 'Inline Entity Form', 'Entity Embed', and 'Entity Browser'.  <font color=yellow>You care about all of them but having that last one in place is key for several others we will look at next.</font>
+The [Media Entity Browser](https://www.drupal.org/project/media_entity_browser) has mostly been replaced by what is in core; but not totally.  So some people might want to go the extra step.  Remember that with Media Entity Browser you basically get the underlying 'Inline Entity Form', 'Entity Embed', and 'Entity Browser'.  <font color=yellow>You care about all of them but having that last one in place is key for several others we will look at next.</font>
+
+### Entity Browser module 
+Sounds like a good idea to use that entity reference stuff but how about chasing down what you have available to reference?  Yeah, figuring that out on a site of any size in terms of stuff or entities already developed can be a pain, so some bright people developed the Entity Browser module to solve the problem; install and enable it.
+
+composer require drupal/entity_browser
+drush en entity_browser
+
+### Entity Browser Enhanced
+
+This module add some features like multi-select to the basic entity browser module.  
+
+`composer require drupal/entity_browser_enhanced`<br>
+`drush en entity_browser_enhanced`
+
+### Content Entity Browser
+
+The [Content Entity Browser module](https://www.drupal.org/project/content_browser) basically provides a way to displays rows of to see what content is available to select for a view. 
+
+### Entity Embed
+
+The [Entity Embed module](https://www.drupal.org/project/entity_embed) is the way you interface the access to entities into your [CKEditor](https://www.drupal.org/docs/core-modules-and-themes/core-modules/ckeditor-5-module) so you can grab and insert content while WYSIWYG editing.
+
+
+### File Entity Browser
+
+
 
 *********
 Media Entity Embed Module:
@@ -39,18 +65,7 @@ Media is discussed more later but one thing you probably want to consider it tha
 composer require drupal/media_entity_browser
 drush en media_entity_browser
 
-********
-Entity Browser module: 
-Sounds like a good idea to use that entity reference stuff but how about chasing down what you have available to reference?  Yeah, figuring that out on a site of any size in terms of stuff or entities already developed can be a pain, so some bright people developed the Entity Browser module to solve the problem; install and enable it.
 
-composer require drupal/entity_browser
-drush en entity_browser
-
-Entity Browser Enhanced module:
-This module add some features like multi-select to the basic entity browser module.  
-
-composer require drupal/entity_browser_enhanced
-drush en entity_browser_enhanced
 
 ********
 
@@ -67,10 +82,6 @@ drush en entity_browser_enhanced
 `composer require drupal/entity_reference_revisions`<br>
 `drush en entity_reference_revisions`
 
-## Entity Browser Enhanced module
-
-`composer require drupal/entity_browser_enhanced`<br>
-`drush en entity_browser_enhanced`
 
 ## Entity Usage module
 
@@ -109,10 +120,6 @@ You can put the [Block Visiblity Group module](https://www.drupal.org/project/bl
 ************
 
 
-
-
-
-
 Entity Reference (automatically in Core):
 You care a lot about this entity reference stuff and are going to add a bunch of contributed modules that have been developed to make it easier to use.  The general logic of entity reference is better ways to put stuff together rather than re-enter or redundantly maintain stuff.  An example might be something like you wanting to put a staff list in your menu where you have pictures of people, their unique email and phone numbers, but also want to list their business address which is broadly the same for those at the same physical location.  Instead of redundantly putting it in a dozen times, you make a business address entity for each site your business operates, and then when you create an entity with each staff picture and contact information you just 'reference' the business site address entity(ies) you created to plunk them in.  That is an entity reference, one entity referring to another.  
 
@@ -125,15 +132,11 @@ composer require drupal/entity_reference_revisions
 drush en entity_reference_revisions
 
 
-
-
-
 Entity Usage module:
 Alright, you are now so bright you know about entity references and you can even browse entities to find what you might want to reference where.  But, you probably don't remember from last time you worked on the site where all those entity references are and what you have referenced by what.  So you want to install and enable the Entity Usage module.
 
 composer require drupal/entity_usage
 drush en entity_usage
-
 
 
 Entity Reference Preview module:
@@ -142,6 +145,7 @@ As that link on entity references warns, the 'revision' management relationship 
 composer require drupal/entity_reference_preview
 drush en entity_reference_preview
 
+**********
 
 # Create One
 ## Entity Construction Kit (ECK)
