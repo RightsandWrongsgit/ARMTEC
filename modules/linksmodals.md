@@ -14,6 +14,10 @@ The good news is it has the same "look and feel" as the core linking.  The autoc
 `composer require drupal/linkit`<br>
 `drush en linkit`
 
+## Entity Embed Links module
+
+[The Entity Embed Links module](../modules/entityref.md#entity-embed-links) may be an alternative for integration with Drupals Media Management.
+
 ## Field Group Link module
 
 So you can have the whole group you established set up to allow a link.
