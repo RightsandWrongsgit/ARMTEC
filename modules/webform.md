@@ -3,9 +3,9 @@
 
 When you start working with Drupal you will quickly jump into the 'Administration/Structure/Content Types' part of the GUI menu system.  There you will find the initially installed Article and Basic Page content types.  Elsewhere we talk about how to [make the other content types you may want to add.](../book/contenttypes.md) As you work with Drupal you will then go to 'Administration/Content' and select which you plan to work on for any given set of pages you want to create.  Pick one and the first you will see is a form where you can put in some content.  What you see on that form is probably already very familiar to you because as a content type is set up of the [first tasks is to say what 'fields' of information that particular content type should contain.](../book/contenttype.md#add-content-type)  By george, you already know how to use a form in Drupal.  Infact, if you put some fields you wanted into one of those content types you actually created or defined a classic Drupal form.
 
-The first section of this page is all about extra things you might consider adding to the 'Classic' type of Drupal forms.  Following that is another section on a 'Webform' series of tools that are more specifically devoted to Form Management as a separate application need for certain types of websites we might develop.
+The first section of this page is all about extra things you might consider adding to the 'Classic PHP' type of Drupal forms.  Following that is another section on a 'Webform' series of tools that are more specifically devoted to Form Management as a separate application need for certain types of websites we might develop.
 
-## Classic Forms
+## Classic PHP Forms
 
 ### Forms Steps module
 
@@ -43,9 +43,9 @@ composer require 'drupal/formblock:^2.0@beta'
 
 If you have a substantial use case requirement around forms, you will want to look at the [webform module;](https://www.drupal.org/project/webform) and its numerous additional components.  This is probably one of the best documented series of modules in all of Drupal.  [Get an overview here.](https://www.youtube.com/watch?v=VncMRSwjVto)
 
-As exciting and powerful as this webform module series is, there is a little 'watch out' gotcha associated with it.  Remember, this is NOT your standard Drupal input form or a tweaked version of it like offered earlier.  Rather, it is a form system first and it has the opportunity to interface with Drupal.  On the incorporate it level, that is straight forward.  On the get data out of the form and into standard Drupal 'fields' it is more challenging.  Rather than fields, Webform stands separately by calling them 'elements'.  The easiest way to wrap your head around this is to [watch this short video on setting up a simple form which demonstrates the use of elements to define what your form contains.](https://www.youtube.com/watch?v=fr3kTiYKNls)
+As exciting and powerful as this webform module series is, there is a little 'watch out' gotcha associated with it.  Remember, this is NOT your standard Drupal PHP input form or a tweaked version of it like offered earlier.  Rather, it is a 'form system' first and it has the opportunity to interface with Drupal.  On the incorporate it level, that is straight forward.  On the get data out of the form and into standard Drupal 'fields' it is more challenging.  Rather than fields, Webform stands separately by calling them 'elements'.  The easiest way to wrap your head around this is to [watch this short video on setting up a simple form which demonstrates the use of elements to define what your form contains.](https://www.youtube.com/watch?v=fr3kTiYKNls)
 
-
+Relating the Webform 'form system' elements to 'PHP fields' withing classic Drupal forms may not be for the faint of heart.  Webform has the ability to export CSV files of the elements Webform has collected.  It also has the ability to present YAML files of this information.  And there is a [way to relate the YAML file data elements collected back to to standard Drupal PHP fields that the database uses with the Drupal Form API.](https://www.jrockowitz.com/blog/webform-apis) 
 
 ### Webform base
 
