@@ -37,11 +37,11 @@ If you have a substantial use case requirement around forms, you will want to lo
 
 As exciting and powerful as this webform module series is, there is a little 'watch out' gotcha associated with it.  Remember, this is NOT your standard Drupal PHP input form or a tweaked version of it like offered earlier.  Rather, it is a 'form system' first and it has the opportunity to interface with Drupal.  On the incorporate it level, that is straight forward.  On the get data out of the form and into standard Drupal 'fields' it is more challenging.  Rather than fields, Webform stands separately by calling them 'elements'.  The easiest way to wrap your head around this is to [watch this short video on setting up a simple form which demonstrates the use of elements to define what your form contains.](https://www.youtube.com/watch?v=fr3kTiYKNls)
 
-Relating the Webform 'form system' elements to 'PHP fields' withing classic Drupal forms may not be for the faint of heart.  Webform has the ability to export CSV files of the elements Webform has collected.  It also has the ability to present YAML files of this information.  And there is a [way to relate the YAML file data elements collected back to to standard Drupal PHP fields that the database uses with the Drupal Form API.](https://www.jrockowitz.com/blog/webform-apis)  A [tutorial on setting up and using forms in this manner provides a more step-by-step outline](https://www.specbee.com/blogs/drupal-9-webform-module)  It may be that your goal is to display a view of the webform collected data and if that is the case, the [Webform Views Module](#webform-views-integration-module) may be the easier solution.  If you dare to not only use that module but want to see if you can tweak some code available from GitHub, a contributiong user has presented a way to [make the Webform elements into Drupal nodes.](https://github.com/owenmorrill/subtonode)
+Relating the Webform 'form system' elements to 'PHP fields' withing classic Drupal forms may not be for the faint of heart.  Webform has the ability to export CSV files of the elements Webform has collected.  It also has the ability to present YAML files of this information.  And there is a [way to relate the YAML file data elements collected back to to standard Drupal PHP fields that the database uses with the Drupal Form API.](https://www.jrockowitz.com/blog/webform-apis)  A [tutorial on setting up and using forms in this manner provides a more step-by-step outline](https://www.specbee.com/blogs/drupal-9-webform-module)  It may be that your goal is to display a view of the webform collected data and if that is the case, the [Webform Views Module](#webform-views-integration-module) may be the easier solution.  If you dare to not only use that module but want to see if you can tweak some code available from GitHub, a contributiong user has presented a way to [make the Webform elements into Drupal nodes.](https://github.com/owenmorrill/subtonode) However, if you prefer avoiding coding level work to get a node out of a webform submission you probably want to look at the [Webform Content Creator module.](#webform-content-creator-module)
 
 ### Webform base
 
-The base module has a whole variety of features within it.  But because this series is so well documented, it makes no sense to repeat all that here; just [jump to this great overview of all that it does and works with.](https://www.drupal.org/docs/contributed-modules/webform/webform-features)
+The base module has a whole variety of features within it.  But because this series is so well documented, it makes no sense to repeat all that here; just [jump to this great overview of all that it does and works with.](https://www.drupal.org/docs/contributed-modules/webform/webform-features)  This [brief tutorial from Yale University shows some easy ways to use this module](https://yalesites.yale.edu/module-tutorials/webform) Or you may prefer a [step-by-step install and use guide.](https://www.webwash.net/courses/using-webform-in-drupal-8/)
 
 `composer require drupal/webform`<br>
 `drush en webform`
@@ -54,18 +54,20 @@ One thing to call out is how using Webforms with a Cards set up is like a step f
 
 The [Webform Views module](https://www.drupal.org/project/webform_views) is a way to utilize data collected via Webform in Drupal [Views](../modules/views.md).  A [step-by-step guide presents the basics of using Webform elements within Views.](https://www.drupal.org/docs/8/modules/webform/webform-cookbook/how-to-create-a-view-for-displaying-fields-values-of/step-by-step-guide)  However, do keep in mind that Views itself is extraordinarily powerful, so many additional alternatives from this base guide might fit your specific use case even better.
 
-***********
+### Webform to entity
 
-composer require 'drupal/webform_content_creator:^2.0'
-drush en webform_content_creator
+It was noted earlier that getting Webform element information into a Drupal field was more challenging than the reverse.  Here you can see the [way that you can provide an entity from Drupal into a Webform element selection option; taxonomy terms are demonstrated but other entity type access is also briefly shown.](https://www.webwash.net/taxonomy-terms-as-webform-options-in-drupal/)  This is a basic part of Webform, not dependent on installing an additional module.  Since Webform is capable of being used to set up Survey's, you can see how the response categories on closed-end questions being taxonomy terms might be valuable.
 
-composer require 'drupal/webform_node_element:^1.1'
-composer require 'drupal/webform_node_element:1.x-dev@dev'   (Drupal 9)
-drush en webform_node_element
+### Webform Content Creator module
+
+It may make it easier to have your webform feed its content to a Drupal node, you should take a look at the [Webform Content Creator module](https://www.drupal.org/project/webform_content_creator)  This creates content entities after submitting webforms.  You have mappings between the fields of the created content entity and webform element values.  It is possible to use tokens and/or custom values.
+
+`composer require drupal/webform_content_creator`<br>
+`drush en webform_content_creator`
 
 
-composer require 'drupal/form_mode_manager:^2.0@RC'
-If having trouble with other approaches to user inputs via the form display approach, you might try this.  The D9 version is nearing final testing. 
+*********************
+
 
 composer require 'drupal/config_entity_revisions:^1.6'
 drush en config_entity_revisions
@@ -73,12 +75,6 @@ drush en config_entity_revisions
 (https://www.youtube.com/watch?v=YKr-vLCRaJo)
 
 
-***************
-
-
-
-
-[Using Taxonomy Terms in Webform](https://www.webwash.net/taxonomy-terms-as-webform-options-in-drupal/)
 
 If hierarchy is an issue, try --
 composer require 'drupal/shs:^1.0@alpha'
