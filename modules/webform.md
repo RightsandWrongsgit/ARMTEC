@@ -22,8 +22,6 @@ The form steps module above may combine with the [form mode control module](http
 `drush en form_mode_control`
 
 
-[Make a node out of a form submission](https://github.com/owenmorrill/subtonode)
-
 User Contribution Entry Using Traditional Form/Display approach by adding "Form Modes" to the form option via a contributed module:
 
 For something like Taxonomy you see how to get to the "Manage form display" in the operations area with the pull down on the right. 
