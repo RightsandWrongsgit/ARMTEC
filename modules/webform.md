@@ -56,7 +56,8 @@ The base module has a whole variety of features within it.  But because this ser
 
 ### Webform Cards
 
-One thing to call out is how using Webforms with a Cards set up is like a step flow.  You might think of the [Webform Cards module as the 'step' counter-part](https://www.youtube.com/watch?v=bDugc2gWQnw) of a traditional stepped form noted earlier, but on steroids.  It you start getting into lots of steps the user experience of the traditional approach can bog down.  But the Webforms Cards approach is a client-side JavaScript Webform Wizard approach that then talks to Drupal; thus fast on the screen refreshes as you move through pages. 
+One thing to call out is how using Webforms with a Cards set up is like a step flow.  You might think of the [Webform Cards module as the 'step' counter-part](https://www.youtube.com/watch?v=bDugc2gWQnw) of a traditional stepped form noted earlier, but on steroids.  It you start getting into lots of steps the user experience of the traditional approach can bog down.  But the Webforms Cards approach is a client-side JavaScript Webform Wizard approach that then talks to Drupal; thus fast on the screen refreshes as you move through pages.  One of the very valuable concepts of stepping through a form is that you can make subsequent steps 'conditional'.  Here is an example of [using conditional logic to create a preferred content method and then either asking for a phone number or an email address depending on which the user preferred.](https://www.youtube.com/watch?v=ic4wu-iZd4Y)
+
 
 ***********
 
