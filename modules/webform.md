@@ -70,14 +70,15 @@ It may make it easier to have your webform feed its content to a Drupal node, yo
 A watchout with Webform is that it behaves a little different than the rest of Drupal with respect to how it doesn't retain values in the database; without some of the interconnections just discussed.  There is good and bad in some of these difference.  For example, site editors can be making form and option list changes without it impacting the rest of the items.  On the other hand, the work they do will be over written by a redeploy of a site, say for updates of something else, that the changes they have made to the forms and list will be overwritten.  The [Webform Config Ignore module](https://www.drupal.org/project/webform_config_ignore) is the work around for that issue.
 
 
-*********************
+### Webform a Configuration entity
+
+In the introduction about [Drupal basics we noted that there are a handful of entity types; two prominent ones being content and configuration.](../book/archandentities.md)  For the most part much of what we put 'inside' of Drupal is content.  And how we set up Drupal is configuration; things like menu structures, views, the basic site name/logo/slogan, etc.  The content stuff pretty much is doing right into the database.  But the configuration stuff is in the code; that is until we export it to YAML files in a sync sub-directory and then have those file tucked away in the database so they are secured, plus sharable with others and across deployment environment.  Webform falls into the configuration entity bucket.  Thus, we need to use something like the [Configuration Entity Revisions module](https://www.drupal.org/project/config_entity_revisions) to [take advantage of the version history and other advantages of Drupal being inherently revisionable.](https://www.youtube.com/watch?v=YKr-vLCRaJo)
+
+`composer require drupal/config_entity_revisions`<br>
+`drush en config_entity_revisions`
 
 
-composer require 'drupal/config_entity_revisions:^1.6'
-drush en config_entity_revisions
-
-(https://www.youtube.com/watch?v=YKr-vLCRaJo)
-
+************
 
 
 If hierarchy is an issue, try --
