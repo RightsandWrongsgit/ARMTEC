@@ -43,7 +43,9 @@ composer require 'drupal/formblock:^2.0@beta'
 
 If you have a substantial use case requirement around forms, you will want to look at the [webform module;](https://www.drupal.org/project/webform) and its numerous additional components.  This is probably one of the best documented series of modules in all of Drupal.  [Get an overview here.](https://www.youtube.com/watch?v=VncMRSwjVto)
 
-As exciting and powerful as this webform module series is, there is a little 'watch out' gotcha associated with it.  Remember, this is NOT your standard Drupal input form or a tweaked version of it like offered earlier.  Rather, it is a form system first and it has the opportunity to interface with Drupal.  On the incorporate it level, that is straight forward.  On the 'get data out of the form and into standard Drupal fields' it is more challenging.
+As exciting and powerful as this webform module series is, there is a little 'watch out' gotcha associated with it.  Remember, this is NOT your standard Drupal input form or a tweaked version of it like offered earlier.  Rather, it is a form system first and it has the opportunity to interface with Drupal.  On the incorporate it level, that is straight forward.  On the get data out of the form and into standard Drupal 'fields' it is more challenging.  Rather than fields, Webform stands separately by calling them 'elements'.  The easiest way to wrap your head around this is to [watch this short video on setting up a simple form which demonstrates the use of elements to define what your form contains.](https://www.youtube.com/watch?v=fr3kTiYKNls)
+
+
 
 ### Webform base
 
