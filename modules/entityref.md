@@ -95,26 +95,9 @@ Entities which are related to one another are set up using some of the approache
 `composer require drupal/entity_usage`<br>
 `drush en entity_usage`
 
-
-## Block Visibility Groups module
-#### Enhancement to control and placement of blocks
-
-You can put the [Block Visiblity Group module](https://www.drupal.org/project/block_visibility_groups) in the "greater than sliced bread" category!  Think of website building as putting chucks of things in different areas for display.  You probably already know this relative to 'Regions' that your theme includes.  People who have used an older approach called Panels also know about moving chucks of stuff in different parts of a region.  Drupal from version 8 forward rallys around the use of Blocks for the term of what these chucks are called; and if you use the GUI drag-n-drop Layout Builder function included in Drupal Core you also know how moving the blocks around is pretty cool.  You also may know about how in the 'Administration/Structure' menu in your Drupal site building system you can look at a Blocks Layout Page you can see on what content type and region blocks appear.  But sometimes you want those blocks to show up conditionally; say for a logged in user versus a stop-by.  See this [quick video on how the Block Visibility Group module adds conditional control in a very simple, comfortable way.](https://www.youtube.com/watch?v=ZKwkaMUbJIs)
-
-`composer require drupal/block_visibility_groups`<br>
-`drush en block_visibility_groups`
-
 ### Rabbit Hole module
 
 This one sounds odd.  But what you need to think about is that almost all the other linking and referencing of entities what we are showing is about expanding access to one part from from another; e.g. a block within a node.  What if you want to limit rather than expand access?  An example might be that you have a slideshow you have developed as a content type but you don't want to let me click on the individual slide images as they come up and get to them; you just want them to see the slideshow itself.  You want the [Rabbit Hole module](https://www.youtube.com/watch?v=EkLS1hlLFnI) to bring this enhanced level of control; if they do click on it and you don't want it to do the normal thing, what do you want it to do?  Do a redirect, send a warning, etc.
-
-## Add Another module
-#### Sort of speed copy another replication of a node
-
-`composer require drupal/addanother`<br>
-`drush en addanother`
-
-**********
 
 # Create One
 ## Entity Construction Kit (ECK)
