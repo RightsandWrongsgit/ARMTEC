@@ -23,12 +23,13 @@ Using different display modes in Drupal is second nature.  People are most famil
 `composer require drupal/form_mode_control`<br>
 `drush en form_mode_control`
 
+### Form Block module
 
+The [Form Block module](https://www.drupal.org/project/formblock) allows presentation of things like a user registration, a contact form, or even an end-user page submission to be presents as a form in a block format. Placing blocks into the appropriate region on a webpage makes the display of the resulting into very flexible.
 
+`composer require drupal/formblock`<br>
+`drush en formblock`
 
-composer require 'drupal/formblock:^2.0@beta'
-
-****************
 
 ## Webform Module Series
 
