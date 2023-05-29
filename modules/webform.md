@@ -18,19 +18,12 @@ Forms are a point of input.  Too much can overwhelm.  Since you might aim to pre
 
 The form steps module above may combine with the [form mode control module](https://www.drupal.org/project/form_mode_control) to offer even more friendly end-user input.  You can use the form mode control module to control how the fields are displayed in the edit form of content such as nodes and taxonomy terms.  Once you install and enable the form_mode_control module, go to your 'admin' menu and the 'structure' tab.  There is a 'Display Mode' item on the menu and you select that.  Now, instead of just a display view mode control option you have a 'Form modes' option.  And you can add a form mode or configure ones you have.  What is especially cool about this contributed module is that it works on all the various entity types that include the basic 'form' from core Drupal.  So you can use it on Blocks, Content, Taxonomy, etc.  The first two might be the most common use cases, but there is value in the others as well.
 
+Using different display modes in Drupal is second nature.  People are most familiar with having a 'full content' node display and a stipped down 'teaser' display; the teaser often used when you make a view of say the five most recent article in a sidebar region.  Sort of think of Form Mode has having this same content but with differing levels of detail for different purposes on a form.  One stripped down form might be for an end-user submission of the basics while another cut of the same form has all the information around submission, revisions, dates, etc. that the section content editor of your site in charge of this area can work with.
+
 `composer require drupal/form_mode_control`<br>
 `drush en form_mode_control`
 
 
-User Contribution Entry Using Traditional Form/Display approach by adding "Form Modes" to the form option via a contributed module:
-
-For something like Taxonomy you see how to get to the "Manage form display" in the operations area with the pull down on the right. 
-
-
-The 'Content' form might have a slimmed down version for end-users to input into a simplified form and a richer form for an editor to grab and work that contribution into a clean node.  In the example below you just hit the 'Add form mode' to create a new one; and I have already done one I called 'Contributing User' and another called 'Full'.  Try to keep the names you use descriptive but generic enough to use in different content types or even with different entity types. 
-
-
-Once you have added them to a content entity you will see the addition of a "CUSTOM DISPLAY SETTINGS" box at the bottom of the form.  And within it, you will see the names of the different form modes you created.  Then just use it like you do with different 'display modes'.
 
 
 composer require 'drupal/formblock:^2.0@beta'
