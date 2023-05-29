@@ -37,7 +37,7 @@
 - Host-Client: APACHE/NGNIX
 - Containers: Docker
 - Back-end: PHP/SQL
-
+- After your are at the site put this/wp-login.php
 
 <br>
 <br>
