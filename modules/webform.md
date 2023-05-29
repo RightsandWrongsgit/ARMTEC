@@ -1,22 +1,30 @@
 
 # WebForms, Workflows, and Content Moderation
 
-User Contribution Entry Using Traditional Form/Display approach by adding "Form Modes" to the form option via a contributed module:
+When you start working with Drupal you will quickly jump into the 'Administration/Structure/Content Types' part of the GUI menu system.  There you will find the initially installed Article and Basic Page content types.  Elsewhere we talk about how to [make the other content types you may want to add.](../book/contenttypes.md) As you work with Drupal you will then go to 'Administration/Content' and select which you plan to work on for any given set of pages you want to create.  Pick one and the first you will see is a form where you can put in some content.  What you see on that form is probably already very familiar to you because as a content type is set up of the [first tasks is to say what 'fields' of information that particular content type should contain.](../book/contenttype.md#add-content-type)  By george, you already know how to use a form in Drupal.  Infact, if you put some fields you wanted into one of those content types you actually created or defined a classic Drupal form.
 
-## Forms Steps module
+The first section of this page is all about extra things you might consider adding to the 'Classic' type of Drupal forms.  Following that is another section on a 'Webform' series of tools that are more specifically devoted to Form Management as a separate application need for certain types of websites we might develop.
+
+## Classic Forms
+
+### Forms Steps module
 
 Forms are a point of input.  Too much can overwhelm.  Since you might aim to pretty up the forms associated with some node where you want an authorized end-user to contribute some content, you want to keep it clean and simple.  One way to gather this input would be to have a sequence of input pages rather than a giant one.  Think of the [Entity Form Steps module](https://www.drupal.org/project/entity_form_steps) as a way to break things into a series of input step pages.  [See its simple set up.](https://www.drupal.org/files/project-images/Screen%20Recording%202022-05-23%20at%201.50.12%20PM.gif)  
 
 `composer require drupal/forms_steps`<br>
 `drush en forms_steps`
 
-## Forms Mode Control module
+### Forms Mode Control module
 
 The form steps module above may combine with the [form mode control module](https://www.drupal.org/project/form_mode_control) to offer even more friendly end-user input.  You can use the form mode control module to control how the fields are displayed in the edit form of content such as nodes and taxonomy terms.  Once you install and enable the form_mode_control module, go to your 'admin' menu and the 'structure' tab.  There is a 'Display Mode' item on the menu and you select that.  Now, instead of just a display view mode control option you have a 'Form modes' option.  And you can add a form mode or configure ones you have.  What is especially cool about this contributed module is that it works on all the various entity types that include the basic 'form' from core Drupal.  So you can use it on Blocks, Content, Taxonomy, etc.  The first two might be the most common use cases, but there is value in the others as well.
 
 `composer require drupal/form_mode_control`<br>
 `drush en form_mode_control`
 
+
+[Make a node out of a form submission](https://github.com/owenmorrill/subtonode)
+
+User Contribution Entry Using Traditional Form/Display approach by adding "Form Modes" to the form option via a contributed module:
 
 For something like Taxonomy you see how to get to the "Manage form display" in the operations area with the pull down on the right. 
 
@@ -29,11 +37,26 @@ Once you have added them to a content entity you will see the addition of a "CUS
 
 composer require 'drupal/formblock:^2.0@beta'
 
+****************
 
+## Webform Module Series
 
-__________________________________________________________________________
-composer require 'drupal/webform:^6.0'
-drush en webform
+If you have a substantial use case requirement around forms, you will want to look at the [webform module;](https://www.drupal.org/project/webform) and its numerous additional components.  This is probably one of the best documented series of modules in all of Drupal.  [Get an overview here.](https://www.youtube.com/watch?v=VncMRSwjVto)
+
+As exciting and powerful as this webform module series is, there is a little 'watch out' gotcha associated with it.  Remember, this is NOT your standard Drupal input form or a tweaked version of it like offered earlier.  Rather, it is a form system first and it has the opportunity to interface with Drupal.  On the incorporate it level, that is straight forward.  On the 'get data out of the form and into standard Drupal fields' it is more challenging.
+
+### Webform base
+
+The base module has a whole variety of features within it.  But because this series is so well documented, it makes no sense to repeat all that here; just [jump to this great overview of all that it does and works with.](https://www.drupal.org/docs/contributed-modules/webform/webform-features)
+
+`composer require drupal/webform`<br>
+`drush en webform`
+
+### Webform Cards
+
+One thing to call out is how using Webforms with a Cards set up is like a step flow.  You might think of the [Webform Cards module as the 'step' counter-part](https://www.youtube.com/watch?v=bDugc2gWQnw) of a traditional stepped form noted earlier, but on steroids.  It you start getting into lots of steps the user experience of the traditional approach can bog down.  But the Webforms Cards approach is a client-side JavaScript Webform Wizard approach that then talks to Drupal; thus fast on the screen refreshes as you move through pages. 
+
+***********
 
 composer require 'drupal/webform_content_creator:^2.0'
 drush en webform_content_creator
@@ -48,11 +71,12 @@ If having trouble with other approaches to user inputs via the form display appr
 
 composer require 'drupal/config_entity_revisions:^1.6'
 drush en config_entity_revisions
+
 (https://www.youtube.com/watch?v=YKr-vLCRaJo)
 
 
-Make a node out of a form submission:
-https://github.com/owenmorrill/subtonode
+***************
+
 
 
 
