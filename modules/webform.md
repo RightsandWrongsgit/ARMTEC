@@ -65,6 +65,10 @@ It may make it easier to have your webform feed its content to a Drupal node, yo
 `composer require drupal/webform_content_creator`<br>
 `drush en webform_content_creator`
 
+### Webform Config Ignore module
+
+A watchout with Webform is that it behaves a little different than the rest of Drupal with respect to how it doesn't retain values in the database; without some of the interconnections just discussed.  There is good and bad in some of these difference.  For example, site editors can be making form and option list changes without it impacting the rest of the items.  On the other hand, the work they do will be over written by a redeploy of a site, say for updates of something else, that the changes they have made to the forms and list will be overwritten.  The [Webform Config Ignore module](https://www.drupal.org/project/webform_config_ignore) is the work around for that issue.
+
 
 *********************
 
