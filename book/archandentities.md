@@ -85,6 +85,10 @@ It has previously been noted that Object Inheritance in OOP sets up a way to cal
 
 A normal Site Builder's peek under the hood needs a bridge from looking at the various Administration screens offered by Drupal for a Graphical User Interface (GUI) view into the tool.   Trying to relate the familiar GUI you use to the underlying OOP that is behind it, especially with the Object Inheritance stringing all sorts of part together, can be a nightmare.  Luckly you can sort of sneak your way up to it by using the [WebProfiler Module.](https://www.webwash.net/debug-site-performance-using-web-profiler-in-drupal-8/) About 3-minutes into that video you will see Ivan go into configuration and activate two part to the module that weren't on by default.  After he does that you will all of a sudden get the idea on how all these PHP components are available and being used to create a potentially simple looking page.  This is another step to seeing the developer world view of Drupal.
 
+### Your Code?
+
+Another way you can begin to dabble in code is to understand your own code with the [Xray Audit Module.](https://www.drupal.org/project/xray_audit)  Here you can see how you can understand your own site's data structure, preview the displays of different entities, see list of blocks, active views, displays, modules, webforms, and even where you use crops and image styles.  You can [learn how it does this all accessed via Administration/Reports.](https://metadrop.net/en/articles/understand-your-projects-site-structure-and-data-xray-audit)
+
 ### Care?
 
 However, even that might be more than a basic site builder is going to care alot about in Drupal.  Rather, one probably simply wants to think of Drupal as able to make new entities, edit, and insert or remove fields in them, and manage the supporting the database structure behind all this that makes a home to store your important stuff.  From that mindset, you can then probably better understand [contributed modules which do extra things on your behalf around the entity concept.](../modules/entityref.md) 
