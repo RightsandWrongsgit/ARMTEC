@@ -32,6 +32,10 @@ The [Form Block module](https://www.drupal.org/project/formblock) allows present
 `composer require drupal/formblock`<br>
 `drush en formblock`
 
+### Modify One
+
+In a number of ways you can really things of forms as just something else you can design and edit in Drupal like you do your pages of content. Imagine [adding a group of fields on a form widget](https://www.webwash.net/add-widgets-to-sidebar-using-field-group-in-drupal/) that appears on the right side of a one of your content types where you normally mark if something is in a menu, prompted to the front page, when and by who it was authored, etc.  You can put other stuff over in a form that you might want to include in building some particular type of content.  Heck, you might even use it in a form mode](#forms-mode-control-module) version you customize for end-user input and later dress up with front-end tools to make it pretty.  The fields are [grouped using a module discussed in our fields section.](/modules/fields.md#field-group-module)
+
 ### Building one
 
 [Understanding how a classic PHP form is built](https://www.specbee.com/blogs/enhancing-user-experience-with-drupals-form-api) will actually give you a leg up in just starting to understand a little more about php code, and things like a module's `.info.yml` file and how 'routes' work (hint is to simply thing of it like secret code for how an application knows where stuff is like a sub-directory organization does).  
