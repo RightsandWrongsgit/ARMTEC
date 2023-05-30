@@ -78,31 +78,6 @@ In the introduction about [Drupal basics we noted that there are a handful of en
 `drush en config_entity_revisions`
 
 
-************
-
-
-If hierarchy is an issue, try --
-composer require 'drupal/shs:^1.0@alpha'
-
-
-Workflow add-on modules that are worth considering (But first be sure to check the Content Moderation and Workflow basics in core (discussed shortly):
-
-Make [a multi-page flow work blazing fast with JavaScript Convert automatically](https://www.youtube.com/watch?v=bDugc2gWQnw)
-
-drush en inline form errors
-composer require clientside validation
-composer require webform clientside validation
-composer require webform cards
-
-
-Operational:
-webform config ignore
-webform config key value (experimental)
-webform views
-composer require 'drupal/webform_views:^5.0@alpha'
-webform submission views token field (drupal 8 but not 9 yet)
-
-
 <br>
 <br>
 <br>
