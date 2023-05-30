@@ -33,6 +33,9 @@ Media Directories module:
 composer require drupal/media_directories
 drush en media_directories
 
+***********
+[Create and Configure Media Types](https://www.drupal.org/docs/8/core/modules/media/creating-and-configuring-media-types)
+***********
 
 <br>
 <br>
