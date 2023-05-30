@@ -8,3 +8,14 @@ The most current versions of Drupal have substantial [Content Moderation](https:
 If you think about the examples ways one might use content moderation, some of them might benefit from something beyond just 'published' and 'unpublished' status.  If your immediate supervisor, the section editor, the legal staff, the editor & chief, and the publisher all potentially need to review some controversial article you wrote about the town billionaire before it goes out, you probably have some sort of workflow for that process to occur.  Drupal Core also has included some powerful [Workflow Management capabilities you should review and consider.](https://www.drupal.org/docs/8/core/modules/workflows/overview)
 
 
+
+
+[Scheduler Content Moderation Integration module](https://www.drupal.org/project/scheduler_content_moderation_integration)
+
+[Moderated Content Bulk Publish module](https://www.drupal.org/project/moderated_content_bulk_publish)
+
+[Content Moderation Notification module](https://www.drupal.org/project/content_moderation_notifications)
+
+[Moderation Note module](https://www.drupal.org/project/moderation_note)
+
+[Role Expiration module](https://www.drupal.org/project/role_expire)
