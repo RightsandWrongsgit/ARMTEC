@@ -27,6 +27,10 @@
 - Full Supply Chain Status
 - Fixed Asset Utilization Rates, Breakpoints & Max
 - Ingredient Risk and cost trends
+- Slotting Allowance
+- End-Aisle and other Displays
+- Free Standing Inserts
+- Trade Slicks
 
 ## Information Technology
 
