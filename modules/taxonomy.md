@@ -1,5 +1,5 @@
 
-# USING TAXONOMY
+# Using Taxonomy
 ### Basic unstructured 'Tagging' and Simple Taxonomy are in Core.
 
 Content of any depth needs a way to be presented to users filtered conveniently to their interests.  Thus content can be marked or 'tagged' with terms which can then act as filters to find and view what the users wants.  Drupal, out of the box, supports 'Tags' as a sort of "free form" classification of terms you can associate with content.
@@ -54,8 +54,6 @@ OR<br>
 `drush en entity_reference_tree`
 
 # User Presentation 
-<br>
-<br>
 <br>
 ## Facets module
 To give the user the power to leverage taxonomies beyond a search box you might want to use facets.  Thing of these as the boxes you see on the left of the large shopping sites where you chose your size, color, price, etc. preferences.
