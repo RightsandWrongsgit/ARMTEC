@@ -14,6 +14,10 @@ The good news is it has the same "look and feel" as the core linking.  The autoc
 `composer require drupal/linkit`<br>
 `drush en linkit`
 
+## Editor Advanced Link module
+
+The [Editor Advanced Link module](https://www.drupal.org/project/editor_advanced_link) is often used with Linkit because it adds additional controls to the link.  For example, you might use it to direct a link to open in a new window or browser tab.  In addition, you can use it to put CSS classes or IDs on an HTML attribute giving you even more control.  There is [some set up in involved to bring all the capabilities of this module forward to the widget window to turn on all these functions.](https://www.webwash.net/create-links-using-linkit-module-in-drupal/) This includes being able to include access to it in your CKEditor and highlight a test hyperlink in the body of text.
+
 ## Entity Embed Links module
 
 [The Entity Embed Links module](../modules/entityref.md#entity-embed-links) may be an alternative for integration with Drupals Media Management.
