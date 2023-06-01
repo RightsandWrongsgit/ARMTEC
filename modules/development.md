@@ -53,7 +53,7 @@ And make it look like this.  A more human readable, meaningful URL.
 
 <img src="../modules/images/pathauto2.png"  width="350">
 
-Pathauto is simply a way that you can make this process more automatic; [Podcast Overview](https://www.youtube.com/watch?v=3l8ihak4_uk). If you are building a tiny site then you really aren't leveraging the value of a content managment system like Drupal.  But if you are having frequently updated content, potentially from various sources, even fed to you via RSS, then having more automatic URL naming is important. 
+See how the [Pathauto module](https://www.webwash.net/automatically-generate-url-aliases-using-pathauto-drupal-8/) is simply a way that you can make this process more automatic; or hear more about it in a [Podcast Overview](https://www.youtube.com/watch?v=3l8ihak4_uk). If you are building a tiny site then you really aren't leveraging the value of a content managment system like Drupal.  But if you are having frequently updated content, potentially from various sources, even fed to you via RSS, then having more automatic URL naming is important. 
 
 Having it on during development might get you to think about 'naming' with end-user thinking in sight.  Instead of a path that is something like a node and its number you might have a content category and a node title; and you can use 'Tokens' in the naming strategy for the paths. [See adding the Token module](../modules/development.md#token-module) 
 
