@@ -92,6 +92,10 @@ In the introduction about [Drupal basics we noted that there are a handful of en
 `composer require drupal/config_entity_revisions`<br>
 `drush en config_entity_revisions`
 
+### Webforms & taxonomy
+
+Bee aware that there are some opportunities to [coordinate your taxonomy with Webforms.](https://www.webwash.net/taxonomy-terms-as-webform-options-in-drupal/)
+
 
 <br>
 <br>
