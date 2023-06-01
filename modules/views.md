@@ -42,7 +42,6 @@ Views offers options on the way it displays the query results. Things like an un
 `composer require drupal/views_flipped_table`<br>
 `drush en views_flipped_table`
 
-
 ### Views Slideshow module
 
 The [Views Slideshow module](https://www.drupal.org/project/views_slideshow) is more than an image slideshow.  You can slideshow any item; like the last X articles, the latest forum posts, the newest products, etc.  [Go to the Drupal.org site for the installation of this module](https://www.drupal.org/project/views_slideshow) as it requires some JavaScrip libraries be installed above and beyond your traditional composer install...
@@ -54,24 +53,20 @@ A typical deployment of views has a pager that you can configure for how many pa
 `composer require drupal/views_infinite_scroll`<br>
 `drush en views_infinite_scroll`
 
+### Views Layout module 
+
+The [Views Layout module](https://www.drupal.org/project/views_layout)is sort of like a stripped down Layout Builder that lets you select different column counts in stacked rows to display Views output in a little more creative way than just grids or tables.  It can be used with the Layout Plugin Views module if you want to go incrementally a little more nuts on field level presentation in the rows you are stacking.
+
+`composer require drupal/views_layout`<br>
+`drush en views_layout`
 
 
+### Core Views Facets module
 
+If you want to use [Facets](../modules/facetedsearch.md) within Views, also install and enable this add-on.
 
-
-
-Views Layout Module: 
-Views Layout is sort of like a stripped down Layout Builder that lets you select different column counts in stacked rows to display Views output in a little more creative way than just grids or tables.  It can be used with the Layout Plugin Views module if you want to go incrementally a little more nuts on field level presentation in the rows you are stacking.
-
-composer require drupal/views_layout
-drush en views_layout
-
-
-Core Views Facets Module:
-If you want to use Facets within Views, also install and enable this add-on.
-
-composer require drupal/core_views_facets
-drush en core_views_facets
+`composer require drupal/core_views_facets`<br>
+`drush en core_views_facets`
 
 
 
