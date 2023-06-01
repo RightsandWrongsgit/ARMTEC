@@ -1,15 +1,21 @@
 
-– If you plan on using Layout Builder --
+# Using Layout Builder --
 
-Set up Layout Builder with the modules to really make it work:
+Set up Layout Builder with the modules to really make it work. [Getting started with Layout Builder.](https://www.webwash.net/getting-start-with-layout-builder-in-drupal/)
+
 From Core -
 drush en layout_builder
+
+
+
 
 From Contributed modules -
 composer require 'drupal/bootstrap_layout_builder:^2.0'
 drush en bootstrap_layout_builder
 composer require drupal/bootstrap_styles
 drush en drupal/bootstrap_styles
+
+
 In order to support background media on layout builder sections, this requires the following modules (if it doesn't install them automatically as dependencies, make sure you do it)
 Media Library Form API Element
 Media Library Theme Reset
@@ -19,6 +25,10 @@ Media Library Theme Reset
 
 composer require 'drupal/layout_builder_blocks:^1.0'
 drush en layout_builder_blocks
+
+
+
+
 
 
 The Block Visibility Groups module really allows powerful conditional control of what blocks show up for who and when.  You can have things show up differently depending on logged in status, different content type pages, potentially even Token filtered situations; the conditionals 'stack' to combine them for full control.
