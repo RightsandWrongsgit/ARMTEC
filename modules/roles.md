@@ -10,7 +10,7 @@ You get to all the stuff behind this by going to the People option in the Admini
 
 Once you are in there, you can list the roles that are already set up; or add others.   Plus, you can look at and set Permissions. 
 
-<img src="../modules/images/AdminPeople Meun.png"  width="600">
+<img src="../modules/images/AdminPeople Meun.png"  width="200">
 
 The way to set permissions is to go down the list of all the stuff functioning in your website and put a checkmark in the box under each role if you want that role to be able to do that.   There is a ton of stuff you can adjust right from what is in the core of Drupal; and, as modules are added for more functions you might want to incorporate, your list will grow in terms of what you can grant to who.
 
