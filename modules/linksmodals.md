@@ -3,7 +3,7 @@
 
 ## [Linkit module](https://www.drupal.org/project/linkit)
 
-The [Linkit module](https://www.drupal.org/project/linkit) claims three main advantages over traditional linking:
+The [Linkit module](https://www.webwash.net/link-content-using-linkit-drupal-8/) claims three main advantages over traditional linking:
 
 1. The user does not have to copy or remember a URL
 2. If a URL alias of a link changes, the link still works
