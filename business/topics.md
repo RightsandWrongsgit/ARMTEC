@@ -2,6 +2,7 @@
 ## Business
 
 - Digital Assets Development & Placement
+  -  [Programmatic](https://martech360.com/marketing-automation/programmatic-ads/top-4-best-programmatic-advertising-platforms-in-2022/?utm_source=advocacy&utm_medium=social&utm_campaign=engagement&blaid=4629853)
 - Tracking/Metrics/Dynamic Adjustment
 - ATU and Source of Awareness Tracking
 - Media Asset Version Management
