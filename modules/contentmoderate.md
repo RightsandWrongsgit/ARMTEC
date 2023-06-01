@@ -21,6 +21,10 @@ You are an optimist and anticipate each reviewer will see the world just the way
 
 In your dreams there is a large truck and that nasty big boss who cuts apart your great work with those notes.  When they finally move on, regardless of how that might have occurred, their approval oversight is no long part of your workflow.  Planning ahead for the fact people move, resign, change roles, your workflow approvals are not perpetual.  Rather, you have incorporated the [Role Expiration module](https://www.drupal.org/project/role_expire) into your system to let them expire should you forget.  Wonder if you might also use it to expire your submitted work if it doesn't get approved by some anticipated publication date it logically fit with for content context?
 
+## Roles
+
+Content moderation is also something that is coordinated with how you set up ['Roles'.](../modules/roles.md)  You might especially like to consider the [Role Delegation module](../modules/roles.md#role-delegation-module) in coordination with your deployment of Content Moderation.
+
 <br>
 <br>
 <br>
