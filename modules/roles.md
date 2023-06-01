@@ -26,7 +26,10 @@ Don't reinvent the wheel if someone else has done a great job already.  Here is 
 
 You can give permissions to individual pages on an exception basis.  The [Custom Permissions module](https://www.drupal.org/project/config_perms) uses the 'route' for the page you want to do this too.  Don't let that throw you.  A route is just like a path in a sub-directory sense.  The key is finding them for the page you want to do the unique permission too.  You can do with with the [Web Profiler module](../modules/development.md#webprofiler-module) or you can do this by looking at the YAML files associated with the page involved; [More on doing this here.](https://www.webwash.net/custom-permissions-existing-paths-drupal/)
 
-Insert additional modules here.
+### Role Delegation module
+
+The [Role Delegation module](https://www.drupal.org/project/role_delegation) does exactly what it sounds like.  If you are administrator for a large site you may have set up a workflow in [Content Moderation](../modules/contentmoderate.md) where perhaps an editor reviews the work of a bunch of writers and you want the editor to 'delegate' certain permissions.  This module is just what you need and [here is how you do it.](https://www.webwash.net/control-roles-assigned-in-drupal-using-role-delegation/)
+<img src="../modules/images/RoleDelegation.png"  width="500">
 
 
 <br>
