@@ -1,8 +1,9 @@
 
 # Views
 
-Views & Views UI Modules:
 One of the most powerful things Drupal, and probably why you selected a content management system (CMS) approach to your site, is the availability of VIEWS into your information.  Think about creating content.  You selected or created a content type, you managed the fields within it, and you populated the content (e.g. think multiple articles).  You logically aren't going to create a menu link to each individual article once the count is over say half a dozen.  You aren't going to string a stacked sequence of every article you create on top of each other on a single page or node.  Rather, you probably want to give your user a summary of article titles, maybe a short trimmed amount of its content, and maybe the date on a list, some cards, some blocks around a front or section page, etc.  Then you want to create those with a View.
+
+## Views & Views UI modules
 
 The Views and Views UI modules are part of Drupal Core.  You may want to confirm they are enabled under Admin/extend to see that they are check-marked.  With that you are ready to use this basic views capability.   [WebWash provides a nice video training overview to get you started](https://www.webwash.net/getting-started-with-views-in-drupal/)
 
