@@ -85,6 +85,8 @@ composer require 'drupal/lb_claro:^1.0@beta'
 See if it is still worthwhile to include Block Blacklist, Block Visibility Groups in plan.
 
 
+[Bootstrap Layout Builder module](https://www.droptica.com/blog/streamlined-layout-builder-overview-bootstrap-layout-builder-module/)
+
 Layout Builder Styles allows selection from a list of styles to apply to Blocks or Sections. The user has to define CSS based styles for element wrappers and then they can be selected for reuse. 
 composer require 'drupal/layout_builder_styles:^1.0@beta'
 
