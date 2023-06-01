@@ -26,11 +26,12 @@ This is more than an image slideshow.  You can slide across any item like the la
 https://www.drupal.org/project/views_slideshow
 
 
-Views Infinite Scroll module:
-A typical deployment of views has a pager that you can configure for how many pages, style of paging, etc.  This module adds one more option to that which adds content as you scroll down rather than clicking to a new page. 
+## Views Infinite Scroll module
 
-composer require drupal/views_infinite_scroll
-drush en views_infinite_scroll
+A typical deployment of views has a pager that you can configure for how many pages, style of paging, etc.  The [Views Infinite Scroll module](https://www.drupal.org/project/views_infinite_scroll) adds one more option to that which adds content as you scroll down rather than clicking to a new page.  [See how to install it and even customize the scroll behavior.](https://www.webwash.net/create-infinite-scroll-pages-using-views-infinite-scroll-in-drupal/)
+
+`composer require drupal/views_infinite_scroll`<br>
+`drush en views_infinite_scroll`
 
 
 View a Field as a Block:
