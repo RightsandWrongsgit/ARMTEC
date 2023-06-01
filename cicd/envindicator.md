@@ -3,7 +3,7 @@
 # Environment Indicator
 
 ## What they do and look like
-Any time you are running multiple environments, there is always a risk of not being clear where the heck you are looking and working.   There is a contributed module that we are going to install and enable that is meant to give you signals to tell you which environment you are seeing; it is called the Environment_Indicator module.
+Any time you are running multiple environments, there is always a risk of not being clear where the heck you are looking and working.   There is a contributed module that we are going to install and enable that is meant to give you signals to tell you which environment you are seeing; it is called the [Environment_Indicator module.](https://www.webwash.net/differentiate-websites-using-environment-indicator-in-drupal-8/)
 
 The Environment_Indicator module shows the names you have given the environments, and color bands some of the things like toolbars to send a strong message of where you are. In the first example you see how our 'main' environment shows that name in a red band.  Don't worry this is only when logged in as the Administrator; users see a normal site. 
 
