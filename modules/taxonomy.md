@@ -105,6 +105,10 @@ The [Client-Side Hierarchy Select module](https://www.drupal.org/project/cshs) i
 
 There is another [module called Simple Hierarchy Select](https://www.drupal.org/project/shs) with similar intent.  While dated in version, its principles are the same as in this [video on Simple Hierarchy Select](https://www.webwash.net/using-simple-hierarchical-select-module-in-drupal-7/)
 
+## Webform taxonomy
+
+The [Webform series of modules](../modules/forms.md#webform-module-series) moves past the classic PHP forms serving content set up and display within Drupal to a role much more specific to form generation.  As such it uses elements which are parallel in concept to Drupal fields yet separate.    The discussion under the [Forms modules](../modules/forms.md) explains all that much further.  But one thing to be aware of is that there are some opportunities to [coordinate your taxonomy with Webforms.](https://www.webwash.net/taxonomy-terms-as-webform-options-in-drupal/)
+
 # Going Native
 In addition to leveraging contributed modules that help with taxonomy, there are opportunities to work more directly with taxonomy related code. [Selwyn Polit](https://www.drupal.org/u/selwynpolit) has a chapter in his github pages book on [Taxonomy](https://selwynpolit.github.io/d9book/taxonomy) working at this more native level.
 
