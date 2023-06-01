@@ -15,6 +15,9 @@ drush en bootstrap_layout_builder
 composer require drupal/bootstrap_styles
 drush en drupal/bootstrap_styles
 
+[Introduction to Layout Paragraphs](https://www.youtube.com/watch?v=yl4JN-HLqbg)
+
+
 
 In order to support background media on layout builder sections, this requires the following modules (if it doesn't install them automatically as dependencies, make sure you do it)
 Media Library Form API Element
