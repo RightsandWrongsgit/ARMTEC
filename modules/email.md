@@ -17,6 +17,32 @@ Another thing that the underlying mail API in Drupal has is an ability to point 
 
 If you are interested in [the underlying email system in Drupal](https://www.drupal.org/docs/contributed-modules/mime-mail/how-email-works-in-drupal) you kind of need to be in the mindset that it is meant to deliver core functions to be used by other, more capable mailing alternatives.  What is provided as part of Drupal core will basically only provide a plain text format email and send it.  Most people are going to want to do more than that with their email.  Having an HTML format capability to present a better look, include images in the email, allow for attachments, are sort of considered fundamental if you want to send emails that are more than a sign-up confirmation.
 
+<img src="../modules/images/configuremail.png"  width="600">
+
+
+<img src="../modules/images/contactemail5.png"  width="600">
+
+
+<img src="../modules/images/contactemail6.png"  width="600">
+
+#### What to send
+
+As noted, besides the mechanics of sending mail, there is a need to actually format or create it.  So you start by looking under Administration/Structure/Contact forms.
+
+<img src="../modules/images/contactemail7.png"  width="600">
+
+You can add a contact form and then you can clone a prior, edit, manage fields present, their form and display, and even interface with Devel if you have that module installed. 
+
+<img src="../modules/images/contactemail8.png"  width="600">
+
+You can see that multiple contact forms can be defined and applied to your List of contacts.
+
+<img src="../modules/images/contactemail9.png"  width="600">
+
+You will note that even a note in Drupal core Contact forms/Contact settings notes the requirement of adding something like the Swiftmailer contrib module to use HTML mailings.
+
+<img src="../modules/images/contactemail10.png"  width="600">
+
 ## Contrib Modules
 
 To better [understand what is and isn't in the email capability of Drupal Core you might want to listen to this.](https://events.drupal.org/seattle2019/sessions/amazing-emails-drupal-8) One of the most insightful graphics from the presentation pulls forward what should really be present in a full fledged email system.
