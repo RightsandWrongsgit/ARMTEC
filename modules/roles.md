@@ -28,7 +28,8 @@ You can give permissions to individual pages on an exception basis.  The [Custom
 
 ### Role Delegation module
 
-The [Role Delegation module](https://www.drupal.org/project/role_delegation) does exactly what it sounds like.  If you are administrator for a large site you may have set up a workflow in [Content Moderation](../modules/contentmoderate.md) where perhaps an editor reviews the work of a bunch of writers and you want the editor to 'delegate' certain permissions.  This module is just what you need and [here is how you do it.](https://www.webwash.net/control-roles-assigned-in-drupal-using-role-delegation/)
+The [Role Delegation module](https://www.drupal.org/project/role_delegation) does exactly what it sounds like.  If you are administrator for a large site you may have set up a workflow in [Content Moderation](../modules/contentmoderate.md) where perhaps an editor reviews the work of a bunch of writers and you want the editor to 'delegate' certain permissions.  This module is just what you need and [here is how you do it.](https://www.webwash.net/control-roles-assigned-in-drupal-using-role-delegation/)<br>
+
 <img src="../modules/images/RoleDelegation.png"  width="500">
 
 
