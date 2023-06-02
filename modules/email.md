@@ -77,9 +77,16 @@ Let's take a look at some other contributed module options to help see the alter
 
 The [Contact Emails module](https://www.drupal.org/project/contact_emails) gooses up managing Drupal Core Contact submissions emails by allowing a permission to 'manage contact form emails'.  Then users can add as many emails as desired, with a different recipients.  Even allowing tweaks to the  subject and/or messages the recipients get.  The module write up describes a use case for a larger organization where one email says thank you to the submitter of the form, another goes to the office administrator with some basic info, and another to a marketing manager with specific details about the form.
 
+Just think of this module as adding a 'Manage emails' tab to the Administration/Structure/Contact form interface; and allowing you to also get to it in as an additional operations option for a specific email form you have set up.
 
+<img src="../modules/images/contactemail11.png"  width="600">
 
+From there, you can review the emails you have set up by subject, recipients, and active status or create another.
 
+<img src="../modules/images/contactemail12.png"  width="600">
 
+<br>
+<br>
+<br>
 
-
+[Learn More - Drupal Modules List](../chapters.md#drupal-modules)
