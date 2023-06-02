@@ -87,17 +87,21 @@ From there, you can review the emails you have set up by subject, recipients, an
 
 ### Contact Mail Formatter module
 
-The relatively new [Contact Mail Formatter module](https://www.drupal.org/project/contact_mail_formatter) adds even more capability. It integrates with the [Token module,](../modules/development.md#token-module) your CKeditor for WYSIWG ease in preparing your emails, and includes HTML capabilities. It also provides a relatively clean interface, especially to see the available tokens you might use.
+The relatively new [Contact Mail Formatter module](https://www.drupal.org/project/contact_mail_formatter) adds even more capability. It integrates with the [Token module,](../modules/development.md#token-module) your CKeditor for WYSIWG ease in preparing your emails, and includes HTML capabilities. It also provides a relatively clean interface, especially to see the available tokens you might use.  It integrates with the Mail System module discussed below.
 
 <img src="../modules/images/contactemail13.png"  width="600">
 
-### Symfony Mailer module
-
-The [Symfony Mailer module](https://www.drupal.org/project/symfony_mailer) is the replacement for the deprecated Swift Mailer; so use it instead.   You want to head this way if you are looking for great integration with some key modules, for HTML emails, for attachments, and even for the use of TWIG integration with your Drupal website.   What you need to understand is that earlier point that emailing involves formating and sending; and the Symfony Mailer module is more about the sending part of this.  It integrates with the other parts of Drupal easily because this [mailer as well as Drupal itself are written in the Symfony framework of PHP.](https://www.youtube.com/watch?v=pHJCgkzVGXk)
-
 ### Mail System module
 
-The [Mail System module](https://www.drupal.org/project/mailsystem)
+The [Mail System module](https://www.drupal.org/project/mailsystem) is installed by your adding the Contact Mail Formatter module because it is a dependency.  You probably don't need to go deep into this module unless you are a developer who is going to work on writing mail related APIs.  You want it, but it will get there automatically with the above formatter.
+
+### Symfony Mailer module
+
+The [Symfony Mailer module](https://www.drupal.org/project/symfony_mailer) is the replacement for the deprecated Swift Mailer; so use it instead.  The Mail System module mentioned above is noted as working with the Swift Mailer but it will be fine with this replacement.   You want to head this way if you are looking for great integration with some key modules, for HTML emails, for attachments, and even for the use of TWIG integration with your Drupal website.   What you need to understand is that earlier point that emailing involves formating and sending; and the Symfony Mailer module is more about the sending part of this.  It integrates with the other parts of Drupal easily because this [mailer as well as Drupal itself are written in the Symfony framework of PHP.](https://www.youtube.com/watch?v=pHJCgkzVGXk)  Again, you probably don't have to go under the hood on this Symfony Mailer module unless you are a developer; just install it and enjoy the benefits. 
+
+### MailHog integration
+
+Making sure your mailing system is set up appropriately benefits from testing.  Drupal outlines a whole bunch of [details on testing.](https://www.drupal.org/docs/develop/local-server-setup/managing-mail-handling-for-development-or-testing)  Toward the end of that it points out a service called MailHog; [MailHog is available from GitHub.](https://github.com/mailhog/MailHog)  It involves bringing it to your local environment so you can do testing there with fake emails that don't go out and bother anyone.  The good news is that [if you use Lando](../book/Novice.md#setting-up-your-basic-system) you don't need to load from GitHub, you can just [call it as a service in your Lando file and it will be there.](https://docs.lando.dev/mailhog/)  Since this is just an underlying Docker feature of Lando, the same general approach is likely to work with [DDEV](https://ddev.com/) and [DockSal.](https://docksal.io/)
 
 <br>
 <br>
