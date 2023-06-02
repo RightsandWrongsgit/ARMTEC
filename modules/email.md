@@ -105,7 +105,7 @@ Making sure your mailing system is set up appropriately benefits from testing.  
 
 ## Mailchimp alternative
 
-Many people will find that Mailchimp is their preferred route for a mailing system integration.  There is a [Mailchimp module](https://www.drupal.org/project/mailchimp) available from Drupal.  [Mailchimp](https://mailchimp.com/) is a professional email marketing business system that has all sorts of functionality external to Drupal.  While external, that doesn't mean it isn't integrated.  Mailchimp is free but only at a relatively low number of emails per month and then you start to move into their paid levels.  It is definitely worth a look.
+Many people will find that Mailchimp is their preferred route for a mailing system integration.  There is a [Mailchimp module](https://www.drupal.org/project/mailchimp) available from Drupal.  [Mailchimp](https://mailchimp.com/) is a professional email marketing business system that has all sorts of functionality external to Drupal.  While external, that doesn't mean it isn't integrated.  Mailchimp is free but only at a relatively low number of emails per month and then you start to move into their paid levels.  It is definitely worth a look [and checkout a video on setting it up.](https://www.webwash.net/getting-started-with-mailchimp-in-drupal/)
 
 <br>
 <br>
