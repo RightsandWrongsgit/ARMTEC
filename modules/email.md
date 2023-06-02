@@ -17,7 +17,14 @@ Another thing that the underlying mail API in Drupal has is an ability to point 
 
 If you are interested in [the underlying email system in Drupal](https://www.drupal.org/docs/contributed-modules/mime-mail/how-email-works-in-drupal) you kind of need to be in the mindset that it is meant to deliver core functions to be used by other, more capable mailing alternatives.  What is provided as part of Drupal core will basically only provide a plain text format email and send it.  Most people are going to want to do more than that with their email.  Having an HTML format capability to present a better look, include images in the email, allow for attachments, are sort of considered fundamental if you want to send emails that are more than a sign-up confirmation.
 
-<img src="../modules/images/configuremail.png"  width="600">
+Since the sort of basic way the core email system is used is around confirming a sign-up, you can actually work the first level use of it from the Administration/Configuration/Account settings part of your website.
+
+<img src="../modules/images/signupemail1.png"  width="600">
+
+From within that area, you put in the address that will be default in your website for who any emails will be 'from'.  Then there are a bunch of standard email templates that you can use directly or you can edit.  Notice the odd little brackets aroudn some items and what these represent are variables or fields that get custom filled to personalize the emails from other information in your site.  There is something called [Tokens](../modules/development.md) that can be turned on to further expand things that can be inserted into emails outlined in the Contact forms where you move past these standard templates to some of your own.
+
+<img src="../modules/images/signupemail2.png"  width="600">
+
 
 
 <img src="../modules/images/contactemail5.png"  width="600">
@@ -34,6 +41,14 @@ As noted, besides the mechanics of sending mail, there is a need to actually for
 You can add a contact form and then you can clone a prior, edit, manage fields present, their form and display, and even interface with Devel if you have that module installed. 
 
 <img src="../modules/images/contactemail8.png"  width="800">
+
+When you click to add one, you give it a name, then the subject of the email, they go into your editor and fill out the body.
+
+<img src="../modules/images/contactemail2.png"  width="600">
+
+Continuing on the form you indicate who you are sending it to and you can also indicate a reply address of the site default or some other email address you want any replies to go to.
+
+<img src="../modules/images/contactemail3.png"  width="600">
 
 You can see that multiple contact forms can be defined and applied to your List of contacts.
 
