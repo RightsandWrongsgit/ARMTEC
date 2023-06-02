@@ -103,6 +103,10 @@ The [Symfony Mailer module](https://www.drupal.org/project/symfony_mailer) is th
 
 Making sure your mailing system is set up appropriately benefits from testing.  Drupal outlines a whole bunch of [details on testing.](https://www.drupal.org/docs/develop/local-server-setup/managing-mail-handling-for-development-or-testing)  Toward the end of that it points out a service called MailHog; [MailHog is available from GitHub.](https://github.com/mailhog/MailHog)  It involves bringing it to your local environment so you can do testing there with fake emails that don't go out and bother anyone.  The good news is that [if you use Lando](../book/Novice.md#setting-up-your-basic-system) you don't need to load from GitHub, you can just [call it as a service in your Lando file and it will be there.](https://docs.lando.dev/mailhog/)  Since this is just an underlying Docker feature of Lando, the same general approach is likely to work with [DDEV](https://ddev.com/) and [DockSal.](https://docksal.io/)
 
+## Mailchimp alternative
+
+Many people will find that Mailchimp is their preferred route for a mailing system integration.  There is a [Mailchimp module](https://www.drupal.org/project/mailchimp) available from Drupal.  [Mailchimp](https://mailchimp.com/) is a professional email marketing business system that has all sorts of functionality external to Drupal.  While external, that doesn't mean it isn't integrated.  Mailchimp is free but only at a relatively low number of emails per month and then you start to move into their paid levels.  It is definitely worth a look.
+
 <br>
 <br>
 <br>
