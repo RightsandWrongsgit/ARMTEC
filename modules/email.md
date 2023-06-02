@@ -25,10 +25,11 @@ From within that area, you put in the address that will be default in your websi
 
 <img src="../modules/images/signupemail2.png"  width="900">
 
+When you select which form you want to work with, you get some options that will look very familiar to anyone who has started to work with [Content types and Fields](../book/contenttype.md) which is probably the most heavily used part of working with Drupal.  You will see the opportunity to add fields to the form, to create a form display, and to define the final output display.
 
+<img src="../modules/images/contactemail4.png"  width="600">
 
-<img src="../modules/images/contactemail5.png"  width="600">
-
+You can also see that there is a part of the display where a users picture can be included in their profile on the site.
 
 <img src="../modules/images/contactemail6.png"  width="600">
 
