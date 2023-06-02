@@ -29,19 +29,19 @@ If you are interested in [the underlying email system in Drupal](https://www.dru
 
 As noted, besides the mechanics of sending mail, there is a need to actually format or create it.  So you start by looking under Administration/Structure/Contact forms.
 
-<img src="../modules/images/contactemail7.png"  width="600">
+<img src="../modules/images/contactemail7.png"  width="300">
 
 You can add a contact form and then you can clone a prior, edit, manage fields present, their form and display, and even interface with Devel if you have that module installed. 
 
-<img src="../modules/images/contactemail8.png"  width="600">
+<img src="../modules/images/contactemail8.png"  width="800">
 
 You can see that multiple contact forms can be defined and applied to your List of contacts.
 
-<img src="../modules/images/contactemail9.png"  width="600">
+<img src="../modules/images/contactemail9.png"  width="800">
 
 You will note that even a note in Drupal core Contact forms/Contact settings notes the requirement of adding something like the Swiftmailer contrib module to use HTML mailings.
 
-<img src="../modules/images/contactemail10.png"  width="600">
+<img src="../modules/images/contactemail10.png"  width="800">
 
 ## Contrib Modules
 
