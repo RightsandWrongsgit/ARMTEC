@@ -76,7 +76,7 @@
     - [Remove a Photo Background (Online)](https://www.remove.bg/upload){:target="_blank"}
     - [Object Eraser (Online)](https://magicstudio.com/magiceraser){:target="_blank"}
     - [Edit a Photo (Software)](https://www.gimp.org/){:target="_blank"}
-      -[Gimp Tutorial: Mock up a Website](https://www.youtube.com/watch?v=xKpjtYAVs0M){:target="_blank"}    
+      - [Gimp Tutorial: Mock up a Website](https://www.youtube.com/watch?v=xKpjtYAVs0M){:target="_blank"}    
     - [AI Image Generator (Software)](https://diffusionbee.com/){:target="_blank"}
     - [Compress an Image (Online)](https://compressor.io/){:target="_blank"}
     - [Edit a Video (Software)](https://www.vlognow.me){:target="_blank"}
