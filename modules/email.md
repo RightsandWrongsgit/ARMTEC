@@ -95,6 +95,10 @@ The relatively new [Contact Mail Formatter module](https://www.drupal.org/projec
 
 The[Symfony Mailer module](https://www.drupal.org/project/symfony_mailer)
 
+### Mail System module
+
+The [Mail System module](https://www.drupal.org/project/mailsystem)
+
 <br>
 <br>
 <br>
