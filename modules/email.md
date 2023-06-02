@@ -91,6 +91,9 @@ The relatively new [Contact Mail Formatter module](https://www.drupal.org/projec
 
 <img src="../modules/images/contactemail13.png"  width="600">
 
+### Symfony Mailer module
+
+The[Symfony Mailer module](https://www.drupal.org/project/symfony_mailer)
 
 <br>
 <br>
