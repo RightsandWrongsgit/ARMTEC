@@ -19,11 +19,11 @@ If you are interested in [the underlying email system in Drupal](https://www.dru
 
 Since the sort of basic way the core email system is used is around confirming a sign-up, you can actually work the first level use of it from the Administration/Configuration/Account settings part of your website.
 
-<img src="../modules/images/signupemail1.png"  width="600">
+<img src="../modules/images/signupemail1.png"  width="200">
 
 From within that area, you put in the address that will be default in your website for who any emails will be 'from'.  Then there are a bunch of standard email templates that you can use directly or you can edit.  Notice the odd little brackets aroudn some items and what these represent are variables or fields that get custom filled to personalize the emails from other information in your site.  There is something called [Tokens](../modules/development.md) that can be turned on to further expand things that can be inserted into emails outlined in the Contact forms where you move past these standard templates to some of your own.
 
-<img src="../modules/images/signupemail2.png"  width="600">
+<img src="../modules/images/signupemail2.png"  width="900">
 
 
 
