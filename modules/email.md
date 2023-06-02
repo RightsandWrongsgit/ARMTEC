@@ -29,7 +29,11 @@ When you select which form you want to work with, you get some options that will
 
 <img src="../modules/images/contactemail4.png"  width="600">
 
-You can also see that there is a part of the display where a users picture can be included in their profile on the site.
+You can also see that there is a part of the display where a users picture can be included in their profile on the site.  Both to include it in the input form made available.
+
+<img src="../modules/images/contactemail5.png"  width="600">
+
+And to present the picture in the profile display. 
 
 <img src="../modules/images/contactemail6.png"  width="600">
 
