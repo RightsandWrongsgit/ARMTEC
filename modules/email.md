@@ -21,7 +21,7 @@ Since the sort of basic way the core email system is used is around confirming a
 
 <img src="../modules/images/signupemail1.png"  width="200">
 
-From within that area, you put in the address that will be default in your website for who any emails will be 'from'.  Then there are a bunch of standard email templates that you can use directly or you can edit.  Notice the odd little brackets aroudn some items and what these represent are variables or fields that get custom filled to personalize the emails from other information in your site.  There is something called [Tokens](../modules/development.md) that can be turned on to further expand things that can be inserted into emails outlined in the Contact forms where you move past these standard templates to some of your own.
+From within that area, you put in the address that will be default in your website for who any emails will be 'from'.  Then there are a bunch of standard email templates that you can use directly or you can edit.  Notice the odd little brackets aroudn some items and what these represent are variables or fields that get custom filled to personalize the emails from other information in your site.  There is something called [Tokens](../modules/development.md#token-module) that can be turned on to further expand things that can be inserted into emails outlined in the Contact forms where you move past these standard templates to some of your own.
 
 <img src="../modules/images/signupemail2.png"  width="900">
 
@@ -84,6 +84,13 @@ Just think of this module as adding a 'Manage emails' tab to the Administration/
 From there, you can review the emails you have set up by subject, recipients, and active status or create another.
 
 <img src="../modules/images/contactemail12.png"  width="600">
+
+### Contact Mail Formatter module
+
+The relatively new [Contact Mail Formatter module](https://www.drupal.org/project/contact_mail_formatter) adds even more capability. It integrates with the [Token module,](../modules/development.md#token-module) your CKeditor for WYSIWG ease in preparing your emails, and includes HTML capabilities. It also provides a relatively clean interface, especially to see the available tokens you might use.
+
+<img src="../modules/images/contactemail13.png"  width="600">
+
 
 <br>
 <br>
