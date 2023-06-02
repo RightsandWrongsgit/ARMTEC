@@ -15,6 +15,8 @@ drush en bootstrap_layout_builder
 composer require drupal/bootstrap_styles
 drush en drupal/bootstrap_styles
 
+[Layout Builder Components module](https://www.drupal.org/project/layoutcomponents)
+
 [Introduction to Layout Paragraphs](https://www.youtube.com/watch?v=yl4JN-HLqbg)
 
 
