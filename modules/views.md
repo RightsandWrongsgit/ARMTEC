@@ -72,7 +72,9 @@ If you want to use [Facets](../modules/facetedsearch.md) within Views, also inst
 `composer require drupal/core_views_facets`<br>
 `drush en core_views_facets`
 
+### Views Bulk Operations module
 
+The [Views Bulk Operations module](https://www.drupal.org/project/views_bulk_operations) is a workhorse.  You probably want to make sure you have a good backup copy to restore your website in case you do something unintentional with it.  Also, you might first try something simple, and lower risk like moving a bunch of stuff from an unpublished to a published state; in a sense what the [Moderated Content Bulk Publishing module](../modules/contentmoderate.md#modules-to-enhance) is doing in Content Moderation.  However, you can do a whole bunch more in BULK, including deleting a bunch of stuff.  That might be a good thing if it is time to clean up a dated site for old content with a date filter on old articles. However, it probably will pay dividends to [watch this basic video before you jump into using this module.](https://www.webwash.net/bulk-update-using-view-bulk-operations-in-drupal/)
 
 <br>
 <br>
