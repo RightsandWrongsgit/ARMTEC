@@ -93,7 +93,7 @@ The relatively new [Contact Mail Formatter module](https://www.drupal.org/projec
 
 ### Symfony Mailer module
 
-The[Symfony Mailer module](https://www.drupal.org/project/symfony_mailer)
+The [Symfony Mailer module](https://www.drupal.org/project/symfony_mailer) is the replacement for the deprecated Swift Mailer; so use it instead.   You want to head this way if you are looking for great integration with some key modules, for HTML emails, for attachments, and even for the use of TWIG integration with your Drupal website.   What you need to understand is that earlier point that emailing involves formating and sending; and the Symfony Mailer module is more about the sending part of this.  It integrates with the other parts of Drupal easily because this [mailer as well as Drupal itself are written in the Symfony framework of PHP.](https://www.youtube.com/watch?v=pHJCgkzVGXk)
 
 ### Mail System module
 
