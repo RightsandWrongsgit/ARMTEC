@@ -73,8 +73,13 @@ That graphic notes the use of Swift Mailer replacing or leveraging the core form
 
 Let's take a look at some other contributed module options to help see the alternatives.
 
-### Simple Mail module
+### Contact Emails module
 
-The [Simple Mail module](https://www.drupal.org/project/simple_mail)  
+The [Contact Emails module](https://www.drupal.org/project/contact_emails) gooses up managing Drupal Core Contact submissions emails by allowing a permission to 'manage contact form emails'.  Then users can add as many emails as desired, with a different recipients.  Even allowing tweaks to the  subject and/or messages the recipients get.  The module write up describes a use case for a larger organization where one email says thank you to the submitter of the form, another goes to the office administrator with some basic info, and another to a marketing manager with specific details about the form.
+
+
+
+
+
 
 
