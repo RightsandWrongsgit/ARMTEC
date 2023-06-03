@@ -107,6 +107,10 @@ Making sure your mailing system is set up appropriately benefits from testing.  
 
 Many people will find that Mailchimp is their preferred route for a mailing system integration.  There is a [Mailchimp module](https://www.drupal.org/project/mailchimp) available from Drupal.  [Mailchimp](https://mailchimp.com/) is a professional email marketing business system that has all sorts of functionality external to Drupal.  While external, that doesn't mean it isn't integrated.  Mailchimp is free but only at a relatively low number of emails per month and then you start to move into their paid levels.  It is definitely worth a look [and checkout a video on setting it up.](https://www.webwash.net/getting-started-with-mailchimp-in-drupal/)
 
+### Mailchimp Transactional module
+
+The [Mailchimp Transactional module](https://www.drupal.org/project/mailchimp_transactional) is a Drupal module intended for email facilitated transactions when your store offering changes, confirming things have shipped, people need a password resets, or any actions taken on the Drupal site. You can utilize its submodule for Mailchimp Templates that help style emails.  There is also a submodule under reports for a Dashboard and Account Summary;  so you can see volume, open and click rates, and other measures right in your Drupal website.
+
 <br>
 <br>
 <br>
