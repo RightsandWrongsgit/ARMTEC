@@ -9,8 +9,22 @@ What this upgrade to Drupal Core has done is put support in place to link a piec
 
 In a big way, [the media management upgrade to Drupal Core has leveraged a few contributed modules that had become very popular for working with media.](https://drupalize.me/tutorial/overview-media-management-drupal)  Sometimes with Drupal it is worth re-plowing some old ground history to understand how things work.  The key here was a module called [Media Entity Browser](https://www.drupal.org/project/media_entity_browser) was in play and even now might goose up media management a step further than Core.  But what is important to understand about the history is that nodes, media, and other things are entities; so an 'Entity Browser' module underpins these.  Why you care is that there are modules beyond the upgraded media managment in Drupal Core that can [link together these other types of media.](../modules/entityref.md)
 
-<font color=red size=large>[Using the upgraded Drupal Media and Media Library](https://imagexmedia.com/blog/drupal-media-and-media-library-guide)</font><br>
-Or, if you prefer a [video on Drupal Media and Media Library](https://www.youtube.com/watch?v=NDR5VLSlSuQ)<br>
+One of the best presentations on [Media Libraries in Drupal](https://www.electriccitizen.com/citizen-blog/media-libraries-drupal-8) is a must read for full appreciation of all that can be achieved.  It walks through creating Media Bundles, Library Views, Image Styles and Responsive Images, Display Modes, Entity Browsers, Adding Media Fields to a Node, and WSIWYG Embedding media with your editor.  To do all this it recommends installing the following modules; but note that some are now simply in Core and others get installed because of a dependency the other have on them.
+
+[Inline Entity Form](https://www.drupal.org/project/inline_entity_form)Entity Embed
+Entity Browser (Now part of Core)
+Media Entity (Now part of Core)
+Media Entity Image (Limited Version update)
+Media Entity Document (Now part of Core)
+[Video embed field](https://www.drupal.org/project/video_embed_field)Responsive Image
+[Views Infinite Scroll](https://www.drupal.org/project/views_infinite_scroll)
+[Ctools](https://www.drupal.org/project/ctools)
+
+
+<font color=red size=large>[Using the upgraded Drupal Media and Media Library](https://imagexmedia.com/blog/drupal-media-and-media-library-guide)
+Or, if you prefer<br>
+[a video on Drupal Media and Media Library](https://www.youtube.com/watch?v=NDR5VLSlSuQ)</font><br>
+
 <br>
 <br>
 
