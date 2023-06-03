@@ -22,8 +22,10 @@ Media Entity Document (Now part of Core)<br>
 [Views Infinite Scroll](https://www.drupal.org/project/views_infinite_scroll)<br>
 [Ctools](https://www.drupal.org/project/ctools)<br>
 
+### Taking it hands-on
 
-<font color=red size=large>[Managing Media Assest Using Core Media](https://www.webwash.net/managing-media-assets-using-core-media-in-drupal/)<br>  
+<font color=red size=large>[Managing Media Assest Using Core Media](https://www.webwash.net/managing-media-assets-using-core-media-in-drupal/)<br>
+And<br>
 [Using the upgraded Drupal Media and Media Library](https://imagexmedia.com/blog/drupal-media-and-media-library-guide)<br>
 Or, if you prefer<br>
 [a video on Drupal Media and Media Library](https://www.youtube.com/watch?v=NDR5VLSlSuQ)</font><br>
