@@ -9,8 +9,8 @@ What this upgrade to Drupal Core has done is put support in place to link a piec
 
 In a big way, [the media management upgrade to Drupal Core has leveraged a few contributed modules that had become very popular for working with media.](https://drupalize.me/tutorial/overview-media-management-drupal)  Sometimes with Drupal it is worth re-plowing some old ground history to understand how things work.  The key here was a module called [Media Entity Browser](https://www.drupal.org/project/media_entity_browser) was in play and even now might goose up media management a step further than Core.  But what is important to understand about the history is that nodes, media, and other things are entities; so an 'Entity Browser' module underpins these.  Why you care is that there are modules beyond the upgraded media managment in Drupal Core that can [link together these other types of media.](../modules/entityref.md)
 
-<font color=red size=large>[Using the upgraded Drupal Media and Media Library](https://imagexmedia.com/blog/drupal-media-and-media-library-guide)</font>
-<br>
+<font color=red size=large>[Using the upgraded Drupal Media and Media Library](https://imagexmedia.com/blog/drupal-media-and-media-library-guide)</font><br>
+Or, if you prefer a [video on Drupal Media and Media Library](https://www.youtube.com/watch?v=NDR5VLSlSuQ)<br>
 <br>
 <br>
 
