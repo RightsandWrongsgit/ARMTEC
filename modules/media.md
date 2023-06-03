@@ -1,5 +1,5 @@
 
-# MODULES INVOLVING MEDIA & ITS USE
+# MEDIA 
 
 ## Media Core
 
