@@ -32,30 +32,41 @@ Or, if you prefer<br>
 
 ## Media extras
 
-(These are the basics, more alternatives under details) -
+### Focal Point Module
 
-Focal Point Module (for basic image handling improvements; see section detail for more advanced):
-composer require drupal/focal_point
-drush en focal_point
+The [Focal Point module](https://www.drupal.org/project/focal_point) is best thought of as an option for image cropping.  If you are at all artistic you know you want to emphasize the subject.  So when you crop an image you don't want to just randomly chunk parts off or a fit, you want the fit to optimize around the focus point of the subject of that image.  This module is how you do that and it integrates nicely with the rest of the core's media management. 
 
-The [Image_link_attributes Module](https://www.drupal.org/project/image_link_attributes) allows you to not only set links from an image but to use it to set CSS classes you can then style and set target attributes for the link. 
+`composer require drupal/focal_point`<br>
+`drush en focal_point`
+
+### Image Link Attributes module
+
+The [Image_Link_Attributes module](https://www.drupal.org/project/image_link_attributes) allows you to not only set links from an image but to use it to set CSS classes you can then style and set target attributes for the link. 
 
 <img src="../modules/images/media1.png"  width="400">
 
 `composer require image_link_attributes`<br>
 `drush en image_link_attributes`
 
-Fitvids Module (for responsive themed videos):
-composer require fitvids
-drush en fitvids
+### Fitvids module
 
-Media Directories module:
-composer require drupal/media_directories
-drush en media_directories
+The [Fitvids module](https://www.drupal.org/project/fitvids) is what you need if your want to make videos on your website be responsive for better appearance across devices. 
+
+`composer require fitvids`<br>
+`drush en fitvids`
+
+### Media Directories module
+
+Drupal core media management, with its library, is probably all you need to start.  However, if you have <font color=yellow>a site with a ton of media,</font> the [Media Directories module](https://www.drupal.org/project/media_directories) may be just what you need.  A key feature it includes is a directory logic for your media assets.  When I start out with a few images I am fine scrolling through looking for them but when I start getting lots of them I use image subdirectories specific to the nature of the content they associate with.  Here is the solution. 
+
+`composer require drupal/media_directories`<br>
+`drush en media_directories`
+
+### Media Video Micromodal module
 
 The [Media Video Micromodal module](https://www.drupal.org/project/media_video_micromodal) is something you might find very powerful for some video presentation elements you want on your site enhancing, rather than dominating a page.  It hasn't been wildly popular yet but that could be that people find its many options intimidating to set up.  However, the level of control you have in how you link, assign CSS classes, manage the display size and location, should be welcomed.
 
-
+### Media Bulk Upload module
 
 The [Media Bulk Upload module](https://www.drupal.org/project/media_bulk_upload) is something you might want to leverage if you have created a new website and have all sorts of image, video, or other media type assets that you want to load to the website.  Dance carefully with this one in the sense it uses a [DropzoneJS module](https://www.drupal.org/project/dropzonejs) that is all about JavaScript and requires a few extra steps in installing. Let's say you had an old site in developed in some other way or real old version that you want to rebuild with the most current Drupal version and enhance it as well.  This might be a use case where you can come up with a file naming strategy and directory structure to organize and house the asset you want to grab and repurpose.  Then this module might come in handy.
 
