@@ -23,7 +23,8 @@ Media Entity Document (Now part of Core)<br>
 [Ctools](https://www.drupal.org/project/ctools)<br>
 
 
-<font color=red size=large>[Using the upgraded Drupal Media and Media Library](https://imagexmedia.com/blog/drupal-media-and-media-library-guide)<br>
+<font color=red size=large>[Managing Media Assest Using Core Media](https://www.webwash.net/managing-media-assets-using-core-media-in-drupal/)<br>  
+[Using the upgraded Drupal Media and Media Library](https://imagexmedia.com/blog/drupal-media-and-media-library-guide)<br>
 Or, if you prefer<br>
 [a video on Drupal Media and Media Library](https://www.youtube.com/watch?v=NDR5VLSlSuQ)</font><br>
 
