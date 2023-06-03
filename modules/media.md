@@ -34,7 +34,7 @@ Media Directories module:
 composer require drupal/media_directories
 drush en media_directories
 
-The [Media Video Micromodal(module]https://www.drupal.org/project/media_video_micromodal) is something you might find very powerful for some video presentation elements you want on your site enhancing, rather than dominating a page.  It hasn't been wildly popular yet but that could be that people find its many options intimidating to set up.  However, the level of control you have in how you link, assign CSS classes, manage the display size and location, should be welcomed.
+The [Media Video Micromodal module](https://www.drupal.org/project/media_video_micromodal) is something you might find very powerful for some video presentation elements you want on your site enhancing, rather than dominating a page.  It hasn't been wildly popular yet but that could be that people find its many options intimidating to set up.  However, the level of control you have in how you link, assign CSS classes, manage the display size and location, should be welcomed.
 
 
 
