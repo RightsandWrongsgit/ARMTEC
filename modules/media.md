@@ -38,9 +38,12 @@ Focal Point Module (for basic image handling improvements; see section detail fo
 composer require drupal/focal_point
 drush en focal_point
 
-Image_link_attributes Module (field format settings like css via GUI):
-composer require image_link_attributes
-drush en image_link_attributes
+The [Image_link_attributes Module](https://www.drupal.org/project/image_link_attributes) allows you to not only set links from an image but to use it to set CSS classes you can then style and set target attributes for the link. 
+
+<img src="../modules/images/media1.png"  width="400">
+
+`composer require image_link_attributes`<br>
+`drush en image_link_attributes`
 
 Fitvids Module (for responsive themed videos):
 composer require fitvids
