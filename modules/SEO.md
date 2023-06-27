@@ -1,5 +1,6 @@
 
-# Search Engine Optimization (SEO)
+# Search Engine Optimization
+## (SEO)
 
 Using Drupal is like any other website tool.  Your website's success can depend a lot on the traffic it receives.  Sure, there are sites where visitors are arriving simply because it is listed on your business card, in a mailer, via a landing page link, etc.  However, these days search engines play a big role in traffic to most sites.  Unlike in the past, simply hiding a bunch of terms in the pages via a font color the same as the background color won't get you a high score.  You will recieve dividends for unique, original content.  You will recieve bonus points for other sites linking to yours; so you might do some business development contacts to strike deals with logically related referring websites.  There are also modules that Drupal has available which aid SEO performance.
 
@@ -11,10 +12,10 @@ The [Metatag module](https://www.drupal.org/project/metatag) is still a valuable
 You can also use the Metatag module for a ["No Index" directive to search engines.](https://www.webwash.net/add-noindex-to-pages-using-metatag-in-drupal/)  [Why would you want to not have a page indexed?](https://growhackscale.com/glossary/no-index-meta-tag#:~:text=%22Noindex%22%20is%20an%20important%20tag,tag%20will%20do%20the%20job.)  Some stuff you want to just keep private.   Some stuff may be a duplicate and you don't want to get penalized in your search rank. Some stuff is just things like a terms and conditions or privacy page that is meant to be seen after you come to the site but not out there in a search result.
 
 ### Real-time SEO Module
-The [Real-time SEO for Drupal module](https://www.drupal.org/project/yoast_seo) works with the Metatag module and gives you a clear understanding of how yor site/pages are going to list on a search result.  Here is [how you install it and configure it.](https://www.youtube.com/watch?v=1wckslqGI68)   The module also provides a sort of audit of [suggestions for improving your SEO results;](https://www.youtube.com/watch?v=RFf0oQp7Atk) with real specific directive value to content editors to improve their contributions.
+The [Real-time SEO for Drupal module](https://www.drupal.org/project/yoast_seo) works with the Metatag module and gives you a clear understanding of how your site/pages are going to list on a search result.  Here is [how you install it and configure it.](https://www.youtube.com/watch?v=1wckslqGI68)   The module also provides a sort of audit of [suggestions for improving your SEO results;](https://www.youtube.com/watch?v=RFf0oQp7Atk) with real specific directive value to content editors to improve their contributions.
 
 ### Simple XML Sitemap Module
-Search engines "crawl" websites to create their indexing magic.  They need to know what to crawl.  So people create a [sitemap](https://en.wikipedia.org/wiki/Sitemaps) to tell them. The [Simple XML Sitemap Module](https://www.drupal.org/project/simple_sitemap) is how you will do this for your site and create an XML formated map needed to do this.  If you want to understand more about [how site maps work, check out "What is an XML sitemap and why should you have one?"](https://yoast.com/what-is-an-xml-sitemap-and-why-should-you-have-one/#:~:text=An%20XML%20sitemap%20is%20a,important%20page%20of%20your%20website.)
+Search engines "crawl" websites to create their indexing magic.  They need to know what to crawl.  So people create a [sitemap](https://en.wikipedia.org/wiki/Sitemaps) to tell them. The [Simple XML Sitemap Module](https://www.drupal.org/project/simple_sitemap) is how you will do this for your site and create the XML formated map needed.  If you want to understand more about [how site maps work, check out "What is an XML sitemap and why should you have one?"](https://yoast.com/what-is-an-xml-sitemap-and-why-should-you-have-one/#:~:text=An%20XML%20sitemap%20is%20a,important%20page%20of%20your%20website.)
 
 
 <br>
