@@ -51,6 +51,7 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
     `https://code.visualstudio.com/` 
 
+##### VSCode Extensions
 
     You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now -
 
@@ -72,6 +73,7 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
     
     - [Market Place of Extensions](https://marketplace.visualstudio.com/search?target=VSCode&category=Extension%20Packs&sortBy=Installs){:target="_blank"}
 
+    - [Sniffer & Beautifier Extension](https://www.drupaleasy.com/quicktips/php-sniffer-beautifier-extension-visual-studio-code) has been recommended by others heavily involved in Drupal development. You [find it here.](https://marketplace.visualstudio.com/items?itemName=ValeryanM.vscode-phpsab&ssr=false#overview). 
 
 ### Sign up for these
 
