@@ -46,6 +46,7 @@
     - [Obtain GitHub account](book/Novice.md#setting-up-your-basic-system)
     - [Establish SSH Key to GitHub account](book/ssh.md)
     - [Install Visual Studio Code](book/Novice.md#setting-up-your-basic-system)
+      - [VSCode Extensions](cicd/prerequities.md#vscode-extensions)
     - [Install Composer](book/Novice.md#setting-up-your-basic-system)
     - [Install Lando](book/Novice.md#setting-up-your-basic-system)
     - [Installing Docker](book/Novice.md#setting-up-your-basic-system)
