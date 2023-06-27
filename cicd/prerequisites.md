@@ -53,9 +53,7 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
 ##### VSCode Extensions
 
-<br>
-
-    You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now -
+You can enhance the basic IDE with extensions and some of these can be especially valuable to consider adding now ...
 
 <br>
 
