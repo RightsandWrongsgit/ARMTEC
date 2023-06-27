@@ -1,4 +1,5 @@
-# Hosting: Let Others See Your Website
+# Hosting
+# Others See Your Website
 
 Most people tend to want to build their website on their own computer.  You can work on it without an internet connection and local tends to be faster than passing files back and forth.  If you haven't messed around with any website building before, you might want to try doing what is called a 'static site' just to get use to basic principles.  For example, did you know that the foundation  of any site is to have a file called 'index.something'.  That something might be 'html', or 'php' or 'md', among others.  One of the easiest and least expensive way to get a feel for all this is to just build a static website right here on GitHub; in fact, you are reading this on such a site right now!
 
@@ -9,6 +10,10 @@ Most people tend to want to build their website on their own computer.  You can 
 - [GitHub Pages Tutorial](https://tomcam.github.io/least-github-pages/){:target="_blank"}
 - [Set up a Blog in GitHub Pages](https://aregsar.com/blog/2019/how-to-setup-your-github-pages-blog-structure-in-five-minutes/){:target="_blank"}
 - [GitHub Pages Markup Guide](https://www.markdownguide.org/tools/github-pages/){:target="_blank"}
+
+## Inexpensive Drupal Hosting
+
+Hosting a Drupal site can have a huge range of costs.  Sort of depends on how much you have on the site (storage) and how many visitors you get (traffic).  The other things is what sort of services and support you might expect to get.  While I am a fan of Platform.sh for container based and scalable hosting with basic but not extensive support, you might simply have a smaller scale site you want to minimize costs to host.  [Watch this](https://www.webwash.net/host-drupal-sites-using-siteground/)
 
 ## Using Containers to Run your Site
 Most people probably stopped here because of an interest is a Content Management System (CMS) site; Drupal being the powerhouse option.  With a CMS, you have the option of constantly updating content with the least effort. In fact, once built, such a site might be fed content updates automatically from other sites on the internet.  Imagine stories from your favorite sources flowing in to update you on topics you feature.  Imagine data flowing in and your site integrating and displaying a unique perspective on it.  From Blogs, to Newspapers, to E-Commerce, to collections of Universities, Museums, Governments, and more are things you might find built with a Drupal CMS.  Your plans don't need to start out so grand; but it is nice to know you have selected a CMS platform with Drupal that can expand as you do.
