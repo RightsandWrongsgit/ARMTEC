@@ -189,6 +189,7 @@
   - [Email](/modules/email.md)
   - [Media](modules/media.md)
   - [Layout Builder](modules/layoutbuilder.md)
+  - [SEO Modules](modules/SEO.md)
   - [Active Site Modules](modules/activesite.md)
 
 
