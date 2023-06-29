@@ -11,6 +11,7 @@
   - [A & P Details](business/admath.md)
   - [Creative Brief](business/thebrief.md)
 - [Key Performance Indicators](business/KPI.md)
+- [Glossary](business/glossary.md)
 
 ### Chapter: Effective Communication
 - [Positioning](business/positioning.md)
