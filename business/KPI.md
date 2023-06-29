@@ -13,7 +13,7 @@ You should also be able to pretty clearly show how the individual, department, d
 
 Since the goals are to be date/time specific, you ought to have checkpoints on calendars.  Annual performance reviews should be simple; a talley of the checkpoints that isn't a surpise to anyone.
 
-All that said and done, in a well tuned smaller organization or department, there is no reason you can't have the whole team sit for coffee each morning and review what they said they got done the prior day and what they will get done today.  That shouldn't be intimidating at all.  You should allow you to easily ask for help, adjust progression, and stay interlocked to dynamic market situations through effective interpersonal team coordination.  
+All that said and done, in a well tuned smaller organization or department, there is no reason you can't have the whole team sit for coffee each morning and review what they said they got done the prior day and what they will get done today.  That shouldn't be intimidating at all.  It should allow you to easily ask for help, adjust progression, and stay interlocked to dynamic market situations through effective interpersonal team coordination.  
 
 
 <br>
