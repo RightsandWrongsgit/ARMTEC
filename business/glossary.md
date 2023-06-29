@@ -4,7 +4,7 @@
 
 
 
-Acceptance Ratings - An estimate of store handling/stocking share developed by dividing the current period's share by the average of the current and prior month's distribution.
+<b>Acceptance Ratings</b> - An estimate of store handling/stocking share developed by dividing the current period's share by the average of the current and prior month's distribution.
 
 Area of Dominant Influence (ADI) - Geographic television and radio market boundaries. You may (Download) a data file of geographic definitions of ADI's here; but for final work, you may want to ask a reliable data vendor for the most up-to-date file as some geographic file reference data changes as zip and county codes change. (See recommended Mapping Sources)
 
