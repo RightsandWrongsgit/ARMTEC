@@ -92,7 +92,8 @@
     - [AI Color Palatte Generator (Online)](https://huemint.com/){:target="_blank"}
     - [Make a Formal Mockup (Online)](https://penpot.app/){:target="_blank"}
     - [UI/UX Design Tutorial](https://www.youtube.com/watch?v=c9Wg6Cb_YlU){:target="_blank"}
-
+    - [Addy's Toolkit for Designer & Developers](https://toolkit.addy.codes/){:target="_blank"}
+      
 - ##### Front-end
 
     - [Color Palette Combinations](https://fffuel.co){:target="_blank"}
