@@ -5,7 +5,7 @@ One of the most powerful things Drupal, and probably why you selected a content 
 
 ## Views & Views UI modules
 
-The Views and Views UI modules are part of Drupal Core.  You may want to confirm they are enabled under Admin/extend to see that they are check-marked.  With that you are ready to use this basic views capability.   [WebWash provides a nice video training overview to get you started](https://www.webwash.net/getting-started-with-views-in-drupal/)
+The Views and Views UI modules are part of Drupal Core.  You may want to confirm they are enabled under Admin/extend to see that they are check-marked.  With that you are ready to use this basic views capability.   [WebWash provides a nice video training overview to get you started.](https://www.webwash.net/getting-started-with-views-in-drupal/)  And, you can even take their [course on Views for more depth.](https://www.webwash.net/courses/getting-started-with-views-in-drupal/)
 
 ### Combining Filters
 
