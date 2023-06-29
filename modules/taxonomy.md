@@ -9,7 +9,7 @@ More often you will want to create a structured taxonomy to associate with conte
 Just like the biological application of the classification concept of taxonomy, Drupal allows you to have levels or a hierarchy.  But if you were to try to do the domain, kingdom, phylum, class, order, family, genus, and species level of depth it is pretty complex for a user to work with.  Often, it is better to use several taxonomies.  An example might be to use Resturant Cuisine, Resturant Style, Resturant Meal Occassions, Dietary Accomodations, and Resturant Features rather than trying to fold all that into some sort of complex hierarchical uni-taxonomy.
 
 ## Taxonomy Manager
-To help with those hiearchical levels you do want to use.
+To help with those hiearchical levels you do want to use.  [The Taxonomy Term module is good to copy and paste extensive taxonomy terms from source files, and for searching and editing terms while displaying the whole tree.](https://www.webwash.net/manage-terms-bulk-using-taxonomy-manager-in-drupal/)  You do need to still use the core taxonomy option to move and reorder terms via its dragg and drop interface.
 
 `composer require drupal/taxonomy_manager`<br>
 `drush en taxonomy_manager`
