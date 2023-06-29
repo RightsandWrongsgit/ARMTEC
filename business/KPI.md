@@ -1,7 +1,7 @@
 
 # Key Performance Indicators
 
-There are loads of things that are used as [key performance indicators for various functional elements of an organization.](https://kpiinstitute.org/wp-content/uploads/2014/04/The-KPI-Institute-KPI-training-infographic.jpg)  With apologizes to the psychologist, HR, management types who have found some way to wedge themselves into organizations, too much of this stuff fails to pass the test of contribution to actual performance.  What you fundamentally need is <font color=yellow>'CLARITY of Business Objectives'</font> and then to work through your organizational strucutre for how each role must acheive certain things to <font color=yellow>Accomplish their component contribution'</font> to the whole.
+There are loads of things that are used as [key performance indicators for various functional elements of an organization.](https://kpiinstitute.org/wp-content/uploads/2014/04/The-KPI-Institute-KPI-training-infographic.jpg)  With apologizes to the psychologist, HR, management types who have found some way to wedge themselves into organizations, too much of this stuff fails to pass the test of contribution to actual performance.  What you fundamentally need is <font color=yellow>'CLARITY of Business Objectives'</font> and then to work through your organizational structure for how each role must acheive certain things to <font color=yellow>Accomplish their component contribution'</font> to the whole.
 
 KPIs should be ...
 
