@@ -26,16 +26,26 @@ Lets take another step back toward focusing on the Product! Product decisions st
 
 If we look at the new product development process we see that a series of steps gives guidance.  We look to generate ideas for an opportunity and this might come from talking with consumers, from our R&D sefforts, from seeing a weakness in a competitive item.  There are companies whose [whole business is about ideation](https://www.sitsite.com/method/) and, of course, you can also contact ARMTEC, Inc. for more fully coordinated help in this area as well.
 
-You will also notice that the new product process has additional steps.  For a better understanding of Concept Generation you might think about it as framing the ideas with some perspective of [Potential and Structure](../business/potential.md) plus considerations of [Structure and Segments](../business/segmentation.md) to frame how the ideas might fit into a market.  You might also leverage [Need Gap](../business/needgap.md) research to see how the attributes you are considering in your product will fit the target users situation.   [Concept Development](../business/concept.md)
+You will also notice that the new product process has additional steps.  For a better understanding of Concept Generation you might think about it as framing the ideas with some perspective of [Potential and Structure](../business/potential.md) plus considerations of [Structure and Segments](../business/segmentation.md) to frame how the ideas might fit into a market.  You might also leverage [Need Gap](../business/needgap.md) research to see how the attributes you are considering in your product will fit the target users situation.   [Concept Development](../business/concept.md) and [Concept Testing](../business/conceptquestions.md) provide the 'how to' behind Concept or Project Evaluation, although the final step will be to [measure purchase intent on a priced concept.](../business/purchaseintent.md)
 
 <img src="../business/captures/coordinate4.png"  width="300">
 
+As you are search product ideas, it may help to consider the range of entry points.  New-to-the-world products can offer mega opportunities but also mega risk.  So if you find yourself in that space, definitely look for experienced help.  ARMTEC, Inc. has developed and launched just short of a dozen new products in a single year; all but one was a success.  You have someone better to turn to, go for it.  Don't forget, you can often be very successful with a new product entry that has key attributes that no one else is fulfilling and do great.  People think of Apple, Inc. as super novel but if you really break it down, they are fast followers into categories someone else opened but Apple did its homework on buyer needs and gaps to deliver novel solutions.
+
 <img src="../business/captures/coordinate3.png"  width="200">
 
+As you can detect, normal product/service development occurs in a stepwise sequence.  Most organizations aren't foolish enough to run the complete development of a product through R&D plus pilot lab production before they have done some basic testing at the concept level.  During that process they will typically define some sort of score level that they believe demonstrates preliminary success.  They probably will refine some attributes and/or the way they talk about them and watch for improvement in their measures.  We talked about some of these in the [Concept Testing](../business/conceptquestions.md) and [Purchase Intent measures,](../business/purchaseintent.md) but there are a lot more that we have used along the journey.
+
+Speaking of journey's, organizations which attempt to maintain a continuous stream of new product/service innovations actually also define the process itself.  These processes are variously called things like Stage-Gate flows; a generic example of that type of flow process is shown below.  You can probably do some of this yourself.  ARMTEC, Inc. can help you make such a flow your own so it fits well within existing processes and departments in your organization.  And if you want to go with the 'big boys' there is actually a company called [Stage-Gate](https://www.stage-gate.com/) who not only does this but will assign staff to work with you on an on-going basis to keep you tuned to an effective flow; having worked with them in the past, they do a nice job.
 
 <img src="../business/captures/coordinate6.png"  width="700">
 
+<br>
+<br>
+
 ## Price
+
+As noted earlier, marketing mix with the 4-P's considers Product, Price, Place, and Promotion.  Price plays such a uniquely important role to your success, that we will discuss it in a [separate section; jump there now!](../business/priceelasticity.md)
 
 <br>
 <br>
