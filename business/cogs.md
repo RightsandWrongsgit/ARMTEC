@@ -26,9 +26,11 @@ Lets take another step back toward focusing on the Product! Product decisions st
 
 If we look at the new product development process we see that a series of steps gives guidance.  We look to generate ideas for an opportunity and this might come from talking with consumers, from our R&D sefforts, from seeing a weakness in a competitive item.  There are companies whose [whole business is about ideation](https://www.sitsite.com/method/) and, of course, you can also contact ARMTEC, Inc. for more fully coordinated help in this area as well.
 
+<img src="../business/captures/coordinate4.png"  width="300">
+
 You will also notice that the new product process has additional steps.  For a better understanding of Concept Generation you might think about it as framing the ideas with some perspective of [Potential and Structure](../business/potential.md) plus considerations of [Structure and Segments](../business/segmentation.md) to frame how the ideas might fit into a market.  You might also leverage [Need Gap](../business/needgap.md) research to see how the attributes you are considering in your product will fit the target users situation.   [Concept Development](../business/concept.md) and [Concept Testing](../business/conceptquestions.md) provide the 'how to' behind Concept or Project Evaluation, although the final step will be to [measure purchase intent on a priced concept.](../business/purchaseintent.md)
 
-<img src="../business/captures/coordinate4.png"  width="300">
+<img src="../business/captures/coordinate6.png"  width="450">
 
 As you are search product ideas, it may help to consider the range of entry points.  New-to-the-world products can offer mega opportunities but also mega risk.  So if you find yourself in that space, definitely look for experienced help.  ARMTEC, Inc. has developed and launched just short of a dozen new products in a single year; all but one was a success.  You have someone better to turn to, go for it.  Don't forget, you can often be very successful with a new product entry that has key attributes that no one else is fulfilling and do great.  People think of Apple, Inc. as super novel but if you really break it down, they are fast followers into categories someone else opened but Apple did its homework on buyer needs and gaps to deliver novel solutions.
 
@@ -40,7 +42,6 @@ Speaking of journey's, organizations which attempt to maintain a continuous stre
 
 <img src="../business/captures/coordinate5.png"  width="700">
 
-<img src="../business/captures/coordinate6.png"  width="450">
 
 <br>
 <br>
