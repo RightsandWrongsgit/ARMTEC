@@ -30,7 +30,7 @@ You will also notice that the new product process has additional steps.  For a b
 
 <img src="../business/captures/coordinate4.png"  width="400">
 
-<img src="../business/captures/coordinate3.png"  width="400">
+<img src="../business/captures/coordinate3.png"  width="325">
 
 
 <img src="../business/captures/coordinate6.png"  width="700">
