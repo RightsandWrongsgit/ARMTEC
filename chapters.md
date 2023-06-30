@@ -6,6 +6,7 @@
 - [Route to Performance](business/overview.md)
 - [Business Models](business/models.md)
 - [Cost of Goods/Services](business/cogs.md)
+- [Product/Service](business/cogs.md#product-service)
 - [Advertising & Promotion](business/adpromo.md)
   - [A & P Summary](business/admathsummary.md)
   - [A & P Details](business/admath.md)
