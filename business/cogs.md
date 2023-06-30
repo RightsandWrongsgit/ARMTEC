@@ -28,9 +28,9 @@ If we look at the new product development process we see that a series of steps 
 
 You will also notice that the new product process has additional steps.  For a better understanding of Concept Generation you might think about it as framing the ideas with some perspective of [Potential and Structure](../business/potential.md) plus considerations of [Structure and Segments](../business/segmentation.md) to frame how the ideas might fit into a market.  You might also leverage [Need Gap](../business/needgap.md) research to see how the attributes you are considering in your product will fit the target users situation.   [Concept Development](../business/concept.md)
 
-<img src="../business/captures/coordinate4.png"  width="400">
+<img src="../business/captures/coordinate4.png"  width="300">
 
-<img src="../business/captures/coordinate3.png"  width="325">
+<img src="../business/captures/coordinate3.png"  width="200">
 
 
 <img src="../business/captures/coordinate6.png"  width="700">
