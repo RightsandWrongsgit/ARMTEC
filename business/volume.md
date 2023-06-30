@@ -55,9 +55,7 @@ Since you didn't fall off the turnip truck yesterday, you are one smart business
 You may need to obtain store traffic information along with your ACV distribution build tracking so you can account for this initial volume boost.  May be just a nice bonus override, but if you are also scaling your production to build and have limited inventory buffer, you need to chose your investment options wisely. 
 
 
-## Repeat Rate/Depth
-## Purchase Cycle
-## Sales Per Occassion
+## Repeat Rate/Depth/Cycle
 
 To scale volumes you are going to need to move past just the trial build to also layer in the <font color=yellow>repeat.</font>   This is where you consider what percent of those who tried the product purchase at repeat, how soon and how often, and how much.  Repeat Rate is the percent who buy again and you really measure this as a first, second, third, etc. repeat because the front-end percent dropped off and stabilizes.  Same with the how much at each of these repeats, there may be different patterns that emerge; could be they tried small amounts but more because they really liked it.  Could be less because they tried when you dropped a discount or coupon and they only stock up when they expect another discount.   The purchase cycle is the time in between purchases and it generally will stabilize toward true consumption rates over time; but may bounce around while you toy with in-store promotions early in launch.
 
