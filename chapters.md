@@ -7,6 +7,7 @@
 - [Business Models](business/models.md)
 - [Cost of Goods/Services](business/cogs.md)
 - [Product/Service](business/cogs.md#productservice)
+- [Volume Modeling](business/volume.md)
 - [Advertising & Promotion](business/adpromo.md)
   - [A & P Summary](business/admathsummary.md)
   - [A & P Details](business/admath.md)
