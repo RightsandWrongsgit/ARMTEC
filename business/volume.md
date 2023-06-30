@@ -79,6 +79,16 @@ The consumer counts translated to consumer takeaway under the store count, media
 
 As a side note, our modeling considers product availability or distribution [(ACV)](../business/glossary.md#--a--) to adjust volumes for our consumer's ability to find the product.  However, retailers themselves have their own perspective on the products on their shelves and it can be helpful to understand that.  Pretty much all retailers think about 'turns'; the number of times over a period of time that they sell the item taking up their space.  More turns, more money in their pocket.  But more sophisticated retailers translate that much further.  They are sort of like a real estate business.  So they want to understand the profit per linear or square foot.  That considers the size of the facings, depth of stock, profit per item, turns, and manufacturer concessions (and you thought you got those in-store promotions, slotting allowances, and free standing inserts out of the kindness or their hearts!).
 
+
+## Measures
+
+A good number of the measures described are very standard in the Food/Drug/Mass channel businesses.  Those businesses are heavily audited by panel data companies who you can turn to for service.  They are not only good at providing you with data but will guidance on interpreting and using it.
+
+
+<img src="../business/captures/volume4.png"  width="700">
+
+
+
 <br>
 <br>
 <br>
