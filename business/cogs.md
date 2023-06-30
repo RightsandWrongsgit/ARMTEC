@@ -38,7 +38,9 @@ As you can detect, normal product/service development occurs in a stepwise seque
 
 Speaking of journey's, organizations which attempt to maintain a continuous stream of new product/service innovations actually also define the process itself.  These processes are variously called things like Stage-Gate flows; a generic example of that type of flow process is shown below.  You can probably do some of this yourself.  ARMTEC, Inc. can help you make such a flow your own so it fits well within existing processes and departments in your organization.  And if you want to go with the 'big boys' there is actually a company called [Stage-Gate](https://www.stage-gate.com/) who not only does this but will assign staff to work with you on an on-going basis to keep you tuned to an effective flow; having worked with them in the past, they do a nice job.
 
-<img src="../business/captures/coordinate6.png"  width="700">
+<img src="../business/captures/coordinate5.png"  width="700">
+
+<img src="../business/captures/coordinate6.png"  width="450">
 
 <br>
 <br>
