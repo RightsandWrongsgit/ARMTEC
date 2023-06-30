@@ -22,16 +22,18 @@ That's great.  However, it is too overwhelming to start out.  So lets think abou
 
 Lets take another step back toward focusing on the Product! Product decisions start by consideing the 'attributes'.  Start with thinking about the attributes as 'features' but don't stop there.  Remember that often times you really sell the benefits of yoyur product rather than its technical features; more on that under [Value Laddering.](../business/ladder.md)
 
-<img src="../business/captures/coordinate2.png"  width="700">
+<img src="../business/captures/coordinate2.png"  width="400">
 
 If we look at the new product development process we see that a series of steps gives guidance.  We look to generate ideas for an opportunity and this might come from talking with consumers, from our R&D sefforts, from seeing a weakness in a competitive item.  There are companies whose [whole business is about ideation](https://www.sitsite.com/method/) and, of course, you can also contact ARMTEC, Inc. for more fully coordinated help in this area as well.
 
 You will also notice that the new product process has additional steps.  For a better understanding of Concept Generation you might think about it as framing the ideas with some perspective of [Potential and Structure](../business/potential.md) plus considerations of [Structure and Segments](../business/segmentation.md) to frame how the ideas might fit into a market.  You might also leverage [Need Gap](../business/needgap.md) research to see how the attributes you are considering in your product will fit the target users situation.   [Concept Development](../business/concept.md)
 
-<img src="../business/captures/coordinate4.png"  width="700">
+<img src="../business/captures/coordinate4.png"  width="400">
 
-<img src="../business/captures/coordinate3.png"  width="700">
+<img src="../business/captures/coordinate3.png"  width="400">
 
+
+<img src="../business/captures/coordinate6.png"  width="700">
 
 ## Price
 
