@@ -24,7 +24,7 @@ Lets take another step back toward focusing on the Product! Product decisions st
 
 <img src="../business/captures/coordinate2.png"  width="400">
 
-If we look at the new product development process we see that a series of steps gives guidance.  We look to generate ideas for an opportunity and this might come from talking with consumers, from our R&D sefforts, from seeing a weakness in a competitive item.  There are companies whose [whole business is about ideation](https://www.sitsite.com/method/) and, of course, you can also contact ARMTEC, Inc. for more fully coordinated help in this area as well.
+If we look at the new product development process we see that a series of steps gives guidance.  We look to generate ideas for an opportunity and this might come from talking with consumers, from our R&D efforts, from seeing a weakness in a competitive item.  There are companies whose [whole business is about ideation](https://www.sitsite.com/method/) and, of course, you can also contact ARMTEC, Inc. for more fully coordinated help in this area as well.
 
 <img src="../business/captures/coordinate4.png"  width="300">
 
