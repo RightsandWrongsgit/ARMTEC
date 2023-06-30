@@ -34,7 +34,7 @@ Even the Idea Process can be broken down into further steps. The people who advo
 
 <img src="../business/captures/coordinate6.png"  width="450">
 
-As you are search product ideas, it may help to consider the range of entry points.  New-to-the-world products can offer mega opportunities but also mega risk.  So if you find yourself in that space, definitely look for experienced help.  ARMTEC, Inc. has developed and launched just short of a dozen new products in a single year; all but one was a success.  You have someone better to turn to, go for it.  Don't forget, you can often be very successful with a new product entry that has key attributes that no one else is fulfilling and do great.  People think of Apple, Inc. as super novel but if you really break it down, they are fast followers into categories someone else opened but Apple did its homework on buyer needs and gaps to deliver novel solutions.
+As you are search product ideas, it may help to consider the range of entry points.  New-to-the-world products can offer mega opportunities but also mega risk.  So if you find yourself in that space, definitely look for experienced help.  ARMTEC, Inc. has developed and launched just short of a dozen and a half new products in a single year; all but one was a success.  You have someone better to turn to, go for it.  Don't forget, you can often be very successful with a new product entry that has key attributes that no one else is fulfilling and do great.  People think of Apple, Inc. as super novel but if you really break it down, they are fast followers into categories someone else opened but Apple did its homework on buyer needs and gaps to deliver novel solutions.
 
 <img src="../business/captures/coordinate3.png"  width="200">
 
