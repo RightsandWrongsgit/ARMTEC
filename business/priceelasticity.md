@@ -1,7 +1,7 @@
 
 # Price & Elasticity
 
-Pricing is one of the four marketing mix factors. The other three are product, promotion, and place (distribution).  Price is considered such a powerful choice influence that it is an underpinning of [microeconomic price allocation theory](https://en.wikipedia.org/wiki/Microeconomics).  Just how powerful price is in any given situation is what is behind the [Price Elasticity of Demand.](https://en.wikipedia.org/wiki/Price_elasticity_of_demand  This is a fancy way to say that as you drop price you will sell more and as you raise price you will sell less; but in your real world you want to know the "how much more or less" part of that answer so you can model out the best price to use.
+Pricing is one of the four marketing mix factors. The other three are product, promotion, and place (distribution).  Price is considered such a powerful choice influence that it is an underpinning of [microeconomic price allocation theory](https://en.wikipedia.org/wiki/Microeconomics).  Just how powerful price is in any given situation is what is behind the [Price Elasticity of Demand.](https://en.wikipedia.org/wiki/Price_elasticity_of_demand)  This is a fancy way to say that as you drop price you will sell more and as you raise price you will sell less; but in your real world you want to know the "how much more or less" part of that answer so you can model out the best price to use.
 
 
 ## More than Research
