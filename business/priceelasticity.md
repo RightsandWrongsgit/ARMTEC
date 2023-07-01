@@ -99,10 +99,10 @@ The answer to that question depends on just how much more valuable yours is.  Do
 
 The [van Westendorp](https://www.forbes.com/sites/rebeccasadwick/2020/06/22/how-to-price-products/?sh=3864be4455c7) method of price research is straightforward in simply asking...
 
--- At what price would you consider the product to be so expensive that you would not consider buying it? 
--- At what price would you consider the product to be priced so low that you would feel the quality cannot be very good? 
--- At what price would you consider the product starting to get expensive, so that it is not out of the question, but you would have to give some thought to buying it? 
--- At what price would you consider the product to be a bargain - a great buy for the money? 
+-- At what price would you consider the product to be so expensive that you would not consider buying it? <br>
+-- At what price would you consider the product to be priced so low that you would feel the quality cannot be very good?<br>
+-- At what price would you consider the product starting to get expensive, so that it is not out of the question, but you would have to give some thought to buying it? <br>
+-- At what price would you consider the product to be a bargain - a great buy for the money? <br>
 
 These questions are straightforward enough you may be able to figure out how to set up your own research using one of those online survey research systems.  You probably should go through the effort of including some other important stuff as long as you are doing a survey.  If you need help, contact ARMTEC, Inc. for a consultation at whatever depth you want.  When you collect the data, you need to crunch the number and interpret it.  Luckily, there is a fellow named Matej Luptak that published a wonderful ['how to' using Excel](https://themaykin.com/blog/a-complete-guide-to-van-westendorp-how-to-graph-it-in-excel) that produces the output in the graph below:
 
