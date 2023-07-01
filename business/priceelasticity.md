@@ -65,17 +65,17 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
                     ◦  [Price Discrimination and Yield Management](https://competera.net/resources/glossary/yield-management-pricing#:~:text=Yield%20management%20has%20been%20used,tool%20used%20in%20various%20industries.) - is the sort of pricing you see used by the airlines.  Different people have differing willingness to pay and the airline has a perishable good in unfilled seats; so they start offering seats at different prices given the very specific demand they are observing. 
                     ◦ [Premium or prestige pricing)](https://www.indeed.com/career-advice/career-development/prestige-pricing) is the strategy of pricing at the high end of the range. High price is used as a signal of quality and appeals to ego self worth of a buyer.  It requires flawless performance but is a fix with a luxury brand promise that is being kept at every touchpoint. 
 
-Ask if…
-        ◦ prices should change by geographical area? 
-        ◦ If there should be quantity discounts? 
-        ◦ If the sort of payment used should be priced differently? (cash, cheque, credit card)
-        ◦ If you should Mirror or Beat prices competitors charging? 
-        ◦ If your communication and distribution approach will allow real-time pricing? 
-        ◦ If there are legal/regulatory/contractual restrictions to how you price? 
-        ◦ If the price action you take is likely to trigger a price war?
-        ◦ If you need to coordinate any joint product pricing considerations? 
-              
-        ◦ 
+Ask if…<br>
+        ◦ prices should change by geographical area? <br>
+        ◦ If there should be quantity discounts? <br>
+        ◦ If the sort of payment used should be priced differently? (cash, cheque, credit card)<br>
+        ◦ If you should Mirror or Beat prices competitors charging? <br>
+        ◦ If your communication and distribution approach will allow real-time pricing? <br>
+        ◦ If there are legal/regulatory/contractual restrictions to how you price? <br>
+        ◦ If the price action you take is likely to trigger a price war?<br>
+        ◦ If you need to coordinate any joint product pricing considerations? <br>
+<br>
+<br>
 ## Pricing Research
 
 Some methods of figure out pricing your product or service are rocket science like.  Before we go there, lets start with the more basic ones to see if they will do the job your your situation.  As we look at them we will disclose their warts so you have an idea if their limitation(s) are meaningful to your situation.
