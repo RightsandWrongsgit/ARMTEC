@@ -16,31 +16,33 @@ To use your understanding of price-volume wisely you really need to fit it into 
 
 Pricing strategy really starts with your pricing objectives.  In preparing your over all plan have you considered:
 
-    • The overall objectives of the company. Is it to...
-    • maximize long-run profit 
-    • maximize short-run profit 
-    • increase sales quantity 
-    • increase dollar sales 
-    • increase market share 
-    • obtain a target ROI
-    • stabilize market or stabilize market price 
-    • demonstrate company growth 
+<font bold color=red> The overall objectives of the company. Is it to...</font><br>
+    • maximize long-run profit<br>
+    • maximize short-run profit<br>
+    • increase sales quantity<br>
+    • increase dollar sales<br>
+    • increase market share<br>
+    • obtain a target ROI<br>
+    • stabilize market or stabilize market price<br>
+    • demonstrate company growth<br>
+<br>
+<font bold color=red> The objectives of your product or brand</font><br>
+    • motivate distributors and other sales personnel<br>
+    • enhance brand image<br>
+    • generate trial<br>
+    • discourage competitors<br>
+    • build store traffic<br>
+    • harvest profits<br>
+    • maintain price leadership<br>
+    • desensitize customers to price<br>
+    • discourage new entrants into the industry<br>
+    • match competitors prices<br>
 
-    • The objectives of your product or brand
-    • motivate distributors and other sales personnel 
-    • enhance brand image 
-    • generate trial
-    • discourage competitors
-    • build store traffic 
-    • harvest profits
-    • maintain price leadership 
-    • desensitize customers to price 
-    • discourage new entrants into the industry 
-    • match competitors prices 
+<font bold color=red>* Buyer price elasticity</font><br>
 
-    • Buyer price elasticity 
+<br>
+<br>
 
-        ◦ 
 Price strategy considers the interplay of many factors in the marketing mix; promotion being one example.  Your research may have guided expected response.  Your modeling of factors into economic optimization is the translation of your strategy into a combination of tactics.  Rough out a model of what you plan to do and drop in your best guess assumptions.  After you have the model draft in place, you can tweak the various assumptions and see which are really seeming to have an impact.  It is those, where your best guess should be replaced with specific research; but look at it this way, you have pretty clear research objectives doing it this way and your research guides will be much more productive. 
 
 ## Price Tactics
