@@ -59,7 +59,7 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
 <font bold color=goldenrod>▪ Price-Volume based tactics leverage pricing tactics of consumer demand to your advantage.</font><br>
 
 <font bold color=palegoldenrod>
-◦ [Penetration Pricing](https://www.investopedia.com/terms/p/penetration-pricing.asp) is typically used for Trial Acceleration – discounting at launch to gain volume quickly.<br>
+- [Penetration Pricing](https://www.investopedia.com/terms/p/penetration-pricing.asp) is typically used for Trial Acceleration – discounting at launch to gain volume quickly.<br>
 
 ◦ [Loss Leader Pricing](https://www.investopedia.com/terms/l/lossleader.asp) – may be the ultimate in Penetration Pricing where you actually sell below cost; at least fully allocated cost as variable cost isn't sustainable long other than short trial acceleration.<br>
 ◦ [Bogo & Related](https://happypoints.io/blog/top-optimal-solutions-to-implement-bogo-strategy-c1-sa-160/#:~:text=A%20BOGO%20strategy%20is%20to,item%20at%20a%20full%20price.) - is one type of discounting that might be used to generate trial or goose up retailer satisfaction with a brand by offering more units for a lower per unit price.<br>
