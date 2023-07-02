@@ -79,14 +79,14 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
 
 <font bold color=goldenrod> When crafting your Pricing Strategy and Tactics, Ask if…</font><br>
 <font bold color=palegoldenrod>
-- prices should change by geographical area?<br>
-- there should be quantity discounts?<br>
-- the sort of payment used should be priced differently?<br>
-- you should Mirror or Beat prices competitors charging?<br>
-- your communication and distribution approach allows real-time pricing?<br>
-- there are legal/regulatory/contractual restrictions to how you price? <br>
-- the price action you take is likely to trigger a price war?<br>
-- you need to coordinate any joint product pricing considerations? </font><br>
+  -- prices should change by geographical area?<br>
+  -- there should be quantity discounts?<br>
+  -- the sort of payment used should be priced differently?<br>
+  -- you should Mirror or Beat prices competitors charging?<br>
+  -- your communication and distribution approach allows real-time pricing?<br>
+  -- there are legal/regulatory/contractual restrictions to how you price? <br>
+  -- the price action you take is likely to trigger a price war?<br>
+  -- you need to coordinate any joint product pricing considerations? </font><br>
 
 <br>
 
