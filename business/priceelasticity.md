@@ -77,6 +77,7 @@ Ask if…<br>
 
 <br>
 <br>
+
 ## Pricing Research
 
 Some methods of figure out pricing your product or service are rocket science like.  Before we go there, lets start with the more basic ones to see if they will do the job your your situation.  As we look at them we will disclose their warts so you have an idea if their limitation(s) are meaningful to your situation.
