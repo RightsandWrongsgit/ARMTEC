@@ -48,15 +48,18 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
 
 It is nice to say you need to have a strategic plan with price tactics and associated assumptions.  However, it might be nice if we were a little more explicit in what sort of strategy and tactic approaches to consider.
 
-<font bold color=goldenrod>▪ Fitting price in with the other marketing mix factors is key.</font> 
-<font bold color=palegoldenrod>◦ Where costs to manufacture, distribution, and promote the product you are likely to have a higher price.</font>
-<font bold color=palegoldenrod>◦ Where you are limiting product quality, where your distributors selling effort get your product in the face of the end-users with limited cost and effort, you may find low price aligns with the other marketing mix factors. But understanding price elasticity among your buyer may leave you plenty of room to charge more.,/font>
+<font bold color=goldenrod>▪ Fitting price in with the other marketing mix factors is key.</font><br> 
+<font bold color=palegoldenrod>◦ Where costs to manufacture, distribution, and promote the product you are likely to have a higher price.</font><br>
+<font bold color=palegoldenrod>◦ Where you are limiting product quality, where your distributors selling effort get your product in the face of the end-users with limited cost and effort, you may find low price aligns with the other marketing mix factors. But understanding price elasticity among your buyer may leave you plenty of room to charge more.</font><br>
 
-<font bold color=goldenrod>▪ Nail down your price floor.</font><font bold color=palegoldenrod>Determine production factors like costs, understand variable costs, know your economies of scale, understand marginal cost, and degree of operating leverage.</font> 
+<font bold color=goldenrod>▪ Nail down your price floor.</font><font bold color=palegoldenrod> Determine production factors like costs, understand variable costs, know your economies of scale, understand marginal cost, and degree of operating leverage.</font><br> 
 
-<font bold color=goldenrod>▪  Most basic is to challenge the assumption you are even going to use price as a marketing mix tactical factor.</font><font bold color=palegoldenrod>It is most common to do so but not mandatory it is a foot forward factor.  How visible do you want the price be? - Is price neutral? Not important in differentiating you offer., or is it highly visible?  Perhaps you are selling a commodity and promoting a low price is about all you have?</font>
+<font bold color=goldenrod>▪  Most basic is to challenge the assumption you are even going to use price as a marketing mix tactical factor.</font><font bold color=palegoldenrod> It is most common to do so but not mandatory it is a foot forward factor.  How visible do you want the price be? - Is price neutral? Not important in differentiating you offer., or is it highly visible?  Perhaps you are selling a commodity and promoting a low price is about all you have?</font><br>
 
-<font bold color=goldenrod>▪ Price-Volume based tactics leverage pricing tactics of consumer demand to your advantage.</font><br><font bold color=palegoldenrod>◦ [Penetration Pricing](https://www.investopedia.com/terms/p/penetration-pricing.asp) is typically used for Trial Acceleration – discounting at launch to gain volume quickly.<br>
+<font bold color=goldenrod>▪ Price-Volume based tactics leverage pricing tactics of consumer demand to your advantage.</font><br>
+
+<font bold color=palegoldenrod>
+◦ [Penetration Pricing](https://www.investopedia.com/terms/p/penetration-pricing.asp) is typically used for Trial Acceleration – discounting at launch to gain volume quickly.<br>
 
 ◦ [Loss Leader Pricing](https://www.investopedia.com/terms/l/lossleader.asp) – may be the ultimate in Penetration Pricing where you actually sell below cost; at least fully allocated cost as variable cost isn't sustainable long other than short trial acceleration.<br>
 ◦ [Bogo & Related](https://happypoints.io/blog/top-optimal-solutions-to-implement-bogo-strategy-c1-sa-160/#:~:text=A%20BOGO%20strategy%20is%20to,item%20at%20a%20full%20price.) - is one type of discounting that might be used to generate trial or goose up retailer satisfaction with a brand by offering more units for a lower per unit price.<br>
@@ -73,6 +76,7 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
 
 ◦ [Premium or prestige pricing)](https://www.indeed.com/career-advice/career-development/prestige-pricing) is the strategy of pricing at the high end of the range. High price is used as a signal of quality and appeals to ego self worth of a buyer.  It requires flawless performance but is a fix with a luxury brand promise that is being kept at every touchpoint.</font><br> 
 
+<br>
 --- --- ---
 Ask if…<br>
 ◦ prices should change by geographical area?<br>
