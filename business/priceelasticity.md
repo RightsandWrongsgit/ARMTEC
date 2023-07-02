@@ -127,7 +127,7 @@ These questions are straightforward enough you may be able to figure out how to 
 
 <img src="../business/captures/price1.png"  width="600">
 
-There are some issues with the van Westendorp approach.  One of the biggest is that it isn't very good for new products; more so new-to-the world, but the more novel or unique the less the people who answer have good enough context about the product to answer knowledgable.  However, it could be that you might want to start with this simple approach to sort of 'bracket' where you might be on price and then use one of the more advanced methods to refine price within more specific attribute messaging and purchase contexts.
+There are some issues with the van Westendorp approach.  One of the biggest is that it isn't very good for new products; more so new-to-the world, but the more novel or unique the less the people who respond to the survey have sufficient context about the product to answer knowledgable.  However, it could be that you might want to start with this simple approach to sort of 'bracket' where you might be on price and then use one of the more advanced methods to refine price within more specific attribute messaging and purchase contexts.
 
 <br>
 
