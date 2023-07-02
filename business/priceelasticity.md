@@ -26,7 +26,7 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
     • stabilize market or stabilize market price<br>
     • demonstrate company growth<br>
 <br>
-<font bold color=red> The objectives of your product or brand</font><br>
+<font bold color=red> The objectives of your product or brand...</font><br>
     • motivate distributors and other sales personnel<br>
     • enhance brand image<br>
     • generate trial<br>
@@ -38,7 +38,7 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
     • discourage new entrants into the industry<br>
     • match competitors prices<br>
 
-<font bold color=red>* Buyer price elasticity</font><br>
+<font bold color=red>* Buyer price elasticity...</font><br>
 
 <br>
 <br>
