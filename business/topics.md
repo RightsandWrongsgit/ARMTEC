@@ -1,4 +1,6 @@
 
+# Topic to Expand
+
 ## Business
 
 - Digital Assets Development & Placement
@@ -19,7 +21,6 @@
 - Message Persuasion Power by Segment
 - Branding 
 - Revenue to A&P
-- Price Elasticity
 - Margin Management
 - COGS to feature impact on purchase/retention
 - Channel Management
