@@ -18,7 +18,8 @@ Price strategy considers the interplay of many factors in the marketing mix; pro
 
 Pricing strategy really starts with your pricing objectives.  In preparing your over all plan have you considered:
 
-<font bold color=red> The overall objectives of the company. Is it to...</font><br>
+<font bold color=red> The overall objectives of the company. Is it to...</font>
+
 <font color=MistyRose>
     • maximize long-run profit<br>
     • maximize short-run profit<br>
@@ -29,7 +30,8 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
     • stabilize market or stabilize market price<br>
     • demonstrate company growth</font><br>
 <br>
-<font bold color=red> The objectives of your product or brand...</font><br>
+<font bold color=red> The objectives of your product or brand...</font>
+
 <font color=MistyRose>
     • motivate distributors and other sales personnel<br>
     • enhance brand image<br>
@@ -44,6 +46,7 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
 
 <font bold color=red>* Buyer price elasticity...</font><br>
 
+<br>
 
 ## Price Tactics
 
@@ -79,16 +82,16 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
 
 <br>
 
-<font bold color=goldenrod> When crafting your Pricing Strategy and Tactics, Ask if…</font>
+<font bold color=goldenrod> When crafting your Pricing Strategy and Tactics, Ask if…</font><br>
 <font bold color=palegoldenrod>
--- prices should change by geographical area?<br>
--- there should be quantity discounts?<br>
--- the sort of payment used should be priced differently?<br>
--- you should Mirror or Beat prices competitors charging?<br>
--- your communication and distribution approach allows real-time pricing?<br>
--- there are legal/regulatory/contractual restrictions to how you price? <br>
--- the price action you take is likely to trigger a price war?<br>
--- you need to coordinate any joint product pricing considerations? </font><br>
+--  prices should change by geographical area?<br>
+--  there should be quantity discounts?<br>
+--  the sort of payment used should be priced differently?<br>
+--  you should Mirror or Beat prices competitors charging?<br>
+--  your communication and distribution approach allows real-time pricing?<br>
+--  there are legal/regulatory/contractual restrictions to how you price? <br>
+--  the price action you take is likely to trigger a price war?<br>
+--  you need to coordinate any joint product pricing considerations? </font><br>
 
 <br>
 
