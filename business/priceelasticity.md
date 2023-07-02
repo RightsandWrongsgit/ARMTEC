@@ -18,9 +18,7 @@ Price strategy considers the interplay of many factors in the marketing mix; pro
 
 Pricing strategy really starts with your pricing objectives.  In preparing your over all plan have you considered:
 
-<font bold color=red> The overall objectives of the company. Is it to...</font>
-
-<font color=MistyRose>
+<font bold color=red> The overall objectives of the company. Is it to...</font><br><font color=MistyRose>
     • maximize long-run profit<br>
     • maximize short-run profit<br>
     • increase sales quantity<br>
@@ -30,9 +28,7 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
     • stabilize market or stabilize market price<br>
     • demonstrate company growth</font><br>
 <br>
-<font bold color=red> The objectives of your product or brand...</font>
-
-<font color=MistyRose>
+<font bold color=red> The objectives of your product or brand...</font><br><font color=MistyRose>
     • motivate distributors and other sales personnel<br>
     • enhance brand image<br>
     • generate trial<br>
@@ -82,8 +78,7 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
 
 <br>
 
-<font bold color=goldenrod> When crafting your Pricing Strategy and Tactics, Ask if…</font><br>
-<font bold color=palegoldenrod>
+<font bold color=goldenrod> When crafting your Pricing Strategy and Tactics, Ask if…</font><br><font bold color=palegoldenrod>
 --  prices should change by geographical area?<br>
 --  there should be quantity discounts?<br>
 --  the sort of payment used should be priced differently?<br>
