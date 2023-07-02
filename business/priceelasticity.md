@@ -48,15 +48,15 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
 
 It is nice to say you need to have a strategic plan with price tactics and associated assumptions.  However, it might be nice if we were a little more explicit in what sort of strategy and tactic approaches to consider.
 
-<font bold color=light green>▪ Fitting price in with the other marketing mix factors is key. 
+<font bold color=goldenrod>▪ Fitting price in with the other marketing mix factors is key.</font> 
 ◦ Where costs to manufacture, distribution, and promote the product you are likely to have a higher price.
 ◦ Where you are limiting product quality, where your distributors selling effort get your product in the face of the end-users with limited cost and effort, you may find low price aligns with the other marketing mix factors. But understanding price elasticity among your buyer may leave you plenty of room to charge more.
 
-<font bold color=green>▪ Nail down your price floor.  Determine production factors like costs, understand variable costs, know your economies of scale, understand marginal cost, and degree of operating leverage. 
-<font bold color=green>▪  Most basic is to challenge the assumption you are even going to use price as a marketing mix tactical factor.  It is most common to do so but not mandatory it is a foot forward factor.  How visible do you want the price be? - Is price neutral? Not important in differentiating you offer., or is it highly visible?  Perhaps you are selling a commodity and promoting a low price is about all you have?
+<font bold color=goldenrod>▪ Nail down your price floor.</font> Determine production factors like costs, understand variable costs, know your economies of scale, understand marginal cost, and degree of operating leverage. 
 
-<font bold color=green>▪ Price-Volume based tactics leverage pricing tactics of consumer demand to your advantage.
-                    ◦ [Penetration Pricing](https://www.investopedia.com/terms/p/penetration-pricing.asp) is typically used for Trial Acceleration – discounting at launch to gain volume quickly
+<font bold color=goldenrod>▪  Most basic is to challenge the assumption you are even going to use price as a marketing mix tactical factor.</font> It is most common to do so but not mandatory it is a foot forward factor.  How visible do you want the price be? - Is price neutral? Not important in differentiating you offer., or is it highly visible?  Perhaps you are selling a commodity and promoting a low price is about all you have?
+
+<font bold color=goldenrod>▪ Price-Volume based tactics leverage pricing tactics of consumer demand to your advantage.</font>                    ◦ [Penetration Pricing](https://www.investopedia.com/terms/p/penetration-pricing.asp) is typically used for Trial Acceleration – discounting at launch to gain volume quickly
                     ◦ [Loss Leader Pricing](https://www.investopedia.com/terms/l/lossleader.asp) – may be the ultimate in Penetration Pricing where you actually sell below cost; at least fully allocated cost as variable cost isn't sustainable long other than short trial acceleration.
                     ◦ [Bogo & Related](https://happypoints.io/blog/top-optimal-solutions-to-implement-bogo-strategy-c1-sa-160/#:~:text=A%20BOGO%20strategy%20is%20to,item%20at%20a%20full%20price.) - is one type of discounting that might be used to generate trial or goose up retailer satisfaction with a brand by offering more units for a lower per unit price.
                     ◦ [Price Skimming](https://www.coursera.org/articles/skim-pricing) – discounting at the risk or point of a competitive product entry to block their success. This can be very effective if you know that in many categories of products there is an 18-24 month breakeven period from launch and you can make staying in the game painful for new entrants. 
