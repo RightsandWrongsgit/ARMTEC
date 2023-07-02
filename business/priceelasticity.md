@@ -66,14 +66,15 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
                     ◦ [Premium or prestige pricing)](https://www.indeed.com/career-advice/career-development/prestige-pricing) is the strategy of pricing at the high end of the range. High price is used as a signal of quality and appeals to ego self worth of a buyer.  It requires flawless performance but is a fix with a luxury brand promise that is being kept at every touchpoint. 
 
 Ask if…<br>
-        ◦ prices should change by geographical area? <br>
-        ◦ If there should be quantity discounts? <br>
-        ◦ If the sort of payment used should be priced differently? (cash, cheque, credit card)<br>
-        ◦ If you should Mirror or Beat prices competitors charging? <br>
-        ◦ If your communication and distribution approach will allow real-time pricing? <br>
-        ◦ If there are legal/regulatory/contractual restrictions to how you price? <br>
-        ◦ If the price action you take is likely to trigger a price war?<br>
-        ◦ If you need to coordinate any joint product pricing considerations? <br>
+&nbsp;◦ prices should change by geographical area? <br>
+&nbsp;◦ If there should be quantity discounts? <br>
+&nbsp;◦ If the sort of payment used should be priced differently? (cash, cheque, credit card)<br>
+&nbsp;◦ If you should Mirror or Beat prices competitors charging? <br>
+&nbsp;◦ If your communication and distribution approach will allow real-time pricing? <br>
+&nbsp;◦ If there are legal/regulatory/contractual restrictions to how you price? <br>
+&nbsp;◦ If the price action you take is likely to trigger a price war?<br>
+&nbsp;◦ If you need to coordinate any joint product pricing considerations? <br>
+
 <br>
 <br>
 ## Pricing Research
