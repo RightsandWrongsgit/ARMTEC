@@ -7,6 +7,7 @@
 - [Business Models](business/models.md)
 - [Cost of Goods/Services](business/cogs.md)
 - [Product/Service](business/cogs.md#productservice)
+- [Price Strategy](business/priceelasticity.md)
 - [Volume Modeling](business/volume.md)
 - [Advertising & Promotion](business/adpromo.md)
   - [A & P Summary](business/admathsummary.md)
@@ -30,6 +31,7 @@
 - [Concept Development](business/concept.md)
 - [Concept Scoring](business/conceptquestions.md)
 - [Purchase Intent](business/purchaseintent.md)
+- [Pricing Research](business/priceelasticity.md#pricing-research)
 - [Claims](business/claims.md)
 
 - [Topics to include](business/topics.md)
