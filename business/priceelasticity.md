@@ -42,6 +42,8 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
 
 <font bold color=red>* Buyer price elasticity...</font><br>
 
+<br>
+
 ## Price Tactics
 
 It is nice to say you need to have a strategic plan with price tactics and associated assumptions.  However, it might be nice if we were a little more explicit in what sort of strategy and tactic approaches to consider.
@@ -67,9 +69,9 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
 Ask if…<br>
 ◦ prices should change by geographical area?<br>
 ◦ there should be quantity discounts?<br>
-◦ the sort of payment used should be priced differently? (cash, cheque, credit card)<br>
-◦ you should Mirror or Beat prices competitors charging? <br>
-◦ your communication and distribution approach will allow real-time pricing? <br>
+◦ the sort of payment used should be priced differently?<br>
+◦ you should Mirror or Beat prices competitors charging?<br>
+◦ your communication and distribution approach allows real-time pricing?<br>
 ◦ there are legal/regulatory/contractual restrictions to how you price? <br>
 ◦ the price action you take is likely to trigger a price war?<br>
 ◦ you need to coordinate any joint product pricing considerations? <br>
