@@ -54,7 +54,7 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
 
 <font bold color=goldenrod>▪ Nail down your price floor.</font><font bold color=palegoldenrod> Determine production factors like costs, understand variable costs, know your economies of scale, understand marginal cost, and degree of operating leverage.</font><br> 
 
-<font bold color=goldenrod>▪  Most basic is to challenge the assumption you are even going to use price as a marketing mix tactical factor.</font><font bold color=palegoldenrod> It is most common to do so but not mandatory it is a foot forward factor.  How visible do you want the price be? - Is price neutral? Not important in differentiating you offer., or is it highly visible?  Perhaps you are selling a commodity and promoting a low price is about all you have?</font><br>
+<font bold color=goldenrod>▪  Most basic is to challenge the assumption you are even going to use price as a marketing mix tactical factor.</font><font bold color=palegoldenrod> It is most common to do so but not mandatory as a forward factor.  How visible do you want the price to be? - Is price neutral? Not important in differentiating your offer, or is it highly visible?  Perhaps you are selling a commodity and promoting a low price is about all you have?</font><br>
 
 <font bold color=goldenrod>▪ Price-Volume based tactics leverage price elasticity of consumer demand to your advantage.</font>
 
