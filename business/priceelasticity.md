@@ -42,22 +42,20 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
 
 <font bold color=red>* Buyer price elasticity...</font><br>
 
-<br>
 
 ## Price Tactics
 
 It is nice to say you need to have a strategic plan with price tactics and associated assumptions.  However, it might be nice if we were a little more explicit in what sort of strategy and tactic approaches to consider.
 
-<font bold color=goldenrod>▪ Fitting price in with the other marketing mix factors is key.</font><br> 
-- <font bold color=palegoldenrod>◦ Where costs to manufacture, distribution, and promote the product you are likely to have a higher price.</font><br>
-- <font bold color=palegoldenrod>◦ Where you are limiting product quality, where your distributors selling effort get your product in the face of the end-users with limited cost and effort, you may find low price aligns with the other marketing mix factors. But understanding price elasticity among your buyer may leave you plenty of room to charge more.</font><br>
+<font bold color=goldenrod>▪ Fitting price in with the other marketing mix factors is key.</font> 
+- <font bold color=palegoldenrod> Where costs to manufacture, distribution, and promote the product you are likely to have a higher price.</font>
+- <font bold color=palegoldenrod> Where you are limiting product quality, where your distributors selling effort get your product in the face of the end-users with limited cost and effort, you may find low price aligns with the other marketing mix factors. But understanding price elasticity among your buyer may leave you plenty of room to charge more.</font><br>
 
 <font bold color=goldenrod>▪ Nail down your price floor.</font><font bold color=palegoldenrod> Determine production factors like costs, understand variable costs, know your economies of scale, understand marginal cost, and degree of operating leverage.</font><br> 
 
 <font bold color=goldenrod>▪  Most basic is to challenge the assumption you are even going to use price as a marketing mix tactical factor.</font><font bold color=palegoldenrod> It is most common to do so but not mandatory it is a foot forward factor.  How visible do you want the price be? - Is price neutral? Not important in differentiating you offer., or is it highly visible?  Perhaps you are selling a commodity and promoting a low price is about all you have?</font><br>
 
 <font bold color=goldenrod>▪ Price-Volume based tactics leverage price elasticity of consumer demand to your advantage.</font><br>
-
 
 - [Penetration Pricing](https://www.investopedia.com/terms/p/penetration-pricing.asp)<font bold color=palegoldenrod> - is typically used for Trial Acceleration – discounting at launch to gain volume quickly.</font><br>
   
@@ -81,21 +79,22 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
 
 <font bold color=goldenrod> When crafting your Pricing Strategy and Tactics, Ask if…</font><br>
 <font bold color=palegoldenrod>
-◦ prices should change by geographical area?<br>
-◦ there should be quantity discounts?<br>
-◦ the sort of payment used should be priced differently?<br>
-◦ you should Mirror or Beat prices competitors charging?<br>
-◦ your communication and distribution approach allows real-time pricing?<br>
-◦ there are legal/regulatory/contractual restrictions to how you price? <br>
-◦ the price action you take is likely to trigger a price war?<br>
-◦ you need to coordinate any joint product pricing considerations? </font><br>
+- prices should change by geographical area?<br>
+- there should be quantity discounts?<br>
+- the sort of payment used should be priced differently?<br>
+- you should Mirror or Beat prices competitors charging?<br>
+- your communication and distribution approach allows real-time pricing?<br>
+- there are legal/regulatory/contractual restrictions to how you price? <br>
+- the price action you take is likely to trigger a price war?<br>
+- you need to coordinate any joint product pricing considerations? </font><br>
 
-<br>
 <br>
 
 ## Pricing Research
 
 Some methods of figure out pricing your product or service are rocket science like.  Before we go there, lets start with the more basic ones to see if they will do the job your your situation.  As we look at them we will disclose their warts so you have an idea if their limitation(s) are meaningful to your situation.
+
+<br>
 
 ### Cost-plus
 
@@ -103,10 +102,13 @@ The most basic approach is to just 'cover your costs' plus some profit percent a
 
 If what you are selling is a commodity with little specific advantage to what your version has, that basic cost-plus approach might be a starting point.   You probably will find some competitor quickly offering some lower set of numbers so that they can attract buyers away from you.  You might go into your costs of creating yours to look for ways to make it more cheaply so that you can lower your price and maintain your profit.  The competitor will probably respond and you have the 'race to the bottom'.  Good for the consumer to get the best deal on a commodity item but not so good for the manufacturer's profit.    You have discovered why people try to differentiate their products from others to [position](../business/positioning.md) as 'better' and seek more premium price advantage.
 
+<br>
+
 ###  Historical Sales data 
 
 Existing in-market product probably have seen some level of difference in the price their product was presented and can analyze shifts in movement that they may attribute to the price effect.  Obviously there is the caution that other market conditions may have been factors in differing movement; so do take this type of analysis casually.  ARMTEC, Inc. has been brought in after three major consulting firms failed to identify impacts in this type of analysis.  Having experience using tools from our technical health division work around signal-to-noise and applying Fourier Transform methods combined with disaggregated international country-by-country lag factor differences we solved a fortune 100's mystery in a matter of weeks.  If you do it yourself or you hire it done, when analyzing historical data look to both technical breath and a personality type typified by the scuba diver who can stay down examining the bottom three times as long with the same air tank.  Persistence and enjoyment of task count big time; way more than random statistical methods slammed through big iron.  
 
+<br>
 
 ### Van Westendorp
 
@@ -127,6 +129,8 @@ These questions are straightforward enough you may be able to figure out how to 
 
 There are some issues with the van Westendorp approach.  One of the biggest is that it isn't very good for new products; more so new-to-the world, but the more novel or unique the less the people who answer have good enough context about the product to answer knowledgable.  However, it could be that you might want to start with this simple approach to sort of 'bracket' where you might be on price and then use one of the more advanced methods to refine price within more specific attribute messaging and purchase contexts.
 
+<br>
+
 ### Concept Test 
 
 We already talked about the standard [Concept Development](../business/concept.md) and [Concept Testing;](../business/conceptquestions.md)  even making note of the fact you should be doing these with price included as you measure [Purchase Intent.](../business/purchaseintent.md)  You can use this technique varying only price, or price and product. 
@@ -134,6 +138,8 @@ As we noted with purchase intent scores,  respondents to overstate their purchas
 There is also a practical and technical limitation of this technique.  From a practical perspective you wear out respondents clarity of choices if you do a whole bunch of alternatives.  From a technical perspective the math really seeks that several concept evaluations are independent of one another and that isn't realistic because respondents are inclined to compare a second concept to the first instead of considering its merits independently. Some of the error can be reduced in aggregate by rotating the presentation order of the concepts you present.
 
 In the ideal use of this method respondents should evaluate only one concept at say five price points.  Now if you change the concept, you increase the number of respondents needed in the study for each one. Take a design with five price points and a minimum of 100 respondents per design cell and you already need 500 completed interviews.  Do that for each concept also being independent and the number of respondents pushes the cost way up.   And cell to cell comparison with only 100 respondents in a cell has a fairly wide confidence interval at statistically meaningful percentages.  So using some of the next methods, though technically more complex and probably requiring a research specialist, will likely be more cost effective and business guidance productive.
+
+<br>
 
 ### Conjoint Analysis 
 
@@ -144,6 +150,8 @@ There is another thing that is especially attractive about a conjoint approach; 
 One of the biggest issues with adaptive conjoint is that it is about relative rather than absolute preference.  That's good to say predict a market share.  It is not good in the sense it doesn't project to a market volume.  There are basic ways to get at market [Potential and Structure](../business/potential.md) and [Structure and Segments](../business/segmentation.md) but these are sort of point in time or requiring independent future projections.  In a lot of cases that's ok.  However, if the product/service you are about to put in the market is of a magnitude that it may change the scale of the overall market, you will want to move to the next technique.  Conjoint analysis is about share but not about the question of whether the carefully optimized product/service offer will be selected in a purchase intent sense.  If you were to lower the price your share estimate would change but you have no perspective provided by this type of research if the total number of purchases attracted to the market overall would also increase.  Regular conjoint designs also don't capture the interactive effect of price with product features often included in desired measures.
 Conjoint analysis, especially the hybrid models like adaptive conjoint, are very powerful for product design and optimization. The individual level utilities also provide very good data for market segmentation. 
 
+<br>
+
 ### Discrete Choice 
 
 [Discrete choice or adaptive choice-based conjoint](https://sawtoothsoftware.com/conjoint-analysis/acbc) helps addresses the limitations. Discrete choice modeling captures price and brand interactions. It also projects to volumes.   However, since discrete choice sacrifices individual level utilities it won't pop segments.  Lots of times people are ok with not popping segments because they have structural segmentation already set up and/or have a K-means segmentation study they plan to run several concepts through. 
@@ -152,6 +160,13 @@ Discrete choice modeling is probably where you want to head for pure price resea
 
 If the focus of the research is both, we recommend using both. A hybrid conjoint can be used to develop the utilities for the product features. Discrete choice modeling can then be used to determine the utility for price and brand. In instances such as these, it is possible to estimate individual level utilities for the discrete choice levels of price and brand. This can be done using a bridging design. 
 
+<br>
+
 ### Test markets 
 
 At least for Consumer Package Goods (CPG) it is pretty common to launch a product into a test market or several in advance of a full roll out.  In those test markets you or your vendor already have worked closer with retailers to obtain shelf position, to perhaps display or coupon or conduct other in-store test, and probably to obtain movement data from them for with an in-store audit company acting as a proxy category capital/shelf auditor.  Since you have so many mechanisms already set up, it is likely you can leverage carefully matched test markets with different prices to do real, in market price testing.  This option is obviously well past the point of a conjoint study tuning product features with price relationship understanding.  You might think of test market price testing more likely around trial generation discounting and that sort of use of price adaptation rather than setting a running price.  But obviously existing products also manage price by monitoring secondary movement data reports, so there is no reason you can't flow naturally from the test market findings to setting a target post-launch price strategy.
+
+<br>
+<br>
+
+[Learn More - Business Chapter Index](../chapters.md#business)
