@@ -29,7 +29,7 @@ So in the example below, we might have found that people said that having full, 
 <img src="../business/captures/ladder3.png"  width="900">
 
 
- ## Security is our gap
+## Security is our gap
  
 Jump back to 2006-2007 and think for a moment.  Do you believe giving all your bank, investment, and credit card account numbers and passwords to some random kid on the internet is your wisest security move?  Obviously MINT needed to do things to emphasize safety and security in its messaging. 
  
