@@ -19,6 +19,7 @@ Price strategy considers the interplay of many factors in the marketing mix; pro
 Pricing strategy really starts with your pricing objectives.  In preparing your over all plan have you considered:
 
 <font bold color=red> The overall objectives of the company. Is it to...</font><br>
+<font color=MistyRose>
     • maximize long-run profit<br>
     • maximize short-run profit<br>
     • increase sales quantity<br>
@@ -26,9 +27,10 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
     • increase market share<br>
     • obtain a target ROI<br>
     • stabilize market or stabilize market price<br>
-    • demonstrate company growth<br>
+    • demonstrate company growth</font><br>
 <br>
 <font bold color=red> The objectives of your product or brand...</font><br>
+<font color=MistyRose>
     • motivate distributors and other sales personnel<br>
     • enhance brand image<br>
     • generate trial<br>
@@ -38,7 +40,7 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
     • maintain price leadership<br>
     • desensitize customers to price<br>
     • discourage new entrants into the industry<br>
-    • match competitors prices<br>
+    • match competitors prices</font><br>
 
 <font bold color=red>* Buyer price elasticity...</font><br>
 
@@ -55,7 +57,7 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
 
 <font bold color=goldenrod>▪  Most basic is to challenge the assumption you are even going to use price as a marketing mix tactical factor.</font><font bold color=palegoldenrod> It is most common to do so but not mandatory it is a foot forward factor.  How visible do you want the price be? - Is price neutral? Not important in differentiating you offer., or is it highly visible?  Perhaps you are selling a commodity and promoting a low price is about all you have?</font><br>
 
-<font bold color=goldenrod>▪ Price-Volume based tactics leverage price elasticity of consumer demand to your advantage.</font><br>
+<font bold color=goldenrod>▪ Price-Volume based tactics leverage price elasticity of consumer demand to your advantage.</font>
 
 - [Penetration Pricing](https://www.investopedia.com/terms/p/penetration-pricing.asp)<font bold color=palegoldenrod> - is typically used for Trial Acceleration – discounting at launch to gain volume quickly.</font><br>
   
@@ -77,16 +79,16 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
 
 <br>
 
-<font bold color=goldenrod> When crafting your Pricing Strategy and Tactics, Ask if…</font><br>
+<font bold color=goldenrod> When crafting your Pricing Strategy and Tactics, Ask if…</font>
 <font bold color=palegoldenrod>
-  -- prices should change by geographical area?<br>
-  -- there should be quantity discounts?<br>
-  -- the sort of payment used should be priced differently?<br>
-  -- you should Mirror or Beat prices competitors charging?<br>
-  -- your communication and distribution approach allows real-time pricing?<br>
-  -- there are legal/regulatory/contractual restrictions to how you price? <br>
-  -- the price action you take is likely to trigger a price war?<br>
-  -- you need to coordinate any joint product pricing considerations? </font><br>
+-- prices should change by geographical area?<br>
+-- there should be quantity discounts?<br>
+-- the sort of payment used should be priced differently?<br>
+-- you should Mirror or Beat prices competitors charging?<br>
+-- your communication and distribution approach allows real-time pricing?<br>
+-- there are legal/regulatory/contractual restrictions to how you price? <br>
+-- the price action you take is likely to trigger a price war?<br>
+-- you need to coordinate any joint product pricing considerations? </font><br>
 
 <br>
 
