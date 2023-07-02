@@ -49,8 +49,8 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
 It is nice to say you need to have a strategic plan with price tactics and associated assumptions.  However, it might be nice if we were a little more explicit in what sort of strategy and tactic approaches to consider.
 
 <font bold color=goldenrod>▪ Fitting price in with the other marketing mix factors is key.</font><br> 
-<font bold color=palegoldenrod>◦ Where costs to manufacture, distribution, and promote the product you are likely to have a higher price.</font><br>
-<font bold color=palegoldenrod>◦ Where you are limiting product quality, where your distributors selling effort get your product in the face of the end-users with limited cost and effort, you may find low price aligns with the other marketing mix factors. But understanding price elasticity among your buyer may leave you plenty of room to charge more.</font><br>
+- <font bold color=palegoldenrod>◦ Where costs to manufacture, distribution, and promote the product you are likely to have a higher price.</font><br>
+- <font bold color=palegoldenrod>◦ Where you are limiting product quality, where your distributors selling effort get your product in the face of the end-users with limited cost and effort, you may find low price aligns with the other marketing mix factors. But understanding price elasticity among your buyer may leave you plenty of room to charge more.</font><br>
 
 <font bold color=goldenrod>▪ Nail down your price floor.</font><font bold color=palegoldenrod> Determine production factors like costs, understand variable costs, know your economies of scale, understand marginal cost, and degree of operating leverage.</font><br> 
 
