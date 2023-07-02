@@ -63,23 +63,24 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
   
 - [Loss Leader Pricing](https://www.investopedia.com/terms/l/lossleader.asp)<font bold color=palegoldenrod> – may be the ultimate in Penetration Pricing where you actually sell below cost; at least fully allocated cost as variable cost isn't sustainable long other than short trial acceleration.</font><br>
 
-- [Bogo & Related](https://happypoints.io/blog/top-optimal-solutions-to-implement-bogo-strategy-c1-sa-160/#:~:text=A%20BOGO%20strategy%20is%20to,item%20at%20a%20full%20price.)<font bold color=palegoldenrod> - is one type of discounting that might be used to generate trial or goose up retailer satisfaction with a brand by offering more units for a lower per unit price.</font>br>
+- [Bogo & Related](https://happypoints.io/blog/top-optimal-solutions-to-implement-bogo-strategy-c1-sa-160/#:~:text=A%20BOGO%20strategy%20is%20to,item%20at%20a%20full%20price.)<font bold color=palegoldenrod> - is one type of discounting that might be used to generate trial or goose up retailer satisfaction with a brand by offering more units for a lower per unit price.</font><br>
 
-- [Price Skimming](https://www.coursera.org/articles/skim-pricing)<font bold color=palegoldenrod> – discounting at the risk or point of a competitive product entry to block their success. This can be very effective if you know that in many categories of products there is an 18-24 month breakeven period from launch and you can make staying in the game painful for new entrants.</font>br>
+- [Price Skimming](https://www.coursera.org/articles/skim-pricing)<font bold color=palegoldenrod> – discounting at the risk or point of a competitive product entry to block their success. This can be very effective if you know that in many categories of products there is an 18-24 month breakeven period from launch and you can make staying in the game painful for new entrants.</font><br>
 
-- [Psychological Pricing](https://www.paddle.com/resources/psychological-pricing)<font bold color=palegoldenrod> – is the type of thing you see where something is $3.99 rather than $4.00 or you get the second item's shipping free if you buy two now.</font>br>
+- [Psychological Pricing](https://www.paddle.com/resources/psychological-pricing)<font bold color=palegoldenrod> – is the type of thing you see where something is $3.99 rather than $4.00 or you get the second item's shipping free if you buy two now.</font><br>
                     
-- [Bundle Pricing](https://pagefly.io/blogs/shopify/bundle-pricing#:~:text=In%20a%20bundle%20pricing%2C%20companies,and%20cable%20TV%20channel%20packages.)<font bold color=palegoldenrod> - offers one of these at a discount when you buy one of these other things. It may make good sense for logical companion goods; e.g. graham crackers, marshmallows, and chocolate bars.</font>br>
+- [Bundle Pricing](https://pagefly.io/blogs/shopify/bundle-pricing#:~:text=In%20a%20bundle%20pricing%2C%20companies,and%20cable%20TV%20channel%20packages.)<font bold color=palegoldenrod> - offers one of these at a discount when you buy one of these other things. It may make good sense for logical companion goods; e.g. graham crackers, marshmallows, and chocolate bars.</font><br>
 
-- [Price Lining](https://courses.lumenlearning.com/wm-retailmanagement/chapter/technique-price-lining/#:~:text=Price%20lining%20is%20a%20technique,can%20support%20assortments%20of%20goods.)<font bold color=palegoldenrod> - offering a tiered set of price points for similar but slightly differentiated versions of a product/service.</font>br>
+- [Price Lining](https://courses.lumenlearning.com/wm-retailmanagement/chapter/technique-price-lining/#:~:text=Price%20lining%20is%20a%20technique,can%20support%20assortments%20of%20goods.)<font bold color=palegoldenrod> - offering a tiered set of price points for similar but slightly differentiated versions of a product/service.</font><br>
 
 - [Price Discrimination and Yield Management](https://competera.net/resources/glossary/yield-management-pricing#:~:text=Yield%20management%20has%20been%20used,tool%20used%20in%20various%20industries.)<font bold color=palegoldenrod> - is the sort of pricing you see used by the airlines.  Different people have differing willingness to pay and the airline has a perishable good in unfilled seats; so they start offering seats at different prices given the very specific demand they are observing.</font>br>
 
 - [Premium or prestige pricing)](https://www.indeed.com/career-advice/career-development/prestige-pricing)<font bold color=palegoldenrod> - is the strategy of pricing at the high end of the range. High price is used as a signal of quality and appeals to ego self worth of a buyer.  It requires flawless performance but is a fix with a luxury brand promise that is being kept at every touchpoint.</font><br> 
 
 <br>
---- --- ---
-Ask if…<br>
+
+<font bold color=goldenrod> When crafting your Pricing Strategy and Tactics, Ask if…</font><br>
+<font bold color=palegoldenrod>
 ◦ prices should change by geographical area?<br>
 ◦ there should be quantity discounts?<br>
 ◦ the sort of payment used should be priced differently?<br>
@@ -87,7 +88,7 @@ Ask if…<br>
 ◦ your communication and distribution approach allows real-time pricing?<br>
 ◦ there are legal/regulatory/contractual restrictions to how you price? <br>
 ◦ the price action you take is likely to trigger a price war?<br>
-◦ you need to coordinate any joint product pricing considerations? <br>
+◦ you need to coordinate any joint product pricing considerations? </font><br>
 
 <br>
 <br>
