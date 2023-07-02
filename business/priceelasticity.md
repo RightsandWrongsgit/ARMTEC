@@ -14,6 +14,8 @@ To use your understanding of price-volume wisely you really need to fit it into 
 
 ## Price Strategy
 
+Price strategy considers the interplay of many factors in the marketing mix; promotion being one example.  Your research may have guided expected response.  Your modeling of factors into economic optimization is the translation of your strategy into a combination of tactics.  Rough out a model of what you plan to do and drop in your best guess assumptions.  After you have the model draft in place, you can tweak the various assumptions and see which are really seeming to have an impact.  It is those, where your best guess should be replaced with specific research; but look at it this way, you have pretty clear research objectives doing it this way and your research guides will be much more productive. 
+
 Pricing strategy really starts with your pricing objectives.  In preparing your over all plan have you considered:
 
 <font bold color=red> The overall objectives of the company. Is it to...</font><br>
@@ -39,9 +41,6 @@ Pricing strategy really starts with your pricing objectives.  In preparing your 
     • match competitors prices<br>
 
 <font bold color=red>* Buyer price elasticity...</font><br>
-
---- --- ---
-Price strategy considers the interplay of many factors in the marketing mix; promotion being one example.  Your research may have guided expected response.  Your modeling of factors into economic optimization is the translation of your strategy into a combination of tactics.  Rough out a model of what you plan to do and drop in your best guess assumptions.  After you have the model draft in place, you can tweak the various assumptions and see which are really seeming to have an impact.  It is those, where your best guess should be replaced with specific research; but look at it this way, you have pretty clear research objectives doing it this way and your research guides will be much more productive. 
 
 ## Price Tactics
 
