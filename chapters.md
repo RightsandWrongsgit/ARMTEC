@@ -24,6 +24,7 @@
 
 ### Chapter: Market Research
 - [Market Research](business/methods.md)
+- [MR Overview for End-Users](business/mrenduser.md)
 - [Potential & Structure](business/potential.md)
 - [Structure & Segmentation](business/segmentation.md)
 - [Need Gap](business/needgap.md)
