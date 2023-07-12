@@ -20,7 +20,7 @@ A lot of time we utilize information technology tools.  They help with business 
 It is likely a number of you got here because you came to our Drupal CMS CI/CD Workflow Jumpstart repository.  That repository itself is intentionally kept very 'clean' so you can clone it to build your own [Content Management System website that leverages Continuous Integration and Continuous Deployment](chapters.md#chapter-drupal-template-with-cicd-workflow).  Unlike some repositories, this one is documented here with instructions, screen shots, and even details on exactly how and why it was built.
 
 
-The main menu which appears on every page, points to the broad subject areas you might find interesting.  However, the resources are extensive.  So you might want to jump to the list of [chapters which present detailed topics to choose from](chapters.md).
+The main menu which appears on every page, points to the broad subject areas you might find interesting.  However, the resources are extensive.  So you might want to jump to the list of [chapters which present detailed topics to choose from.](chapters.md)
 
 
 
