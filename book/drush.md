@@ -12,7 +12,7 @@ To see more about both options to clear the cache [watch this video](https://www
 
 ## Installing Drush
 
-Often times you don't have to do anything special to have Drush installed.  That is because it is so commonly used that it rides along with your basic Drupal initial installation.  The [Drupal CI/CD Base Project](../cicd.md) we provide already includes it.
+Often times you don't have to do anything special to have Drush installed.  That is because it is so commonly used that it rides along with your basic Drupal initial installation.  The [Drupal CI/CD Base Project](../book/drupalcicd.md) we provide already includes it.
 
 If you find yourself needing to install Drush independently there are a few important things to consider.  First, Drush leverages the fact that you are using Drupal via a [Composer](../book/Novice.md#setting-up-your-basic-system) based installation; so make sure you are doing it that way.  Second, people who get into developing with Drupal often take on more than one site and have the local development copy of the various sites on their local hard drive in different directories.  Each project needs access to Drush and normally if it came as part of just installing with a single Drupal installation it is directly associated with the project.  When you have multiple Drupal projects there are ways that you add to your Bash or ZSH Shells the pathway instructions to make Drush visible and available to multiple Drupal projects across your local machine.  The "how to" for that is best found right from the Drush website.
 
