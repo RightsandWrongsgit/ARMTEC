@@ -57,6 +57,7 @@
     - [Install Composer](book/Novice.md#setting-up-your-basic-system)
     - [Install Lando](book/Novice.md#setting-up-your-basic-system)
     - [Installing Docker](book/Novice.md#setting-up-your-basic-system)
+    - [Install Drush](book/drush.md)
 
  - [Cheatsheets](book/cheats.md)
  - [Whole Website w/just HTML & CSS](https://rutikkpatel.medium.com/how-to-create-a-website-using-html-and-css-only-18fc6a3f68ab)  
