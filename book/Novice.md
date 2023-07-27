@@ -1,7 +1,7 @@
 # NOVICE: It's 'OK' you haven't memorized this stuff!
 
 ### Somethings are pretty basic but if no one every showed you, you might need a quick reference
-Most people have enjoyed using their computer via GUI (Graphical User Interface) applications.  Developing your own website, means getting a little  more underneath the covers. It is a little harder than just driving around existing applications on your computer.  You will need to use things like a 'terminal' or 'command line interface' (CLI) on your computer.  This SUPERNOVICE section is provided to give you some guidance in the basics.  We were all there once.  And you know what, we still pop into this very section now and then to get a reminder. 
+Most people have enjoyed using their computer via GUI (Graphical User Interface) applications.  Developing your own website, means getting a little  more underneath the covers. It is a little harder than just driving around existing applications on your computer.  You will need to use things like a 'terminal' or ['command line interface' (CLI)](https://www.techtarget.com/searchwindowsserver/definition/command-line-interface-CLI?Offer=abt_pubpro_AI-Insider) on your computer.  This SUPERNOVICE section is provided to give you some guidance in the basics.  We were all there once.  And you know what, we still pop into this very section now and then to get a reminder. 
 
 - [What are Operating Systems and Shells?](operating&shells.md)
 
