@@ -22,8 +22,6 @@ It is likely a number of you got here because you came to our Drupal CMS CI/CD W
 
 The main menu which appears on every page, points to the broad subject areas you might find interesting.  However, the resources are extensive.  So you might want to jump to the list of [chapters which present detailed topics to choose from.](chapters.md)
 
-<p>https://api.visitor.plantree.me/visitor-badge/pv?namespace=example.com&key=index.html</p>
-
 
 ---------
 [Site by ARMTEC](https://www.drupal.org/u/emofsnead){:target="_blank"}
