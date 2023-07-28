@@ -72,6 +72,12 @@ Install and enable the token module as usual...
 `composer require drupal/token`<br>
 `drush en token`
 
+## Token Filter module
+You are likely to want to use tokens in field replacement values.  This will get you loads more value from Tokens.  To do that you also want to install the [Token Filter module.](https://www.drupal.org/project/token_filter)  You can see [how to use this module in this quick training overview.](https://ostraining.com/blog/drupal/tokens-in-drupal-fields/) 
+
+`composer require drupal/token_filter`<br>
+`drush en token_filter`
+
 
 ## Masquerade module
 This module lets you switch users and back to your own account.  You can experience testing what it is like for various log-in roles. Does it work for an anonomous user, for a logged in non-paid users, for a subscribing user, for a contributing editor, etc.
