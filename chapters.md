@@ -179,7 +179,7 @@
   - [Drupal Modules](modules/modulesoverview.md)
   - [Development Modules](modules/development.md)
   - [Fields Modules](modules/fields.md)
-  - [Trimming Text Summaries](/modules/smarttexttrim.md)
+  - [Trim Text & Present Lists Better](/modules/smarttexttrim.md)
   - [Flagging Modules](modules/flagging.md)
   - [Taxonomy](modules/taxonomy.md)
   - [Faceted Search](modules/facetedsearch.md)
