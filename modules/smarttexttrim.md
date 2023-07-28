@@ -16,6 +16,14 @@ The [Smart Trim module](https://www.drupal.org/project/smart_trim) installs in t
 
 One of the real wizards of getting the most out of Drupal through sharing summary video's on important contributed modules is [Ivan Zugec who runs a company called WebWash](https://www.webwash.net/) and he does a nice job of further explaining [Smart Trim](https://www.webwash.net/trim-text-fields-summaries-smart-trim-in-drupal/)
 
+# In Other Words Module
+
+List formating is another type of edit customization that you might need.  Instead of thinking about carving a text field into slices that display it more optimally, there are times when you have a set of items that make up a list which you want presentation control over.  An example of this might be having a number of authors associated with some published content.  Do you dump them in a stack, on a line, do you put commas between them, include the word 'and' between the next to the last and the last one, etc?  There is whole range of list presentation control with [this extra module that brings more natureal display of lists.](https://agaric.coop/blog/display-lists-naturally-other-words-module-drupal)
+
+You want the control of the [In Other Words Module.](https://www.drupal.org/project/inotherwords)
+
+
+
 <br>
 <br>
 <br>
