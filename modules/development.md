@@ -73,7 +73,7 @@ Install and enable the token module as usual...
 `drush en token`
 
 ## Token Filter module
-You are likely to want to use tokens in field replacement values.  This will get you loads more value from Tokens.  To do that you also want to install the [Token Filter module.](https://www.drupal.org/project/token_filter)  You can see [how to use this module in this quick training overview.](https://ostraining.com/blog/drupal/tokens-in-drupal-fields/) 
+You are likely to want to use tokens in field replacement values.  This will get you loads more value from Tokens.  To do that you also want to install the [Token Filter module.](https://www.drupal.org/project/token_filter)  You can see [how to use this module in this quick training overview.](https://ostraining.com/blog/drupal/tokens-in-drupal-fields/)  You might use this, for example, by creating a block you place in the footer with your site name and a copywrite notice with date.  You could use your CKEditor to insert the token values for site name and for date in a custom year only format in the block you then place in the footer region of your site.
 
 `composer require drupal/token_filter`<br>
 `drush en token_filter`
