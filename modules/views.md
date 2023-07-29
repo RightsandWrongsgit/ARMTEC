@@ -49,6 +49,7 @@ Once you get going with views you will likely create a number of them.  And in a
 
 --------
 Both the Lazy Views and Views Combine modules were developed by the same group and they provide a nice [detailed set of instructions.](https://imagexmedia.com/blog/extending-drupal-views-contributed-modules)
+
 --------
 
 ### Views Flipped Table module
