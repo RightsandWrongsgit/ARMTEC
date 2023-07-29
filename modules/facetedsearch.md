@@ -88,6 +88,15 @@ In the Configure Block section, mention the Search page path that you had previo
 
 And just like that, your faceted search page and functionality is ready! Notice the Facet called Type (display name) that has Basic page and Article listed as content types to filter against.
 
+## Indexing
+
+Step 6 involves indexing the content.  It is important to recognize that some elements of content are logical to index but others are not.  For example, you aren't likely to index images,  probably not comments, etc.  Thus, you want to be able to control what is indexed and Drupal gives you have power.  These videos explain the two steps:
+
+[Control what fields are actually indexed](https://www.youtube.com/watch?v=IxqCXotXfss)
+
+[Reindex the Site after you select the fields](https://www.youtube.com/watch?v=djkPkGS9zcs)
+
+
 # Several Facets Modules
 
 Using Composer, install the Facets module.  Then under extend, activate the module.  You also need to install the Search API with Composer and activate it under extend as shown below.
