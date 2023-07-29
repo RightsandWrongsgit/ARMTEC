@@ -39,6 +39,17 @@ One of the things you see toward the end of that video is how you can create a '
 `composer require drupal/views_block_filter_block`<br>
 `drush en views_block_filter_block`
 
+### Lazy Views module
+
+Lazy load is a performance enhancement and the [Lazy View module](https://www.drupal.org/project/lazy_views) brings that benefit as well as simply button or page load triggers to pull the view.
+
+### Views Combine module
+
+Once you get going with views you will likely create a number of them.  And in a world where your site layout has regions with blocks deployed in various areas for different purposes you may find that the intersection between two view you have created query retrieval for make more sense to present in an integrated way.  You just ran into the purpose of the [Views Combine module.](https://www.drupal.org/project/views_combine)
+
+<font color=yellow>Both the Lazy Views and Views Combine modules were developed by the same group and they provide a nice,</font> [detailed set of instructions.](https://imagexmedia.com/blog/extending-drupal-views-contributed-modules)
+
+
 ### Views Flipped Table module
 
 Views offers options on the way it displays the query results. Things like an unformatted list, grid, table, etc.  This module simply flips the rows and columns from a standard table to display the other way around in case you happen to have more columns than rows in what you are pulling. 
