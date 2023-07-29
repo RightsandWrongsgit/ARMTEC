@@ -47,8 +47,7 @@ Lazy load is a performance enhancement and the [Lazy View module](https://www.dr
 
 Once you get going with views you will likely create a number of them.  And in a world where your site layout has regions with blocks deployed in various areas for different purposes you may find that the intersection between two view you have created query retrieval for make more sense to present in an integrated way.  You just ran into the purpose of the [Views Combine module.](https://www.drupal.org/project/views_combine)
 
-<font color=yellow>Both the Lazy Views and Views Combine modules were developed by the same group and they provide a nice</font>[detailed set of instructions.](https://imagexmedia.com/blog/extending-drupal-views-contributed-modules)
-
+<font color=yellow>Both the Lazy Views and Views Combine modules were developed by the same group and they provide a nice [detailed set of instructions.](https://imagexmedia.com/blog/extending-drupal-views-contributed-modules)</font>
 
 ### Views Flipped Table module
 
