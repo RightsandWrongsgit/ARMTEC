@@ -25,7 +25,7 @@ Instead of having to create fields for street numbers, street names, cities, sta
 
 ## Field Group module
 
-The prior Address module is basically a pre-defined group of fields. You can make your own group of any combination of fields you want using this field group module.  Then you can place the group where you need it.  People often think of that as somewhere in a content type.  However, you can actually even place such a group in a Drupal classic PHP input form.](../modules/forms.md#modify-one)
+The prior Address module is basically a pre-defined group of fields. You can make your own group of any combination of fields you want using this field group module.  Then you can place the group where you need it.  People often think of that as somewhere in a content type.  However, you can actually even place such a group in a Drupal [classic PHP input form.](../modules/forms.md#modify-one)  There are lots of options for how you can display the field group(s) you create.  You can [use the Drupal Display options with your field group and using the developer inspect visiblity into the code underlying your field group you can leverage CSS to manage how you want it to appear on the page.](https://www.webwash.net/customize-content-form-page-using-field-group-drupal-8/)
 
 `composer require drupal/field_group`<br>
 `drush en field_group`
