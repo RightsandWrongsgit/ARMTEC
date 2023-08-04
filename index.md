@@ -2,11 +2,7 @@
 ## Starting a business, learning to code, need some hints ...
 #### Consider us Your Chief Performance Officer
 
-Take the first step to success with ARMTEC today!  Find welcoming references to the many tools we use ourselves.  Learn business, financial, operational, tactical approaches and the technical tools to support your efforts.  Get straightforward help now!  
-
-ARMTEC is a huge supporter of what are known as ["Open Source"](book/opensource.md#you--open-source) tools.  This site if fundamentally our own technical services repository.  However, we don't hide it in case others might benefit from what we use.  We believe that Open Source business concepts are as important as computer code.    If you find what is here is helpful to 'self serve' your own needs great!  If you find it opens your interest in working with practical experts who know how to help you even further, feel free to contact us.
-
-Are you struggling to find the right approach to your project? ARMTEC provides access to a comprehensive range of solutions that helps you identify and fill the gaps. It is great if you can do lots of things yourself.  You might do it all or at a minimum you will be a smarter client with a head start.  Then when you contact ARMTEC, you have saved time and money while ensuring that your project is successful with us as a well coordinated partner.
+Start your journey to success with ARMTEC, your Chief Performance Officer. We offer the tools and resources you need to excel in starting a business or learning to code. Our ["Open Source"](book/opensource.md#you--open-source) approach ensures transparency and accessibility to all. Whether you prefer self-service or expert guidance, ARMTEC has you covered. Access our comprehensive solutions to fill any gaps in your project and save time and money. Partner with us for a well-coordinated and successful outcome. Contact ARMTEC today and take the first step towards your goals. 
 
 ## What's here
 
