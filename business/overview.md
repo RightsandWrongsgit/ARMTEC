@@ -1,7 +1,7 @@
 
 <img src="../assets/images/ARMTEC Logo Medium+.png"  width="750">
 
-ARMTEC, Inc. assists in profitable strategic performance for an organization.  Oddly, that includes ‘non-profits’; the logic being that profit is not a sin but simply a measure of organizational efficiency.  If the organization decides to plow that profit back into furthering its mission, more power to ‘reinvestment’.
+ARMTEC, Inc. helps organizations achieve profitable strategic performance, even non-profits. Profit is seen as a measure of efficiency, and reinvesting it can further the organization's mission.
 
 ## Focus on Profit
 
