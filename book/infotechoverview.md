@@ -7,7 +7,7 @@ Feeling overwhelmed with technical stuff. Don't worry, we can help you [get star
 
 [Git Version Control](../book/gitbasics.md) is a great tool for saving your work automatically and rolling back to a safe point. Additionally, [Integrated Development Environments](../book/ide.md) can present all the different parts you work with in a more user-friendly way.
 
-Concerned about spending money on software tools?  There are [Open Source Tools?](../book/opensource.md) you can use for free and they provide outstanding functionality.
+Concerned about spending money on software tools?  There are [Open Source Tools](../book/opensource.md) you can use for free and they provide outstanding functionality.
 
 As for remembering everything, we have [links to cheatsheets](../book/cheats.md) that you can consult whenever you need to reference something. And if you still have questions about something that seems too basic, don't hesitate to check out our ["It May be Basic But Sometimes You Need a Boost!" section.](../book/Novice.md)
 
