@@ -1,7 +1,6 @@
 # Open Source Solutions
 
-There are a ton of great tools available for free.  Some of these are locally installed software and others are provided remotely through your browser.  Those noted here are ARMTEC favorites.   Please keep in mind that Open Source should gain your contribution to the community if you find you like and use them; and that contribution doesn't have to be just technical.
-
+Discover a plethora of amazing free tools, ranging from locally installed software to browser-based ones. ARMTEC has handpicked some favorites. Remember, if you love and use an Open Source tool, give back to the community in any way you can, not just technically.
 
 ## Office Suite:
 
