@@ -11,7 +11,7 @@ The intent of the Platform.sh continuous integration and deployment with Lando r
   . The [Regular](../cicd/platformshdrupal.md#Regular-approach:) offers basic guidance and might even be a good reminder source.  
   . The [Step by Step](../cicd/platformshdrupal.md#Step-by-Step) is a cookbook with screen shots and detailed guidance. 
   
-Any of these methods will get a Drupal website working on your host.  <font color=red>Key with any of these three options is that the 'branch' you have on the host is named 'main'.</font>
+    Any of these methods will get a Drupal website working on your host.  <font color=red>Key with any of these three options is that the 'branch' you have on the host is named 'main'.</font>
 
 3) [VSCode set to work on your local copy](vscodedrupallocal.md) The easiest way to work with the your website is on your local machine.  So we set up our VSCode [IDE](../book/ide.md) to make local work easy.  VSCode provides a view into the directory structure, individual files you pop into, and a terminal from which to run commands.  It also has Git and GitHub repository connections plus some other goodies outlined in the extensions recommended as part of the prerequisites. 
 
