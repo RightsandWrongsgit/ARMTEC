@@ -1,7 +1,7 @@
 
 # Drupal CI/CD Start Point
 
-This should be viewed as your 'Quick Start' to setting up a Drupal hosted website pre-configured to follow basic [CI/CD Workflow principles.](../book/drupalcicd.md#what-is-cicd)  There is a [complete documentation outline on how all this is put together.](cicdoverview.md)  But here you are just going to be given the most basic of steps to simply dive right in.
+This should be viewed as your 'Quick Start' to setting up a Drupal hosted website pre-configured to follow basic [CI/CD Workflow principles.](../book/drupalcicd.md#what-is-cicd)  There is a complete documentation outline on [how all this is put together which you can move through page-by-page.](cicdoverview.md)  But here you are just going to be given the most basic of steps to simply dive right in.
 
 ## The Basics
 
