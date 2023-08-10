@@ -8,8 +8,8 @@ The intent of the Platform.sh continuous integration and deployment with Lando r
 
 2) Platform.sh is a critical foundation for you.   It is going to be the source of a ["TEMPLATE" for a Drupal CMS installation.](platformshdrupal.md)  <font color=yellow> The critical thing is matching the Drupal version for the template to our project version number you will </font> [clone from GitHub.](https://github.com/RightsandWrongsgit/initial-test-of-platform-ci-with-lando)   Platform.sh does a pretty good job of making set up simple and providing good documentation.  Our documentation offers three different levels of getting you started:
 
-  . The [Short-cut](../cicd/platformshdrupal.md#short-cut-approach:) assumes you are an old hand working with web stuff.  
-  . The [Regular](../cicd/platformshdrupal.md#regular-approach:) offers basic guidance and a good reminder source.  
+  . The [Short-cut](../cicd/platformshdrupal.md#short-cut-approach) assumes you are an old hand working with web stuff.  
+  . The [Regular](../cicd/platformshdrupal.md#regular-approach) offers basic guidance and a good reminder source.  
   . The [Step by Step](../cicd/platformshdrupal.md#step-by-step) is a cookbook with screen shots and detailed guidance. 
   
 <font color=red>Key with any of these three options are a) remember the 'name' you give your project on Platform.sh and b) make sure that the 'branch' you have on the host is named 'main'.</font>
