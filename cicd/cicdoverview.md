@@ -6,13 +6,15 @@ The intent of the Platform.sh continuous integration and deployment with Lando r
 
 1) [Prerequisites](../cicd/prerequisites.md) provides a setup to assure your computer has the base tools to make things work.  It assures you have 'npm', 'homebrew', 'nodejs', 'git', and an [Integrated Development Environment (IDE)](../book/ide.md) called VSCode plus a number of its 'extensions' on your own computer.  It also includes 'Composer' and 'Docker'; however, here if you do have those you might have to backpeddle a little because you want the next step to automatically install the appropriate version.  Finally, it is going to make sure you have a GitHub account and know how to SSH connect to it; and a Platform.sh account for which you will also make sure you have its 'CDI' option installed on your machine <font color=yellow> (It is recommended that you use your GitHub account to sign up for Platform.sh because then your SSH connection will be between your local machine, GitHub AND Platform.sh.)</font> 
 
-2) Platform.sh is a critical foundation for you.   It is going to be the source of a ["TEMPLATE" for a Drupal CMS installation.](platformshdrupal.md)  <font color=yellow> The critical thing is matching the Drupal version for the template to our project version number you will clone from GitHub.</font>   Platform.sh does a pretty good job of making set up simply and providing good documentation.  Our documentation offers three different levels of getting you started:
+2) Platform.sh is a critical foundation for you.   It is going to be the source of a ["TEMPLATE" for a Drupal CMS installation.](platformshdrupal.md)  <font color=yellow> The critical thing is matching the Drupal version for the template to our project version number you will </font> [clone from GitHub.](https://github.com/RightsandWrongsgit/initial-test-of-platform-ci-with-lando)   Platform.sh does a pretty good job of making set up simple and providing good documentation.  Our documentation offers three different levels of getting you started:
 
-  . The [Short-cut](../cicd/platformshdrupal.md#Short-cut-approach:) assumes you are an old hand at working with web stuff.  
-  . The [Regular](../cicd/platformshdrupal.md#Regular-approach:) offers basic guidance and might even be a good reminder source.  
+  . The [Short-cut](../cicd/platformshdrupal.md#Short-cut-approach:) assumes you are an old hand working with web stuff.  
+  . The [Regular](../cicd/platformshdrupal.md#Regular-approach:) offers basic guidance and a good reminder source.  
   . The [Step by Step](../cicd/platformshdrupal.md#Step-by-Step) is a cookbook with screen shots and detailed guidance. 
   
 <font color=red>Key with any of these three options are a) remember the 'name' you give your project on Platform.sh and b) make sure that the 'branch' you have on the host is named 'main'.</font>
+
+<br>
 
 3) You want to bring it local.  This is where you leverage the fact you installed the Platform.sh CDI on your local machine.  You want to be located at your 'user root directory' when you type `platform` in the terminal command line to invoke the CDI to bring a copy of the hosted project to your local computer.  A terminal type menu will present the options on the command like and since you remember the 'name' of your project you will pick it from those listed (if its your first time doing this it won't be hard because it is the only project you will see listed).
  
