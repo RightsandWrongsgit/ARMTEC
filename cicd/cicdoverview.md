@@ -20,7 +20,7 @@ The intent of the Platform.sh continuous integration and deployment with Lando r
  
 4) Working with the your website on your local machine is fast and isolated from any production environment.  Here your IDE will pay dividends.  In [VSCode, point it on your harddrive to work on the local copy of your project.](vscodedrupallocal.md)  VSCode provides a view into the directory structure, any individual files you pop into, and it provides a terminal from which to run commands.  It also has Git and GitHub repository connections plus some other goodies outlined in the [extensions recommended as part of the prerequisites.](cicd/prerequisites.md#vscode-extensions)
 
-
+5) You are going to bring your project under 'Git' control.  If you are already familiar with Git, don't just just to doing an `init` command.  First, we need you to [make sure you have a `.gitignore` file](cicd/gitignore.md) that is set up in a manner to work well with this CI/CD project template.  You will `git init` only after you have that properly in place. 
 
 6) 
 7) 
