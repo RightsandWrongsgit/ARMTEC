@@ -16,11 +16,12 @@ The intent of the Platform.sh continuous integration and deployment with Lando r
 
 <br>
 
-3) You want to bring it local.  This is where you leverage the fact you installed the Platform.sh CDI on your local machine.  You want to be located at your 'user root directory' when you type `platform` in the terminal command line to invoke the CDI to bring a copy of the hosted project to your local computer.  A terminal type menu will present the options on the command like and since you remember the 'name' of your project you will pick it from those listed (if its your first time doing this it won't be hard because it is the only project you will see listed).
+3) You want to [bring it local.]cicd/bringitlocal.md)  This is where you leverage the fact you installed the Platform.sh CDI on your local machine.  You want to be located at your 'user root directory' when you type `platform` in the terminal command line to invoke the CDI to bring a copy of the hosted project to your local computer.  A terminal type menu will present the options on the command line and since you remember the 'name' of your project you will pick it from those listed (if its your first time doing this it won't be hard because it is the only project you will see listed).
  
-5) Now is when your IDE will start to pay dividends.  In [VSCode, set it to work on the local copy of your project.](vscodedrupallocal.md) The easiest way to work with the your website is on your local machine.  So we set up our VSCode [IDE](../book/ide.md) to make local work easy.  VSCode provides a view into the directory structure, individual files you pop into, and a terminal from which to run commands.  It also has Git and GitHub repository connections plus some other goodies outlined in the extensions recommended as part of the prerequisites. 
+5) The easiest way to work with the your website is on your local machine; it is fast and isolated from any production environment.  Now is when your IDE will start to pay dividends.  In [VSCode, point it on your harddrive to work on the local copy of your project.](vscodedrupallocal.md)  VSCode provides a view into the directory structure, an individual files you pop into, and provides a terminal from which to run commands.  It also has Git and GitHub repository connections plus some other goodies outlined in the [extensions recommended as part of the prerequisites.](cicd/prerequisites.md#vscode-extensions)
 
 6) 
+7) 
 
 
 
