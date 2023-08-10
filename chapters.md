@@ -163,6 +163,7 @@
   - [Front-end Overview](/theme/frontoverview.md)
     -  [HTML.com](https://html.com/)
     -  [W3 School HTML, CSS, JS, and more](https://www.w3schools.com/html/)
+    -  [HTML Color Codes and Names](https://www.computerhope.com/htmcolor.htm#color-codes)
     -  [Semantic HTML: Let's Use more than DIV's](https://www.semrush.com/blog/semantic-html5-guide/) 
     -  [HTML Code Examples for some unique things](codeexamples/html.md)
     -  [Special Use HTML](https://levelup.gitconnected.com/10-best-html-tags-that-you-probably-didnt-know-about-841e5c21348f)
