@@ -22,7 +22,10 @@ The intent of the Platform.sh continuous integration and deployment with Lando r
 
 5) You are going to bring your project under 'Git' control.  If you are already familiar with Git, don't just just to doing an `init` command.  First, we need you to [make sure you have a `.gitignore` file](../cicd/gitignore.md) that is set up in a manner to work well with this CI/CD project template.  You will `git init` only after you have that properly in place. 
 
-6) 
+6) [Make it 'YOUR Project'.](../cicd/cruisevscode.md#put-your-project-into-github)  You make think the CI/CD Project you cloned from GitHub is now yours.  But really, at this point, you have simply borrowed it. Since you set up a GitHub account as part of the prerequisites, you need to connect the local copy, now with your `.gitignore` edits, to YOUR Project in that respository.  Since you are using VSCode you can hit `shift-command-P` to bring up the command pallet and start typing `Publish to GitHub`.  With the 'extensions' we added to VSCode and our SSH connection, it should ask you if you want to 'allow' a sign-in to GitHub and back at the command pallet just start typing the name of your project (if you only have the one project and your VSCode IDE is within it the project name is likely to already be in the box).  Below the box is an option that says `Publish to GitHub private repository` or `Publish to GitHub public repository` and the name of your GitHub account followed by the project name.  <font color=yellow> So now you have integrated your project between GitHub, Platform.sh, and your local maching Lando container.</font>
+
+<br>
+     
 7) 
 
 
