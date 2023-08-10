@@ -39,8 +39,12 @@ Safer?  I don't know about you, but even while I am just deep into a practice si
 
 ----------------------------------------------------------------------------------
 
-7) 
+7) [Bring it up to date.](../cicd/basebeforesplit.md#get-things-updated-first)  So you have the basic CI/CD Project Drupal site in place by cloning it and then doing the integration between the local machine, GitHub, and the Platform.sh host.  You can open the Drupal project and drive around in it; most likely on your local environment copy.  When you do, you will possibly find it warning you that an update exists.  If you don't know Drupal yet, this warning exists lots of times and it is NOT mandatory that you do updates.  However, with a new project it makes sense to get things as updated as possible to start.  This becomes the coordination point that [Composer](https://getcomposer.org/) uses for package management as you apply additional modules.  This includes continued coordination with the modules that are part of the CI/CD workflow.  
 
+8) Since we updated our local environment copy, now is also a great time to [push those updates to the GitHub and Plaform.sh copies.](../cicd/basebeforesplit.md#lets-tryout-our-base-workflow)  Using our VSCode IDE we will 'stage the changes' (clicking the plus sign), click the blue bar with checkmark that says 'commit', and if all is going as we want we can click the blue bar that now says 'sync changes'.  You may get a confirming message indicating this will 'pull and push commits from and to origin/main'; that message option can be turned off so if you have done that in prior use of your VSCode IDE you may just run.  The key thing here is that the 'orgin/main' is telling you the branch environment project branch and recall we said to name your starting point as environment branch 'main' when you first established your project on Platform.sh;  this sometimes has been called 'master' by people who work with Git/GitHub with past projects.  But not only is 'main' more the modern standard, but it is also used in some of the set up specific to our CI/CD Project starting point for things to work correctly.  Our detailed documentation also has you practice your [first Platform.sh manual backup at this point.](../cicd/basebeforesplit.md#lets-do-a-Platform.sh-backup)  You see that Git 'stage', 'commit', and 'sync changes' you did updated both GitHub and Platform.sh environments; the benefit of our setting this up when signing up for Platform.sh with our GitHub account and establishing SSH and Token connections so all the environments talk to each other.
+
+
+9)
 
 
   
