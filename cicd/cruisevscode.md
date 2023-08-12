@@ -1,5 +1,5 @@
 
-# Start doing more with VSCode
+# Do more with VSCode
 
 VSCode is pretty straightforward to use.  The left window will show your directory structure, the upper right the content of any files you click on from those directories with an editor to work on them, and a terminal window in the lower right.  In that terminal window you will have command line interface to lando or platform.sh CLI.  There is a command pallet at the top of VSCode that opens up when you hit shift-command-P (in a Mac).  There are all sorts of extensions for smoothing out code, making it pretty, and triggering Git-GitHub workflows; recommended starting extensions were noted in the [prerequisites](../cicd/prerequisites.md) section.  Some of the most important stuff for you will be the Git-GitHub interactions because they are also GitOps workflow triggers within how Platform.sh works.  Here is a set of video's to watch on using [GitHub with VSCode](https://www.youtube.com/playlist?list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi).
 
