@@ -1,5 +1,5 @@
 
-# Bring a copy of your project to your 'local' computer
+# Bring a copy 'local'
 
 We have a basic installation of Drupal running on our Platform.sh host.  It has a sole branch called 'main'.   We want to bring a copy of this to our local computer where we will run it in [Lando](../book/lando.html).  We will also want to put that 'local' copy of our Drupal project under [Git](../book/gitbasics.md) version control.  And we will want our Git local version control to speak to a GitHub repository.
 
