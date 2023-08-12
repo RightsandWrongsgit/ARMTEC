@@ -5,6 +5,28 @@ This should be viewed as your 'Quick Start' to setting up a Drupal hosted websit
 
 ## The Basics
 
+Try and confirm that this works, and if so, clean this up to be almost as simply outlined with minimal narrative:
+
+- Make sure you have steps 1 to 4 of the overview done.  This gets your accounts set up, your computer configured, and the connections between things in place.
+
+- Clone the CI/CD Workflow Project and integrate it into the generic Drupal install the set up steps put in place.
+
+- Add and run locally the UUID restoration module, disable the UUID ignore module
+
+- Git init the local project and push it, under your own project name, to the GitHub or other repository of your choice
+
+- Follow standard Git procedures to first create the 'staged' environment off of 'main', and the 'develop' environment off of 'staged' so your local Lando environment is dynanamically sync'ed with the Platform.sh hosted 'develop' environment.
+
+- Work using standard Git processes in VSCode to work on your website.
+
+- Use Platform.sh to move a 'develop' you are satisfied with to the 'staged' environment where you will then do any testing before moving it to 'main'
+
+- Publish 'main' to a URL you own using Platform.sh standard DNS management procedures
+
+
+
+********************************  NOTES THAT MIGHT ELABORATE THE ABOVE STEPS  ***********************
+
 Once your basic computer is set up with the foundations noted, you are going to sign up with [Platform.sh](https://platform.sh/) as a hosting company.  It offers several key things relative to this project.  First, it is an experienced host of Drupal in a [container](https://code.visualstudio.com/docs/devcontainers/containers) type of environment; this includes the fact they offer a Drupal template with a good portion of what you need.  Second, it already uses a GitOps capability that leverages basic [Git](../book/gitbasics.md) based commands for its [multi-environment](configatroot.md#drupal-environments) workflow plus concurrent code backup within a [Git Repository.](../book/gitbasics.md#git-repository)  Third, they are reasonably priced, especially in the way they offer development accounts at a substantial discount before you go live.  <font color=yellow> THE KEY THING YOU NEED TO PAY ATTENTION TO IS THE VERY SPECIFIC DRUPAL VERSION OF THE TEMPLATE YOU BRING DOWN TO START WITH!</font>
 
 You are going to mirror the host environment on your local machine with a [Lando](../book/lando.html) container; thus why you need [Lando installed, ideally Globally.]  The Lando install should have been part of what you set up as the foundation for your basic machine.
