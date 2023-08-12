@@ -18,11 +18,13 @@ Some of these aren't mandatory. However, you really will benefit from and eventu
 
 - Homebrew 
 
-    <sub><sup>Some of these long lines wrap but you want the whole thing.  You can slide your browser view and the responsive views will open to a single line for these long ones. </sup></sub>
+    <sub><sup>Some of these long lines wrap but you want the whole thing.  You can slide your browser view and the responsive views will open to a single line for these long ones. </sup></sub><br>
+    
    `bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-   <sub><sup>There are times running uninstall and then install clears some issues</sup></sub> 
-   <sub><sup>`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"`</sup></sub>
+   <sub><sup>There are times running uninstall and then install clears some issues</sup></sub><br>
+   
+   `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"`
 
    <sub><sup>You may have to do a `brew link --overwrite git` to simply redo some directories that were not cleared of the prior files and get them updated.</sup></sub>
 
@@ -57,7 +59,7 @@ You can enhance the basic IDE with extensions and some of these can be especiall
 
 <br>
 
-- [Github Pull Request and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github){:target="_blank"}provides a GUI alternative to most commands you would have to type
+- [Github Pull Request and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github){:target="_blank"} provides a GUI alternative to most commands you would have to type
 
 <br>
 
