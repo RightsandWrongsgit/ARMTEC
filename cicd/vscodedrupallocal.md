@@ -1,6 +1,6 @@
 
 ## Our Drupal Code is Local
-# Let's Take Advantage of VSCode
+# Take Advantage of VSCode
 
 [VSCode](../book/ide.md) is your coordination point, your go to place while working on your website.  It will give us a view of the directories of the local project, a view into the individual files we open, and through its extensions it will help do the Git/GitHub stuff.  VSCode also offers a Terminal to run things.  We will start by seeing where that local copy of your website project is located and then how you can use a terminal right from within the same tool. Remember, a local copy of the Platform.sh hosted 'main' branch is brought down with the Platform Command Line in the [process outlined at the end of the prior step](../cicd/bringitlocal.md).
 
