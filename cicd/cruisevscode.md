@@ -48,7 +48,7 @@ See Platform.sh own documentation for more detail on how to [Integrate with GitH
 
 ## NOTE ABOUT THE TOOL CALLED "DRUSH"
 
-Using your VSCode, look in the left panel at the subdirectory list for your project. You will likely see .ddev, github, platform, and config/sync subdirectories.  You will also see Drush and then Web; Web being where your actual site stuff operates.  Drush is a tool used for a lot of Command Line actions when working with Drupal.  Even something as simple as `drush cr` to clear the cache is much faster than searching it down in the GUI interface of the Drupal Administration tabs.  The good news is that the Platform.sh Drupal 9 recipe or template includes a Drush installation automatically. You can anticipate you will use Drush a lot as your comfort grows with Drupal development.
+Using your VSCode, look in the left panel at the subdirectory list for your project. You will likely see .ddev, github, platform, and config/sync subdirectories.  You will also see Drush and then Web; Web being where your actual site stuff operates.  Drush is a tool used for a lot of Command Line actions when working with Drupal.  Even something as simple as `drush cr` to clear the cache is much faster than searching it down in the GUI interface of the Drupal Administration tabs.  The good news is that the Platform.sh Drupal recipe or template includes a Drush installation automatically. You can anticipate you will use Drush a lot as your comfort grows with Drupal development.
 
 <sup><sub>If, for some reason, you found Drush wasn't installed, all you need to do is run the following at the CLI (Command Line Interface).</sub></sup> 
 `composer require drush/drush`
