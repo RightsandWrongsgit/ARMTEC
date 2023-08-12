@@ -25,9 +25,7 @@ The intent of the Platform.sh continuous integration and deployment with Lando r
 
 <font size=5 color=red>Clone vs Explain Branch Point</font>
 
-Up this is point the explanation of how this CI/CD Workflow Project is built has been relatively generically consistent between what you do to simply use the Project and how it was built.  That is because most of it is just making sure your computer and work environment are set up.  [To simply use the project,](../cicd/howtouseit.md) you are basically going to clone the CI/CD Workflow Project from its location in GitHub and intergrate it into what you have already done.  The rest of what is outlined on the remainder of this page continues the explanation of how it works; the underlying parts that the clone has in it.  Again, you might need to know that if you are changing something unique to how you work or how to will manage tools you like within 'develop'(working), 'stage'(testing), 'main'(running) environments after you get going.
-
-
+The explanation of how this CI/CD Workflow Project is 'built' has been consistently with what you would do to 'use it'. It mostly focuses on setting up your computer and work environment. To use the project, you'll [clone it from GitHub and integrate it with the Drupal template you got from Platform.sh.](../cicd/howtouseit.md)  The rest of the page explains the underlying components of the clone. If you want to customize your workflow or manage tools within different environments (develop, staged, main), understanding the underlying details may be helpful.
 
 
 
