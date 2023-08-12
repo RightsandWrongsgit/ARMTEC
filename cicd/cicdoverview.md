@@ -21,6 +21,12 @@ The intent of the Platform.sh continuous integration and deployment with Lando r
 4) Working with the your website on your local machine is fast and isolated from any production environment.  Here your IDE will pay dividends.  In [VSCode, point it on your harddrive to work on the local copy of your project.](vscodedrupallocal.md)  VSCode provides a view into the directory structure, shows the line-by-line of any individual files you pop into, and provides a terminal from which to run commands.  It also has Git and GitHub repository connections plus some other goodies outlined in the [extensions recommended as part of the prerequisites.](../cicd/prerequisites.md#vscode-extensions)  
 
 
+<img src="../cicd/captures/Stopsign.png"  width="550">
+
+<font size=5 color=red>Clone vs Explain Branch Point</font>
+
+Up this is point the explanation of how this CI/CD Workflow Project is built has been relatively generically consistent between what you do to simply use the Project and how it was built.  That is because most of it is just making sure your computer and work environment are set up.  [To simply use the project,](../cicd/howtouseit.md) you are basically going to clone the CI/CD Workflow Project from its location in GitHub and intergrate it into what you have already done.  The rest of what is outlined on the remainder of this page continues the explanation of how it works; the underlying parts that the clone has in it.  Again, you might need to know that if you are changing something unique to how you work or how to will manage tools you like within 'develop'(working), 'stage'(testing), 'main'(running) environments after you get going.
+
 
 
 
