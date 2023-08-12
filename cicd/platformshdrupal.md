@@ -6,8 +6,10 @@
 NOTE: You may want to review the Regular Approach section before you run the "Short-cut approach" so you know what it is doing behind the scenes.  And if you are going to do other projects or migrate an existing project to Platform.sh having this process understanding is helpful.
 
 
-A) Go over to this repository on GitHub and you will find the Platform.sh template for Drupal 9 `https://github.com/platformsh-templates/drupal9`
-	
+A) Go over to this repository on GitHub and you will find the Platform.sh template for Drupal `https://github.com/platformsh-templates/drupal9`
+
+	&nbsp;&nbsp;&nbsp;&nbsp;<sub><sup>Please use the link from the actual CI/CD Project repository which is much more likely to be up-to-date.</sup></sub><br>
+ 
 B) Click on the button at the top of the repository that looks like this <img src="../cicd/captures/deployonplatformbutton.png"  width="200" height="40">	
 
 C) Follow the on-line instructions to bring up the hosted Drupal site	
@@ -45,7 +47,7 @@ This is now building your project on the platform.sh host.<br>
 
 D) At the CLI, now enter:   `platform url -p <Project ID>`
 
-A new browser window will open where you see an install screen for the Drupal9 application. Should look something like this:
+A new browser window will open where you see an install screen for the Drupal application. Don't freakout if it looks slightly different since Drupal routinely updates versions for improvements. But, it should look something like this:
 
 <img src="../cicd/captures/drupalinstall1.png"  width="450">
 
@@ -86,7 +88,7 @@ What you care about at this point is at the bottom of that left box with the Pro
 
 <img src="../cicd/captures/platformsignup8.png"  width="250">
 
-ChaChing!  When you open it, you sort of see the beginnings of your Drupal site running on the Platform.sh host.  We are going to have to do the Drupal site set up steps but the actual host environment is already running.  
+ChaChing!  When you open it, you sort of see the beginnings of your Drupal site running on the Platform.sh host.  We are going to have to do the Drupal site set up steps but the actual host environment is already running.  Don't freakout if it looks slightly different since Drupal routinely updates versions for improvements.
 
 Select your language, then 'Save and continue'...
 
