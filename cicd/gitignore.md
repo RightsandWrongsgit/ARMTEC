@@ -1,6 +1,6 @@
 
 #### Where we stand at this point
-We have our base Drupal project with 'main' branch set up on our Platform.sh host.  We have a local version of that project available on our own machine within a Lando supported container.  We have a GitHub account and Git installed globally plus VSCode installed from our [Prerequisites](../cicd/prerequisites.md).    A `.gitignore` file is at the root of our 'local' project that came as a standard part of the Platform.sh Lando template.  
+We have our base Drupal project with 'main' branch set up on our Platform.sh host.  We have a local version of that project available on our own machine within a Lando supported container.  We have a GitHub account and Git installed globally plus VSCode installed from our [Prerequisites.](../cicd/prerequisites.md)    A `.gitignore` file is at the root of our 'local' project that came as a standard part of the Platform.sh Lando template.  
 
 You probably will find it convenient to use [VSCode](../book/vscodedrupallocal.md) at this point to start working with your local project.  
 
