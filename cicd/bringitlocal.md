@@ -18,21 +18,21 @@ The first part of your coordinating integration is you want Platform.sh to easil
 
 <img src="../cicd/captures/platformCLIinstall1.png"  width="425">
 
-The Platform CLI is installed.  You are going to use it right away.  And again, <font color=red>You want to be at the 'root' of your user account</font>.  You can see right from the system as it comes back to a prompt, itbasically tells you want to run next. Do these two things at the prompt and hit enter.  Your are doing this from the 'root' and that is important because the hosted project will be brought down as a local copy in a directory off that 'root' <font color=red>unless you tell it otherwise</font> in an upcoming step.
+The Platform CLI is installed.  You are going to use it right away.  And again, <font color=red>You want to be at the 'root' of your user account.</font>  You can see right from the system as it comes back to a prompt, it basically tells you what to run next. Do these two things at the prompt and hit enter.  You are doing this from the 'root' and that is important because the hosted project will be brought down as a local copy in a directory off that 'root' <font color=red>unless you tell it otherwise</font> in an upcoming step.
 
 <img src="../cicd/captures/platformCLIinstall2.png"  width="170">
 
 <img src="../cicd/captures/platformCLIinstall3.png"  width="170">
 
-As Platform.sh starts, it ask you if you want to Log in via a browser and you select the default 'Y' that you do want to use the browser.
+As Platform.sh starts, it ask you if you want to "Log in via a browser" and you select the default 'Y' that you do want to use the browser.
 
 <img src="../cicd/captures/platformCLIinstall4.png"  width="170">
 
-Since we signed up for Platform.sh with GitHub it is already SSH connected, recognizes our Username and Email Address.  Plus it see our list of projects as the one we just set up..
+Since we signed up for Platform.sh with GitHub it is already SSH connected, recognizes our Username and Email Address.  Plus it shows our list of projects as the one we just set up..
 
 <img src="../cicd/captures/platformCLIinstall5.png"  width="425">
 
-We need to choose the project we want to use. Since we only have the one project at this point, selecting it as number '0' from the list is easy.  And since we haven't set up any branches yet, our only environment is 'main'.  **It also notes the name of what will be our default directory; and since we invoked all this off of the root, it will just be at the level of a sub-directory right off of the root.**
+We need to choose the project we want to use. Since we only have the one project at this point, selecting it as number '0' from the list is easy.  And since we haven't set up any branches yet, our only environment is 'main'.  <font color=yellow>It also notes the name of what will be our default directory; and since we invoked all this off of the root, it will just be at the level of a sub-directory right off of our user root.</font>
 
 <img src="../cicd/captures/platformCLIinstall6.png"  width="300">
 
