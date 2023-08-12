@@ -77,7 +77,7 @@ It is assumed you had installed the basic prerequisite of 'Git' itself on your m
 &nbsp;&nbsp;&nbsp;&nbsp;• Open Visual Studio Code.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;• Put your cursor in and 'click' on the top level directory of your project<br>
 &nbsp;&nbsp;&nbsp;&nbsp;• Select 'shift-command-P' and the command pallet will open<br>
-&nbsp;&nbsp;&nbsp;&nbsp;• Start typing `git init` and you will see “Initialize Git Repository” appear in the bar; select it and let it run.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;• Start typing `git init`, see “Initialize Git Repository” in the bar; select and run.<br>
 
 
 [- Next -](../cicd/cruisevscode.md)
