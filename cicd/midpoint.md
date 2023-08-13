@@ -32,7 +32,7 @@
 
   - There are some unique ways that Drupal code and its database are set up.  We put in place an important module to deal with coordinating some configuration in the database with the rest in the code base.  The net result is not really having to worry about it after we establish this in what people will clone to start a new website.
  
-  - As websites grow, the amount of content stored in the database increases. Moving this content back and forth during website development can be frustrating and slow down performance. To solve this, we have included a module that coordinates limited content from the database with the development environment. Instead of using fake content and [lorem ipsum text](https://lipsum.com/) you can now bring a small portion of your actual database content into the specific area you are working on. This gives you a more realistic look and feel for your website.  
+  - As websites grow, the amount of content stored in the database increases. Moving this content back and forth during website development can be frustrating and slow down performance. To solve this, we have included a module that coordinates limited content from the database with the development environment. Instead of using fake content and [lorem ipsum text](https://lipsum.com/) you can now bring a small portion of your actual database content into the specific area you are working on. This gives you a more realistic look and feel while working on your website.  
 
 <br>
 <br>
