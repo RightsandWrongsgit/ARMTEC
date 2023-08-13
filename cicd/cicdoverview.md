@@ -42,17 +42,20 @@ If you have your project integrated between these platforms what else is there? 
 
 7) Correct `.lando.yml` tooling is essential to make sure [Drush](../book/drush.md) will work properly.  Drush is a command line tool that allows a bunch of Drupal actions to be taken with a short-cut.  People who do a lot of work in Drupal find it essential.  Even if you just use it to do a `drush cr` to clear the cache as you work, you will find it quickly become a real time saver for certain things.  For some reason, the Platform.sh template you pull for Drupal with Lando contains drush automatically but the `.lando.yml` file that is included has the tooling within its configuration set to `service: app` and you need to edit that to say `service: drupal`.
 
-8) 
-<br>
-[make sure you have the write and timeout settings in place and to the Drupal core update](../cicd/basebeforesplit.md#quick-lookup)*********
+8) The [Mid-Point Update in the detailed documentation](../cicd/midpoint.md)  outlines of the logic behind using a 'develop', 'staged', and 'main' (production) environment approach to achieve the CI/CD Workflow.   Notes is how we can use standard 'Git' commands to manage version control, rollbacks, testing, and production release.  These Git commands can be run from your VSCode IDE or directly from its terminal command line.  Also described is how 'Drupal configuration' is managed between these different environments; putting certain  Drupal modules only in certain environments.
 
-What you will see if you jump to our [Mid-Point Update in the detailed documentation](../cicd/midpoint.md) is an outline of the logic behind using a 'develop', 'staged', and 'main' (production) environment.  This is where the CI/CD Workflow is coming into play.  'develop' is where you do your work on a local copy linked to its host counterpart with frequent syncronization using standard 'Git' commands (from your VSCode IDE or directly from its command line).  The next step of steps that the detailed documentation describes if you need to check something, is about how the 'Drupal configuration' is managed between these different environments, how you may put certain types of Drupal modules only in certain environments, how you are aided in knowing where you are with an Environment Indicator what titles and color codes environments to help you avoid errors, how a Structure Sync and Stage File Proxy modules inclusion avoids large and potentially slow database calls during development yet maintains real-world content context for you to see while working.
+
+
+  
+  how you are aided in knowing where you are with an Environment Indicator what titles and color codes environments to help you avoid errors, how a Structure Sync and Stage File Proxy modules inclusion avoids large and potentially slow database calls during development yet maintains real-world content context for you to see while working.
 
 <font size="4" color=Emerald>These goodies make it much safer building your website</font><br> 
 
 Safer?  I don't know about you, but even while I am just deep into a practice situation with where I have invested a lot of effort, I hate it when I mess up and have to totally start back over.  By having copies in different environments, and controls on workflow to make sure I test before moving something I just built to what I am sharing with the world, I feel way, way safer.  GitHub, Platform.sh with its backup procedures, plus our CI/CD Workflow controls,  are strong solutions to an enjoyable experience. 
 
 ----------------------------------------------------------------------------------
+[make sure you have the write and timeout settings in place and to the Drupal core update](../cicd/basebeforesplit.md#quick-lookup)*********
+
 
 7) [Bring it up to date.](../cicd/basebeforesplit.md#get-things-updated-first)  So you have the basic CI/CD Project Drupal site in place by cloning it and then doing the integration between the local machine, GitHub, and the Platform.sh host.  You can open the Drupal project and drive around in it; most likely on your local environment copy.  When you do, you will possibly find it warning you that an update exists.  If you don't know Drupal yet, this warning exists lots of times and it is NOT mandatory that you do updates.  However, with a new project it makes sense to get things as updated as possible to start.  This becomes the coordination point that [Composer](https://getcomposer.org/) uses for package management as you apply additional modules.  This includes continued coordination with the modules that are part of the CI/CD workflow.  
 
