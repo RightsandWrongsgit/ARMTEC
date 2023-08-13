@@ -1,7 +1,7 @@
 
 # Do more with VSCode
 
-VSCode is easy to navigate with its organized layout. The left window displays your directories, the upper right shows the files you click on with an editor, and the lower right contains a terminal window. The terminal window allows you to use the command line interface for lando or platform.sh CLI. You can also access a command pallet at the top of VSCode by pressing shift-command-P (on a Mac). There are various VSCode extensions(../cicd/prerequisites.md#vscode-extensions) available to improve code appearance and enable Git-GitHub workflows. Git-GitHub interactions are crucial for Platform.sh's GitOps workflow. Watch this video to learn more about using [GitHub with VSCode.](https://www.youtube.com/playlist?list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi)
+VSCode is easy to navigate with its organized layout. The left window displays your directories, the upper right shows the files you click on with an editor, and the lower right contains a terminal window. The terminal window allows you to use the command line interface for lando or platform.sh CLI. You can also access a command pallet at the top of VSCode by pressing shift-command-P (on a Mac). There are various [VSCode extensions](../cicd/prerequisites.md#vscode-extensions) available to improve code appearance and enable Git-GitHub workflows. Git-GitHub interactions are crucial for Platform.sh's GitOps workflow. Watch this video to learn more about using [GitHub with VSCode.](https://www.youtube.com/playlist?list=PLpPVLI0A0OkLBWbcctmGxxF6VHWSQw1hi)
 
 ## Put 'your project' into GitHub
 
