@@ -26,7 +26,16 @@
 - What we want to do in preparation <font color=red>BEFORE</font> we set up these additional environments is to …<br>
   - Install and enable some of the modules we might anticipate using on our site (don't worry, we can add others later, it is just easier up front because then they will automatically be present across all environments).<br>
   
-  - Automatically, that is, unless we <u>Don't Want them to be.</u>  We will be learning how Drupal has something called [Configuration](https://mikemadison.net/blog/2020/6/26/drupal-configuration-introduction) which tells how an environment is set up.  To achieve intentionally coordinated differences between our environments we will install the [Config_Split module.](https://www.drupal.org/project/config_split)  Think about Config_Split as basically <font color=yellow> turning off </font> stuff we don't want operating in a specific environment; we really have all stuff present everywhere but just not always active in each environment.<br> 
+  - Automatically, that is, unless we <u>Don't Want them to be.</u>  We will be learning how Drupal has something called [Configuration](https://mikemadison.net/blog/2020/6/26/drupal-configuration-introduction) which tells how an environment is set up.  To achieve intentionally coordinated differences between our environments we will install the [Config_Split module.](https://www.drupal.org/project/config_split)  Think about Config_Split as basically <font color=yellow> turning off </font> stuff we don't want operating in a specific environment; we really have all stuff present everywhere but just not always active in each environment.<br>
 
+  - Setting up an Environment Indicator will add a banner to each environment's Administration access that shows the name of the environment you are in.  And color coding is set up in each environment; green where you should expect to work, yellow to test, and red for your 'main' running production environment so you don't mistakenly do something there.<b>
+
+  - There are some unique ways that Drupal code and its database are set up.  We put in place an important module to deal with coordinating some configuration in the database with the rest in the code base.  The net result is not really having to worry about it after we establish this in what people will clone to start a new website.
+ 
+  -As websites grow, the amount of content stored in the database increases. Moving this content back and forth during website development can be frustrating and slow down performance. To solve this, we have included a module that coordinates limited content from the database with the development environment. Instead of using fake content and [lorem ipsum text](https://lipsum.com/) you can now bring a small portion of your actual database content into the specific area you are working on. This gives you a more realistic look and feel for your website.  
+
+<br>
+<br>
+<br>
   
   [- Next -](../cicd/basebeforesplit.md)
