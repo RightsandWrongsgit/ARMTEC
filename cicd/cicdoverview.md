@@ -32,26 +32,26 @@ The explanation of how this CI/CD Workflow Project is 'built' has been consisten
 [Go Here!](../cicd/howtouseit.md)
 
 
-## How Put together Continued
+## How put together, continued
 
+If you have your project integrated between these platforms what else is there? Much of what you have done so far isn’t far from using standard Plaform.sh as a GitOps host. It wouldn’t be surprising that a relatively experienced person would do most of what was outlined as second nature.  The next items are what sets up a real CI/CD Workflow with its key components.  Things like tweaking development configuration with tools you wouldn't want in production, including automatic environment indicator names and color bars so you avoid getting lost, and setting limited but visually informative connections to database stored content to speed development performance while showing real world context.  
 
+5) We pay special attention to assuring our `.gitignore`  file recommendations support unique CI/CD Workflow project's needs.  We put the project under 'Git' control.  However, if you are already familiar with Git, <font color=red>don't do an `init` command just yet.</font>
 
-
+First, you need to [make sure you have our `.gitignore` file.](../cicd/gitignore.md)   A huge advantage of Drupal being under Composer version control coordination is that our `composer.json` file acts as a recipe to a huge amount of what is needed within the project.  This means that you avoid having thousands of files flowing unnecessarily between your local machine and a GitHub repository or Platform.sh host environment; rather the recipe is all that needs to be passed for these updates.  There are other things our `.gitignore` file excludes like log files, some IDE or sass generated intermediary files.   After we craft the `.gitignore` file, we include it as part of the the respository that can just be cloned as one starts any new project with the CI/CD Workflow Project template.  After that `'.gitigore` file is crafted, you should be save to run a `git init`; and we did that as our template was first made.
+ 
 
 [make sure you have the write and timeout settings in place and to the Drupal core update](../cicd/basebeforesplit.md#quick-lookup)
 
 
 
-5) Bring your project under 'Git' control.  If you are already familiar with Git, <font color=red>don't do an `init` command just yet.</font>  First, you need to [make sure you have our `.gitignore` file](../cicd/gitignore.md) that is set up in a manner to work well with this CI/CD project template.  You will `git init` only after you have that properly in place. 
+
 
 6) [Make it 'YOUR Project'.](../cicd/cruisevscode.md#put-your-project-into-github)  You make think the CI/CD Project you cloned from GitHub is now yours.  But really, at this point, you have simply borrowed it. Since you set up a GitHub account as part of the prerequisites, you need to connect the local copy, now with your `.gitignore` edits, to YOUR Project in that respository.  Since you are using VSCode you can hit `shift-command-P` to bring up the command pallet and start typing `Publish to GitHub`.  With the 'extensions' we added to VSCode and our SSH connection, it should ask you if you want to 'allow' a sign-in to GitHub and back at the command pallet just start typing the name of your project (if you only have the one project and your VSCode IDE is within it the project name is likely to already be in the box).  Below the box is an option that says `Publish to GitHub private repository` or `Publish to GitHub public repository` and the name of your GitHub account followed by the project name.  <font color=yellow> So now you have integrated your project between GitHub, Platform.sh, and your local maching Lando container.</font>
 
 <br>
 
-## Why more? 
-----------------------------------------------------------------------------------
- 
-If you have your project integrated between these platforms what else is there?  Much of what you have done so far isn't far from standard Plaform.sh as a GitOps host.  It wouldn't be surprising that a relatively experienced person would do most of that as second nature; perhaps only paying special attention to our `.gitignore` recommendations for things sort of unique to the cloned project's needs.
+*********
 
 What you will see if you jump to our [Mid-Point Update in the detailed documentation](../cicd/midpoint.md) is an outline of the logic behind using a 'develop', 'staged', and 'main' (production) environment.  This is where the CI/CD Workflow is coming into play.  'develop' is where you do your work on a local copy linked to its host counterpart with frequent syncronization using standard 'Git' commands (from your VSCode IDE or directly from its command line).  The next step of steps that the detailed documentation describes if you need to check something, is about how the 'Drupal configuration' is managed between these different environments, how you may put certain types of Drupal modules only in certain environments, how you are aided in knowing where you are with an Environment Indicator what titles and color codes environments to help you avoid errors, how a Structure Sync and Stage File Proxy modules inclusion avoids large and potentially slow database calls during development yet maintains real-world content context for you to see while working.
 
