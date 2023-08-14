@@ -32,6 +32,18 @@ The following steps make sure the directories are writable, extends time to hand
 
 <sup><sub>NOTE: Make sure Platform CLI is installed and SSH connection established.</sub></sup><br>
 
+
+
+## I screwed up
+## Back me out
+<font color=yellow>This assumes the local lando Drupal update isn't running right AND that you haven't pushed the update to the host (Platform.sh and GitHub)!</font>
+You are going to flush the whole local copy of the project and simply clone the clean copy you have in the repository to restore the local.
+
+
+NEED TO UPDATE THIS: yet to list out steps
+
+
+
 <br>
 <br>
 <br>
