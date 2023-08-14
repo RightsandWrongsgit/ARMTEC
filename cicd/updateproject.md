@@ -6,7 +6,7 @@ This provides instructions to update Lando and Platform.sh Drupal CI/CD project 
 
 ## Start with a Backup
 
-It makes sense to be sure whatever you have in place that you are happy with is [Backed Up on Platform.sh before you do any updates.](../cicd/basebeforesplit.md#lets-do-a-Platformsh-backup) 
+It makes sense to be sure whatever you have in place that you are happy with is [Backed Up on Platform.sh before you do any updates.](../cicd/basebeforesplit.md#lets-do-a-platformsh-backup) 
 
 ## General Drupal Requirements
 [Drupal.Org link](https://www.drupal.org/docs/getting-started/system-requirements)
