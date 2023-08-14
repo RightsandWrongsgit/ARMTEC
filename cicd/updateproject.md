@@ -4,6 +4,10 @@
 
 This provides instructions to update Lando and Platform.sh Drupal CI/CD project major versions.  It is principly a set of notes for the CI/CD Workflow Project author to do updates to the master project environments on their Lando local machine and after doing so, updating the hosted 'main' that people clone for their easy start Drupal site.
 
+## Start with a Backup
+
+It makes sense to be sure whatever you have in place that you are happy with is [Backed Up on Platform.sh before you do any updates.](../cicd/basebeforesplit.html#lets-do-a-Platform.sh-backup)
+
 ## General Drupal Requirements
 [Drupal.Org link](https://www.drupal.org/docs/getting-started/system-requirements)
 
