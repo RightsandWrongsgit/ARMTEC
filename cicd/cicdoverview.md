@@ -21,7 +21,7 @@ The intent of the Platform.sh continuous integration and deployment with Lando r
 4) Working with the your website on your local machine is fast and isolated from any production environment.  Here your IDE will pay dividends.  In [VSCode, point it on your harddrive to work on the local copy of your project.](vscodedrupallocal.md)  VSCode provides a view into the directory structure, shows the line-by-line of any individual files you pop into, and provides a terminal from which to run commands.  It also has Git and GitHub repository connections plus some other goodies outlined in the [extensions recommended as part of the prerequisites.](../cicd/prerequisites.md#vscode-extensions)  
 
 
-<img src="../cicd/captures/Stopsign.png"  width="250">
+<img src="../cicd/captures/Stopsign.png"  width="200">
 
 <font size=5 color=red>Clone vs Explain Branch Point</font>
 
