@@ -17,18 +17,33 @@ It makes sense to be sure whatever you have in place that you are happy with is 
 How you update..<br>
 `composer self-update`
 
-## Lando-update PHP version
+## PHP version
 
 ### Version you are on...
 
+#### Drupal
 Check under "Status report": /admin/reports/status
 
 Or run `drush core:status` 
 
+#### Platform.sh
+
+You can look at the PHP and/or Composer versions that Platform.sh is using by examining the copy of `platform.app.yml` in your local copy of the project; right near the `composer.json` file.
+
+<img src="../cicd/captures/platformshcomposerphpversions.png"  width="500">
+
 ### Version you are moving to...
 
 [First check the Host PHP version cabability before moving it forward too far!](https://www.drupal.org/docs/getting-started/system-requirements/php-requirements)
-<font size="4" color=yellow> don't move forward more than the Drupal version you are updating to can run.</font>  
+<font size="4" color=yellow> don't move forward more than the Drupal version you are updating to can run.</font> 
+
+#### Platform.sh
+
+Edit the copy of `platform.app.yml` in your local copy of the project; right near the `composer.json` file. Then do your `Git commit`, `Git sync` in your VSCode IDE to get it up to the host. 
+
+<img src="../cicd/captures/platformshcomposerphpversions.png"  width="500">
+
+#### Lando
 
 Run [lando](https://docs.lando.dev/) in the local copy of the project:
 `lando init`
