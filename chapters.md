@@ -239,8 +239,9 @@
   - [UUIDs: Friend or Foe](cicd/UUID.md)
   - [Stage File Proxy](cicd/stagefileproxy.md)
   - [Cloning The Project](cicd/cloneandpull.md)
+  - [Updating Master](cicd/updateproject.md)
 
-
+  
 - Appendices
   - [Adding php xdebug](cicd/xdebug.md)
   - [CSS & JS Advanced Aggregation](cicd/advancedaggregation.md)
