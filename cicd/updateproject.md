@@ -6,6 +6,17 @@ This provides instructions to update Lando and Platform.sh project major version
 
 ## Lando-update PHP version
 
+### Version you are on...
+
+Check under "Status report": /admin/reports/status
+
+Or run `drush core:status` 
+
+### Version you are moving to...
+
+<font size="4" color=yellow>First check the Host PHP version cabability before moving it forward too far!</font>
+Also don't move forward more than the Drupal version you are updating to can run.  
+
 Run [lando](https://docs.lando.dev/) in the local copy of the project:
 `lando init`
 
