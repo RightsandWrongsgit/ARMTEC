@@ -33,6 +33,11 @@ The following steps make sure the directories are writable, extends time to hand
 
 <sup><sub>NOTE: Make sure Platform CLI is installed and SSH connection established.</sub></sup><br>
 
+## Update Drush
+
+Sometimes updating Drush will overcome issues occuring from the Drupal update.
+
+`composer require drush/drush:^11`
 
 
 ## I screwed up
