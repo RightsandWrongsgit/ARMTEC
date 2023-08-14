@@ -103,6 +103,12 @@ d) Make your next move!
 
 <br>
 <br>
+
+## Some possibly good references to reveiw
+
+[A guide, explaining how to upgrade a Drupal application to PHP 8 keeping backward compatibility with PHP 7. This is to allow deploying to production without the need to synchronize with the update of the servers to PHP 8.](https://metadrop.net/en/articles/updating-drupal-php-8)<br>
+
+<br><br>
 <br>
 
 [Back to CI/CD Project Documentation List](../book/drupalcicd.md#i-kind-of-need-to-know-how-it-works)
