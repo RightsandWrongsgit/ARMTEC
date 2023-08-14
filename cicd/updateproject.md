@@ -20,7 +20,7 @@ Destroy and rebuild after making that php-change:
 
 ## Update Drupal Core
 <font color=yellow>(On your local machine in the CI/CD Workflow Project directory.)</font><br>
-<font color=yellow>(Confirmed 'main' on the bottom of VSCode, connected to the host copy.)</font>
+<font color=yellow>(Confirmed 'main' on the bottom of VSCode, connected to the host copy.)</font><br>
 <font color=yellow>(If in doubt, first do a `composer update --dry-run`)</font>
 
 The following steps make sure the directories are writable, extends time to handle slower connections, updates the core locally in Lando, and get the updates into the Platform.sh host:<br> 
