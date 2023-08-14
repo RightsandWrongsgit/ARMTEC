@@ -14,7 +14,7 @@ Or run `drush core:status`
 
 ### Version you are moving to...
 
-<font size="4" color=yellow>First check the Host PHP version cabability before moving it forward too far!</font>
+<font size="4" color=yellow>First check the Host PHP version cabability before moving it forward too far!</font><br>
 Also don't move forward more than the Drupal version you are updating to can run.  
 
 Run [lando](https://docs.lando.dev/) in the local copy of the project:
