@@ -2,7 +2,16 @@
 # Project Administration
 ## Update master systems
 
-This provides instructions to update Lando and Platform.sh project major versions.  It is principly a set of notes for the CI/CD Workflow Project author to do updates to the master project environments on their Lando local machine and after doing so, updating the hosted 'main' that people clone for their easy start Drupal site.
+This provides instructions to update Lando and Platform.sh Drupal CI/CD project major versions.  It is principly a set of notes for the CI/CD Workflow Project author to do updates to the master project environments on their Lando local machine and after doing so, updating the hosted 'main' that people clone for their easy start Drupal site.
+
+## General Drupal Requirements
+[Drupal.Org link](https://www.drupal.org/docs/getting-started/system-requirements)
+
+## Composer-update version
+[Version requirements](https://www.drupal.org/docs/system-requirements/composer-requirements)<br>
+
+How you update..<br>
+`composer self-update`
 
 ## Lando-update PHP version
 
@@ -14,8 +23,8 @@ Or run `drush core:status`
 
 ### Version you are moving to...
 
-<font size="4" color=yellow>First check the Host PHP version cabability before moving it forward too far!</font><br>
-Also don't move forward more than the Drupal version you are updating to can run.  
+[First check the Host PHP version cabability before moving it forward too far!](https://www.drupal.org/docs/getting-started/system-requirements/php-requirements)
+<font size="4" color=yellow> don't move forward more than the Drupal version you are updating to can run.</font>  
 
 Run [lando](https://docs.lando.dev/) in the local copy of the project:
 `lando init`
