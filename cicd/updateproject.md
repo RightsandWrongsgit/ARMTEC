@@ -19,8 +19,8 @@ Destroy and rebuild after making that php-change:
 `lando destroy -y && lando start`
 
 ## Update Drupal Core
-<font color=yellow)(You are doing this from you local machine in the CI/CD Workflow Project directory.)(/font)<br>
-<font color=yellow)You have confirmed on the bottom of VSCode that the local is talking directly to 'main' as it is connected to the host copy.)(/font)
+<font color=yellow>(You are doing this from you local machine in the CI/CD Workflow Project directory.)</font><br>
+<font color=yellow>(You have confirmed on the bottom of VSCode that the local is talking directly to 'main' as it is connected to the host copy.)</font>
 
 The following steps make sure the directories are writable, extends time to handle slower connections, updates the core locally in Lando, and get the updates into the Platform.sh host:<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;`lando start`<br>
