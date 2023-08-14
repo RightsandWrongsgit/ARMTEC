@@ -83,4 +83,4 @@ Needed: a GitHub Read.me Summary
 <br>
 <br>
 
-[- Next -](../cicd/prerequisites.md)
+[- Next -](../book/drupalcicd#i-kind-of-need-to-know-how-it-works)
