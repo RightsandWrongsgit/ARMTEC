@@ -23,7 +23,7 @@ The intent of the Platform.sh continuous integration and deployment with Lando r
 
 <img src="../cicd/captures/Stopsign.png"  width="200">
 
-<font size=5 color=red>Clone vs Explain Branch Point</font>
+<font size=5 color=red>"Clone" vs "Explain" Branch Point</font>
 
 The explanation of how this CI/CD Workflow Project is 'built' has been consistent with what you would do to 'use it'.  It mostly focuses on setting up your computer and work environment.  To use the project, you'll [clone it from GitHub and integrate it with the Drupal template you got from Platform.sh.](../cicd/howtouseit.md) What you get with that clone already has what is shown next; so continuing here is optional.  The rest of the page below continues to explain the underlying components of the clone.  If you want to customize your workflow or manage tools within different environments (develop, staged, main), understanding that underlying detail may be helpful.
 
@@ -47,7 +47,6 @@ If your project is already integrated between these platforms, what else is ther
 9) <font color=yellow>DON'T SPLIT IT YET!</font> We are heading toward those additional named environments beyond 'main'.  Before going there, first we want to [bring "YOUR" project up-to-date.](../cicd/basebeforesplit.md#get-things-updated-first)  So you have the basic CI/CD Project Drupal site in place by cloning it and then doing the integration between the local machine, GitHub, and the Platform.sh host.  You can open your Drupal project and you will most likely find it warning you that an update exists.  If you don't know Drupal yet, this warning exists lots of times and it is <font color=yellow>NOT mandatory that you do updates.</font>  However, with a new project it makes sense for the cleanest starting point.  Using our VSCode IDE we will 'stage the changes' (clicking the plus sign), click the blue bar with checkmark that says 'commit', and if all is going as we want we can click the blue bar that now says 'sync changes'.  You may get a confirming message indicating this will 'pull and push commits from and to origin/main'; that message option can be turned off so if you have done that in prior use of your VSCode IDE you may just run.  The key thing here is that the 'orgin/main' is telling you the branch environment project branch and recall we named our starting point environment branch 'main' when first establishing the project on Platform.sh.  Sometimes people who have worked with Git/GitHub in the past called it 'master'.  But not only is 'main' the modern standard, it is also is key you use 'main' for the CI/CD Project to work correctly.  You may as well [run a Platform.sh backup on you host at this point too.](../cicd/basebeforesplit.md#lets-do-a-Platform.sh-backup)
 
 <font color=yellow>*********</font><br>
-
 [make sure you have the write and timeout settings in place and to the Drupal core update](../cicd/basebeforesplit.md#quick-lookup)<br>
 
 <font color=yellow>*********</font>
