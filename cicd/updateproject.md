@@ -69,10 +69,22 @@ Sometimes updating Drush will overcome issues occuring from the Drupal update.
 <font color=yellow>This assumes the local lando Drupal update isn't running right AND that you haven't pushed the update to the host (Platform.sh and GitHub)!</font>
 You are going to flush the whole local copy of the project and simply clone the clean copy you have in the repository to restore the local.
 
+a) Go to the project in your VSCode IDE at its top level.  Then do a `shift-command-P` to pull up the command bar where you will start typing `Gitclone <project name>` to pull it back local.
 
-NEED TO UPDATE THIS: yet to list out steps
+b) Go to the terminal in VSCode and type `lando start` to make sure the project that was restored is what you expected.  
 
+c) Make your next move!
 
+<font color=yellow>This assumes the local lando Drupal update isn't running right AND you also made the error of pushing the bad update to the host (Platform.sh and GitHub)!</font>
+Nearly the same as if you hadn't pushed it to Platform.sh EXCEPT <font color=yellow>first you are going to restore the backup you made on Platform.sh</font> then you are going to flush the whole local copy of the project and simply clone the clean backup copy you have in the repository to restore the local.
+
+a) Go toward the end of the section discussing [back Up on Platform.sh ](../cicd/basebeforesplit.md#lets-do-a-platformsh-backup) and you will see the "Restore" option on the image which you can select and bring that copy back live. Give it a chance to run, especially if it happens to be large.
+
+b) Go to the project in your VSCode IDE at its top level.  Then do a `shift-command-P` to pull up the command bar where you will start typing `Gitclone <project name>` to pull it back local.
+
+c) Go to the terminal in VSCode and type `lando start` to make sure the project that was restored is what you expected.  
+
+d) Make your next move!
 
 <br>
 <br>
