@@ -9,13 +9,13 @@ This provides instructions to update Lando and Platform.sh project major version
 Run [lando](https://docs.lando.dev/) in the local copy of the project:
 `lando init`
 
-Find the lando yml file and edit the PHP version line to the new one you want:
+Find the lando yml file and edit the PHP version line to the new one you want:<br>
 `# .lando.yml
 services:
   appserver:
     type: php:8.1 #edit this line`
 
-Destroy and rebuild after making that php-change:
+Destroy and rebuild after making that php-change:<br>
 `lando destroy -y && lando start`
 
 ## Update Drupal Core
