@@ -70,7 +70,7 @@ Here is what the `settings.php` section will look like after you detect the envi
 
 
 
-[- Next -]()
+[- Next -](../cicd/cloneandpull.md)
 
 
 
