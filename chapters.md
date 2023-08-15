@@ -248,7 +248,7 @@
   - [Drupal Scaffold ("overwrite": false) solution](cicd/scaffold.md)
   - [Reestablishing your GitHub-Platform.sh Integration](cicd/expiredconnection.md)
   - [SubTheme Setup](cicd/subtheme.md)
-  - [UUIDs: Actually Change them](cicd/changeUUID.md)
+  - [UUIDs: Actually Change them](cicd/changeUUIDs.md)
 
 
 
