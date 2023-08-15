@@ -64,6 +64,9 @@ Safer?  I don't know about you, but even while I am just deep into a practice si
 
 12) Since we are planning to have 'local', 'develop', 'staged', and 'main' environment situations in our workflow we added additional subdirectories in what you will clone to store YML configuration files that may be unique to how we want to define each one.  You will decide what you want to do differently by environment after you clone the project and start doing the GitOps steps.  What you bring down to start with is that the tool is in place and the separate buckets to store the definitions are in place.  It is worthwhile reviewing instructions on the [Configuration Split module](https://www.specbee.com/blogs/how-to-split-configurations-across-different-sites-on-drupal-9) as you get into this process and you may even have the tolerance for this [solid 55 minute video.](https://www.youtube.com/watch?v=t7MRvQwqeDA)  Even after you have the basics down, I think you will find that using something like a spreadsheet to get organized in advance of initial set up will help; [example template or map.](../cicd/configsplit3.md)
 
+13) The detailed documentation outlines the installation and `php.settings` edit process in a step-by-step manner.  In this summary, we just jump you to show all those edits; which you would also see in your cloned copy of that file.  What you see shows [how the configuration is directed into each of those environment split subdirectories, how which environment you are in is automatically detected to line up with the right one, name and color code its display, and instruct stage_file_proxy in the 'local' environment where to reach out and grab its content context files.](../cicd/stagefileproxy.md#syntax-footnote)
+
+
 
 
   
