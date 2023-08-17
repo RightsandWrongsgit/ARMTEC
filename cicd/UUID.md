@@ -1,7 +1,7 @@
 
 # UUIDs: Friend or Foe
 
-#### Wonder why we have only populated the one configuration subdirectory?
+#### Wonder why we only populated the one configuration subdirectory?
 Although we've made progress in configuring different environments, we haven't fully implemented the variations. We created subdirectories and installed the config_split module to manage unique configurations. However, we have only filled one subdirectory with the exported yml files.
  
 #### The reason
@@ -10,7 +10,7 @@ We didn't do those thing because we aim to essentially clone all the stuff we ha
 #### The real reason
 I discovered the power of UUIDs in Drupal's file structure. These unique codes, also known as [Universal Unique Identifiers,](https://en.wikipedia.org/wiki/Universally_unique_identifier) are not exclusive to Drupal. They serve as keys in databases, ensuring that your code connects to the correct database information. UUIDs prevent mistakes, like pulling from the wrong database. When working with multiple environments, such as 'local', 'develop', 'staged', and 'main', it's crucial to have the right code in the right place at the right time.  If you have multiple projects with different databases you don't want to accidentially point to the wrong one.
 
-#### So cloning a starting point project is a problem and Drupal isn't dealing it?
+#### You mean Drupal hasn't dealt with cloning a starting point project?
 While preventing stupid is a wonderful idea, it also creates a problem.  Drupal is aware of that problem and trying to do something about it.  Just like you and I, they agree it would be really helpful to people if they could just copy some other Drupal project and use it as your starting point.
 
 An Initiative about [Starter Kits](https://www.drupal.org/about/core/strategic-initiatives-distributions-and-recipes) has been thrown around but it seems that the terms "Distributions and Recipes" are gaining popularity among the Drupal community, which is great. I've enjoyed joining their teams and listening to their ideas. Even if they succeed, it won't replace what we're doing here. They focus on Drupal, while we work with containers, Git Version Control, CI/CD processes, and hosting. When they launch, we can simply add some enhancements to our Composer.json file to further accelerate our project.
