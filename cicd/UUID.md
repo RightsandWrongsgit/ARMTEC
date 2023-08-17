@@ -18,7 +18,7 @@ An Initiative about [Starter Kits](https://www.drupal.org/about/core/strategic-i
 We're going to continue with our broader Drupal CI/CD Workflow project to create a well-crafted starting point  which can be reused repeatedly, using workarounds for the UUID issue. We're not abandoning safety as the CI/CD GitOps workflow processes itself is all about safety.  So we opt for our workflow management approach which then allows our starting point to be cloned pretty much in the same way as most Git Repositories.
 
 ## Introducing the Config Suite module
-The approach we are going to use is to leverage a contributed module called Config Suite.  This module has a secondary intent of dealing with the UUIDs and a primary intent of automating config-export (drush cex) and config-import (drush cim) steps.  <font color=yellow>First, the way this module deals with the UUIDs is NOT to change them but to simply ignore them.</font>    The way that Conf Suite ignores the UUIDs is by doing a little php magic surpressing an event trigger that extends Drupal's basic configuration of "SystemConfigSubscriber": 
+The approach we are going to use is to leverage a contributed module called Config Suite.  This module has a secondary intent of dealing with the UUIDs and a primary intent of automating config-export (drush cex) and config-import (drush cim) steps.  <font color=yellow>The way this module deals with the UUIDs is NOT to change them but to simply ignore them.</font>    The way that Conf Suite ignores the UUIDs is by doing a little php magic surpressing an event trigger that extends Drupal's basic configuration of "SystemConfigSubscriber": 
 
 <img src="../cicd/captures/UUID1.png"  width="700">
 
