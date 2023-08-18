@@ -31,8 +31,21 @@ Notice that one of the very first things noted to be different by split is the c
 ### So how are we going to set this up
 
 
+<img src="../cicd/captures/ConfigSuite1.png"  width="500">
 
+<img src="../cicd/captures/ConfigSuite2.png"  width="500">
 
+<img src="../cicd/captures/ConfigSuite3.png"  width="500">
+
+<img src="../cicd/captures/ConfigSuite4.png"  width="500">
+
+<img src="../cicd/captures/ConfigSuite5.png"  width="500">
+
+<img src="../cicd/captures/ConfigSuite6.png"  width="500">
+
+<img src="../cicd/captures/ConfigSuite7.png"  width="500">
+
+<img src="../cicd/captures/ConfigSuite8.png"  width="500">
 
 
 
