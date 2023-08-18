@@ -39,6 +39,7 @@ VSCode integrates with that 'Git' version control stuff.  'Git' version control 
 -  [Put Config Split In Place](../cicd/splitcheck.md)
 -  [Structure Sync](../cicd/structuresync.md)
 -  [UUIDs: Friend or Foe](../cicd/UUID.md)
+-  [Automate Configuration](../cicd/autoconfig.md)
 -  [Stage File Proxy](../cicd/stagefileproxy.md)
 -  [Cloning The Project](../cicd/cloneandpull.md)
 -  [Updating Master](../cicd/updateproject.md)
