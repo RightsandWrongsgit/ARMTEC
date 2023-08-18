@@ -31,14 +31,14 @@ Notice that one of the very first things noted to be different by split is the c
 ### So how are we going to set this up
 
 We have set up configuration splits.  The Administration menu GUI has an option near the normal Configuration Synchronization option where you can click to go into the Configuration Split set ups:  
-<img src="../cicd/captures/ConfigSuite1.png"  width="500">
+<img src="../cicd/captures/ConfigSuite1.png"  width="400">
 
-There you will see the splits we have set up.  And you can also note their active or inactive status.  <font color=yellow>Remember, you are NOT going to edit the status here.</font> We have our `php.settings` file set up to detect the environment and turn active or inactive the correct splits. You can see on the far right the options to Edit, ljalkf, or Delete a give split and you are going to click Edit on the 'Develop' split.
-<img src="../cicd/captures/ConfigSuite2.png"  width="500">
+There you will see the splits we have set up.  And you can also note their active or inactive status.  <font color=yellow>Remember, you are NOT going to edit the status here.</font> We have our `php.settings` file set up to detect the environment and turn active or inactive the correct splits. You can see on the far right the options to Edit, Enable, or Delete a give split and you are going to click Edit on the 'Develop' split.
+<img src="../cicd/captures/ConfigSuite2.png"  width="600">
 
-<img src="../cicd/captures/ConfigSuite3.png"  width="500">
+<img src="../cicd/captures/ConfigSuite3.png"  width="600">
 
-<img src="../cicd/captures/ConfigSuite4.png"  width="500">
+<img src="../cicd/captures/ConfigSuite4.png"  width="600">
 
 <img src="../cicd/captures/ConfigSuite5.png"  width="500">
 
