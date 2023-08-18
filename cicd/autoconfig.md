@@ -28,7 +28,7 @@ If you reflect on a recommendation about how it is valuable to organize your tho
 
 Notice that one of the very first things noted to be different by split is the configuration for the Config_Suite module.  The logic may make more sense now that you have the perspective of the connected pieces.  You want to have the automatic configuration 'import' and 'export' on between your 'local' environment and your 'develop' environment so that as you use [Git commands](../book/gitbasics.md) to move your work from you own computer to your website's host computer the two will remain synchonized.  And when it is time to move your 'develop' work up to 'staged' you want your efforts to do so to be synchonized automatically.  However, you do NOT want to have your 'staged' database configuration automatically exported as files that would be automatically imported by your 'main' production environment; rather, you want to hold them back to do manually only after you have completed your testing on the 'staged' website to make sure it is ready for release.  Thus, look at the line in the table above and you will see you want automatic "export & import" on in all environments EXCEPT for 'staged' where you only want "import" on.
 
-### So how are we going to set this up
+## Import/Export by Split
 
 We have set up configuration splits.  The Administration menu GUI has an option near the normal Configuration Synchronization option where you can click to go into the Configuration Split set ups:  
 <img src="../cicd/captures/ConfigSuite1.png"  width="400">
@@ -40,6 +40,10 @@ There you will see the splits we have set up.  And you can also note their activ
 You will remember that we set these splits up to [point at the subdirectory we created for each of our splits.](../cicd/splitcheck.md)   <font color=yellow>Remember, you are NOT going to check or uncheck that active box here.</font> We have our `php.settings` file set up to detect the environment and turn active or inactive the correct splits.
 
 <img src="../cicd/captures/ConfigSuite3.png"  width="700">
+
+### Modules
+
+We have the option of checking a box while in any given split and basically telling the system "We Don't Want that Here!"  For example, we might have installed the Develop module or the Webprofiler module to use in our 'local' and 'develop' environments.  But if we don't want those in 'staged' and 'main' environments we could check their box while in Edit mode in each for each of those environments.  
 
 <img src="../cicd/captures/ConfigSuite9.png"  width="600">
 
