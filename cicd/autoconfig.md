@@ -41,7 +41,7 @@ You will remember that we set these splits up to [point at the subdirectory we c
 
 <img src="../cicd/captures/ConfigSuite3.png"  width="700">
 
-### Modules
+### Modules & Items
 
 We have the option of checking a box while in any given split and basically telling the system "We Don't Want that Here!"  For example, we might have installed the Develop module or the Webprofiler module to use in our 'local' and 'develop' environments.  But if we don't want those in 'staged' and 'main' environments we could check their box while in Edit mode in each for each of those environments.  
 
@@ -49,9 +49,13 @@ The "Configuration Items" are the same way up in the top "Complete Split" sectio
 
 <img src="../cicd/captures/ConfigSuite9.png"  width="600">
 
+### Additional Configuration Wildcards
+
 You also see a section for "Additional Configuration".  I am not smart enough to give you sophisticated 'use cases'.  However, I do know that it accepts you using "wildcards" to take sort of a bulk action on similiar configuration components that have separate files.  Say for example you had some odd need to get rid of all date formating you could put a line in there that said `core.date_format.*` and drop about a dozen date related 'yml' files.  Or, if some reason in your life "blocks" offended you and you wanted to get rid of them from an environment you could do a `block.*.*`.  The key being two separate lines if you want to do both.
 
 <img src="../cicd/captures/ConfigSuite10.png"  width="600">
+
+### Complete vs Conditional
 
 So what's this "Conditional Split" rather than a "Complete Split" all about?  One of the project maintainer's [summarized it best:](https://nuvole.org/blog/2021/aug/04/changes-coming-config-split)
 
@@ -62,6 +66,8 @@ Conditional Split: The config is compared against the sync storage and is split 
 On import the config from the split storage is merged before Drupal imports the config from the sync storage.`
 
 <img src="../cicd/captures/ConfigSuite11.png"  width="600">
+
+### Conditional and YML Editing
 
 I am a fan of the "Conditional Split" because I like one clean master configuration in the `sync` directory and only the exceptions in the 'main', 'staged', 'develop' and 'local' directories.  Maybe that is because it offers some ease if you are ok with a "copy, paste, edit" approach to what is typically just a few files involved in the differences.  Otherwise you are justing into the GUI and doing edits from lists in each of those environments we showed in the earlier image.
 
