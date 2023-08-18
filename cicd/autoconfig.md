@@ -75,15 +75,15 @@ I am a fan of the "Conditional Split" because I like one clean master configurat
 
 The key is, I want to check these boxes so I am retaining and using what I want.
 
-<img src="../cicd/captures/ConfigSuite4.png"  width="600">
+<img src="../cicd/captures/ConfigSuite12.png"  width="600">
 
 And, of course, after setting up your selections don't forget to "Save"
 
-<img src="../cicd/captures/ConfigSuite12.png"  width="300">
+<img src="../cicd/captures/ConfigSuite5.png"  width="300">
 
 If we go back to the "Conditional Split" list you can see that you are presented with a long list of options regarding what is available in configuration 'yml' files.  And you can see our Config_Suite file on the list.  Here is the problem or challenge with just checkmarking it... what does that mean?  Well it means I turn it off.   But is that an 'export off, import off' condition?  What about the fact we want our 'staged' environment to have an 'export off, import on' condition?  How do we do that?
 
-<img src="../cicd/captures/ConfigSuite5.png"  width="500">
+<img src="../cicd/captures/ConfigSuite4.png"  width="500">
 
 If I go over the the VSCode IDE and look at the configuration directory that our `php.settings` tells where to store our 'yml' file based configuration, I see all those subdirectories we set up for the original 'sync' of everything and the 'main', 'staged', 'develop', and 'local' directories for the splits.   In the 'sync' directory I see the 'yml' file list that we exported early on and can scroll through that list just like picking off the GUI in Config_Split to file the file(s) that need to be different.
 
