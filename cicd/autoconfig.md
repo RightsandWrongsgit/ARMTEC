@@ -45,9 +45,14 @@ You will remember that we set these splits up to [point at the subdirectory we c
 
 We have the option of checking a box while in any given split and basically telling the system "We Don't Want that Here!"  For example, we might have installed the Develop module or the Webprofiler module to use in our 'local' and 'develop' environments.  But if we don't want those in 'staged' and 'main' environments we could check their box while in Edit mode in each for each of those environments.  
 
+The "Configuration Items" are the same way up in the top "Complete Split" section of how this Config_Split works.  You check and item in that box and you eliminate that from the environment split you do it under.  Perhaps you might want to do that to `system.mail.yml` because you don't want standard mail operating in a 'develop' environment.
+
 <img src="../cicd/captures/ConfigSuite9.png"  width="600">
 
+You also see a section for "Additional Configuration".  I am not smart enough to give you sophisticated 'use cases'.  However, I do know that it accepts you using "wildcards" to take sort of a bulk action on similiar configuration components that have separate files.  Say for example you had some odd need to get rid of all date formating you could put a line in there that said `core.date_format.*` and drop about a dozen date related 'yml' files.  Or, if some reason in your life "blocks" offended you and you wanted to get rid of them from an environment you could do a `block.*.*`.  The key being two separate lines if you want to do both.
+
 <img src="../cicd/captures/ConfigSuite10.png"  width="600">
+
 
 <img src="../cicd/captures/ConfigSuite11.png"  width="600">
 
