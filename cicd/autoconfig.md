@@ -36,8 +36,8 @@ We have set up configuration splits.  The Administration menu GUI has an option 
 There you will see the splits we have set up.  And you can also note their active or inactive status.  <font color=yellow>Remember, you are NOT going to edit the status here.</font> We have our `php.settings` file set up to detect the environment and turn active or inactive the correct splits. You can see on the far right the options to Edit, Enable, or Delete a give split and you are going to click Edit on the 'Develop' split.
 <img src="../cicd/captures/ConfigSuite2.png"  width="700">
 
-You will remember that we set these splits up to [point at the subdirectory we created for each of our splits.](../cicd/splitcheck.md)
-<img src="../cicd/captures/ConfigSuite3.png"  width="700">
+You will remember that we set these splits up to [point at the subdirectory we created for each of our splits.](../cicd/splitcheck.md)   <font color=yellow>Remember, you are NOT going to check or uncheck that active box here.</font> We have our `php.settings` file set up to detect the environment and turn active or inactive the correct splits.<img src="../cicd/captures/ConfigSuite3.png"  width="700">
+
 
 <img src="../cicd/captures/ConfigSuite4.png"  width="600">
 
