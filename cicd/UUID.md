@@ -22,7 +22,7 @@ The approach we are going to use is to leverage a contributed module called Conf
 
 <img src="../cicd/captures/UUID1.png"  width="700">
 
-<sup><sub> is an [appendix](../cicd/changeUUIDs.md) which offers more detail on putting a UUID back in place, if you want to, after we have Git cloned our Drupal CI/CD Workflow project into a newly installed site.</sup><br>
+<sup><sub> There is an [appendix](../cicd/changeUUIDs.md) which offers more detail on putting a UUID back in place, if you want to, after we have Git cloned our Drupal CI/CD Workflow project into a newly installed site.</sup><br>
 
 No more php lessons, just the point that the Config Suite module is important to avoid getting the error message "Site UUID in source storage does not match the target storage." Therefore we install and enable the Config Suite module with composer and drush like we have been doing with the other modules:
 
