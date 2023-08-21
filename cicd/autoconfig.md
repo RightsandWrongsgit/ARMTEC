@@ -75,7 +75,7 @@ Under the Conditional option you don't have the whole modules option, just the c
 
 ## Conditional and YML Editing
 
-I am a fan of the "Conditional Split" because I like one clean master configuration in the `sync` directory and only the exceptions in the 'main', 'staged', 'develop' and 'local' directories.  Maybe that is because it offers some ease if you are ok with a "copy, paste, edit" approach to what is typically just a few files involved in the differences.  Otherwise you are justing into the GUI and doing edits from lists in each of those environments we showed in the earlier image.
+I am a fan of the "Conditional Split" because I like one clean master configuration in the `sync` directory and only the exceptions in the 'main', 'staged', 'develop' and 'local' directories.  Maybe that is because it offers some ease if you are ok with a "copy, paste, edit" approach to what is typically just a few files involved in the differences.  Otherwise you are just going into the GUI and doing edits from lists in each of those environments we showed in the earlier image.
 
 The key is, I want to check these boxes so I am retaining and using what I want.
 
@@ -89,18 +89,18 @@ If we go back to the "Conditional Split" list you can see that you are presented
 
 <img src="../cicd/captures/ConfigSuite4.png"  width="500">
 
-If I go over the the VSCode IDE and look at the configuration directory that our `php.settings` tells where to store our 'yml' file based configuration, I see all those subdirectories we set up for the original 'sync' of everything and the 'main', 'staged', 'develop', and 'local' directories for the splits.   In the 'sync' directory I see the 'yml' file list that we exported early on and can scroll through that list just like picking off the GUI in Config_Split to file the file(s) that need to be different.
+Go over to the VSCode IDE and look at the configuration directory which our `php.settings` instructs to store our base configuration 'yml' files; the 'sync'  subdirectory has everything because we did a `drush cex`.  You also see the 'main', 'staged', 'develop', and 'local' directories for the splits where I put a `.gitkeep` file as a placeholder to retain the subdirectory.   Looking through the 'sync' directory you see the 'yml' files listed from that earlier export.  You can scroll through that list just like you could pick them off the GUI in Config_Split to select which file(s) needs to be different.
 
 <img src="../cicd/captures/ConfigSuite6.png"  width="400">
 
-There it is, our `Config_suite.settings.yml` is right there.  And, the "Automatic_Import" and "Automatic_Export" are both set to "false"; or, they are both in the "Off" position... the equivalent of unchecked in the module's GUI.  So all we need to do is to copy that file and paste the copy in t"he 'main', 'staged', 'develop' and 'local' subdirectories.  Then change both lines to "true" in all but the 'staged' copy.  In the staged copy change the "Automatic_Import line to 'true' and leave the "Automatic_Export" line as 'false'. 
+There it is, our `Config_suite.settings.yml` is right there.  And, the "Automatic_Import" and "Automatic_Export" are both set to "false"; or, they are both in the "Off" position... the equivalent of unchecked in the module's GUI.  So all we need to do is to copy that file and paste the copy in the 'main', 'staged', 'develop' and 'local' subdirectories.  The we changed both lines to "true" in all but the 'staged' copy.  In the staged copy we changed the "Automatic_Import line to 'true' and left the "Automatic_Export" line as 'false'.   This was already done for you and stage/commit/sync'ed to the GitHub repository you will clone.  But the example is both good documentation and a 'how to' you might use to approach other setting splits you want to closely manage.
 
 <img src="../cicd/captures/ConfigSuite7.png"  width="500">
 
 
 ## Additional Resources:
 
-You will be back revisiting this section even those the project Git Clone will have taken care of several basics.  The reason is that the table we suggested to plan splits for a configuration best suited to your individual project needs will draw you back to set those up.  Remember, you can always go into the Config_Split module GUI and do the changes you want to make in each split you set up.  That will automatically generate the files you need to be storing so you don't have to manually edit 'yml' files if you don't want.
+You will be back revisiting this section even thoough the project 'Git Clone' will have taken care of several basics.  The reason is that the table we suggested to plan splits for a configuration best suited to your individual project needs will draw you back to set those up.  Remember, you can always go into the Config_Split module GUI and do the changes you want to make in each split you set up.  That will automatically generate the files you need to be storing so you don't have to manually edit 'yml' files if you don't want.
 
 [Another walk through Config Split article with good basics](https://mikemadison.net/blog/2020/8/5/config-split-a-guide-to-conditional-configuration-in-drupal-9)
 [Examples of Complex Split Settings for various use cases.](https://docs.acquia.com/blt/developer/config-split/)
