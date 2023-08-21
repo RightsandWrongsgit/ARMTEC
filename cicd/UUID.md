@@ -2,7 +2,7 @@
 # UUIDs: Friend or Foe
 
 #### Wonder why we only populated the one configuration subdirectory?
-Although we've made progress in configuring different environments, we haven't fully implemented the variations. We created subdirectories and installed the config_split module to manage unique configurations. However, we have only filled one subdirectory with the exported yml files.
+Although we've made progress in configuring different environments, we haven't fully implemented the variations. We created subdirectories and installed the config_split module to manage unique configurations. However, we have only filled one subdirectory with the exported `yml` files.
  
 #### The reason
 We didn't do those thing because we aim to essentially clone all the stuff we have done as a jumpstart for new websites.  However, we can't just install a new Drupal website hosted by Platform.sh and pull our code down from GitHub.  Yeah, crazy as it sounds, Drupal stops you from using such a clone.  When I first discovered this about Drupal I thought this must be a trick or something.  Conspiracy theories raced through my head… "Open Source my foot, now I know how they get you… bet they sell you a secret key or something".
