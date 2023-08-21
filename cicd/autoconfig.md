@@ -12,7 +12,7 @@ However, for our Drupal CI/CD Workflow Project template we set up the automation
 
 <img src="../cicd/captures/configsplit2.png"  width="250">
 
-We [installed and enabled the config_split module.](../cicd/configsplit2.md#install-and-enable-the-config-split_module--)  After this module was installed we could see it under the Administration menu as an additional option and if we went in it we saw this:
+We [installed and enabled the config_split module.](../cicd/configsplit2.md#install-and-enable-the-config_split-module--)  After this module was installed we could see it under the Administration menu as an additional option and if we went in it we saw this:
 
 <img src="../cicd/captures/configsplit5.png"  width="600">
 
