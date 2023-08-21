@@ -43,6 +43,7 @@ You will remember that we set these splits up to [point at the subdirectory we c
 
 <img src="../cicd/captures/ConfigSuite3.png"  width="700">
 
+## Splits: Complete
 ### Modules & Items
 
 We have the option of checking a box while in any given split and basically telling the system "We Don't Want that Here!"  For example, we might have installed the Devel module or the Webprofiler module to use in our 'local' and 'develop' environments.  But if we don't want those in 'staged' and 'main' environments we could check their box while in Edit mode in each module while editing each of those environments.  
@@ -57,6 +58,7 @@ You also see a section for "Additional Configuration".  I am not smart enough to
 
 <img src="../cicd/captures/ConfigSuite10.png"  width="600">
 
+## Splits: Conditional
 ### Complete vs Conditional
 
 So what's this "Conditional Split" rather than a "Complete Split" all about?  One of the project maintainer's [summarized it best:](https://nuvole.org/blog/2021/aug/04/changes-coming-config-split)
