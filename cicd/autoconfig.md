@@ -54,7 +54,7 @@ In the top "Complete Split" section of Config_Split the "Configuration Items"  l
 
 ### Additional Configuration & Wildcards
 
-You also see a section for "Additional Configuration".  I am not smart enough to give you sophisticated 'use cases'.  However, I do know that it accepts you using "wildcards" to take sort of a bulk action on similiar configuration components that have separate files.  Say for example you had some odd need to get rid of all date formating you could put a line in there that said `core.date_format.*` and drop about a dozen date related 'yml' files.  Or, if some reason in your life "blocks" offended you and you wanted to get rid of them from an environment you could do a `block.*.*`.  The key being two separate lines if you want to do both.
+You also see an input box for "Additional Configuration".  I am not smart enough to give you sophisticated 'use cases'.  However, I do know that it accepts you using "wildcards" to take sort of a bulk action on similiar configuration components that have separate files.  Say, for example, you had some odd need to get rid of all date formating you could put a line in there that said `core.date_format.*` that signals about a dozen date related 'yml' files to be surpressed in that environment.  Or, if for some reason "blocks" offended you and you wanted to get rid of them from an environment you could do a `block.*.*`.  The key being two separate lines if you want to do both.
 
 <img src="../cicd/captures/ConfigSuite10.png"  width="600">
 
