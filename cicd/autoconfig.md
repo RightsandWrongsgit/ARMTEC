@@ -44,7 +44,7 @@ You will remember that we set these splits up to [point at the subdirectory we c
 
 ### Modules & Items
 
-We have the option of checking a box while in any given split and basically telling the system "We Don't Want that Here!"  For example, we might have installed the Develop module or the Webprofiler module to use in our 'local' and 'develop' environments.  But if we don't want those in 'staged' and 'main' environments we could check their box while in Edit mode in each for each of those environments.  
+We have the option of checking a box while in any given split and basically telling the system "We Don't Want that Here!"  For example, we might have installed the Devel module or the Webprofiler module to use in our 'local' and 'develop' environments.  But if we don't want those in 'staged' and 'main' environments we could check their box while in Edit mode in each module while editing each of those environments.  
 
 The "Configuration Items" are the same way up in the top "Complete Split" section of how this Config_Split works.  You check and item in that box and you eliminate that from the environment split you do it under.  Perhaps you might want to do that to `system.mail.yml` because you don't want standard mail operating in a 'develop' environment.
 
