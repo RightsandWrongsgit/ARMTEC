@@ -60,11 +60,13 @@ You also see a section for "Additional Configuration".  I am not smart enough to
 
 So what's this "Conditional Split" rather than a "Complete Split" all about?  One of the project maintainer's [summarized it best:](https://nuvole.org/blog/2021/aug/04/changes-coming-config-split)
 
-```On export these two things happen:
+```
+On export these two things happen:
 Complete Split: Modules and config and all the config that depends on it is split off into the split storage and removed from the sync storage when the export is complete.
 Conditional Split: The config is compared against the sync storage and is split to the split storage if it differs, the original config in the sync storage remains.
 
-On import the config from the split storage is merged before Drupal imports the config from the sync storage.```
+On import the config from the split storage is merged before Drupal imports the config from the sync storage.
+```
 
 Under the Conditional option you don't have whole modules, just the configuration files list (although those are present for the modules if you can file the ones involved because the 'contributing developer' used limited files with good names.  There also another "Additional Configuration" box in this section if you need it.
 
