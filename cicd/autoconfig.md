@@ -69,11 +69,11 @@ Conditional Split: The config is compared against the sync storage and is split 
 
 On import the config from the split storage is merged before Drupal imports the config from the sync storage."<br>
 
-Under the Conditional option you don't have whole modules, just the configuration files list (although those are present for the modules if you can find the files involved because the 'contributing developer' used limited files with good names.  There is also another "Additional Configuration" box in this section if you need it.
+Under the Conditional option you don't have the whole modules option, just the configuration files list (although modules typically have files you can select if the 'contributing developer' used good names to make them easy to find).  There is also another "Additional Configuration" box in this section if you need it.
 
 <img src="../cicd/captures/ConfigSuite11.png"  width="600">
 
-### Conditional and YML Editing
+## Conditional and YML Editing
 
 I am a fan of the "Conditional Split" because I like one clean master configuration in the `sync` directory and only the exceptions in the 'main', 'staged', 'develop' and 'local' directories.  Maybe that is because it offers some ease if you are ok with a "copy, paste, edit" approach to what is typically just a few files involved in the differences.  Otherwise you are justing into the GUI and doing edits from lists in each of those environments we showed in the earlier image.
 
