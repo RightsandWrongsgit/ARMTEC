@@ -31,7 +31,7 @@ Notice that one of the very first things listed to be different by split is the 
 
 ## Import/Export by Split
 
-We have set up configuration splits.  The Administration menu GUI has an option near the normal Configuration Synchronization option where you can click to go into the Configuration Split set ups:  
+We have set up configuration splits.  The Administration menu GUI has an option near the normal Configuration Synchronization menu item where you can click to go into the Configuration Split set up:  
 <img src="../cicd/captures/ConfigSuite1.png"  width="400">
 
 There you will see the splits we have set up.  And you can also note their active or inactive status.  <font color=yellow>Remember, you are NOT going to edit the status here.</font> We have our `php.settings` file set up to detect the environment and turn active or inactive the correct splits. You can see on the far right the options to Edit, Enable, or Delete a give split and you are going to click Edit on the 'Develop' split.
