@@ -22,14 +22,14 @@ The approach we are going to use is to leverage a contributed module called Conf
 
 <img src="../cicd/captures/UUID1.png"  width="700">
 
-There is an [appendix](../cicd/changeUUIDs.md) which offers more detail on putting a UUID back in place, if you want to, after we have Git cloned our Drupal CI/CD Workflow project into a newly installed site.
+<sup><sub> is an [appendix](../cicd/changeUUIDs.md) which offers more detail on putting a UUID back in place, if you want to, after we have Git cloned our Drupal CI/CD Workflow project into a newly installed site.</sup><br>
 
 No more php lessons, just the point that the Config Suite module is important to avoid getting the error message "Site UUID in source storage does not match the target storage." Therefore we install and enable the Config Suite module with composer and drush like we have been doing with the other modules:
 
 `lando composer require drupal/config_suite`<br>
 `lando drush en config_suite`
 
-The primary intent of the Config Suite module plays into our workflow plans too.  We have shown a number of times already how you should expect to do a 'lando drush cex' from your local version of your site to get the changes you have done during development into yml files and then commit/stage/sync them in VSCode to get those into the platform.sh hosted branch you are working from.  If you think about having to 'cex and cim' all the time, you know you will be doing it way to much.  The author of the Config Suite module [points out in a video](https://www.youtube.com/watch?v=02IJGgGPBAw&t=112s) that he got into computing because the logic is that the computer should automate stuff you do all the time.  After you install and enable the Config Suite module and go look for it in the Administration menu by your Configuration Synchronization or Configuration Split options, you will see these simple options:
+The primary intent of the Config Suite module plays into our workflow plans too.  We have shown a number of times already how you should expect to do a 'lando drush cex' from your local version of your site to get the changes you have done during development into `yml` files and then commit/stage/sync them in VSCode to get those into the platform.sh hosted branch you are working from.  If you think about having to 'cex and cim' all the time, you know you will be doing it way to much.  The author of the Config Suite module [points out in a video](https://www.youtube.com/watch?v=02IJGgGPBAw&t=112s) that he got into computing because the logic is that the computer should automate stuff you do all the time.  After you install and enable the Config Suite module and go look for it in the Administration menu by your Configuration Synchronization or Configuration Split options, you will see these simple options:
 
 <img src="../cicd/captures/UUID2.png"  width="450">
 
