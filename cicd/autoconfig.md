@@ -100,7 +100,7 @@ There it is, our `Config_suite.settings.yml` is right there.  And, the "Automati
 
 ## Additional Resources:
 
-You will be back revisiting this section even thoough the project 'Git Clone' will have taken care of several basics.  The reason is that the table we suggested to plan splits for a configuration best suited to your individual project needs will draw you back to set those up.  Remember, you can always go into the Config_Split module GUI and do the changes you want to make in each split you set up.  That will automatically generate the files you need to be storing so you don't have to manually edit 'yml' files if you don't want.
+You will be back revisiting this section even thoough the project 'Git Clone' will have taken care of several basics.  The reason is that the table we suggested to plan splits for a configuration best suited to your individual project needs will draw you back to set those up.  Remember, you can always go into the Config_Split module GUI and do the changes you want to make in each split you set up.  That will automatically generate the files you need to be storing so you don't have to manually edit 'yml' files if you don't want. Do remember, however, that if you are aiming to have modified settings within a module or setting in different environments it may take more than just turning it on and off; rather to edit a `yml` line or check additional options within the GUI controls while in a given environment.
 
 [Another walk through Config Split article with good basics](https://mikemadison.net/blog/2020/8/5/config-split-a-guide-to-conditional-configuration-in-drupal-9)
 [Examples of Complex Split Settings for various use cases.](https://docs.acquia.com/blt/developer/config-split/)
