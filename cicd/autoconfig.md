@@ -14,7 +14,7 @@ However, for our Drupal CI/CD Workflow Project template we set up the automation
 
 We [installed and enabled the config_split module.](../cicd/configsplit2.md#install-and-enable-the-config-split-module)  After this module was installed we could see it under the Administration menu as an additional option and if we went in it we saw this:
 
-<img src="../cicd/captures/configsplit5.png"  width="400">
+<img src="../cicd/captures/configsplit5.png"  width="600">
 
 The active and inactive status is something we decided we weren't going to switch on and off each time we worked in a given environment but again it was something we did automatically by detecting the environment 'case' in our php.settings file and flipping the right switches on and off in there.  So we didn't get lost with this automation doing this, we also set up the [Environment Indicator module to name and color code the environments for us to clearly tell where we were working.](../cicd/envindicator.md)  That too was done with code we put in the `php.settings` file:
 
