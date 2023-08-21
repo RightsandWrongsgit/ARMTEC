@@ -22,7 +22,7 @@ The active and inactive status is something we decided we weren't going to switc
 
 ## Automate the Automatic
 
-If you reflect on a recommendation about how it is valuable to organize your thoughts about what you might want to uniquely be run within each of the environment splits you may remember this table:
+If you reflect on a recommendation about how it is valuable to [organize your thoughts about what you might want to uniquely be run within each of the environment splits you may remember this table:](../cicd/configsplit3.md) 
 
 <img src="../cicd/captures/configtable.png"  width="1000">
 <sup><sub>TABLE KEY:  S = Site Builder,  B = Beginning Developer,   D = Developer</sub></sup><br>
