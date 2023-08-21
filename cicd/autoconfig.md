@@ -68,7 +68,7 @@ Conditional Split: The config is compared against the sync storage and is split 
 On import the config from the split storage is merged before Drupal imports the config from the sync storage.
 ```
 
-Under the Conditional option you don't have whole modules, just the configuration files list (although those are present for the modules if you can file the ones involved because the 'contributing developer' used limited files with good names.  There also another "Additional Configuration" box in this section if you need it.
+Under the Conditional option you don't have whole modules, just the configuration files list (although those are present for the modules if you can find the files involved because the 'contributing developer' used limited files with good names.  There is also another "Additional Configuration" box in this section if you need it.
 
 <img src="../cicd/captures/ConfigSuite11.png"  width="600">
 
