@@ -39,7 +39,6 @@ You are going to benefit from a bunch more modules that others had contributed t
 When you think about adding modules to your Drupal website on top of the [CI/CD Project Base](../book/drupalcicd.md) consider two schools of thought.  One of these is obviously what sort of extra features or functions you want to include on the site.  The other consideration is around the stage you are in the project. For example, you want tools while you are building your site that are 'Development' related modules; and you may keep these in the 'local' and 'develop' environments simply because you are in a continous improvement mindset.  But do you really want to have Google Analytics running during initial development?  There are lots of other modules that you will want in an 'Active' website that you won't install until you are ready to launch.  Consider both factors as you plan your website.
 
 
-  - [Drupal Modules](modules/modulesoverview.md)
   - [Development Modules](modules/development.md)
   - [Fields Modules](modules/fields.md)
   - [Trim Text & Present Lists Better](/modules/smarttexttrim.md)
