@@ -19,7 +19,7 @@ It is pretty much standard practice to design your first website using some sort
 - [Markup Editor (Online & Download)](https://readme.so/editor){:target="_blank"}
 - [Find a Quote (Online)](https://metaphor.systems/){:target="_blank"}
 - [Lorem Ipsum Generator (Online)](https://lipsum.com/)
-- [AI Content Writer (Online)](https://rytr.me){:target="_blank"}
+- [AI Content Editor (Online)](https://app.writesonic.com/template/da9ef70b-a08f-4640-9a27-344d1b9f7fe7/chatsonic/8e698ef5-8208-4740-96ce-db0d57a58c52){:target="_blank"}
 - [Available Fonts](https://fonts.google.com/)
 
 ### Graphical
