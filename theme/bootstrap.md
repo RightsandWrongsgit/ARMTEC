@@ -36,6 +36,10 @@ All this means is that you need to figure out how to install the required tools 
 
 If you decide to use the Bootstrap theme (or it's Barrio deployment) you may want to at the following contributed modules to enhance its utility even further.
 
+### Bootstrap Layouts
+
+Not to be confused with Bootstrap Layout Builder, discussed shortly, this module basically gives you a bunch of pre-built layouts.   Once you have it installed, when you go into one of the Content Types you see the typical Operations option menu choices of managing fields, form, or display.  Under the display choice you use to see a pretty limited default list and now you see a whole bunch of additional basic layouts to select from.  This can be a [jumpstart improvement which can be used with your other front-end tools, even Display Suite or Panels.](https://www.webwash.net/implement-bootstrap-layouts-drupal-8/)
+
 ### Views Bootstrap 
 
 This module has unique install instructions depending on the version of Bootstrap you are using in theming. Views is one of the most powerful features of Drupal so having bootstrap features integrated with it is great.   Go to the Drupal.org site for the right version install instructions to [match your Bootstrap and Drupal versions](https://www.drupal.org/project/views_bootstrap).
