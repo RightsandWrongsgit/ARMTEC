@@ -108,6 +108,26 @@ d) Make your next move!
 
 [A guide, explaining how to upgrade a Drupal application to PHP 8 keeping backward compatibility with PHP 7. This is to allow deploying to production without the need to synchronize with the update of the servers to PHP 8.](https://metadrop.net/en/articles/updating-drupal-php-8)<br>
 
+
+## Working Note Material
+
+Got to the Platform.sh "current" version deploy options on their site; it will likely offer more than one so confirm what your intended upgrade path plan is (e.g. Drupal 9 to Drupal 10, some minor 10.0 to 10.2 upgrade, etc.).  Don't hit the deploy button there; rather, follow the link they provide to the Git Repository for that version. 
+
+Pop into the `composer.json` file for the upgrade target in that Git repository and in it should find lines near the top that look something like this ...
+
+```
+"require": {
+    "composer/installers": "^2.0",
+    "drupal/core-composer-scaffold": "^10.0",
+    "drupal/core-project-message": "^10.0",
+    "drupal/core-recommended": "^10.0",
+    "drupal/redis": "^1.6",
+    "drush/drush": "^12",
+    "platformsh/config-reader": "^2.4"
+```
+These are showing the Drupal project versions.  Note the ^ symbol is implying... “Compatible with version”, will update you to all future minor/patch versions, without incrementing the major version. ^1.2.3 will use releases from 1.2.3 to <2.0.0
+
+
 <br><br>
 <br>
 
