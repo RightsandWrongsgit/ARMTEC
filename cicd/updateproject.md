@@ -155,8 +155,6 @@ runtime:
 You see that the php version is 8.1 and that the composer version is 2.1 up to but excluding 3.
 
 
-
-
 <br><br>
 <br>
 
