@@ -113,6 +113,7 @@ d) Make your next move!
 
 Got to the Platform.sh "current" version deploy options on their site; it will likely offer more than one so confirm what your intended upgrade path plan is (e.g. Drupal 9 to Drupal 10, some minor 10.0 to 10.2 upgrade, etc.).  Don't hit the deploy button there; rather, follow the link they provide to the Git Repository for that version. 
 
+### Drupal, the application
 Pop into the `composer.json` file for the upgrade target in that Git repository and in it should find lines near the top that look something like this ...
 
 ```
@@ -126,6 +127,34 @@ Pop into the `composer.json` file for the upgrade target in that Git repository 
     "platformsh/config-reader": "^2.4"
 ```
 These are showing the Drupal project versions.  Note the ^ symbol is implying... “Compatible with version”, will update you to all future minor/patch versions, without incrementing the major version. ^1.2.3 will use releases from 1.2.3 to <2.0.0
+
+So you know the Drupal version is 10, up to but excluding 11.  You know the Drush version is 12 up to but excluding 13.
+
+### Platform.sh, the host environment
+
+In that same Git repository, look for the file `.platform.app.yaml` and open it up.  You should see lines like these...
+```
+# The name of this app. Must be unique within a project.
+name: 'drupal'
+
+# The runtime the application uses.
+type: 'php:8.1'
+
+dependencies:
+    php:
+        composer/composer: '^2.1'
+
+runtime:
+    # Enable the redis extension so Drupal can communicate with the Redis cache.
+    extensions:
+        - redis
+        - sodium
+        - apcu
+        - blackfire
+```
+You see that the php version is 8.1 and that the composer version is 2.1 up to but excluding 3.
+
+
 
 
 <br><br>
