@@ -34,6 +34,10 @@ That command will dump the details at a fairly high level.  But, it will also gi
 
 `lando composer update "drupal/core*" -W`
 
+After the minor version update, go into your site and look at the update and error reports.  You will probably see things like some module is deprecated (no longer used) but that some alternative is available for you do put in its place.  A recent example is the CKeditor package where the old one was deprecated and you should activate the new; but you don't have to because you also have the option to keep the old one which is now available and considered as a contributed module alternative.  These types of things are typically not a big deal depending on how they may or may not be used on your site.  Particularily if they are just development tools and new, better tool option upgrades are coming in, it would be a big deal at all.  It is is something used in your main production site and you did some really unique things with it, it may take longer for a workaround.
+
+
+
 
 ## Composer-update version
 [Version requirements](https://www.drupal.org/docs/system-requirements/composer-requirements)<br>
