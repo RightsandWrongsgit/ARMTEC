@@ -11,6 +11,30 @@ It makes sense to be sure whatever you have in place that you are happy with is 
 ## General Drupal Requirements
 [Drupal.Org link](https://www.drupal.org/docs/getting-started/system-requirements)
 
+## Start with Minor version updates
+
+Say you are going from Drupal 9 to Drupal 10.  But your current site is on Drupal core 9.3 and the most current version of main version 9 is 9.5.8.  You want to make sure you first do an update from 9.3 to 9.5.8 before ou try a major version update.  With minor updates you aren't going to face different php versions, not likely different drush versions, and the typical steps are fairly straight-forward.  Because we are doing this in containers and our local is in Lando, we will preceed our commands with the word lando.
+
+First a test or dry run to see if anything blows up:
+
+`lando composer update "drupal/core*" -W --dry-run`
+
+This will show line by line all the things that would be updated with their names and versions.  Don't be surprised that a lot of the lines of for symphony because that is the framework Drupal is built in.  And don't be surprised if at the end you see something like..
+
+```
+conflicts
+webflo/drupal-core-strict
+```
+
+For those or other errors/conflicts you want to run ...
+
+`lando composer audit`
+
+That command will dump the details at a fairly high level.  But, it will also give you a URL (http://something....) that you can copy for each conflict item and go look up if it is anything you need to worry about.  Often it is just some security warning that was actually fixed by the very update you were trying to do with the dry-run.  So you are clear to let the update run without that 'dry-run' part of the statement.
+
+`lando composer update "drupal/core*" -W`
+
+
 ## Composer-update version
 [Version requirements](https://www.drupal.org/docs/system-requirements/composer-requirements)<br>
 
