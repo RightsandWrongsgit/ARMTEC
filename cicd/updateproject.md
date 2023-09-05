@@ -1,11 +1,11 @@
 
 # Update Base Project
 
-This provides instructions to update Lando and Platform.sh Drupal CI/CD workflow base project.  It is principly a set of notes for the Project author to do updates to the project that people clone for their easy start Drupal site.  Normal users probably have no need to worry about this.  However, it is provided if anyone wants to build their own similar project with slightly different tools (e.g. DDEV instead of Lando).
+Notes for the project author, not necessary for normal users. Explains doing updates to the Lando, Platform.sh, Drupal CI/CD workflow base project provided for easy-start Drupal sites. 
 
 ## Merge to 'staged'
 
-If you have any pending work that should be retained in your production website, you will want to 'Git Sync' your way from 'local' to the host 'develop' environment and then  merge 'develop' upto 'staged'.  Since you are using the Config_Suite module and have set up automatic exports and imports between these environments, these initial steps are pretty automatic.  <font color=yellow>Complete your testing on 'staged'.</font>
+If you have any pending work that should be retained in your production website, you will want to 'Git Sync' your way from 'local' to the host 'develop' environment and then  merge 'develop' up to 'staged'.  Since you are using the Config_Suite module and have set up automatic exports and imports between these environments, these initial steps are pretty automatic.  <font color=yellow>Complete your testing on 'staged'.</font>
 
 ## Start with a Backup
 
