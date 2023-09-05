@@ -9,7 +9,7 @@ If you have any pending work that should be retained in your production website,
 
 ## Start with a Backup
 
-It makes sense to be sure you have [backed Up on Platform.sh before you do any updates; even the well tested 'staged'.](../cicd/basebeforesplit.md#lets-do-a-platformsh-backup) 
+It makes sense to be sure you have [backed up on Platform.sh before you do any updates; even the well tested 'staged'.](../cicd/basebeforesplit.md#lets-do-a-platformsh-backup) 
 
 ## Merge to 'main'
 
