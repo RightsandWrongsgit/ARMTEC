@@ -25,7 +25,7 @@ Do this -<br>
 Then this -<br>
 `platform branch develop staged`
 
-<font color=yellow>NOTE: this project is NOT currently using the Platform.sh variable</font>`<ENVIRONMENT_TYPE>`.  <font color=yellow>Rather, the settings.php file is using</font>`<PLATFORM_BRANCH>` <font color=yellow>to set the</font> `$env` <font color=yellow>variable where the "case" is tested to set the environment split, indicator, and stage_file_proxy settings. Thus do NOT be confused into using the</font>`--type <ENVIRONMENT_TYPE>`<font color=yellow>option.</font><br> 
+<font size=small color=yellow>NOTE: this project is NOT currently using the Platform.sh variable</font>`<ENVIRONMENT_TYPE>`.  <font size=small color=yellow>Rather, the settings.php file is using</font>`<PLATFORM_BRANCH>` <font size=small color=yellow>to set the</font> `$env` <font size=small color=yellow>variable where the "case" is tested to set the environment split, indicator, and stage_file_proxy settings. Thus do NOT be confused into using the</font>`--type <ENVIRONMENT_TYPE>`<font size=small color=yellow>option.</font><br> 
 
 
 <font size=large color=pink> Do I need to reinstall DRUSH?</font>
