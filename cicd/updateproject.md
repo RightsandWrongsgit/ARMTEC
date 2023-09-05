@@ -13,17 +13,11 @@ It makes sense to be sure you have [backed up on Platform.sh before you do any u
 
 ## Merge to 'main'
 
-Once you are satisfied with your testing on 'staged' you can merge that to 'main'
+Once you are satisfied with your testing on 'staged' you can merge that to 'main'.  Your clean production environment is the starting point.
 
-## Set up Clean Start
+## Clean 'staged' & 'develop'
 
-Your objective is to update the production environment you have in 'main'.  But you are driving over a cliff if you try to do that directly.  So what you want to do is act upon a clone of 'main' for your updates.  Since you are providing a service for others who will be starting from a clean environment, you want to do the same as you prepare the updates. Thus, you want to delete the complete project you have on your local machine; if you want to retain it for local backup safety, just rename the top level directory - putting something like 'temp' in front of the name will remind you later to clear it out.  
-
-You also want to get rid of the prior 'develop' and 'staged' environments on the host.  You are going to create clean new ones off of the most current 'main'; the one you backed up hopefully. 
-
-## New 'staged' & 'develop'
-
-You can create these cloned host environments [using either the console GUI or the CLI options in Platform.sh](https://docs.platform.sh/other/glossary.html#branch)  For easy reference the CLI approach is shown here:<br>
+Updating the production environment in 'main', demands a cautious approach. Instead of making direct changes, work on a clone of 'main' for your updates. Remove the previous 'develop' and 'staged' environments on the host, and create fresh new environments from the most current 'main'.  You can create these cloned host environments [using either the console GUI or the CLI options in Platform.sh](https://docs.platform.sh/other/glossary.html#branch)  For easy reference the CLI approach is shown here:<br>
 
 Do this -<br>
 `platform branch staged main`
@@ -38,7 +32,26 @@ Then this -<br>
 
 ## Bring 'develop' local
 
+Just like you did with the original template project from Platform.sh you want to now [bring the hosted 'develop' environment copy to your local machine.](../cicd/bringitlocal.md)
 
+Since you already have an SSH connection to Platform.sh and GitHub plus you have Platform.sh's CLI installed, you just need to the `platform` to get started.<font color=yellow>Remember to be in the ROOT DIRECTORY so your project will be built below it</font><br>
+<img src="../cicd/captures/platformCLIinstall3.png"  width="170">
+
+Yes, you want to do it via your Browser...<br>
+<img src="../cicd/captures/platformCLIinstall4.png"  width="170">
+
+Type `platform environments -p [id]` with the id from this project at the end of that statement...<br>
+<img src="../cicd/captures/platformCLIinstall5.png"  width="425">
+
+Instead of picking the '0' option for the 'main' branch of the project, pick whatever number is associated with the 'develop' branch...<br>
+<img src="../cicd/captures/platformCLIinstall6.png"  width="300">
+
+You will see something like this after the project is brought local.  <font color=yellow>DON'T DO THOSE COMMANDS!</font> Just note the directory name and location.  You are going to be using Lando for those next steps instead...<br>
+<img src="../cicd/captures/platformCLIinstall7.png"  width="300">
+
+## Local Lando
+
+afdlkjfaj;
 
 ## Do updates to 'local'
 
