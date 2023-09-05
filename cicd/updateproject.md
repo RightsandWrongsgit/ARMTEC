@@ -1,12 +1,56 @@
 
-# Project Administration
-## Update master systems
+# Update Base Project
 
-This provides instructions to update Lando and Platform.sh Drupal CI/CD project major versions.  It is principly a set of notes for the CI/CD Workflow Project author to do updates to the master project environments on their Lando local machine and after doing so, updating the hosted 'main' that people clone for their easy start Drupal site.
+This provides instructions to update Lando and Platform.sh Drupal CI/CD workflow base project.  It is principly a set of notes for the Project author to do updates to the project that people clone for their easy start Drupal site.  Normal users probably have no need to worry about this.  However, it is provided if anyone wants to build their own similar project with slightly different tools (e.g. DDEV instead of Lando).
+
+## Merge to 'staged'
+
+If you have any pending work that should be retained in your production website, you will want to 'Git Sync' your way from 'local' to the host 'develop' environment and then  merge 'develop' upto 'staged'.  Since you are using the Config_Suite module and have set up automatic exports and imports between these environments, these initial steps are pretty automatic.  <font color=yellow>Complete your testing on staged.</font>
 
 ## Start with a Backup
 
-It makes sense to be sure whatever you have in place that you are happy with is [backed Up on Platform.sh before you do any updates.](../cicd/basebeforesplit.md#lets-do-a-platformsh-backup) 
+It makes sense to be sure you have [backed Up on Platform.sh before you do any updates; even the well tested 'staged'.](../cicd/basebeforesplit.md#lets-do-a-platformsh-backup) 
+
+## Merge to 'main'
+
+Once you are satisfied with your testing on 'staged' you can merge that to 'main'
+
+## Set up Clean Start
+
+Your objective is to update the production environment you have in 'main'.  But you are driving over a cliff if you try to do that directly.  So what you want to do is act upon a clone of 'main' for your updates.  Since you are providing a service for others who will be starting from a clean environment, you want to do the same as you prepare the updates. Thus, you want to delete the complete project you have on your local machine; if you want to retain it for local backup safety, just rename the top level directory - putting something like 'temp' in front of the name will remind you later to clear it out.  
+
+You also want to get rid of the prior 'develop' and 'staged' environments on the host.  You are going to create clean new ones off of the most current 'main'; the one you backed up hopefully. 
+
+## New 'staged' & 'develop'
+
+You can create these cloned host environments [using either the console GUI or the CLI options in Platform.sh](https://docs.platform.sh/other/glossary.html#branch)  For easy reference the CLI approach is shown here:
+Do this -
+`platform branch staged main`
+
+Then this -
+`platform branch develop staged`
+
+<font color=yellow>NOTE: this project is NOT currently using the Platform.sh variable `<ENVIRONMENT_TYPE>`.  Rather, the settings.php file is using `<PLATFORM_BRANCH>` to set the `$env` variable where the "case" is tested to set the environment split, indicator, and stage_file_proxy settings. Thus do NOT be confused into using the `--type <ENVIRONMENT_TYPE>` option.</font> 
+
+
+<font size=large color=pink> Do I need to reinstall DRUSH?</font>
+
+## Bring 'develop' local
+
+
+
+## Do updates to 'local'
+
+
+## Publish 'local' to 'develop'
+
+## Confirm 'develop' made 'staged'
+
+## Test 'staged'
+
+## Merge to 'main'
+
+___________________
 
 ## General Drupal Requirements
 [Drupal.Org link](https://www.drupal.org/docs/getting-started/system-requirements)
