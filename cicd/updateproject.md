@@ -23,14 +23,15 @@ You also want to get rid of the prior 'develop' and 'staged' environments on the
 
 ## New 'staged' & 'develop'
 
-You can create these cloned host environments [using either the console GUI or the CLI options in Platform.sh](https://docs.platform.sh/other/glossary.html#branch)  For easy reference the CLI approach is shown here:
-Do this -
+You can create these cloned host environments [using either the console GUI or the CLI options in Platform.sh](https://docs.platform.sh/other/glossary.html#branch)  For easy reference the CLI approach is shown here:<br>
+
+Do this -<br>
 `platform branch staged main`
 
-Then this -
+Then this -<br>
 `platform branch develop staged`
 
-<font color=yellow>NOTE: this project is NOT currently using the Platform.sh variable `<ENVIRONMENT_TYPE>`.  Rather, the settings.php file is using `<PLATFORM_BRANCH>` to set the `$env` variable where the "case" is tested to set the environment split, indicator, and stage_file_proxy settings. Thus do NOT be confused into using the `--type <ENVIRONMENT_TYPE>` option.</font> 
+<font color=yellow>NOTE: this project is NOT currently using the Platform.sh variable</font>`<ENVIRONMENT_TYPE>`.  <font color=yellow>Rather, the settings.php file is using</font>`<PLATFORM_BRANCH>` <font color=yellow>to set the</font> `$env` <font color=yellow>variable where the "case" is tested to set the environment split, indicator, and stage_file_proxy settings. Thus do NOT be confused into using the</font>`--type <ENVIRONMENT_TYPE>`<font color=yellow>option.</font><br> 
 
 
 <font size=large color=pink> Do I need to reinstall DRUSH?</font>
