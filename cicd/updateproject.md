@@ -66,9 +66,10 @@ Now if you got back into GitHub and look at the branches you will see you have '
 Let's go over to Platform.sh next and see if it tells us anything.  First, if you click on the project you can see it has three branches of the names your provided.  So the good news is the GitHub is updating Platform.sh as expected.<br>  
 <img src="../cicd/captures/update13.png"  width="500">
 
-We see in the prior view that 'main' is deployed but that 'staged' and 'develop' are not.  If it is a first time fresh action it is likely that all three are deployed.  But often you will be going back and doing this process for additional updates and old, inactive versions of 'staged' and 'develop' may exist.  Even though you must brought a new one in from GitHub, if it doesn't automatically indicate it was deployed, you may need to reactivate that branch on Platform.sh<br>
+We see in the prior view that 'main' is deployed but that 'staged' and 'develop' are not.  If it is a first time fresh action it is likely that all three are deployed.  But often you will be going back and doing this process for additional updates and old, inactive versions of 'staged' and 'develop' may exist.  Even though you must brought a new one in from GitHub, if it doesn't automatically indicate it was deployed, you may need to reactivate that branch on Platform.sh  This is not a big deal, just click on the branch so you are in it, and go to that little gear in the upper right corner.  Click on it!<br>
 <img src="../cicd/captures/update14.png"  width="500">
 
+You will see some options for the branch name, who the parent is, the branch type; if you edit any of these remember to hit save.  But more likely all you are needing to do is scroll down a little more and you will see the reactivate button; click it!  It takes a little while so don't get trigger happen.  Once 'staged' is done, do the same thing to 'develop' if it isn't indicating deployed.<br>
 <img src="../cicd/captures/update15.png"  width="500">
 
 <img src="../cicd/captures/update16.png"  width="500">
