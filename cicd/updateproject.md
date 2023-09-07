@@ -81,7 +81,7 @@ Click the gear in the up right corner again.<br>
 Reactivate the 'develop' branch.<br>
 <img src="../cicd/captures/update15.png"  width="500">
 
-Go look at the front page of your project and pull down the environments list to see the hierarchy.  'main' is the parent of 'staged' and 'staged' is the parent of 'develop'.<br>
+Go look at the front page of your project and pull down the environments list to see the hierarchy.  'Main' is the parent of 'staged' and 'staged' is the parent of 'develop'.<br>
 <img src="../cicd/captures/update27.png"  width="500">
 
 Now you can go to each of the environments and follow the link to that deployed site's address.  If you go to 'main' and log in, you will see the banner at the top indicating 'main' and the color RED to signal STOP... don't be messing directly on this production version of your project.<br>
