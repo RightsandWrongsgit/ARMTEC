@@ -40,15 +40,17 @@ You should then see the clone of your project is now on the 'staged' branch; see
 <img src="../cicd/captures/update6.png"  width="700">
 
 See that little cloud next to the name 'staged'?  Click on it.  What it is telling you is that you have named a branch 'staged' but that it isn't up on GitHub yet and the little arrow in the cloud sends it there.<br>
-<img src="../cicd/captures/update7.png"  width="300">
+<img src="../cicd/captures/update7.png"  width="250">
 
 Don't be surprised if the cloud looks like it turns into a tornado and spins.  With a project of any size, it take a while to get to the GitHub repository.<br>
-<img src="../cicd/captures/update8.png"  width="300">
+<img src="../cicd/captures/update8.png"  width="250">
 
+Open another window in your browser and go to GitHub. Click on your project in GitHub.  Where it says "branches", go pull down the list and at the bottom click on 'all'.<br>
+<img src="../cicd/captures/update9.png"  width="400">
 
-<img src="../cicd/captures/update9.png"  width="500">
-
+You should see your 'main' branch listed and now a second branch called 'staged' is shown below it.<br> 
 <img src="../cicd/captures/update10.png"  width="500">
+
 
 <img src="../cicd/captures/update11.png"  width="500">
 
