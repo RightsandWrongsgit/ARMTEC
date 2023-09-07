@@ -39,10 +39,12 @@ Go click on that word 'main' and the command palette should pop open.  Otherwise
 You should then see the clone of your project is now on the 'staged' branch; see that lower left corner.<br>
 <img src="../cicd/captures/update6.png"  width="700">
 
+See that little cloud next to the name 'staged'?  Click on it.  What it is telling you is that you have named a branch 'staged' but that it isn't up on GitHub yet and the little arrow in the cloud sends it there.<br>
+<img src="../cicd/captures/update7.png"  width="300">
 
-<img src="../cicd/captures/update7.png"  width="500">
+Don't be surprised if the cloud looks like it turns into a tornado and spins.  With a project of any size, it take a while to get to the GitHub repository.<br>
+<img src="../cicd/captures/update8.png"  width="300">
 
-<img src="../cicd/captures/update8.png"  width="500">
 
 <img src="../cicd/captures/update9.png"  width="500">
 
