@@ -72,12 +72,16 @@ We see in the prior view that 'main' is deployed but that 'staged' and 'develop'
 You will see some options for the branch name, who the parent is, the branch type; if you edit any of these remember to hit save.  But more likely all you are needing to do is scroll down a little more and you will see the reactivate button; click it!  It takes a little while so don't get trigger happen.<br>
 <img src="../cicd/captures/update15.png"  width="500">
 
-Once 'staged' is done, do the same thing to 'develop' if it isn't indicating deployed.  Select the branch.<br>
+Once 'staged' is done you will see it as marked deployed.  Now select the 'develop' branch.<br>
 <img src="../cicd/captures/update18.png"  width="500">
 
-
+Click the gear in the up right corner again.<br>
 <img src="../cicd/captures/update19.png"  width="500">
 
+Reactivate the 'develop' branch.<br>
+<img src="../cicd/captures/update15.png"  width="500">
+
+Go look at the front page of your project and pull down the branches list to see the hierarchy.  'main' is the parent of 'staged' and 'staged' is the parent of 'develop'.<br>
 <img src="../cicd/captures/update27.png"  width="500">
 
 
