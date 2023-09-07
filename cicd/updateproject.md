@@ -60,7 +60,7 @@ You will get a command palette box where you will type 'staged' because that is 
 You will then be prompted to indicate what you want to name the NEW branch and you will enter 'develop'.<br>
 <img src="../cicd/captures/update25.png"  width="500">
 
-Now if you got back into GitHub and look at the branches you will see you have 'main', 'staged', and 'develop'.  The bad news is that for all you know looking at that list 'staged' and 'develop' could be sisters or parent-child.<br>
+Now if you go back into GitHub and look at the branches you will see 'main', 'staged', and 'develop'.  The bad news from the list you don't know if 'staged' and 'develop' are sisters or parent-child.<br>
 <img src="../cicd/captures/update12.png"  width="700">
 
 Let's go over to Platform.sh next and see if it tells us anything.  First, if you click on the project you can see it has three branches of the names your provided.  So the good news is the GitHub is updating Platform.sh as expected.<br>  
