@@ -15,17 +15,19 @@ It makes sense to be sure you have [backed up on Platform.sh before you do any u
 
 Once you are satisfied with your testing on 'staged' you can merge that to 'main'.  Your clean production environment is the starting point.
 
-## Clean 'staged' & 'develop'
+## Make Clean 'staged' & 'develop'
 
-Updating the production environment in 'main', demands a cautious approach. Instead of making direct changes, work on a clone of 'main' for your updates. Remove the previous 'develop' and 'staged' environments on the host, and create fresh new environments from the most current 'main'.  You can create these cloned host environments [using either the console GUI or the CLI options in Platform.sh](https://docs.platform.sh/other/glossary.html#branch)  For easy reference the CLI approach is shown here:<br>
+<font size="6" color=#F06292> Do NOT create directly in Platform.sh</font><br>
 
-Do this -<br>
-`platform branch staged main`
+Since we have an integrated GitHub:Platform.sh setup, the correct way to create branches for a project in on GitHub.  These will subsequently appear on Platform.sh because you have an SSH connection between the two.  We use VSCode as our IDE and this interface, with the [correct extensions installed](../cicd/prerequisites.md#vscode-extensions) makes this easy.  
 
-Then this -<br>
-`platform branch develop staged`
 
-<font size="1" color=yellow>NOTE: this project is NOT currently using the Platform.sh variable</font>`<ENVIRONMENT_TYPE>`.  <font size="1" color=yellow>Rather, the settings.php file is using</font>`<PLATFORM_BRANCH>` <font size="1" color=yellow>to set the</font> `$env` <font size="1" color=yellow>variable where the "case" is tested to set the environment split, indicator, and stage_file_proxy settings. Thus do NOT be confused into using the</font>`--type <ENVIRONMENT_TYPE>`<font size="1" color=yellow>option.</font><br> 
+<img src="../cicd/captures/update1.png"  width="500">
+
+
+
+
+
 
 
 <font size="6" color=pink> Do I need to reinstall DRUSH?</font><br>
@@ -196,7 +198,18 @@ d) Make your next move!
 
 
 ## Working Note Material
+________________
 
+Updating the production environment in 'main', demands a cautious approach. Instead of making direct changes, work on a clone of 'main' for your updates. Remove the previous 'develop' and 'staged' environments on the host, and create fresh new environments from the most current 'main'.  You can create these cloned host environments [using either the console GUI or the CLI options in Platform.sh](https://docs.platform.sh/other/glossary.html#branch)  For easy reference the CLI approach is shown here:<br>
+
+Do this -<br>
+`platform branch staged main`
+
+Then this -<br>
+`platform branch develop staged`
+
+<font size="1" color=yellow>NOTE: this project is NOT currently using the Platform.sh variable</font>`<ENVIRONMENT_TYPE>`.  <font size="1" color=yellow>Rather, the settings.php file is using</font>`<PLATFORM_BRANCH>` <font size="1" color=yellow>to set the</font> `$env` <font size="1" color=yellow>variable where the "case" is tested to set the environment split, indicator, and stage_file_proxy settings. Thus do NOT be confused into using the</font>`--type <ENVIRONMENT_TYPE>`<font size="1" color=yellow>option.</font><br> 
+_______________
 Got to the Platform.sh "current" version deploy options on their site; it will likely offer more than one so confirm what your intended upgrade path plan is (e.g. Drupal 9 to Drupal 10, some minor 10.0 to 10.2 upgrade, etc.).  Don't hit the deploy button there; rather, follow the link they provide to the Git Repository for that version. 
 
 ### Drupal, the application
