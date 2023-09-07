@@ -24,9 +24,11 @@ Since we have an integrated GitHub:Platform.sh setup, the correct way to create 
 One of the options when you start VSCode is to "Clone Git Repository".  If that doesn't show, hit Command-P and the little window at the top will appear to let you start there.<br>
 <img src="../cicd/captures/update1.png"  width="350">
 
-<img src="../cicd/captures/update2.png"  width="500">
+At the top of VSCode the command palette opens to list the remote repositories you have and you can select from the list or type one in directly.<br>
+<img src="../cicd/captures/update2.png"  width="250">
 
-<img src="../cicd/captures/update3.png"  width="500">
+You are offered the option to open the project.
+<img src="../cicd/captures/update3.png"  width="400">
 
 <img src="../cicd/captures/update4.png"  width="500">
 
