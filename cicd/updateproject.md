@@ -33,7 +33,7 @@ You are offered the option to open the project. Click "Open" and you will see th
 It should look something like this.  Note specifically the lower left corner and you will see which branch you are on.  Since you previously brought everything current in the production 'main' branch, that branch is the only one logically available to cloed.<br>
 <img src="../cicd/captures/update4.png"  width="700">
 
-Go click on that word 'main' and the command palette should pop open.  Otherwise do a "Command-P" to open it and start typing "Create...".  In that box where it asks you what the name of the branch you want to create should be called you say <font color=yellow>staged</font><br>
+Go click on that word 'main' and the command palette should pop open.  Otherwise do a "Command-P" to open it and start typing "Create...".  When that box asks you for the name of the branch you want to create type <font color=yellow>staged</font><br>
 <img src="../cicd/captures/update5.png"  width="450">
 
 You should then see the clone of your project is now on the 'staged' branch; see that lower left corner.<br>
