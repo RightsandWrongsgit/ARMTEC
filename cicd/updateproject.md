@@ -60,8 +60,7 @@ You will get a command palette box where you will type 'staged' because that is 
 You will then be prompted to indicate what you want to name the NEW branch and you will enter 'develop'.<br>
 <img src="../cicd/captures/update25.png"  width="500">
 
-
-
+Now if you got back into GitHub and look at the branches you will see you have 'main', 'staged', and 'develop'.  The bad news is that for all you know looking at that list 'staged' and 'develop' could be sisters or parent-child.<br>
 <img src="../cicd/captures/update12.png"  width="700">
 
 <img src="../cicd/captures/update13.png"  width="500">
