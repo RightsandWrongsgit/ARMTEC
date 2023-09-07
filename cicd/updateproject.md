@@ -48,7 +48,7 @@ Don't be surprised if the cloud looks like it turns into a tornado and spins.  W
 Open another window in your browser and go to GitHub. Click on your project in GitHub.  Where it says "branches", go pull down the list and at the bottom click on 'View all branches'.<br>
 <img src="../cicd/captures/update9.png"  width="450">
 
-You should see your 'main' branch listed and now a second branch called 'staged' is shown below it.<br> 
+You should see your 'main' branch listed and now a second branch called 'staged'.<br> 
 <img src="../cicd/captures/update10.png"  width="700">
 
 Once you have the 'staged' branch made, you want to make the 'develop' branch.  Here you need to be careful.  The first option to create a branch will simply make 'develop' as another branch off 'main'; a sister branch.  You want 'develop' to be a child of 'staged'.  So you need to use the "create a new branch from" option.<br>
