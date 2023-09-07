@@ -21,13 +21,60 @@ Once you are satisfied with your testing on 'staged' you can merge that to 'main
 
 Since we have an integrated GitHub:Platform.sh setup, the correct way to create branches for a project in on GitHub.  These will subsequently appear on Platform.sh because you have an SSH connection between the two.  We use VSCode as our IDE and this interface, with the [correct extensions installed](../cicd/prerequisites.md#vscode-extensions) makes this easy.  
 
+One of the options when you start VSCode is to "Clone Git Repository".  If that doesn't show, hit Command-P and the little window at the top will appear to let you start there.<br>
+<img src="../cicd/captures/update1.png"  width="350">
 
-<img src="../cicd/captures/update1.png"  width="500">
+<img src="../cicd/captures/update2.png"  width="500">
 
+<img src="../cicd/captures/update3.png"  width="500">
 
+<img src="../cicd/captures/update4.png"  width="500">
 
+<img src="../cicd/captures/update5.png"  width="500">
 
+<img src="../cicd/captures/update6.png"  width="500">
 
+<img src="../cicd/captures/update7.png"  width="500">
+
+<img src="../cicd/captures/update8.png"  width="500">
+
+<img src="../cicd/captures/update9.png"  width="500">
+
+<img src="../cicd/captures/update10.png"  width="500">
+
+<img src="../cicd/captures/update11.png"  width="500">
+
+<img src="../cicd/captures/update12.png"  width="500">
+
+<img src="../cicd/captures/update13.png"  width="500">
+
+<img src="../cicd/captures/update14.png"  width="500">
+
+<img src="../cicd/captures/update15.png"  width="500">
+
+<img src="../cicd/captures/update16.png"  width="500">
+
+<img src="../cicd/captures/update17.png"  width="500">
+
+<img src="../cicd/captures/update18.png"  width="500">
+
+<img src="../cicd/captures/update19.png"  width="500">
+
+<img src="../cicd/captures/update20.png"  width="500">
+
+<img src="../cicd/captures/update21.png"  width="500">
+
+<img src="../cicd/captures/update22.png"  width="500">
+
+<img src="../cicd/captures/update23.png"  width="500">
+
+<img src="../cicd/captures/update24.png"  width="500">
+
+<img src="../cicd/captures/update25.png"  width="500">
+
+<img src="../cicd/captures/update26.png"  width="500">
+
+<img src="../cicd/captures/update27.png"  width="500">
 
 
 <font size="6" color=pink> Do I need to reinstall DRUSH?</font><br>
