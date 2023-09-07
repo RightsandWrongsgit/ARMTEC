@@ -52,13 +52,12 @@ You should see your 'main' branch listed and now a second branch called 'staged'
 <img src="../cicd/captures/update10.png"  width="700">
 
 Once you have the 'staged' branch made, you want to make the 'develop' branch.  Here you need to be careful.  The first option to create a branch will simply make 'develop' as another branch off 'main'; a sister branch.  You want 'develop' to be a child of 'staged'.  So you need to use the "create a new branch from" option.<br>
-<img src="../cicd/captures/update11.png"  width="500">
-
-
 <img src="../cicd/captures/update23.png"  width="500">
 
+You will get a command palette box where you will type 'staged' because that is what you want to be the parent.<br>
 <img src="../cicd/captures/update24.png"  width="500">
 
+You will then be prompted to indicate what you want to name the NEW branch and you will enter 'develop'.<br>
 <img src="../cicd/captures/update25.png"  width="500">
 
 
