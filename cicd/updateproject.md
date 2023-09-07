@@ -102,24 +102,6 @@ If you are NOT logged in, any of the site environments look normal; without envi
 
 <font size="6" color=pink> Do I need to reinstall DRUSH?</font><br>
 
-## Bring 'develop' local
-
-Just like you did with the original template project from Platform.sh you want to now [bring the hosted 'develop' environment copy to your local machine.](../cicd/bringitlocal.md)
-
-Since you already have an SSH connection to Platform.sh and GitHub plus you have Platform.sh's CLI installed, you just need to the `platform` to get started.<font color=yellow>Remember to be in the ROOT DIRECTORY so your project will be built below it</font><br>
-<img src="../cicd/captures/platformCLIinstall3.png"  width="170">
-
-Yes, you want to do it via your Browser...<br>
-<img src="../cicd/captures/platformCLIinstall4.png"  width="170">
-
-Type `platform environments -p [id]` with the id from this project at the end of that statement...<br>
-<img src="../cicd/captures/platformCLIinstall5.png"  width="425">
-
-Instead of picking the '0' option for the 'main' branch of the project, pick whatever number is associated with the 'develop' branch...<br>
-<img src="../cicd/captures/platformCLIinstall6.png"  width="300">
-
-You will see something like this after the project is brought local.  <font color=yellow>DON'T DO THOSE COMMANDS!</font> Just note the directory name and location.  You are going to be using Lando for those next steps instead...<br>
-<img src="../cicd/captures/platformCLIinstall7.png"  width="300">
 
 ## Local Lando
 
