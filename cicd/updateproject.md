@@ -100,10 +100,27 @@ If you are NOT logged in, any of the site environments look normal; without envi
 
 There is a long, complicated reason behind this step you can [read more about here.](../cicd/envsettings.md#a-settingslocalphp-of-your-own-making) But the net of it is you need to go into your local copy of the files, get down to the <font color=yellow>web/sites/default</font> subdirectory and rename `my-example.settings.local.php` to `settings.local.php`. 
 
+## Make sure there is time
 
+As explained in the initial install of Drupal in a local container, the number and size of files can require you [set some extra time.](../cicd/basebeforesplit.md#get-things-updated-first)  We also did some things to make sure directory and file permissions were open.  So lets do this before we kick off Lando doing its project build which draws in files from the recipe it contains. Here are the commands:<br>
 
+Quick Lookup:<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;`lando start`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`chmod u+w web/sites/default`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`lando composer config --global process-timeout 2000`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`lando composer update "drupal/core-*" --with-all-dependencies`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`git push -u platform update`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;`platform e:activate -y`<br>
 
-<font size="6" color=pink> Do I need to reinstall DRUSH?</font><br>
+<sup><sub>NOTE: Make sure Platform CLI is installed and SSH connection established.</sub></sup><br>
+
+That first line makes sure the subdirectory you are doing this in can be written to.  Once your site is moving to the active deployment state, probably around associating the DNS, make sure you 'harden' the site and that your approach makes this subdirectory read only again. As long as you are updating Drupal, you might want to update lando on your local machine.  To do that, you will also work from a command line interface like your VSCode terminal and do the following:<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;`lando poweroff`<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Then -<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;Turn off Docker <sup><sub>(probably from its icon in your upper right menu bar)</sub></sup><br>
+&nbsp;&nbsp;&nbsp;&nbsp;Install lando from its GitHub repository <sup><sub>(download appropriate to your machines operating system)</sub></sup><br>
+
 
 
 ## Local Lando
@@ -120,8 +137,7 @@ afdlkjfaj;
 
 ## Do updates to 'local'
 
-
-## Publish 'local' to 'develop'
+<font size="6" color=pink> Do I need to reinstall DRUSH?</font><br>## Publish 'local' to 'develop'
 
 ## Confirm 'develop' made 'staged'
 
