@@ -27,10 +27,13 @@ One of the options when you start VSCode is to "Clone Git Repository".  If that 
 At the top of VSCode the command palette opens to list the remote repositories you have and you can select from the list or type one in directly.<br>
 <img src="../cicd/captures/update2.png"  width="250">
 
-You are offered the option to open the project.
-<img src="../cicd/captures/update3.png"  width="400">
+You are offered the option to open the project. Click "Open" and you will see the project with all it subdirectories in the left panel.<br>
+<img src="../cicd/captures/update3.png"  width="350">
 
-<img src="../cicd/captures/update4.png"  width="500">
+It should look something like this.  Note specifically the lower left corner and you will see which branch you are on.  Since you previously rolled everything up to your more current production level 'main' branch, that is the only one that would logically be available to have cloned.<br>
+<img src="../cicd/captures/update4.png"  width="700">
+
+
 
 <img src="../cicd/captures/update5.png"  width="500">
 
