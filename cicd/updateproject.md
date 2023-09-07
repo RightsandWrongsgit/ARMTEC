@@ -96,6 +96,9 @@ Go to the 'develop' environment and see that name with a GREEN banner to signal 
 If you are NOT logged in, any of the site environments look normal; without environment name or banner colors<br>
 <img src="../cicd/captures/update21.png"  width="500">
 
+## settings.local.php
+
+There is a long, complicated reason behind this step you can [read more about here.](../cicd/envsettings.md#a-settings.local.php-of-your-own-making) But the net of it is you need to go into your local copy of the files, get down to the <font color=yellow>web/sites/default</font> subdirectory and rename `my-example.settings.local.php` to `settings.local.php`. 
 
 
 
@@ -104,6 +107,14 @@ If you are NOT logged in, any of the site environments look normal; without envi
 
 
 ## Local Lando
+
+
+
+
+
+While in the root of your now local project, type
+`lando init`
+
 
 afdlkjfaj;
 
