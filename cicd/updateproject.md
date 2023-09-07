@@ -17,7 +17,7 @@ Once you are satisfied with your testing on 'staged' you can merge that to 'main
 
 ## Make Clean 'staged' & 'develop'
 
-<font size="6" color=HotPink>Do NOT create branch environments directly in Platform.sh</font><br>
+<font size="4" color=HotPink>Do NOT create branch environments directly in Platform.sh</font><br>
 
 Since we have an integrated GitHub:Platform.sh setup, the correct way to create branches for a project is on GitHub.  These will subsequently appear on Platform.sh because you have an SSH connection between the two.  We use VSCode as our IDE and this interface, with the [correct extensions installed](../cicd/prerequisites.md#vscode-extensions) makes this easy.  
 
