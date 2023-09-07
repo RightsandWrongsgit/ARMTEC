@@ -19,7 +19,7 @@ Once you are satisfied with your testing on 'staged' you can merge that to 'main
 
 <font size="6" color=HotPink>Do NOT create branch environments directly in Platform.sh</font><br>
 
-Since we have an integrated GitHub:Platform.sh setup, the correct way to create branches for a project in on GitHub.  These will subsequently appear on Platform.sh because you have an SSH connection between the two.  We use VSCode as our IDE and this interface, with the [correct extensions installed](../cicd/prerequisites.md#vscode-extensions) makes this easy.  
+Since we have an integrated GitHub:Platform.sh setup, the correct way to create branches for a project is on GitHub.  These will subsequently appear on Platform.sh because you have an SSH connection between the two.  We use VSCode as our IDE and this interface, with the [correct extensions installed](../cicd/prerequisites.md#vscode-extensions) makes this easy.  
 
 One of the options when you start VSCode is to "Clone Git Repository".  If that doesn't show, hit Command-P and the little window at the top will appear to let you start there.<br>
 <img src="../cicd/captures/update1.png"  width="350">
