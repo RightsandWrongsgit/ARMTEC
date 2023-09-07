@@ -30,7 +30,7 @@ At the top of VSCode the command palette opens to list the remote repositories y
 You are offered the option to open the project. Click "Open" and you will see the project with all it subdirectories in the left panel.<br>
 <img src="../cicd/captures/update3.png"  width="300">
 
-It should look something like this.  Note specifically the lower left corner and you will see which branch you are on.  Since you previously rolled everything up to your more current production level 'main' branch, that is the only one that would logically be available to have cloned.<br>
+It should look something like this.  Note specifically the lower left corner and you will see which branch you are on.  Since you previously brought everything current in the production 'main' branch, that branch is the only one logically available to cloed.<br>
 <img src="../cicd/captures/update4.png"  width="700">
 
 Go click on that word 'main' and the command palette should pop open.  Otherwise do a "Command-P" to open it and start typing "Create...".  In that box where it asks you what the name of the branch you want to create should be called you say <font color=yellow>staged</font><br>
