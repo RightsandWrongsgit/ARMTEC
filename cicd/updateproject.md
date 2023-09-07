@@ -72,7 +72,7 @@ We see in the prior view that 'main' is deployed but that 'staged' and 'develop'
 You will see some options for the branch name, who the parent is, the branch type; if you edit any of these remember to hit save.  But more likely all you are needing to do is scroll down a little more and you will see the reactivate button; click it!  It takes a little while so don't get trigger happen.<br>
 <img src="../cicd/captures/update15.png"  width="500">
 
-Once 'staged' is done you will see it as marked deployed.  Now select the 'develop' branch.<br>
+Once 'staged' is done you will see it marked deployed.  Now select the 'develop' branch.<br>
 <img src="../cicd/captures/update18.png"  width="500">
 
 Click the gear in the up right corner again.<br>
@@ -81,16 +81,19 @@ Click the gear in the up right corner again.<br>
 Reactivate the 'develop' branch.<br>
 <img src="../cicd/captures/update15.png"  width="500">
 
-Go look at the front page of your project and pull down the branches list to see the hierarchy.  'main' is the parent of 'staged' and 'staged' is the parent of 'develop'.<br>
+Go look at the front page of your project and pull down the environments list to see the hierarchy.  'main' is the parent of 'staged' and 'staged' is the parent of 'develop'.<br>
 <img src="../cicd/captures/update27.png"  width="500">
 
-
+Now you can go to each of the environments and follow the link to that deployed site's address.  If you go to 'main' and log in, you will see the banner at the top indicating 'main' and the color RED to signal STOP... don't be messing directly on this production version of your project.<br>
 <img src="../cicd/captures/update17.png"  width="500">
 
+Go to the 'staged' environment, log in and you will see the name 'staged' and the YELLOW banner color warning that this is the testing site, so be careful with what you do.<br>
 <img src="../cicd/captures/update16.png"  width="500">
 
+Go to the 'develop' environment and see that name with a GREEN banner to signal it is your safe work environment.<br> 
 <img src="../cicd/captures/update20.png"  width="500">
 
+If you are NOT logged in, any of the site environments look normal; without environment name or banner colors<br>
 <img src="../cicd/captures/update21.png"  width="500">
 
 
