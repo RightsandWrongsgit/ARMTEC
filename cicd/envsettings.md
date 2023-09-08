@@ -122,7 +122,7 @@ CSS is used to pretty up HTML and JS (JavaScript) adds some functionality, perha
 
 ## Disabling Cache
 <font size=4 color=HotPink> NOTE: Disabling Cache in the following three examples is currently commented out</font><br>
-<font color=HotPink> During Development, it makes sense to diable these cache components.  However, they need to be on during a Git Clone:Pull of database:Lando Rebuild for a site that only stands within Platform.sh to be brought local.  Therefore, turning these off will be a post-event to the steps of using this ci/cd workflow base project for a new site.</font>
+<font color=HotPink> During Development, it makes sense to diable these cache components.  However, they need to be on during a Git Clone:Pull of database:Lando Rebuild for a site that only stands within Platform.sh to be brought local.  Therefore, turning these off will be a post-event to the steps of using this ci/cd workflow base project for a new site.</font><br>
 
 
 Drupal uses a number of cache strategies to improve performance. If you want to dive down a rabbit hole for a week or so, go to the [Drupal](http://Drupal.org) site and read the extensive detail about all the things you can do.  For our purposes however, we just want to uncomment the render cache, internal page cache, and dynamic page cache lines in the `my-example.settings.local.php` file (or add these instructions if they don't exist).
