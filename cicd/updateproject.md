@@ -121,7 +121,11 @@ We make a COPY of that file <font color=HotPink>DO NOTE CUT OR REMOVE THE OLD ON
 
 <img src="../cicd/captures/update37.png"  width="300">
 
-Once there, you will RENAME the file to `settings.local.php` and go into it and comment out those three lines (put a # and space in front of the lines).  SAVE it and it should look like this.  Notice that the very top of the image shows how your VSCode IDE will also actually confirm the subdirectory you are in, just to make sure.<br>
+If there happens to already be a settings.local.php file in that 'web/sites/default' subdirectory, especially if it looks like this one seeking credentials, delete it.  The containers you are using are supplying the credentials and you want the clean, renamed one discussed next.<br>
+
+<img src="../cicd/captures/update35.png"  width="500">
+
+Once in the <font color=yellow>web/sites/default</font> subdirectory, you will RENAME the `my-example.settings.local.php` to `settings.local.php` and go into that file and comment out those three lines (put a # and space in front of the lines).  SAVE it and it should look like this.  Notice that the very top of the image shows how your VSCode IDE will also actually confirm the subdirectory you are in, just to make sure.<br>
 
 <img src="../cicd/captures/update41.png"  width="500">
 
