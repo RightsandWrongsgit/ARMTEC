@@ -100,10 +100,10 @@ If you are NOT logged in, any of the site environments look normal; without envi
 
 You GitCloned your project to bring it to your local machine and you made you way to being in the 'develop' branch which, along with parent branch 'staged' and grandparent branch 'main' also lives on your Platform.sh host.  Just  because the branch files are local doesn't mean they are running in a Lando container.  For that you need to initialize the project.  Make sure you are pointing to the top level of the files you cloned and are in the 'develop' branch; the [informative command prompt we established makes that clear.](../book/WhereAmI.md)   You can do a `lando init \` with the trailing backslash so it doesn't immediately run and takes your next lines of direction.  Then you input `--source cwd \`; again with the trailing backslash to allow the final command.  Then input `--recipe platformsh` and hit return for these commands to all run.<br>
 
-<img src="../cicd/captures/update44.png"  width="300">
+<img src="../cicd/captures/update44.png"  width="400">
 
 If you are into a long one and done command line approach just type it all out line this.<br>
-<img src="../cicd/captures/update45.png"  width="300">
+<img src="../cicd/captures/update45.png"  width="250">
 
 
 ##  Tweak settings.local.php
