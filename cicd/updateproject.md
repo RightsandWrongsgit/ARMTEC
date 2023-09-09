@@ -110,7 +110,7 @@ If you are into a long one and done command line approach just type it all out l
 
 Normally we want to have a number of our cache's disabled in local as it is a development site.  We set up our basic project to do this.  There is a long, complicated reason behind this step you can [read more about here.](../cicd/envsettings.md#a-settingslocalphp-of-your-own-making) But the net of it is you need to go into your local copy of the files, get down to the  and rename `my-example.settings.local.php` to `settings.local.php`. The my-example.settings.local.php file we built for the project is retained in the <font color=yellow>web/sites</font> subdirectory.<br>
 
-<img src="../cicd/captures/update39.png"  width="300">
+<img src="../cicd/captures/update39.png"  width="250">
 
 If you go to that subdirectory with your VSCode IDE and look at it, you will see three <font color=LightBlue>$settings</font> lines that are active (e.g. NOT commented out).<br>
 
@@ -156,10 +156,10 @@ Given the run time you probably are reluctant but you really do need to run a `l
 
 The good news is that now when it comes back your project should be available at those URLs lando spits back at the end. It may look something like this as a basic site page.<br> 
 
-<img src="../cicd/captures/update54.png"  width="300">
+<img src="../cicd/captures/update54.png"  width="500">
 
 However, if you log in, it should give your a GREEN go ahead banner color with the environment name 'local' showing.<br>
-<img src="../cicd/captures/update55.png"  width="300">
+<img src="../cicd/captures/update55.png"  width="500">
 
 
 ## Make sure there is time
