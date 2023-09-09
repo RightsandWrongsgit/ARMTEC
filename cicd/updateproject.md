@@ -129,18 +129,37 @@ Once in the <font color=yellow>web/sites/default</font> subdirectory, you will R
 
 <img src="../cicd/captures/update41.png"  width="500">
 
+Now that the basic code is local, the project initialize, and our `settings.local.php` tweaked for a virgin status update, let lando do a first build of the project.  You can either `lando start` or `lando rebuild` to do so.<br>
+
+<img src="../cicd/captures/update53.png"  width="300">
+
+<font size=4 color=HotPink>MILD WARNING: It take some time to run on this first build of the project locally.  And it will spit out URLs at the end where you could go to look at the project in your browser.  However, it is a waste of time to bother at this point because you need to retrieve the database into the project for it to run correctly.  We do that next.)</font><br>
+
 
 ## Retrieve Database
 
-<img src="../cicd/captures/update50.png"  width="500">
+To bring in the database isn't hard but there is one trick you need to be aware of.  Unlike move of the command line menu options where you use your arrow keys to select before hitting 'return', here you need to hit your space bar.  Start out by just typeing `lando pull` and hit 'return'.<br>
 
-<img src="../cicd/captures/update51.png"  width="500">
+<img src="../cicd/captures/update50.png"  width="300">
 
-<img src="../cicd/captures/update52.png"  width="500">
+When it ask you questions, move with the space bar to the one you want, in our case we want to import the "database".   And we want our mounts to be to the "/web/sites/default/files" location.<br>
 
-- Insert lando rebuild image here -
+<img src="../cicd/captures/update51.png"  width="300">
 
+A whole bunch of lines will float by.  Then it should come back with the "Pull completed successfully" reply.<br>
 
+<img src="../cicd/captures/update52.png"  width="300">
+
+Given the run time you probably are reluctant but you really do need to run a `lando rebuild` at this point.<br>
+
+<img src="../cicd/captures/update53.png"  width="300">
+
+The good news is that now when it comes back your project should be available at those URLs lando spits back at the end. It may look something like this as a basic site page.<br> 
+
+<img src="../cicd/captures/update54.png"  width="300">
+
+However, if you log in, it should give your a GREEN go ahead banner color with the environment name 'local' showing.<br>
+<img src="../cicd/captures/update55.png"  width="300">
 
 
 ## Make sure there is time
