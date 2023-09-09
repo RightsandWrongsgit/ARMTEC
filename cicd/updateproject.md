@@ -96,25 +96,29 @@ Go to the 'develop' environment and see that name with a GREEN banner to signal 
 If you are NOT logged in, any of the site environments look normal; without environment name or banner colors<br>
 <img src="../cicd/captures/update21.png"  width="500">
 
-## Bring Project Local
+## Initialize Local
+
+You GitCloned your project to bring it to your local machine and you made you way to being in the 'develop' branch which, along with parent branch 'staged' and grandparent branch 'main' also lives on your Platform.sh host.  Just  because the branch files are local doesn't mean they are running in a Lando container.  For that you need to initialize the project.  Make sure you are pointing to the top level of the files you cloned and are in the 'develop' branch; the [informative command prompt we established makes that clear.](../book/WhereAmI.md)   You can do a `lando init \` with the trailing backslash so it doesn't immediately run and takes your next lines of direction.  Then you input `--source cwd \`; again with the trailing backslash to allow the final command.  Then input `--recipe platformsh` and hit return for these commands to all run.<br>
 
 <img src="../cicd/captures/update44.png"  width="500">
 
+If you are into a long one and done command line approach just type it all out line this.<br>
 <img src="../cicd/captures/update45.png"  width="500">
-
-
 
 
 ##  Tweak settings.local.php
 
-There is a long, complicated reason behind this step you can [read more about here.](../cicd/envsettings.md#a-settingslocalphp-of-your-own-making) But the net of it is you need to go into your local copy of the files, get down to the <font color=yellow>web/sites/default</font> subdirectory and rename `my-example.settings.local.php` to `settings.local.php`. 
+Normally we want to have a number of our cache's disabled in local as it is a development site.  We set up our basic project to do this.  There is a long, complicated reason behind this step you can [read more about here.](../cicd/envsettings.md#a-settingslocalphp-of-your-own-making) But the net of it is you need to go into your local copy of the files, get down to the  and rename `my-example.settings.local.php` to `settings.local.php`. The my-example.settings.local.php file we built for the project is retained in the <font color=yellow>web/sites</font> subdirectory.<br>
+<img src="../cicd/captures/update39.png"  width="300">
 
-<img src="../cicd/captures/update39.png"  width="500">
-
+If you go to that subdirectory with your VSCode IDE and look at it, you will see three <font color=LightBlue>$settings</font> lines that are active (e.g. NOT commented out).<br>
 <img src="../cicd/captures/update40.png"  width="500">
 
-<img src="../cicd/captures/update37.png"  width="500">
 
+We make a COPY of that file <font color=HotPink>DO NOTE CUT OR REMOVE THE OLD ONE)</font>, move down one subdirectory level to the <font color=yellow>web/sites/default</font> subdirectory, and PASTE it there.<br>
+<img src="../cicd/captures/update37.png"  width="300">
+
+Once there, you will RENAME the file to `settings.local.php` and go into it and comment out those three lines (put a # and space in front of the lines).  SAVE it and it should look like this.<br>
 <img src="../cicd/captures/update41.png"  width="500">
 
 
