@@ -27,14 +27,19 @@ If you are needing to run the `make update_project` option it probably means you
 
 <img src="../cicd/captures/landopull1.png"  width="350">
 
+Obviously replace the email address you use with your own GitHub account.  And this is where the assumption is that your 'token' remains good.  If it bounces at this point go back to that [more detailed discussion of doing a database pull](../cicd/cloneandpull.md)<br>
 <img src="../cicd/captures/landopull2.png"  width="350">
 
+The only tricky part here is to notice that little blue dot in front of the work 'database' is hollow.<br>
 <img src="../cicd/captures/landopull3.png"  width="350">
 
+You actually use your <font color=HotPink>"space bar"<.font> to move to choice options rather than your arrow keys.<br>
 <img src="../cicd/captures/landopull4.png"  width="350">
 
+Same deal on telling the system where you want to put the database your are bringing down.<br>
 <img src="../cicd/captures/landopull5.png"  width="350">
 
+The <font color=yellow>/web/sites/default/files</font> subdirectory is the classic Drupal location to put the database and that is what you select; again with the <font color=HotPink>space bar".</font><br>
 <img src="../cicd/captures/landopull6.png"  width="350">
 
 
