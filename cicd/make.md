@@ -42,5 +42,16 @@ Same deal on telling the system where you want to put the database your are brin
 The <font color=yellow>/web/sites/default/files</font> subdirectory is the classic Drupal location to put the database and that is what you select; again with the <font color=HotPink>space bar".</font><br>
 <img src="../cicd/captures/landopull6.png"  width="270">
 
+## There but not running
+
+So you brought the code down, told lando about it, brought in the database, <font color=yellow>but the project is not running.</font>  You need to start the container running and build the project in it.  So do a `lando rebuild` to set it all off.<br>
+
+<img src="../cicd/captures/make4.png"  width="350">
+
+The system should come back at this point with the URL addresses of the running project that you can copy, paste in your browser, and go to the running site.<br>
+
+If you do there and it looks like this, you tried to run an update and kicked off the lando container without getting the caches enabled in your `settings.local.php` file. (e.g. you didn't run `make updated_project` on the freshed Git Cloned code.<br>  
+<img src="../cicd/captures/make5.png"  width="500">
+
 
 
