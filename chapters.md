@@ -241,6 +241,7 @@
   - [Automate Configuration](../cicd/autoconfig.md)
   - [Stage File Proxy](cicd/stagefileproxy.md)
   - [Cloning The Project](cicd/cloneandpull.md)
+  - [Makefile](cicd/make.md)
   - [Updating Master](cicd/updateproject.md)
 
   
