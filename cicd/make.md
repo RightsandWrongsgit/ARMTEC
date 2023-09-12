@@ -20,3 +20,22 @@ Here is what it looks like when you run the `make update_project`<br>
 The `lando init` at the end tells the system that the 'source' is the local project in the subdirectory from which we are running the command. It also tells the 'recipe' to use is the one defined by the way 'platformsh` has the environment set up. However, we are still prompted to point to our Platform.sh account (which works because we have SSH credentials set up) and to point to the specific project on our account (because different projects can be set up differently on our host depending upon their needs).<br>
 <img src="../cicd/captures/make2.png"  width="350">
 
+
+## Database Pull
+
+If you are needing to run the `make update_project` option it probably means you just brought the project code local too.  But remember, the project code of files is only part of what makes your project run; you also need the database.  We outlined how to [pull the database earlier, with steps that even included putting a new 'token' in place.](../cicd/cloneandpull.md)  However, if your SSH and token are still in a good place, the summary of how to pull in the database is to follow these steps.<br>
+
+<img src="../cicd/captures/landopull1.png"  width="350">
+
+<img src="../cicd/captures/landopull2.png"  width="350">
+
+<img src="../cicd/captures/landopull3.png"  width="350">
+
+<img src="../cicd/captures/landopull4.png"  width="350">
+
+<img src="../cicd/captures/landopull5.png"  width="350">
+
+<img src="../cicd/captures/landopull6.png"  width="350">
+
+
+
