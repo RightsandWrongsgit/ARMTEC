@@ -86,30 +86,39 @@ In the mean time, here is what we are going to do in a nutshell; followed by a d
 *******************************************************************
 
 ### Merge 'develop' into 'staged'
-Say our have been working back and forth with you Lando 'local' and Platform.sh 'develop' branches doing saves, commits, and syncs as you work.  You have done your first level practical testing by driving around in your Platform.sh hosted 'develop' branch and things look great.  Since that 'develop' branch was cloned from your 'staged' branch you want to move the change up one level so you can carry out your formal testing on the 'hosted' staged branch.<br>  
+Say our have been working back and forth with your Lando 'local' and Platform.sh 'develop' branches doing saves, commits, and syncs as you work.  You have done your first level practical testing by driving around in your Platform.sh hosted 'develop' branch and things look great.  Since that 'develop' branch was cloned from your 'staged' branch you want to move the changes up one level so you can carry out your formal testing on the hosted 'staged' branch.<br>  
 
 Go down to the lower left corner of your VSCode IDE and click on the branch name; probably 'develop' since that is what you just said you were happy with.  When you click, the command bar at the top should show up and now you want to click 'staged' (the basic one, not the longer named 'origin/staged' one.  Now you should see this in that lower left corner.<br>
+
 <img src="../cicd/captures/gitmergeup1.png"  width="175">
 
 Go to the line in the left panel that says "SOURCE CONTROL" and click on the three dots on the right end of that line.  An option pull down list should appear and you will move down it to the <font color=yellow>Branch</font> option.  From the sublist that appears, select the <font color=yellow>Merge Branch</font> option.<br>
+
 <img src="../cicd/captures/gitmergeup2.png"  width="400">
 
-That will open the command bar at the top with a message to "Select a branch to merge <font color=HotPink>from</font><br> 
+That will open the command bar at the top with a message to "Select a branch to merge <font color=HotPink>from</font><br>
+
 <img src="../cicd/captures/gitmergeup3.png"  width="350">
 
 You enter <font color=yellow>'develop'</font> in that box because you want to grab all your fine development work and bring it into the 'stage' environment for final testing.<br>
 
 ### Do your testing
 
+<font size=4 color=HotPink>Insert a link here to any testing recommendations on a separate page. </font
+
+
 ### Merge 'staged' into 'main'
 
 Go into the 'main' branch in your VSCode IDE. The lower left indicator should look like this.<br>
+
 <img src="../cicd/captures/gitmergeup4.png"  width="200">
 
 Go to the line in the left panel that says "SOURCE CONTROL" and click on the three dots on the right end of that line.  An option pull down list should appear and you will move down it to the <font color=yellow>Branch</font> option.  From the sublist that appears, select the <font color=yellow>Merge Branch</font> option.<br>
+
 <img src="../cicd/captures/gitmergeup2.png"  width="400">
 
-That will open the command bar at the top with a message to "Select a branch to merge <font color=HotPink>from</font><br> 
+That will open the command bar at the top with a message to "Select a branch to merge <font color=HotPink>from</font><br>
+
 <img src="../cicd/captures/gitmergeup3.png"  width="350">
 
 You enter <font color=yellow>'staged'</font> in that box because you want to grab all your fully tested work and bring it into the 'main' production environment and bring it live to the world.<br>
