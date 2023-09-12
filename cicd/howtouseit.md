@@ -79,3 +79,38 @@ In the mean time, here is what we are going to do in a nutshell; followed by a d
         ◦ Save your work locally in VSCode.  Do a lando drush cim to import the files from the /config/sync directory into the local 'active' Drupal project.  If all goes as planned, you should have no error for mismatched UUID and things should update.
         ◦ Having the right stuff where it belongs isn't the end of things, remember that besides those /config/sync files you GitCloned, a bunch of other stuff is different, especially the composer.json file that actually builds the Drupal Project.  So run a lando rebuild and after it runs grab one of the URLs, paste it in your browser and bring up the now 'new-but-base-configured' Drupal project.  Drive around in it for a while and check things out. 
         ◦ Back in your VSCode IDE go to the Git symbol which by now should have a fairly high number for the files added and changed by the GitClone you did.  Select it, do your commit with "message", stage and sync.  This should put the updated local project into the 'new projects name' GitHub repository and a minute or two later you can go over to Platform.sh to see that the project has also rebuilt there.  Go look at it on the web at the project URL it shows (that is likely still the development URL for the 'main' branch since you have neither assigned an actual DNS nor branched your project yet for CI/CD workflow).  Again, check this web version and since the environment_indicator is part of our 'base' project modules and it was configured by our settings.php commands to detect and point to the right "case" in our test syntax, it should show up with a different color bar, bar label, and even favicon color. 
+
+
+*******************************************************************
+## Merge, Test, Launch
+*******************************************************************
+
+### Merge 'develop' into 'staged'
+Say our have been working back and forth with you Lando 'local' and Platform.sh 'develop' branches doing saves, commits, and syncs as you work.  You have done your first level practical testing by driving around in your Platform.sh hosted 'develop' branch and things look great.  Since that 'develop' branch was cloned from your 'staged' branch you want to move the change up one level so you can carry out your formal testing on the 'hosted' staged branch.  
+
+Go down to the lower left corner of your VSCode IDE and click on the branch name; probably 'develop' since that is what you just said you were happy with.  When you click, the command bar at the top should show up and now you want to click 'staged' (the basic one, not the longer named 'origin/staged' one.  Now you should see this in that lower left corner.<br>
+<img src="../cicd/captures/gitmergeup1.png"  width="350">
+
+Go to the line in the left panel that says "SOURCE CONTROL" and click on the three dots on the right end of that line.  An option pull down list should appear and you will move down it to the <font color=yellow>Branch</font> option.  From the sublist that appears, select the <font color=yellow>Merge Branch</font> option.<br>
+<img src="../cicd/captures/gitmergeup2.png"  width="600">
+
+That will open the command bar at the top with a message to "Select a branch to merge <font color=HotPink>from</font> 
+<img src="../cicd/captures/gitmergeup3.png"  width="350">
+
+You enter <font color=yellow>'develop'</font> in that box because you want to grab all your fine development work and bring it into the 'stage' environment for final testing.
+
+### Do your testing
+
+### Merge 'staged' into 'main'
+
+Go into the 'main' branch in your VSCode IDE. The lower left indicator should look like this.<br>
+<img src="../cicd/captures/gitmergeup4.png"  width="350">
+
+Go to the line in the left panel that says "SOURCE CONTROL" and click on the three dots on the right end of that line.  An option pull down list should appear and you will move down it to the <font color=yellow>Branch</font> option.  From the sublist that appears, select the <font color=yellow>Merge Branch</font> option.<br>
+<img src="../cicd/captures/gitmergeup2.png"  width="600">
+
+That will open the command bar at the top with a message to "Select a branch to merge <font color=HotPink>from</font> 
+<img src="../cicd/captures/gitmergeup3.png"  width="350">
+
+You enter <font color=yellow>'staged'</font> in that box because you want to grab all your fully tested work and bring it into the 'main' production environment and bring it live to the world.
+
