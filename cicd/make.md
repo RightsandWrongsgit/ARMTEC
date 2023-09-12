@@ -51,7 +51,7 @@ So you brought the code down, told lando about it, brought in the database, <fon
 The system should come back at this point with the URL addresses of the running project that you can copy, paste in your browser, and go to the running site.<br>
 
 If you do there and it looks like this, you tried to run an update and kicked off the lando container without getting the caches enabled in your `settings.local.php` file. (e.g. you didn't run `make updated_project` on the freshed Git Cloned code.<br>  
-<img src="../cicd/captures/make5.png"  width="500">
+<img src="../cicd/captures/make5.png"  width="600">
 
 
 
