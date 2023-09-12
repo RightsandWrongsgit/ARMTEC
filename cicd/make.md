@@ -70,6 +70,11 @@ Then like noted in the earlier "There but not running" section, you need to rebu
 The system will ask you to confirm you want to rebuild.<br>
 <img src="../cicd/captures/make7.png"  width="350">
 
+## Make your own
+
+Doing Make files isn't a big deal.  I tend to do individual line by line runs of the commands I am going to include to test each before throwing them into a pile.  But other than that, it is straight forward.  You might want to add this extension to your VSCode IDE to make it even easier.<br>
+<img src="../cicd/captures/make8.png"  width="350">
+
 <br>
 <br>
 <br>
