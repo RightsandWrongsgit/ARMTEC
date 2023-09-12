@@ -17,6 +17,6 @@ With that script we can type `make update_project` to set the caches on for the 
 Here is what it looks like when you run the `make update_project`<br>
 <img src="../cicd/captures/make1.png"  width="350">
 
-Even though the `lando init` at the end tells the system that the 'source' is the local project in the subdirectory we are running the command from and tells the system that the 'recipe' to use is the one defined by the way 'platformsh` has the environment set up, we are still prompted to point to our Platform.sh account (which works because we have SSH credentials set up) and to point to the specific project on our account (because different projects can be set up differently on our host depending upon their needs).<br>
+The `lando init` at the end tells the system that the 'source' is the local project in the subdirectory from which we are running the command. It also tells the 'recipe' to use is the one defined by the way 'platformsh` has the environment set up. However, we are still prompted to point to our Platform.sh account (which works because we have SSH credentials set up) and to point to the specific project on our account (because different projects can be set up differently on our host depending upon their needs).<br>
 <img src="../cicd/captures/make2.png"  width="350">
 
