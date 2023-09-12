@@ -45,7 +45,6 @@ The <font color=yellow>/web/sites/default/files</font> subdirectory is the class
 ## There but not running
 
 So you brought the code down, told lando about it, brought in the database, <font color=yellow>but the project is not running.</font>  You need to start the container running and build the project in it.  So do a `lando rebuild` to set it all off.<br>
-
 <img src="../cicd/captures/make4.png"  width="350">
 
 The system should come back at this point with the URL addresses of the running project that you can copy, paste in your browser, and go to the running site.<br>
@@ -53,5 +52,26 @@ The system should come back at this point with the URL addresses of the running 
 If you do there and it looks like this, you tried to run an update and kicked off the lando container without getting the caches enabled in your `settings.local.php` file. (e.g. you didn't run `make updated_project` on the freshed Git Cloned code.<br>  
 <img src="../cicd/captures/make5.png"  width="700">
 
+Once your project is running locally it should look something like this as a basic site page.<br> 
 
+<img src="../cicd/captures/update54.png"  width="500">
 
+When you log in, it should give your a GREEN go ahead banner color with the environment name 'local' showing.<br>
+<img src="../cicd/captures/update55.png"  width="500">
+
+## Go back to Development
+
+Just because the project is running locally does NOT mean the caches are set for development.  So now you need to run `make development_project` and it will put in place a template file where the lines to disable the render, page, and dynamic page caches are set to disabled.<br>
+<img src="../cicd/captures/make6.png"  width="350">
+
+Then like noted in the earlier "There but not running" section, you need to rebuild again with these new settings in your lando container.<br>
+<img src="../cicd/captures/make4.png"  width="350">
+
+The system will ask you to confirm you want to rebuild.<br>
+<img src="../cicd/captures/make7.png"  width="350">
+
+<br>
+<br>
+<br>
+
+[- Next -](../cicd/updateproject.md)
