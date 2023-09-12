@@ -37,10 +37,10 @@ You actually use your <font color=HotPink>"space bar"<.font> to move to choice o
 <img src="../cicd/captures/landopull4.png"  width="350">
 
 Same deal on telling the system where you want to put the database your are bringing down.<br>
-<img src="../cicd/captures/landopull5.png"  width="450">
+<img src="../cicd/captures/landopull5.png"  width="500">
 
 The <font color=yellow>/web/sites/default/files</font> subdirectory is the classic Drupal location to put the database and that is what you select; again with the <font color=HotPink>space bar".</font><br>
-<img src="../cicd/captures/landopull6.png"  width="300">
+<img src="../cicd/captures/landopull6.png"  width="270">
 
 
 
