@@ -133,7 +133,7 @@ Now that the basic code is local, the project initialize, and our `settings.loca
 
 <img src="../cicd/captures/update53.png"  width="300">
 
-<font size=4 color=HotPink>MILD WARNING: It take some time to run on this first build of the project locally.  And it will spit out URLs at the end where you could go to look at the project in your browser.  However, it is a waste of time to bother at this point because you need to retrieve the database into the project for it to run correctly.  We do that next.)</font><br>
+<font size=4 color=HotPink>MILD WARNING:</font> <font color=HotPink>It takes some time to run on this first build of the project locally.  And it will spit out URLs at the end where you could go to look at the project in your browser.  However, it is a waste of time to bother at this point because you need to retrieve the database into the project for it to run correctly.  We do that next.)</font><br>
 
 
 ## Retrieve Database
