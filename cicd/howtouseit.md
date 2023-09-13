@@ -92,7 +92,7 @@ Go down to the lower left corner of your VSCode IDE and click on the branch name
 
 <img src="../cicd/captures/gitmergeup1.png"  width="175">
 
-Go to the line in the left panel that says "SOURCE CONTROL" and click on the three dots on the right end of that line.  An option pull down list should appear and you will move down it to the <font color=yellow>Branch</font> option.  From the sublist that appears, select the <font color=yellow>Merge Branch</font> option.<br>
+Click on the Git Source Control logo (odd branch thing with circle on the branches).  Go to the line in the left panel that says "SOURCE CONTROL" and click on the three dots on the right end of that line.  An option pull down list should appear and you will move down it to the <font color=yellow>Branch</font> option.  From the sublist that appears, select the <font color=yellow>Merge Branch</font> option.<br>
 
 <img src="../cicd/captures/gitmergeup2.png"  width="400">
 
