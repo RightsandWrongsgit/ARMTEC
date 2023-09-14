@@ -177,6 +177,8 @@ The little idiosyncracy noted next may be just a temporary thing that future lan
 
 In reality, you will pound your head against the wall if you use that.  Rather, since your 'app' is Drupal, you `.lando.yml` needs to look something like this in that "services:" section:<br>
 
+<img src="../cicd/captures/update60.png"  width="500">
+
 
 ## Drupal Core Update
 ### Make sure there is time
