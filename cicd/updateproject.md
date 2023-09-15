@@ -204,28 +204,34 @@ In reality, you will pound your head against the wall if you use that.  Rather, 
 
 <img src="../cicd/captures/update60.png"  width="500">
 
+# Updated Tricks and Traps
 
 ## Drupal Core Update
-### Make sure there is time
-### Run the update
-
-We we initial installed Drupal in a local lando container we did a [sequence of preparatory steps.](../cicd/basebeforesplit.md#get-things-updated-first)    We should do the key ones for our update too.<br>
-
-Get lando running...<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;`lando start`<br>
+### Assure permissions
 
 Make sure directory and file permissions are open.<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;`chmod u+w web/sites/default`<br>
 
+### Make sure there is time
+
 Make sure we set some extra run time for the many and large files involved.<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;`lando composer config --global process-timeout 2000`<br>
 
+### Turn on lando
+
+Get lando running...<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;`lando start`<br>
+
+### Do a Dry-run
+
 Make a "Dry-run" to see if the system says it should run cleanly.<br>
 
 <img src="../cicd/captures/update57.png"  width="350">
+
+### Do it for real
 
 Run the commands to update the drupal version.<br>
 
@@ -242,8 +248,34 @@ First line starts lando.  The second line makes sure the subdirectory you are do
 &nbsp;&nbsp;&nbsp;&nbsp;Turn off Docker <sup><sub>(probably from its icon in your upper right menu bar)</sub></sup><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Install lando from its GitHub repository <sup><sub>(download appropriate to your machines operating system)</sub></sup><br>
 
-# Updated Tricks and Traps
+## Remove modules
 
+Run the following Drush command to uninstall the module:,br>
+
+`lando drush pm-uninstall module_name`
+
+Next, clear cache using the Drush command:<br>
+
+`drush cr`
+
+Run<br>
+`composer remove drupal/module`
+
+## Merge up
+
+Once you have your work where you want it in your Lando 'local' copy, and have 'saved' the changes on your local drive...<br>
+
+Run `lando rebuild`
+
+Check your work on the localhost URL lando provides at the end of its run.<br>
+
+In your VSCode IDE do a 'Commit/Sync' to move the local file changes up to the platform.sh host 'develop' branch.<br>
+
+Go into the Platform.sh Administrative screen and watch that the 'develop' branch updates.  Refresh you browser until you see the branch update spinning wheel has finished.  If the branch is bright, go into it and click on its URL to check it.  If the branch is washed out, go into it and click on the cogwheel on the upper right check it says it's parent is 'staged' and "save" and then run 'reactivate' the branch; then go into its URL to check it.
+
+Go bach to your VSCode IDE and change to the 'staged' branch in the lower left corner.  Click on the Source Code icon in the lefthand activity bar and then at the end of the source code line click on the three dots.  From the menu that opens, select "Branch" and then "Merge".  When the command bar opens and asks "Merge <font color=yellow>from</font> where" tell it from the 'develop' branch. Then tell it the name of the branch you want to call it is 'staged'. 
+
+Go into the Platform.sh Administrative screen and watch that the 'staged' branch updates. Go into check it.  It is possible that you may find an error related to differences between the underlying database and the configuration files.  <font color=HotPink>This just means you need to look under "Configuration/Configuration Synchronization" and run the update.</font>
 
 
 
