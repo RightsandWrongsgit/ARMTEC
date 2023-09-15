@@ -1,8 +1,31 @@
 
-# Update Base Project
+<font size=6 color=red>Update Base Project</font>
 
 Notes for the project author, not necessary for normal users. Explains doing updates to the Lando, Platform.sh, Drupal CI/CD workflow base project provided for easy-start Drupal sites. 
 
+# Summary Steps
+
+1. Back up a clean copy of the most current project 'main'
+2. 'Git Clone' a copy of 'main' to Lando
+3. Create from 'main' a 'staged' and sync with host
+4. Create from 'staged' a 'develop' and sync with host
+5. Work updates on 'develop'
+6. `lando init --source cwd --recipe platformsh`
+7. Open directory and file permissions `chmod u+w web/sites/default`
+8. Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`
+9. Run `lando pull` [Need details?](cicd/make.md#database-pull)
+10. Run `make update_project` [Sets caches to enabled](cicd/make.md#cache-in-settings-local-php)
+11. Run `lando rebuild`
+12. Check the local running project at the URL provided
+13. Make any updates in your local lando copy [Update tricks and traps](cicd/make.md#update-tricks-and-traps)
+14. Run `lando rebuild`, check the updated local running project URL to confirm you got what you wanted
+15. Commit/Sync the Lando 'local' copy
+16. Check the project GitHub repository to confirm the 'develop'branch update
+17. [Check the Platform.sh build](cicd/make.mdover-to-platformsh) of the 'develop' branch
+18. Once done with doing and intial testing of updates on the platformsh 'develop' branch go to the 'staged' branch and under the VSCode activity bar click on Source Code; click on three dots, go to "Branch" option and select "Merge", fill in command palette box with the "merge from" question with 'develop'
+19. Let the 'staged' branch build on Platform.sh, reactivating if needed, and follow the branch URL to see the running branch to conduct further testing before repeating the process to updated 'main' from 'staged'
+
+# Details
 ## Merge to 'staged'
 
 If you have any pending work that should be retained in your production website, you will want to 'Git Sync' your way from 'local' to the host 'develop' environment and then  merge 'develop' up to 'staged'.  Since you are using the Config_Suite module and have set up automatic exports and imports between these environments, these initial steps are pretty automatic.  <font color=yellow>Complete your testing on 'staged'.</font>
@@ -62,6 +85,8 @@ You will then be prompted to indicate what you want to name the NEW branch and y
 
 Now if you go back into GitHub and look at the branches you will see 'main', 'staged', and 'develop'.  The bad news from the list you don't know if 'staged' and 'develop' are sisters or parent-child.<br>
 <img src="../cicd/captures/update12.png"  width="700">
+
+##### Over to Platformsh
 
 Let's go over to Platform.sh next and see if it tells us anything.  First, if you click on the project you can see it has three branches of the names you provided.  So the good news is the GitHub is updating Platform.sh as expected.<br>  
 <img src="../cicd/captures/update13.png"  width="500">
@@ -216,6 +241,9 @@ First line starts lando.  The second line makes sure the subdirectory you are do
 &nbsp;&nbsp;&nbsp;&nbsp;Then -<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;Turn off Docker <sup><sub>(probably from its icon in your upper right menu bar)</sub></sup><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Install lando from its GitHub repository <sup><sub>(download appropriate to your machines operating system)</sub></sup><br>
+
+# Updated Tricks and Traps
+
 
 
 
