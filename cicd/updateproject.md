@@ -248,6 +248,18 @@ First line starts lando.  The second line makes sure the subdirectory you are do
 &nbsp;&nbsp;&nbsp;&nbsp;Turn off Docker <sup><sub>(probably from its icon in your upper right menu bar)</sub></sup><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Install lando from its GitHub repository <sup><sub>(download appropriate to your machines operating system)</sub></sup><br>
 
+## Drush update
+
+The command itself is very simple.  However you definitely want to do it with a `--dry-run` appended to see what conflicts may exist.<br>
+
+`lando composer require 'drush/drush:^12' --dry-run`
+
+In the major version update between Drupal 9.5.10 to Drupal 10.1.3 I had all sorts of bumps in the night.  I had made the strategic error of adding the Aggregator contributed module to replace the deprecated one on the shifted Drupal Core.  I had also added the Update_Status module in preparation for doing the update from the Drupal verion that my project was previously on (9.3).  While the Update_Status module was helpful to see what changes needed to be made to get Drupal 9.5.10 in shape to make the shift, who would have thought it was one of the two which actually created a 'guzzle' conflict in the composer process.  So I [uninstalled and removed both modules](cicd/updateproject.md#remove-modules) and even then still needed to do both a `composer update` step and fully remove my `composer lock` file on the product to get the Drupal update to version 10 to work.  After checking, that Drupal update did NOT update Drush to 12 but left it at 11.6.  Platform.sh indicated it was running and needed Drush 12.  So that was done AFTER the Drupal update but before merging the 'local' up the chain through 'develop', 'staged', and 'main'.
+
+After the "--dry-run" passes muster, just remove it from the above command string and run...<br>
+
+`lando composer require 'drush/drush:^12'`
+
 ## Remove modules
 
 Run the following Drush command to uninstall the module:,br>
