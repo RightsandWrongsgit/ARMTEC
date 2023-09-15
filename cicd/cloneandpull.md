@@ -20,8 +20,8 @@ If you look in the VSCode IDE on the left hand panel, like usual that little pag
 Before we kick off the Lando step, remember that you want to duplicate the `my-example.settings.local.php` file and rename it without the `my-example` front portion.  The easiest way to handle this is via [running the correct "make..." command;](cicd/make.md) likely `make update_project` if this is an initial local build of a hosted platform.sh project.  Just remember that after you have the project actually running locally you will then want to run `make development_project` and so a `lando rebuild` to disable some key cache settings that make development work easier.
 
 
-### Steps that the lando documentation outlines using existing code
-<font color=yellow>NOTE: This step the documentation didn't mention but I found it important because of the larger number of files in a current version of Drupal's core and a slow connection speed for composer to get and then have time to install files.  The default composer process max timeout seemed to be 300 seconds and I jumped it to 900 because I was having some trouble.</font>
+### Steps the lando documentation outlines for existing code
+<font color=yellow>NOTE: This step the documentation didn't mention but I found it important because of the larger number of files in a current version of Drupal's core and a slow connection speed for composer to get and then have time to install files.  The default composer process max timeout seemed to be 300 seconds and I jumped it to 900 because I was having some trouble. Infact, during a major update [I have set it much higher](cicd/updateproject.md#make-sure-there-is-time)</font>
 
 `export COMPOSER_PROCESS_TIMEOUT=900`
 
