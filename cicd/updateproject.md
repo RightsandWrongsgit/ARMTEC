@@ -271,7 +271,13 @@ Next, clear cache using the Drush command:<br>
 `drush cr`
 
 Run<br>
+
 `composer remove drupal/module`
+
+Go look in your /web/modules/contrib subdirectory to confirm the modules have been removed, including their specific subdirectory.  If not, you can go into that module's subdirectory and run...<br>
+
+`rm -rf module_name`
+
 
 ## Merge up
 
