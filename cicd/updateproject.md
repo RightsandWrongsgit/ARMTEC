@@ -179,6 +179,11 @@ The good news is that now when it comes back your project should be available at
 However, if you log in, it should give your a GREEN go ahead banner color with the environment name 'local' showing.<br>
 <img src="../cicd/captures/update55.png"  width="500">
 
+## Do Your Updates
+
+[Helpful Hints](updateproject.md#update-tricks-and-traps)
+
+
 ## Merge up
 
 Once you have your work where you want it in your Lando 'local' copy, and have 'saved' the changes on your local drive...<br>
