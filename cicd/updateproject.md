@@ -28,7 +28,7 @@ Notes for the project author, not necessary for normal users. Explains doing upd
 9. Run `lando pull` [Need details?](cicd/make.md#database-pull)<br>
 <br>
 
-##### [Cache's set to enabled](/make.md#cache-in-settings-local-php)<br>
+##### [Cache's set to enabled](make.md#cache-in-settings-local-php)<br>
 10. Run `make update_project`
 11. Run `lando rebuild`
 12. Check the local running project at the URL provided<br>
