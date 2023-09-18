@@ -69,7 +69,10 @@ You shouldn't have to worry about this because Lando inherits the environment se
 <br>
 <br>
 
+*******************************************************************
 # Update Summary Steps
+*******************************************************************
+
 ##### [Back up on Platform.sh before you do any updates.](../cicd/basebeforesplit.md#lets-do-a-platformsh-backup)
 - Back up a clean copy of the most current project 'main'<br>
 <br>
@@ -110,8 +113,9 @@ You shouldn't have to worry about this because Lando inherits the environment se
 - Once done with doing and intial testing of updates on the platformsh 'develop' branch go to the 'staged' branch and under the VSCode activity bar click on Source Code; click on three dots, go to "Branch" option and select "Merge", fill in command palette box with the "merge from" question with 'develop'
 - Let the 'staged' branch build on Platform.sh, reactivating if needed, and follow the branch URL to see the running branch to conduct further testing before repeating the process to updated 'main' from 'staged'<br>
 
-
+*******************************************************************
 ## Quick Extras
+*******************************************************************
 
 [Update Other Parts beyond Drupal](updateproject.md#system-components)<br>
 [Update php Version](updateproject.md#php-update)<br>
@@ -120,8 +124,10 @@ You shouldn't have to worry about this because Lando inherits the environment se
 [I screwed up, back me out](updateproject.md#i-screwed-up)<br>
 [Crosscheck General Drupal Requirements](https://www.drupal.org/docs/getting-started/system-requirements)<br>
 
-
+*******************************************************************
 # Update Details
+*******************************************************************
+
 ## Your "Secure" Foundation
 
 If you have any pending work that should be retained in your production website, you will want to 'Git Sync' your way from 'local' to the host 'develop' environment and then  merge 'develop' up to 'staged'.  Since you are using the Config_Suite module and have set up automatic exports and imports between these environments, these initial steps are pretty automatic.  <font color=yellow>Complete your testing on 'staged'.</font><br>
@@ -277,7 +283,9 @@ Go bach to your VSCode IDE and change to the 'staged' branch in the lower left c
 
 Go into the Platform.sh Administrative screen and watch that the 'staged' branch updates. Go into check it.  It is possible that you may find an error related to differences between the underlying database and the configuration files.  <font color=HotPink>This just means you need to look under "Configuration/Configuration Synchronization" and run the update.</font>
 
+*******************************************************************
 # Update Tricks and Traps
+*******************************************************************
 
 ## Drupal Core Update
 
@@ -336,7 +344,55 @@ That command will dump the details at a fairly high level.  But, it will also gi
 
 After the minor version update, go into your site and look at the update and error reports.  You will probably see things like some module is deprecated (no longer used) but that some alternative is available for you do put in its place.  A recent example is the CKeditor package where the old one was deprecated and you should activate the new; but you don't have to because you also have the option to keep the old one which is now available and considered as a contributed module alternative.  These types of things are typically not a big deal depending on how they may or may not be used on your site.  Particularily if they are just development tools and new, better tool option upgrades are coming in, it would be a big deal at all.  It is is something used in your main production site and you did some really unique things with it, it may take longer for a workaround.
 
+
+*******************************************************************
+## Merge, Test, Launch
+*******************************************************************
+
+### Merge 'develop' into 'staged'
+Say our have been working back and forth with your Lando 'local' and Platform.sh 'develop' branches doing saves, commits, and syncs as you work.  You have done your first level practical testing by driving around in your Platform.sh hosted 'develop' branch and things look great.  Since that 'develop' branch was cloned from your 'staged' branch you want to move the changes up one level so you can carry out your formal testing on the hosted 'staged' branch.<br>  
+
+Go down to the lower left corner of your VSCode IDE and click on the branch name; probably 'develop' since that is what you just said you were happy with.  When you click, the command bar at the top should show up and now you want to click 'staged' (the basic one, not the longer named 'origin/staged' one.  Now you should see this in that lower left corner.<br>
+
+<img src="../cicd/captures/gitmergeup1.png"  width="175">
+
+Click on the Git Source Control logo (odd branch thing with circle on the branches).  Go to the line in the left panel that says "SOURCE CONTROL" and click on the three dots on the right end of that line.  An option pull down list should appear and you will move down it to the <font color=yellow>Branch</font> option.  From the sublist that appears, select the <font color=yellow>Merge Branch</font> option.<br>
+
+<img src="../cicd/captures/gitmergeup2.png"  width="400">
+
+That will open the command bar at the top with a message to "Select a branch to merge <font color=HotPink>from</font><br>
+
+<img src="../cicd/captures/gitmergeup3.png"  width="350">
+
+You enter <font color=yellow>'develop'</font> in that box because you want to grab all your fine development work and bring it into the 'stage' environment for final testing.<br>
+
+### Do your testing
+
+<font size=4 color=HotPink>Insert a link here to any testing recommendations on a separate page. </font><br>
+
+
+### Merge 'staged' into 'main'
+
+Go into the 'main' branch in your VSCode IDE. The lower left indicator should look like this.<br>
+
+<img src="../cicd/captures/gitmergeup4.png"  width="200">
+
+Go to the line in the left panel that says "SOURCE CONTROL" and click on the three dots on the right end of that line.  An option pull down list should appear and you will move down it to the <font color=yellow>Branch</font> option.  From the sublist that appears, select the <font color=yellow>Merge Branch</font> option.<br>
+
+<img src="../cicd/captures/gitmergeup2.png"  width="400">
+
+That will open the command bar at the top with a message to "Select a branch to merge <font color=HotPink>from</font><br>
+
+<img src="../cicd/captures/gitmergeup3.png"  width="350">
+
+You enter <font color=yellow>'staged'</font> in that box because you want to grab all your fully tested work and bring it into the 'main' production environment and bring it live to the world.<br>
+
+
+
+*******************************************************************
 ## Common 'Bumps in the Night'
+*******************************************************************
+
 #### php Update?
 
 Does the version of Drupal you are going to attempt to update too require a php version update?  If so, you may need to follow these steps.  The "may" part of that statement is because sometimes it depends on how up to date lando is, which may depend on how up to date your local computer operating system is, etc.
@@ -373,8 +429,10 @@ Go look in your /web/modules/contrib subdirectory to confirm the modules have be
 
 `rm -rf module_name`
 
-
+*******************************************************************
 # "System Components"
+*******************************************************************
+
 ## Drush update
 
 The command itself is very simple.  However you definitely want to do it with a `--dry-run` appended to see what conflicts may exist.<br>
@@ -393,7 +451,6 @@ After the "--dry-run" passes muster, just remove it from the above command strin
 
 How you update..<br>
 `composer self-update`
-
 
 
 ## Platform.sh
@@ -433,8 +490,10 @@ Destroy and rebuild after making that php-change:<br>
 
 Don't directly update Docker.  Let Lando do the Docker update to the version it is compatible with.<br>
 
-
+*******************************************************************
 ## I screwed up
+*******************************************************************
+
 ## Back me out
 <font color=yellow>This assumes the local lando Drupal update isn't running right AND that you haven't pushed the update to the host (Platform.sh and GitHub)!</font>
 You are going to flush the whole local copy of the project and simply clone the clean copy you have in the repository to restore the local.
