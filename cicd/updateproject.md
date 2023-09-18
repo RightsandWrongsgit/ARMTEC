@@ -3,6 +3,64 @@
 
 Notes for the project author, not necessary for normal users. Explains doing updates to the Lando, Platform.sh, Drupal CI/CD workflow base project provided for easy-start Drupal sites. 
 
+<font color=red>Before you start,
+know the Platform.sh template versions and,
+your own Drupal Project versions.</font><br>
+
+Go to the Platform.sh "current" version deploy options on their site; it will likely offer more than one so confirm what your intended upgrade path plan is (e.g. Drupal 9 to Drupal 10, some minor 10.0 to 10.2 upgrade, etc.).  Don't hit the deploy button there; rather, follow the link they provide to the Git Repository for that version. 
+
+## Drupal: On Platform.sh
+Pop into the `composer.json` file for the upgrade target in that Git repository and in it should find lines near the top that look something like this ...
+
+```
+"require": {
+    "composer/installers": "^2.0",
+    "drupal/core-composer-scaffold": "^10.0",
+    "drupal/core-project-message": "^10.0",
+    "drupal/core-recommended": "^10.0",
+    "drupal/redis": "^1.6",
+    "drush/drush": "^12",
+    "platformsh/config-reader": "^2.4"
+```
+These are showing the Drupal project versions.  Note the ^ symbol is implying... “Compatible with version”, will update you to all future minor/patch versions, without incrementing the major version. ^1.2.3 will use releases from 1.2.3 to <2.0.0
+
+So you know the Drupal version is 10, up to but excluding 11.  You know the Drush version is 12 up to but excluding 13.
+
+## Host environment: On Platform.sh
+
+In that same Git repository, look for the file `.platform.app.yaml` and open it up.  You should see lines like these...
+```
+# The name of this app. Must be unique within a project.
+name: 'drupal'
+
+# The runtime the application uses.
+type: 'php:8.1'
+
+dependencies:
+    php:
+        composer/composer: '^2.1'
+
+runtime:
+    # Enable the redis extension so Drupal can communicate with the Redis cache.
+    extensions:
+        - redis
+        - sodium
+        - apcu
+        - blackfire
+```
+You see that the php version is 8.1 and that the composer version is 2.1 up to but excluding 3.
+
+<font color=red>[Need a PHP version update?](updateproject.md#php-update)</font>
+
+### Version you are on...
+
+#### Drupal
+Check under "Status report": /admin/reports/status
+
+Or run `drush core:status` 
+
+
+
 # Summary Steps
 
 - Back up a clean copy of the most current project 'main'<br>
@@ -383,70 +441,8 @@ d) Make your next move!
 [A guide, explaining how to upgrade a Drupal application to PHP 8 keeping backward compatibility with PHP 7. This is to allow deploying to production without the need to synchronize with the update of the servers to PHP 8.](https://metadrop.net/en/articles/updating-drupal-php-8)<br>
 
 
-## Working Note Material
-________________
 
-Updating the production environment in 'main', demands a cautious approach. Instead of making direct changes, work on a clone of 'main' for your updates. Remove the previous 'develop' and 'staged' environments on the host, and create fresh new environments from the most current 'main'.  You can create these cloned host environments [using either the console GUI or the CLI options in Platform.sh](https://docs.platform.sh/other/glossary.html#branch)  For easy reference the CLI approach is shown here:<br>
 
-Do this -<br>
-`platform branch staged main`
-
-Then this -<br>
-`platform branch develop staged`
-
-<font size="1" color=yellow>NOTE: this project is NOT currently using the Platform.sh variable</font>`<ENVIRONMENT_TYPE>`.  <font size="1" color=yellow>Rather, the settings.php file is using</font>`<PLATFORM_BRANCH>` <font size="1" color=yellow>to set the</font> `$env` <font size="1" color=yellow>variable where the "case" is tested to set the environment split, indicator, and stage_file_proxy settings. Thus do NOT be confused into using the</font>`--type <ENVIRONMENT_TYPE>`<font size="1" color=yellow>option.</font><br> 
-_______________
-Got to the Platform.sh "current" version deploy options on their site; it will likely offer more than one so confirm what your intended upgrade path plan is (e.g. Drupal 9 to Drupal 10, some minor 10.0 to 10.2 upgrade, etc.).  Don't hit the deploy button there; rather, follow the link they provide to the Git Repository for that version. 
-
-### Drupal, the application
-Pop into the `composer.json` file for the upgrade target in that Git repository and in it should find lines near the top that look something like this ...
-
-```
-"require": {
-    "composer/installers": "^2.0",
-    "drupal/core-composer-scaffold": "^10.0",
-    "drupal/core-project-message": "^10.0",
-    "drupal/core-recommended": "^10.0",
-    "drupal/redis": "^1.6",
-    "drush/drush": "^12",
-    "platformsh/config-reader": "^2.4"
-```
-These are showing the Drupal project versions.  Note the ^ symbol is implying... “Compatible with version”, will update you to all future minor/patch versions, without incrementing the major version. ^1.2.3 will use releases from 1.2.3 to <2.0.0
-
-So you know the Drupal version is 10, up to but excluding 11.  You know the Drush version is 12 up to but excluding 13.
-
-### Platform.sh, the host environment
-
-In that same Git repository, look for the file `.platform.app.yaml` and open it up.  You should see lines like these...
-```
-# The name of this app. Must be unique within a project.
-name: 'drupal'
-
-# The runtime the application uses.
-type: 'php:8.1'
-
-dependencies:
-    php:
-        composer/composer: '^2.1'
-
-runtime:
-    # Enable the redis extension so Drupal can communicate with the Redis cache.
-    extensions:
-        - redis
-        - sodium
-        - apcu
-        - blackfire
-```
-You see that the php version is 8.1 and that the composer version is 2.1 up to but excluding 3.
-
-## PHP version
-
-### Version you are on...
-
-#### Drupal
-Check under "Status report": /admin/reports/status
-
-Or run `drush core:status` 
 
 ## General Drupal Requirements
 [Drupal.Org link](https://www.drupal.org/docs/getting-started/system-requirements)
