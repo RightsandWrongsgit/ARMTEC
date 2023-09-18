@@ -11,12 +11,12 @@ Notes for the project author, not necessary for normal users. Explains doing upd
 3. Create from 'main' a 'staged' and sync with host
 4. Create from 'staged' a 'develop' and sync with host
 5. Work updates on 'develop'<br>
-##### [Initialize Local](/updateproject.md#initialize-local)<br>
+##### [Initialize Local](updateproject.md#initialize-local)<br>
 6. `lando init --source cwd --recipe platformsh`<br>
-[Permissions and Time](cicd/updateproject.md#drupal-core-update)<br>
+[Permissions and Time](updateproject.md#drupal-core-update)<br>
 7. Open directory and file permissions `chmod u+w web/sites/default`
 8. Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`<br>
-[Get Your Database](cicd/updateproject.md#retrieve-database)<br>
+[Get Your Database](updateproject.md#retrieve-database)<br>
 9. Run `lando pull` [Need details?](cicd/make.md#database-pull)<br>
 [Cache's set to enabled](cicd/make.md#cache-in-settings-local-php)<br>
 10. Run `make update_project`
