@@ -15,7 +15,7 @@ Notes for the project author, not necessary for normal users. Explains doing upd
 - Work updates on 'develop'<br>
 <br>
 
-##### [Initialize Local](updateproject.md#initialize-local)<br>
+##### [Initialize Local](updateproject.md#initialize-local-1)<br>
 - `lando init --source cwd --recipe platformsh`<br>
 <br>
 
