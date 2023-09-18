@@ -37,7 +37,7 @@ Notes for the project author, not necessary for normal users. Explains doing upd
 ##### [Make any updates in your local lando copy](updateproject.md#update-tricks-and-traps)<br>
 13. Run `lando rebuild`, check the updated local running project URL to confirm you got what you wanted
 14. Commit/Sync the Lando 'local' copy
-15. Check the project GitHub repository to confirm the 'develop'branch update<br>
+15. Check the project GitHub repository to confirm the 'develop' branch update<br>
 <br>
 
 ##### [Check the Platform.sh build](make.mdover-to-platformsh) of the 'develop' branch<br>
