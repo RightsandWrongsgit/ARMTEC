@@ -114,6 +114,9 @@ You shouldn't have to worry about this because Lando inherits the environment se
 
 
 [Update Other Parts beyond Drupal](updateproject.md#system-components)
+[Update php Version]
+[Update Drush Version](updateproject.md#drush-update)
+[Update Composer Version](updateproject.md#composer-update-version)
 [I screwed up, back me out](updateproject.md#i-screwed-up)
 [Crosscheck General Drupal Requirements](https://www.drupal.org/docs/getting-started/system-requirements)
 
@@ -401,13 +404,14 @@ You can look at the PHP and/or Composer versions that Platform.sh is using by ex
 ### Version you are moving to...
 
 [First check the Host PHP version cabability before moving it forward too far!](https://www.drupal.org/docs/getting-started/system-requirements/php-requirements)
-<font size="4" color=yellow> don't move forward more than the Drupal version you are updating to can run.</font> 
+<font size="4" color=yellow> don't move forward more than the Drupal version you are updating to can run.</font><br> 
 
 #### Platform.sh
 
 Edit the copy of `platform.app.yml` in your local copy of the project; right near the `composer.json` file. Then do your `Git commit`, `Git sync` in your VSCode IDE to get it up to the host. 
 
-<img src="../cicd/captures/platformshcomposerphpversions.png"  width="500">
+[Updated to php 8.1](updateproject.md#host-environment-on-platform-sh)
+<br>
 
 #### Lando
 
@@ -422,8 +426,11 @@ services:
 
 Destroy and rebuild after making that php-change:<br>
 `lando destroy -y && lando start`
+<br>
 
+#### Docker
 
+Don't directly update Docker.  Let Lando do the Docker update to the version it is compatible with.<br>
 
 
 ## I screwed up
