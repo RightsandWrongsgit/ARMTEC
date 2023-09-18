@@ -50,18 +50,24 @@ runtime:
 ```
 You see that the php version is 8.1 and that the composer version is 2.1 up to but excluding 3.
 
-<font color=red>[Need a PHP version update?](updateproject.md#php-update)</font>
+<font color=red>[Do a PHP version update](updateproject.md#php-update)</font>
 
-### Version you are on...
-
-#### Drupal
-Check under "Status report": /admin/reports/status
-
-Or run `drush core:status` 
+<br>
+<br>
 
 
+## Drupal: On Lando
 
-# Summary Steps
+Logged into the Drupal GUI, Check under "Status report": /admin/reports/status.<br>
+
+Whilr in your VSCode Terminal at the command line run `drush core:status` 
+
+## Host environment: On Lando
+
+You shouldn't have to worry about this because Lando inherits the environment settings directly from the `.platform.app.yaml` settings.  The except to this is if you have inserted any overrides in your `.lando.yml` file; go check by looking at it if you need.<br> 
+
+
+# Update Summary Steps
 
 - Back up a clean copy of the most current project 'main'<br>
 <br>
@@ -102,7 +108,7 @@ Or run `drush core:status`
 - Once done with doing and intial testing of updates on the platformsh 'develop' branch go to the 'staged' branch and under the VSCode activity bar click on Source Code; click on three dots, go to "Branch" option and select "Merge", fill in command palette box with the "merge from" question with 'develop'
 - Let the 'staged' branch build on Platform.sh, reactivating if needed, and follow the branch URL to see the running branch to conduct further testing before repeating the process to updated 'main' from 'staged'<br>
 
-# Details
+# Update Details
 ## Your "Secure" Foundation
 
 If you have any pending work that should be retained in your production website, you will want to 'Git Sync' your way from 'local' to the host 'develop' environment and then  merge 'develop' up to 'staged'.  Since you are using the Config_Suite module and have set up automatic exports and imports between these environments, these initial steps are pretty automatic.  <font color=yellow>Complete your testing on 'staged'.</font><br>
