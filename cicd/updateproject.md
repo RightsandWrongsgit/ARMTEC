@@ -65,7 +65,8 @@ Whilr in your VSCode Terminal at the command line run `drush core:status`
 ## Host environment: On Lando
 
 You shouldn't have to worry about this because Lando inherits the environment settings directly from the `.platform.app.yaml` settings.  The except to this is if you have inserted any overrides in your `.lando.yml` file; go check by looking at it if you need.<br> 
-
+<br>
+<br>
 
 # Update Summary Steps
 
