@@ -24,7 +24,8 @@ Pop into the `composer.json` file for the upgrade target in that Git repository 
 ```
 These are showing the Drupal project versions.  Note the ^ symbol is implying... “Compatible with version”, will update you to all future minor/patch versions, without incrementing the major version. ^1.2.3 will use releases from 1.2.3 to <2.0.0
 
-So you know the Drupal version is 10, up to but excluding 11.  You know the Drush version is 12 up to but excluding 13.
+So you know the Drupal version is 10, up to but excluding 11.  You know the Drush version is 12 up to but excluding 13.  If you want to see the specific minor version being used by Platform.sh in its templates you can go to the `composer.lock` file and do a search for "drupal/core".<br>
+
 
 ## Host environment: On Platform.sh
 
