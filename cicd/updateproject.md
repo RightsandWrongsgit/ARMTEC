@@ -211,7 +211,7 @@ However, if you log in, it should give your a GREEN go ahead banner color with t
 
 
 
-# Updated Tricks and Traps
+# Update Tricks and Traps
 
 ## Drupal Core Update
 ### Assure permissions
