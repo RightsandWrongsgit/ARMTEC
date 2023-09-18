@@ -6,7 +6,7 @@ Notes for the project author, not necessary for normal users. Explains doing upd
 # Summary Steps
 
 1. Back up a clean copy of the most current project 'main'<br>
-##### [Make Clean 'staged' & 'develop'](/updateproject.md#make-clean-staged--develop-1)<br>
+##### [Make Clean 'staged' & 'develop'](updateproject.md#make-clean-staged--develop-1)<br>
 2. 'Git Clone' a copy of 'main' to Lando
 3. Create from 'main' a 'staged' and sync with host
 4. Create from 'staged' a 'develop' and sync with host
