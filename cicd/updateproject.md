@@ -50,7 +50,7 @@ runtime:
 ```
 You see that the php version is 8.1 and that the composer version is 2.1 up to but excluding 3.
 
-<font color=red>[Do a PHP version update](updateproject.md#php-update)</font>
+[Click here to do a PHP version update](updateproject.md#php-update)
 
 <br>
 <br>
@@ -58,9 +58,9 @@ You see that the php version is 8.1 and that the composer version is 2.1 up to b
 
 ## Drupal: On Lando
 
-Logged into the Drupal GUI, Check under "Status report": /admin/reports/status.<br>
+Logged into the Drupal GUI, Check under "Status report": <font color=yellow>/admin/reports/status.</font><br>
 
-Whilr in your VSCode Terminal at the command line run `drush core:status` 
+While in your VSCode Terminal at the command line run `drush core:status` 
 
 ## Host environment: On Lando
 
@@ -69,7 +69,7 @@ You shouldn't have to worry about this because Lando inherits the environment se
 <br>
 
 # Update Summary Steps
-
+##### [Back up on Platform.sh before you do any updates.](../cicd/basebeforesplit.md#lets-do-a-platformsh-backup)
 - Back up a clean copy of the most current project 'main'<br>
 <br>
 
@@ -112,13 +112,13 @@ You shouldn't have to worry about this because Lando inherits the environment se
 
 ## Quick Extras
 
+[Update Other Parts beyond Drupal](updateproject.md#system-components)<br>
+[Update php Version](updateproject.md#php-update)<br>
+[Update Drush Version](updateproject.md#drush-update)<br>
+[Update Composer Version](updateproject.md#composer-update-version)<br>
+[I screwed up, back me out](updateproject.md#i-screwed-up)<br>
+[Crosscheck General Drupal Requirements](https://www.drupal.org/docs/getting-started/system-requirements)<br>
 
-[Update Other Parts beyond Drupal](updateproject.md#system-components)
-[Update php Version]
-[Update Drush Version](updateproject.md#drush-update)
-[Update Composer Version](updateproject.md#composer-update-version)
-[I screwed up, back me out](updateproject.md#i-screwed-up)
-[Crosscheck General Drupal Requirements](https://www.drupal.org/docs/getting-started/system-requirements)
 
 # Update Details
 ## Your "Secure" Foundation
@@ -410,7 +410,7 @@ You can look at the PHP and/or Composer versions that Platform.sh is using by ex
 
 Edit the copy of `platform.app.yml` in your local copy of the project; right near the `composer.json` file. Then do your `Git commit`, `Git sync` in your VSCode IDE to get it up to the host. 
 
-[Updated to php 8.1](updateproject.md#host-environment-on-platform-sh)
+[Updated to platform.sh to php 8.1](updateproject.md#host-environment-on-platform-sh)
 <br>
 
 #### Lando
