@@ -26,17 +26,16 @@ Notes for the project author, not necessary for normal users. Explains doing upd
 19. Let the 'staged' branch build on Platform.sh, reactivating if needed, and follow the branch URL to see the running branch to conduct further testing before repeating the process to updated 'main' from 'staged'
 
 # Details
-## Merge to 'staged'
+## Your "Secure" Foundation
 
-If you have any pending work that should be retained in your production website, you will want to 'Git Sync' your way from 'local' to the host 'develop' environment and then  merge 'develop' up to 'staged'.  Since you are using the Config_Suite module and have set up automatic exports and imports between these environments, these initial steps are pretty automatic.  <font color=yellow>Complete your testing on 'staged'.</font>
-
-## Start with a Backup
-
-It makes sense to be sure you have [backed up on Platform.sh before you do any updates; even the well tested 'staged'.](../cicd/basebeforesplit.md#lets-do-a-platformsh-backup) 
+If you have any pending work that should be retained in your production website, you will want to 'Git Sync' your way from 'local' to the host 'develop' environment and then  merge 'develop' up to 'staged'.  Since you are using the Config_Suite module and have set up automatic exports and imports between these environments, these initial steps are pretty automatic.  <font color=yellow>Complete your testing on 'staged'.</font><br>
 
 ## Merge to 'main'
 
-Once you are satisfied with your testing on 'staged' you can merge that to 'main'.  Your clean production environment is the starting point.
+Once you are satisfied with your testing on 'staged' you can merge that to 'main'.  Your clean production environment is the starting point.<br>
+## Start with a Backup
+
+It makes sense to be sure you have [backed up on Platform.sh before you do any updates; even the well tested 'staged'.](../cicd/basebeforesplit.md#lets-do-a-platformsh-backup) <br>
 
 ## Make Clean 'staged' & 'develop'
 
