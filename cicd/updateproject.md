@@ -109,6 +109,14 @@ You shouldn't have to worry about this because Lando inherits the environment se
 - Once done with doing and intial testing of updates on the platformsh 'develop' branch go to the 'staged' branch and under the VSCode activity bar click on Source Code; click on three dots, go to "Branch" option and select "Merge", fill in command palette box with the "merge from" question with 'develop'
 - Let the 'staged' branch build on Platform.sh, reactivating if needed, and follow the branch URL to see the running branch to conduct further testing before repeating the process to updated 'main' from 'staged'<br>
 
+
+## Quick Extras
+
+
+[Update Other Parts beyond Drupal](updateproject.md#system-components)
+[I screwed up, back me out](updateproject.md#i-screwed-up)
+[Crosscheck General Drupal Requirements](https://www.drupal.org/docs/getting-started/system-requirements)
+
 # Update Details
 ## Your "Secure" Foundation
 
@@ -362,7 +370,7 @@ Go look in your /web/modules/contrib subdirectory to confirm the modules have be
 `rm -rf module_name`
 
 
-# "System Components" update
+# "System Components"
 ## Drush update
 
 The command itself is very simple.  However you definitely want to do it with a `--dry-run` appended to see what conflicts may exist.<br>
@@ -440,19 +448,7 @@ c) Go to the terminal in VSCode and type `lando start` to make sure the project 
 
 d) Make your next move!
 
-<br>
-<br>
 
-## Some possibly good references to reveiw
-
-[A guide, explaining how to upgrade a Drupal application to PHP 8 keeping backward compatibility with PHP 7. This is to allow deploying to production without the need to synchronize with the update of the servers to PHP 8.](https://metadrop.net/en/articles/updating-drupal-php-8)<br>
-
-
-
-
-
-## General Drupal Requirements
-[Drupal.Org link](https://www.drupal.org/docs/getting-started/system-requirements)
 
 <br><br>
 <br>
