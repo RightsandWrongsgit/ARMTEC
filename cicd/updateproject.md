@@ -204,7 +204,7 @@ Go into the Platform.sh Administrative screen and watch that the 'staged' branch
 
 ## Drupal Core Update
 
-### The Basics
+<font size=4 color=yellow>The Basics</font>
 #### Assure permissions
 Make sure directory and file permissions are open.<br>
 
@@ -234,8 +234,9 @@ Run the commands to update the drupal version.<br>
 
 <sup><sub>NOTE: Make sure Platform CLI is installed and SSH connection established.</sub></sup><br>
 
-### Major Version Update
-<font color=yellow>Start with Minor version updates:</font> Say you are going from Drupal 9 to Drupal 10.  But your current site is on Drupal core 9.3 and the most current version of main version 9 is 9.5.8.  You want to make sure you first do an update from 9.3 to 9.5.8 before ou try a major version update.  With minor updates you aren't going to face different php versions, not likely different drush versions, and the typical steps are fairly straight-forward.  Because we are doing this in containers and our local is in Lando, we will preceed our commands with the word lando.
+<font size=4 color=yellow>Major Version Update</font><br>
+
+Say you are going from Drupal 9 to Drupal 10.  But your current site is on Drupal core 9.3 and the most current version of main version 9 is 9.5.8.  You want to make sure you first do an update from 9.3 to 9.5.8 before ou try a major version update.  With minor updates you aren't going to face different php versions, not likely different drush versions, and the typical steps are fairly straight-forward.  Because we are doing this in containers and our local is in Lando, we will preceed our commands with the word lando.
 
 First a test or dry run to see if anything blows up:
 
@@ -258,7 +259,7 @@ That command will dump the details at a fairly high level.  But, it will also gi
 
 After the minor version update, go into your site and look at the update and error reports.  You will probably see things like some module is deprecated (no longer used) but that some alternative is available for you do put in its place.  A recent example is the CKeditor package where the old one was deprecated and you should activate the new; but you don't have to because you also have the option to keep the old one which is now available and considered as a contributed module alternative.  These types of things are typically not a big deal depending on how they may or may not be used on your site.  Particularily if they are just development tools and new, better tool option upgrades are coming in, it would be a big deal at all.  It is is something used in your main production site and you did some really unique things with it, it may take longer for a workaround.
 
-### Common 'Bumps in the Night'
+## Common 'Bumps in the Night'
 #### php Update?
 
 Does the version of Drupal you are going to attempt to update too require a php version update?  If so, you may need to follow these steps.  The "may" part of that statement is because sometimes it depends on how up to date lando is, which may depend on how up to date your local computer operating system is, etc.
@@ -277,7 +278,7 @@ In reality, you will pound your head against the wall if you use that.  Rather, 
 
 <img src="../cicd/captures/update60.png"  width="500">
 
-#### Remove modules
+## Remove modules
 
 Run the following Drush command to uninstall the module:,br>
 
@@ -296,7 +297,7 @@ Go look in your /web/modules/contrib subdirectory to confirm the modules have be
 `rm -rf module_name`
 
 
-# "Parts" update
+# "System Components" update
 ## Drush update
 
 The command itself is very simple.  However you definitely want to do it with a `--dry-run` appended to see what conflicts may exist.<br>
@@ -318,7 +319,7 @@ How you update..<br>
 
 
 
-#### Platform.sh
+## Platform.sh
 
 You can look at the PHP and/or Composer versions that Platform.sh is using by examining the copy of `platform.app.yml` in your local copy of the project; right near the `composer.json` file.
 
