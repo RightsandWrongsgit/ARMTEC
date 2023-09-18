@@ -8,7 +8,7 @@ Notes for the project author, not necessary for normal users. Explains doing upd
 - Back up a clean copy of the most current project 'main'<br>
 <br>
 
-##### [Make Clean 'staged' & 'develop'](updateproject.md#make-clean-staged--develop-1) working with VSCode & GitHub<br>
+##### [Make Clean 'staged' & 'develop'](updateproject.md#make-clean-staged--develop) working with VSCode & GitHub<br>
 - 'Git Clone' a copy of 'main' to Lando
 - Create from 'main' a 'staged' and sync with host
 - Create from 'staged' a 'develop' and sync with host
