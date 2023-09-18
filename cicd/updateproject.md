@@ -6,19 +6,20 @@ Notes for the project author, not necessary for normal users. Explains doing upd
 # Summary Steps
 
 1. Back up a clean copy of the most current project 'main'
-[Make Clean 'staged' & 'develop'](/updateproject.md#make-clean-staged-&-develop)
+[Make Clean 'staged' & 'develop'](cicd/updateproject.md#make-clean-staged-&-develop)
 2. 'Git Clone' a copy of 'main' to Lando
 3. Create from 'main' a 'staged' and sync with host
 4. Create from 'staged' a 'develop' and sync with host
 5. Work updates on 'develop'
-[Initialize Local](/updateproject.md#initialize-local)
+[Initialize Local](cicd/updateproject.md#initialize-local)
 6. `lando init --source cwd --recipe platformsh`
-[Permissions and Time](/updateproject.md#drupal-core-update)
+[Permissions and Time](cicd/updateproject.md#drupal-core-update)
 7. Open directory and file permissions `chmod u+w web/sites/default`
 8. Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`
-[Get Your Database](/updateproject.md#retrieve-database)
+[Get Your Database](cicd/updateproject.md#retrieve-database)
 9. Run `lando pull` [Need details?](cicd/make.md#database-pull)
-10. Run `make update_project` [Sets caches to enabled](cicd/make.md#cache-in-settings-local-php)
+[Cache's set to enabled](cicd/make.md#cache-in-settings-local-php)
+10. Run `make update_project`
 11. Run `lando rebuild`
 12. Check the local running project at the URL provided
 [Make any updates in your local lando copy](cicd/make.md#update-tricks-and-traps)
@@ -194,23 +195,7 @@ The good news is that now when it comes back your project should be available at
 However, if you log in, it should give your a GREEN go ahead banner color with the environment name 'local' showing.<br>
 <img src="../cicd/captures/update55.png"  width="500">
 
-## php Update?
 
-Does the version of Drupal you are going to attempt to update too require a php version update?  If so, you may need to follow these steps.  The "may" part of that statement is because sometimes it depends on how up to date lando is, which may depend on how up to date your local computer operating system is, etc.
-
-Lando attempts to mirror the environment you are using to run your application on the host.  So with Drupal, you will want to open the `.platform.app.yaml` file on your local machine and look near the top for what php version is currently running.  In my most recent case it was 8.0 but I was heading toward a Drupal version that needed php 8.1.  So just edit the entry behind "type" in line ten in the example below.<br>
-
-<img src="../cicd/captures/update58.png"  width="500">
-
-That simple edit could be all you need.  You will want to at least to a `lando rebuild` after making that end.  I would suggest you go one step further and to a `lando destroy` followed by a `lando poweroff` and then go into your Docker Desktop and stop the running local containers that were behind the prior running Drupal application.  If you look at the "images" in your Docker Desktop before you "remove" them, you will probably notice one has the old php 8.0 (or whatever you are coming from) in the name of the image toward the tailend.  Basically what you are doing is clearing out the old php image so the new one called bye the `type: php 8.1` line doesn't bump into it.<br>
-
-The little idiosyncracy noted next may be just a temporary thing that future lando application updates will fix.  But Platform.sh uses a `php-8.1:stable` image and the basic line of `type: php 8.1` calls a slightly different image. So you want to override this in your `.lando.yml` file.  If you look this up with an internet search you will probably see people telling you how they inserted this code to do that.<br>
-
-<img src="../cicd/captures/update59.png"  width="350">
-
-In reality, you will pound your head against the wall if you use that.  Rather, since your 'app' is Drupal, your `.lando.yml` needs to look something like this in that "services:" section.<br>
-
-<img src="../cicd/captures/update60.png"  width="500">
 
 # Updated Tricks and Traps
 
@@ -255,6 +240,26 @@ First line starts lando.  The second line makes sure the subdirectory you are do
 &nbsp;&nbsp;&nbsp;&nbsp;Then -<br> 
 &nbsp;&nbsp;&nbsp;&nbsp;Turn off Docker <sup><sub>(probably from its icon in your upper right menu bar)</sub></sup><br>
 &nbsp;&nbsp;&nbsp;&nbsp;Install lando from its GitHub repository <sup><sub>(download appropriate to your machines operating system)</sub></sup><br>
+
+
+## php Update?
+
+Does the version of Drupal you are going to attempt to update too require a php version update?  If so, you may need to follow these steps.  The "may" part of that statement is because sometimes it depends on how up to date lando is, which may depend on how up to date your local computer operating system is, etc.
+
+Lando attempts to mirror the environment you are using to run your application on the host.  So with Drupal, you will want to open the `.platform.app.yaml` file on your local machine and look near the top for what php version is currently running.  In my most recent case it was 8.0 but I was heading toward a Drupal version that needed php 8.1.  So just edit the entry behind "type" in line ten in the example below.<br>
+
+<img src="../cicd/captures/update58.png"  width="500">
+
+That simple edit could be all you need.  You will want to at least to a `lando rebuild` after making that end.  I would suggest you go one step further and to a `lando destroy` followed by a `lando poweroff` and then go into your Docker Desktop and stop the running local containers that were behind the prior running Drupal application.  If you look at the "images" in your Docker Desktop before you "remove" them, you will probably notice one has the old php 8.0 (or whatever you are coming from) in the name of the image toward the tailend.  Basically what you are doing is clearing out the old php image so the new one called bye the `type: php 8.1` line doesn't bump into it.<br>
+
+The little idiosyncracy noted next may be just a temporary thing that future lando application updates will fix.  But Platform.sh uses a `php-8.1:stable` image and the basic line of `type: php 8.1` calls a slightly different image. So you want to override this in your `.lando.yml` file.  If you look this up with an internet search you will probably see people telling you how they inserted this code to do that.<br>
+
+<img src="../cicd/captures/update59.png"  width="350">
+
+In reality, you will pound your head against the wall if you use that.  Rather, since your 'app' is Drupal, your `.lando.yml` needs to look something like this in that "services:" section.<br>
+
+<img src="../cicd/captures/update60.png"  width="500">
+
 
 ## Drush update
 
@@ -305,27 +310,8 @@ Go into the Platform.sh Administrative screen and watch that the 'staged' branch
 
 
 
-## Local Lando
 
 
-
-
-
-While in the root of your now local project, type
-`lando init`
-
-
-afdlkjfaj;
-
-## Do updates to 'local'
-
-<font size="6" color=pink> Do I need to reinstall DRUSH?</font><br>## Publish 'local' to 'develop'
-
-## Confirm 'develop' made 'staged'
-
-## Test 'staged'
-
-## Merge to 'main'
 
 ___________________
 
