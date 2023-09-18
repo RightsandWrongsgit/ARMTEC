@@ -6,12 +6,12 @@ Notes for the project author, not necessary for normal users. Explains doing upd
 # Summary Steps
 
 1. Back up a clean copy of the most current project 'main'<br>
-##### [Make Clean 'staged' & 'develop'](cicd/updateproject.md#make-clean-staged-&-develop)<br>
+##### [Make Clean 'staged' & 'develop'](/updateproject.md#make-clean-staged-&-develop)<br>
 2. 'Git Clone' a copy of 'main' to Lando
 3. Create from 'main' a 'staged' and sync with host
 4. Create from 'staged' a 'develop' and sync with host
 5. Work updates on 'develop'<br>
-[Initialize Local](cicd/updateproject.md#initialize-local)<br>
+##### [Initialize Local](/updateproject.md#initialize-local)<br>
 6. `lando init --source cwd --recipe platformsh`<br>
 [Permissions and Time](cicd/updateproject.md#drupal-core-update)<br>
 7. Open directory and file permissions `chmod u+w web/sites/default`
