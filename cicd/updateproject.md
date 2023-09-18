@@ -154,36 +154,6 @@ If you are into a long one and done command line approach just type it all out l
 <img src="../cicd/captures/update45.png"  width="250">
 
 
-##  Tweak settings.local.php
-
-Normally we want to have a number of our cache's disabled in local as it is a development site.  We set up our basic project to do this.  There is a long, complicated reason behind this step you can [read more about here.](../cicd/envsettings.md#a-settingslocalphp-of-your-own-making) But the net of it is you need to go into your local copy of the files, get down to the  and rename `my-example.settings.local.php` to `settings.local.php`. The my-example.settings.local.php file we built for the project is retained in the <font color=yellow>web/sites</font> subdirectory.<br>
-
-<img src="../cicd/captures/update39.png"  width="250">
-
-If you go to that subdirectory with your VSCode IDE and look at it, you will see three <font color=LightBlue>$settings</font> lines that are active (e.g. NOT commented out).<br>
-
-<img src="../cicd/captures/update40.png"  width="500">
-
-
-We make a COPY of that file <font color=HotPink>DO NOTE CUT OR REMOVE THE OLD ONE)</font>, move down one subdirectory level to the <font color=yellow>web/sites/default</font> subdirectory, and PASTE it there.<br>
-
-<img src="../cicd/captures/update37.png"  width="300">
-
-If there happens to already be a settings.local.php file in that 'web/sites/default' subdirectory, especially if it looks like this one seeking credentials, delete it.  The containers you are using are supplying the credentials and you want the clean, renamed one discussed next.<br>
-
-<img src="../cicd/captures/update35.png"  width="500">
-
-Once in the <font color=yellow>web/sites/default</font> subdirectory, you will RENAME the `my-example.settings.local.php` to `settings.local.php` and go into that file and comment out those three lines (put a # and space in front of the lines).  SAVE it and it should look like this.  Notice that the very top of the image shows how your VSCode IDE will also actually confirm the subdirectory you are in, just to make sure.<br>
-
-<img src="../cicd/captures/update41.png"  width="500">
-
-Now that the basic code is local, the project initialize, and our `settings.local.php` tweaked for a virgin status update, let lando do a first build of the project.  You can either `lando start` or `lando rebuild` to do so.<br>
-
-<img src="../cicd/captures/update53.png"  width="300">
-
-<font size=4 color=HotPink>MILD WARNING:</font> <font color=HotPink>It takes some time to run on this first build of the project locally.  And it will spit out URLs at the end where you could go to look at the project in your browser.  However, it is a waste of time to bother at this point because you need to retrieve the database into the project for it to run correctly.  We do that next.)</font><br>
-
-
 ## Retrieve Database
 
 To bring in the database isn't hard but there is one trick you need to be aware of.  Unlike move of the command line menu options where you use your arrow keys to select before hitting 'return', here you need to hit your space bar.  Start out by just typeing `lando pull` and hit 'return'.<br>
@@ -209,103 +179,6 @@ The good news is that now when it comes back your project should be available at
 However, if you log in, it should give your a GREEN go ahead banner color with the environment name 'local' showing.<br>
 <img src="../cicd/captures/update55.png"  width="500">
 
-
-
-# Update Tricks and Traps
-
-## Drupal Core Update
-### Assure permissions
-
-Make sure directory and file permissions are open.<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;`chmod u+w web/sites/default`<br>
-
-### Make sure there is time
-
-Make sure we set some extra run time for the many and large files involved.<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;`lando composer config --global process-timeout 2000`<br>
-
-### Turn on lando
-
-Get lando running...<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;`lando start`<br>
-
-### Do a Dry-run
-
-Make a "Dry-run" to see if the system says it should run cleanly.<br>
-
-<img src="../cicd/captures/update57.png"  width="350">
-
-### Do it for real
-
-Run the commands to update the drupal version.<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;`lando composer update "drupal/core-*" --with-all-dependencies`<br>
-
-<img src="../cicd/captures/update56.png"  width="350">
-
-<sup><sub>NOTE: Make sure Platform CLI is installed and SSH connection established.</sub></sup><br>
-
-First line starts lando.  The second line makes sure the subdirectory you are doing this in can be written to.  Once your site is moving to the active deployment state, probably around associating the DNS, make sure you 'harden' the site and that your approach makes this subdirectory read only again. As long as you are updating Drupal, you might want to update lando on your local machine.  To do that, you will also work from a command line interface like your VSCode terminal and do the following:<br>
-
-&nbsp;&nbsp;&nbsp;&nbsp;`lando poweroff`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;Then -<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;Turn off Docker <sup><sub>(probably from its icon in your upper right menu bar)</sub></sup><br>
-&nbsp;&nbsp;&nbsp;&nbsp;Install lando from its GitHub repository <sup><sub>(download appropriate to your machines operating system)</sub></sup><br>
-
-
-## php Update?
-
-Does the version of Drupal you are going to attempt to update too require a php version update?  If so, you may need to follow these steps.  The "may" part of that statement is because sometimes it depends on how up to date lando is, which may depend on how up to date your local computer operating system is, etc.
-
-Lando attempts to mirror the environment you are using to run your application on the host.  So with Drupal, you will want to open the `.platform.app.yaml` file on your local machine and look near the top for what php version is currently running.  In my most recent case it was 8.0 but I was heading toward a Drupal version that needed php 8.1.  So just edit the entry behind "type" in line ten in the example below.<br>
-
-<img src="../cicd/captures/update58.png"  width="500">
-
-That simple edit could be all you need.  You will want to at least to a `lando rebuild` after making that end.  I would suggest you go one step further and to a `lando destroy` followed by a `lando poweroff` and then go into your Docker Desktop and stop the running local containers that were behind the prior running Drupal application.  If you look at the "images" in your Docker Desktop before you "remove" them, you will probably notice one has the old php 8.0 (or whatever you are coming from) in the name of the image toward the tailend.  Basically what you are doing is clearing out the old php image so the new one called bye the `type: php 8.1` line doesn't bump into it.<br>
-
-The little idiosyncracy noted next may be just a temporary thing that future lando application updates will fix.  But Platform.sh uses a `php-8.1:stable` image and the basic line of `type: php 8.1` calls a slightly different image. So you want to override this in your `.lando.yml` file.  If you look this up with an internet search you will probably see people telling you how they inserted this code to do that.<br>
-
-<img src="../cicd/captures/update59.png"  width="350">
-
-In reality, you will pound your head against the wall if you use that.  Rather, since your 'app' is Drupal, your `.lando.yml` needs to look something like this in that "services:" section.<br>
-
-<img src="../cicd/captures/update60.png"  width="500">
-
-
-## Drush update
-
-The command itself is very simple.  However you definitely want to do it with a `--dry-run` appended to see what conflicts may exist.<br>
-
-`lando composer require 'drush/drush:^12' --dry-run`
-
-In the major version update between Drupal 9.5.10 to Drupal 10.1.3 I had all sorts of bumps in the night.  I had made the strategic error of adding the Aggregator contributed module to replace the deprecated one on the shifted Drupal Core.  I had also added the Update_Status module in preparation for doing the update from the Drupal verion that my project was previously on (9.3).  While the Update_Status module was helpful to see what changes needed to be made to get Drupal 9.5.10 in shape to make the shift, who would have thought it was one of the two which actually created a 'guzzle' conflict in the composer process.  So I [uninstalled and removed both modules](cicd/updateproject.md#remove-modules) and even then still needed to do both a `composer update` step and fully remove my `composer lock` file on the product to get the Drupal update to version 10 to work.  After checking, that Drupal update did NOT update Drush to 12 but left it at 11.6.  Platform.sh indicated it was running and needed Drush 12.  So that was done AFTER the Drupal update but before merging the 'local' up the chain through 'develop', 'staged', and 'main'.
-
-After the "--dry-run" passes muster, just remove it from the above command string and run...<br>
-
-`lando composer require 'drush/drush:^12'`
-
-## Remove modules
-
-Run the following Drush command to uninstall the module:,br>
-
-`lando drush pm-uninstall module_name`
-
-Next, clear cache using the Drush command:<br>
-
-`drush cr`
-
-Run<br>
-
-`composer remove drupal/module`
-
-Go look in your /web/modules/contrib subdirectory to confirm the modules have been removed, including their specific subdirectory.  If not, you can go into that module's subdirectory and run...<br>
-
-`rm -rf module_name`
-
-
 ## Merge up
 
 Once you have your work where you want it in your Lando 'local' copy, and have 'saved' the changes on your local drive...<br>
@@ -322,19 +195,42 @@ Go bach to your VSCode IDE and change to the 'staged' branch in the lower left c
 
 Go into the Platform.sh Administrative screen and watch that the 'staged' branch updates. Go into check it.  It is possible that you may find an error related to differences between the underlying database and the configuration files.  <font color=HotPink>This just means you need to look under "Configuration/Configuration Synchronization" and run the update.</font>
 
+# Update Tricks and Traps
 
+## Drupal Core Update
 
+### The Basics
+#### Assure permissions
+Make sure directory and file permissions are open.<br>
 
+&nbsp;&nbsp;&nbsp;&nbsp;`chmod u+w web/sites/default`<br>
 
+#### Make sure there is time
+Make sure we set some extra run time for the many and large files involved.<br>
 
-___________________
+&nbsp;&nbsp;&nbsp;&nbsp;`lando composer config --global process-timeout 2000`<br>
 
-## General Drupal Requirements
-[Drupal.Org link](https://www.drupal.org/docs/getting-started/system-requirements)
+#### Turn on lando
+Get lando running...<br>
 
-## Start with Minor version updates
+&nbsp;&nbsp;&nbsp;&nbsp;`lando start`<br>
 
-Say you are going from Drupal 9 to Drupal 10.  But your current site is on Drupal core 9.3 and the most current version of main version 9 is 9.5.8.  You want to make sure you first do an update from 9.3 to 9.5.8 before ou try a major version update.  With minor updates you aren't going to face different php versions, not likely different drush versions, and the typical steps are fairly straight-forward.  Because we are doing this in containers and our local is in Lando, we will preceed our commands with the word lando.
+#### Do a Dry-run
+Make a "Dry-run" to see if the system says it should run cleanly.<br>
+
+<img src="../cicd/captures/update57.png"  width="350">
+
+#### Do it for real
+Run the commands to update the drupal version.<br>
+
+&nbsp;&nbsp;&nbsp;&nbsp;`lando composer update "drupal/core-*" --with-all-dependencies`<br>
+
+<img src="../cicd/captures/update56.png"  width="350">
+
+<sup><sub>NOTE: Make sure Platform CLI is installed and SSH connection established.</sub></sup><br>
+
+### Major Version Update
+<font color=yellow>Start with Minor version updates:</font> Say you are going from Drupal 9 to Drupal 10.  But your current site is on Drupal core 9.3 and the most current version of main version 9 is 9.5.8.  You want to make sure you first do an update from 9.3 to 9.5.8 before ou try a major version update.  With minor updates you aren't going to face different php versions, not likely different drush versions, and the typical steps are fairly straight-forward.  Because we are doing this in containers and our local is in Lando, we will preceed our commands with the word lando.
 
 First a test or dry run to see if anything blows up:
 
@@ -357,7 +253,56 @@ That command will dump the details at a fairly high level.  But, it will also gi
 
 After the minor version update, go into your site and look at the update and error reports.  You will probably see things like some module is deprecated (no longer used) but that some alternative is available for you do put in its place.  A recent example is the CKeditor package where the old one was deprecated and you should activate the new; but you don't have to because you also have the option to keep the old one which is now available and considered as a contributed module alternative.  These types of things are typically not a big deal depending on how they may or may not be used on your site.  Particularily if they are just development tools and new, better tool option upgrades are coming in, it would be a big deal at all.  It is is something used in your main production site and you did some really unique things with it, it may take longer for a workaround.
 
+### Common 'Bumps in the Night'
+#### php Update?
 
+Does the version of Drupal you are going to attempt to update too require a php version update?  If so, you may need to follow these steps.  The "may" part of that statement is because sometimes it depends on how up to date lando is, which may depend on how up to date your local computer operating system is, etc.
+
+Lando attempts to mirror the environment you are using to run your application on the host.  So with Drupal, you will want to open the `.platform.app.yaml` file on your local machine and look near the top for what php version is currently running.  In my most recent case it was 8.0 but I was heading toward a Drupal version that needed php 8.1.  So just edit the entry behind "type" in line ten in the example below.<br>
+
+<img src="../cicd/captures/update58.png"  width="500">
+
+That simple edit could be all you need.  You will want to at least to a `lando rebuild` after making that end.  I would suggest you go one step further and to a `lando destroy` followed by a `lando poweroff` and then go into your Docker Desktop and stop the running local containers that were behind the prior running Drupal application.  If you look at the "images" in your Docker Desktop before you "remove" them, you will probably notice one has the old php 8.0 (or whatever you are coming from) in the name of the image toward the tailend.  Basically what you are doing is clearing out the old php image so the new one called bye the `type: php 8.1` line doesn't bump into it.<br>
+
+The little idiosyncracy noted next may be just a temporary thing that future lando application updates will fix.  But Platform.sh uses a `php-8.1:stable` image and the basic line of `type: php 8.1` calls a slightly different image. So you want to override this in your `.lando.yml` file.  If you look this up with an internet search you will probably see people telling you how they inserted this code to do that.<br>
+
+<img src="../cicd/captures/update59.png"  width="350">
+
+In reality, you will pound your head against the wall if you use that.  Rather, since your 'app' is Drupal, your `.lando.yml` needs to look something like this in that "services:" section.<br>
+
+<img src="../cicd/captures/update60.png"  width="500">
+
+#### Remove modules
+
+Run the following Drush command to uninstall the module:,br>
+
+`lando drush pm-uninstall module_name`
+
+Next, clear cache using the Drush command:<br>
+
+`drush cr`
+
+Run<br>
+
+`composer remove drupal/module`
+
+Go look in your /web/modules/contrib subdirectory to confirm the modules have been removed, including their specific subdirectory.  If not, you can go into that module's subdirectory and run...<br>
+
+`rm -rf module_name`
+
+
+# "Parts" update
+## Drush update
+
+The command itself is very simple.  However you definitely want to do it with a `--dry-run` appended to see what conflicts may exist.<br>
+
+`lando composer require 'drush/drush:^12' --dry-run`
+
+In the major version update between Drupal 9.5.10 to Drupal 10.1.3 I had all sorts of bumps in the night.  I had made the strategic error of adding the Aggregator contributed module to replace the deprecated one on the shifted Drupal Core.  I had also added the Update_Status module in preparation for doing the update from the Drupal verion that my project was previously on (9.3).  While the Update_Status module was helpful to see what changes needed to be made to get Drupal 9.5.10 in shape to make the shift, who would have thought it was one of the two which actually created a 'guzzle' conflict in the composer process.  So I [uninstalled and removed both modules](cicd/updateproject.md#remove-modules) and even then still needed to do both a `composer update` step and fully remove my `composer lock` file on the product to get the Drupal update to version 10 to work.  After checking, that Drupal update did NOT update Drush to 12 but left it at 11.6.  Platform.sh indicated it was running and needed Drush 12.  So that was done AFTER the Drupal update but before merging the 'local' up the chain through 'develop', 'staged', and 'main'.
+
+After the "--dry-run" passes muster, just remove it from the above command string and run...<br>
+
+`lando composer require 'drush/drush:^12'`
 
 
 ## Composer-update version
@@ -366,14 +311,7 @@ After the minor version update, go into your site and look at the update and err
 How you update..<br>
 `composer self-update`
 
-## PHP version
 
-### Version you are on...
-
-#### Drupal
-Check under "Status report": /admin/reports/status
-
-Or run `drush core:status` 
 
 #### Platform.sh
 
@@ -406,26 +344,7 @@ services:
 Destroy and rebuild after making that php-change:<br>
 `lando destroy -y && lando start`
 
-## Update Drupal Core
-<font color=yellow>(On your local machine in the CI/CD Workflow Project directory.)</font><br>
-<font color=yellow>(Confirmed 'main' on the bottom of VSCode, connected to the host copy.)</font><br>
-<font color=yellow>(If in doubt, first do a `composer update --dry-run`)</font>
 
-The following steps make sure the directories are writable, extends time to handle slower connections, updates the core locally in Lando, and get the updates into the Platform.sh host:<br> 
-&nbsp;&nbsp;&nbsp;&nbsp;`lando start`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`chmod u+w web/sites/default`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`lando composer config --global process-timeout 2000`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`lando composer update "drupal/core-*" --with-all-dependencies`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`git push -u platform update`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;`platform e:activate -y`<br>
-
-<sup><sub>NOTE: Make sure Platform CLI is installed and SSH connection established.</sub></sup><br>
-
-## Update Drush
-
-Sometimes updating Drush will overcome issues occuring from the Drupal update.
-
-`composer require drush/drush:^11`
 
 
 ## I screwed up
@@ -514,6 +433,17 @@ runtime:
 ```
 You see that the php version is 8.1 and that the composer version is 2.1 up to but excluding 3.
 
+## PHP version
+
+### Version you are on...
+
+#### Drupal
+Check under "Status report": /admin/reports/status
+
+Or run `drush core:status` 
+
+## General Drupal Requirements
+[Drupal.Org link](https://www.drupal.org/docs/getting-started/system-requirements)
 
 <br><br>
 <br>
