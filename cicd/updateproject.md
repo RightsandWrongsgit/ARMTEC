@@ -33,9 +33,14 @@ If you have any pending work that should be retained in your production website,
 ## Merge to 'main'
 
 Once you are satisfied with your testing on 'staged' you can merge that to 'main'.  Your clean production environment is the starting point.<br>
+
 ## Start with a Backup
 
 It makes sense to be sure you have [backed up on Platform.sh before you do any updates; even the well tested 'staged'.](../cicd/basebeforesplit.md#lets-do-a-platformsh-backup) <br>
+
+If you want to be extra secure at any time, you can also independently backup your source code.  Remember, this is NOT securing your content, just your source code itself.  Recall you have that in GitHub and if you go to your repository, click on 'CODE' and under the "Local" tab chose "Download a Zip" you will have a copy of your code that you can tuck away on backup drives/services.<br> 
+<img src="../cicd/captures/update0.png"  width="500">
+
 
 ## Make Clean 'staged' & 'develop'
 
