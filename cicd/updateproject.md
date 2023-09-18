@@ -40,7 +40,7 @@ Notes for the project author, not necessary for normal users. Explains doing upd
 15. Check the project GitHub repository to confirm the 'develop' branch update<br>
 <br>
 
-##### [Check the Platform.sh build](make.mdover-to-platformsh) of the 'develop' branch<br>
+##### [Check the Platform.sh build](updateproject.md#over-to-platformsh) of the 'develop' branch<br>
 16. Once done with doing and intial testing of updates on the platformsh 'develop' branch go to the 'staged' branch and under the VSCode activity bar click on Source Code; click on three dots, go to "Branch" option and select "Merge", fill in command palette box with the "merge from" question with 'develop'
 17. Let the 'staged' branch build on Platform.sh, reactivating if needed, and follow the branch URL to see the running branch to conduct further testing before repeating the process to updated 'main' from 'staged'<br>
 
