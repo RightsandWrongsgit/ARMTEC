@@ -5,30 +5,30 @@ Notes for the project author, not necessary for normal users. Explains doing upd
 
 # Summary Steps
 
-1. Back up a clean copy of the most current project 'main'
-[Make Clean 'staged' & 'develop'](cicd/updateproject.md#make-clean-staged-&-develop)
+1. Back up a clean copy of the most current project 'main'<br>
+[Make Clean 'staged' & 'develop'](cicd/updateproject.md#make-clean-staged-&-develop)<br>
 2. 'Git Clone' a copy of 'main' to Lando
 3. Create from 'main' a 'staged' and sync with host
 4. Create from 'staged' a 'develop' and sync with host
-5. Work updates on 'develop'
-[Initialize Local](cicd/updateproject.md#initialize-local)
-6. `lando init --source cwd --recipe platformsh`
-[Permissions and Time](cicd/updateproject.md#drupal-core-update)
+5. Work updates on 'develop'<br>
+[Initialize Local](cicd/updateproject.md#initialize-local)<br>
+6. `lando init --source cwd --recipe platformsh`<br>
+[Permissions and Time](cicd/updateproject.md#drupal-core-update)<br>
 7. Open directory and file permissions `chmod u+w web/sites/default`
-8. Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`
-[Get Your Database](cicd/updateproject.md#retrieve-database)
-9. Run `lando pull` [Need details?](cicd/make.md#database-pull)
-[Cache's set to enabled](cicd/make.md#cache-in-settings-local-php)
+8. Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`<br>
+[Get Your Database](cicd/updateproject.md#retrieve-database)<br>
+9. Run `lando pull` [Need details?](cicd/make.md#database-pull)<br>
+[Cache's set to enabled](cicd/make.md#cache-in-settings-local-php)<br>
 10. Run `make update_project`
 11. Run `lando rebuild`
-12. Check the local running project at the URL provided
-[Make any updates in your local lando copy](cicd/make.md#update-tricks-and-traps)
+12. Check the local running project at the URL provided<br>
+[Make any updates in your local lando copy](cicd/make.md#update-tricks-and-traps)<br>
 13. Run `lando rebuild`, check the updated local running project URL to confirm you got what you wanted
 14. Commit/Sync the Lando 'local' copy
-15. Check the project GitHub repository to confirm the 'develop'branch update
-16. [Check the Platform.sh build](cicd/make.mdover-to-platformsh) of the 'develop' branch
-17. Once done with doing and intial testing of updates on the platformsh 'develop' branch go to the 'staged' branch and under the VSCode activity bar click on Source Code; click on three dots, go to "Branch" option and select "Merge", fill in command palette box with the "merge from" question with 'develop'
-18. Let the 'staged' branch build on Platform.sh, reactivating if needed, and follow the branch URL to see the running branch to conduct further testing before repeating the process to updated 'main' from 'staged'
+15. Check the project GitHub repository to confirm the 'develop'branch update<br>
+[Check the Platform.sh build](cicd/make.mdover-to-platformsh) of the 'develop' branch<br>
+16. Once done with doing and intial testing of updates on the platformsh 'develop' branch go to the 'staged' branch and under the VSCode activity bar click on Source Code; click on three dots, go to "Branch" option and select "Merge", fill in command palette box with the "merge from" question with 'develop'
+17. Let the 'staged' branch build on Platform.sh, reactivating if needed, and follow the branch URL to see the running branch to conduct further testing before repeating the process to updated 'main' from 'staged'<br>
 
 # Details
 ## Your "Secure" Foundation
