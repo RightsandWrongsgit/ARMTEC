@@ -271,6 +271,8 @@ However, if you log in, it should give your a GREEN go ahead banner color with t
 
 ## Merge up
 
+Like a normal project coding enhancement your have done in 'local'/'develop', [it needs to get to 'staged', be tested, and merge to 'main'.](/howtouseit.md#merge-test-launch)
+
 Once you have your work where you want it in your Lando 'local' copy, and have 'saved' the changes on your local drive...<br>
 
 Run `lando rebuild`
