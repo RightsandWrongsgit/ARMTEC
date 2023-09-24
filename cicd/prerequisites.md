@@ -83,6 +83,18 @@ You can enhance the basic IDE with extensions and some of these can be especiall
 
 <br>
 
+- [PHP Intelephense](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client){:target="_blank"}  Helps with PHP coding, even things like supporting CamelCase.
+
+<br>
+
+- [PHP Debug](https://marketplace.visualstudio.com/items?itemName=xdebug.php-debug){:target="_blank"}  The name pretty much tells the story on what this extension does.
+
+<br>
+
+- [TWIG Language](https://marketplace.visualstudio.com/items?itemName=mblode.twig-language){:target="_blank"}  This not only helps with TWIG but also includes HTML Intellisense. 
+ 
+ <br>
+
 - [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow){:target="_blank"} colorizes the indentation in front of your text, alternating four different colors on each step
 
 <br>
