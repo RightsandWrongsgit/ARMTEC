@@ -1,6 +1,24 @@
 
 # Drupal CI/CD Start Point
 
+## Suggestion from Ben at Platform.sh:
+
+A bit of a correction there, the api token needed to use our inbuilt integrations is actually the api token provided by the external source, I.e. Github, not from Platform.sh.<br>
+
+I'd suggest something more like this:<br>
+
+-- Use project creation button to create Platform.sh project from your template (and an account if needed)<br>
+
+-- Create an external source code repository also as a copy of your template. It doesn't much matter how this is done, either by cloning from your repo, or the Platform.sh project directly, or by some external mechanism like Github's forking process.<br>
+
+-- Create an api token for the external repository.<br>
+
+-- Add the source integration to the Platform.sh project via the CLI / UI with the newly created api token.<br>
+
+
+
+********************************************************************
+
 This should be viewed as your 'Quick Start' to setting up a Drupal hosted website pre-configured to follow basic [CI/CD Workflow principles.](../book/drupalcicd.md#what-is-cicd)  There is a complete documentation outline on [how all this is put together which you can move through page-by-page.](cicdoverview.md)  But here you are just going to be given the most basic of steps to simply dive right in.
 
 ## The Basics
