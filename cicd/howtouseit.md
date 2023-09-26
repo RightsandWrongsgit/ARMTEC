@@ -114,13 +114,13 @@ Click this button...<br>
 
 This leads you to the "Select integration" options and you will hit the "+Add" under the GitHub option.<br>
 
-<img src="../cicd/captures/howtouseit34.png"  width="500">
+<img src="../cicd/captures/howtouseit40.png"  width="500">
 
 <br>
 
 That will lead to a "Configure your integration" screen asking for you to input a GitHub <font color=yellow>Access Token.</font><br>
 
-<img src="../cicd/captures/howtouseit34.png"  width="500">
+<img src="../cicd/captures/howtouseit41.png"  width="500">
 
 <font color=HotPink>Keep that page open and click the "Generate a new token" so it opens in a new browser tab.</font><br>
 
