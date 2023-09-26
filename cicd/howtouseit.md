@@ -39,13 +39,33 @@ It will ask you about what you want for your project visability.  Mainly, at thi
 
 Then just click <strong>"Create repository from template".</strong><br>
 
-## Connect it to Platform.sh
+## Add Platform.sh Project
 
 Sign into Platform.sh with GitHub. Platform.sh offers several alternatives for how to sign-in.  Please use the "GitHub" option using the GitHub account you just set up.  That will make things continue to flow easily.<br>
 
 <img src="../cicd/captures/howtouseit5.png"  width="500">
 
 <br>
+
+
+
+<img src="../cicd/captures/howtouseit32.png"  width="500">
+
+<img src="../cicd/captures/howtouseit33.png"  width="500">
+
+<img src="../cicd/captures/howtouseit34.png"  width="500">
+
+<img src="../cicd/captures/howtouseit35.png"  width="500">
+
+<img src="../cicd/captures/howtouseit36.png"  width="500">
+
+<img src="../cicd/captures/howtouseit37.png"  width="500">
+
+<img src="../cicd/captures/howtouseit38.png"  width="500">
+
+<img src="../cicd/captures/howtouseit39.png"  width="500">
+
+
 
 
 Token from GitHub
