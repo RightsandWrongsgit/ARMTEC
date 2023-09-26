@@ -15,7 +15,7 @@ You should [have the prerequisites](cicd/prerequisites.md)
 
 [Find our "Public Template" on GitHub.](https://github.com/RightsandWrongsgit)  Pick the one that is called "initial-test-of-platform-ci-with-lando".<br>
 
-<img src="../cicd/captures/howtouseit1.png"  width="500">
+<img src="../cicd/captures/howtouseit1.png"  width="650">
 
 <br>
 
