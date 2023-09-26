@@ -25,7 +25,7 @@ You should [have the prerequisites](cicd/prerequisites.md)
 
 <br>
 
-Then select the "Create a new repository" option.<br>
+Then select the <strong>"Create a new repository"</strong> option.<br>
 
 <img src="../cicd/captures/howtouseit3.png"  width="350">
 
