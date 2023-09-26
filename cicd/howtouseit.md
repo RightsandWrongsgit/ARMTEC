@@ -9,13 +9,13 @@ You should [have the prerequisites](cicd/prerequisites.md)
 
 [Establish an SSH connection.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)You want to make it smooth to connect your local computer to a GitHub repository without constantly typing a password.  There is a computer-to-computer secret code handshake call SSH that does that.  You want to set it up by clicking on the little picture in the upper RIGHT HAND corner of your GitHub account page and a menu pops open.  Near the bottom of the list click on the "Settings" option. A menu will open on the left side of your new screen which includes a "SSH and GPG keys" item about midway down.  Select that and follow the steps.<br>
 
-<img src="../cicd/captures/howtouseit0.png"  width="300">
+<img src="../cicd/captures/howtouseit0.png"  width="200">
 
 <br>
 
 [Find our "Public Template" on GitHub.](https://github.com/RightsandWrongsgit)  Pick the one that is called "initial-test-of-platform-ci-with-lando".<br>
 
-<img src="../cicd/captures/howtouseit1.png"  width="400">
+<img src="../cicd/captures/howtouseit1.png"  width="500">
 
 <br>
 
