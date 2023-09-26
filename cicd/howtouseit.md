@@ -91,19 +91,19 @@ Once you are at the basic project screen for your new project, you will find it 
 
 There are two main options under settings, "Project Settings" and "Environments".  Click the "Project Settings" option to open its pulldown menu up.<br>
 
-<img src="../cicd/captures/howtouseit37b.png"  width="500">
+<img src="../cicd/captures/howtouseit37b.png"  width="300">
 
 <br>
 
 Near the end of that menu you will see the critical </font color=#00bfff>"Integrations"</font> option; select it.<br>
 
-<img src="../cicd/captures/howtouseit37c.png"  width="500">
+<img src="../cicd/captures/howtouseit37c.png"  width="300">
 
 <br>
 
 That will pop open a screen showing some integration options and features.  You want to go to the blue button in the upper right saying "Add integration" and click on it.<br>
 
-<img src="../cicd/captures/howtouseit38.png"  width="500">
+<img src="../cicd/captures/howtouseit38.png"  width="700">
 
 <br>
 
