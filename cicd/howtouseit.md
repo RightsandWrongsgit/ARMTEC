@@ -1,9 +1,19 @@
 
 # Drupal CI/CD Start Point
 
-[Go to GitHub and create an account.](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)  I assume you could use GitLab or BitBucket or any other Git Repository that you confirm has an easy connection with Platform.sh for our later steps; but I have not confirmed any of the alternatives.<br> 
+You should [have the prerequisites](cicd/prerequisites.md)
 
-Go to our project's "Public Template" on GitHub at the [RightsandWrongsgit user account.](https://github.com/RightsandWrongsgit) and pick the one that is called "initial-test-of-platform-ci-with-lando".<br>
+## Your Own Copy
+
+[Create a GitHub account.](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)  I assume you could use GitLab or BitBucket or any other Git Repository that you confirm has an easy connection with Platform.sh for our later steps; but I have not confirmed any of the alternatives.<br> 
+
+Establish an SSH connection. You want to make it smooth to connect your local computer to a GitHub repository without constantly typing a password.  There is a computer-to-computer secret code handshake call SSH that does that.  You want to set it up by clicking on the little picture in the upper RIGHT HAND corner of your GitHub account page and a menu pops open.  Near the bottom of the list click on the "Settings" option. A menu will open on the left side of your new screen which includes a "SSH and GPG keys" item about midway down.  Select that and follow the steps.  If you need help, [here is GitHub's more detailed instructions.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)<br>
+
+<img src="../cicd/captures/howtouseit0.png"  width="300">
+
+<br>
+
+[Find our "Public Template" on GitHub.](https://github.com/RightsandWrongsgit)  Pick the one that is called "initial-test-of-platform-ci-with-lando".<br>
 
 <img src="../cicd/captures/howtouseit1.png"  width="400">
 
@@ -29,6 +39,13 @@ It will ask you about what you want for your project visability.  Mainly, at thi
 
 Then just click <font bold>"Create repository from template".</font><br>
 
+## Connect it to Platform.sh
+
+Token from GitHub
+
+Sign into Platform.sh with GitHub
+
+Use Token to Integrate GitHub with Platform.sh
 
 
 
