@@ -3,7 +3,7 @@
 
 [Go to GitHub and create an account.](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)  I assume you could use GitLab or BitBucket or any other Git Repository that you confirm has an easy connection with Platform.sh for our later steps; but I have not confirmed any of the alternatives.<br> 
 
-Go to this Project's "Public Template" on GitHub at the [RightsandWrongsgit user account.](https://github.com/RightsandWrongsgit) and pick the one that is called "initial-test-of-platform-ci-with-lando".<br>
+Go to our Project's "Public Template" on GitHub at the [RightsandWrongsgit user account.](https://github.com/RightsandWrongsgit) and pick the one that is called "initial-test-of-platform-ci-with-lando".<br>
 
 <img src="../cicd/captures/howtouseit1.png"  width="400">
 
