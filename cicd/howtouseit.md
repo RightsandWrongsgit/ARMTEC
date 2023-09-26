@@ -37,13 +37,20 @@ You will see an "Owner*" box with a pulldown where you should select the user ac
 
 It will ask you about what you want for your project visability.  Mainly, at this point, you just need to indicate "Public" or "Private". If you are headed toward some enhanced version of the base template we provide where you enable a bunch more stuff out the gate to make your own 'super template' starting point set to your individual preferences, you might make it "Public" for easy sharing with others.  But if you are building your own personal site, even if that will involve inviting other team members to work with you on it, you probably want to make it "Private".  There are a bunch of [other visablity setting options you can learn more about here.](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility)<br>
 
-Then just click <font bold>"Create repository from template".</font><br>
+Then just click <strong>"Create repository from template".</strong><br>
 
 ## Connect it to Platform.sh
 
+Sign into Platform.sh with GitHub. Platform.sh offers several alternatives for how to sign-in.  Please use the "GitHub" option using the GitHub account you just set up.  That will make things continue to flow easily.<br>
+
+<img src="../cicd/captures/howtouseit5.png"  width="500">
+
+<br>
+
+
 Token from GitHub
 
-Sign into Platform.sh with GitHub
+
 
 Use Token to Integrate GitHub with Platform.sh
 
