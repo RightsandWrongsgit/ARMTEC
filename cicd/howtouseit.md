@@ -3,19 +3,19 @@
 
 You should [have the prerequisites](cicd/prerequisites.md)
 
-## Your Own Copy
+## Make Your Own Copy
 
 [Create a GitHub account.](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)  I assume you could use GitLab or BitBucket or any other Git Repository that you confirm has an easy connection with Platform.sh for our later steps; but I have not confirmed any of the alternatives.<br> 
 
 [Establish an SSH connection.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)You want to make it smooth to connect your local computer to a GitHub repository without constantly typing a password.  There is a computer-to-computer secret code handshake call SSH that does that.  You want to set it up by clicking on the little picture in the upper RIGHT HAND corner of your GitHub account page and a menu pops open.  Near the bottom of the list click on the "Settings" option. A menu will open on the left side of your new screen which includes a "SSH and GPG keys" item about midway down.  Select that and follow the steps.<br>
 
-<img src="../cicd/captures/howtouseit0.png"  width="200">
+<img src="../cicd/captures/howtouseit0.png"  width="175">
 
 <br>
 
 [Find our "Public Template" on GitHub.](https://github.com/RightsandWrongsgit)  Pick the one that is called "initial-test-of-platform-ci-with-lando".<br>
 
-<img src="../cicd/captures/howtouseit1.png"  width="650">
+<img src="../cicd/captures/howtouseit1.png"  width="700">
 
 <br>
 
@@ -25,7 +25,7 @@ You should [have the prerequisites](cicd/prerequisites.md)
 
 <br>
 
-Then select the <strong>"Create a new repository"</strong> option.<br>
+Then select the <font color=white><strong>"Create a new repository"</strong></font> option.<br>
 
 <img src="../cicd/captures/howtouseit3.png"  width="350">
 
@@ -37,33 +37,78 @@ You will see an "Owner*" box with a pulldown where you should select the user ac
 
 It will ask you about what you want for your project visability.  Mainly, at this point, you just need to indicate "Public" or "Private". If you are headed toward some enhanced version of the base template we provide where you enable a bunch more stuff out the gate to make your own 'super template' starting point set to your individual preferences, you might make it "Public" for easy sharing with others.  But if you are building your own personal site, even if that will involve inviting other team members to work with you on it, you probably want to make it "Private".  There are a bunch of [other visablity setting options you can learn more about here.](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility)<br>
 
-Then just click <strong>"Create repository from template".</strong><br>
+Then just click <font color=white><strong>"Create repository from template".</strong></font><br>
 
-## Add Platform.sh Project
+## Add Project to Platform.sh
 
 Sign into Platform.sh with GitHub. Platform.sh offers several alternatives for how to sign-in.  Please use the "GitHub" option using the GitHub account you just set up.  That will make things continue to flow easily.<br>
 
-<img src="../cicd/captures/howtouseit5.png"  width="500">
+<img src="../cicd/captures/howtouseit5.png"  width="400">
 
 <br>
 
+From the Platform.sh page, you want to click on "Create Project", that blue box in the upper right corner.<br>
 
+<img src="../cicd/captures/howtouseit32.png"  width="600">
 
-<img src="../cicd/captures/howtouseit32.png"  width="500">
+<br>
+
+It asks you if you want to use one of Platform.sh's own templates or <font color=yellow>"Create from scratch".</font>  Don't be confused by the fact GitHub calls our repository a template.  As far as Platform.sh is concerned they consider this as us wanting to <font color=HotPink>Create from scratch</font> so select that option.<br>
 
 <img src="../cicd/captures/howtouseit33.png"  width="500">
 
+<br>
+
+Give your new project a name here too; ideally the same as you called it on GitHub when you renamed the code you brought from the repository template.  You want to make sure that the "Main production environment" is called 'main'.  That is used very specifically throughout the working functionality of the CI/CD workflow process; so now is NOT the time to get creative.  Then select the Region you want your server host to reside for this project.  I tend to the geographically the closest.<br>
+
 <img src="../cicd/captures/howtouseit34.png"  width="500">
 
-<img src="../cicd/captures/howtouseit35.png"  width="500">
+<br>
 
-<img src="../cicd/captures/howtouseit36.png"  width="500">
+You are likely to then see a plan and pricing notice from Platform.sh.  Often they are running a trial period that is free for like 30 days just to see if you like their system.  If you use that, remember to change to a paid account before your 30 days is up to save your project going forward.  The low price in the example is for a development plan.  Once you would assign a URL via DNS set up to a project to make it live, the rates go up.<br>
+
+<img src="../cicd/captures/howtouseit35.png"  width="400">
+
+<br>
+
+When you click "Continue" your project will start to build.  It won't take long in this first round because there is really nothing there yet in terms of the code we will bring in shortly.<br>
+
+<img src="../cicd/captures/howtouseit36.png"  width="400">
+
+<br>
+
+The next flash screen that pops up may or may not be helpful.  That first step is a good one if this is your first use of Platform.sh because it sets up the CLI or Command Line Interface.  You will use that later while working with your project on you local machine because it offers from convenient shortcuts. The rest of the stuff we will accomplish via things already set up in the project you will pull in from GitHub, so after you install the CLI, just "X-out" of this screen.<br>
 
 <img src="../cicd/captures/howtouseit37.png"  width="500">
 
+<br>
+
+Once you are at the basic project screen for your new project, you will find it has a blue "go live" button and to the right of that a little Cogwheel.  Click on the Cogwheel to open settings options.<br>
+
+<img src="../cicd/captures/howtouseit37a.png"  width="500">
+
+<br>
+
+There are two main options under settings, "Project Settings" and "Environments".  Click the "Project Settings" option to open its pulldown menu up.<br>
+
+<img src="../cicd/captures/howtouseit37b.png"  width="500">
+
+<br>
+
+Near the end of that menu you will see the critical </font color=#00bfff>"Integrations"</font> option; select it.<br>
+
+<img src="../cicd/captures/howtouseit37c.png"  width="500">
+
+<br>
+
+That will pop open a screen showing some integration options and features.  You want to go to the blue button in the upper right saying "Add integration" and click on it.<br>
+
 <img src="../cicd/captures/howtouseit38.png"  width="500">
 
-<img src="../cicd/captures/howtouseit39.png"  width="500">
+<br>
+
+Click this button...<br>
+<img src="../cicd/captures/howtouseit39.png"  width="200">
 
 
 
