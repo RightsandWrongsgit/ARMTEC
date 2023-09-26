@@ -1,6 +1,38 @@
 
 # Drupal CI/CD Start Point
 
+[Go to GitHub and create an account.](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)  I assume you could use GitLab or BitBucket or any other Git Repository that you confirm has an easy connection with Platform.sh for our later steps; but I have not confirmed any of the alternatives.<br> 
+
+Go to this Project's "Public Template" on GitHub at the [RightsandWrongsgit user account.](https://github.com/RightsandWrongsgit) and pick the one that is called "initial-test-of-platform-ci-with-lando".<br>
+
+<img src="../cicd/captures/howtouseit1.png"  width="400">
+
+<br>
+
+[Make your own project repository from that template.](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)  Basically just go over the right side on that main project bar and click on the green "Use this template" pulldown.<br> 
+
+<img src="../cicd/captures/howtouseit2.png"  width="600">
+
+<br>
+
+Then select the "Create a new repository" option.<br>
+
+<img src="../cicd/captures/howtouseit3.png"  width="350">
+
+<br>
+
+You will see and "Owner*" box with a pulldown where you should select the account you set up.  And to the right you will see a "Repository name*" box where you will enter whatever you want to call YOUR PROJECT.<br>
+
+<img src="../cicd/captures/howtouseit4.png"  width="250">
+
+It will ask you about what you want for your project visability.  Mainly, at this point, you just need to indicate "Public" or "Private". If you are headed toward some enhanced version of the base template we provide where you enable a bunch more stuff out the gate to make your own 'super template' starting point set to your individual preferences, you might make it "Public" for easy sharing with others.  But if you are building your own personal site, even if that will involve inviting other team members to work with you on it, you probably want to make it "Private".  There are a bunch of [other visablity setting options you can learn more about here.](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility)<br>
+
+Then just click <font bold>"Create repository from template".</font><br>
+
+
+
+
+
 ## Suggestion from Ben at Platform.sh:
 
 A bit of a correction there, the api token needed to use our inbuilt integrations is actually the api token provided by the external source, I.e. Github, not from Platform.sh.<br>
