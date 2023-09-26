@@ -79,25 +79,25 @@ When you click "Continue" your project will start to build.  It won't take long 
 
 The next flash screen that pops up may or may not be helpful.  That first step is a good one if this is your first use of Platform.sh because it sets up the CLI or Command Line Interface.  You will use that later while working with your project on you local machine because it offers from convenient shortcuts. The rest of the stuff we will accomplish via things already set up in the project you will pull in from GitHub, so after you install the CLI, just "X-out" of this screen.<br>
 
-<img src="../cicd/captures/howtouseit37.png"  width="500">
+<img src="../cicd/captures/howtouseit37.png"  width="600">
 
 <br>
 
 Once you are at the basic project screen for your new project, you will find it has a blue "go live" button and to the right of that a little Cogwheel.  Click on the Cogwheel to open settings options.<br>
 
-<img src="../cicd/captures/howtouseit37a.png"  width="500">
+<img src="../cicd/captures/howtouseit37a.png"  width="400">
 
 <br>
 
 There are two main options under settings, "Project Settings" and "Environments".  Click the "Project Settings" option to open its pulldown menu up.<br>
 
-<img src="../cicd/captures/howtouseit37b.png"  width="300">
+<img src="../cicd/captures/howtouseit37b.png"  width="200">
 
 <br>
 
 Near the end of that menu you will see the critical </font color=#00bfff>"Integrations"</font> option; select it.<br>
 
-<img src="../cicd/captures/howtouseit37c.png"  width="300">
+<img src="../cicd/captures/howtouseit37c.png"  width="200">
 
 <br>
 
