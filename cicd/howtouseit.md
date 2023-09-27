@@ -77,7 +77,11 @@ When you click "Continue" your project will start to build.  It won't take long 
 
 <br>
 
-The next flash screen that pops up may or may not be helpful.  That first step is a good one if this is your first use of Platform.sh because it sets up the CLI or Command Line Interface.  You will use that later while working with your project on you local machine because it offers from convenient shortcuts. The rest of the stuff we will accomplish via things already set up in the project you will pull in from GitHub, so after you install the CLI, just "X-out" of this screen.<br>
+The next flash screen that pops up may or may not be helpful.  That first step is a good one if this is your first using Platform.sh because it sets up the CLI or Command Line Interface.  You will use that later while working with your project on you local machine because it offers from convenient shortcuts. So install it as instructured.<br>
+
+<img src="../cicd/captures/howtouseit36a.png"  width="600">
+
+The rest of the stuff we will accomplish via things already set up in the project you will pull in from GitHub, so after you install the CLI, just "X-out" of this screen.<br>
 
 <img src="../cicd/captures/howtouseit37.png"  width="600">
 
