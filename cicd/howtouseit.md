@@ -77,7 +77,7 @@ When you click "Continue" your project will start to build.  It won't take long 
 
 <br>
 
-The next flash screen that pops up may or may not be helpful.  That first step, to "Download the CLI", is a good one if this is your first using Platform.sh because it sets up the CLI or Command Line Interface.<br> 
+The next flash screen that pops up may or may not be helpful.  That first step, to "Download the CLI", is a good one if this is your first time using Platform.sh because it sets up the CLI or Command Line Interface.<br> 
 
 <img src="../cicd/captures/howtouseit37.png"  width="600">
 
