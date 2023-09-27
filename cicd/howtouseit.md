@@ -161,6 +161,15 @@ For most people, now is the time we want to make sure you have installed [VSCode
 
 <img src="../cicd/captures/howtouseit50.png"  width="600">
 
+<br>
+
+<b style='color:white;'>Git Clone your GitHub Repository.</b> There is a "Clone Git Repository" Start option right on the main screen you can click and it opens the Command Palette at the top of the page with the Clone from GitHub prompt (Remember we set up a local machine SSH connection to GitHub earlier).  Click on the "Clone from GitHub" prompt and it will bring up a list of the projects you have on GitHub that you can clone.  Look for what you <b style='color:white;'>NamedYourProject</b><br>
+
+<img src="../cicd/captures/howtouseit51.png"  width="500">
+
+<br>
+
+
 
 
 
