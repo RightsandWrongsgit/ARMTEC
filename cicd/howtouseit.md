@@ -25,7 +25,7 @@ You should [have the prerequisites](cicd/prerequisites.md)
 
 <br>
 
-Then select the <font color=white><strong>"Create a new repository"</strong></font> option.<br>
+Then select the <b style='color:white;'>"Create a new repository"</b> option.<br>
 
 <img src="../cicd/captures/howtouseit3.png"  width="350">
 
@@ -37,7 +37,7 @@ You will see an "Owner*" box with a pulldown where you should select the user ac
 
 It will ask you about what you want for your project visability.  Mainly, at this point, you just need to indicate "Public" or "Private". If you are headed toward some enhanced version of the base template we provide where you enable a bunch more stuff out the gate to make your own 'super template' starting point set to your individual preferences, you might make it "Public" for easy sharing with others.  But if you are building your own personal site, even if that will involve inviting other team members to work with you on it, you probably want to make it "Private".  There are a bunch of [other visablity setting options you can learn more about here.](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories#about-repository-visibility)<br>
 
-Then just click <font color=white><strong>"Create repository from template".</strong></font><br>
+Then just click <b style='color:white;'>"Create repository from template".</b><br>
 
 ## Add Project to Platform.sh
 
@@ -77,7 +77,7 @@ When you click "Continue" your project will start to build.  It won't take long 
 
 <br>
 
-The next flash screen that pops up may or may not be helpful.  That first step is a good one if this is your first using Platform.sh because it sets up the CLI or Command Line Interface.  You will use that later while working with your project on you local machine because it offers from convenient shortcuts. So install it as instructured.<br>
+The next flash screen that pops up may or may not be helpful.  That first step, to "Download the CLI", is a good one if this is your first using Platform.sh because it sets up the CLI or Command Line Interface.  You will use that later while working with your project on you local machine because it offers from convenient shortcuts. So install it as instructured.<br>
 
 <img src="../cicd/captures/howtouseit36a.png"  width="600">
 
