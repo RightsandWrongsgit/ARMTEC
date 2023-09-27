@@ -169,8 +169,35 @@ For most people, now is the time we want to make sure you have installed [VSCode
 
 <br>
 
+If you click on the little icon that looks like two pages from a book in the upper left from that start page.<br>
 
+<img src="../cicd/captures/howtouseit51aa.png"  width="350">
 
+<br>
+
+You will open up the editor but since you didn't Git Clone yet, there will be nothing to edit.  The good news is that if offers another chance to "Clone Repository" to grab your project's code from GitHub.<br>
+
+<img src="../cicd/captures/howtouseit51a.png"  width="350">
+
+<br>
+
+If you stumble along and think that the way to get to the code is to open the "Terminal" you might click that toward the right end of the VSCode menu bar.<br.
+
+<img src="../cicd/captures/howtouseit51b.png"  width="250">
+
+<br>
+
+That will open the third pane in VSCode to show the Terminal in the lower right section with your command line. Note that we had previously modified our command line to show the "User at Machine in Directory by Environment" with color coding; [you can have that "Where am I" prompt if you want.](../book/WhereAmI.md)<br>
+
+<img src="../cicd/captures/howtouseit51c.png"  width="600">
+
+<br>
+
+If you have actually Git Cloned your project you will see the directory structure with files in the left-hand panel of VSCode.  If you were to click on a file you would see it's content in the upper right panel.  And the Terminal will be in the lower right panel or you can click "Terminal" from the menu bar and it will be as noted earlier.<br>
+
+<img src="../cicd/captures/howtouseit52.png"  width="600">
+
+<br>
 
 
 ## Suggestion from Ben at Platform.sh:
