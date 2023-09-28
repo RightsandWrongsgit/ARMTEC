@@ -32,6 +32,12 @@ We overviewed what Operating Systems were and that different computers are invol
 
 <br>
 
+Lando will include a file called `.lando.yml` with the standard basic requirements.  You can add things to that if your needs suggest.  The Drupal CI/CD Project Workflow template that is offered in another part of this site has included the addition of a mechanism to turn on or off something called "Xdebug" by adding the stuff from line 14 on down into what is in the base file.  You can learn more about this and a tweak you can make to your VSCode `node js` debugging file [check this article.](https://www.specbee.com/blogs/simplified-php-debugging-xdebug-lando-ddev-drupal)<br>
+
+<img src="../book/images/media/novice.png"  width="500">
+
+<br>
+
 If you aren't familiar with website development basics, you probably want to jump to the [quick overview of a content management systems approach](infotechoverview.md#content-management-systems).  If you already know about those and Drupal as a preferred option, you might want to go directly to the [Drupal CI/CD Workflow installation with both local and host environments](drupalcicd.md).  Do keep in mind that that CI/CD Workflow is your foundation or core but that you might also benefit from reviewing the [Drupal Modules section](../chapters.md#drupal-modules) that highlights some common additions to the core that can help with your specific website requirements. Of course, that assumes you have really nailed down your requirements; if not, get help in [design finalization here](../book/opensource.md#design-your-site).
 
 <br>
