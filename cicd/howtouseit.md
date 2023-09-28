@@ -1,7 +1,9 @@
 
 # Drupal CI/CD Start Point
 
-You should [have the prerequisites](cicd/prerequisites.md)
+This should be viewed as your 'Quick Start' to setting up a Drupal hosted website pre-configured to follow basic [CI/CD Workflow principles.](../book/drupalcicd.md#what-is-cicd)  There is a complete documentation outline on [how all this is put together which you can move through page-by-page.](cicdoverview.md)  But here you are just going to be given the most basic of steps to simply dive right in.<br>
+
+We are going to make sure our local machine is set up like [outlined in the first part of the documentation.](prerequisites.md)  If you are a relative novice, you might first want to look at our [even more core basics](/book/Novice.md#setting-up-your-basic-system) to make sure you have those in place.<br>
 
 ## Make Your Own Copy
 
@@ -199,26 +201,30 @@ If you have actually Git Cloned your project you will see the directory structur
 
 <br>
 
+Stop and study that screen shot for a moment.  There are some things you need to check carefully.  At the top of the page and the top of the left panel 'Explorer' it shows "initial-test-of-platform-ci-with-lando"; <font color=HotPink>YOURS SHOULD NOT!</font>  In the prior steps you were shown how to make a copy of the project template and give it your own project name... the name you gave your project is what should be showing up.<br>
 
-## Suggestion from Ben at Platform.sh:
+Now look in the upper right panel and it is blank or empty.  That is because you haven't pointed at any file from the directory list in the left panel.  If you don't see the directories and files in the left panel, click on that icon that looks like two pages from a book and the list will show up.  Then go down that list, find a file, and click on it.  That file will open in the upper right page so you can see its contents.<br>
 
-A bit of a correction there, the api token needed to use our inbuilt integrations is actually the api token provided by the external source, I.e. Github, not from Platform.sh.<br>
+Finally, look in the extreme lower left corner and it says 'main' just to the right of the tiny blue box with opposing arrowheads.  That says you are on the 'main' branch.  You <font color=yellow>DO NOT WANT TO WORK FROM 'Main".</font><br>
 
-I'd suggest something more like this:<br>
+## Initialize the Project
 
--- Use project creation button to create Platform.sh project from your template (and an account if needed)<br>
 
--- Create an external source code repository also as a copy of your template. It doesn't much matter how this is done, either by cloning from your repo, or the Platform.sh project directly, or by some external mechanism like Github's forking process.<br>
+## Make some Branches
 
--- Create an api token for the external repository.<br>
 
--- Add the source integration to the Platform.sh project via the CLI / UI with the newly created api token.<br>
+
+## Give it Access & Time
+
+
+# See how to work
+
 
 
 
 ********************************************************************
 
-This should be viewed as your 'Quick Start' to setting up a Drupal hosted website pre-configured to follow basic [CI/CD Workflow principles.](../book/drupalcicd.md#what-is-cicd)  There is a complete documentation outline on [how all this is put together which you can move through page-by-page.](cicdoverview.md)  But here you are just going to be given the most basic of steps to simply dive right in.
+
 
 ## The Basics
 
@@ -255,17 +261,6 @@ However, before you kick off the Lando step, remember that you want to duplicate
 Now you can move into the top level directory where you brought the project into on you local machine and do a "Lando Init" on the project.  
 
 *****  NOTE -  Need to specfy when to Git Init this*******
-
-
-
-### Foundation
-
-We are going to make sure our local machine is set up like [outlined in the first part of the documentation.](prerequisites.md)  If you are a relative novice, you might first want to look at our [even more core basics](/book/Novice.md#setting-up-your-basic-system) to make sure you have those in place.
-
-IDE: VSCode & Extentions
-Git
-Git Respository: GitHub
-  - We are going to make sure we have a GitHub account
 
 
 
