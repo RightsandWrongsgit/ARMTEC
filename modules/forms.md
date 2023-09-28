@@ -97,6 +97,11 @@ In the introduction about [Drupal basics we noted that there are a handful of en
 Bee aware that there are some opportunities to [coordinate your taxonomy with Webforms.](https://www.webwash.net/taxonomy-terms-as-webform-options-in-drupal/)
 
 
+### Webform Modal
+
+You can open your [Webforms in a Modal dialog box.](https://www.webwash.net/open-webforms-using-dialog-box-in-drupal/)
+
+
 <br>
 <br>
 <br>
