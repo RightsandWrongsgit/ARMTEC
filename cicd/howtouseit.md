@@ -345,8 +345,35 @@ You enter <font color=yellow>'develop'</font> in that box because you want to gr
 
 ### Do your testing
 
-<font size=4 color=HotPink>Insert a link here to any testing recommendations on a separate page. </font><br>
+There are a number of ways that testing is done.  There is something called a 'PHPUnit Test' that PHP Symfony developers would use to test isolated code sections.  People also set up PHP program blocks that extend Drupal functions with the aim to see if a chunk of data is retrieved, written, intermediary values created, etc.  If you want to dive into the [technical options for testing try this.](https://selwynpolit.github.io/d9book/dtt.html)
 
+You can also take a more practical approach if you are just a site builder rather than a coding developer.  Remember that you set up Platform.sh to host copies of each of your environments and you specifically named one 'staged'.  You can go to that environment and drive around to check it is behaving as expected.  In fact, you can email partners, friends, clients, etc. links to the address for the 'staged' site and ask them to review it.
+
+### Export 'staged'
+
+Ok, this one might sound a little odd because we haven't reviewed all the details about [how Drupal configuration works.](cicd/configsplit2.md)  And for the most part this Drupal CI/CD Project workflow template has been set up to totally protect you from having to worry about it.  It does this through the use of a [Config_Suite module](https://www.drupal.org/project/config_suite) with automatic export and import turned on in all but one environment.  However, in the 'staged' environment the automatic Export has be left turned off as a final safety net for you to complete manually AFTER YOU HAVE FINISHED TESTING.<br>
+
+<br>
+
+If you go into the 'Configuration' menu option on your 'local' environment site on Platform.sh as shown in the middle of the menu bar here.<br>
+<img src="../cicd/captures/update64.png"  width="500">
+
+<br>
+
+On the left portion of that configuration screen if you scroll down you will see some Configuration items like Split, Synchronization, and Suite.<br>
+<img src="../cicd/captures/update65.png"  width="500">
+
+<br>
+
+If you go in the Config Suite menu item, you will see two simple checkboxes for automatic import and export; with the export unchecked in this 'staged' environment.  <font color=HotPink>DO NOT CHECK IT</font> Rather, we don't want this to be automatic, we want to keep it a manual action.<br>
+<img src="../cicd/captures/update66.png"  width="500">
+
+<br>
+
+So after you have finished testing, you will go into VSCode, you will confirm you are in the 'staged' environment, and you will run `lando drush cex` from the command line in the terminal.<br>
+<img src="../cicd/captures/update63.png"  width="500">
+
+<br>
 
 ### Merge 'staged' into 'main'
 
