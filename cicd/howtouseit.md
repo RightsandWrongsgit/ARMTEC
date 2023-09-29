@@ -235,7 +235,7 @@ You will then be prompted to indicate what you want to name the NEW branch and y
 <img src="../cicd/captures/update25.png"  width="500">
 
 Now if you go back into GitHub and look at the branches.<br>
-<img src="../cicd/captures/update9.png"  width="700">
+<img src="../cicd/captures/update9.png"  width="400">
 
 You will see 'main', 'staged', and 'develop'.  The bad news is that from the list you don't know if 'staged' and 'develop' are sisters or parent-child.<br>
 <img src="../cicd/captures/update12.png"  width="700">
