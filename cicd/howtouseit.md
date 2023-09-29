@@ -107,7 +107,7 @@ There are two main options under settings, "Project Settings" and "Environments"
 
 <br>
 
-Near the end of that menu you will see the critical <font color=#00bfff>"Integrations"</font> option; select it.<br>
+Near the end of that menu you will see the critical <font color=LightBlue>"Integrations"</font> option; select it.<br>
 
 <img src="../cicd/captures/howtouseit37c.png"  width="200">
 
