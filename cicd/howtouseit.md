@@ -177,15 +177,15 @@ If you click on the little icon that looks like two pages from a book in the upp
 
 <br>
 
-You will open up the editor but since you didn't Git Clone yet, there will be nothing to edit.  The good news is that if offers another chance to "Clone Repository" to grab your project's code from GitHub.<br>
+You will open up the editor but since you didn't Git Clone yet, there will be nothing to edit.  The good news is that it offers another chance to "Clone Repository" to grab your project's code from GitHub.<br>
 
-<img src="../cicd/captures/howtouseit51a.png"  width="350">
+<img src="../cicd/captures/howtouseit51a.png"  width="450">
 
 <br>
 
-If you stumble along and think that the way to get to the code is to open the "Terminal" you might click that toward the right end of the VSCode menu bar.<br.
+If you stumble along and think that the way to get to the code is to open the "Terminal" you might click that toward the right end of the VSCode menu bar.<br>
 
-<img src="../cicd/captures/howtouseit51b.png"  width="250">
+<img src="../cicd/captures/howtouseit51b.png"  width="350">
 
 <br>
 
