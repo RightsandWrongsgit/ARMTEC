@@ -278,6 +278,16 @@ If you are into a long one and done command line approach just type it all out l
 <img src="../cicd/captures/update45.png"  width="250">
 
 
+## [Permissions and Time](updateproject.md#drupal-core-update)<br>
+
+You may not need the extra time to support a retrieve database with what if mainly an empty project.  But after the next step when you actually run a build of the Lando container environment locally and it needs all the application code on your machine, you will be happy you did both in advance.  So run the next two steps now:<br>
+
+- Open directory and file permissions `chmod u+w web/sites/default`
+- Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`<br>
+<br>
+
+
+
 ## Retrieve Database
 
 To bring in the database isn't hard but there is one trick you need to be aware of.  Unlike move of the command line menu options where you use your arrow keys to select before hitting 'return', here you need to hit your space bar.  Start out by just typeing `lando pull` and hit 'return'.<br>
@@ -304,16 +314,63 @@ However, if you log in, it should give your a GREEN go ahead banner color with t
 <img src="../cicd/captures/update55.png"  width="500">
 
 
-## Give it Access & Time
-
-
 # See how to work
 
+You will work on your website right on your local computer using VSCode and Lando pointed at the 'develop' environment.  It has a counter-part on GitHub and Platform.sh that get updated as you work and do you save your changes, and use Git locally to add, commit, and sync them.  Remember, there are a who bunch of things you can do to 'save your bacon' if you realize you did something you want to back out of.  You can do some of it by not even synching your commits between the 'local' develop copy and the GitHub 'develop' copy.  You can [even back out of some previously made commits at that level.](https://code.visualstudio.com/docs/sourcecontrol/overview)  And of course, you have your 'staged' and 'main' copies of your site still there without any changes.<br>
+
+But when you like your changes and have reviewed them on your 'local' copy and your Platform.sh hosted 'develop' copy you may be ready to <font color=HotPink>Merge, Test and Launch</font> them to the world.<b>
 
 
 
-********************************************************************
+*******************************************************************
+## Merge, Test, Launch
+*******************************************************************
 
+### Merge 'develop' into 'staged'
+Say our have been working back and forth with your Lando 'local' and Platform.sh 'develop' branches doing saves, commits, and syncs as you work.  You have done your first level practical testing by driving around in your Platform.sh hosted 'develop' branch and things look great.  Since that 'develop' branch was cloned from your 'staged' branch you want to move the changes up one level so you can carry out your formal testing on the hosted 'staged' branch.<br>  
+
+Go down to the lower left corner of your VSCode IDE and click on the branch name; probably 'develop' since that is what you just said you were happy with.  When you click, the command bar at the top should show up and now you want to click 'staged' (the basic one, not the longer named 'origin/staged' one.  Now you should see this in that lower left corner.<br>
+
+<img src="../cicd/captures/gitmergeup1.png"  width="175">
+
+Click on the Git Source Control logo (odd branch thing with circle on the branches).  Go to the line in the left panel that says "SOURCE CONTROL" and click on the three dots on the right end of that line.  An option pull down list should appear and you will move down it to the <font color=yellow>Branch</font> option.  From the sublist that appears, select the <font color=yellow>Merge Branch</font> option.<br>
+
+<img src="../cicd/captures/gitmergeup2.png"  width="400">
+
+That will open the command bar at the top with a message to "Select a branch to merge <font color=HotPink>from</font><br>
+
+<img src="../cicd/captures/gitmergeup3.png"  width="350">
+
+You enter <font color=yellow>'develop'</font> in that box because you want to grab all your fine development work and bring it into the 'stage' environment for final testing.<br>
+
+### Do your testing
+
+<font size=4 color=HotPink>Insert a link here to any testing recommendations on a separate page. </font><br>
+
+
+### Merge 'staged' into 'main'
+
+Go into the 'main' branch in your VSCode IDE. The lower left indicator should look like this.<br>
+
+<img src="../cicd/captures/gitmergeup4.png"  width="200">
+
+Go to the line in the left panel that says "SOURCE CONTROL" and click on the three dots on the right end of that line.  An option pull down list should appear and you will move down it to the <font color=yellow>Branch</font> option.  From the sublist that appears, select the <font color=yellow>Merge Branch</font> option.<br>
+
+<img src="../cicd/captures/gitmergeup2.png"  width="400">
+
+That will open the command bar at the top with a message to "Select a branch to merge <font color=HotPink>from</font><br>
+
+<img src="../cicd/captures/gitmergeup3.png"  width="350">
+
+You enter <font color=yellow>'staged'</font> in that box because you want to grab all your fully tested work and bring it into the 'main' production environment and bring it live to the world.<br>
+
+
+
+
+
+********************************************************************************
+Working notes: review and clean out after confirming above process completely
+********************************************************************************
 
 
 ## The Basics
@@ -381,47 +438,4 @@ In the mean time, here is what we are going to do in a nutshell; followed by a d
         ◦ Save your work locally in VSCode.  Do a lando drush cim to import the files from the /config/sync directory into the local 'active' Drupal project.  If all goes as planned, you should have no error for mismatched UUID and things should update.
         ◦ Having the right stuff where it belongs isn't the end of things, remember that besides those /config/sync files you GitCloned, a bunch of other stuff is different, especially the composer.json file that actually builds the Drupal Project.  So run a lando rebuild and after it runs grab one of the URLs, paste it in your browser and bring up the now 'new-but-base-configured' Drupal project.  Drive around in it for a while and check things out. 
         ◦ Back in your VSCode IDE go to the Git symbol which by now should have a fairly high number for the files added and changed by the GitClone you did.  Select it, do your commit with "message", stage and sync.  This should put the updated local project into the 'new projects name' GitHub repository and a minute or two later you can go over to Platform.sh to see that the project has also rebuilt there.  Go look at it on the web at the project URL it shows (that is likely still the development URL for the 'main' branch since you have neither assigned an actual DNS nor branched your project yet for CI/CD workflow).  Again, check this web version and since the environment_indicator is part of our 'base' project modules and it was configured by our settings.php commands to detect and point to the right "case" in our test syntax, it should show up with a different color bar, bar label, and even favicon color. 
-
-
-*******************************************************************
-## Merge, Test, Launch
-*******************************************************************
-
-### Merge 'develop' into 'staged'
-Say our have been working back and forth with your Lando 'local' and Platform.sh 'develop' branches doing saves, commits, and syncs as you work.  You have done your first level practical testing by driving around in your Platform.sh hosted 'develop' branch and things look great.  Since that 'develop' branch was cloned from your 'staged' branch you want to move the changes up one level so you can carry out your formal testing on the hosted 'staged' branch.<br>  
-
-Go down to the lower left corner of your VSCode IDE and click on the branch name; probably 'develop' since that is what you just said you were happy with.  When you click, the command bar at the top should show up and now you want to click 'staged' (the basic one, not the longer named 'origin/staged' one.  Now you should see this in that lower left corner.<br>
-
-<img src="../cicd/captures/gitmergeup1.png"  width="175">
-
-Click on the Git Source Control logo (odd branch thing with circle on the branches).  Go to the line in the left panel that says "SOURCE CONTROL" and click on the three dots on the right end of that line.  An option pull down list should appear and you will move down it to the <font color=yellow>Branch</font> option.  From the sublist that appears, select the <font color=yellow>Merge Branch</font> option.<br>
-
-<img src="../cicd/captures/gitmergeup2.png"  width="400">
-
-That will open the command bar at the top with a message to "Select a branch to merge <font color=HotPink>from</font><br>
-
-<img src="../cicd/captures/gitmergeup3.png"  width="350">
-
-You enter <font color=yellow>'develop'</font> in that box because you want to grab all your fine development work and bring it into the 'stage' environment for final testing.<br>
-
-### Do your testing
-
-<font size=4 color=HotPink>Insert a link here to any testing recommendations on a separate page. </font><br>
-
-
-### Merge 'staged' into 'main'
-
-Go into the 'main' branch in your VSCode IDE. The lower left indicator should look like this.<br>
-
-<img src="../cicd/captures/gitmergeup4.png"  width="200">
-
-Go to the line in the left panel that says "SOURCE CONTROL" and click on the three dots on the right end of that line.  An option pull down list should appear and you will move down it to the <font color=yellow>Branch</font> option.  From the sublist that appears, select the <font color=yellow>Merge Branch</font> option.<br>
-
-<img src="../cicd/captures/gitmergeup2.png"  width="400">
-
-That will open the command bar at the top with a message to "Select a branch to merge <font color=HotPink>from</font><br>
-
-<img src="../cicd/captures/gitmergeup3.png"  width="350">
-
-You enter <font color=yellow>'staged'</font> in that box because you want to grab all your fully tested work and bring it into the 'main' production environment and bring it live to the world.<br>
 
