@@ -242,26 +242,17 @@ You will see 'main', 'staged', and 'develop'.  The bad news is that from the lis
 
 ##### Over to Platformsh
 
-Let's go over to Platform.sh next and see if it tells us anything.  First, if you click on the project you can see it has three branches of the names you provided.  So the good news is the GitHub is updating Platform.sh as expected.<br>  
+Let's go over to Platform.sh next and see if it tells us anything.  Go look at the front page of your project and pull down the environments list to see the hierarchy.  'Main' is the parent of 'staged' and 'staged' is the parent of 'develop'.<br>
+<img src="../cicd/captures/update27.png"  width="500">
+
+The good news is the GitHub is updating Platform.sh as expected.<br>  
 <img src="../cicd/captures/update13.png"  width="500">
 
-We see in the prior view that 'main' is deployed but that 'staged' and 'develop' are not.  If it is a first time fresh action it is likely that all three are deployed.  But often you will be going back and doing this process for additional updates and old, inactive versions of 'staged' and 'develop' may exist.  Even though you just brought a new one in from GitHub, if it doesn't automatically indicate it was deployed, you may need to reactivate that branch on Platform.sh  This is not a big deal, just click on the branch so you are in it, and go to that little gear in the upper right corner.  Click on it!<br>
-<img src="../cicd/captures/update14.png"  width="500">
+<br>
 
-You will see some options for the branch name, who the parent is, the branch type; if you edit any of these remember to hit save.  But more likely all you are needing to do is scroll down a little more and you will see the reactivate button; click it!  It takes a little while so don't get trigger happy.<br>
-<img src="../cicd/captures/update15.png"  width="500">
+NOTE: Sometimes if you have built one of these branches on Platform.sh and deleted it, when you add that branch again you may need to do a "Reactivation".  This is discussed in [more detail here.](cicd/updateproject.md#over-to-platform.sh)
 
-Once 'staged' is done you will see it marked deployed.  Now select the 'develop' branch.<br>
-<img src="../cicd/captures/update18.png"  width="500">
-
-Click the gear in the up right corner again.<br>
-<img src="../cicd/captures/update19.png"  width="500">
-
-Reactivate the 'develop' branch.<br>
-<img src="../cicd/captures/update15.png"  width="500">
-
-Go look at the front page of your project and pull down the environments list to see the hierarchy.  'Main' is the parent of 'staged' and 'staged' is the parent of 'develop'.<br>
-<img src="../cicd/captures/update27.png"  width="500">
+<br>
 
 Now you can go to each of the environments and follow the link to that deployed site's address.  If you go to 'main' and log in, you will see the banner at the top indicating 'main' and the color RED to signal STOP... don't be messing directly on this production version of your project.<br>
 <img src="../cicd/captures/update17.png"  width="500">
@@ -273,7 +264,7 @@ Go to the 'develop' environment and see that name with a GREEN banner to signal 
 <img src="../cicd/captures/update20.png"  width="500">
 
 If you are NOT logged in, any of the site environments look normal; without environment name or banner colors<br>
-<img src="../cicd/captures/update21.png"  width="500">
+<img src="../cicd/captures/update54.png"  width="500">
 
 ## Initialize Local
 
