@@ -207,10 +207,14 @@ Now look in the upper right panel and it is blank or empty.  That is because you
 
 Finally, look in the extreme lower left corner and it says 'main' just to the right of the tiny blue box with opposing arrowheads.  That says you are on the 'main' branch.  You <font color=yellow>DO NOT WANT TO WORK FROM 'Main".</font><br>
 
-## Initialize the Project
-
 
 ## Make some Branches
+
+
+
+
+## Initialize the Project
+
 
 
 
