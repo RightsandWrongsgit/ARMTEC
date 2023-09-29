@@ -157,7 +157,7 @@ The options available with Token's would be a book in and of itself.  They are l
 
 What we have done so far should be agnostic as far as which IDE (Integrated Development Environment) and which local Container system you might use.  Our prerequistes point to VSCode as the IDE and to Lando as our local container environment; but if you know what you are doing you might use PHPStorm and DDEV as example alternatives.  There are some Lando files in the repository but they shouldn't interfere if you want to head off on your own.<br>
 
-For most people, now is the time we want to make sure you have installed [VSCode](https://code.visualstudio.com/) on your local machine and have globally installed [Lando](https://lando.dev/) as well.  The example details going forward will be leveraging both of these.>br>
+For most people, now is the time we want to make sure you have installed [VSCode](https://code.visualstudio.com/) on your local machine and have globally installed [Lando](https://lando.dev/) as well.  The example details going forward will be leveraging both of these.<br>
 
 <b style='color:white;'>Open up VSCode.</b>  It should look something like this.<br>
 
