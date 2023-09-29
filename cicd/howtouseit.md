@@ -210,12 +210,105 @@ Finally, look in the extreme lower left corner and it says 'main' just to the ri
 
 ## Make some Branches
 
+Go click on that word 'main' and the command palette should pop open.  Otherwise do a "Command-P" to open it and start typing "Create...".  When that box asks you for the name of the branch you want to create type <font color=yellow>staged</font><br>
+<img src="../cicd/captures/update5.png"  width="450">
+
+You should then see the clone of your project is now on the 'staged' branch; see that lower left corner.<br>
+<img src="../cicd/captures/update6.png"  width="700">
+
+See that little cloud next to the name 'staged'?  Click on it.  What it is telling you is that you have named a branch 'staged' but that it isn't up on GitHub yet and the little arrow in the cloud sends it there.<br>
+<img src="../cicd/captures/update7.png"  width="200">
+
+Don't be surprised if the cloud looks like it turns into a tornado and spins.  With a project of any size, it take a while to get to the GitHub repository.<br>
+<img src="../cicd/captures/update8.png"  width="200">
+
+Open another window in your browser and go to GitHub. Click on your project in GitHub.  Where it says "branches", go pull down the list and at the bottom click on 'View all branches'.<br>
+<img src="../cicd/captures/update9.png"  width="450">
+
+You should see your 'main' branch listed and now a second branch called 'staged'.<br> 
+<img src="../cicd/captures/update10.png"  width="700">
+
+Once you have the 'staged' branch made, you want to make the 'develop' branch.  Here you need to be careful.  The first option to create a branch will simply make 'develop' as another branch off 'main'; a sister branch.  You want 'develop' to be a child of 'staged'.  So you need to use the "create a new branch from" option.<br>
+<img src="../cicd/captures/update23.png"  width="500">
+
+You will get a command palette box where you will type 'staged' because that is what you want to be the parent.<br>
+<img src="../cicd/captures/update24.png"  width="500">
+
+You will then be prompted to indicate what you want to name the NEW branch and you will enter 'develop'.<br>
+<img src="../cicd/captures/update25.png"  width="500">
+
+Now if you go back into GitHub and look at the branches you will see 'main', 'staged', and 'develop'.  The bad news from the list you don't know if 'staged' and 'develop' are sisters or parent-child.<br>
+<img src="../cicd/captures/update12.png"  width="700">
+
+##### Over to Platformsh
+
+Let's go over to Platform.sh next and see if it tells us anything.  First, if you click on the project you can see it has three branches of the names you provided.  So the good news is the GitHub is updating Platform.sh as expected.<br>  
+<img src="../cicd/captures/update13.png"  width="500">
+
+We see in the prior view that 'main' is deployed but that 'staged' and 'develop' are not.  If it is a first time fresh action it is likely that all three are deployed.  But often you will be going back and doing this process for additional updates and old, inactive versions of 'staged' and 'develop' may exist.  Even though you just brought a new one in from GitHub, if it doesn't automatically indicate it was deployed, you may need to reactivate that branch on Platform.sh  This is not a big deal, just click on the branch so you are in it, and go to that little gear in the upper right corner.  Click on it!<br>
+<img src="../cicd/captures/update14.png"  width="500">
+
+You will see some options for the branch name, who the parent is, the branch type; if you edit any of these remember to hit save.  But more likely all you are needing to do is scroll down a little more and you will see the reactivate button; click it!  It takes a little while so don't get trigger happy.<br>
+<img src="../cicd/captures/update15.png"  width="500">
+
+Once 'staged' is done you will see it marked deployed.  Now select the 'develop' branch.<br>
+<img src="../cicd/captures/update18.png"  width="500">
+
+Click the gear in the up right corner again.<br>
+<img src="../cicd/captures/update19.png"  width="500">
+
+Reactivate the 'develop' branch.<br>
+<img src="../cicd/captures/update15.png"  width="500">
+
+Go look at the front page of your project and pull down the environments list to see the hierarchy.  'Main' is the parent of 'staged' and 'staged' is the parent of 'develop'.<br>
+<img src="../cicd/captures/update27.png"  width="500">
+
+Now you can go to each of the environments and follow the link to that deployed site's address.  If you go to 'main' and log in, you will see the banner at the top indicating 'main' and the color RED to signal STOP... don't be messing directly on this production version of your project.<br>
+<img src="../cicd/captures/update17.png"  width="500">
+
+Go to the 'staged' environment, log in and you will see the name 'staged' and the YELLOW banner color warning that this is the testing site, so be careful with what you do.<br>
+<img src="../cicd/captures/update16.png"  width="500">
+
+Go to the 'develop' environment and see that name with a GREEN banner to signal it is your safe work environment.<br> 
+<img src="../cicd/captures/update20.png"  width="500">
+
+If you are NOT logged in, any of the site environments look normal; without environment name or banner colors<br>
+<img src="../cicd/captures/update21.png"  width="500">
+
+## Initialize Local
+
+You GitCloned your project to bring it to your local machine and you made you way to being in the 'develop' branch which, along with parent branch 'staged' and grandparent branch 'main' also lives on your Platform.sh host.  Just  because the branch files are local doesn't mean they are running in a Lando container.  For that you need to initialize the project.  Make sure you are pointing to the top level of the files you cloned and are in the 'develop' branch; the [informative command prompt we established makes that clear.](../book/WhereAmI.md)   You can do a `lando init \` with the trailing backslash so it doesn't immediately run and takes your next lines of direction.  Then you input `--source cwd \`; again with the trailing backslash to allow the final command.  Then input `--recipe platformsh` and hit return for these commands to all run.<br>
+
+<img src="../cicd/captures/update44.png"  width="400">
+
+If you are into a long one and done command line approach just type it all out line this.<br>
+<img src="../cicd/captures/update45.png"  width="250">
 
 
+## Retrieve Database
 
-## Initialize the Project
+To bring in the database isn't hard but there is one trick you need to be aware of.  Unlike move of the command line menu options where you use your arrow keys to select before hitting 'return', here you need to hit your space bar.  Start out by just typeing `lando pull` and hit 'return'.<br>
 
+<img src="../cicd/captures/update50.png"  width="300">
 
+When it ask you questions, move with the space bar to the one you want, in our case we want to import the "database".   And we want our mounts to be to the "/web/sites/default/files" location.<br>
+
+<img src="../cicd/captures/update51.png"  width="300">
+
+A whole bunch of lines will float by.  Then it should come back with the "Pull completed successfully" reply.<br>
+
+<img src="../cicd/captures/update52.png"  width="300">
+
+Given the run time you probably are reluctant but you really do need to run a `lando rebuild` at this point.<br>
+
+<img src="../cicd/captures/update53.png"  width="300">
+
+The good news is that now when it comes back your project should be available at those URLs lando spits back at the end. It may look something like this as a basic site page.<br> 
+
+<img src="../cicd/captures/update54.png"  width="500">
+
+However, if you log in, it should give your a GREEN go ahead banner color with the environment name 'local' showing.<br>
+<img src="../cicd/captures/update55.png"  width="500">
 
 
 ## Give it Access & Time
