@@ -280,7 +280,7 @@ If you are into a long one and done command line approach just type it all out l
 
 ## [Permissions and Time](updateproject.md#drupal-core-update)<br>
 
-You may not need the extra time to support a retrieve database with what if mainly an empty project.  But after the next step when you actually run a build of the Lando container environment locally and it needs all the application code on your machine, you will be happy you did both in advance.  So run the next two steps now:<br>
+You may not need the extra time to support a retrieve database with what is mainly an empty project.  But after the next step when you actually run a build of the Lando container environment locally and it needs all the application code on your machine, you will be happy you did both in advance.  So run the next two steps now:<br>
 
 - Open directory and file permissions `chmod u+w web/sites/default`
 - Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`<br>
