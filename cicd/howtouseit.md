@@ -3,7 +3,7 @@
 
 This should be viewed as your 'Quick Start' to setting up a Drupal hosted website pre-configured to follow basic [CI/CD Workflow principles.](../book/drupalcicd.md#what-is-cicd)  There is a complete documentation outline on [how all this is put together which you can move through page-by-page.](cicdoverview.md)  But here you are just going to be given the most basic of steps to simply dive right in.<br>
 
-We are going to make sure our local machine is set up like [outlined in the first part of the documentation.](prerequisites.md)  If you are a relative novice, you might first want to look at our [even more core basics](/book/Novice.md#setting-up-your-basic-system) to make sure you have those in place.<br>
+Make sure our local machine is set up like [outlined in the first part of the documentation.](/book/Novice.md#setting-up-your-basic-system) to make sure you have those in place.<br>
 
 ## Make Your Own Copy
 
@@ -277,6 +277,8 @@ If you are NOT logged in, any of the site environments look normal; without envi
 
 ## Initialize Local
 
+You are going to mirror the host environment on your local machine with a [Lando](../book/lando.html) container; thus why you need Lando installed, ideally Globally.  The Lando install should have been part of what you [set up as the foundation for your basic machine.](../book/Novice.html#setting-up-your-basic-system)
+
 You GitCloned your project to bring it to your local machine and you made you way to being in the 'develop' branch which, along with parent branch 'staged' and grandparent branch 'main' also lives on your Platform.sh host.  Just  because the branch files are local doesn't mean they are running in a Lando container.  For that you need to initialize the project.  Make sure you are pointing to the top level of the files you cloned and are in the 'develop' branch; the [informative command prompt we established makes that clear.](../book/WhereAmI.md)   You can do a `lando init \` with the trailing backslash so it doesn't immediately run and takes your next lines of direction.  Then you input `--source cwd \`; again with the trailing backslash to allow the final command.  Then input `--recipe platformsh` and hit return for these commands to all run.<br>
 
 <img src="../cicd/captures/update44.png"  width="400">
@@ -349,7 +351,7 @@ Try and confirm that this works, and if so, clean this up to be almost as simply
 
 Once your basic computer is set up with the foundations noted, you are going to sign up with [Platform.sh](https://platform.sh/) as a hosting company.  It offers several key things relative to this project.  First, it is an experienced host of Drupal in a [container](https://code.visualstudio.com/docs/devcontainers/containers) type of environment; this includes the fact they offer a Drupal template with a good portion of what you need.  Second, it already uses a GitOps capability that leverages basic [Git](../book/gitbasics.md) based commands for its [multi-environment](configatroot.md#drupal-environments) workflow plus concurrent code backup within a [Git Repository.](../book/gitbasics.md#git-repository)  Third, they are reasonably priced, especially in the way they offer development accounts at a substantial discount before you go live.  <font color=yellow> THE KEY THING YOU NEED TO PAY ATTENTION TO IS THE VERY SPECIFIC DRUPAL VERSION OF THE TEMPLATE YOU BRING DOWN TO START WITH!</font>
 
-You are going to mirror the host environment on your local machine with a [Lando](../book/lando.html) container; thus why you need [Lando installed, ideally Globally.]  The Lando install should have been part of what you set up as the foundation for your basic machine.
+
 
 You need to be careful with the Git step in this quick start.  <font color=yellow> Don't do a "Git Init" on the project until instructed in the sequence below.</font>  What you are going to do is you will look at the [GitHub Repository for this Drupal CI/CD Project in the Composer.json file](https://github.com/RightsandWrongsgit/initial-test-of-platform-ci-with-lando/blob/main/composer.json) and look for a line under the 'require' section (typically near the top) for a line that says <font color=green>  "drupal/core-recommended": "^xx.x", </font>  and see what numbers are in the "xx.x".  The plan is that those should match the Drupal version you grabbed from the Platform.sh template you loaded.  If I am running behind the current Platform.sh template, drop me a note on GitHub to get my act together and update the GitHub repository.  Basically, all you need to do is to [clone this GitHub Repository to your local machine where Lando will be able to run it](cloneandpull.md) in its container.
 
