@@ -85,7 +85,7 @@ The next flash screen that pops up may or may not be helpful.  That first step, 
 
 <br>
 
-You will use that later while working with your project on you local machine because it offers from convenient shortcuts. So install it as instructured.<br>
+You will use that later while working with your project on your local machine because it offers some convenient shortcuts. So install it as instructed.<br>
 
 <img src="../cicd/captures/howtouseit36a.png"  width="600">
 
