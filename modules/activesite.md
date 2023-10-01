@@ -33,14 +33,9 @@ Don't know about you, but I always worry a link is broken, I have a typo, or I w
 
 ## [Webform Module](https://www.drupal.org/project/webform)
 
-If you want to do more than monitor your visitors, like interact and engage them, survey them, collect more about them, you want to install the Webform module.  It is extensive and you should go to the Drupal.org site to look at the module.  In addition, there are extensive videos on they many uses and features of this module; some of which you can link to right off the module page…  
+If you want to do more than monitor your visitors, like interact and engage them, survey them, collect more about them, you want to install the Webform module.  It is extensive and you should go to the Drupal.org site to look at the module.  In addition, there are extensive videos on they many uses and features of this module; some of which you can link to right off the module page.  See [Webform and Workflows control for more.](modules/forms.md#webform-module-series)
 
-
-
-* See Appendix Section on Webform and Workflows control for more.
-
-Google Analytics:
-
+<br>
 
 ## [XML Site Map module](https://www.drupal.org/project/xmlsitemap)
 
@@ -87,16 +82,30 @@ This module can be helpful to the content editors.  You should set it up so it h
 
 <br>
 
+ ## File delete module
+[Sometimes you need to clean up content and using a fancy file delete module gives the editors much better control.](https://www.webwash.net/delete-files-instantly-using-fancy-file-delete-in-drupal/)
+
+`composer require drupal/file_delete`
+`drush en file_delete`
+
+<br>
+
 ## Content Moderation Module
 
-Part of core, you want to enable this module once you are ready to leverage the role permissions and establish content contributor, editor, publisher or other types of publishing steps to assure content contribution has some level of authorization before going live.
+Part of core, you want to enable this module once you are ready to leverage the role permissions and establish content contributor, editor, publisher or other types of publishing steps to assure content contribution has some level of authorization before going live.  For an [outline of how to do content moderation with the Diff module included, take a look at this link.](https://www.lullabot.com/articles/basics-drupal-revisions-and-content-moderation)<br>
 
+Video on [Content Moderation Basics.](https://www.youtube.com/watch?v=8R2qiFMU8v8) Add in Workflows...<br>
 
-For an [outline of how to do content moderation with the Diff module included, take a look at this link](https://www.lullabot.com/articles/basics-drupal-revisions-and-content-moderation)
+`composer require 'drupal/workflow`
+`drush en workflows`
 
-https://www.youtube.com/watch?v=8R2qiFMU8v8
+[Drupal.org documentation on core content moderation.](https://www.drupal.org/docs/8/core/modules/content-moderation/overview)
 
-https://www.drupal.org/docs/8/core/modules/content-moderation/overview
+br>
+
+[Drupal.org Documentation on Content Moderation.](https://www.drupal.org/docs/8/core/modules/content-moderation/overview)<br>
+
+<br>
 
 ## [Scheduler Module](https://www.drupal.org/project/scheduler)
 
@@ -116,9 +125,14 @@ Drupal has a pretty powerful role permission capability out of the box.  You can
 
 <br>
 
-Once Fields and Content Types are established, one can prepare for operating the site by establishing Roles, Role Permissions, and the Workflow around Content Moderation.
+# People and Permissions
 
-In the Admin interface, under the "People" menu, you can set Roles and then grant Permissions for what that Role can do.
+Once Fields and Content Types are established, one can prepare for operating the site by establishing Roles, Role Permissions, and the Workflow around Content Moderation.
+In the Administration interface, under the "People" menu, you can set Roles and then grant Permissions for what any Role you create is permitted to do.  These basics in core can be enhanced with additional contributed modules.  In core, enable content moderation...<br>
+
+`drush en content moderation`
+
+<br>
 
 ## [Field Permissions Module](https://www.drupal.org/project/field_permissions)
 You can set role permissions from the admin section of Core.  But you can move that further with field level permissions:
@@ -128,17 +142,9 @@ You can set role permissions from the admin section of Core.  But you can move t
 
 <br>
 
-And also see under Taxonomy, using taxonomy term associations to set tight permissions on various entities.
+Also see [using taxonomy term associations to set tight permissions on various entities.](modules/taxonomy.md)
 
-From core:
-
-drush en content moderation
-
-https://www.drupal.org/docs/8/core/modules/content-moderation/overview
-
-Plus add in Workflows:
-https://www.youtube.com/watch?v=gRdU4vF2LcM
-drush en workflows
+<br>
 
 ## Content Moderation Sidebar
 
@@ -149,12 +155,38 @@ This module is something you probably don't want to bother with as a developer o
 
 <br>
 
-If you find you are going to have a bunch of content editors and approvers in a workflow, you might consider a streamline interface UI for these roles by using Workbench, Workbench Moderation, Workbench Email or Content Moderation Notifications contrib modules.
+It is worth really thinking through the approach you will take to content moderation in terms of roles involved, process control steps you want to assure quality, how notification of pending steps between people should occur, and more.  [Advanced Content Moderation in Drupal is a video that provides a good overall perspective.](https://www.youtube.com/watch?v=A5Gi8JAry8Q)  If you find you are going to have a bunch of content editors and approvers in a workflow, you might consider a streamline interface UI for these roles by using [Workbench, Workbench Moderation, Workbench Email](https://www.youtube.com/watch?v=VEUZeWOrDeo) or [Content Moderation Notifications](https://drupalize.me/tutorial/overview-workflows-and-content-moderation) contrib modules.
 
+[Workbench](https://www.drupal.org/project/workbench)<br>
 
+`composer require 'drupal/workbench`
+`drush en workbench`
 
-https://www.webwash.net/delete-files-instantly-using-fancy-file-delete-in-drupal/
-composer require 'drupal/file_delete:^1.0'
+<br>
+
+[Workbench Moderation](https://www.drupal.org/project/workbench_moderation)
+
+`composer require 'drupal/workbench_moderation`
+`drush en workbench_moderation`
+
+<br>
+
+[Workbench Email](https://www.drupal.org/project/workbench_email)
+
+`composer require 'drupal/workbench_email`
+`drush en workbench_email`
+
+<br>
+
+[Workbench Access](https://www.drupal.org/project/workbench_access)
+
+`composer require 'drupal/workbench_access`
+`drush en workbench_access`
+
+[Content Moderation Notifications](https://www.drupal.org/project/content_moderation_notifications)
+
+`composer require 'drupal/content_moderation_notifications`
+`drush en content_moderation_notifications`
 
 
 <br>
