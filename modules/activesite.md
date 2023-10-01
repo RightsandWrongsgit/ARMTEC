@@ -138,7 +138,7 @@ You can set role permissions from the admin section of Core.  But you can move t
 
 <br>
 
-Also see [using taxonomy term associations to set tight permissions on various entities.](modules/taxonomy.md)
+Also see [using taxonomy term associations to set tight permissions on various entities.](../modules/taxonomy.md)
 
 <br>
 
