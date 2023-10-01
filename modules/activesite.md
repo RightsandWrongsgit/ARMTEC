@@ -11,12 +11,16 @@ Would it be cool to know all this about your site?<br>
 `composer require drupal/visitors`<br>
 `drush en visitors`
 
+<br>
+
 ## [FAQ Field Module](https://www.drupal.org/project/faqfield)
 
 Fundamentally this is a simple accordion that drops in on all your content types if you add this field to that content type.  You might put it on any given content type to make the field available to put helpful questions and answers directly in the context of the associated page. When you configure it, you can do things like set a zero default so it doesn't show up at all unless populated and set the available Q and A's to unlimited so you can put in all you want.  Because the answer block can use the various HTML formatting options, you can not only go wild with your WYSIWYG editor including images or any other tools you have folded into your CKEditor.   If, when you set it up and are asked for a Title, by putting in FAQ you get the common use but you can do other titles as you put it on a content type and have say a picture accordion or some other options for usage. 
 
 `composer require drupal/faqfield`<br>
 `drush en faqfield`
+
+<br>
 
 ## [Website Feedback Module](https://www.drupal.org/project/website_feedback)
 
@@ -25,6 +29,7 @@ Don't know about you, but I always worry a link is broken, I have a typo, or I w
 `composer require drupal/website_feedback`<br>
 `drush en website_feedback`
 
+<br>
 
 ## [Webform Module](https://www.drupal.org/project/webform)
 
@@ -44,6 +49,7 @@ Search engine performance is impacted by a site map conforming to the sitemaps.o
 `composer require drupal/xmlsitemap`<br>
 `drush en xmlsitemap`
 
+<br>
 
 ## [Metatag Module](https://www.drupal.org/project/metatag)
 
@@ -52,7 +58,7 @@ This is the base module with over 250 metatag control functions across search, g
 `composer require drupal/metatag`<br>
 `drush en metatag`
 
-
+<br>
 
 ## [Schema Metatag Module](https://www.drupal.org/project/schema_metatag)
 
@@ -61,7 +67,7 @@ You obviously want to enhance SEO performance if you are bothering to use Google
 `composer require drupal/schema_metatag`<br>
 `drush en schema_metatag`
 
-
+<br>
 
 ## [Views Bulk Operations Module](https://www.drupal.org/project/views_bulk_operations)
 
@@ -70,6 +76,7 @@ Once you are working with content, you may have repetitive actions you want to c
 `composer require drupal/views_bulk_operations`<br>
 `drush en views_bulk_operations`
 
+<br>
 
 ## [DIFF Module](https://www.drupal.org/project/diff)
 
@@ -78,6 +85,7 @@ This module can be helpful to the content editors.  You should set it up so it h
 `composer require drupal/diff`<br>
 `drush en diff`
 
+<br>
 
 ## Content Moderation Module
 
@@ -97,6 +105,8 @@ Once you have your site going, you may want to move the content from unpublished
 `composer require drupal/scheduler`<br>
 `drush en scheduler`
 
+<br>
+
 ## [Override Node Options module](https://www.drupal.org/project/override_node_options)
 
 Drupal has a pretty powerful role permission capability out of the box.  You can set up roles, grant them access to various things at an already pretty granular level.  But, sometimes you might want to have a trusted content person control publishing, promoting, revisioning settings, and stuff even a little deeper so some bright person added this contributed module to do so.  Things like this …
@@ -104,6 +114,7 @@ Drupal has a pretty powerful role permission capability out of the box.  You can
 `composer require drupal/override_node_options`<br>
 `drush en override_node_options`
 
+<br>
 
 Once Fields and Content Types are established, one can prepare for operating the site by establishing Roles, Role Permissions, and the Workflow around Content Moderation.
 
@@ -114,6 +125,8 @@ You can set role permissions from the admin section of Core.  But you can move t
 
 `composer require drupal/field_permissions`<br>
 `drush en field_permissions`
+
+<br>
 
 And also see under Taxonomy, using taxonomy term associations to set tight permissions on various entities.
 
@@ -127,10 +140,14 @@ Plus add in Workflows:
 https://www.youtube.com/watch?v=gRdU4vF2LcM
 drush en workflows
 
-Content Moderation Sidebar (This module is something you probably don't want to bother with as a developer or site builder but when it comes time for adding and editing content you probably want it; or your content editors will.  You need to enable the basic 'content moderation' that is part of Core and then add this module to make the GUI interface a little easier for content editors to use.)
+## Content Moderation Sidebar
 
-composer require 'drupal/moderation_sidebar:^1.4'
+This module is something you probably don't want to bother with as a developer or site builder but when it comes time for adding and editing content you probably want it; or your content editors will.  You need to enable the basic 'content moderation' that is part of Core and then add this module to make the GUI interface a little easier for content editors to use.
 
+`composer require 'drupal/moderation_sidebar`
+`drush en moderation_sidebar`
+
+<br>
 
 If you find you are going to have a bunch of content editors and approvers in a workflow, you might consider a streamline interface UI for these roles by using Workbench, Workbench Moderation, Workbench Email or Content Moderation Notifications contrib modules.
 
