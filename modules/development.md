@@ -118,52 +118,94 @@ This module was parsed out of the prior Devel module into a separate tool.  Make
 `composer require drupal/devel_kint_extras`<br>
 `drush en webprofiler`
 
+<br>
+
+## Admin Toolbar module
+This is an alternative layout to the out-of-the-box toolbar that developers and site builders normally work with.  It used more of the vertical space of a pulldown style tool bar rather than drilling page by page into submenus; thus faster for developers.
+
+`composer require 'drupal/admin_toolbar`
+`drush en admin_toolbar
+
+<br>
+
+##  Autosave Form Mmodule
+
+Is a 'maybe' addition to development and content editing.  It does NOT retain pure true revision versions but has its own temporary storage logic while you are working.  It is set at 60 second for an autosave but should be configurable.
+
+`composer require 'drupal/autosave_form`
+`drush en autosave_form`
+
+<br>
 
 
+## Feeds module
 
+Can be used to [grab CSV and other file format data plus HTML from another site, and import it.](https://www.youtube.com/watch?v=VcooCT50PFY)  It is another candidate for pulling in Taxonomies or even things like an airport data sets to preload nodes for all the airports.  Don't forget the 'Feeds Tamper' module that works with it to add more functionality like string replacements or other file manipulation functions for cleanup actions during import.  Those can be increasingly important if you are creating a dyanamic feed update with the time based function that is retrieving information from say a remote URL or other source system.
 
-Admin Toolbar (an alternative layout to the out-of-the-box toolbar that developers and site builders normally work with.  It used more of the vertical space of a pulldown style tool bar rather than drilling page by page into submenus; thus faster for developers).
+Review module status [here to make sure it meets your stablity requirement settings.](https://www.drupal.org/project/feeds)
 
-composer require 'drupal/admin_toolbar:^3.0'
+<br>
 
+## Development Mode module
 
+This module is to stop cache, aggregation, turn on debug, in your 'Development' Split.  If you use the [Drupal CI/CD Project workflow template](..cicd/cicdoverview.md) 
+ provided elsewhere on this site, you do NOT need to add this module because the functions it provides have already been incorporated via other means. 
 
-The Autosave Form Module is a 'maybe' addition to development and content editing.  It does NOT retain pure true revision versions but has its own temporary storage logic while you are working.  It is set at 60 second for an autosave but should be configurable.
-composer require 'drupal/autosave_form:^1.2'
+`composer require –dev drupal/dev_mode`
+`drush en dev_mode`
 
+<br>
 
+## Backup and Migrate module
 
-Backup Add section on backup plan in coordination with hosting provider's set up, Git repo strategy, and local Dev rebuild strategy.
+Using the [Drupal CI/CD Project workflow template,](..cicd/cicdoverview.md) provided elsewhere on this site, you do NOT need to add this module because you are going to set up your backup in the Platform.sh host and your Git Repository version control system.  However, it might come in to play for migration of a site later in your development or site building work.
 
-Feeds Module is one that can be used to grab CSV and other file format data plus HTML from another site, and import it.  It is another candidate for pulling in Taxonomies or even airport data sets to preload nodes for all the airports.  It is in an Alpha 10 for Drupal 9 and it lists as not secure; however, if you install it to build and then remove it afterward it should be fine.
+`composer require drupal/backup_migrate`
+`drush en backup_migrate`
 
+<br>
 
-Development Mode module (stop cache, aggregation, turn on debug, in your 'Development' Split:
-composer require –dev drupal/dev_mode
-drush en dev_mode
+## Password Reset Landing Page module
 
+Because users forget to change their password after using a one time login link in their password reset email this module enhances the original password reset landing page by letting a user set their new password at the same time they "log in" using the one-time-login link. 
 
-Backup and Migrate module:
-composer require drupal/backup_migrate
-drush en backup_migrate
+`composer require drupal/prlp`
+`drush en prlp`
 
-Password Reset Landing Page module (clarifies password reset process from core):
-composer require drupal/prlp
-drush en prlp
+<br>
 
-Super Login module (take control of the appearance of log in):
-composer require drupal/super_login
-drush en super_login
+## Super Login module
 
-[Login with Google module (set up)](https://www.codimth.com/blog/web/drupal/how-login-google-drupal-8-9)
+Take control of the appearance of the log in.
 
-Redirect module (assures external links back to your site pages work if you change your site):
-composer require drupal/redirect
-drush en redirect
+So people might login via Email or username, email only or username only.  You can also adjust the layout and theming of the forms to be more user friendly and visually pleasing. The module's theme can be turned off and customized in your own stylesheets.  Show a caps lock warning message and control other presentation things.
 
-Ctools or Chaos Tools module (If you just installed PathAuto, it already installed Ctools.):
-composer require drupal/ctools
-drush en ctools
+`composer require drupal/super_login`
+`drush en super_login`
+
+<br>
+
+## Login w/Google modules
+
+This is a group of modules that takes a little set up but allows users to login with their Google account.  The [Login with Google module set up steps](https://www.codimth.com/blog/web/drupal/how-login-google-drupal-8-9)  provides the details on how to do this.
+
+<br>
+
+## Redirect module
+
+Assures external links back to your site pages work if you change your site but want to assure its connections by others to your prior site are retained and credited.
+
+`composer require drupal/redirect`
+`drush en redirect`
+
+<br>
+
+## Ctools or Chaos Tools module
+
+If you just installed PathAuto, it already installed Ctools.
+
+`composer require drupal/ctools`
+`drush en ctools`
 
 
 <br>
