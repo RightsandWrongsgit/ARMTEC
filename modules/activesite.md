@@ -101,10 +101,6 @@ Video on [Content Moderation Basics.](https://www.youtube.com/watch?v=8R2qiFMU8v
 
 [Drupal.org documentation on core content moderation.](https://www.drupal.org/docs/8/core/modules/content-moderation/overview)
 
-br>
-
-[Drupal.org Documentation on Content Moderation.](https://www.drupal.org/docs/8/core/modules/content-moderation/overview)<br>
-
 <br>
 
 ## [Scheduler Module](https://www.drupal.org/project/scheduler)
