@@ -9,6 +9,31 @@ The most current versions of Drupal have substantial [Content Moderation](https:
 
 If you think about the examples ways one might use content moderation, some of them might benefit from something beyond just 'published' and 'unpublished' status.  If your immediate supervisor, the section editor, the legal staff, the editor & chief, and the publisher all potentially need to review some controversial article you wrote about the town billionaire before it goes out, you probably have some sort of workflow for that process to occur.  Drupal Core also has included some powerful [Workflow Management capabilities you should review and consider.](https://www.drupal.org/docs/8/core/modules/workflows/overview)
 
+## Content Moderation Module
+
+Part of core, you want to enable this module once you are ready to leverage the role permissions and establish content contributor, editor, publisher or other types of publishing steps to assure content contribution has some level of authorization before going live.  For an [outline of how to do content moderation with the Diff module included, take a look at this link.](https://www.lullabot.com/articles/basics-drupal-revisions-and-content-moderation)<br>
+
+Video on [Content Moderation Basics.](https://www.youtube.com/watch?v=8R2qiFMU8v8) Add in Workflows...<br>
+
+`composer require 'drupal/workflow`
+`drush en workflows`
+
+[Drupal.org documentation on core content moderation.](https://www.drupal.org/docs/8/core/modules/content-moderation/overview)
+
+<br>
+
+## [Scheduler Module](https://www.drupal.org/project/scheduler)
+
+Once you have your site going, you may want to move the content from unpublished to published under a schedule.  Let's say you are taking a holiday and you want the site to looked refreshed while you are gone.  Just prepare content in advance and then schedule when it will be published. 
+
+`composer require drupal/scheduler`<br>
+`drush en scheduler`
+
+<br>
+
+
+
+
 ## Modules to Enhance
 
 We noted that you might want to move an article from 'unpublished' to 'published' at a certain date or time.  Could be to feed the beast while you are on vacation.  Could be a more complicated workflow you set up where you want to flood the boss with approvals just before deadline so you can slip more by.  Either way, you want the [Scheduler Content Moderation Integration module.](https://www.drupal.org/project/scheduler_content_moderation_integration)
@@ -25,9 +50,83 @@ You are an optimist and anticipate each reviewer will see the world just the way
 
 In your dreams there is a large truck and that nasty big boss who cuts apart your great work with those notes.  When they finally move on, regardless of how that might have occurred, their approval oversight is no long part of your workflow.  Planning ahead for the fact people move, resign, change roles, your workflow approvals are not perpetual.  Rather, you have incorporated the [Role Expiration module](https://www.drupal.org/project/role_expire) into your system to let them expire should you forget.  Wonder if you might also use it to expire your submitted work if it doesn't get approved by some anticipated publication date it logically fit with for content context?
 
+
+## Content Moderation Sidebar
+
+This module is something you probably don't want to bother with as a developer or site builder but when it comes time for adding and editing content you probably want it; or your content editors will.  You need to enable the basic 'content moderation' that is part of Core and then add this module to make the GUI interface a little easier for content editors to use.
+
+`composer require 'drupal/moderation_sidebar`
+`drush en moderation_sidebar`
+
+<br>
+
+It is worth really thinking through the approach you will take to content moderation in terms of roles involved, process control steps you want to assure quality, how notification of pending steps between people should occur, and more.  [Advanced Content Moderation in Drupal is a video that provides a good overall perspective.](https://www.youtube.com/watch?v=A5Gi8JAry8Q)  If you find you are going to have a bunch of content editors and approvers in a workflow, you might consider a streamline interface UI for these roles by using [Workbench, Workbench Moderation, Workbench Email](https://www.youtube.com/watch?v=VEUZeWOrDeo) or [Content Moderation Notifications](https://drupalize.me/tutorial/overview-workflows-and-content-moderation) contrib modules.
+
+[Workbench](https://www.drupal.org/project/workbench)<br>
+
+`composer require 'drupal/workbench`
+`drush en workbench`
+
+<br>
+
+[Workbench Moderation](https://www.drupal.org/project/workbench_moderation)
+
+`composer require 'drupal/workbench_moderation`
+`drush en workbench_moderation`
+
+<br>
+
+[Workbench Email](https://www.drupal.org/project/workbench_email)
+
+`composer require 'drupal/workbench_email`
+`drush en workbench_email`
+
+<br>
+
+[Workbench Access](https://www.drupal.org/project/workbench_access)
+
+`composer require 'drupal/workbench_access`
+`drush en workbench_access`
+
+[Content Moderation Notifications](https://www.drupal.org/project/content_moderation_notifications)
+
+`composer require 'drupal/content_moderation_notifications`
+`drush en content_moderation_notifications`
+
+
+
+
+
+# People and Permissions
+
+Once Fields and Content Types are established, one can prepare for operating the site by establishing Roles, Role Permissions, and the Workflow around Content Moderation.
+In the Administration interface, under the "People" menu, you can set Roles and then grant Permissions for what any Role you create is permitted to do.  These basics in core can be enhanced with additional contributed modules.  In core, enable content moderation...<br>
+
+`drush en content moderation`
+
+<br>
+
+## [Field Permissions Module](https://www.drupal.org/project/field_permissions)
+You can set role permissions from the admin section of Core.  But you can move that further with field level permissions:
+
+`composer require drupal/field_permissions`<br>
+`drush en field_permissions`
+
+<br>
+
+Also see [using taxonomy term associations to set tight permissions on various entities.](../modules/taxonomy.md)
+
+<br>
+
 ## Roles
 
 Content moderation is also something that is coordinated with how you set up ['Roles'.](../modules/roles.md)  You might especially like to consider the [Role Delegation module](../modules/roles.md#role-delegation-module) in coordination with your deployment of Content Moderation.
+
+
+
+
+
+
 
 <br>
 <br>
