@@ -3,40 +3,48 @@
 
 ## Your Plan
 
-The simplest definition of Content Management might be Drupal's option to 'publish' or leave what you have put in as 'unpublished' right on a content input form. [Wiki takes what Content Management should include much further.](https://en.wikipedia.org/wiki/Content_moderation)   Working just your own website you can see the value of doing a draft.  You might also like the idea of preparing a bunch of new content to send out automatically on a publication schedule.   If you have a newspaper with an immediate supervisor, the section editor, the legal staff, the editor & chief, and the publisher all potentially needing to review some controversial article you wrote about the town billionaire before it goes out, you probably see value in a Content Managed workflow.  
+The simplest definition of Content Management might be Drupal's option to 'publish' or leave what you have put in as 'unpublished' right on a content input form. [Wiki takes what Content Management should include much further.](https://en.wikipedia.org/wiki/Content_moderation)   Working just your own website you can see the value of doing a draft.  You might also like the idea of preparing a bunch of new content to send out automatically on a publication schedule.   If you have a newspaper with an immediate supervisor, the section editor, the legal staff, the editor & chief, and the publisher all potentially needing to review some controversial article you wrote about the town billionaire before it goes out, you probably see value in a Content Managed workflow.<br>
 
 ## In Core
 
-Drupal has substantial built-in [Content Moderation](https://www.drupal.org/docs/8/core/modules/content-moderation/overview) capabilities.  It also has roles and role permissions so you could establish content contributors, editors, publisher or other types of roles and what they are allowed to do.  For publishing steps authorization before going live Drupal includes some powerful [Workflow Management capabilities you should review and consider.](https://www.drupal.org/docs/8/core/modules/workflows/overview)
+Drupal has substantial built-in [Content Moderation](https://www.drupal.org/docs/8/core/modules/content-moderation/overview) capabilities.  It also has roles and role permissions so you could establish content contributors, editors, publisher or other types of roles and what they are allowed to do.  For publishing steps authorization before going live Drupal includes some powerful [Workflow Management capabilities you should review and consider.](https://www.drupal.org/docs/8/core/modules/workflows/overview)<br>
 
 The [Drupal.org documentation on core content moderation](https://www.drupal.org/docs/8/core/modules/content-moderation/overview) is thus a good starting point. You might watch this video on [Content Moderation Basics.](https://www.youtube.com/watch?v=8R2qiFMU8v8)  And add in Workflows...<br>
 
-`composer require 'drupal/workflow`
+`composer require 'drupal/workflow`<br>
 `drush en workflows`
 
 <br>
 
+# Enhancement to Core
 
+## Bulk Publishing
 
+If you want to trigger that flood of approvals to the boss at the last minute, you probably want to use the [Moderated Content Bulk Publish module.](https://www.drupal.org/project/moderated_content_bulk_publish)  A potentially more sane use is that you publish a newspaper with editions and want to drop all the new content into the online site at the same time that the presses release the print version into delivery.
 
-## Enhancement to Core
+`composer require 'drupal/moderated_content_bulk_publish`<br>
+`drush en moderated_content_bulk_publish`
 
-We noted that you might want to move an article from 'unpublished' to 'published' at a certain date or time.  Could be to feed the beast while you are on vacation.  Could be a more complicated workflow you set up where you want to flood the boss with approvals just before deadline so you can slip more by.  Either way, you want the [Scheduler Content Moderation Integration module.](https://www.drupal.org/project/scheduler_content_moderation_integration)
+<br>
 
-If you want to trigger that flood of approvals to the boss at the last minute, you probably want to use the [Moderated Content Bulk Publish module.](https://www.drupal.org/project/moderated_content_bulk_publish)  A potentially more sane use is that you publish a newspaper with editions and want to drop all the new content into the online site at the same time that the presses release the paper version into delivery.
-
-A tool you might like is ['drag and drop' file loading.](https://cornel.co/article/drag-and-drop-file-uploader-progressbar-wire-drupal)   Getting it is not as straightforward as just adding a Drupal module.  However, because it can be so valuable if you are grabbing a bunch of files from your photos, your local drive, an old site you are recovering content from, etc. it may be worth the extra trouble.   You have to do some coding to get it done.  But you aren't on your own.  Cornel Andreev outlines a [detailed process with all the files and code](https://cornel.co/article/drag-and-drop-file-uploader-progressbar-wire-drupal) if you want to tackle it yourself.  And, it appears he runs a development company who probably would do it for you for a fee. 
-
-So that the boss knows that you are awaiting approval to some step in the workflow, you probably want to give the next person in the approval steps a heads up.   You will want to drop an email via integration with the [Content Moderation Notification module.](https://www.drupal.org/project/content_moderation_notifications)
-
-An emerging player is the [Content Planner module.](https://www.drupal.org/project/content_planner)  At a minimum, the developer of this module is to be complimented for one of the best module descriptions on Drupal.org.   But this little wonder is likely to get awards from anyone who has a serious need to manage content.  Imagine a Dashboard function of publication status, an integrated Google Analytics, last and pending update lists, available widgets, and links to key connections like MailChimp.  All that is just the first tab.  Then imagine a calendar function with macro view and details by day of content types (articles, newsletters, social, etc.) with titles across the weekly view.  And just jump to the next tab for the 'who', 'when', 'where' drag-and-drop which you will find extraordinary if you involve multiple players in development, placement, approvals, across your organization and a client's.  The [3-Minute demo gives you a quick understanding,](https://www.youtube.com/watch?v=8TzJZR2j_34) but don't worry about the security warning shown as the video was shot early in the release and the module is now fully good-to-go.
+## Moderation Notes
 
 You are an optimist and anticipate each reviewer will see the world just the way you do.  The last thing you enjoy is having several of them standing at your door with a printout of what you sent through the workflow steps with red, orange, purple or whatever marks each has written notes in the margin to drill you over.  Being an online person you would just as well see that 'notification' thing send you an email telling you that comments have been added to your draft via the [Moderation Note module.](https://www.drupal.org/project/moderation_note)
 
-In your dreams there is a large truck and that nasty big boss who cuts apart your great work with those notes.  When they finally move on, regardless of how that might have occurred, their approval oversight is no long part of your workflow.  Planning ahead for the fact people move, resign, change roles, your workflow approvals are not perpetual.  Rather, you have incorporated the [Role Expiration module](https://www.drupal.org/project/role_expire) into your system to let them expire should you forget.  Wonder if you might also use it to expire your submitted work if it doesn't get approved by some anticipated publication date it logically fit with for content context?
+`composer require 'drupal/moderation_note`<br>
+`drush en moderation_note`
 
-For an [outline of how to do content moderation with the Diff module included, take a look at this link.](https://www.lullabot.com/articles/basics-drupal-revisions-and-content-moderation)<br>
+<br>
 
+
+## Diff Module
+
+Drupal maintains versions of content right from what is available in core.  But if you want to enhance a perspective on what edits and updates the various players in the content approval process have done, you may want to try the Diff Module.  For an [outline of how to do content moderation with the Diff module included, take a look at this link.](https://www.lullabot.com/articles/basics-drupal-revisions-and-content-moderation)<br>
+
+`composer require drupal/diff`
+`drush en diff`
+
+<br>
 
 ## [Scheduler Module](https://www.drupal.org/project/scheduler)
 
@@ -53,6 +61,19 @@ This module is something you probably don't want to bother with as a developer o
 
 `composer require 'drupal/moderation_sidebar`
 `drush en moderation_sidebar`
+
+<br>
+
+## Drag & Drop Loading
+
+A tool you might like is ['drag and drop' file loading.](https://cornel.co/article/drag-and-drop-file-uploader-progressbar-wire-drupal)   Getting it is not as straightforward as just adding a Drupal module.  However, because it can be so valuable if you are grabbing a bunch of files from your photos, your local drive, an old site you are recovering content from, etc. it may be worth the extra trouble.   You have to do some coding to get it done.  But you aren't on your own.  Cornel Andreev outlines a [detailed process with all the files and code](https://cornel.co/article/drag-and-drop-file-uploader-progressbar-wire-drupal) if you want to tackle it yourself.  And, it appears he runs a development company who probably would do it for you for a fee.<br> 
+
+## Content Planner System
+
+An emerging power player is the [Content Planner module.](https://www.drupal.org/project/content_planner)  At a minimum, the developer of this module is to be complimented for one of the best module descriptions on Drupal.org.   But this little wonder is likely to get awards from anyone who has a serious need to manage content.  Imagine a Dashboard function of publication status, an integrated Google Analytics, last and pending update lists, available widgets, and links to key connections like MailChimp.  All that is just the first tab.  Then imagine a calendar function with macro view and details by day of content types (articles, newsletters, social, etc.) with titles across the weekly view.  And just jump to the next tab for the 'who', 'when', 'where' drag-and-drop which you will find extraordinary if you involve multiple players in development, placement, approvals, across your organization and a client's.  The [3-Minute demo gives you a quick understanding,](https://www.youtube.com/watch?v=8TzJZR2j_34) but don't worry about the security warning shown as the video was shot early in the release and the module is now fully good-to-go.
+
+`composer require 'drupal/content_planner`<br>
+`drush en content_planner`
 
 <br>
 
@@ -85,6 +106,7 @@ It is worth really thinking through the approach you will take to content modera
 `drush en content_moderation_notifications`
 
 <br>
+
 [Workbench Access](https://www.drupal.org/project/workbench_access)
 This module brings some of the People, Permissions, Role elements to Content Management.<br>
 
@@ -107,6 +129,15 @@ In the Administration interface, under the "People" menu, you can set Roles and 
 ## Roles
 
 Content moderation is also something that is coordinated with how you set up. ['Roles'.](../modules/roles.md)  You might especially like to consider the [Role Delegation module](../modules/roles.md#role-delegation-module) in coordination with your deployment of Content Moderation.<br>
+
+<br>
+
+## Role Expiration
+
+In your dreams there is a large truck and that nasty big boss who cuts apart your great work with those notes.  When they finally move on, regardless of how that might have occurred, their approval oversight is no long part of your workflow.  Planning ahead for the fact people move, resign, change roles, your workflow approvals are not perpetual.  Rather, you have incorporated the [Role Expiration module](https://www.drupal.org/project/role_expire) into your system to let them expire should you forget. Wonder if you might also use it to expire your submitted work if it doesn't get approved by some anticipated publication date it logically fit with for content context?
+
+`composer require drupal/role_expire`<br>
+`drush en role_expire`
 
 <br>
 
