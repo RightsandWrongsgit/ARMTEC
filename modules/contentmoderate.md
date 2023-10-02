@@ -59,7 +59,7 @@ Once you have your site going, you may want to move the content from unpublished
 
 This module is something you probably don't want to bother with as a developer or site builder but when it comes time for adding and editing content you probably want it; or your content editors will.  You need to enable the basic 'content moderation' that is part of Core and then add this module to make the GUI interface a little easier for content editors to use.
 
-`composer require 'drupal/moderation_sidebar`
+`composer require 'drupal/moderation_sidebar`<br>
 `drush en moderation_sidebar`
 
 <br>
