@@ -146,7 +146,7 @@ This is an alternative layout to the out-of-the-box toolbar that developers and 
 
 Is a 'maybe' addition to development and content editing.  It does NOT retain pure true revision versions but has its own temporary storage logic while you are working.  It is set at 60 second for an autosave but should be configurable.
 
-`composer require 'drupal/autosave_form`
+`composer require 'drupal/autosave_form`<br>
 `drush en autosave_form`
 
 <br>
