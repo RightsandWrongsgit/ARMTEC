@@ -36,7 +36,6 @@ Confirm the install with this:
 [Real content sharing from Production to Development Environments](../cicd/stagefileproxy.md)
 
 `composer require drupal/stage_file_proxy`<br>
-
 `drush en stage_file_proxy`
 
 <br>
