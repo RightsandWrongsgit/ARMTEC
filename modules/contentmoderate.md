@@ -41,14 +41,14 @@ You are an optimist and anticipate each reviewer will see the world just the way
 
 Drupal maintains versions of content right from what is available in core.  But if you want to enhance a perspective on what edits and updates the various players in the content approval process have done, you may want to try the Diff Module.  For an [outline of how to do content moderation with the Diff module included, take a look at this link.](https://www.lullabot.com/articles/basics-drupal-revisions-and-content-moderation)<br>
 
-`composer require drupal/diff`
+`composer require drupal/diff`<br>
 `drush en diff`
 
 <br>
 
-## [Scheduler Module](https://www.drupal.org/project/scheduler)
+## Scheduler Module
 
-Once you have your site going, you may want to move the content from unpublished to published under a schedule.  Let's say you are taking a holiday and you want the site to looked refreshed while you are gone.  Just prepare content in advance and then schedule when it will be published. 
+Once you have your site going, you may want to move the content from unpublished to published under a schedule. [Use the Scheduler Module.](https://www.drupal.org/project/scheduler)  Let's say you are taking a holiday and you want the site to looked refreshed while you are gone.  Just prepare content in advance and then schedule when it will be published. 
 
 `composer require drupal/scheduler`<br>
 `drush en scheduler`
