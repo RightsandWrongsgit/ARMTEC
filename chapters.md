@@ -191,8 +191,7 @@
   - [Users, Roles, Permissions](modules/roles.md)
   - [Groups](modules/groups.md) 
   - [Forms](modules/forms.md)
-  - [Comments: Perhaps a Quick Blog](https://www.webwash.net/how-to-manage-comments-in-drupal/)
-  - [Content Moderation](modules/contentmoderate.md)
+  - [Comments: Perhaps a Quick Blog](https://www.webwash.net/how-to-manage-comments-in-drupal/) 
   - [File Viewer](/modules/filedisplay.md)
   - [Events->Conditions->Actions](/modules/ECA.md)
   - [Events: Manage One](/modules/events.md)  
@@ -207,7 +206,7 @@
   - [Layout Builder](modules/layoutbuilder.md)
   - [SEO Modules](modules/SEO.md)
   - [Active Site Modules](modules/activesite.md)
-
+  - [Content Moderation](modules/contentmoderate.md)
 
 
 ### Chapter: Drupal Template with CI/CD Workflow
