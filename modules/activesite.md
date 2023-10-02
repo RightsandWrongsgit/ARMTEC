@@ -1,5 +1,5 @@
 
-# Modules to manage an Active Site
+# Manage an Active Site
 
 ## [Visitors Module](https://www.drupal.org/project/visitors)
 
@@ -90,27 +90,6 @@ This module can be helpful to the content editors.  You should set it up so it h
 
 <br>
 
-## Content Moderation Module
-
-Part of core, you want to enable this module once you are ready to leverage the role permissions and establish content contributor, editor, publisher or other types of publishing steps to assure content contribution has some level of authorization before going live.  For an [outline of how to do content moderation with the Diff module included, take a look at this link.](https://www.lullabot.com/articles/basics-drupal-revisions-and-content-moderation)<br>
-
-Video on [Content Moderation Basics.](https://www.youtube.com/watch?v=8R2qiFMU8v8) Add in Workflows...<br>
-
-`composer require 'drupal/workflow`
-`drush en workflows`
-
-[Drupal.org documentation on core content moderation.](https://www.drupal.org/docs/8/core/modules/content-moderation/overview)
-
-<br>
-
-## [Scheduler Module](https://www.drupal.org/project/scheduler)
-
-Once you have your site going, you may want to move the content from unpublished to published under a schedule.  Let's say you are taking a holiday and you want the site to looked refreshed while you are gone.  Just prepare content in advance and then schedule when it will be published. 
-
-`composer require drupal/scheduler`<br>
-`drush en scheduler`
-
-<br>
 
 ## [Override Node Options module](https://www.drupal.org/project/override_node_options)
 
@@ -119,70 +98,10 @@ Drupal has a pretty powerful role permission capability out of the box.  You can
 `composer require drupal/override_node_options`<br>
 `drush en override_node_options`
 
-<br>
 
-# People and Permissions
 
-Once Fields and Content Types are established, one can prepare for operating the site by establishing Roles, Role Permissions, and the Workflow around Content Moderation.
-In the Administration interface, under the "People" menu, you can set Roles and then grant Permissions for what any Role you create is permitted to do.  These basics in core can be enhanced with additional contributed modules.  In core, enable content moderation...<br>
 
-`drush en content moderation`
 
-<br>
-
-## [Field Permissions Module](https://www.drupal.org/project/field_permissions)
-You can set role permissions from the admin section of Core.  But you can move that further with field level permissions:
-
-`composer require drupal/field_permissions`<br>
-`drush en field_permissions`
-
-<br>
-
-Also see [using taxonomy term associations to set tight permissions on various entities.](../modules/taxonomy.md)
-
-<br>
-
-## Content Moderation Sidebar
-
-This module is something you probably don't want to bother with as a developer or site builder but when it comes time for adding and editing content you probably want it; or your content editors will.  You need to enable the basic 'content moderation' that is part of Core and then add this module to make the GUI interface a little easier for content editors to use.
-
-`composer require 'drupal/moderation_sidebar`
-`drush en moderation_sidebar`
-
-<br>
-
-It is worth really thinking through the approach you will take to content moderation in terms of roles involved, process control steps you want to assure quality, how notification of pending steps between people should occur, and more.  [Advanced Content Moderation in Drupal is a video that provides a good overall perspective.](https://www.youtube.com/watch?v=A5Gi8JAry8Q)  If you find you are going to have a bunch of content editors and approvers in a workflow, you might consider a streamline interface UI for these roles by using [Workbench, Workbench Moderation, Workbench Email](https://www.youtube.com/watch?v=VEUZeWOrDeo) or [Content Moderation Notifications](https://drupalize.me/tutorial/overview-workflows-and-content-moderation) contrib modules.
-
-[Workbench](https://www.drupal.org/project/workbench)<br>
-
-`composer require 'drupal/workbench`
-`drush en workbench`
-
-<br>
-
-[Workbench Moderation](https://www.drupal.org/project/workbench_moderation)
-
-`composer require 'drupal/workbench_moderation`
-`drush en workbench_moderation`
-
-<br>
-
-[Workbench Email](https://www.drupal.org/project/workbench_email)
-
-`composer require 'drupal/workbench_email`
-`drush en workbench_email`
-
-<br>
-
-[Workbench Access](https://www.drupal.org/project/workbench_access)
-
-`composer require 'drupal/workbench_access`
-`drush en workbench_access`
-
-[Content Moderation Notifications](https://www.drupal.org/project/content_moderation_notifications)
-
-`composer require 'drupal/content_moderation_notifications`
-`drush en content_moderation_notifications`
 
 
 <br>
