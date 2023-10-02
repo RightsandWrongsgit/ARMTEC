@@ -16,8 +16,7 @@ If drush isn't already installed and enabled do this:
 
 Confirm the install with this:
 
-`./vendor/bin/drush --version`
-
+`./vendor/bin/drush --version`<br>
 - [Drush is so basic you really need it for all the rest of the module install/enable steps](https://drupalize.me/tutorial/install-drush-using-composer?p=3516)
 - [How to use Drush for your Drupal site](https://www.a2hosting.com/kb/installable-applications/optimization-and-configuration/drupal2/using-drush-for-drupal/#Enabling-modules)
 - [Drupal Command List](https://drushcommands.com/)
@@ -29,8 +28,9 @@ Confirm the install with this:
 [To easily see which environment split you are in](../cicd/envindicator.html)
 
 `composer require drupal/environment_indicator`<br>
-
 `drush en environment_indicator`
+
+<br>
 
 ## Stage File Proxy module
 [Real content sharing from Production to Development Environments](../cicd/stagefileproxy.md)
@@ -39,6 +39,7 @@ Confirm the install with this:
 
 `drush en stage_file_proxy`
 
+<br>
 
 ## PathAuto
 As you build out each page of your site you are presented with an option where you can provide a specific URL for that page.
@@ -53,67 +54,81 @@ And make it look like this.  A more human readable, meaningful URL.
 
 <img src="../modules/images/pathauto2.png"  width="350">
 
-See how the [Pathauto module](https://www.webwash.net/automatically-generate-url-aliases-using-pathauto-drupal-8/) is simply a way that you can make this process more automatic; or hear more about it in a [Podcast Overview](https://www.youtube.com/watch?v=3l8ihak4_uk). If you are building a tiny site then you really aren't leveraging the value of a content managment system like Drupal.  But if you are having frequently updated content, potentially from various sources, even fed to you via RSS, then having more automatic URL naming is important. 
+See how the [Pathauto module](https://www.webwash.net/automatically-generate-url-aliases-using-pathauto-drupal-8/) is simply a way that you can make this process more automatic; or hear more about it in a [Podcast Overview](https://www.youtube.com/watch?v=3l8ihak4_uk). If you are building a tiny site then you really aren't leveraging the value of a content managment system like Drupal.  But if you are having frequently updated content, potentially from various sources, even fed to you via RSS, then having more automatic URL naming is important.<br>
 
-Having it on during development might get you to think about 'naming' with end-user thinking in sight.  Instead of a path that is something like a node and its number you might have a content category and a node title; and you can use 'Tokens' in the naming strategy for the paths. [See adding the Token module](../modules/development.md#token-module) 
+Having it on during development might get you to think about 'naming' with end-user thinking in sight.  Instead of a path that is something like a node and its number you might have a content category and a node title; and you can use 'Tokens' in the naming strategy for the paths. [See adding the Token module.](../modules/development.md#token-module)<br>
 
 `composer require drupal/pathauto`<br>
 `drush en pathauto`
 
+<br>
+
 ## Token module
-It is easiest to think about tokens as variables.  One part of your site might contain a variable like the name of the logged in user and you want to use that variable in another section of the site.  The Token module provides visiblity into the availble variables and the syntax for how you need to refer to them.  
+It is easiest to think about tokens as variables.  One part of your site might contain a variable like the name of the logged in user and you want to use that variable in another section of the site.  The Token module provides visiblity into the availble variables and the syntax for how you need to refer to them.<br>
 
 <img src="../modules/images/token1.png"  width="450">
 
-[This summary](https://gole.ms/blog/tokens-drupal-how-they-work-and-what-they-can-give-your-website) tells more about the basic categories of tokens and how the module helps you use them.  The prior module, PathAuto, is a common one that taps into your site's tokens to spruce up the URLs people see going from page to page.  An overview of [how those two modules work together](https://www.volacci.com/drupal-seo-guide/drupal-token-system) also helps see more clearly how you might use them in other contexts.  [Token's also work with taxonomy in valuable ways](https://www.youtube.com/watch?v=5A3y0N_1Ufk).
+[This summary](https://gole.ms/blog/tokens-drupal-how-they-work-and-what-they-can-give-your-website) tells more about the basic categories of tokens and how the module helps you use them.  The prior module, PathAuto, is a common one that taps into your site's tokens to spruce up the URLs people see going from page to page.  An overview of [how those two modules work together](https://www.volacci.com/drupal-seo-guide/drupal-token-system) also helps see more clearly how you might use them in other contexts.  [Token's also work with taxonomy in valuable ways](https://www.youtube.com/watch?v=5A3y0N_1Ufk).<br>
 
-Install and enable the token module as usual...
+Install and enable the token module as usual...<br>
 
 `composer require drupal/token`<br>
 `drush en token`
 
+<br>
+
 ## Token Filter module
-You are likely to want to use tokens in field replacement values.  This will get you loads more value from Tokens.  To do that you also want to install the [Token Filter module.](https://www.drupal.org/project/token_filter)  You can see [how to use this module in this quick training overview.](https://ostraining.com/blog/drupal/tokens-in-drupal-fields/)  You might use this, for example, by creating a block you place in the footer with your site name and a copywrite notice with date.  You could use your CKEditor to insert the token values for site name and for date in a custom year only format in the block you then place in the footer region of your site.
+You are likely to want to use tokens in field replacement values.  This will get you loads more value from Tokens.  To do that you also want to install the [Token Filter module.](https://www.drupal.org/project/token_filter)  You can see [how to use this module in this quick training overview.](https://ostraining.com/blog/drupal/tokens-in-drupal-fields/)  You might use this, for example, by creating a block you place in the footer with your site name and a copywrite notice with date.  You could use your CKEditor to insert the token values for site name and for date in a custom year only format in the block you then place in the footer region of your site.<br>
 
 `composer require drupal/token_filter`<br>
 `drush en token_filter`
 
+<br>
 
 ## Masquerade module
-This module lets you switch users and back to your own account.  You can experience testing what it is like for various log-in roles. Does it work for an anonomous user, for a logged in non-paid users, for a subscribing user, for a contributing editor, etc.
+This module lets you switch users and back to your own account.  You can experience testing what it is like for various log-in roles. Does it work for an anonomous user, for a logged in non-paid users, for a subscribing user, for a contributing editor, etc.<br>
 
-`composer require drupal/masquerade`
+`composer require drupal/masquerade`<br>
 `drush en masquerade`
 
+<br>
+
 ## Responsive Preview module
-Masquerade gets you the feel of different user type experiences. Responsive Preview gets you the feel of different device experiences. This module provides a way to quickly test the look of your site in various responsive view breakpoints while you are doing development.  They warn it isn't a perfect simulation but pretty solid.
+Masquerade gets you the feel of different user type experiences. Responsive Preview gets you the feel of different device experiences. This module provides a way to quickly test the look of your site in various responsive view breakpoints while you are doing development.  They warn it isn't a perfect simulation but pretty solid.<br>
 
 `composer require drupal/responsive_preview`<br>
 `drush en responsive_preview`
 
+<br>
 
 ## Devel module
-As valuable as masquerading as different users or like you are on different devices may be, having mock content can be very helpful to really get a feel for how a finished site will work.  The Devel modules isgood to generate fake content to better see what things will look like without having to spend a ton of time manually loading real content.  But before you go down that road, if you are using our [CI/CD Process](../book/drupalcicd.md) you may want to consider the fact we are using the [Stage File Proxy Module](../cicd/stagefileproxy.html) to share production ('main') level data with our 'local' lando site in a tight contextual manner that may provide even better full perspective developer experience.
+As valuable as masquerading as different users or like you are on different devices may be, having mock content can be very helpful to really get a feel for how a finished site will work.  The Devel modules isgood to generate fake content to better see what things will look like without having to spend a ton of time manually loading real content.  But before you go down that road, if you are using our [CI/CD Process](../book/drupalcicd.md) you may want to consider the fact we are using the [Stage File Proxy Module](../cicd/stagefileproxy.html) to share production ('main') level data with our 'local' lando site in a tight contextual manner that may provide even better full perspective developer experience.<br>
 
 `composer require 'drupal/devel`<br>
 `drush en devel`
 
+<br>
+
 ## Devel Generate Alternative
 
 ### Add Another module
-You can put this in early if you are dropping in some content while developing so you get a feel for your site but don't like Devel's Generate output as realistic enough.  Or, you can put it in after your site is built and you are loading in a bunch of content one after the next.  What it does is put in an 'Add Another' button to quickly create additions nodes after creating a new node. You can customize the text on that tab with the [Custom Add Another](https://www.drupal.org/project/custom_add_another) module.
+You can put this in early if you are dropping in some content while developing so you get a feel for your site but don't like Devel's Generate output as realistic enough.  Or, you can put it in after your site is built and you are loading in a bunch of content one after the next.  What it does is put in an 'Add Another' button to quickly create additions nodes after creating a new node. You can customize the text on that tab with the [Custom Add Another](https://www.drupal.org/project/custom_add_another) module.<br>
 
 `composer require drupal/addanother`<br>
 `drush en addanother`
 
+<br>
+
 ## WebProfiler module
-WebProfiler adds a toolbar at the bottom of every page and shows you all sorts of stats such as the amount of database queries loaded on the page, which services are used and much more. This was previously part of the Devel module but is now separate.
+WebProfiler adds a toolbar at the bottom of every page and shows you all sorts of stats such as the amount of database queries loaded on the page, which services are used and much more. This was previously part of the Devel module but is now separate.<br>
 
 `composer require drupal/webprofiler`<br>
 `drush en webprofiler`
 
+<br>
+
 ## Devel Kint Extras module
-This module was parsed out of the prior Devel module into a separate tool.  Makes sense because this tool starts to move you past a site builder level to true developer skill set. The [Kint Debugging Tool](https://kint-php.github.io/kint/) might be of interest only to some of the more advanced users.
+This module was parsed out of the prior Devel module into a separate tool.  Makes sense because this tool starts to move you past a site builder level to true developer skill set. The [Kint Debugging Tool](https://kint-php.github.io/kint/) might be of interest only to some of the more advanced users.<br>
 
 `composer require drupal/devel_kint_extras`<br>
 `drush en webprofiler`
@@ -121,9 +136,9 @@ This module was parsed out of the prior Devel module into a separate tool.  Make
 <br>
 
 ## Admin Toolbar module
-This is an alternative layout to the out-of-the-box toolbar that developers and site builders normally work with.  It used more of the vertical space of a pulldown style tool bar rather than drilling page by page into submenus; thus faster for developers.
+This is an alternative layout to the out-of-the-box toolbar that developers and site builders normally work with.  It used more of the vertical space of a pulldown style tool bar rather than drilling page by page into submenus; thus faster for developers.<br>
 
-`composer require 'drupal/admin_toolbar`
+`composer require 'drupal/admin_toolbar`<br>
 `drush en admin_toolbar
 
 <br>
@@ -140,7 +155,7 @@ Is a 'maybe' addition to development and content editing.  It does NOT retain pu
 
 ## Feeds module
 
-Can be used to [grab CSV and other file format data plus HTML from another site, and import it.](https://www.youtube.com/watch?v=VcooCT50PFY)  It is another candidate for pulling in Taxonomies or even things like an airport data sets to preload nodes for all the airports.  Don't forget the 'Feeds Tamper' module that works with it to add more functionality like string replacements or other file manipulation functions for cleanup actions during import.  Those can be increasingly important if you are creating a dyanamic feed update with the time based function that is retrieving information from say a remote URL or other source system.
+Can be used to [grab CSV and other file format data plus HTML from another site, and import it.](https://www.youtube.com/watch?v=VcooCT50PFY)  It is another candidate for pulling in Taxonomies or even things like an airport data sets to preload nodes for all the airports.  Don't forget the 'Feeds Tamper' module that works with it to add more functionality like string replacements or other file manipulation functions for cleanup actions during import.  Those can be increasingly important if you are creating a dyanamic feed update with the time based function that is retrieving information from say a remote URL or other source system.<br>
 
 Review module status [here to make sure it meets your stablity requirement settings.](https://www.drupal.org/project/feeds)
 
@@ -149,62 +164,62 @@ Review module status [here to make sure it meets your stablity requirement setti
 ## Development Mode module
 
 This module is to stop cache, aggregation, turn on debug, in your 'Development' Split.  If you use the [Drupal CI/CD Project workflow template](..cicd/cicdoverview.md) 
- provided elsewhere on this site, you do NOT need to add this module because the functions it provides have already been incorporated via other means. 
-
-`composer require –dev drupal/dev_mode`
+ provided elsewhere on this site, you do NOT need to add this module because the functions it provides have already been incorporated via other means. <br>
+ 
+`composer require –dev drupal/dev_mode`<br>
 `drush en dev_mode`
 
 <br>
 
 ## Backup and Migrate module
 
-Using the [Drupal CI/CD Project workflow template,](..cicd/cicdoverview.md) provided elsewhere on this site, you do NOT need to add this module because you are going to set up your backup in the Platform.sh host and your Git Repository version control system.  However, it might come in to play for migration of a site later in your development or site building work.
+Using the [Drupal CI/CD Project workflow template,](..cicd/cicdoverview.md) provided elsewhere on this site, you do NOT need to add this module because you are going to set up your backup in the Platform.sh host and your Git Repository version control system.  However, it might come in to play for migration of a site later in your development or site building work.<br>
 
-`composer require drupal/backup_migrate`
+`composer require drupal/backup_migrate`<br>
 `drush en backup_migrate`
 
 <br>
 
 ## Password Reset Landing Page module
 
-Because users forget to change their password after using a one time login link in their password reset email this module enhances the original password reset landing page by letting a user set their new password at the same time they "log in" using the one-time-login link. 
+Because users forget to change their password after using a one time login link in their password reset email this module enhances the original password reset landing page by letting a user set their new password at the same time they "log in" using the one-time-login link.<br>
 
-`composer require drupal/prlp`
+`composer require drupal/prlp`<br>
 `drush en prlp`
 
 <br>
 
 ## Super Login module
 
-Take control of the appearance of the log in.
+Take control of the appearance of the log in.<br>
 
-So people might login via Email or username, email only or username only.  You can also adjust the layout and theming of the forms to be more user friendly and visually pleasing. The module's theme can be turned off and customized in your own stylesheets.  Show a caps lock warning message and control other presentation things.
+So people might login via Email or username, email only or username only.  You can also adjust the layout and theming of the forms to be more user friendly and visually pleasing. The module's theme can be turned off and customized in your own stylesheets.  Show a caps lock warning message and control other presentation things.<br>
 
-`composer require drupal/super_login`
+`composer require drupal/super_login`<br>
 `drush en super_login`
 
 <br>
 
 ## Login w/Google modules
 
-This is a group of modules that takes a little set up but allows users to login with their Google account.  The [Login with Google module set up steps](https://www.codimth.com/blog/web/drupal/how-login-google-drupal-8-9)  provides the details on how to do this.
+This is a group of modules that takes a little set up but allows users to login with their Google account.  The [Login with Google module set up steps](https://www.codimth.com/blog/web/drupal/how-login-google-drupal-8-9)  provides the details on how to do this.<br>
 
 <br>
 
 ## Redirect module
 
-Assures external links back to your site pages work if you change your site but want to assure its connections by others to your prior site are retained and credited.
+Assures external links back to your site pages work if you change your site but want to assure its connections by others to your prior site are retained and credited.<br>
 
-`composer require drupal/redirect`
+`composer require drupal/redirect`<br>
 `drush en redirect`
 
 <br>
 
 ## Ctools or Chaos Tools module
 
-If you just installed PathAuto, it already installed Ctools.
+If you just installed PathAuto, it already installed Ctools.<br>
 
-`composer require drupal/ctools`
+`composer require drupal/ctools`<br>
 `drush en ctools`
 
 
