@@ -1,14 +1,15 @@
 
-# Development Tools Modules
+# Development Tools 
 
 ## Drush
+
 You would have installed this if you followed the building of or cloning of the CI/CD Project.  
 
 Consider Drush foundational.  It is a convenient way to execute many important commands much more quickly than winding through the GUI menu of Drupal Administration.  One of the most fundamental of all is to 'secure what you have done' by making an exported copy of your site configuration.  There is a GUI (graphical user interface) under the Administration/configuration called 'configuration synchronization' that can do this too but sometimes the GUI is more confusing and certainly a lot slower than just [exporting a configuration](../cicd/configatroot.md#site-configuration-export-AND-import) ...
 
 		`lando drush config-export`    OR      `lando drush cex`
 
-<font color=yellow>NOTE: If we want to 'bailout' because we messed up what were were changing we can always just import back in the prior existing configuration with `lando drush cim`.</font>
+<font color=yellow>NOTE: If we want to 'bailout' because we messed up what were were changing we can always just import back in the prior existing configuration with `lando drush cim`.</font><br>
 
 If drush isn't already installed and enabled do this:
 
@@ -138,7 +139,7 @@ This module was parsed out of the prior Devel module into a separate tool.  Make
 This is an alternative layout to the out-of-the-box toolbar that developers and site builders normally work with.  It used more of the vertical space of a pulldown style tool bar rather than drilling page by page into submenus; thus faster for developers.<br>
 
 `composer require 'drupal/admin_toolbar`<br>
-`drush en admin_toolbar
+`drush en admin_toolbar`
 
 <br>
 
