@@ -16,7 +16,7 @@ The [Drupal.org documentation on core content moderation](https://www.drupal.org
 
 <br>
 
-# Enhancement to Core
+# Enhance Core
 
 ## Bulk Publishing
 
@@ -76,6 +76,8 @@ An emerging power player is the [Content Planner module.](https://www.drupal.org
 `drush en content_planner`
 
 <br>
+
+## Workbench
 
 It is worth really thinking through the approach you will take to content moderation in terms of roles involved, process control steps you want to assure quality, how notification of pending steps between people should occur, and more.  [Advanced Content Moderation in Drupal is a video that provides a good overall perspective.](https://www.youtube.com/watch?v=A5Gi8JAry8Q)  If you find you are going to have a bunch of content editors and approvers in a workflow, you might consider a streamline interface UI for these roles by using [Workbench, Workbench Moderation, Workbench Email](https://www.youtube.com/watch?v=VEUZeWOrDeo) or [Content Moderation Notifications](https://drupalize.me/tutorial/overview-workflows-and-content-moderation) contrib modules.
 
@@ -141,8 +143,9 @@ In your dreams there is a large truck and that nasty big boss who cuts apart you
 
 <br>
 
-## [Field Permissions Module](https://www.drupal.org/project/field_permissions)
-You can set role permissions from the admin section of Core.  But you can move that further with the field level permissions module.<br>
+## Field Permissions module
+
+With the [Field Permissions Module](https://www.drupal.org/project/field_permissions)  you can move further with the field level permissions  than you can from the admin section of Core.<br>
 
 `composer require drupal/field_permissions`<br>
 `drush en field_permissions`
