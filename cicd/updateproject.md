@@ -104,6 +104,7 @@ You shouldn't have to worry about this because Lando inherits the environment se
 <br>
 
 ##### [Make UPDATES; do it in your local lando copy](updateproject.md#update-tricks-and-traps)<br>
+- Make updates... (e.g. [like to Core here](cicd/updateproject.md#drupal-core-update)
 - Run `lando rebuild`, check the updated local running project URL to confirm you got what you wanted
 - Commit/Sync the Lando 'local' copy
 - Check the project GitHub repository to confirm the 'develop' branch update<br>
@@ -283,7 +284,7 @@ In your VSCode IDE do a 'Commit/Sync' to move the local file changes up to the p
 
 Go into the Platform.sh Administrative screen and watch that the 'develop' branch updates.  Refresh you browser until you see the branch update spinning wheel has finished.  If the branch is bright, go into it and click on its URL to check it.  If the branch is washed out, go into it and click on the cogwheel on the upper right check it says it's parent is 'staged' and "save" and then run 'reactivate' the branch; then go into its URL to check it.
 
-Go bach to your VSCode IDE and change to the 'staged' branch in the lower left corner.  Click on the Source Code icon in the lefthand activity bar and then at the end of the source code line click on the three dots.  From the menu that opens, select "Branch" and then "Merge".  When the command bar opens and asks "Merge <font color=yellow>from</font> where" tell it from the 'develop' branch. Then tell it the name of the branch you want to call it is 'staged'. 
+Go back to your VSCode IDE and change to the 'staged' branch in the lower left corner.  Click on the Source Code icon in the lefthand activity bar and then at the end of the source code line click on the three dots.  From the menu that opens, select "Branch" and then "Merge".  When the command bar opens and asks "Merge <font color=yellow>from</font> where" tell it from the 'develop' branch. Then tell it the name of the branch you want to call it is 'staged'. 
 
 Go into the Platform.sh Administrative screen and watch that the 'staged' branch updates. Go into check it.  It is possible that you may find an error related to differences between the underlying database and the configuration files.  <font color=HotPink>This just means you need to look under "Configuration/Configuration Synchronization" and run the update.</font>
 
