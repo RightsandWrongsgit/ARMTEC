@@ -17,6 +17,12 @@ The Drupal version used in this [overview video](https://www.youtube.com/watch?v
 Don't forget to checkout the [Website Feedback Module](../modules/activesite.md#website-feedback-module) as an alternative or addition to the Flag Module.  What if offers is to provide an opportunity to report specifics about a node or page, perhaps with a screenshot to help elaborate the issue.  
 
 
+## Rating Feedback Module
+
+Sometimes you want to have people put stars on something to indicate how much they like it.  You can associate this capability with any content type your want but it might be nice on something like articles where you want to capture how much people like particular stories or authors.  The [FiveStar module]
+(https://www.drupal.org/project/fivestar) is a good option.  Here is an [overview of an example approach](https://www.symphonythemes.com/drupal-blog/drupal-tutorial-rating-parent-nodes-comments-votes-fivestar)
+
+
 <br>
 <br>
 <br>
