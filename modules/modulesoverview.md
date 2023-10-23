@@ -46,6 +46,7 @@ When you think about adding modules to your Drupal website on top of the [CI/CD 
   - [Taxonomy](/modules/taxonomy.md)
   - [Faceted Search](/modules/facetedsearch.md)
   - [Entity Edits/Links/Reference](/modules/entityref.md)
+  - [Content Type Entity](/modules/contenttype.md)
   - [Views](/modules/views.md)
     - [Create a Search Page with Views](https://www.webwash.net/search-page-using-views-in-drupal/)
     - [Create your own Administration Page with Views](https://www.webwash.net/create-admin-page-using-views-in-drupal/)
