@@ -19,8 +19,7 @@ Don't forget to checkout the [Website Feedback Module](../modules/activesite.md#
 
 ## Rating Feedback Module
 
-Sometimes you want to have people put stars on something to indicate how much they like it.  You can associate this capability with any content type your want but it might be nice on something like articles where you want to capture how much people like particular stories or authors.  The [FiveStar module]
-(https://www.drupal.org/project/fivestar) is a good option.  Here is an [overview of an example approach](https://www.symphonythemes.com/drupal-blog/drupal-tutorial-rating-parent-nodes-comments-votes-fivestar)
+Sometimes you want to have people put stars on something to indicate how much they like it.  You can associate this capability with any content type your want but it might be nice on something like articles where you want to capture how much people like particular stories or authors.  The [FiveStar module](https://www.drupal.org/project/fivestar) is a good option.  Here is an [overview of an example approach](https://www.symphonythemes.com/drupal-blog/drupal-tutorial-rating-parent-nodes-comments-votes-fivestar)
 
 
 <br>
