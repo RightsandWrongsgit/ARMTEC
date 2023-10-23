@@ -101,7 +101,7 @@ You can also leverage the powerful [Permissions by Term](https://www.youtube.com
 
 If you are dealing with a large taxonomy it is likely it has some sort of hierarchical depth to it.  A list of every country in the world perhaps first presented by its continent or hemisphere might be an example.  You might want to leverage on of these hierarchy select modules to work with such a taxonomy.  
 
-The [Client-Side Hierarchy Select module](https://www.drupal.org/project/cshs) is used to provide a field widget for selecting taxonomy terms in a hierarchical fashion.  By preloading a taxonomy's hierarchy the client browser it provides select boxes to allow a user to pick options one by one with a parent-child-grandchild sequence set by the depth you select.  Very go for complex hierarchies with many levels.
+The [Client-Side Hierarchy Select module](https://www.drupal.org/project/cshs) is used to provide a field widget for selecting taxonomy terms in a hierarchical fashion.  By preloading a taxonomy's hierarchy the client browser it provides select boxes to allow a user to pick options one by one with a parent-child-grandchild sequence set by the depth you select.  Very good for complex hierarchies with many levels.  [Nice Example Video!](https://www.youtube.com/watch?v=jq7p98wXWkA)
 
 There is another [module called Simple Hierarchy Select](https://www.drupal.org/project/shs) with similar intent.  While dated in version, its principles are the same as in this [video on Simple Hierarchy Select](https://www.webwash.net/using-simple-hierarchical-select-module-in-drupal-7/)
 
