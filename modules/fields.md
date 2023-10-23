@@ -69,7 +69,7 @@ Control how you open a linked site; as a frame within yours or as a separate bro
 
 ## Token
 
-The [token](../modules/development.md#token) module isn't exactly a field addition in the sense of the others in this section.  However, it sort of is used with the same line of thinking in some of the things you will do with it.  It may be one of the most powerful modules in Drupal because it exposes all the underlying parts such that you can grab and use them; not just in additionally displaying them but also in applying logic with them like filtering views, combining them, etc.
+The [token](../modules/development.md#token-module) module isn't exactly a field addition in the sense of the others in this section.  However, it sort of is used with the same line of thinking in some of the things you will do with it.  It may be one of the most powerful modules in Drupal because it exposes all the underlying parts such that you can grab and use them; not just in additionally displaying them but also in applying logic with them like filtering views, combining them, etc.
 
 `composer require drupal/token`<br>
 `drush en token`
