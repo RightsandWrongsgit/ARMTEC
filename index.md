@@ -2,7 +2,7 @@
 ## Starting a business, learning to code, need some hints ...
 #### Consider us Your Chief Performance Officer
 
-Start your journey to success with ARMTEC, your Chief Performance Officer. We offer the tools and resources you need to excel in starting a business or learning to code. Our ["Open Source"](book/opensource.md#you--open-source) approach ensures transparency and accessibility to all. Whether you prefer self-service or expert guidance, ARMTEC has you covered. Access our comprehensive solutions to fill any gaps in your project and save time and money. Partner with us for a well-coordinated and successful outcome. Contact ARMTEC today and take the first step towards your goals. 
+Start your journey to success with ARMTEC, Inc. We offer the tools and resources you need to excel in starting a business or learning to code. Our ["Open Source"](book/opensource.md#you--open-source) approach ensures transparency and accessibility to all. Whether you prefer self-service or expert guidance, ARMTEC has you covered. Access our comprehensive solutions to fill any gaps in your project and save time and money. Partner with us for a well-coordinated and successful outcome. [Contact ARMTEC](contact.md) today and take the first step towards your goals. 
 
 ## What's here
 
