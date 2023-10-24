@@ -1,5 +1,5 @@
 
-<img src="../assets/images/ARMTEC Logo Medium+.png"  width="750">
+
 
 ARMTEC, Inc. helps organizations achieve profitable strategic performance, even non-profits. Profit is seen as a measure of efficiency, and reinvesting it can further the organization's mission.
 
