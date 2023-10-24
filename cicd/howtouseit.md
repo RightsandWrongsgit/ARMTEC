@@ -138,7 +138,19 @@ That will lead to a "Configure your integration" screen asking for you to input 
 
 ## Token from GitHub
 
-Go to your project on GitHub. In the upper-right corner click on your profile photo, then click Settings. When the left sidebar opens, way at the botton of the list click Developer settings. Then within that left sidebar, click Personal access tokens. Click Generate new token. You will see a short list with things like GitHub Apps, OAuth Apps, and Personal Access Tokens; click the down arrow of the later and you will see options.  Most likely you will want the "Tokens (classic)" option unless you want to dig more into what was a "beta" test alternative as this is being written.  
+Go to your project on GitHub. In the upper-right corner click on your profile photo, then click Settings. 
+
+<img src="../cicd/captures/githubtoken1.png"  width="300">
+
+When the left sidebar opens, way at the botton of the list click Developer settings. 
+
+<img src="../cicd/captures/githubtoken2.png"  width="300">
+
+Then within that left sidebar, click Personal access tokens. 
+
+<img src="../cicd/captures/githubtoken3.png"  width="300">
+
+Click Generate new token. You will see a short list with things like GitHub Apps, OAuth Apps, and Personal Access Tokens; click the down arrow of the later and you will see options.  Most likely you will want the "Tokens (classic)" option unless you want to dig more into what was a "beta" test alternative as this is being written.  
 
 Do take advantage of the "Note" box and write something like Platform.sh integration into it just as a reminder what this token was generated for.  The duration of the token is something you should make a careful choice about in that "Expiration" pulldown.  Too short and you will be back trying to figure out how to regeneration & restore, too long and you have a security risk.<br>
 
