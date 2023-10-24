@@ -1,5 +1,5 @@
 
- <img src="/ARMTEC/book/images/media/ARMTEC-Logo-Medium+.png" alt="Logo" />
+ <img src="/ARMTEC/book/images/media/ARMTEC-Logo-Medium+.png" alt="Logo">
 
 
 Contact Us --
