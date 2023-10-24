@@ -11,7 +11,7 @@ Phone: 812-480-6547
 <br>
 <br>
 
-[Learn More - Business Chapter Index](../chapters.md#business)
+[Learn More - Business Chapter Index](chapters.md#business)
 
 <br>
 <br>
