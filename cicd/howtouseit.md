@@ -93,77 +93,6 @@ You will use that later while working with your project on your local machine be
 
 The rest of the stuff we will accomplish via things already set up in the project you will pull in from GitHub, so after you install the CLI, just "X-out" of this screen.<br>
 
-<br>
-
-Once you are at the basic project screen for your new project, you will find it has a blue "go live" button and to the right of that a little Cogwheel.  Click on the Cogwheel to open settings options.<br>
-
-<img src="../cicd/captures/howtouseit37a.png"  width="400">
-
-<br>
-
-There are two main options under settings, "Project Settings" and "Environments".  Click the "Project Settings" option to open its pulldown menu.<br>
-
-<img src="../cicd/captures/howtouseit37b.png"  width="200">
-
-<br>
-
-Near the end of that menu you will see the critical <font color=LightBlue>"Integrations"</font> option; select it.<br>
-
-<img src="../cicd/captures/howtouseit37c.png"  width="200">
-
-<br>
-
-That will pop open a screen showing some integration options and features.  You want to go to the blue button in the upper right saying "Add integration" and click on it.<br>
-
-<img src="../cicd/captures/howtouseit38.png"  width="700">
-
-<br>
-
-Click this button...<br>
-<img src="../cicd/captures/howtouseit39.png"  width="200">
-
-<br>
-
-This leads you to the "Select integration" options and you will hit the "+Add" under the GitHub option.<br>
-
-<img src="../cicd/captures/howtouseit40.png"  width="700">
-
-<br>
-
-That will lead to a "Configure your integration" screen asking for you to input a GitHub <font color=yellow>Access Token.</font><br>
-
-<img src="../cicd/captures/howtouseit41.png"  width="700">
-
-<font color=HotPink>Keep that page open and click the "Generate a new token" so it opens in a new browser tab.</font><br>
-
-## Token from GitHub
-
-Go to your project on GitHub. In the upper-right corner click on your profile photo, then click Settings. 
-
-<img src="../cicd/captures/githubtoken1.png"  width="300">
-
-When the left sidebar opens, way at the botton of the list click Developer settings. 
-
-<img src="../cicd/captures/githubtoken2.png"  width="300">
-
-Then within that left sidebar, click Personal access tokens. 
-
-<img src="../cicd/captures/githubtoken3.png"  width="300">
-
-Click Generate new token. You will see a short list with things like GitHub Apps, OAuth Apps, and Personal Access Tokens; click the down arrow of the later and you will see options.  Most likely you will want the "Tokens (classic)" option unless you want to dig more into what was a "beta" test alternative as this is being written.  
-
-Do take advantage of the "Note" box and write something like Platform.sh integration into it just as a reminder what this token was generated for.  The duration of the token is something you should make a careful choice about in that "Expiration" pulldown.  Too short and you will be back trying to figure out how to regeneration & restore, too long and you have a security risk.<br>
-
-<img src="../cicd/captures/howtouseit42.png"  width="700">
-
-<br>
-
-The options available with Token's would be a book in and of itself.  They are listed with the continued screen shots but you are likely to just leave them in default settings as you start out.<br>
-
-<img src="../cicd/captures/howtouseit42.png"  width="400">
-<img src="../cicd/captures/howtouseit43.png"  width="400">
-<img src="../cicd/captures/howtouseit44.png"  width="400">
-<img src="../cicd/captures/howtouseit45.png"  width="400">
 
 ## Bring Project Local
 
@@ -218,6 +147,82 @@ Stop and study that screen shot for a moment.  There are some things you need to
 Now look in the upper right panel and it is blank or empty.  That is because you haven't pointed at any file from the directory list in the left panel.  If you don't see the directories and files in the left panel, click on that icon that looks like two pages from a book and the list will show up.  Then go down that list, find a file, and click on it.  That file will open in the upper right page so you can see its contents.<br>
 
 Finally, look in the extreme lower left corner and it says 'main' just to the right of the tiny blue box with opposing arrowheads.  That says you are on the 'main' branch.  You <font color=yellow>DO NOT WANT TO WORK FROM 'Main'.</font><br>
+
+
+
+<br>
+
+Once you are at the basic project screen for your new project, you will find it has a blue "go live" button and to the right of that a little Cogwheel.  Click on the Cogwheel to open settings options.<br>
+
+<img src="../cicd/captures/howtouseit37a.png"  width="400">
+
+<br>
+
+There are two main options under settings, "Project Settings" and "Environments".  Click the "Project Settings" option to open its pulldown menu.<br>
+
+<img src="../cicd/captures/howtouseit37b.png"  width="200">
+
+<br>
+
+Near the end of that menu you will see the critical <font color=LightBlue>"Integrations"</font> option; select it.<br>
+
+<img src="../cicd/captures/howtouseit37c.png"  width="200">
+
+<br>
+
+That will pop open a screen showing some integration options and features.  You want to go to the blue button in the upper right saying "Add integration" and click on it.<br>
+
+<img src="../cicd/captures/howtouseit38.png"  width="700">
+
+<br>
+
+Click this button...<br>
+<img src="../cicd/captures/howtouseit39.png"  width="200">
+
+<br>
+
+This leads you to the "Select integration" options and you will hit the "+Add" under the GitHub option.<br>
+
+<img src="../cicd/captures/howtouseit40.png"  width="700">
+
+<br>
+
+That will lead to a "Configure your integration" screen asking for you to input a GitHub <font color=yellow>Access Token.</font><br>
+
+<img src="../cicd/captures/howtouseit41.png"  width="700">
+
+<font color=HotPink>Keep that page open and click the "Generate a new token" so it opens in a new browser tab.</font><br>
+
+## Token from GitHub
+
+Go to your project on GitHub. In the upper-right corner click on your profile photo, then click Settings. 
+
+<img src="../cicd/captures/githubtoken1.png"  width="200">
+
+When the left sidebar opens, way at the botton of the list click Developer settings. 
+
+<img src="../cicd/captures/githubtoken2.png"  width="200">
+
+Then within that left sidebar, click Personal access tokens. 
+
+<img src="../cicd/captures/githubtoken3.png"  width="200">
+
+Click Generate new token. You will see a short list with things like GitHub Apps, OAuth Apps, and Personal Access Tokens; click the down arrow of the later and you will see options.  Most likely you will want the "Tokens (classic)" option unless you want to dig more into what was a "beta" test alternative as this is being written.  
+
+Do take advantage of the "Note" box and write something like Platform.sh integration into it just as a reminder what this token was generated for.  The duration of the token is something you should make a careful choice about in that "Expiration" pulldown.  Too short and you will be back trying to figure out how to regeneration & restore, too long and you have a security risk.<br>
+
+<img src="../cicd/captures/howtouseit42.png"  width="700">
+
+<br>
+
+The options available with Token's would be a book in and of itself.  They are listed with the continued screen shots but you are likely to just leave them in default settings as you start out.<br>
+
+<img src="../cicd/captures/howtouseit42.png"  width="400">
+<img src="../cicd/captures/howtouseit43.png"  width="400">
+<img src="../cicd/captures/howtouseit44.png"  width="400">
+<img src="../cicd/captures/howtouseit45.png"  width="400">
+
+
 
 
 ## Make some Branches
