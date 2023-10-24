@@ -9,12 +9,9 @@ Phone: 812-480-6547<br>
 
 <br>
 <br>
-<br>
 
 [Learn More - Business Chapter Index](chapters.md#business)
 
-<br>
-<br>
 <br>
 
 [Site by ARMTEC](https://www.drupal.org/u/emofsnead){:target="_blank"}
