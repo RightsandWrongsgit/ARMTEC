@@ -1,5 +1,3 @@
-
- <img src="/ARMTEC/book/images/media/ARMTEC Logo Medium+.png" alt="Logo">
  
 <img src="book/images/media/ARMTEC Logo Medium+.png" alt="Logo">
 
