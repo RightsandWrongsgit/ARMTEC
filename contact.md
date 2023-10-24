@@ -1,11 +1,11 @@
  
 <img src="book/images/media/ARMTEC Logo Medium+.png" alt="Logo">
 
-Contact Us --
-
-Email: Armtec_Inc@yahoo.com
-FAX: 941-722-7364
-Phone: 812-480-6547
+Contact Us --<br>
+<br>
+Email: ARMTEC_Inc@yahoo.com<br>
+FAX: 941-722-7364<br>
+Phone: 812-480-6547<br>
 
 <br>
 <br>
