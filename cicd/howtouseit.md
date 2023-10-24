@@ -89,10 +89,11 @@ You will use that later while working with your project on your local machine be
 
 <img src="../cicd/captures/howtouseit36a.png"  width="600">
 
-<br>
-
 The rest of the stuff we will accomplish via things already set up in the project you will pull in from GitHub, so after you install the CLI, just "X-out" of this screen.<br>
 
+Don't be tempted to go through the additional Platform.sh described steps just yet.  You see, you will get part way into it and to achieve the integration of the Platform.sh host with your project's code in GitHub you will need to have also established the 'local' copy of your project code where you will be working.  Let's bring it local now!<br>
+
+<br>
 
 ## Bring Project Local
 
