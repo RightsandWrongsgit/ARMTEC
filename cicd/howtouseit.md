@@ -158,7 +158,7 @@ Go to your project on GitHub. In the upper-right corner click on your profile ph
 
 <img src="../cicd/captures/githubtoken1.png"  width="200">
 
-When the left sidebar opens, way at the botton of the list click Developer settings. 
+When the left sidebar opens, way at the bottom of the list click Developer settings. 
 
 <img src="../cicd/captures/githubtoken2.png"  width="200">
 
