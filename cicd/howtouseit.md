@@ -218,13 +218,15 @@ This leads you to the "Select integration" options and you will hit the "+Add" u
 
 <br>
 
-That will lead to a "Configure your integration" screen asking for you to input a GitHub <font color=yellow>Access Token.</font><br>
+That will lead to a "Configure your integration" screen asking for you to input a GitHub <font color=yellow>Access Token.</font  So paste that token you just generated in here. ><br>
 
 <img src="../cicd/captures/howtouseit41.png"  width="700">
 
 <font color=HotPink>Keep that page open and click the "Generate a new token".  GitHub will open in a new browser tab or you can just click on the tab you have open for the GitHub copy of your project.</font><br>
 
+When the second screen pops open, you will find a pull down box where you select the project repository you want link. Just select the project name you gave to your project on GitHub and you are ready to rock.<br>
 
+<br>
 
 ## Make some Branches
 
