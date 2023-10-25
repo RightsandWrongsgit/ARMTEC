@@ -158,9 +158,13 @@ This step will work best if you plan to keep tabs open for both your GitHub acco
 
 ## Insert SSH set up step here!
 
+<img src="../cicd/captures/deploykeygithub1.png"  width="400">
 
+<img src="../cicd/captures/deploykeygithub2.png"  width="400">
 
+<img src="../cicd/captures/deploykeyplatformsh4.png"  width="400">
 
+<img src="../cicd/captures/deploykeyplatformsh5.png"  width="400">
 
 
 Start on the Platform.sh tab and you will find it has a blue "go live" button and to the right of that a little Cogwheel.  Click on the Cogwheel to open settings options.<br>
