@@ -178,11 +178,12 @@ Out the gate, basically just select all the top level options except those invol
 
 <img src="../cicd/captures/tokenoptions.png"  width="600">
 
+<br>
+Click "Generate Token".  After it does so, copy that token and save it somewhere safe.  Also keep that copy of the token ready for a second paste in the next step.  This step will work best if you plan to keep tabs open for both your GitHub account copy of the project and the Platform.sh copy in another tab.  Then you can click between the two for the copy and paste needs.<br>
+
 ## Token Connection
 
-This step will work best if you plan to keep tabs open for both your GitHub account copy of the project and the Platform.sh copy in another tab.  Then you can click between the two for some copy and paste needs.<br>
-
-Start on the Platform.sh tab and you will find it has a blue "go live" button and to the right of that a little Cogwheel.  Click on the Cogwheel to open settings options.<br>
+On the Platform.sh tab and you will find it has a blue "go live" button and to the right of that a little Cogwheel.  Click on the Cogwheel to open settings options.<br>
 
 <img src="../cicd/captures/howtouseit37a.png"  width="400">
 
