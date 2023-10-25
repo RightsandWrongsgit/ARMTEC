@@ -151,21 +151,36 @@ Finally, look in the extreme lower left corner and it says 'main' just to the ri
 
 <br>
 
-## SSH & Token Connect the parts
+
+## Token from GitHub
+
+Go to your project on GitHub. In the upper-right corner click on your profile photo, then click Settings. 
+
+<img src="../cicd/captures/githubtoken1.png"  width="200">
+
+When the left sidebar opens, way at the botton of the list click Developer settings. 
+
+<img src="../cicd/captures/githubtoken2.png"  width="200">
+
+Then within that left sidebar, click Personal access tokens. 
+
+<img src="../cicd/captures/githubtoken3.png"  width="200">
+
+Click Generate new token. You will see a short list with things like GitHub Apps, OAuth Apps, and Personal Access Tokens; click the down arrow of the later and you will see options.  Most likely you will want the "Tokens (classic)" option unless you want to dig more into what was a "beta" test alternative as this is being written.  
+
+Do take advantage of the "Note" box and write something like Platform.sh integration into it just as a reminder what this token was generated for.  The duration of the token is something you should make a careful choice about in that "Expiration" pulldown.  Too short and you will be back trying to figure out how to regeneration & restore, too long and you have a security risk.<br>
+
+<img src="../cicd/captures/howtouseit42.png"  width="700">
+
+<br>
+
+Out the gate, basically just select all the top level options except those involving "deletes", because your Platform.sh will mirror GitHub not the reverse.  You also may not need the "enterprise" option depending on how your expect to work.  Fully understanding all the options available with Token's would be a book in and of itself.  You can alway go back and generate a different token and relink your project later if you find some other option choices better fit your specific needs.<br>
+
+<img src="../cicd/captures/tokenoptions.png"  width="600">
+
+## Token Connection
 
 This step will work best if you plan to keep tabs open for both your GitHub account copy of the project and the Platform.sh copy in another tab.  Then you can click between the two for some copy and paste needs.<br>
-
-
-## Insert SSH set up step here!
-
-<img src="../cicd/captures/deploykeygithub1.png"  width="400">
-
-<img src="../cicd/captures/deploykeygithub2.png"  width="400">
-
-<img src="../cicd/captures/deploykeyplatformsh4.png"  width="400">
-
-<img src="../cicd/captures/deploykeyplatformsh5.png"  width="400">
-
 
 Start on the Platform.sh tab and you will find it has a blue "go live" button and to the right of that a little Cogwheel.  Click on the Cogwheel to open settings options.<br>
 
@@ -207,34 +222,6 @@ That will lead to a "Configure your integration" screen asking for you to input 
 <img src="../cicd/captures/howtouseit41.png"  width="700">
 
 <font color=HotPink>Keep that page open and click the "Generate a new token".  GitHub will open in a new browser tab or you can just click on the tab you have open for the GitHub copy of your project.</font><br>
-
-## Token from GitHub
-
-Go to your project on GitHub. In the upper-right corner click on your profile photo, then click Settings. 
-
-<img src="../cicd/captures/githubtoken1.png"  width="200">
-
-When the left sidebar opens, way at the botton of the list click Developer settings. 
-
-<img src="../cicd/captures/githubtoken2.png"  width="200">
-
-Then within that left sidebar, click Personal access tokens. 
-
-<img src="../cicd/captures/githubtoken3.png"  width="200">
-
-Click Generate new token. You will see a short list with things like GitHub Apps, OAuth Apps, and Personal Access Tokens; click the down arrow of the later and you will see options.  Most likely you will want the "Tokens (classic)" option unless you want to dig more into what was a "beta" test alternative as this is being written.  
-
-Do take advantage of the "Note" box and write something like Platform.sh integration into it just as a reminder what this token was generated for.  The duration of the token is something you should make a careful choice about in that "Expiration" pulldown.  Too short and you will be back trying to figure out how to regeneration & restore, too long and you have a security risk.<br>
-
-<img src="../cicd/captures/howtouseit42.png"  width="700">
-
-<br>
-
-Out the gate, basically just select all the top level options except those involving "deletes", because your Platform.sh will mirror GitHub not the reverse.  You also may not need the "enterprise" option depending on how your expect to work.  Fully understanding all the options available with Token's would be a book in and of itself.  You can alway go back and generate a different token and relink your project later if you find some other option choices better fit your specific needs.<br>
-
-<img src="../cicd/captures/tokenoptions.png"  width="600">
-
-
 
 
 
