@@ -147,13 +147,23 @@ Stop and study that screen shot for a moment.  There are some things you need to
 
 Now look in the upper right panel and it is blank or empty.  That is because you haven't pointed at any file from the directory list in the left panel.  If you don't see the directories and files in the left panel, click on that icon that looks like two pages from a book and the list will show up.  Then go down that list, find a file, and click on it.  That file will open in the upper right page so you can see its contents.<br>
 
-Finally, look in the extreme lower left corner and it says 'main' just to the right of the tiny blue box with opposing arrowheads.  That says you are on the 'main' branch.  You <font color=yellow>DO NOT WANT TO WORK FROM 'Main'.</font><br>
-
-
+Finally, look in the extreme lower left corner and it says 'main' just to the right of the tiny blue box with opposing arrowheads.  That says you are on the 'main' branch.  You <font color=yellow>DO NOT WANT TO WORK FROM 'Main'.</font><br>  So we will split off 'staged' and 'develop' branches shortly.  But before we do that, you are now ready to connect the local copy, the GitHub copy and the Platform.sh copy of 'main' so they all talk to one another behind the scenes.  To do that you will establish SSH connections and project specific Tokens.<br> 
 
 <br>
 
-Once you are at the basic project screen for your new project, you will find it has a blue "go live" button and to the right of that a little Cogwheel.  Click on the Cogwheel to open settings options.<br>
+## SSH & Token Connect the parts
+
+This step will work best if you plan to keep tabs open for both your GitHub account copy of the project and the Platform.sh copy in another tab.  Then you can click between the two for some copy and paste needs.<br>
+
+
+## Insert SSH set up step here!
+
+
+
+
+
+
+Start on the Platform.sh tab and you will find it has a blue "go live" button and to the right of that a little Cogwheel.  Click on the Cogwheel to open settings options.<br>
 
 <img src="../cicd/captures/howtouseit37a.png"  width="400">
 
@@ -192,7 +202,7 @@ That will lead to a "Configure your integration" screen asking for you to input 
 
 <img src="../cicd/captures/howtouseit41.png"  width="700">
 
-<font color=HotPink>Keep that page open and click the "Generate a new token" so it opens in a new browser tab.</font><br>
+<font color=HotPink>Keep that page open and click the "Generate a new token".  GitHub will open in a new browser tab or you can just click on the tab you have open for the GitHub copy of your project.</font><br>
 
 ## Token from GitHub
 
