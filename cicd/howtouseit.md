@@ -147,7 +147,7 @@ Stop and study that screen shot for a moment.  There are some things you need to
 
 Now look in the upper right panel and it is blank or empty.  That is because you haven't pointed at any file from the directory list in the left panel.  If you don't see the directories and files in the left panel, click on that icon that looks like two pages from a book and the list will show up.  Then go down that list, find a file, and click on it.  That file will open in the upper right page so you can see its contents.<br>
 
-Finally, look in the extreme lower left corner and it says 'main' just to the right of the tiny blue box with opposing arrowheads.  That says you are on the 'main' branch.  You <font color=yellow>DO NOT WANT TO WORK FROM 'Main'.</font><br>  So we will split off 'staged' and 'develop' branches shortly.  But before we do that, you are now ready to connect the local copy, the GitHub copy and the Platform.sh copy of 'main' so they all talk to one another behind the scenes.  To do that you will establish SSH connections and project specific Tokens.<br> 
+Finally, look in the extreme lower left corner and it says 'main' just to the right of the tiny blue box with opposing arrowheads.  That says you are on the 'main' branch.  You <font color=yellow>DO NOT WANT TO WORK FROM 'Main'.</font>  We will split off 'staged' and 'develop' branches shortly.  But before we do that, you are now ready to connect the local copy, the GitHub copy and the Platform.sh copy of 'main' so they all talk to one another behind the scenes.<br> 
 
 <br>
 
