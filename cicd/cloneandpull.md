@@ -3,12 +3,12 @@
 
 ## Summary Steps
 
-a) Git Clone the Project from GitHub
-b) "Lando Pull" and use spacebar to make selections
-c) Run "make update_project" from terminal command line
-d) Run "lando rebuild" from terminal command line and 'y' at prompt
+a) Git Clone the Project from GitHub<br>
+b) "Lando Pull" and use spacebar to make selections<br>
+c) Run "make update_project" from terminal command line<br>
+d) Run "lando rebuild" from terminal command line and 'y' at prompt<br>
 
-<font color=yellow>Takes a while to run!</font>
+<font color=yellow>Takes a while to run!</font><br>
 
 ## The Details
 
