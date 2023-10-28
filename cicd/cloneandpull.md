@@ -1,6 +1,17 @@
 
 # GitClone the Project/Get the Database 
 
+## Summary Steps
+
+a) Git Clone the Project from GitHub
+b) "Lando Pull" and use spacebar to make selections
+c) Run "make update_project" from terminal command line
+d) Run "lando rebuild" from terminal command line and 'y' at prompt
+
+<font color=yellow>Takes a while to run!</font>
+
+## The Details
+
 Remember that the actual code for your project is in your GitHub repository.  Remember that we kind of tucked a few files in that repository that we really don't want the host to run but that we want to have locally to do somethings in that Lando local machine-environment; one we marked was the 'my-example.settings.local.php' file so it can be cloned down and the leading word removed to make it locally functional.
 
 What you want to have as a starting point is your root level above where the project was/is going to be.  So if you have the project we have been working on in a directory, go a head and rename that directory with the word 'temphold' in front of the name you had. That way you can go back to it if you need but you can have GitClone bring down and tuck the retrieved project into the originally named directory.  <font color=yellow)Remember – DO NOT BE "IN" that directory, BE "ABOVE" it one level because GitClone will recreate it in the right spot that way.</font>
