@@ -77,7 +77,7 @@ Like typical, that 'yml' file that was exported in your 'local' environment is s
 
 <img src="../cicd/captures/structuresync3.png"  width="750">
 
-<font color=yellow size=small>Force</font>Click for a [good overview of this process](https://www.specbee.com/blogs/export-import-menus-customblocks-taxonomies-drupal9-8-structure-sync-module) by an actually eloquent writer.</font>
+Click for a [good overview of this process](https://www.specbee.com/blogs/export-import-menus-customblocks-taxonomies-drupal9-8-structure-sync-module) by an actually eloquent writer.
 
 #### Or do it by CLI
 If you are a Command Line Interface (CLI) person, there are drush commands to do what the GUI offers.  REMEMBER THAT SINCE WE ARE USING LANDO for our local environment, we need to preceed these with 'lando drush somecommand'
