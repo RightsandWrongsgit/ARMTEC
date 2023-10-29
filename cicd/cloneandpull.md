@@ -4,10 +4,14 @@
 ## Summary Steps
 
 a) Git Clone the Project from GitHub<br>
-<font size=2>Then from the command line...</font><br>
-b) Run "Lando Pull" and use spacebar to make selections<br>
-c) Run "make update_project"<br>
-d) Run "lando rebuild" and 'y' at prompt<br>
+
+<font size=2>Then from the command line...</font>
+##### [b) Open Permissions and Time](updateproject.md#drupal-core-update)<br>
+- Open directory and file permissions `chmod u+w web/sites/default`
+- Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`<br>
+c) Run "Lando Pull" and use spacebar to make selections<br>
+d) Run "make update_project"<br>
+e) Run "lando rebuild" and 'y' at prompt<br>
 
 <font color=yellow>Takes a while to run!</font><br>
 
