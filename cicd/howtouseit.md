@@ -232,21 +232,21 @@ That will lead to a "Configure your integration" screen asking for you to input 
 
 <br>
 
-<font color=teal>Run "lando start"</font><br>
+<font color=lightblue>Run "lando start"</font><br>
 
 ##### [Permissions and Time](updateproject.md#drupal-core-update)<br>
 - Open directory and file permissions `chmod u+w web/sites/default`
 - Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`<br>
 
-<font color=teal>Do a "lando pull"; Making selection via the space bar...</font><br>
+<font color=lightblue>Do a "lando pull"; Making selection via the space bar...</font><br>
 
-<font color=teal>Run "make development_project"</font><br>
+<font color=lightblue>Run "make development_project"</font><br>
 
-<font color=teal>Run "make project_yours"</font>>br>
+<font color=lightblue>Run "make project_yours"</font><br>
 
-<font color=teal>Run "lando composer update"</font><br>
+<font color=lightblue>Run "lando composer update"</font><br>
 
-<font color=teal>Run "lando rebuild"</font><br>
+<font color=lightblue>Run "lando rebuild"</font><br>
 
 <br>
 <br>
