@@ -174,7 +174,7 @@ Do take advantage of the "Note" box and write something like Platform.sh integra
 
 <br>
 
-Out the gate, basically just select all the top level options except those involving "deletes", because your Platform.sh will mirror GitHub not the reverse.  You also may not need the "enterprise" option depending on how your expect to work.  Fully understanding all the options available with Token's would be a book in and of itself.  You can alway go back and generate a different token and relink your project later if you find some other option choices better fit your specific needs.<br>
+Out the gate, basically just select all the top level options except those involving "deletes", because your Platform.sh will mirror GitHub not the reverse.  You also may not need the "enterprise" option depending on how you expect to work.  Fully understanding all the options available with Token's would be a book in and of itself.  You can alway go back and generate a different token and relink your project later if you find some other option choices better fit your specific needs.<br>
 
 <img src="../cicd/captures/tokenoptions.png"  width="600">
 
