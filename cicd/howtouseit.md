@@ -234,15 +234,23 @@ That will lead to a "Configure your integration" screen asking for you to input 
 
 Clean up the local:<br>
 
-Do we need to do a "lando pull" first? Making selection via the space bar...
 
-Edit the "Make" file to include a 'project_yours' from a copy of 'update_project' to remove the 'system.site.yml' file and replace it with a copy called 'my-system.site.yml' where you have edited the 'name: 'YOUR PROJECT, Slogan, and email' and a 'slogan: should be changed in Configuration/System/Basic Settings' and edit the line for mail to 'mail: youremail@example.com'
-Then instruct to run that 'Make project_yours'
+##### Run "lando start"<br>
 
-Run "lando drush cex"
+##### [Permissions and Time](updateproject.md#drupal-core-update)<br>
+- Open directory and file permissions `chmod u+w web/sites/default`
+- Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`<br>
+<br>
 
-Run "lando rebuild"
+##### Do a "lando pull"; Making selection via the space bar...<br>
+##### Run "make development_project"<br>
+##### Run "make project_yours"<br>
+##### Run "lando composer update"<br>
 
+
+?????
+Run "lando drush cex"<br> 
+Run "lando rebuild"<br>
 
 *********************
 
