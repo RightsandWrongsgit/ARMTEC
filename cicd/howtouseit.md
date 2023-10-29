@@ -222,11 +222,29 @@ That will lead to a "Configure your integration" screen asking for you to input 
 
 <img src="../cicd/captures/howtouseit41.png"  width="700">
 
-<font color=HotPink>Keep that page open and click the "Generate a new token".  GitHub will open in a new browser tab or you can just click on the tab you have open for the GitHub copy of your project.</font><br>
+<br>
 
-When the second screen pops open, you will find a pull down box where you select the project repository you want link. Just select the project name you gave to your project on GitHub and you are ready to rock.<br>
+<font color=hotpink>When the second screen pops open, you will find a pull down box where you select the project repository you want link. Just select the project name you gave to your project on GitHub and you are ready to rock.</font><br>
 
 <br>
+
+*********************<br>
+<font color=yellow>ENHANCE DOCUMENATION HERE</font>
+*********************<br>
+
+Clean up the local:<br>
+
+Do we need to do a "lando pull" first? Making selection via the space bar...
+
+Edit the "Make" file to include a 'project_yours' from a copy of 'update_project' to remove the 'system.site.yml' file and replace it with a copy called 'my-system.site.yml' where you have edited the 'name: 'YOUR PROJECT, Slogan, and email' and a 'slogan: should be changed in Configuration/System/Basic Settings' and edit the line for mail to 'mail: youremail@example.com'
+Then instruct to run that 'Make project_yours'
+
+Run "lando drush cex"
+
+Run "lando rebuild"
+
+
+*********************
 
 ## Make some Branches
 
