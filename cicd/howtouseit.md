@@ -228,31 +228,28 @@ That will lead to a "Configure your integration" screen asking for you to input 
 
 <br>
 
-*********************<br>
-<font color=yellow>ENHANCE DOCUMENATION HERE</font>
-*********************<br>
+## Bring the local project live
 
-Clean up the local:<br>
+<br>
 
-
-##### Run "lando start"<br>
+<font color=teal>Run "lando start"</font><br>
 
 ##### [Permissions and Time](updateproject.md#drupal-core-update)<br>
 - Open directory and file permissions `chmod u+w web/sites/default`
 - Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`<br>
+
+<font color=teal>Do a "lando pull"; Making selection via the space bar...</font><br>
+
+<font color=teal>Run "make development_project"</font><br>
+
+<font color=teal>Run "make project_yours"</font>>br>
+
+<font color=teal>Run "lando composer update"</font><br>
+
+<font color=teal>Run "lando rebuild"</font><br>
+
 <br>
-
-##### Do a "lando pull"; Making selection via the space bar...<br>
-##### Run "make development_project"<br>
-##### Run "make project_yours"<br>
-##### Run "lando composer update"<br>
-
-
-?????
-Run "lando drush cex"<br> 
-Run "lando rebuild"<br>
-
-*********************
+<br>
 
 ## Make some Branches
 
