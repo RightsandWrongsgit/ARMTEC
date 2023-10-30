@@ -253,7 +253,9 @@ That will lead to a "Configure your integration" screen asking for you to input 
 
 ## Make some Branches
 
-Go click on that word 'main' and the command palette should pop open.  Otherwise do a "Command-P" to open it and start typing "Create...".  When that box asks you for the name of the branch you want to create type <font color=yellow>staged</font><br>
+You now have an operating 'main' branch which is both running on the Platform.sh host and which your 'local' Lando copy you see in the VSCode IDE is pointing to; see the lower left corner of VSCode and it should say 'main' just to the right of the two opposing blue arrowheads.  You could work directly from here and do things to the 'local' and save/stage/commit/sync what you do to the host 'main' it is currently pointing to.  However, the whole purpose of using this Drupal CI/CD template is to have the advantages of properly managed DevOps workflows.  Therefore, you will next make 'staged' and then 'develop' branches off of 'main' and learn the process of working with them.  Enjoying the benefits of Git-GitHub version controll for your code, the smooth deployment of your work on the host, and the automatic backup provided on Platform.sh.<br> 
+
+To start the branching, go click on that word 'main' in the lower left corner of VSCode and the command palette should pop open at the top.  Otherwise do a "Command-P" to open it and start typing "Create...".  When that box asks you for the name of the branch you want to create type <font color=yellow>staged</font><br>
 <img src="../cicd/captures/update5.png"  width="450">
 
 You should then see the clone of your project is now on the 'staged' branch; see that lower left corner.<br>
@@ -309,65 +311,15 @@ Go to the 'develop' environment and see that name with a GREEN banner to signal 
 If you are NOT logged in, any of the site environments look normal; without environment name or banner colors<br>
 <img src="../cicd/captures/update54.png"  width="500">
 
-## Initialize Local
-
-You are going to mirror the host environment on your local machine with a [Lando](../book/lando.html) container; thus why you need Lando installed, ideally Globally.  The Lando install should have been part of what you [set up as the foundation for your basic machine.](../book/Novice.html#setting-up-your-basic-system)
-
-You GitCloned your project to bring it to your local machine and you made your way to being in the 'develop' branch which, along with parent branch 'staged' and grandparent branch 'main' also lives on your Platform.sh host.  Just  because the branch files are local doesn't mean they are running in a Lando container.  For that you need to initialize the project.  Make sure you are pointing to the top level of the files you cloned and are in the 'develop' branch; the [informative command prompt we established makes that clear.](../book/WhereAmI.md)   You can do a `lando init \` with the trailing backslash so it doesn't immediately run and takes your next lines of direction.  Then you input `--source cwd \`; again with the trailing backslash to allow the final command.  Then input `--recipe platformsh` and hit return for these commands to all run.<br>
-
-<img src="../cicd/captures/update44.png"  width="400">
-
-If you are into a long one and done command line approach just type it all out line this.<br>
-<img src="../cicd/captures/update45.png"  width="250">
-
-
-## [Permissions and Time](updateproject.md#drupal-core-update)<br>
-
-You may not need the extra time to support a retrieve database with what is mainly an empty project.  But after the next step when you actually run a build of the Lando container environment locally and it needs all the application code on your machine, you will be happy you did both in advance.  So run the next two steps now:<br>
-
-- Open directory and file permissions `chmod u+w web/sites/default`
-- Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`<br>
 <br>
-
-
-
-## Retrieve Database
-
-To bring in the database isn't hard but there is one trick you need to be aware of.  Unlike move of the command line menu options where you use your arrow keys to select before hitting 'return', here you need to hit your space bar.  Start out by just typeing `lando pull` and hit 'return'.<br>
-
-<img src="../cicd/captures/update50.png"  width="300">
-
-When it ask you questions, move with the space bar to the one you want, in our case we want to import the "database".   And we want our mounts to be to the "/web/sites/default/files" location.<br>
-
-<img src="../cicd/captures/update51.png"  width="300">
-
-A whole bunch of lines will float by.  Then it should come back with the "Pull completed successfully" reply.<br>
-
-<img src="../cicd/captures/update52.png"  width="300">
-
-Given the run time you probably are reluctant but you really do need to run a `lando rebuild` at this point.<br>
-
-<img src="../cicd/captures/update53.png"  width="300">
-
-The good news is that now when it comes back your project should be available at those URLs lando spits back at the end. It may look something like this as a basic site page.<br> 
-
-<img src="../cicd/captures/update54.png"  width="500">
-
-However, if you log in, it should give your a GREEN go ahead banner color with the environment name 'local' showing.<br>
-<img src="../cicd/captures/update55.png"  width="500">
-
-
-# See how to work
-
-You will work on your website right on your local computer using VSCode and Lando pointed at the 'develop' environment.  It has a counter-part on GitHub and Platform.sh that get updated as you work and do you save your changes, and use Git locally to add, commit, and sync them.  Remember, there are a whole bunch of things you can do to "dig back out of a hole" if you realize you did something you want to recover from.  You can do some of it by not even synching your commits between the 'local' develop copy and the GitHub 'develop' copy.  You can [even back out of some previously made commits at that level.](https://code.visualstudio.com/docs/sourcecontrol/overview)  And of course, you have your 'staged' and 'main' copies of your site still there without any changes.<br>
-
-But when you like your changes and have reviewed them on your 'local' copy and your Platform.sh hosted 'develop' copy you may be ready to <font color=HotPink>Merge, Test and Launch</font> them to the world.<b>
-
-
+<br>
+<br>
 
 *******************************************************************
 ## Merge, Test, Launch
 *******************************************************************
+<br>
+You are now ready to work with your website development and its CI/CD enabled workflow.  You make changes to 'local' and review them with a 'lando rebuild' on your own computer's container copy of your site.  Once you are satisfied with a change, you can secure it on the host by save/stage/commit/sync to the 'develop' host copy.  How frequently you do this is a personal preference.  Some people secure each minor change to the host, others several hours of related work.  The one way you might think about it is that you will be typing a "commit message" that is very short and you probably want to send that work to 'develop' at least in commonly related blocks of effort you can easily title with a simple message.<br>
 
 ### Merge 'develop' into 'staged'
 Say our have been working back and forth with your Lando 'local' and Platform.sh 'develop' branches doing saves, commits, and syncs as you work.  You have done your first level practical testing by driving around in your Platform.sh hosted 'develop' branch and things look great.  Since that 'develop' branch was cloned from your 'staged' branch you want to move the changes up one level so you can carry out your formal testing on the hosted 'staged' branch.<br>  
@@ -462,6 +414,64 @@ Try and confirm that this works, and if so, clean this up to be almost as simply
 - Use Platform.sh to move a 'develop' you are satisfied with to the 'staged' environment where you will then do any testing before moving it to 'main'
 
 - Publish 'main' to a URL you own using Platform.sh standard DNS management procedures
+
+
+
+***********************************************************************************************************************************************
+
+## Initialize Local
+
+You are going to mirror the host environment on your local machine with a [Lando](../book/lando.html) container; thus why you need Lando installed, ideally Globally.  The Lando install should have been part of what you [set up as the foundation for your basic machine.](../book/Novice.html#setting-up-your-basic-system)
+
+You GitCloned your project to bring it to your local machine and you made your way to being in the 'develop' branch which, along with parent branch 'staged' and grandparent branch 'main' also lives on your Platform.sh host.  Just  because the branch files are local doesn't mean they are running in a Lando container.  For that you need to initialize the project.  Make sure you are pointing to the top level of the files you cloned and are in the 'develop' branch; the [informative command prompt we established makes that clear.](../book/WhereAmI.md)   You can do a `lando init \` with the trailing backslash so it doesn't immediately run and takes your next lines of direction.  Then you input `--source cwd \`; again with the trailing backslash to allow the final command.  Then input `--recipe platformsh` and hit return for these commands to all run.<br>
+
+<img src="../cicd/captures/update44.png"  width="400">
+
+If you are into a long one and done command line approach just type it all out line this.<br>
+<img src="../cicd/captures/update45.png"  width="250">
+
+
+## [Permissions and Time](updateproject.md#drupal-core-update)<br>
+
+You may not need the extra time to support a retrieve database with what is mainly an empty project.  But after the next step when you actually run a build of the Lando container environment locally and it needs all the application code on your machine, you will be happy you did both in advance.  So run the next two steps now:<br>
+
+- Open directory and file permissions `chmod u+w web/sites/default`
+- Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`<br>
+<br>
+
+
+
+## Retrieve Database
+
+To bring in the database isn't hard but there is one trick you need to be aware of.  Unlike move of the command line menu options where you use your arrow keys to select before hitting 'return', here you need to hit your space bar.  Start out by just typeing `lando pull` and hit 'return'.<br>
+
+<img src="../cicd/captures/update50.png"  width="300">
+
+When it ask you questions, move with the space bar to the one you want, in our case we want to import the "database".   And we want our mounts to be to the "/web/sites/default/files" location.<br>
+
+<img src="../cicd/captures/update51.png"  width="300">
+
+A whole bunch of lines will float by.  Then it should come back with the "Pull completed successfully" reply.<br>
+
+<img src="../cicd/captures/update52.png"  width="300">
+
+Given the run time you probably are reluctant but you really do need to run a `lando rebuild` at this point.<br>
+
+<img src="../cicd/captures/update53.png"  width="300">
+
+The good news is that now when it comes back your project should be available at those URLs lando spits back at the end. It may look something like this as a basic site page.<br> 
+
+<img src="../cicd/captures/update54.png"  width="500">
+
+However, if you log in, it should give your a GREEN go ahead banner color with the environment name 'local' showing.<br>
+<img src="../cicd/captures/update55.png"  width="500">
+
+
+# See how to work
+
+You will work on your website right on your local computer using VSCode and Lando pointed at the 'develop' environment.  It has a counter-part on GitHub and Platform.sh that get updated as you work and do you save your changes, and use Git locally to add, commit, and sync them.  Remember, there are a whole bunch of things you can do to "dig back out of a hole" if you realize you did something you want to recover from.  You can do some of it by not even synching your commits between the 'local' develop copy and the GitHub 'develop' copy.  You can [even back out of some previously made commits at that level.](https://code.visualstudio.com/docs/sourcecontrol/overview)  And of course, you have your 'staged' and 'main' copies of your site still there without any changes.<br>
+
+But when you like your changes and have reviewed them on your 'local' copy and your Platform.sh hosted 'develop' copy you may be ready to <font color=HotPink>Merge, Test and Launch</font> them to the world.<b>
 
 
 
