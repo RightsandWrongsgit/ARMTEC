@@ -7,7 +7,7 @@ baseurl: /ARMTEC
 # Build Settings
 markdown: kramdown
 # theme: jekyll-theme-minimal
-remote_theme: RightsandWrongsgit/minimal
+remote_theme: pages-themes/minimal
 plugins:
   - jekyll-target-blank
 
