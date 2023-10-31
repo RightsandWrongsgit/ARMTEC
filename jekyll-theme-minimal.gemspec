@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-$LOAD_PATH.unshift File.expand_path("lib", __dir__)
-require "jekyll-theme-minimal/version"
+
+require "jekyll-theme-minimal"
 
 Gem::Specification.new do |s|
   s.name          = "jekyll-theme-minimal"
