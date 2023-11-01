@@ -1,3 +1,9 @@
+# LSI (Latent Semantic Indexing) Keywords
+lsi: false
+
+# Enable safe mode
+safe: true
+
 # Site Settings
 logo: /book/images/media/ARMTEC Logo Medium+.png
 title: [Move Forward with...]
@@ -11,8 +17,6 @@ remote_theme: pages-themes/minimal
 plugins:
   - jekyll-target-blank
 
-# Enable safe mode
-safe: true
 
 # Whitelist plugins under safe mode.
 # Note that if `some-other-jekyll-plugin` is not listed here it will not be loaded under safe mode.
