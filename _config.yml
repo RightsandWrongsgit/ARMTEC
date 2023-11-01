@@ -9,8 +9,8 @@ logo: /book/images/media/ARMTEC Logo Medium+.png
 title: [Move Forward with...]
 email: emofsnead@gmail.com
 description: [This is Our Technical Support Division]
-baseurl: /ARMTEC
-url: http://rightsandwrongsgit.github.io
+baseurl: ""
+url: https://rightsandwrongsgit.github.io
 
 # site-css:
 #   - "/assets/css/custom-styles.css"
