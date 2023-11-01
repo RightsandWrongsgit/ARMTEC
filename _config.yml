@@ -7,6 +7,7 @@ safe: true
 # Site Settings
 logo: /book/images/media/ARMTEC Logo Medium+.png
 title: [Move Forward with...]
+email: emofsnead@gmail.com
 description: [This is Our Technical Support Division]
 baseurl: /ARMTEC
 
