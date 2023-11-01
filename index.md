@@ -10,7 +10,7 @@ Start your journey to success with ARMTEC, Inc. We offer the tools and resources
 ## What's here
 
 ### Business Basics
-Our [basic business](business/overview.md) section provides an overview of projecting Sales, doing Profit & Loss (P&L) statement analyses, leading you to strong Advertising & Promotion (A&P) performance, conducting effective Market Research, managing Customer Relationships Management, deploying and leading your Salesforce, and more. 
+Weather you need an effective way to project Sales, need to do a Profit & Loss (P&L) statement analysis, want to strengthern your Advertising & Promotion (A&P) performance, need help to conduct focused Market Research, want assistance managing Customer Relationships Management or deploying and leading your Salesforce, you can turn to ARMTEC.  Try our toolbox of self-service solutions.  If you need more personalized help and translating this guidance to your specific business needs, [reach out to us.](contact.md)
 
 ### Toolbox
 
