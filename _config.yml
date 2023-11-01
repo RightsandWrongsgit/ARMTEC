@@ -10,9 +10,10 @@ title: [Move Forward with...]
 email: emofsnead@gmail.com
 description: [This is Our Technical Support Division]
 baseurl: /ARMTEC
+url: http://rightsandwrongsgit.github.io
 
-site-css:
-  - "/assets/css/custom-styles.css"
+# site-css:
+#   - "/assets/css/custom-styles.css"
 
 # Build Settings
 markdown: kramdown
