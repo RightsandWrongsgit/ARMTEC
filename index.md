@@ -12,7 +12,10 @@ Start your journey to success with ARMTEC, Inc. We offer the tools and resources
 ### Business Basics
 Our [basic business](business/overview.md) section provides an overview of projecting Sales, doing Profit & Loss (P&L) statement analyses, leading you to strong Advertising & Promotion (A&P) performance, conducting effective Market Research, managing Customer Relationships Management, deploying and leading your Salesforce, and more. 
 
-### Information Technology
+### Toolbox
+
+[Business Basics](chapters.md#chapter-business-basics)
+
 Business analytics benefit from your understanding information technology.   We offer guidance on utilizing information technology tools.  This understanding is important; expecially if you leverage digital media resources in your advertising and promotion.  Don't worry if you aren't a techie.  You  will find our [information technology basics](book/infotechoverview.md) valuable no matter what your starting point understanding may be.  Soon you will know how easy it can be to create digital assets, landing pages, and how to use a powerful website tool called a Content Management System (CMS).
 
 ### CI/CD Workflow
