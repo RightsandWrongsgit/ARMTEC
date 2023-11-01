@@ -10,6 +10,9 @@ title: [Move Forward with...]
 description: [This is Our Technical Support Division]
 baseurl: /ARMTEC
 
+site-css:
+  - "/assets/css/custom-styles.css"
+
 # Build Settings
 markdown: kramdown
 # theme: jekyll-theme-minimal
