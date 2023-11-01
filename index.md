@@ -15,7 +15,7 @@ Weather you need an effective way to project Sales, need to do a Profit & Loss (
 
 Our [Business Basics](chapters.md#chapter-business-basics) help you understand the drivers of success, the business models with the best profit potential, help with costs, pricing, volume modeling, preparing advertising briefs, and  more.
 
-Our [Effective Communication](chapters.md#chapter-effective-communication) section covers the value correct positioning, how archetypes can short-cut customer communication alignment, the value of customer relationship management, and how to think about ad wearout. 
+Our [Effective Communication](chapters.md#chapter-effective-communication) section covers the value of correct positioning, how archetypes can short-cut customer communication alignment, the value of customer relationship management, and how to think about ad wearout. 
 
 Our [Marketing Research](chapters.md#chapter-market-research) elements offer an extensive array of 'how to' solutions.
 
