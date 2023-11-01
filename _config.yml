@@ -16,12 +16,12 @@ site-css:
 # Build Settings
 markdown: kramdown
 # theme: jekyll-theme-minimal
-remote_theme: pages-themes/minimal
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-  - jekyll-target-blank
+  - jekyll-remote-theme
 
 
 # Whitelist plugins under safe mode.
 # Note that if `some-other-jekyll-plugin` is not listed here it will not be loaded under safe mode.
 whitelist:
-  - jekyll-target-blank
+  - jekyll-target-theme
