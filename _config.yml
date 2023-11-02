@@ -12,8 +12,6 @@ description: [Providing the tools you need]
 baseurl: ""
 url: https://rightsandwrongsgit.github.io
 
-# site-css:
-#   - "/assets/css/custom-styles.css"
 
 # Build Settings
 markdown: kramdown
