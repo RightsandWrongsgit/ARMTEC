@@ -1,8 +1,3 @@
----
-image_sliders:
-  - slider1
-image_sliders_load_all: true
----
 
 # Enjoy your 
 # profitable business
