@@ -1,6 +1,6 @@
 ---
 image_sliders:
-  - example_slider
+  - slider1
 image_sliders_load_all: true
 ---
 
