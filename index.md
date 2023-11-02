@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 # Enjoy your 
 # profitable business
