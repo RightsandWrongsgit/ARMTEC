@@ -4,11 +4,11 @@
 
 <br>
 
-## Take advantage of our toolbox
+## What's here
 
 Start your journey to success with ARMTEC, Inc. We offer the tools and resources you need to excel in starting or optimizing your business.  Our ["Open Source"](book/opensource.md#you--open-source) approach provides easy assess to the tools you need.  This ensures transparency and accessibility to all. Whether you prefer self-service or expert guidance, ARMTEC has you covered. Access our comprehensive solutions and save time and money. Partner with us for a well-coordinated and successful outcome. [Contact ARMTEC](contact.md){:target="_blank"} today and take the first step towards your goals. 
 
-## What's here
+## Take advantage of our toolbox
 
 Whether you need an effective way to project Sales, need to do a Profit & Loss (P&L) statement analysis, want to strengthen your Advertising & Promotion (A&P) performance, need help to conduct focused Market Research, want assistance managing Customer Relationships Management or deploying and leading your Salesforce, you can turn to ARMTEC.  Try our toolbox of self-service solutions.  If you need more personalized help and translating this guidance to your specific business needs, [reach out to us.](contact.md){:target="_blank"}
 
