@@ -28,4 +28,8 @@ whitelist:
 
 
 # Include settings
-include: "_includes/*"
+include: 
+- _includes/*
+- _layouts/*
+- _data/*
+- img/*
