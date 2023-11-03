@@ -28,8 +28,8 @@ repository: RightsandWrongsgit/ARMTEC
 
 # Build Settings
 markdown: kramdown
-# theme: jekyll-theme-minimal
-theme: minimal
+theme: jekyll-theme-minimal
+# theme: minimal
 plugins:
   - jekyll-remote-theme
 
