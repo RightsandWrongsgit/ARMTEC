@@ -43,11 +43,11 @@ whitelist:
 
 
 # Include settings
-include: 
-- "_includes/*"
-- "_layouts/*"
-- "_data/*"
-- "img/*"
+# include: 
+# - "_includes/*"
+# - "_layouts/*"
+# - "_data/*"
+# - "img/*"
 
 
 
