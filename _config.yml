@@ -1,7 +1,7 @@
 # LSI (Latent Semantic Indexing) Keywords
 lsi: false
 
-# Enable safe mode
+# Enable safe mode (true or false)
 safe: false
 
 # Site Settings
