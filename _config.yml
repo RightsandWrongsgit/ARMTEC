@@ -2,7 +2,7 @@
 lsi: false
 
 # Enable safe mode
-safe: true
+safe: false
 
 # Site Settings
 logo: /book/images/media/ARMTEC Logo Medium+.png
