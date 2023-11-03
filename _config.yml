@@ -5,7 +5,7 @@ lsi: false
 safe: true
 
 # Standard stuff from https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll
-source: [your repo's top level directory]
+# source: [your repo's top level directory]
 incremental: false
 highlighter: rouge
 gist:
