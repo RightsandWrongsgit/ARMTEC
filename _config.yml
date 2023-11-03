@@ -23,6 +23,7 @@ email: emofsnead@gmail.com
 description: [Providing the tools you need]
 baseurl: ""
 url: https://rightsandwrongsgit.github.io
+repository: RightsandWrongsgit/ARMTEC
 
 
 # Build Settings
