@@ -29,7 +29,7 @@ whitelist:
 
 # Include settings
 include: 
-- _includes/*
-- _layouts/*
-- _data/*
-- img/*
+- "_includes/*"
+- "_layouts/*"
+- "_data/*"
+- "img/*"
