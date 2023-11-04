@@ -31,8 +31,8 @@ url: https://rightsandwrongsgit.github.io
 markdown: kramdown
 # theme: minimal@v0.2.0
 # theme: jekyll-theme-minimal
-remote_theme: pages-themes/minimal@v0.2.0
-# remote_theme: pages-themes/minimal
+# remote_theme: pages-themes/minimal@v0.2.0
+remote_theme: pages-themes/minimal
 # plugins:
 #  - jekyll-remote-theme
 
