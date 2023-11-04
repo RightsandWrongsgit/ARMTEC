@@ -8,7 +8,6 @@ body {
     font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color:#fcfcfc;
     font-weight:400;
-    border: .3rem solid red;
   }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,6 +53,10 @@ code, pre {
     font-style: italic;
     font-size: xx-small;
     text-align: left!important;
+}
+
+section {
+    border: .3rem solid red;
 }
 
 sub {
