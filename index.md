@@ -1,7 +1,5 @@
 
-
-# Enjoy your 
-# profitable business
+# Profitable Sales Guide
 
 <br>
 
