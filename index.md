@@ -1,7 +1,5 @@
 
-# Profitable Sales Guide
 
-<br>
 
 ## What's here
 
