@@ -300,7 +300,6 @@
 ### Chapter: Awaiting Categorization
 
 [Pointing Multiple Domain Addresses to your site](https://www.thesitewizard.com/domain/point-multiple-domains-one-website.shtml)
-
 <br>
 
 ### Chapters from Selwyn Polit
@@ -338,5 +337,7 @@ If you think you might be ready to get into this developer stuff, at least as a 
 - [Taxonomy](https://selwynpolit.github.io/d9book/taxonomy.html)
 
 - [Attribution - See who contributed to Selwyn's masterpiece](https://selwynpolit.github.io/d9book/attribution.html)
+
+<br>
 
 This site as well as Selwyn's use GitHub pages.  The [markdown format](https://github.github.com/gfm/) used by GitHub pages is fairly capable of making a basic website.  It doesn't share the scale, database linkage nor front-end presentation strength of Drupal.  However, if you aren't familar with some basic HTML you can use a little in the process of working with markdown.  And if you don't know CSS, you can use some GitHub pages templates to gain some familiarity.
