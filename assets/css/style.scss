@@ -63,6 +63,20 @@ sup {
     text-align: left;
 }
 
+.wrapper {
+  width:950px;
+  margin:0 auto;
+}
+
+section {
+  width:700px;
+  float:right;
+  padding-top:80px;
+  padding-bottom:50px;
+  padding-left:15px;
+  padding-right:5px;
+}
+
 @media print, screen and (max-width: 1140px) {
 
   div.wrapper {
