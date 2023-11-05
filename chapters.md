@@ -1,6 +1,8 @@
 
 # List of Chapters
 
+<br>
+
 ## Business
 ### Chapter: Business Basics
 - [Route to Performance](business/overview.md)
@@ -16,11 +18,15 @@
 - [Key Performance Indicators](business/KPI.md)
 - [Glossary](business/glossary.md)
 
+<br>
+
 ### Chapter: Effective Communication
 - [Positioning](business/positioning.md)
 - [Archetype](business/archetype.md)
 - [Customer Relationship Management](business/crm.md)
 - [Advertising Wearout](business/adwear.md)
+
+<br>
 
 ### Chapter: Market Research
 - [Market Research](business/methods.md)
@@ -36,6 +42,8 @@
 - [Claims](business/claims.md)
 
 - [Topics to include](business/topics.md)
+
+<br>
 
 ## Information Technology 
 ### Chapter: Information Basics
@@ -63,14 +71,20 @@
  - [Whole Website w/just HTML & CSS](https://rutikkpatel.medium.com/how-to-create-a-website-using-html-and-css-only-18fc6a3f68ab)  
  - [Hosting: How will Others see my website?](book/hosting.md)
 
+<br>
+
 ### Chapter: Open Source Tools
 
   - [Open Source Tools Overview](book/opensource.md)
+
+<br>
 
 - ##### Office Suite
   
     - [LibreOffice (Software)](http://www.libreoffice.org/)   
     - [Remember LibreOffice Extensions](https://extensions.libreoffice.org/)
+
+<br>
 
 - ##### Text
 
@@ -81,6 +95,8 @@
     - [Lorem Ipsum Generator (Online)](https://lipsum.com/){:target="_blank"}
     - [AI Content Writer (Online)](https://rytr.me){:target="_blank"}
     - [Available Fonts](https://fonts.google.com/){:target="_blank"}
+
+<br>
 
 - ##### Graphical
 
@@ -95,13 +111,17 @@
     - [Free Video and Images](https://coverr.co/){:target="_blank"} 
     - [Free Plus optional Paid images](https://unsplash.com/){:target="_blank"}
 
+<br>
+
 - ##### Layout
 
     - [AI Color Palatte Generator (Online)](https://huemint.com/){:target="_blank"}
     - [Make a Formal Mockup (Online)](https://penpot.app/){:target="_blank"}
     - [UI/UX Design Tutorial](https://www.youtube.com/watch?v=c9Wg6Cb_YlU){:target="_blank"}
     - [Addy's Toolkit for Designer & Developers](https://toolkit.addy.codes/){:target="_blank"}
-      
+
+<br>
+
 - ##### Front-end
 
     - [Color Palette Combinations](https://fffuel.co){:target="_blank"}
@@ -122,6 +142,8 @@
     - [Electron Cross-Platform](https://www.electronjs.org/){:target="_blank"}
     - [JavaScript (JS) Basics](https://khosee6.medium.com/an-intro-to-javascript-its-history-and-attributes-ca4d122e6450){:target="_blank"}
 
+<br>
+
 - ##### Developer
 
     - [Composer (coordinate Drupal modules)](https://getcomposer.org/){:target="_blank"}
@@ -133,6 +155,8 @@
     - [Docker & Docker-Compose](book/docker)
     - [PHP Code Checker (Online)](https://extendsclass.com/php-tester.html){:target="_blank"}
 
+<br>
+
 - ##### Handy Utilities
 
     - [Sticky Notes (part of Mac)](https://support.apple.com/guide/stickies/welcome/mac){:target="_blank"}
@@ -140,14 +164,20 @@
     - [Clipboard on Steroids](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12){:target="_blank"}
     - [AI Code Documentation/Generation (Online)](https://www.figstack.com/){:target="_blank"}
 
+<br>
+
 - ##### Sources for more tools
 
     - [Open Source Alternative](https://www.opensourcealternative.to/){:target="_blank"}
     - [Tiny Wow](https://tinywow.com/){:target="_blank"}
 
+<br>
+
 ### Chapter: Content Management Systems (CMS)
 
 -  [Content Management System Overview](book/cms.md)
+
+<br>
 
 #### Drupal Basics
 
@@ -158,6 +188,7 @@
   -   [Example Drupal Sites](book/exampledrupal.md)
   -   [Learning More](book/drupalbasics.md#learning-sources)
 
+<br>
 
 #### Front-End
   - [Front-end Overview](/theme/frontoverview.md)
@@ -174,6 +205,7 @@
     -  [Edit the CSS and JS (JavaScript) in your custom theme](https://www.youtube.com/watch?v=afoIrMeZyts&list=PLTANew7ttSXfn6azbqjobJk-zkkRSPd7t&index=6)
     -  [Front-end needs investigation](theme/frontmodules.md)
 
+<br>
 
 #### Drupal Modules
 
@@ -210,15 +242,22 @@
   - [Active Site Modules](modules/activesite.md)
   - [Content Moderation](modules/contentmoderate.md)
 
+<br>
 
 ### Chapter: Drupal Template with CI/CD Workflow
+
+<br>
 
 #### Drupal CI/CD Overview
 
 - [What is it](book/drupalcicd.md)
 
+<br>
+
 #### Using it
   - [Jump right in!](cicd/howtouseit.md)
+
+<br>
 
 #### How it works
   - [Overview](cicd/cicdoverview.md)
@@ -246,6 +285,7 @@
   - [Makefile](cicd/make.md)
   - [Updating Master](cicd/updateproject.md)
 
+<br>
   
 - Appendices
   - [Adding php xdebug](cicd/xdebug.md)
@@ -255,11 +295,13 @@
   - [SubTheme Setup](cicd/subtheme.md)
   - [UUIDs: Actually Change them](cicd/changeUUIDs.md)
 
-
+<br>
 
 ### Chapter: Awaiting Categorization
 
 [Pointing Multiple Domain Addresses to your site](https://www.thesitewizard.com/domain/point-multiple-domains-one-website.shtml)
+
+<br>
 
 ### Chapters from Selwyn Polit
 [Selwyn](https://www.drupal.org/u/selwynpolit) is a very talented individual with great Drupal skills who published a GitHub pages site for Developers.  Site Builders are more likely to use the modules and CI/CD process flow from the ARMTEC site.  However, there is a very natural topic redudancy as a site builder begins to gain more experience and finds themselves trying to do increasingly unique or sophisticated things.  So we asked Selwyn if he was ok if we present very integrated links between related topics from his GitHub pages book and he agreed.  In addition, his [attribution section acknowledges CC by 4.0 license granting this type of permission](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1) and below are the chapter sections were we want to acknowledge him.  Think of this as ARMTEC helping introduce and frame site elements while Selwyn provides greater detail for those who are ready to take the next step of being an actual Developer.   Here is a [direct, full link to his site](https://selwynpolit.github.io/d9book/).
