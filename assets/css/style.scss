@@ -63,19 +63,16 @@ sup {
     text-align: left;
 }
 
-hr {
-  border:0;
-  background:#E93932;
-  height:1px;
-  margin:0 0 20px;
-}
-
 .wrapper {
   width:1200px;
   margin:0 auto;
 }
 
 section {
+  border:1px solid #e93832;
+  border-width:1px 0;
+  padding:20px 0;
+  margin:1px 0 20px;
   width:910px;
   float:right;
   padding-top:80px;
