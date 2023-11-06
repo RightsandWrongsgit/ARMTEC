@@ -71,7 +71,7 @@ sup {
 }
 
 section {
-  width:730px;
+  width:830px;
   float:right;
   padding-top:80px;
   padding-bottom:50px;
@@ -95,7 +95,8 @@ section {
   header {
     padding-right:320px;
   }
-
+    
+/* Color of border set to match site background */
   section {  
     border:1px solid #169DDD;     
     border-width:1px 0;
@@ -110,7 +111,7 @@ section {
   header ul {
     position:absolute;
     right:50px;
-    top:40px;
+    top:52px;
   }
 }
 
