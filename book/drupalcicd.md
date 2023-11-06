@@ -18,6 +18,7 @@ VSCode integrates with that 'Git' version control stuff.  'Git' version control 
 ## I just want to use it
 -  [How to use it](../cicd/howtouseit.md)
 
+<br>
 
 ## I kind of need to know how it works
 -  [Overview](../cicd/cicdoverview.md)
@@ -44,6 +45,8 @@ VSCode integrates with that 'Git' version control stuff.  'Git' version control 
 -  [Cloning The Project](../cicd/cloneandpull.md)
 -  [Makefile](../cicd/make.md)
 -  [Updating Master](../cicd/updateproject.md)
+
+<br>
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;* Appendices
 - [Adding php xdebug](../cicd/xdebug.md)
