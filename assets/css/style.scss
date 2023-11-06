@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6 {
 
 ul, ol, table, pre, dl {
   margin:0 0 0 20px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #d8352f, #ff3f38);
+  box-shadow:  22px 22px 44px #922420,
+             -22px -22px 44px #ff5248;
 }
 
 p {
