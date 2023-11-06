@@ -79,7 +79,7 @@ section {
   padding-left:15px;
   padding-right:1px;
 }
-
+*/
 
 @media print, screen and (max-width: 960px) {
 
@@ -98,14 +98,15 @@ section {
     padding-right:320px;
   }
     
-    
   section {  
-    border:1px solid #169DDD;     
+    border:1px solid #169DDD; 
+  }
+
+/*
     border-width:1px 0;
     padding:20px 0;
     margin:0 0 20px;
   }
-
 
   header a small {
     display:inline;
