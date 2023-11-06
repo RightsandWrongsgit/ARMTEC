@@ -19,6 +19,7 @@ The broad perspective of the large sections of your P & L is pretty instructive 
   - Taxes
   - Net Income
 
+<br>
 
 Understanding the transaction level within each group is crucial in grasping day-to-day actions. A ["Chart of Accounts"](https://www.accountingcoach.com/chart-of-accounts/explanation/2) reveals how businesses categorize their expenses. Different businesses may have varying practices, but it's legal. Working with large companies might involve detailed documentation on how expenses roll up from departments to divisions and corporate entities. This complexity requires thorough engagement diagnostics to optimize performance strategically. 
 
@@ -44,8 +45,9 @@ The biggest areas of concentration tend to be these:
    - [Marketing and Advertising](../business/adpromo.md)
    - [Selling, General & Administrative (SG&A) Expenses](../business/selling.md)
    - Technology/Research & Development
+
 <br>
-<br>
+
 The logic is this.  Selling, Marketing, and Advertising expenses are short-term and long-term drivers of Revenue trend.   They are relatively large in size.  They are direct levers between expense and revenue.  Using them properly and efficiently is core to driving a growing profit stream; not an expense stream that grows proportionate with Revenue.  Rather, an expense stream that is foundational to ROI performance improvement.
 
 Technology/R&D are also often key performance drivers that are foundational to assuring features that drive purchase choice are emphasized and technical advancements are not done just for their own sake.  And it is critically important that the approach to spending in this area is closely tailored to the underlying [business model of the organization](../business/models.md).
