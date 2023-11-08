@@ -8,6 +8,7 @@ You may already have something from Microsoft or Apple that you got when you bou
 
 - [LibreOffice (Software)](https://www.libreoffice.org/){:target="_blank"}
 - [Remember LibreOffice Extensions](https://extensions.libreoffice.org/){:target="_blank"}
+  
 <br>
 
 ## Design Your Site:
@@ -21,6 +22,7 @@ It is pretty much standard practice to design your first website using some sort
 - [Lorem Ipsum Generator (Online)](https://lipsum.com/)
 - [AI Content Editor (Online)](https://app.writesonic.com/template/da9ef70b-a08f-4640-9a27-344d1b9f7fe7/chatsonic/8e698ef5-8208-4740-96ce-db0d57a58c52){:target="_blank"}
 - [Available Fonts](https://fonts.google.com/)
+
 <br>
 
 ### Graphical
@@ -33,12 +35,14 @@ It is pretty much standard practice to design your first website using some sort
 - [Potential free image sources](https://Pexels.com){:target="_blank"}
 - [Free Video and Images](https://coverr.co/){:target="_blank"}
 - [Free Plus optional Paid images](https://unsplash.com/){:target="_blank"}
+
 <br>	
 
 ### Layout
 - [AI Color Palatte Generator (Online)](https://huemint.com/){:target="_blank"}
 - [Make a Formal Mockup (Online)](https://penpot.app/){:target="_blank"}
 - [UI/UX Design Tutorial](https://www.youtube.com/watch?v=c9Wg6Cb_YlU){:target="_blank"}
+
 <br>
 
 ## Front-end:
@@ -56,6 +60,7 @@ It is pretty much standard practice to design your first website using some sort
 - [Theming](../theme/frontoverview.md)
 - [Electron Cross-Platform](https://www.electronjs.org/){:target="_blank"}
 - [JavaScript (JS) Basics](https://khosee6.medium.com/an-intro-to-javascript-its-history-and-attributes-ca4d122e6450){:target="_blank"}
+
 <br>
 
 ## Developer:
@@ -66,6 +71,7 @@ It is pretty much standard practice to design your first website using some sort
 - [Lando (containers locally)](https://lando.dev/){:target="_blank"}
 - [Docker & Docker-Compose](book/docker)
 - [PHP Code Checker (Online)](https://extendsclass.com/php-tester.html){:target="_blank"}
+
 <br>
 
 ## Handy Utilities:
@@ -73,6 +79,7 @@ It is pretty much standard practice to design your first website using some sort
 - [Calculators for EVERYTHING](https://www.omnicalculator.com/){:target="_blank"}
 - [Clipboard on Steroids](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12){:target="_blank"}
 - [AI Code Documentation/Generation (Online)](https://www.figstack.com/){:target="_blank"}
+
 <br>
 
 ## Other Open Source tools
@@ -81,6 +88,7 @@ There are websites where people concentrate on listing all sorts of Open Source 
 
 - [Open Source Alternative](https://www.opensourcealternative.to/){:target="_blank"}
 - [Tiny Wow](https://tinywow.com/){:target="_blank"}
+
 <br>
 
 ## YOU & Open Source
@@ -89,6 +97,7 @@ ARMTEC strongly supports [Open Source tools,](../book/opensource.md) where peopl
 
 ["Free software is suffering because coders don’t know how to write documentation", The Next Web, June 2, 2017
 ](https://thenextweb.com/news/free-software-is-suffering-because-coders-dont-know-how-to-write-documentation)
+
 <br>
 
 ARMTEC believes that Open Source tools are not just about big software systems, but also about filling gaps in knowledge and helping people understand how to bring different parts together.  ARMTEC believes that Open Source business concepts are just as important as computer code. While this site is our personal resource collection, we welcome others to access and benefit from it. If it helps you meet your needs, great! And if it sparks your interest in working with practical experts, feel free to reach out to us.
