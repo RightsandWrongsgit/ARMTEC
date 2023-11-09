@@ -1,5 +1,6 @@
 
-<font size=6 color=red>Update Base Project</font>
+<font size=6 color=red>Update Base Project:
+(Drupal Core currently on 10.1.6)</font>
 
 Notes for the project author, not necessary for normal users. Explains doing updates to the Lando, Platform.sh, Drupal CI/CD workflow base project provided for easy-start Drupal sites. 
 
