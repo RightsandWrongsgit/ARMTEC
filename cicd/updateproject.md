@@ -86,6 +86,8 @@ You shouldn't have to worry about this because Lando inherits the environment se
 
 ##### [Initialize Local](updateproject.md#initialize-local-1)<br>
 - `lando init --source cwd --recipe platformsh`<br>
+
+<font color=yellow>NOTE: If the code is already down and VSCode is pointing to it but your Docker instance isn't running, you need to do a `lando start` or `lando rebuild` to get the container running.</font> 
 <br>
 
 ##### [Permissions and Time](updateproject.md#drupal-core-update)<br>
