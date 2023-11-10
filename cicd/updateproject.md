@@ -116,6 +116,7 @@ You shouldn't have to worry about this because Lando inherits the environment se
 ##### [Check the Platform.sh build](updateproject.md#over-to-platformsh) of the 'develop' branch<br>
 - Once done with doing and intial testing of updates on the platformsh 'develop' branch go to the 'staged' branch and under the VSCode activity bar click on Source Code; click on three dots, go to "Branch" option and select "Merge", fill in command palette box with the "merge from" question with 'develop'
 - Let the 'staged' branch build on Platform.sh, reactivating if needed, and follow the branch URL to see the running branch to conduct further testing before repeating the process to updated 'main' from 'staged'<br>
+<br>
 
 ##### [Merge your way back up to get the updates you made into 'main'](updateproject.md#merge-up)
 
