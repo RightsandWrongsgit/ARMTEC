@@ -119,6 +119,14 @@ You shouldn't have to worry about this because Lando inherits the environment se
 
 ##### [Merge your way back up to get the updates you made into 'main'](updateproject.md#merge-up)
 
+You did your update on the 'develop' copy of the site.  You then merged it with 'staged', confirmed functioning there, and merged to 'main'.  Check here for a reminder of ['How to'](updateproject.md#merge-up) do that.<br>
+
+You can run a clean up on the 'develop' and 'staged' branches by eliminating them once 'main' is updated and secure.  That saves you Platform.sh environment charges for stale branches you not longer logically use.  Next time you do and update, you are going to grab the 'main' as the starting base and create fresh 'staged' from it; then fresh 'develop' from that.  Remember, to discard unneeded branches you just go the the project main branch and click on the "View All Branches" option where little trash cans can be clicked to do the deed. <br>
+
+<img src="../cicd/captures/update00.png"  width="300">
+
+<br>
+
 *******************************************************************
 ## Quick Extras
 *******************************************************************
