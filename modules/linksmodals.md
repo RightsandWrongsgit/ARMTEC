@@ -8,7 +8,9 @@ The [Linkit module](https://www.webwash.net/link-content-using-linkit-drupal-8/)
 1. The user does not have to copy or remember a URL
 2. If a URL alias of a link changes, the link still works
 3. It provides configurable information about matching links in the autocomplete
- 
+
+<br?
+
 The good news is it has the same "look and feel" as the core linking.  The autocomplete, the Token support, settings adjustments by profile, and integration with configuration synchronization makes it comfortable to use. 
 
 `composer require drupal/linkit`<br>
