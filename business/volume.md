@@ -73,7 +73,7 @@ Your in-store promotions, especially coupons, track like a special form of [pric
 
 ## Price/Margin/A&P Expense
 
-The consumer counts translated to consumer takeaway under the store count, media plan exposure, and in-store promotion actions gives you volume estimates.  You can use the price and promotion discounted price conversion of these volumes to get to a revenue number.  And by tracking the costs of the media plan and in-store tactics as expenses, you can combine them with [COGS](../business.cogs.md) to move from gross-margin to net-margin estimates.  And, now you sort of have a stimulated test market model of your launch.  If you have done this up front, you also can take the input numbers and make them the functional area goals you put into the incentive compensation plans you use. 
+The consumer counts translated to consumer takeaway under the store count, media plan exposure, and in-store promotion actions gives you volume estimates.  You can use the price and promotion discounted price conversion of these volumes to get to a revenue number.  And by tracking the costs of the media plan and in-store tactics as expenses, you can combine them with [COGS](../business/cogs.md) to move from gross-margin to net-margin estimates.  And, now you sort of have a stimulated test market model of your launch.  If you have done this up front, you also can take the input numbers and make them the functional area goals you put into the incentive compensation plans you use. 
 
 ## Retailer Perspective
 
