@@ -16,7 +16,7 @@ Founding ARMTEC, Inc. lead to many more opportunities.  The intersection of busi
 If your [Mötley Crüe](https://www.youtube.com/watch?v=kXt5NWY5Ay0&t=59s) isn't getting it done ...
 Try ours  
 <table align="center"><tr><td align="center" width="9999">
-<img src="images/media/Nehmer_Goon_Rocky.png" align="center" width="450" height="350" alt="ARMTEC Leadership">
+<img src="images/media/Nehmer_Goon_Rocky.svg" align="center" width="450" height="350" alt="ARMTEC Leadership">
 
 </td></tr></table>
 
