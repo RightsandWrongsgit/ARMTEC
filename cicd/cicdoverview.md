@@ -90,4 +90,4 @@ Needed: a GitHub Read.me Summary
 <br>
 <br>
 
-[- Next -](../book/drupalcicd#i-kind-of-need-to-know-how-it-works)
+[- Next -](book/drupalcicd#i-kind-of-need-to-know-how-it-works)
