@@ -152,7 +152,7 @@
     - [VSCode - IDE](https://code.visualstudio.com/){:target="_blank"}
       - [VSCode Extensions](cicd/prerequisites.md#vscode-extensions){:target="_blank"}
     - [Lando (containers locally)](https://lando.dev/){:target="_blank"}
-    - [Docker & Docker-Compose](book/docker)
+    - [Docker & Docker-Compose](https://docker-curriculum.com/)
     - [PHP Code Checker (Online)](https://extendsclass.com/php-tester.html){:target="_blank"}
 
 <br>
