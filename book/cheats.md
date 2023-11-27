@@ -7,6 +7,8 @@
 ## Put them on your Desktop
 - [Make a Desktop Link](https://www.wikihow.com/Put-a-Shortcut-to-a-Website-on-Your-Desktop){:target="_blank"}
 
+<br>
+
 ## Terminal Command Line Interface (CLI)
 - [Command Line Syntax](https://github.com/you-dont-need/You-Dont-Need-GUI#quick-links){:target="_blank"}
 - [Command Line Interface (CLI)](https://cheatography.com/mmorykan/cheat-sheets/common-commands/){:target="_blank"}
@@ -16,10 +18,14 @@
 - [GREP](https://ryanstutorials.net/linuxtutorial/cheatsheetgrep.php){:target="_blank"}
 - [VIM (Also good to tweak inside containers)](https://www.craft.do/s/5FNcLxAUdJbab0){:target="_blank"}
 
+<br>
+
 ## IDE and Version Control
 - [VSCode](https://cheatography.com/jungledeer/cheat-sheets/visual-studio-code/){:target="_blank"}
 - [Video of how to do Git-GitHub with VSCode](https://www.youtube.com/watch?v=S7TbHDN8EXA){:target="_blank"}
 - [Git Key Commands](https://cheatography.com/samcollett/cheat-sheets/git/){:target="_blank"}
+
+<br>
 
 ## Front-End Stuff
 - [Components made of just HTML & CSS](https://github.com/you-dont-need/You-Dont-Need-JavaScript#quick-links){:target="_blank"}
@@ -35,6 +41,8 @@
 - [GRID System](https://grid.malven.co){:target="_blank"}
 - [Markdown](https://cheatography.com/chiragh/cheat-sheets/markdown/){:target="_blank"}
 
+<br>
+
 ## Container Deployments
 - [Docker](https://cheatography.com/achang/cheat-sheets/docker-tools-and-terms/){:target="_blank"}
 - [Docker Compose](https://cheatography.com/gauravpandey44/cheat-sheets/docker-compose/){:target="_blank"}
@@ -43,6 +51,8 @@
 - [Drush](https://drushcommands.com/drush-9x/cache/cache:rebuild/){:target="_blank"}
 - [Drush Summary Sheet](https://cheatography.com/fluxsauce/cheat-sheets/drush-commands/){:target="_blank"}
 - [YAML Checker](https://onlineyamltools.com/edit-yaml){:target="_blank"}
+
+<br>
 
 ## Other Stuff
 - [Sys Admin](https://cheatography.com/kosackm/cheat-sheets/sys-admin/){:target="_blank"}
