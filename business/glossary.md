@@ -52,7 +52,7 @@
 <b>Copy</b>- Represents the reading material in an advertisement.  This may include:
 -- Headline: The most outstanding, typically larger and frequently top of page/column  copy. 
 -- Sub Head: A secondary headline usually above the body copy.
--- Body Copy: The main portion of the written part of the ad.
+-- Body Copy: The main portion of the written part of the ad.<br>
 * may also refer to the verbal content of a TV or radio advertisement
 
 <b>County</b>- A geopolitical subdivision of States in the United States of America often employed in sub-geographic marketing actions and measurements. County is also often cross-referenced to other geographic boundaries such as ADI, DMA, MSA, Nielsen Scantrac area, etc.  Downloadable cross-reference files are available here, but for mission critical work you should obtain the most up-to-date files from a reliable data vendor. (See recommended Mapping Sources)
