@@ -53,7 +53,8 @@
 -- Headline: The most outstanding, typically larger and frequently top of page/column  copy. 
 -- Sub Head: A secondary headline usually above the body copy.
 -- Body Copy: The main portion of the written part of the ad.<br>
-* may also refer to the verbal content of a TV or radio advertisement
+* may also refer to the verbal content of a TV or radio advertisement<br>
+
 
 <b>County</b>- A geopolitical subdivision of States in the United States of America often employed in sub-geographic marketing actions and measurements. County is also often cross-referenced to other geographic boundaries such as ADI, DMA, MSA, Nielsen Scantrac area, etc.  Downloadable cross-reference files are available here, but for mission critical work you should obtain the most up-to-date files from a reliable data vendor. (See recommended Mapping Sources)
 
@@ -76,22 +77,27 @@
 <b>Drug Store</b>- A retail outlet whose sales are primarily of Health & Beauty Aid, patent medicine, and prescription pharmaceutical products; with or without a pharmacist present (see Proprietary Store). 
 
   
-<b>economic development</b>
+<b>economic development</b> - is commonly used to obtain a framework for the potential of people to be able to afford a product.  Especially for multi-national companies, they will consider the level of economic development of various countries to determin which they might plan to do business within.  Even within a country economic development might be considered for where you might want to do business.  An example might be that the coastal provinces of China tend to have higher levels of economic development than the interior; thus companies might only sell near the coastal cities or might offer smaller pack sizes at cheaper entry point prices in the interior to start developing their consumer base as economic opportunity expands.
+
+
 
 <b>Exposure Frequency to Awareness Ratio</b> – There is a body of academic work that suggests the number of exposures which are required to generate awareness is in the 7 to 17 exposures range.  This number is a major factor in overall performance determination of promotion efficiency.  As such it is a key factor to determine and track.  Further, such tracking must be media vehicle specific.  One can assume a quality face-to-face sales call might have an exposure to awareness ratio approaching one-to-one.  On the other hand a television commercial run only on select cable channels in the wee hours of the night might have an infinite exposure to awareness ratio if such time slotting is not fitted to the target market.  From a practical perspective, these extreme examples are not likely to be as significant an issue as effectively measuring the typical media mix’s differences on these ratios.  Maintaining detailed records of all media exposure data and linking it with awareness tracking research findings by ‘source’ of awareness should be a key part of an overall media tracking and performance management effort. 
 
 
 <b>Frequency</b> – simply the number of exposures a media message is presented to an audience.  With an advertisement, this might be a dozen times in terms of a schedule of placements over a month for radio or television.  For print, it might be the number of placements in monthly magazines with readership by the target audience.  With a sales force, it might be the number of sales calls made over a select time slot like a Plan of Action cycle.
 
+
 <b>GRP – Gross Rating Points</b>are a thumbnail summary of media deployment. It fundamentally is the percentage of the target audience reached by an advertisement.  But on such a simplified basis, it would only be presented as such if that advertisement was only seen once.  So GRP’s are really the end result of a combination of a reach percentage and a frequency.  100 GRP’s might mean 100% of a target covered once or 50% of the target covered twice.  Thus it is important to obtain media detail on reach and frequency from your media planner to effectively link any media plan to a prediction of awareness generation or sales forecast.
+
   
-<b>gross impressions</b>
+<b>gross impressions</b> - refers to advertising exposures.  You might create a media plan with an advertising buy that reaches a million people three times per year and thus have three million gross impressions. 
+
 
 <b>Persuasion</b> – just recalling or being aware of an advertisement is NOT sufficient to generate sales.  You also need to generate interest in the product and this is typically measured via purchase intent on a five-point scale.  Purchase intent to actual purchase behavior needs to be calibrated for each point on that scale; the ‘do what you say you will do’ adjustment factor.  There are a variety of calibration approaches which need to be included and monitored in full data architecture design. It is very likely that TCCC’s existing efforts around the ONS measure will be an appropriate foundation for this measure.
 
 
   
-<b>purchase cycles</b>
+<b>purchase cycles</b> - this represents a period of time between purchases.  It is also frequently stated in the context of the number of purchase in occassions in a year.  For example, you might buy mustard four times per year for a purchase cycle of quarterly or once every three months.
 
 
 <b>Proprietary Store</b>- Drug Stores without a pharmacist.
@@ -101,13 +107,17 @@
 
 <b> Repeat rates</b> – this is mainly a function of consumer’s belief that the promise made to get them by an advertisement to make an initial purchase was actually delivered by the product experience.  For a short-purchase cycle product, with a relatively silent self generating need-state reminder, media may operate as an important reminder to stimulate repeat. Product satisfaction testing in the market may be appropriate and such satisfaction measures might be an important ‘modifying’ variable to account for in a media performance database when it is fully developed.  Especially if a product is brand leader in a category, advertising may be as much about stimulating repeat of the category at a greater rate than it is about brand share shifting; this can be volumetrically modeled. A program to evaluate repeat patterns, and/or review of existing research observations, should be undertaken to determine the extent repeat should be made a design consideration. 
 
-<b>Repeat volumes</b>
 
-<b>Share </b>
+<b>Repeat volumes</b> - Consumers may modify the volume which they purchase at repeat.  You may have a trial pack that initially lowers the price point and perceived risk to try a new item.  Then once the consumer finds they like it they may buy more on a repeat occassion.  You also need to which your promotional scheduling so you aren't 'training' your consumers to buy on deal.  If they see frequent repeat deals being offered they may buy small amount in between and then load up when you offer deals; this can erode your profit margin.
 
-<b>Trial rates </b>
 
-<b>Trial volumes</b>
+<b>Share </b> - Share trends to present a percentage of something.  It is commonly used to report your percent or share of a market.  But it can also be used in the context of advertising by something like a 'share of voice'.  
+
+
+<b>Trial rates </b> - represent a percent of target consumers who try a new item.
+
+
+<b>Trial volumes</b> - represents the amount of an item that is purchased upon initial trial.
 
 <br>
 <br>
