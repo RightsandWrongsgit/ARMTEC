@@ -3,7 +3,7 @@
 
 ## What's here
 
-Start your journey to success with ARMTEC, Inc. We offer the tools and resources you need to excel in starting or optimizing your business.  Our ["Open Source"](book/opensource.md#you--open-source) approach provides easy assess to the tools you need.  This ensures transparency and accessibility to all. Whether you prefer self-service or expert guidance, ARMTEC has you covered. Access our comprehensive solutions and save time and money. Partner with us for a well-coordinated and successful outcome. [Contact ARMTEC](contact.md){:target="_blank"} today and take the first step towards your goals. 
+Start your journey to success with ARMTEC, Inc. We offer the resources you need to excel in starting or optimizing your business.  Our ["Open Source"](book/opensource.md#you--open-source) approach provides easy assess to the tools you need.  This ensures transparency and accessibility to all. Whether you prefer self-service or expert guidance, ARMTEC has you covered. Access our comprehensive solutions and save time and money. Partner with us for a well-coordinated and successful outcome. [Contact ARMTEC](contact.md){:target="_blank"} today and take the first step towards your goals. 
 
 
 
