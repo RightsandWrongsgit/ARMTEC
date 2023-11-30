@@ -1,5 +1,16 @@
 
-# Using Layout Builder --
+# Layouts
+
+Building out how your site will look in Drupal is accomplished with a wide array of tools.  At a basic level you have a 'theme' and out of the box that theme is "Olivero".  You can see the [section on themes]](theme/frontoverview.md) for a discussion of various options.  Within whatever theme you select as your foundation look and feel, you still can add and edit content, images, etc. to further refine how your site looks.  The Layout Builder discussed shortly provides a ton of goodies to achieve what you want.
+
+Before we dive into Layout Builder, you may just want to take a look a installing the [Same Page Preview module.](https://www.youtube.com/watch?v=Mh_plCpt1_A)  It can let you get a quick look at how simple it is to just try things with the core tools in the standard installation of Drupal and see how what you do plays out in an adjacent preview window.
+
+`composer require 'drupal/same_page_preview`
+`drush en same_page_preview`
+
+<br>
+
+## Using Layout Builder --
 
 Set up Layout Builder with the modules to really make it work. [Getting started with Layout Builder.](https://www.webwash.net/getting-start-with-layout-builder-in-drupal/)
 
