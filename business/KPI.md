@@ -9,6 +9,8 @@ KPIs should be ...
 - measurable
 - date/time explicit
 
+<br>
+
 You should also be able to pretty clearly show how the individual, department, division, component goals relate to the broader organization goals.
 
 Since the goals are to be date/time specific, you ought to have checkpoints on calendars.  Annual performance reviews should be simple; a talley of the checkpoints that isn't a surpise to anyone.
