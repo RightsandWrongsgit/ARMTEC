@@ -17,6 +17,9 @@ The [Real-time SEO for Drupal module](https://www.drupal.org/project/yoast_seo) 
 ### Simple XML Sitemap Module
 Search engines "crawl" websites to create their indexing magic.  They need to know what to crawl.  So people create a [sitemap](https://en.wikipedia.org/wiki/Sitemaps) to tell them. The [Simple XML Sitemap Module](https://www.drupal.org/project/simple_sitemap) is how you will do this for your site and create the XML formated map needed.  If you want to understand more about [how site maps work, check out "What is an XML sitemap and why should you have one?"](https://yoast.com/what-is-an-xml-sitemap-and-why-should-you-have-one/#:~:text=An%20XML%20sitemap%20is%20a,important%20page%20of%20your%20website.)
 
+### XML Sitemap via on-line tool
+It is also possible to use various tools to generate a sitemap.  A search will find many.  One that is [super simple to use is here.](https://xmlsitemapgenerator.org/)  It will generate the map file and you need to take that an put it into a root location for your site.  Even if you ultimately find it easier to use one of the Drupal specific modules noted above, you might want to run this on-line tool on your intially running site for the simply output report; very likely you will find several lines here and there in the report where it reports an error because you have a broken link.  The context of the nearby lines in the report will help make it easier to find that broken link and repair it before your sitemap finalization.
+
 
 <br>
 <br>
