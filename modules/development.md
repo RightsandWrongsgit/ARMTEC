@@ -143,6 +143,14 @@ This is an alternative layout to the out-of-the-box toolbar that developers and 
 
 <br>
 
+## Admin Dialogs module
+Sometimes repetative actions working with various site building or content additions requires a sequence of page loads.  The page loads are a little slower than just popping up a modal for something like a 'delete' action confirmation.  This [module can](https://www.drupal.org/project/admin_dialogs) be configured to achieve that and behaves with the Admin Toolbar module if you want to add both.
+
+`composer require 'drupal/admin_dialogs`<br>
+`drush en admin_dialogs`
+
+<br>
+
 ##  Autosave Form Mmodule
 
 Is a 'maybe' addition to development and content editing.  It does NOT retain pure true revision versions but has its own temporary storage logic while you are working.  It is set at 60 second for an autosave but should be configurable.
