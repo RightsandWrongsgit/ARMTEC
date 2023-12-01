@@ -33,10 +33,10 @@ theme: jekyll-theme-minimal
 # remote_theme: pages-themes/minimal@v0.2.0
 # remote_theme: pages-themes/minimal
 plugins:
-    - jekyll-remote-theme
+#    - jekyll-remote-theme
     - jekyll-gist
     - jekyll-sitemap
- #   - jekyll-paginate
+#    - jekyll-paginate
 
     
 # Whitelist plugins under safe mode.
