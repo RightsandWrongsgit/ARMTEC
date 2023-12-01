@@ -34,7 +34,7 @@ theme: jekyll-theme-minimal
 # remote_theme: pages-themes/minimal
 plugins:
 #    - jekyll-remote-theme
-    - jekyll-gist
+#    - jekyll-gist
     - jekyll-sitemap
 #    - jekyll-paginate
 
