@@ -36,7 +36,7 @@ plugins:
     - jekyll-remote-theme
     - jekyll-gist
     - jekyll-sitemap
-    - jekyll-paginate
+ #   - jekyll-paginate
 
     
 # Whitelist plugins under safe mode.
