@@ -10,7 +10,7 @@ Drupal is one of the most powerful content management systems that integrates th
 
 The logic portion of Drupal uses a version of the PHP language called [Symfony](https://symfony.com/).  Content editors and Site Builders probably don't need to know more.  Developers will want to know some basic PHP skills and general object oriented programming principles.  The [chapters from Selwyn head into the Developer skill level](chapters.md#chapters-from-selwyn-polit).
 
-The display part of Drupal is a presentation layer that uses [TWIG](../theme/twig.html), HTML, [CSS](../book/opensource.md#front-end), and JavaScript.  Again, you may not have to worry about this if you are a content editor.  Even site builders can use some standard included "Themes" like [Olivero](../ARMTEC/chapters#front-end)  and produce some very capable and attractive websites.  However, you probably will want to advance into more customization of the displays by learning more about working with Drupal's front-end tools.
+The display part of Drupal is a presentation layer that uses [TWIG](../theme/twig.md), HTML, [CSS](../book/opensource.md#front-end), and JavaScript.  Again, you may not have to worry about this if you are a content editor.  Even site builders can use some standard included "Themes" like [Olivero](../ARMTEC/chapters.md#front-end)  and produce some very capable and attractive websites.  However, you probably will want to advance into more customization of the displays by learning more about working with Drupal's front-end tools.
 
 ## Drupal Front-end
 
