@@ -20,8 +20,8 @@ logo: /book/images/media/ARMTEC Logo Medium+.png
 title: [Guide to Profitable Sales]
 email: emofsnead@gmail.com
 description: [Confidently achieve your slice of success by effectively and efficiently understanding attracting and engaging your target customers with expert tools even an autobuild Drupal CI/CD website]
-# baseurl: ""
-baseurl: "/ARMTEC"
+baseurl: ""
+# baseurl: "/ARMTEC"
 url: https://rightsandwrongsgit.github.io
 # repository: RightsandWrongsgit/ARMTEC
 
@@ -37,7 +37,7 @@ theme: jekyll-theme-minimal
 #    - jekyll-gist
 #    - jekyll-sitemap
 #    - jekyll-paginate
-
+#    - jekyll-target-blank
     
 # Whitelist plugins under safe mode.
 # Note that if `some-other-jekyll-plugin` is not listed here it will not be loaded under safe mode.
