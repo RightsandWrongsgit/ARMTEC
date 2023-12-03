@@ -20,8 +20,8 @@ logo: /book/images/media/ARMTEC Logo Medium+.png
 title: [Guide to Profitable Sales]
 email: emofsnead@gmail.com
 description: [Confidently achieve your slice of success by effectively and efficiently understanding attracting and engaging your target customers with expert tools even an autobuild Drupal CI/CD website]
-baseurl: ""
-# baseurl: "/ARMTEC"
+# baseurl: ""
+baseurl: "/ARMTEC"
 url: https://rightsandwrongsgit.github.io
 # repository: RightsandWrongsgit/ARMTEC
 
