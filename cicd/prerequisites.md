@@ -116,7 +116,7 @@ You can enhance the basic IDE with extensions and some of these can be especiall
 ### Sign up for these
 
 
-- Sign up for a [GitHub account](github.com) and ideally know how to use the [SSH connection](https://www.youtube.com/watch?v=snCP3c7wXw0)
+- Sign up for a [GitHub account](https://docs.github.com/en/get-started/quickstart/creating-an-account-on-github) and ideally know how to use the [SSH connection](https://www.youtube.com/watch?v=snCP3c7wXw0)
 
 - Sign up for [Platform.sh](https://platform.sh/) and authenticate an account. It is strongly recommended that you sign up for Platform.sh by clicking on the GitHub sign-in option using the GitHub account you just set up.  Then install the Platform.sh Command Line Interface (CLI), on a MacBook run `curl -sS https://platform.sh/cli/installer | php`
 
