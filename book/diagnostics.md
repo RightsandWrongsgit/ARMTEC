@@ -36,7 +36,7 @@ permissions to 'self/group/everyone'.  You wouldn't want to leave it that way in
 You might do `chmod 644 filename` to grant read-write access to the owner(you) but only read access to your group and everyone else.  Or perhaps `chmod 664 filename` to grant
 read-write to you and to your group but just read access to everyone else.  If a file needs to be written to during the installation process you might `chmod 666 filename` to
 grant access of read-write to self/group/everyone for something like a settings.php file but you certainly want to lock permissions down for security reasons afterward.  For more
-on missions you might review (https://kb.iu.edu/d/abdb).
+on missions [you might review this](https://kb.iu.edu/d/abdb).
 
 ### Checking Git Configuration -
 Sometimes you might question where Git is pulling its information and it it is set up correctly.  To see where it is pulling from run
