@@ -32,6 +32,8 @@ Additional references from a...<br>
 
 - [Maes·tro](https://stackoverflow.com/questions/5410757/delete-lines-in-a-text-file-that-contain-a-specific-string)
 
+- [Composer approach GitHub Repo](https://github.com/rustam-miagdeev/openideal-composer)
+
 <br>
 
 ### GET AND SET UUIDs
