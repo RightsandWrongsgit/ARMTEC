@@ -19,10 +19,10 @@ It is pretty much standard practice to design your first website using some sort
 - [Doc/DocX to Markup Converter (Online)](https://word2md.com/){:target="_blank"}
 - [Markup Editor (Online & Download)](https://readme.so/editor){:target="_blank"}
 - [Find a Quote (Online)](https://metaphor.systems/){:target="_blank"}
-- [Lorem Ipsum Generator (Online)](https://lipsum.com/)
+- [Lorem Ipsum Generator (Online)](https://lipsum.com/){:target="_blank"}
 - [AI Content Editor (Online)](https://app.writesonic.com/template/da9ef70b-a08f-4640-9a27-344d1b9f7fe7/chatsonic/8e698ef5-8208-4740-96ce-db0d57a58c52){:target="_blank"}
-- [Available Fonts](https://fonts.google.com/)
-
+- [Available Fonts](https://fonts.google.com/){:target="_blank"}
+  
 <br>
 
 ### Graphical
@@ -57,7 +57,7 @@ It is pretty much standard practice to design your first website using some sort
 - [CSS Tricks](https://css-tricks.com/){:target="_blank"}
 - [Full Integration Toolbox](https://10015.io/){:target="_blank"}
 - [HyperLink Parts of a Graphic](http://www.javascriptkit.com/howto/imagemap.shtml){:target="_blank"}
-- [Theming](../theme/frontoverview.md)
+- [Theming](../theme/frontoverview.md){:target="_blank"}
 - [Electron Cross-Platform](https://www.electronjs.org/){:target="_blank"}
 - [JavaScript (JS) Basics](https://khosee6.medium.com/an-intro-to-javascript-its-history-and-attributes-ca4d122e6450){:target="_blank"}
 
@@ -69,10 +69,10 @@ It is pretty much standard practice to design your first website using some sort
 - [vim (ultralight editor useful within a container)](https://www.vim.org/){:target="_blank"}
 - [VSCode- IDE](https://code.visualstudio.com/){:target="_blank"}
 - [Lando (containers locally)](https://lando.dev/){:target="_blank"}
-- [Docker & Docker-Compose](https://docker-curriculum.com/)
+- [Docker & Docker-Compose](https://docker-curriculum.com/){:target="_blank"}
 - [PHP Code Checker (Online)](https://extendsclass.com/php-tester.html){:target="_blank"}
-- [Check Your Site for Broken Links](https://www.brokenlinkcheck.com/)
-  
+- [Check Your Site for Broken Links](https://www.brokenlinkcheck.com/){:target="_blank"}
+    
 <br>
 
 ## Handy Utilities:
