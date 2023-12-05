@@ -29,7 +29,7 @@ The `i.bak` argument will create a backup of the affected file. This is 'sweet' 
 `rm *.bak`
 
 Additional references from a...<br>
-- [Wizard](https://drupalcommands.com/console/config/config-export/)<br>
+
 - [Maes·tro](https://stackoverflow.com/questions/5410757/delete-lines-in-a-text-file-that-contain-a-specific-string)
 
 <br>
