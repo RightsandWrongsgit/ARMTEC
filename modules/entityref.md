@@ -60,7 +60,7 @@ We noted that besides content, user, comment, etc. there is a type of entity tha
 # Entity Relationship
 
 ## Entity Reference
-<font color=grey>(automatically in Core)</font>
+<font color=yellow>(automatically in Core)</font>
 
 One of the most powerful concepts in Drupal is an Entity Reference.  Thing of this as helping define things that belong together.  For example, a song might be one-of-many which make up and album and an artist might have more than one albumn.  So you might create a content type for song, then albumn, then article in sort of a hierarchical low to higher logic.  What that is doing is having the lower level item present so that when you create the next higher one the lower is available to point to it.  A [video overview from Drupal.Org shows a simple example with recipes and those who submitted them.](https://www.youtube.com/watch?v=hAhWiqPlKh0&t=142s)
 
