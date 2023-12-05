@@ -1,21 +1,32 @@
 
 # Layouts
 
-Building out how your site will look in Drupal is accomplished with a wide array of tools.  At a basic level you have a 'theme' and out of the box that theme is "Olivero".  You can see the [section on themes]](theme/frontoverview.md) for a discussion of various options.  Within whatever theme you select as your foundation look and feel, you still can add and edit content, images, etc. to further refine how your site looks.  The Layout Builder discussed shortly provides a ton of goodies to achieve what you want.
+Building out how your site will look in Drupal is accomplished with a wide array of tools.  At a basic level you have a 'theme' and out of the box that theme is [Olivero.](https://armtec.services/theme/olivero.html)  You can see the [section on themes](theme/frontoverview.md) for a discussion of various options.  Within whatever theme you select as your foundation look and feel, you still can add and edit content, images, etc. to further refine how your site looks.  The Layout Builder discussed shortly provides a ton of goodies to achieve what you want.
 
-Before we dive into Layout Builder, you may just want to take a look a installing the [Same Page Preview module.](https://www.youtube.com/watch?v=Mh_plCpt1_A)  It can let you get a quick look at how simple it is to just try things with the core tools in the standard installation of Drupal and see how what you do plays out in an adjacent preview window.<br>
+## Drupal "Parts"
+
+Typically a theme will provide some basic navigation, the general way Regions of a page are set up, a starting point of a color scheme; don't worry, you also have edit control of all that stuff as you gain experience and want to increasingly tune it to your own preferences.  Obviously more capable websites have not only many pages but often pages which support differing needs for various content chunks.  You might think of these in the Drupal world as Content Types or Content Entities.  Drupal adds that basic concept the ability to classify different content with tags or taxonomy; and it allows fine tuned control regarding who sees what with 'permissions by role'.  All of these [Drupal Basics](https://armtec.services/book/drupalbasics.html) also have a foundational impact on the design or layout of your website.<br>
+
+## Same Page Preview
+You can use Drupal without its simplified drag and drop Layout Builder interface and many people who are developers or site builders with some HTML and CSS experience prefer to do so.  Even in this more 'out of the box' situation, it is beneficial to see what your efforts look like in a real time preview. Thus you may just want to take a look a installing the [Same Page Preview module.](https://www.youtube.com/watch?v=Mh_plCpt1_A)  It can let you get a quick look at how simple it is to just try things with the core tools in the standard installation of Drupal and see how what you do plays out in an adjacent preview window.<br>
 
 `composer require 'drupal/same_page_preview`<br>
 `drush en same_page_preview`
 
 <br>
 
-## Using Layout Builder --
+# Using Layout Builder --
 
-Set up Layout Builder with the modules to really make it work. [Getting started with Layout Builder.](https://www.webwash.net/getting-start-with-layout-builder-in-drupal/)
+Layout Builder is a core module that comes automatically with your basic Drupal installation.  However, it is NOT turned on by default.  It offers more of a drag and drop interface for those who are at the Content Management:Site Builder level of experience.
+Before you decide if it is for you take a look at [Getting started with Layout Builder.](https://www.webwash.net/getting-start-with-layout-builder-in-drupal/)  Then if you think it is for you you just need to go to the 'Administration/Extend' option on the menu bar and checkmark the Layout Builder module; remember to then "Save" and you should be ready to go.  If you are a command line person you can also enable it by simply typing ...<br>
 
-From Core -
-drush en layout_builder
+`drush en layout_builder`
+
+## Contributed Modules
+
+### Layout Builder Plus
+
+Layout Builder is extremely capable in and of itself.  If you balance toward the Content Manager more than the Site Builder you might want to start with an even more slimmed down initial interface called [Layout Builder +](https://www.youtube.com/watch?v=SYi3HmOcNyw) that has a starting "tab" for the most basic option and a secondary tab giving you access to the deeper options.  It will [pay dividends to have the Media Library](https://armtec.services/modules/media.md)set up with some of the image content you anticipate using on your site so you immediately get the feel for how all this works.
 
 
 
@@ -47,9 +58,13 @@ drush en layout_builder_blocks
 
 
 
-The Block Visibility Groups module really allows powerful conditional control of what blocks show up for who and when.  You can have things show up differently depending on logged in status, different content type pages, potentially even Token filtered situations; the conditionals 'stack' to combine them for full control.
-composer require 'drupal/block_visibility_groups:^1.4'
-https://www.youtube.com/watch?v=ZKwkaMUbJIs
+The [Block Visibility Groups module](https://www.youtube.com/watch?v=ZKwkaMUbJIs) really allows powerful conditional control of what blocks show up for who and when.  You can have things show up differently depending on logged in status, different content type pages, potentially even Token filtered situations; the conditionals 'stack' to combine them for full control.<br>
+
+`composer require 'drupal/block_visibility_groups`<br>
+`drush en block_visibility_groups`
+
+
+
 There are also "companion" modules for menu conditions, term conditions, token conditions, vocabulary conditions that you can add for easier control.
 
 
