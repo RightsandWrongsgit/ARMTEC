@@ -56,7 +56,7 @@ Relating the Webform 'form system' elements to 'PHP fields' within classic Drupa
 
 ### Webform base
 
-The base module has a whole variety of features within it.  But because this series is so well documented, it makes no sense to repeat all that here; just [jump to this great overview of all that it does and works with.](https://www.drupal.org/docs/contributed-modules/webform/webform-features)  This [brief tutorial from Yale University shows some easy ways to use this module](https://yalesites.yale.edu/module-tutorials/webform) Or you may prefer a [step-by-step install and use guide.](https://www.webwash.net/courses/using-webform-in-drupal-8/)
+The base module has a whole variety of features within it.  But because this series is so well documented, it makes no sense to repeat all that here; just [jump to this great overview of all that it does and works with.](https://www.drupal.org/docs/contributed-modules/webform/webform-features)  If you prefer a [step-by-step install and use guide.](https://www.webwash.net/courses/using-webform-in-drupal-8/)
 
 `composer require drupal/webform`<br>
 `drush en webform`
