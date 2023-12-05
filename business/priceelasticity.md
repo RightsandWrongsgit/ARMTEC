@@ -62,7 +62,7 @@ It is nice to say you need to have a strategic plan with price tactics and assoc
   
 - [Loss Leader Pricing](https://www.investopedia.com/terms/l/lossleader.asp)<font bold color=palegoldenrod> – may be the ultimate in Penetration Pricing where you actually sell below cost; at least fully allocated cost as variable cost isn't sustainable long other than short trial acceleration.</font><br>
 
-- [Bogo & Related](https://happypoints.io/blog/top-optimal-solutions-to-implement-bogo-strategy-c1-sa-160/#:~:text=A%20BOGO%20strategy%20is%20to,item%20at%20a%20full%20price.)<font bold color=palegoldenrod> - is one type of discounting that might be used to generate trial or goose up retailer satisfaction with a brand by offering more units for a lower per unit price.</font><br>
+- [Bogo](https://blog.wiser.com/how-buy-one-get-one-can-improve-your-sales/)<font bold color=palegoldenrod> - is one type of discounting that might be used to generate trial or goose up retailer satisfaction with a brand by offering more units for a lower per unit price.</font><br>
 
 - [Price Skimming](https://www.coursera.org/articles/skim-pricing)<font bold color=palegoldenrod> – discounting at the risk or point of a competitive product entry to block their success. This can be very effective if you know that in many categories of products there is an 18-24 month breakeven period from launch and you can make staying in the game painful for new entrants.</font><br>
 
