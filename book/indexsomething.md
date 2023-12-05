@@ -31,7 +31,7 @@ If you happen to know HTML already, you will find it interesting that you can mi
 
 The Content Management System [(CMS)] Drupal, is developed using Symfony as a PHP backend or server-side language.  PHP is an [Object Oriented language.](https://en.wikipedia.org/wiki/Object-oriented_programming) Understanding how a "Request" through a user action is basically 'traffic directed' to the right point via a controller where arguments are applied to produce a response(s) can be very helpful in understanding your options in working with Drupal.
 
-<img src="../book/images/drupalworkflow.png"  width="600">
+<img src="../book/images/media/drupalworkflow.png"  width="600">
 
 <br>
 
