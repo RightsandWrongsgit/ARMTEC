@@ -16,7 +16,7 @@
 - [Command Line with Port Management](https://cheatography.com/heisere/cheat-sheets/system-admin-cs/){:target="_blank"}
 - [Node Package Manager(npm)](https://cheatography.com/gregfinzer/cheat-sheets/node-package-manager/){:target="_blank"}
 - [GREP](https://ryanstutorials.net/linuxtutorial/cheatsheetgrep.php){:target="_blank"}
-- [VIM (Also good to tweak inside containers)](https://www.craft.do/s/5FNcLxAUdJbab0){:target="_blank"}
+- [VIM (Also good to tweak inside containers)](https://www.vim.org/about.php){:target="_blank"}
 
 <br>
 
