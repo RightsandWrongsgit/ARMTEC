@@ -26,10 +26,11 @@ Before you decide if it is for you take a look at [Getting started with Layout B
 
 ### Layout Builder Plus
 
-Layout Builder is extremely capable in and of itself.  If you balance toward the Content Manager more than the Site Builder you might want to start with an even more slimmed down initial interface called [Layout Builder +](https://www.youtube.com/watch?v=SYi3HmOcNyw) that has a starting "tab" for the most basic option and a secondary tab giving you access to the deeper options.  It will [pay dividends to have the Media Library](https://armtec.services/modules/media.md)set up with some of the image content you anticipate using on your site so you immediately get the feel for how all this works.
+Layout Builder is extremely capable in and of itself.  If you balance toward the Content Manager more than the Site Builder you might want to start with an even more slimmed down initial interface called [Layout Builder +](https://www.youtube.com/watch?v=SYi3HmOcNyw) that has a starting "tab" for the most basic option and a secondary tab giving you access to the deeper options.  It will [pay dividends to have the Media Library](https://armtec.services/modules/media.md)set up with some of the image content you anticipate using on your site so you immediately get the feel for how all this works.<br>  
 
+[Installing Layout Builder Plus](https://www.drupal.org/project/lb_plus)
 
-
+<br>
 
 From Contributed modules -
 composer require 'drupal/bootstrap_layout_builder:^2.0'
