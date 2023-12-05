@@ -154,8 +154,9 @@
     - [Lando (containers locally)](https://lando.dev/){:target="_blank"}
     - [Docker & Docker-Compose](https://docker-curriculum.com/)
     - [PHP Code Checker (Online)](https://extendsclass.com/php-tester.html){:target="_blank"}
-
-<br>
+    - [CDN Libraries you can call](https://cdnjs.com/libraries){:target="_blank"}
+    
+    - <br>
 
 - ##### Handy Utilities
 
