@@ -27,6 +27,15 @@ These other index.something files are often called when a website has more depth
 
 If you happen to know HTML already, you will find it interesting that you can mix it with 'php' to quickly add some dynamic updates to your work.  An example of [building several parts of a website with HTML and having index.php make key calls to it is worth understanding.](https://www.makeuseof.com/tag/build-simple-php-website/) For a more [in depth review of mixing HTML and php you might find this summary tutorial session valuable.](https://code.tutsplus.com/tutorials/how-to-use-php-in-html-code--cms-34378)
 
+## Index to Settings.PHP to ...
+
+The Content Management System [(CMS)] Drupal, is developed using Symfony as a PHP backend or server-side language.  PHP is an [Object Oriented language.](https://en.wikipedia.org/wiki/Object-oriented_programming) Understanding how a "Request" through a user action is basically 'traffic directed' to the right point via a controller where arguments are applied to produce a response(s) can be very helpful in understanding your options in working with Drupal.
+
+<img src="../book/images/drupalworkflow.png"  width="600">
+
+<br>
+
+[How Drupal works under the hood](https://www.youtube.com/watch?v=CIxYGqY8nPs&t=2177s) with that workflow gives you an understanding of what you have in your index.php, settings.php, and application code logic application in moodules.  What is really interesting is how what is output by Drupal can be worked upon by a more than one approach to formating a response.  The video points out that "Headless Drupal" might more properly consider multi-headed Drupal where you take the same basic Drupal generated output to feed standard Drupal content [TWIG templates,](../theme/twig.md) independent JavaScript, and CSV or PDF to serve multiple valuable output for your users.
 
 
 <br>
