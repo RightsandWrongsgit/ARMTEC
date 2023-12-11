@@ -44,8 +44,8 @@ Let's get this out of the way.  The focus at ARMTEC for local containers is Land
 
 - [Lando Platform.sh Demo](https://www.youtube.com/watch?v=ynUYCj147Xw){:target="_blank"}
 
-
-
+## Advanced Topic: Kubernetes
+We discuss using containers as an approach to deploying a site.  These might be local tools like Lando or DDEV.  They may be hosted containers like Platform.sh or Amazee.io who wrap their environments with tools that make working with them more user friendly.  But 'the big boys' who are replicating mirrored sites around the global are more likely diving into Docker on a native basis and even something called Kubernetes that get to closer to the raw world out there.  You aren't going to start there but understand that Drupal is fully capable of playing in that world and often does.  So when you are read take a look at [Kubernetes via this nice free video series.](https://www.youtube.com/playlist?list=PL6nVblW4NNATO7Zq_RwIBNeKc0Es8jJWV)
 <br>
 <br>
 <br>
