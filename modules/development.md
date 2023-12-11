@@ -151,7 +151,7 @@ Sometimes repetative actions working with various site building or content addit
 
 <br>
 
-##  Autosave Form Mmodule
+##  Autosave Form module
 
 Is a 'maybe' addition to development and content editing.  It does NOT retain pure true revision versions but has its own temporary storage logic while you are working.  It is set at 60 second for an autosave but should be configurable.
 
@@ -187,6 +187,11 @@ Using the [Drupal CI/CD Project workflow template,](..cicd/cicdoverview.md) prov
 `drush en backup_migrate`
 
 <br>
+
+## Content Model & Site Documentation
+The [Content Model & Site Documentation module](https://www.drupal.org/project/content_model_documentation) is something too often ignored.  But there is a way you can install this module in Drupal as you get started and it puts the tools you need to document right at the place you are working.  That might be just an extra tab on a content type you are setting up or it might be a trigger point where content managers can go to see guidelines on how they should present content.  This [video overview, starting aroun 16.5 minutes in, gives you the details.](https://www.youtube.com/watch?v=TYXz7D14mMA)
+
+
 
 ## Password Reset Landing Page module
 
