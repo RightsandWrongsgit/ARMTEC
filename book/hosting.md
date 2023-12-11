@@ -10,6 +10,7 @@ Most people tend to want to build their website on their own computer.  You can 
 - [GitHub Pages Tutorial](https://tomcam.github.io/least-github-pages/){:target="_blank"}
 - [Set up a Blog in GitHub Pages](https://aregsar.com/blog/2019/how-to-setup-your-github-pages-blog-structure-in-five-minutes/){:target="_blank"}
 - [GitHub Pages Markup Guide](https://www.markdownguide.org/tools/github-pages/){:target="_blank"}
+- [GitHub Pages Refresh Cache](https://github.com/orgs/community/discussions/19713){:target="_blank"}
 
 <br>
 
