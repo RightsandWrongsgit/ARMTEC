@@ -20,6 +20,12 @@ Drupal serves the relative novice with many of the features included in its Core
 You might now try to look at the many [slices of solutions provided by a mix of either examples of how to use some modules OR of brief code block examples that you can give a try yourself.](https://www.codimth.com/category/web/drupal)
 
 <br>
+
+## Source of Truth
+
+Drupal itself maintains a basic documentation [Users Guide.](https://www.drupal.org/docs/user_guide/en/index.html)
+
+<br>
 <br>
 <br>
 
