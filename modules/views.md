@@ -52,6 +52,11 @@ Both the Lazy Views and Views Combine modules were developed by the same group a
 
 --------
 
+### Views Field View module
+
+I think of the [Views Field View module](https://www.drupal.org/project/views_field_view)as basically 'nested views'.  A [demonstration of how to combine it with taxonomy](https://www.youtube.com/watch?v=oOKH1kYKnZo) to present grouped movie reviews by genre can show you a good example use case.
+
+
 ### Views Flipped Table module
 
 Views offers options on the way it displays the query results. Things like an unformatted list, grid, table, etc.  This module simply flips the rows and columns from a standard table to display the other way around in case you happen to have more columns than rows in what you are pulling. 
