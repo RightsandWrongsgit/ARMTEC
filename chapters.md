@@ -7,14 +7,16 @@
 ### Chapter: Business Basics
 - [Route to Performance](business/overview.md)
 - [Business Models](business/models.md)
+  - [Revenue or Demand Generation](business/demand.md)
+  - [Marketing and Advertising](business/adpromo.md)
+    - [A & P Summary](business/admathsummary.md)
+    - [A & P Details](business/admath.md)
+    - [Creative Brief](business/thebrief.md)  - 
+  - [Selling](business/selling.md)
 - [Cost of Goods/Services](business/cogs.md)
 - [Product/Service](business/cogs.md#productservice)
 - [Price Strategy](business/priceelasticity.md)
 - [Volume Modeling](business/volume.md)
-- [Advertising & Promotion](business/adpromo.md)
-  - [A & P Summary](business/admathsummary.md)
-  - [A & P Details](business/admath.md)
-  - [Creative Brief](business/thebrief.md)
 - [Key Performance Indicators](business/KPI.md)
 - [Glossary](business/glossary.md)
 
