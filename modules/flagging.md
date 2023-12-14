@@ -8,9 +8,9 @@ Some people think of flags as an option <font color-yellow>within CKeditor</font
 
 
 ## Flag Module
-Another way people think of flags is 'to report something' such as flagging an offensive post.  The [Flag Module](https://www.drupal.org/project/flag) is also used for a user to flag something to read later or as a favorite, much like "bookmarking" an entry.  There are dozens of uses that you can spinoff of this basic concept and, though dated, the [Flag Module Documentation](https://www.drupal.org/documentation/modules/flag) overviews many.
+Another way people think of flags is 'to report something' such as flagging an offensive post.  The [Flag Module](https://www.drupal.org/project/flag) is also used for a user to flag something to read later or as a favorite, much like "bookmarking" an entry.  The Drupal version used in this [overview video](https://www.youtube.com/watch?v=1okegMnDxAE) is way out of date, but it still gives a pretty quick general idea about the module.  There are dozens of uses that you can spinoff of this basic concept and, though dated, the [Flag Module Documentation](https://www.drupal.org/documentation/modules/flag) overviews many.  For a ['How to' on the Flag module try this.](https://opensenselabs.com/blog/tech/use-flag-module-drupal-8)
 
-The Drupal version used in this [overview video](https://www.youtube.com/watch?v=1okegMnDxAE) is way out of date, but it still gives a pretty quick general idea about the module.
+
 
 ## Website Feedback Module
 
