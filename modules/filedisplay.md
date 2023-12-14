@@ -1,7 +1,11 @@
 
 # Display File Info
 
-It was mentioned previously that Drupal tends to be sort of a workhorse CMS for bigger demand websites.  And, therefore, it is commonly selected by large businesses, universities and even government.  If you think about the types of things this types of organization want to include, it can often be the dislay of datasets.  And those datasets may exist in the form of Excel spreadsheets, or on PDFs, or in CSV and other formats.  
+It was mentioned previously that Drupal tends to be sort of a workhorse CMS for bigger demand websites.  And, therefore, it is commonly selected by large businesses, universities and even government.  If you think about the types of things this types of organization want to include, it can often be the dislay of datasets.  And those datasets may exist in the form of Excel spreadsheets, or on PDFs, or in CSV and other formats. 
+
+## External Links module (PDF)
+
+Before covering the wider file range and actions, if you are just looking to display PDF files you might simply use the [External Links module](https://www.drupal.org/project/extlink) with a little extra set up.  This is [explained in this video documentation](https://www.youtube.com/watch?v=oLCgOTNKbAQ)
 
 Wouldn't it be nice to be able to simply set up a Drupal set of pages where these types of files might be displayed.  And how wonderful if they might be seen as the underlying data adjust; like a stock price, or a traffic count, or park visitor, etc.
 
