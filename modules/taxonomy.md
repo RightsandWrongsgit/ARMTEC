@@ -86,6 +86,11 @@ If you have paid, logged in users with a higher priority permissions, there may 
 `composer require drupal/private_taxonomy`<br>
 `drush en private_taxonomy`
 
+## Tagify module
+
+The agify module](https://www.drupal.org/project/tagify)is basically a JS interface that improves the user experience in tagging terms. Commonly used with entity reference deployments, the ability to quick select and edit what terms you want to associate with what is being tagged is a user friendly addition.
+
+<br>
 
 # Taxonomy w/ Other Modules
 
