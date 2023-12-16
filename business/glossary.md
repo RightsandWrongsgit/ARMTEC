@@ -140,9 +140,14 @@
 
 <b>Shelf Talkers </b> - These are basically tiny signs displayed right at the shelf location of your product.  Make sure you understand the retailer requirement when you design yours.  In addition to your brand name and calling out 'new', 'improved', some brand attribute advantages, it is not uncommon to present any special pricing being offered such as a BOGO.  It may not be good or allowed to present an actual price because of the retailers system coordination implications.  
 
+<b>Slotting Allowance</b> -  Also called a slotting fee. It basically is a retailer charging to present your brand on their store shelves.  See [Slotting fee.](https://en.wikipedia.org/wiki/Slotting_fee#:~:text=A%20slotting%20fee%2C%20slotting%20allowance,or%20within%20their%20supply%20chain.)
+
 <br>
 
 ##### - T -
+<b>Trade Slicks</b> - Having your brand obtain broad exposure amoung your target is important.  You want to carefully control how it is presented.  One way you can extend reach yet control presentation is by preparing micro-ads that others use while interacting with a propectitive customer base.  You make these in various shapes and sizes so they can be dropped into locations convenient to those using them on your behalf.  This may be retailers who have something like a flyer or free standing insert; or it may be a digital partner who you trade exposure with against a shared consumer base in a synergistic rather than competitive manner.  
+
+
 <b>Trial rates </b> - represent a percent of target consumers who try a new item.
 
 
