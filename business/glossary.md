@@ -135,6 +135,8 @@
 ##### - S -
 <b>Share </b> - Share trends to present a percentage of something.  It is commonly used to report your percent or share of a market.  But it can also be used in the context of advertising by something like a 'share of voice'.  
 
+<b>Shelf Talkers </b> - These are basically tiny signs displayed right at the shelf location of your product.  Make sure you understand the retailer requirement when you design yours.  In addition to your brand name and calling out 'new', 'improved', some brand attribute advantages, it is not uncommon to present any special pricing being offered such as a BOGO.  It may not be good or allowed to present an actual price because of the retailers system coordination implications.  
+
 <br>
 
 ##### - T -
