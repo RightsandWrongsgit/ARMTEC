@@ -99,6 +99,9 @@
 <br>
 
 ##### - F -
+
+<b>Facings</b> – When you look at a retail store shelf, facings are the number of units visible at the front. Products that turnover with high-volume categories generally get more shelf facings. Your Trade Sales organization should be rewarded for achieving a disproportionately high number of facings.
+
 <b>Frequency</b> – simply the number of exposures a media message is presented to an audience.  With an advertisement, this might be a dozen times in terms of a schedule of placements over a month for radio or television.  For print, it might be the number of placements in monthly magazines with readership by the target audience.  With a sales force, it might be the number of sales calls made over a select time slot like a Plan of Action cycle.
 
 <br>
