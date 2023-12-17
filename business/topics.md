@@ -3,8 +3,6 @@
 
 ## Business
 
-- Digital Assets Development & Placement
-  -  [Programmatic](https://martech360.com/marketing-automation/programmatic-ads/top-4-best-programmatic-advertising-platforms-in-2022/?utm_source=advocacy&utm_medium=social&utm_campaign=engagement&blaid=4629853)
 - Tracking/Metrics/Dynamic Adjustment
 - ATU and Source of Awareness Tracking
 - Media Asset Version Management
@@ -12,8 +10,6 @@
 - Video: Director Connections, Location w/ seasonality, length edits
 - Print: Layouts, Reach, Readership
 - Call Center and Scripts
-- Sales Deployment/Geo optimization vs relationship change risk
-- Available Selling Time/Calls per
 - Plan of Action Cycle Management
 - Campaign Management
 - Cost per exposure/Exposure to Awareness/to purchase
@@ -23,16 +19,14 @@
 - Revenue to A&P
 - Margin Management
 - COGS to feature impact on purchase/retention
-- Channel Management
-- Distribution/ACV
 - Purchase Cycle/Repeat Rate
 - Full Supply Chain Status
 - Fixed Asset Utilization Rates, Breakpoints & Max
 - Ingredient Risk and cost trends
-- Slotting Allowance
-- End-Aisle and other Displays
-- Free Standing Inserts
-- Trade Slicks
+- Digital Assets Development & Placement
+  -  [Programmatic](https://martech360.com/marketing-automation/programmatic-ads/top-4-best-programmatic-advertising-platforms-in-2022/?utm_source=advocacy&utm_medium=social&utm_campaign=engagement&blaid=4629853)
+  -  [Build a Landing Page](https://github.com/leandrow/init-landing-page)
+
 
 ## Information Technology
 
