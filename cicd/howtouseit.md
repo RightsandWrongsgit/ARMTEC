@@ -236,8 +236,10 @@ That will lead to a "Configure your integration" screen asking for you to input 
 <font color="#FFFFFF">Run "lando start"</font><br>
 
 ##### [Permissions and Time](updateproject.md#drupal-core-update)<br>
-- Open directory and file permissions `chmod u+w web/sites/default`
-- Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`<br>
+- Open directory and file permissions `chmod u+w web/sites/default`<br>
+- Set extra run time for the many and large files involved `lando composer config --global process-timeout 2000`
+
+<br>
 
 <font color="#FFFFFF">Do a "lando pull"; Making selection via the space bar...</font><br>
 
