@@ -3,8 +3,13 @@
 
 <br>
 
+One of the most basic interactions you will have with a calendar is to "Book" something; a room, a meeting, an event, etc.   Drupal.org provides a [review of the main options.](https://www.drupal.org/docs/extending-drupal/contributed-modules/comparison-of-contributed-modules/comparison-of-bookingavailabilityreservation-modules)  Here a combination of two calendar related modules and another that integrates nicely with them is presented.
+
 ## Bookable Calendar
-When planning for an event, you usually have a date(s) and time(s) when things will happen.  So one thing you may want to do is have a [bookable calendar... there is a module for that.](https://www.drupal.org/project/bookable_calendar)  This [up and running video](https://www.youtube.com/watch?v=UFnQnwfg-44) should get you going quickly.
+[The Bookable Calendar module](https://www.drupal.org/project/bookable_calendar) is the workhorse component.  It is here where you can establish what is bookable (room, course, etc.), who can book it, for how long, how many days/weeks/months into the future, for how many people, etc.  One of the better videos on [what can be done with the bookable calendar is here.](https://www.youtube.com/watch?v=UFnQnwfg-44)
+
+[The Calendar View module](https://www.drupal.org/project/calendar_view) is then your choice for the display of your calendar information.  And just like [Views](modules/views.md), you do various set up selections for titles, what is displayed, etc.  However, what you are now working with is a template(s) for the views you start working with and that makes the choice options more calendar relevant out of the box.
+
 
 <br>
 
