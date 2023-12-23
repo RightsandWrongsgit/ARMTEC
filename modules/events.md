@@ -27,7 +27,7 @@ The easiest way to see what is available is to [watch a video overview demonstra
 
 You can find the [Event Platform module](https://www.drupal.org/project/event_platform) on the Drupal site.  Use the normal composer method to install the module and drush to enable it.
 
-`composer require 'drupal/event_platform`
+`composer require 'drupal/event_platform`<br>
 `drush en event_platform`
 
 <br>
