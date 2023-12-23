@@ -10,12 +10,13 @@ One of the most basic interactions you will have with a calendar is to "Book" so
 
 [The Calendar View module](https://www.drupal.org/project/calendar_view) is then your choice for the display of your calendar information.  And just like [Views](modules/views.md), you do various set up selections for titles, what is displayed, etc.  However, what you are now working with is a template(s) for the views you start working with and that makes the choice options more calendar relevant out of the box.
 
+The Bookable Calendar module can also be combined with the rules type of logic that the [Events→Conditions→Actions](../modules/ECA.md) can provide.
 
 <br>
 
 ## Events: The kind you run
 
-Just to make sure you are where you think you are, this page is about how to use Drupal to set up an event website.  There is a whole different page explaining the [Events→Conditions→Actions](../modules/ECA.md) which is a toolset that triggers an action to occur under events and conditions as a set of rules.  
+Just to make sure you are where you think you are, this page is about how to use Drupal to set up an calendar type of event.  There is a whole different page explaining the [Events→Conditions→Actions](../modules/ECA.md) which is a toolset that triggers an action to occur under events and conditions as a set of rules.  
 
 It should not be surprising at all the Drupal has a rich starting point to set up an event website.  This is because Drupal is very community oriented and runs all sorts of events around the globe throughout the year.  Since the Drupal community needs its own websites to manage these events, they have built some really great functionality.
 
