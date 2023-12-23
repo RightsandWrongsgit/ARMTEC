@@ -54,7 +54,11 @@ And make it look like this.  A more human readable, meaningful URL.
 
 <img src="../modules/images/pathauto2.png"  width="350">
 
-See how the [Pathauto module](https://www.webwash.net/automatically-generate-url-aliases-using-pathauto-drupal-8/) is simply a way that you can make this process more automatic; or hear more about it in a [Podcast Overview](https://www.youtube.com/watch?v=3l8ihak4_uk). If you are building a tiny site then you really aren't leveraging the value of a content managment system like Drupal.  But if you are having frequently updated content, potentially from various sources, even fed to you via RSS, then having more automatic URL naming is important.<br>
+See how the [Pathauto module](https://www.webwash.net/automatically-generate-url-aliases-using-pathauto-drupal-8/) is simply a way that you can make this process more automatic; or hear more about it in an [ Overview of how path names work with Drupal node entities.](https://www.youtube.com/watch?v=9SvNuhk4ZUA&t=28s)  If you are building a tiny site then you really aren't leveraging the value of a content managment system like Drupal.  But if you are having frequently updated content, potentially from various sources, even fed to you via RSS, then having more automatic URL naming is important.
+
+You may find that Pathauto doesn't run deep enough to suit your needs.  You can extend its reach with the [Sub-Pathauto module.](https://www.drupal.org/project/subpathauto)  If you happen to have a site that is serving different departments in a large organization, company or government you will find this addition helpful.  And it also plays a nice [role in combination with Views, Media, etc. as explained here.](https://lostcarpark.com/advent/2023/2/subpathauto-and-friends)
+
+<br>
 
 Having it on during development might get you to think about 'naming' with end-user thinking in sight.  Instead of a path that is something like a node and its number you might have a content category and a node title; and you can use 'Tokens' in the naming strategy for the paths. [See adding the Token module.](../modules/development.md#token-module)<br>
 
