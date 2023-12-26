@@ -56,8 +56,9 @@ OR<br>
 
 # User Presentation 
 <br>
+
 ## Facets module
-To give the user the power to leverage taxonomies beyond a search box you might want to use facets.  Thing of these as the boxes you see on the left of the large shopping sites where you chose your size, color, price, etc. preferences.
+To give the user the power to leverage taxonomies beyond a search box you might want to use facets.  Thing of these as the boxes you see on the left of the large shopping sites where you chose your size, color, price, etc. preferences. [Instructions on setting this module up.](https://www.specbee.com/blogs/how-configure-faceted-search-drupal-8-and-9-easy-step-step-tutorial)
 
 `composer require drupal/facets`<br>
 `drush en facets`
