@@ -242,7 +242,7 @@
   - [Email](/modules/email.md)
   - [Media](modules/media.md)
   - [Layout Builder](modules/layoutbuilder.md)
-  - [TWIG Front-end](..theme/twig.md#twig-tweak)
+  - [TWIG Front-end](../theme/twig.md#twig-tweak)
   - [SEO Modules](modules/SEO.md)
   - [Active Site Modules](modules/activesite.md)
   - [Content Moderation](modules/contentmoderate.md)
