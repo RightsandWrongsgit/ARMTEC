@@ -107,7 +107,7 @@ You will be back revisiting this section even thoough the project 'Git Clone' wi
 
 [A video with more on the Config Suite module!](https://www.youtube.com/watch?v=02IJGgGPBAw&t=112s)
 
-[Advanced Configuration Management with Config Split et al.](https://events.drupal.org/vienna2017/sessions/advanced-configuration-management-config-split-et-al.html)https://events.drupal.org/vienna2017/sessions/advanced-configuration-management-config-split-et-al.html
+[Advanced Configuration Management with Config Split et al.](https://events.drupal.org/vienna2017/sessions/advanced-configuration-management-config-split-et-al.html)
 
 <br>
 <br>
