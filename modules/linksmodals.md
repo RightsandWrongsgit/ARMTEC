@@ -13,8 +13,6 @@ The [Linkit module](https://www.webwash.net/link-content-using-linkit-drupal-8/)
 
 The good news is it has the same "look and feel" as the core linking.  The autocomplete, the Token support, settings adjustments by profile, and integration with configuration synchronization makes it comfortable to use. 
 
-`composer require drupal/linkit`<br>
-`drush en linkit`
 
 ## Editor Advanced Link module
 
@@ -24,34 +22,30 @@ The [Editor Advanced Link module](https://www.drupal.org/project/editor_advanced
 
 [The Entity Embed Links module](../modules/entityref.md#entity-embed-links) may be an alternative for integration with Drupals Media Management.
 
-## Field Group Link module
-
-So you can have the whole group you established set up to allow a link.
-
-`Composer require drupal/field_group_link`<br>
-`drush en field_group_link`
-
 ## Linked Field module
 
-Just linking an individual field.
+Just linking an individual field.  The [Linked Field module](https://www.drupal.org/project/linked_field) provides the field formatter so you can do things like set up an image to the entered link.
 
-`composer require drupal/linked_field`<br>
-`drush en linked_field`
+## Field Group Link module
+
+Sometimes you have set up a field group to combine related fields into one entity.  In this situation you want to use the [Field Group Link module](https://www.drupal.org/project/field_group_link) rather than just the Linked Field module. 
+
 
 ## Iframe module
 
-Control how you open a linked site; as a frame within yours or as a separate browser tab.
+The [Iframe modules](https://www.drupal.org/project/iframe)  controls how you open a linked site; as a frame within yours or as a separate browser tab.
 
-`composer require drupal/iframe`<br>
-`drush en iframe`
+The [CKEditor Iframe module](https://www.drupal.org/project/ckeditor_iframe) provides the capability to use an iframe while working on a page with your editor tool.
 
-[How to 'Bypass an iframe blocked website link'](https://mail.google.com/mail/u/1/#inbox/FMfcgxwGBmxNzFRfMwvpmxJtqZLGmhQV)
+Sometime you might need to know [How to 'Bypass an iframe blocked website link'](https://mail.google.com/mail/u/1/#inbox/FMfcgxwGBmxNzFRfMwvpmxJtqZLGmhQV)
+
+## External Links module
+
+The [External Links module](https://www.drupal.org/project/extlink) basically is used to put an icon next to those links used on your site that will take a user outside your site. 
 
 
 ## Modal module
-
-`composer require drupal/modal_page`<br>
-`drush en modal_page`
+[The Modal module](https://www.drupal.org/project/modal_page) is a handy way to use modals on your site.  Check with your designers as modal use bounces in and out of popularity in site UI/UX thinking.
 
 
 ## Modals - Command Line
