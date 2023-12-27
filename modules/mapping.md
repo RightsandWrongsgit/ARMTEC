@@ -7,17 +7,11 @@ The several integratable tools for placing a map in your site are [demonstrated 
 There are a few additional mapping tools that you may want to consider beyond the nearly dozen used in the detailed example.  These are:
 
 ## Address Map Link
-That mapping in the detailed resturant example a little 'overkill'.  You just want to put a map on your simple site.  A basic approach to having a map on your site is the Address Map Link Module in combination with the Address Module.  For most basic sites that want to simply put an address on a page(s) that a user can click to take them to a map, this relatively simple module should do the trick.  If you have a more complex mapping need look further under Multiple Mapping Modules.
-
-`composer require drupal/address_map_link`<br>
-`drush en address_map_link`
+That mapping in the detailed resturant example a little 'overkill'.  You just want to put a map on your simple site.  A basic approach to having a map on your site is the [Address Map Link module](https://www.drupal.org/project/address_map_link) in combination with the Address Module.  For most basic sites that want to simply put an address on a page(s) that a user can click to take them to a map, this relatively simple module should do the trick.  If you have a more complex mapping need look further under Multiple Mapping Modules.
 
 
 ## Smart IP
-Tapping ito the users the log-in location the 'SmartIP Module' can bring geographic information in a general sense that might be leveraged to related proximity to other geocoded information in your site.  This can pull the most locally related information to the forefront to user presentation.
-
-`composer require drupal/smart_ip`<br>
-`drush en smart_ip`
+Tapping ito the users the log-in location the [SmartIPmModule](https://www.drupal.org/project/smart_ip) can bring geographic information in a general sense that might be leveraged to related proximity to other geocoded information in your site.  This can pull the most locally related information to the forefront to user presentation.
 
 
 ## Smart Content module
@@ -25,10 +19,7 @@ Geocoding the user location can also be combined with the [Smart Content module]
 
 
 ## Weather module
-Pushing the limits a little, but in a broad sense weather is reported in a geographic map area.  So one of the most basic things we want to do with the current location is to set the initially displayed weather.
-
-`composer require drupal/weather-weather`<br>
-`drush en weather-weather`
+Pushing the limits a little, but in a broad sense weather is reported in a geographic map area.  So one of the most basic things we want to do with the current location is to set the initially displayed weather.  For that, try the [Weather module](https://www.drupal.org/project/weather)
 
 
 
