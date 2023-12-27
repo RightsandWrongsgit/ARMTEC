@@ -232,7 +232,7 @@
   - [Comments: Perhaps a Quick Blog](https://www.webwash.net/how-to-manage-comments-in-drupal/) 
   - [File Viewer](/modules/filedisplay.md)
   - [Events->Conditions->Actions](/modules/ECA.md)
-  - [Events: Manage One](/modules/events.md)  
+  - [Events/Calendar](/modules/events.md)  
   - [Performance](modules/performance.md)
   - [Security](modules/security.md)
   - [Mapping](modules/mapping.md)
