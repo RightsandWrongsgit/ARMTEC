@@ -12,6 +12,7 @@ What you need to do is the classic `lando composer require 'drupal/insertmodulen
 <br>
 
 <p>To download an Excel file copy of this table of your own that you can edit and add to  <a href="armtec.services/assets/downloads/config_split_table.xml" download>Click here!</a>
+[download]({{ site.baseurl }}{% link /assets/downloads/config_split_table.xml %})
 
 <br>
 <br>
