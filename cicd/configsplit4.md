@@ -5,15 +5,15 @@ There are also all sorts of additional field, block, form, menu, action, and vie
 
 <br>
 
-<img src="../cicd/captures/YMLFileRoles1.jpg"  width="1000">
+<img src="../cicd/captures/YMLFileRoles1.png"  width="1000">
 
-<img src="../cicd/captures/YMLFileRoles2.jpg"  width="1000">
+<img src="../cicd/captures/YMLFileRoles2.png"  width="1000">
 
-<img src="../cicd/captures/YMLFileRoles3.jpg"  width="1000">
+<img src="../cicd/captures/YMLFileRoles3.png"  width="1000">
 
-<img src="../cicd/captures/YMLFileRoles4.jpg"  width="1000">
+<img src="../cicd/captures/YMLFileRoles4.png"  width="1000">
 
-<img src="../cicd/captures/YMLFileRoles5.jpg"  width="1000">
+<img src="../cicd/captures/YMLFileRoles5.png"  width="1000">
 
 
 <br>
