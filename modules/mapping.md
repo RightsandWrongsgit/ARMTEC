@@ -21,10 +21,7 @@ Tapping ito the users the log-in location the 'SmartIP Module' can bring geograp
 
 
 ## Smart Content module
-Geocoding the user location can also be combined with the smart content module to localized content experience to users; perhaps their local airport or airports within their specific region.  This would be for anonymous users and then potentially enhanced with the menu token approach for logged in user personalization.  The smart content module works directly with layout builder integration where smart blocks are Decision Blocks.  This module can also be used for things like A/B testing of content as we move forward.
-
-`composer require drupal/smart_content`<br>
-`drush en drupal/smart_content`
+Geocoding the user location can also be combined with the [Smart Content module](https://www.drupal.org/project/smart_content) to localized content experience to users; perhaps their local airport or airports within their specific region.  This would be for anonymous users and then potentially enhanced with the menu token approach for logged in user personalization.  The smart content module works directly with layout builder integration where smart blocks are Decision Blocks.  This module can also be used for things like A/B testing of content as we move forward.
 
 
 ## Weather module
