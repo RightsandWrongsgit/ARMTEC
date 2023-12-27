@@ -9,11 +9,6 @@ What you need to do is the classic `lando composer require 'drupal/insertmodulen
 
 <img src="../cicd/captures/configtable.png"  width="1000">
 <sup><sub>TABLE KEY:  S = Site Builder,  B = Beginning Developer,   D = Developer</sub></sup><br>
-<br>
-
-<p>To download an Excel file copy of this table of your own that you can edit and add to  <a href="armtec.services/assets/downloads/config_split_table.xml" download>Click here!</a><br>
-  
-[Download]({{ site.baseurl }}{% /assets/downloads/config_split_table.xml %})
 
 <br>
 <br>
