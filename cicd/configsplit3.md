@@ -11,7 +11,7 @@ What you need to do is the classic `lando composer require 'drupal/insertmodulen
 <sup><sub>TABLE KEY:  S = Site Builder,  B = Beginning Developer,   D = Developer</sub></sup><br>
 <br>
 
-<p>To download an Excel file copy of this table of your own that you can edit and add to.<a href="armtec.services/assets/downloads/config_split_table.txt" download>Click here</a>
+<p>To download an Excel file copy of this table of your own that you can edit and add to  <a href="armtec.services/assets/downloads/config_split_table.txt" download>Click here!</a>
 
   <br>
 
