@@ -30,7 +30,7 @@ Geocoding the user location can also be combined with the smart content module t
 ## Weather module
 Pushing the limits a little, but in a broad sense weather is reported in a geographic map area.  So one of the most basic things we want to do with the current location is to set the initially displayed weather.
 
-`composer require drupal/weather-weather`
+`composer require drupal/weather-weather`<br>
 `drush en weather-weather`
 
 
