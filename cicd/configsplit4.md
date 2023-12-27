@@ -10,8 +10,3 @@
 <img src="../cicd/captures/YMLFileRoles5.png"  width="1000">
 
 
-<br>
-<br>
-<br>
-
-[- Next -](../cicd/envindicator.md)
