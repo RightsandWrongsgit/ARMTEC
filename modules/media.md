@@ -75,7 +75,7 @@ The [Media Bulk Upload module](https://www.drupal.org/project/media_bulk_upload)
 
 ### Remote Stream Wrapper modules
 
-The [Remote Stream Wrapper module](https://www.drupal.org/project/remote_stream_wrapper) might be thought of as similar to what the standard media type of playing a remote video does.  Instead of having a local copy of an image, or for that matter any file type, the remote stream wrapper allows you to point to its URL location.  You know how you can Ctrl-Click an image on a Mac and select from a list the option for "Copy Image Address", well that address is what you would paste in for calling a remote image to your site. 
+The [Remote Stream Wrapper module](https://www.drupal.org/project/remote_stream_wrapper) might be thought of as similar to what the standard media type of playing a remote video does.  Instead of having a local copy of an image, or for that matter any file type, the remote stream wrapper allows you to point to its URL location.  You know how you can Ctrl-Click an image on a Mac and select from a list of options including "Copy Image Address", well that address is what you would paste in for calling a remote image to your site. 
 
 ### Remote Stream Wrapper Widget 
 
@@ -115,7 +115,7 @@ Set the content selection entries all up, hit Save, and go see you have the imag
 
 <img src="../modules/images/wrapper6.png"  width="500">
 
-
+The Remote Stream Wrapper will also present similar options in the Media and Media Library modules part of Drupal Core but which need to be enabled to use.  You will even find in the Media Library that once you set up a remote image asset, a thumbnail of it will appear even though the image itself is remote.  This is convenient for content editors who probably don't give a darn where the image physically is located, simply want it looks like to grab and use.
 
 <br>
 <br>
