@@ -38,6 +38,8 @@ If you find yourself needing to install Drush independently there are a few impo
 
 <br>
 
+Drush is also [used with commands ](https://www.drupal.org/docs/contributed-modules/devel/drush-commands) from modules like [Devel](/modules/development.md#devel-module) and its Generate functions.
+
 ## Show me Drush
 
  [Drush website](https://www.drush.org)
