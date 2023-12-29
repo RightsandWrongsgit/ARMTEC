@@ -1,5 +1,5 @@
 # ARMTEC
-GitHub Pages Site for Technical Support Division
+GitHub Pages Site: Technical Support Division
 
 This site offers an extensive array of tools used by ARMTEC, Inc.  However, we offer these to the community under the terms of the license noted on the site.  This includes Business, Market Research, common Open Source tools, Novice to Advanced Information Systems explanations, and even guidance on how to use our Drupal Template to more easily get started with a website capable of growing with your needs.
 
