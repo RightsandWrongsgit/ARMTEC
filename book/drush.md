@@ -16,6 +16,29 @@ Often times you don't have to do anything special to have Drush installed.  That
 
 If you find yourself needing to install Drush independently there are a few important things to consider.  First, Drush leverages the fact that you are using Drupal via a [Composer](../book/Novice.md#setting-up-your-basic-system) based installation; so make sure you are doing it that way.  Second, people who get into developing with Drupal often take on more than one site and have the local development copy of the various sites on their local hard drive in different directories.  Each project needs access to Drush and normally if it came as part of just installing with a single Drupal installation it is directly associated with the project.  When you have multiple Drupal projects there are ways that you add to your Bash or ZSH Shells the pathway instructions to make Drush visible and available to multiple Drupal projects across your local machine.  The "how to" for that is best found right from the Drush website.
 
+## Commonly Used Drush Commands
+
+[drush cr](https://drushcommands.com/drush-9x/cache/cache:rebuild/) cache rebuild<br>
+[drush cron](https://drushcommands.com/drush-9x/core/core:cron/) updates CRON<br>
+[drush cex](https://drushcommands.com/drush-9x/config/config:export/) export the active site configuration to YML files<br>
+[drush cim](https://drushcommands.com/drush-9x/config/config:import/) import from YML files to active site configuration<br>
+[drush rq](https://drushcommands.com/drush-9x/core/core:requirements/) core requirements providing information about site issues<br>
+[drush dd {item name}](https://drushcommands.com/drush-9x/drupal/drupal:directory/)  finds path for modules or other items <br>
+[drush en {module}](https://drushcommands.com/drush-9x/pm/pm:enable/) enable a module<br>
+[drush pmu {module, module,…}](https://drushcommands.com/drush-9x/pm/pm:uninstall/) uninstall a module<br>
+[drush entup](https://drushcommands.com/drush-9x/entity/entity:updates/) runs the database update when you get notice to run that<br>
+[drush uli](https://drushcommands.com/drush-9x/user/user:login/) one time login link for user1<br>
+[drush uinf {name, name,…}](https://drushcommands.com/drush-9x/user/user:information/) display users information<br>
+[drush ublk {name}](https://drushcommands.com/drush-9x/user/user:block/) block user<br>
+[drush uublk {name}](https://drushcommands.com/drush-9x/user/user:unblock/) unblock user<br>
+[drush ucrt {user}:{“password”}](https://drushcommands.com/drush-9x/user/user:create/) create a user with password<br>
+[ drush upwd {user}:{“password”}](https://drushcommands.com/drush-9x/user/user:password/) update a user’s password<br>
+[drush vl](https://drushcommands.com/drush-9x/views/views:list/) get a list of all views in the system<br>
+[drush wd-list](https://drushcommands.com/drush-9x/watchdog/watchdog:list/)watchdog list to find report of issues<br>
+
+<br>
+<br>
+
 ## Show me Drush
 
  [Drush website](https://www.drush.org)
