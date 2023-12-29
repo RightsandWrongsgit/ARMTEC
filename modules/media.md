@@ -75,13 +75,46 @@ The [Media Bulk Upload module](https://www.drupal.org/project/media_bulk_upload)
 
 ### Remote Stream Wrapper modules
 
-The [Remote Stream Wrapper modules](https://www.drupal.org/docs/contributed-modules/how-to-use-remote-stream-wrapper-with-core-media-module) are a way to get images on your website via a [link to them on some remote URL.](https://danlobo.co.uk/articles/getting-started-remote-images-drupal)  The modules 'plural' is intentional because there is the basic module and a separate widget module.  I am not smart enough to know how the heck you would use the base module without the widget.  But, if you install and enable both you will find thumbnails of the linked images right in your Media Library to use just link any other image.  And, you will find "Remote Stream Wrapper" as an option on the widget list within your 'Manage Form Display' pulldown box, and you will be offered an option to put in a URL address instead of an image upload button.  Let's just say that with the widget added, the base module will work just like you expect any Drupal module to behave.
+The [Remote Stream Wrapper module](https://www.drupal.org/project/remote_stream_wrapper) might be thought of as similar to what the standard media type of playing a remote video does.  Instead of having a local copy of an image, or for that matter any file type, the remote stream wrapper allows you to point to its URL location.  You know how you can Ctrl-Click an image on a Mac and select from a list the option for "Copy Image Address", well that address is what you would paste in for calling a remote image to your site. 
 
-`composer require 'drupal/remote_stream_wrapper`<br>
-`drush en remote_stream_wrapper`
+### Remote Stream Wrapper Widget 
 
-`composer require 'drupal/remote_stream_wrapper_widget`<br>
-`drush en remote_stream_wrapper_widget`
+The [Remote Stream Wrapper Widget module](https://www.drupal.org/project/remote_stream_wrapper_widget) is an add-on to the base module that makes it so you can get to the functionality through the Drupal Administration User Interface.  
+
+### Installing these two modules
+
+You won't find any significant level of documentation on how to use these modules; [Here is one.](https://danlobo.co.uk/articles/getting-started-remote-images-drupal)  A more direct 'how to' is provided here to get you going.  You install with composer as usual and you can enable the modules with drush or can go to the 'Extend' option from the Administrative menu to enable them.
+
+composer require 'drupal/remote_stream_wrapper'<br>
+drush en remote_stream_wrapper
+
+composer require 'drupal/remote_stream_wrapper_widget'<br>
+drush en remote_stream_wrapper_widget
+
+From the Administration menu select an entity bundle you want to apply it to, most commonly go to the 'Structure' menu and select 'Content Type'.  Then you can either use one of your existing content types or add a new content type.  Using the example of an existing one, you see over on the right-hand side the Operations title has 'Manage fields' showing but the little down arrow means there are more things to select; if you know you already have an "image" field in the content type you want to work with, go directly to the 'Manage form display' option.  Otherwise first use the 'Manage fields' option to add one.  
+
+<img src="../modules/images/wrapper1.png"  width="500">
+
+In the 'Manage form display' option you want to find that image field and under the "Widget" section you will see a box with the word "Image" in it, plus a down arrow.
+
+<img src="../modules/images/wrapper2.png"  width="500">
+
+When you click the down arrow you will find the "Remote Stream Wrapper" option, click it.  Then go down to the bottom of the page and click save.
+
+<img src="../modules/images/wrapper3.png"  width="500">
+
+In the 'Manage display' option if you go down to the "Image" field and look at the "Format" column you will see "Image" showing but with a down arrow; which when you click shows you also have the option of displaying the 'URL to image'.  After making your choice again make sure to SAVE. 
+
+<img src="../modules/images/wrapper4.png"  width="500">
+
+Now go back to the top Administration menu and select the 'Content' option; from it pick the content type you set the Remote Stream Wrapper to work with and open it.  There you will see a typical look of that content type but in the "Image" field box you will be able to insert a URL to link an image remote from your site.  
+
+<img src="../modules/images/wrapper5.png"  width="500">
+
+Set the content selection entries all up, hit Save, and go see you have the image.
+
+<img src="../modules/images/wrapper6.png"  width="500">
+
 
 
 <br>
