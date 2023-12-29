@@ -34,9 +34,8 @@ If you find yourself needing to install Drush independently there are a few impo
 [drush ucrt {user}:{“password”}](https://drushcommands.com/drush-9x/user/user:create/) create a user with password<br>
 [ drush upwd {user}:{“password”}](https://drushcommands.com/drush-9x/user/user:password/) update a user’s password<br>
 [drush vl](https://drushcommands.com/drush-9x/views/views:list/) get a list of all views in the system<br>
-[drush wd-list](https://drushcommands.com/drush-9x/watchdog/watchdog:list/)watchdog list to find report of issues<br>
+[drush wd-list](https://drushcommands.com/drush-9x/watchdog/watchdog:list/) watchdog list to find report of issues<br>
 
-<br>
 <br>
 
 ## Show me Drush
