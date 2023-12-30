@@ -1,6 +1,8 @@
 
 # Front-end Overview
 
+What you are about to read is an overview of front-end in the context of a Content Management System like Drupal.  If you aren't familiar with front-end, it generally is considered the skeleton ([HTML](https://html.com/)}, skin (CSS), and actions (JS) of a website.  It is distinguished from the backend where significan content is stored in databases and logic code is applied by some program like PHP at a server.  If you want to know about front-end tools and development consider taking or reviewing this [free video course.](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmMuZ3saqRIBimAKIMYkt0E)
+
 Drupal [Content Management System (CMS)](chapters.md#chapter-content-management-system-cms) is an integrated website platform.  You select it because you have 'Content' that you wish to 'Display' in a user's 'Browser' in a 'Templated' manner which has some consistency.  A common example might be a newspaper which presents articles that have a title, subject, author, date, and story element consistently included in a template.  You might use the 'subject' to reference the sports, financial, lifestyle, business, and other sections in your newspaper.  In each of those sections you might 'present' the article in a slightly different style; font, color, size, etc.  Drupal has all the parts needed to control and manage the integrated workflow of all this stuff.
 
 Think of the workflow like this:
