@@ -45,7 +45,7 @@ What I mean by the edit-to-new opportunity is that instead of eliminating UUIDs 
 <font color=yellow size=small>NOTE:  If you get "The import failed due to the following reasons: Entities exist of type <em class="placeholder">Shortcut link</em> and <em c lass="placeholder">Shortcut set</em> <em class="placeholder">Default</em>."</font>  <font size=small> These entities need to be deleted before importing; try:</font> `drush -y entity:delete shortcut_set` before your `drush -y cim`
 
 - [More here](https://drupal.stackexchange.com/questions/150481/how-can-i-import-the-configuration-on-a-different-site)
-- [Fuller article outlining process](https://enzo.weknowinc.com/articles/2014/08/27/understanding-configuration-management-in-drupal-8)
+- [Fuller article outlining process](https://enzo.weknowinc.com/articles/2014/08/27/understanding-configuration-management-in-drupal-8)<br>
 
 
 ### Your an untrusting sole and like to plod your own way through
