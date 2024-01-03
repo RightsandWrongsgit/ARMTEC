@@ -4,12 +4,19 @@
 ## First Line of Defense
 
 Make users sign up for an account before they can upload anything.
-Use of a separate file system for anonymous upload contributions. Read more here:
-https://www.drupal.org/psa-2016-003
+Use of a separate file system for anonymous upload contributions. [Read more here:](https://www.drupal.org/psa-2016-003
 
 ## Password Policy module
 
 The [Password Policy module](https://www.drupal.org/project/password_policy) offers you the opportunity to add more specific requirements to what sort of password your website will find acceptable.  For example the minimum number of characters, mix of alpha and number and symbols, et.
+
+## Security Review module
+
+It might be worth your trouble trying the [Security Review module](https://www.drupal.org/project/security_review) to get a perspective on your specific vulnerabilities.  The good thing about this module is that it doesn't automatically make changes.  Rather think of its results as a checklist and its resources providing ways to manually secure your site. 
+
+## Hacked module
+
+This one takes an interesting approach.  The [Hacked module](https://www.drupal.org/project/hacked) basically works by redownloading your modules and checking what is installed against that to see if unexpected changes imply you have been hacked.  Presenting a "Difference" view sort of like a typical Git management approach you can see what has changed.  Again, it don't just go in an start doing things, more about finding things because it could be you have a module where a change is nothing more than a patch you applied.
 
 ## Security Kit module
 
