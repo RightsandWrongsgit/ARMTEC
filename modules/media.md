@@ -28,13 +28,6 @@ Media Entity Document (Now part of Core)<br>
 
 <br>
 
-[Inline Entity Form](https://www.drupal.org/project/inline_entity_form)<br>
-[Entity Embed;](https://www.drupal.org/project/entity_embed) but watch Limited Version update<br>
-[Video embed field](https://www.drupal.org/project/video_embed_field)<br>[Views Infinite Scroll](https://www.drupal.org/project/views_infinite_scroll)<br>
-[Ctools](https://www.drupal.org/project/ctools)<br>
-
-<br>
-
 ### Taking it hands-on
 
 [Managing Media Assest Using Core Media](https://www.webwash.net/managing-media-assets-using-core-media-in-drupal/)<br>
@@ -47,6 +40,13 @@ Or, if you prefer<br>
 <br>
 
 ## Media extras
+
+[Inline Entity Form](https://www.drupal.org/project/inline_entity_form)<br>
+[Entity Embed;](https://www.drupal.org/project/entity_embed) but watch Limited Version update<br>
+[Video embed field](https://www.drupal.org/project/video_embed_field)<br>[Views Infinite Scroll](https://www.drupal.org/project/views_infinite_scroll)<br>
+[Ctools](https://www.drupal.org/project/ctools)<br>
+
+<br>
 
 ### Focal Point Module
 
