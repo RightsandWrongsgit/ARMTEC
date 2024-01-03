@@ -213,6 +213,7 @@
 
 #### Drupal Modules
 
+  - [Schema or Architecture](modules/schema.md)
   - [Drupal Modules](modules/modulesoverview.md)
   - [Development Modules](modules/development.md)
   - [Fields Modules](modules/fields.md)
