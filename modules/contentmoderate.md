@@ -117,7 +117,17 @@ This module brings some of the People, Permissions, Role elements to Content Man
 
 <br>
 
+# Share Content
 
+It is pretty common that you want to share information between sites; meaning more than just the common  [links modules.](../modules/linksmodals.md)  People share data, they exchange with RSS feeds, and more; [Check here](https://www.drupal.org/node/627270) for a complete review. 
+
+## RSS Feeds
+
+The [Feeds module](https://www.drupal.org/project/feeds) is probably the most commonly used of the RSS capabilities of Drupal and their overview of the module points to both companion and alternative modules.
+
+## Multiple Drupal Sites
+
+Sometimes what you mean by sharing content isn't grabbing a feed from an external site but rather you want to take the input of your own content and present it on more than one of your own sites.  For this you will want to use the [Entity Share module.](https://www.drupal.org/project/entity_share)   For a detailed review of this module you can see a [presentation by one of its maintainers.](https://www.youtube.com/watch?v=RSB1pXPD3v4)
 
 # People and Permissions
 
