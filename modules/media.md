@@ -11,23 +11,29 @@ In a big way, [the media management upgrade to Drupal Core has leveraged a few c
 
 One of the best presentations on [Media Libraries in Drupal](https://www.electriccitizen.com/citizen-blog/media-libraries-drupal-8) is a must read for full appreciation of all that can be achieved.  It walks through creating Media Bundles, Library Views, Image Styles and Responsive Images, Display Modes, Entity Browsers, Adding Media Fields to a Node, and WSIWYG Embedding media with your editor.  To do all this it recommends installing the following modules; but note that some are now simply in Core and others get installed because of a dependency the other have on them.
 
-[Inline Entity Form](https://www.drupal.org/project/inline_entity_form)<br>
-[Entity Embed;](https://www.drupal.org/project/entity_embed) but watch Limited Version update<br>
+<br>
+
 Entity Browser (Now part of Core)<br>
 Media Entity (Now part of Core)<br>
 Media Entity Image (Limited Version update)<br>
 Media Entity Document (Now part of Core)<br>
 
-[Video embed field](https://www.drupal.org/project/video_embed_field)<br>
+<br>
 
 ##### Responsive Images in Drupal
-  [Responsive Images In Drupal Guide](https://mariohernandez.io/blog/responsive-images-in-drupal-a-guide/)<br>
-  [Responsive Image Styles](https://mariohernandez.io/blog/responsive-image-styles/)<br>
-  [Art Direction for Images](https://mariohernandez.io/blog/art-direction-using-the-picture-html-element/)<br>
-  [Easy Responsive Images module](https://www.drupal.org/project/easy_responsive_images)<br>
-  
-[Views Infinite Scroll](https://www.drupal.org/project/views_infinite_scroll)<br>
+-  [Responsive Images In Drupal Guide](https://mariohernandez.io/blog/responsive-images-in-drupal-a-guide/)<br>
+-  [Responsive Image Styles](https://mariohernandez.io/blog/responsive-image-styles/)<br>
+-  [Art Direction for Images](https://mariohernandez.io/blog/art-direction-using-the-picture-html-element/)<br>
+-  [Easy Responsive Images module](https://www.drupal.org/project/easy_responsive_images)<br>
+
+<br>
+
+[Inline Entity Form](https://www.drupal.org/project/inline_entity_form)<br>
+[Entity Embed;](https://www.drupal.org/project/entity_embed) but watch Limited Version update<br>
+[Video embed field](https://www.drupal.org/project/video_embed_field)<br>[Views Infinite Scroll](https://www.drupal.org/project/views_infinite_scroll)<br>
 [Ctools](https://www.drupal.org/project/ctools)<br>
+
+<br>
 
 ### Taking it hands-on
 
