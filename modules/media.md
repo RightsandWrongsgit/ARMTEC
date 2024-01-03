@@ -24,6 +24,7 @@ Media Entity Document (Now part of Core)<br>
 -  [Responsive Images In Drupal Guide](https://mariohernandez.io/blog/responsive-images-in-drupal-a-guide/)<br>
 -  [Responsive Image Styles](https://mariohernandez.io/blog/responsive-image-styles/)<br>
 -  [Art Direction for Images](https://mariohernandez.io/blog/art-direction-using-the-picture-html-element/)<br>
+-  [Responsive Images and Drupal Media](https://mariohernandez.io/blog/responsive-images-and-media/)<br>
 -  [Easy Responsive Images module](https://www.drupal.org/project/easy_responsive_images)<br>
 
 <br>
