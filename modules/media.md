@@ -17,12 +17,15 @@ Entity Browser (Now part of Core)<br>
 Media Entity (Now part of Core)<br>
 Media Entity Image (Limited Version update)<br>
 Media Entity Document (Now part of Core)<br>
+
 [Video embed field](https://www.drupal.org/project/video_embed_field)<br>
+
 ##### Responsive Images in Drupal
-  [Responsive Images In Drupal Guide](https://mariohernandez.io/blog/responsive-images-in-drupal-a-guide/)
-  [Responsive Image Styles](https://mariohernandez.io/blog/responsive-image-styles/)
-  [Art Direction for Images](https://mariohernandez.io/blog/art-direction-using-the-picture-html-element/)
+  [Responsive Images In Drupal Guide](https://mariohernandez.io/blog/responsive-images-in-drupal-a-guide/)<br>
+  [Responsive Image Styles](https://mariohernandez.io/blog/responsive-image-styles/)<br>
+  [Art Direction for Images](https://mariohernandez.io/blog/art-direction-using-the-picture-html-element/)<br>
   [Easy Responsive Images module](https://www.drupal.org/project/easy_responsive_images)<br>
+  
 [Views Infinite Scroll](https://www.drupal.org/project/views_infinite_scroll)<br>
 [Ctools](https://www.drupal.org/project/ctools)<br>
 
