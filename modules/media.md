@@ -87,15 +87,17 @@ The [Media Video Micromodal module](https://www.drupal.org/project/media_video_m
 
 The [Media Bulk Upload module](https://www.drupal.org/project/media_bulk_upload) is something you might want to leverage if you have created a new website and have all sorts of image, video, or other media type assets that you want to load to the website.  Dance carefully with this one in the sense it uses a [DropzoneJS module](https://www.drupal.org/project/dropzonejs) that is all about JavaScript and requires a few extra steps in installing. Let's say you had an old site in developed in some other way or real old version that you want to rebuild with the most current Drupal version and enhance it as well.  This might be a use case where you can come up with a file naming strategy and directory structure to organize and house the asset you want to grab and repurpose.  Then this module might come in handy.
 
-### Remote Stream Wrapper modules
+### Remote Stream Wrapper
+
+#### Remote Stream Wrapper module
 
 The [Remote Stream Wrapper module](https://www.drupal.org/project/remote_stream_wrapper) might be thought of as similar to what the standard media type of playing a remote video does.  Instead of having a local copy of an image, or for that matter any file type, the remote stream wrapper allows you to point to its URL location.  You know how you can Ctrl-Click an image on a Mac and select from a list of options including "Copy Image Address", well that address is what you would paste in for calling a remote image to your site. 
 
-### Remote Stream Wrapper Widget 
+#### Remote Stream Wrapper Widget 
 
 The [Remote Stream Wrapper Widget module](https://www.drupal.org/project/remote_stream_wrapper_widget) is an add-on to the base module that makes it so you can get to the functionality through the Drupal Administration User Interface.  
 
-### Installing these two modules
+#### Installing these two modules
 
 You won't find any significant level of documentation on how to use these modules; [Here is one.](https://danlobo.co.uk/articles/getting-started-remote-images-drupal)  A more direct 'how to' is provided here to get you going.  You install with composer as usual and you can enable the modules with drush or can go to the 'Extend' option from the Administrative menu to enable them.
 
