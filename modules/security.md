@@ -4,7 +4,7 @@
 ## First Line of Defense
 
 Make users sign up for an account before they can upload anything.
-Use of a separate file system for anonymous upload contributions. [Read more here:](https://www.drupal.org/psa-2016-003
+Use of a separate file system for anonymous upload contributions. [Read more here:](https://www.drupal.org/psa-2016-003)
 
 ## Password Policy module
 
