@@ -7,7 +7,7 @@
 
 The easiest thing to do is to set up what you think is the most logical structure for your forum in an excel spreadsheet.  What you want is a top or parent level that in Drupal Forum will be the “Container level”.  Then below that you put in the actual forum subjects that fit in that group.  This way you can move stuff around real easily until you get structure logic that you are satisfied with.  You can then just copy and paste from Excel to Drupal as you built it out.
 
-<img src="../modules/images/forum1.png"  width="550">
+<img src="../modules/images/forum1.png"  width="700">
 
 While the Forum module is part of Drupal CORE, remember you need to activate it by putting a check mark next to it under ‘Extend’ in the administration menu and install it.  Once you do, if you look under ‘Structure’ in the administration menu it will be on this list toward the bottom [alphabetically].
 
