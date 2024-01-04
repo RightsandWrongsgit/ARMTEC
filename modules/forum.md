@@ -81,11 +81,11 @@ Not quite done yet.  We really kind of skipped over how you made entries in your
 
 Looks pretty good at the top level of the overall list of Forums.
 
-<img src="../modules/images/forum19.png"  width="500">
+<img src="../modules/images/forum19.png"  width="700">
 
 Shows up when you are in a subsection of the Forum for each ‘Container’ level so the user has a feel where they are and can jump to next. [bread crumbs can also be used on the page to be helpful].
 
-<img src="../modules/images/forum20.png"  width="500">
+<img src="../modules/images/forum20.png"  width="700">
 
 Another thing to make it potentially a little prettier but more so for consistency of ‘User Experience’ on knowing where they are in navigation is we might want to make our mini-menu background color the same as the ‘Container’ level background that it is driving the ‘jumps’ to.   We can add a little more to the Forum.css file to do that.  [I also wanted to make a ‘white’ title to my mini-menu box]
 
@@ -93,7 +93,7 @@ Another thing to make it potentially a little prettier but more so for consisten
 
 And the result is a menu that shows more consistency.
 
-<img src="../modules/images/forum22.png"  width="500">
+<img src="../modules/images/forum22.png"  width="700">
 
 I didn’t like the “Add new Forum topic” button to show up at the top of the overall list of Forums; but, I obviously need to leave it so it shows up in the forums themselves so people can add content to the forums.  I looked at the code with the ‘Developers View’ of my browser and found out that the overall forum list had a forum_id=0 and used that in combination with the ‘class’ of the button to tell “Forum.css” not is display it [display: none;]
 
@@ -101,7 +101,7 @@ I didn’t like the “Add new Forum topic” button to show up at the top of th
 
 Now that button I didn’t want is gone:
 
-<img src="../modules/images/forum24.png"  width="500">
+<img src="../modules/images/forum24.png"  width="700">
 
 Something else is different in my mini-menu too and you don’t see any CSS code driving it.  How did those ‘carrots’ get next to each Container mini-menu level.  Nothing magic, I just went back in the Block layout and selected my ‘Available Forums’ menu.
 
