@@ -14,7 +14,7 @@ How are does your layout mockup get translated to a content type and fields?  Th
 
 ## Add Content Type
 
-If the design process you went through finds you need more than an article and basic page content type, you will need to create the additional ones you need.  The process is pretty simple.  Lets assume you find you need a vendor content type and a recipe content type; [here is how to create a new content type.](https://www.youtube.com/watch?v=vyvqiaaGM1k)
+If the design process you went through finds you need more than an article and basic page content type, you will need to create the additional ones you need.  The process is pretty simple.  Lets assume you find you need a vendor content type and a recipe content type; [here is how to create a new content type.](https://www.youtube.com/watch?v=vyvqiaaGM1k)  Besides the article and basic page content types that are your starting point right in Drupal Core, there actually are a couple other that are in there but just need to be turned on.  These are the [Book](https://www.youtube.com/watch?v=UuItYbS9Rlo&t=335s) content type and the [Forum](https://www.youtube.com/watch?v=qIpzADe0RoI) content type.
 
 ## Add Fields
 
