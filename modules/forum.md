@@ -62,7 +62,7 @@ We sort of have another problem with the new mini-menu we created and that is th
 
 <img src="../modules/images/forum14.png"  width="500">
 
-The thing is, we actually need to be a little more specific or that mini-menu block will only show up at the top of the overall forum; and if a user has used it to ‘jump’ to a “Container” section, they will feel sort of like they are floating lost way down the list of forum section.  If you scroll down your list and stop and click on a ‘Container’ section you will find what the ‘/forum/??’ node number address of that location; the location you want your users to jump to when they click the mini-menu title of the same name.
+The thing is, we actually need to be a little more specific or that mini-menu block will only show up at the top of the overall forum; and if a user has used it to ‘jump’ to a “Container” section, they will feel sort of like they are floating lost way down the list of forum section.  Scroll down your list of forum items, then stop and click on a ‘Container’ section you will find where you will find the <font color=red>‘/forum/??’ </font> node address; the location you want your users to jump to when they click the mini-menu title of the same name.
 
 <img src="../modules/images/forum15.png"  width="500">
 
