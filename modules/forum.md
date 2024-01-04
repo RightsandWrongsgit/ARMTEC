@@ -58,7 +58,7 @@ Of course yours doesn’t quite look like that because you didn’t add the stat
 
 <img src="../modules/images/forum13.png"  width="250">
 
-We sort of have another problem with the new mini-menu we created and that is that while we told the ‘Block layout’ system where we wanted it to show up we didn’t tell anything the when.  We can start by tell the system to ‘Configure block’ so it doesn’t show up in Articles, Basics pages, or other content types we may have created; only in the ‘Forum topic’ content type by placing in a checkmark next to it.
+We sort of have another problem with the new mini-menu we created and that is that while we told the ‘Block layout’ system where we wanted it to show up we didn’t tell anything about when to show up; meaning under what conditions.  We can start by tell the system to ‘Configure block’ so it doesn’t show up in Articles, Basics pages, or other content types we may have created; only in the ‘Forum topic’ content type by placing in a checkmark next to it.
 
 <img src="../modules/images/forum14.png"  width="500">
 
