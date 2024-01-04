@@ -117,7 +117,7 @@ Still not magic.  Just click ‘Edit’ on each one to open it and in the ‘Men
 
 You can get as fancy as you want with a bunch more CSS options.  I ended up centering the title of my mini-menu [and you can’t see if from a still shot, but it shifts back and forth a number of pixels to make it ‘dance’ a little to draw users attention.  There is a border around the mini-menu that you can see but what you can’t see without animation is that if also very slightly color shifts from the grey to the forum matching blue color to again further draw user attention to this as an ‘action’ menu.
 
-<img src="../modules/images/forum28.png"  width="500">
+<img src="../modules/images/forum28.png"  width="700">
 
 Here is more CSS code that does the title dance and border color shift.  A couple other options are ‘commented out’ after I tried them and didn’t like them.  But left the code for others to consider.
 
