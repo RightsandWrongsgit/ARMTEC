@@ -52,7 +52,7 @@ Of course your new menu can’t be found on your web site pages because just cre
 
 Pretty cool, there it is.
 
-<img src="../modules/images/forum12.png"  width="500">
+<img src="../modules/images/forum12.png"  width="700">
 
 Of course yours doesn’t quite look like that because you didn’t add the statement in the forum.css file you created to make container levels a different background color; see that and the font-size and color we will see in later versions.
 
