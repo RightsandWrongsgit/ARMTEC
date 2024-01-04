@@ -45,7 +45,7 @@ It pays to have written down or recorded your ‘Container’ level names becaus
 
 <img src="../modules/images/forum10.png"  width="500">
 
-Of course your new menu can’t be found on your web site pages because just creating it doesn’t “place it”.  Thus under your administration menu you need to click on the ‘Structure’ tab and on the top of that list is ‘Block layout’; which you click to open what essentially shows you the names of the sections in your theme and what is in each section.  If you want your little forum mini-menu to be seen in the sidebar first section you click the ‘Place block’ button, scroll to find it, and place it there.
+Of course your new menu can’t be found on your web site pages because just creating it doesn’t “place it”.  Thus under your administration menu you need to click on the ‘Structure’ tab and on the top of that list is ‘Block layout’; which you click to open what essentially shows you the names of the regions in your theme and what is in each section. Try this ifyou don't understand [Regions & Blocks.](https://www.webwash.net/courses/managing-blocks-in-drupal/l/overview-blocks-and-regions/) If you want your little forum mini-menu to be seen in the sidebar first region you click the ‘Place block’ button, scroll to find it, and place it there.
 
 <img src="../modules/images/forum11a.png"  width="500">
 <img src="../modules/images/forum11b.png"  width="500">
