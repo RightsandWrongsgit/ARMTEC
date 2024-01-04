@@ -11,7 +11,7 @@ The easiest thing to do is to set up what you think is the most logical structur
 
 While the Forum module is part of Drupal CORE, remember you need to activate it by putting a check mark next to it under ‘Extend’ in the administration menu and install it.  Once you do, if you look under ‘Structure’ in the administration menu it will be on this list toward the bottom [alphabetically].
 
-<img src="../modules/images/forum1.png"  width="400">
+<img src="../modules/images/forum2.png"  width="400">
 
 When you click on it you have the option of adding a ‘Container’ or a ‘Forum’.  The ‘Container’ is the parent level you want to group ‘Forum’ topic areas under.  Just for smoothness of entering stuff and the ‘drag and drop’ alignment of how they fit, it works best to start with the last [alphabetically] container and end with the beginning of the alphabet.  [ otherwise you drag the most recent entry you made past all the other stuff during a drag and drop and it gets messy to do.]
 
