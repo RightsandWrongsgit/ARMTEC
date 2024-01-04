@@ -5,7 +5,7 @@
 
 ## Creating a multi-section Forum:
 
-The easiest thing to do is to set up what you think is the most logical structure for your forum in an excel spreadsheet.  What you want is a top or parent level that in Drupal Forum will be the “Container level”.  Then below that you put in the actual forum subjects that fit in that group.  This way you can move stuff around real easily until you get structure logic that you are satisfied with.  You can then just copy and paste from Excel to Drupal as you build it out.
+The easiest thing to do is to set up what you think is the most logical structure for your forum in an excel spreadsheet.  What you want is a top or parent level that in Drupal Forum will be the “Container level”.  Then below that you put in the actual forum subjects that fit in that group.  This way you can move stuff around real easily until you get structure logic that you are satisfied with.  You can then just copy and paste from Excel to Drupal as you build it out.  In the example shown here, we will build a forum for an aviation site.
 
 <img src="../modules/images/forum1.png"  width="700">
 
