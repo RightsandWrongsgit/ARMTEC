@@ -32,6 +32,7 @@
 
 ### Chapter: Market Research
 - [Market Research](business/methods.md)
+- [Data Collection Techniques](business/datacollection.md)
 - [MR Overview for End-Users](business/mrenduser.md)
 - [Potential & Structure](business/potential.md)
 - [Structure & Segmentation](business/segmentation.md)
