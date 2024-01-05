@@ -1,6 +1,10 @@
 
 # Multi-section Forum
 
+You will end up with something that looks like this:
+
+<img src="../modules/images/forum1.png"  width="700">
+
 <br>
 
 ## Creating a multi-section Forum:
