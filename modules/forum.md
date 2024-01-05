@@ -3,7 +3,7 @@
 
 You will end up with something that looks like this:
 
-<img src="../modules/images/forum1.png"  width="700">
+<img src="../modules/images/forum28.png"  width="700">
 
 <br>
 
