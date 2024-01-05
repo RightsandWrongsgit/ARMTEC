@@ -90,7 +90,7 @@ You will see a list of the blocks available.
 
 <img src="../theme/themeimages/addbuttonplaceblockcloseup.png"  width="500">
 
-You named this block when you set it up as your own version of "Add Your Own Button", so select the block you names.  It may drop in below the RSS Feed that is a standard item in this region but all you need to do is drag and drop it above that with the Maltese cross looking symbol.
+You named this block when you set it up as your own version of "Add Your Own Button", so select the block you named.  It may drop in below the RSS Feed that is a standard item in this region but all you need to do is drag and drop it above that with the Maltese cross looking symbol.
 
 Here's what it looks like.  Remember, you can change the color, label, even the curve shape and shadow by editing that code we used.
 
