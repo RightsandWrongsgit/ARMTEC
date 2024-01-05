@@ -25,9 +25,10 @@ Here the example has been given the Block description of "AddYourOwnButton" to b
 
 <img src="../theme/themeimages/addbuttondescribeblockformathtml.png"  width="600">
 
-Since this is an 'edit' view, we already see the button but how we make it is with HTML code and we are going to look at that.
 
-You hit the "Source" button in the upper right of the Body area and this is where you place the HTML code to do stuff.  In our case, since it is a button that doesn't have a bunch of graphical interface with other elements of our website, just within the 'region' we place it, we are going to <style> the look of the button right within a leading chunk of inline CSS code.
+Make sure  the "Text Format" is set on "Full HTML and that you hit and highlighted the "Source" button in the upper right of the Body area;  now paste the code you copy from below into the Body. 
+
+<img src="../theme/themeimages/addbutton7.png"  width="500">
 
 Here is the code you want to use for the button.  It is first presented in an image which may be more readable. 
 
@@ -68,6 +69,8 @@ The code itself is available right below so it can just be copied from this docu
 ```
 
 <br>
+
+this is where you place the HTML code to do stuff.  In our case, since it is a button that doesn't have a bunch of graphical interface with other elements of our website, just within the 'region' we place it, we are going to <style> the look of the button right within a leading chunk of inline CSS code.
 
 The button that makes up the code won't show up on your website until you 'place' the custom block you made.  To do that you go into "Administration/Structure/Block Layout" from tool bar and you will see all the regions you have in your site. 
 
