@@ -11,9 +11,9 @@ As we set it up, you might to direct it to "google's URL" as the link to test it
 
 We are going to make our button as a custom block and it will be in the custom block library for us to ultimately "place" it (e.g. put in the [region](https://www.drupal.org/docs/user_guide/en/block-regions.html) of our layout where we want it).
 
-First we need to make our custom block.  Go to the Administration menu and choose Content on the far left. 
+First we need to make our custom block.  Go to Administration/Structure/Block layout/ and choose Add custom block. 
 
-<img src="../theme/themeimages/oliverobuttoncustomblocklibrary.png"  width="600">
+<img src="../theme/themeimages/oliverobuttongettoblocklibrary.png"  width="600">
 
 In that custom block library we hit "add" and give our block a name; something with the name of a button would make sense.   Remember, that each time you want to work on your button you will find its name on the list and hit the "edit" option.  You might want to change its size, color, font style, label, etc.
 
@@ -21,9 +21,9 @@ After you choose add or when you choose edit you will see a screen that looks li
 
 <img src="../theme/themeimages/oliverobuttonaddcontentblock.png"  width="600">
 
-Here the example has been given the Block description of "AddYourOwnButton" to be easily identified later from our list.  And you can see the Text format has been changed to "Full HTML". 
+Here the example has been given the Block description of "AddYourOwnButton" to be easily identified later from our list.  And you can see the Text format has been changed to "Full HTML".  Note the "Source" icon on the Body section menu and click it.
 
-<img src="../theme/themeimages/oliverobuttonaddcontentblock2.png"  width="600">
+<img src="../theme/themeimages/addbuttondescribeblockformathtml.png"  width="600">
 
 Since this is an 'edit' view, we already see the button but how we make it is with HTML code and we are going to look at that.
 
