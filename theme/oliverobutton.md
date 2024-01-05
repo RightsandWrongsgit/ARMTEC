@@ -30,6 +30,12 @@ Make sure  the "Text Format" is set on "Full HTML and that you hit and highlight
 
 <img src="../theme/themeimages/addbutton7.png"  width="500">
 
+
+When you hit "Save" it will take you to a "Configure block" page where your Title will be prefilled and all you need to do is 'unCheck' the "Display title" option.  Then click "Save block".
+
+<img src="../theme/themeimages/addbuttonconfigureblock.png"  width="500">
+
+
 Here is the code you want to use for the button.  It is first presented in an image which may be more readable. 
 
 <img src="../theme/themeimages/oliverobuttoncss.png"  width="500">
