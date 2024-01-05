@@ -84,7 +84,7 @@ The button that makes up the code won't show up on your website until you 'place
 
 Scroll down to the region called 'Social Bar' and hit the "Place Block" button...
 
-<img src="../theme/themeimages/addbuttonplaceblockcloseup1.png"  width="500">
+<img src="../theme/themeimages/addbuttonplaceblockcloseup1.png"  width="650">
 
 You will see a list of the blocks available.
 
