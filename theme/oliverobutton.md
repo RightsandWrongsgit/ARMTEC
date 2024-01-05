@@ -29,6 +29,10 @@ Since this is an 'edit' view, we already see the button but how we make it is wi
 
 You hit the "Source" button in the upper right of the Body area and this is where you place the HTML code to do stuff.  In our case, since it is a button that doesn't have a bunch of graphical interface with other elements of our website, just within the 'region' we place it, we are going to <style> the look of the button right within a leading chunk of inline CSS code.
 
+Here is the code you want to use for the button.  It is first presented in an image which may be more readable. 
+
+<img src="../theme/themeimages/oliverobuttoncss.png"  width="500">
+
 The code itself is available right below so it can just be copied from this documentation and dropped in the 'Body' area:
 
 ```<img src="../theme/themeimages/oliverobuttoncss.png"  width="600">
