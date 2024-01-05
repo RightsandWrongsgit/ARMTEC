@@ -26,7 +26,7 @@ Here the example has been given the Block description of "AddYourOwnButton" to b
 <img src="../theme/themeimages/addbuttondescribeblockformathtml.png"  width="600">
 
 
-Make sure  the "Text Format" is set on "Full HTML and that you hit and highlighted the "Source" button in the upper right of the Body area;  now paste the code you copy from below into the Body.  It can <font color=yellow>NOT BE STRESSED ENOUGH</font\> that the "Full HTML" is selected and the "Source" button activated; if you don't do this, instead of a button showing up you will have code showing up. (If that happens just go back to 'edit' and do it right.)
+Make sure  the "Text Format" is set on "Full HTML and that you hit and highlighted the "Source" button in the upper right of the Body area;  now paste the code you copy from below into the Body.  It can <font color=yellow>NOT BE STRESSED ENOUGH</font> that the "Full HTML" is selected and the "Source" button activated; if you don't do this, instead of a button showing up you will have code showing up. (If that happens just go back to 'edit' and do it right.)
 
 <img src="../theme/themeimages/addbutton7.png"  width="500">
 
