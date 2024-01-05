@@ -202,6 +202,7 @@
     -  [HTML Code Examples for some unique things](codeexamples/html.md)
     -  [Special Use HTML](https://levelup.gitconnected.com/10-best-html-tags-that-you-probably-didnt-know-about-841e5c21348f)
     -  [Olivero Theme](theme/olivero.md)
+       -  [Olivero Social Bar Button](theme/oliverobutton.md}
     -  [Bootstrap Theme](theme/bootstrap.md)
     -  [TWIG](theme/twig.md)
     -  [Image Load Performance](https://www.smashingmagazine.com/2023/08/methods-improving-drupal-largest-contentful-paint-core-web-vital/)
