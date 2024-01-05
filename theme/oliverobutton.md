@@ -36,7 +36,7 @@ Here is the code you want to use for the button.  It is first presented in an im
 The code itself is available right below so it can just be copied from this documentation and dropped in the 'Body' area:
 
 
-~~~<style type="text/css">.styled {
+~~~ <style type="text/css">.styled {
     transform: rotate(90deg);
     border: 0;
     line-height: 2.5;
@@ -64,7 +64,7 @@ The code itself is available right below so it can just be copied from this docu
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 </style>
-<form><button class="favorite styled" formaction="http://www.google.com" formtarget="_blank">Add your own!</button></form>~~~
+<form><button class="favorite styled" formaction="http://www.google.com" formtarget="_blank">Add your own!</button></form> ~~~
 
 <br>
 
