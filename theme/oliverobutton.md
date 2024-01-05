@@ -71,7 +71,7 @@ The code itself is available right below so it can just be copied from this docu
 
 The button that makes up the code won't show up on your website until you 'place' the custom block you made.  To do that you go into "Administration/Structure/Block Layout" from tool bar and you will see all the regions you have in your site. 
 
-<img src="../theme/themeimages/oliverobuttonstructureblocklayout.png"  width="700">
+<img src="../theme/themeimages/oliverobuttonstructureblocklayout.png"  width="900">
 
 Scroll down to the region called 'Social Bar' and hit the "Place Block" button; where upon you will see a list of the blocks available.  You named this block when you set it up as "Add Your Own Button", so select that to place.  It may drop in below the RSS Feed that is a standard item in this region but all you need to do is drag and drop it above that with the Maltese cross looking symbol.
 
