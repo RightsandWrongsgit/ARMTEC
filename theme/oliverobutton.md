@@ -1,11 +1,10 @@
 
 # 'Add Your Own' button
 
-How to create the "Add Your Own" Button & place it in the Social Bar
+Here is how to create the "Add Your Own" Button & place it in the Social Bar.  A Drupal site with the Olivero theme installed will look something like this.  The Social Bar is on the left side where you see the RSS Feed.
 
 
-
-
+<img src="../theme/themeimages/oliverofrontpage.png"  width="600">
 
 
 
