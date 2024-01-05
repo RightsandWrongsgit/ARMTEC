@@ -94,7 +94,7 @@ You named this block when you set it up as your own version of "Add Your Own But
 
 Here's what it looks like.  Remember, you can change the color, label, even the curve shape and shadow by editing that code we used.
 
-<img src="../theme/themeimages/addbuttonfinal.png"  width="700">
+<img src="../theme/themeimages/addbuttonfinal.png"  width="900">
 
 <br>
 <br>
