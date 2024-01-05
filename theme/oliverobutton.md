@@ -15,7 +15,7 @@ First we need to make our custom block.  Go to the Administration menu and choos
 
 <img src="../theme/themeimages/oliverobuttoncustomblocklibrary.png"  width="600">
 
-In that custom block library we hit "add" and give our block a name; something with the name of a button would make sense.   Remember, that each time you want to work ion your button you will find its name on the list and hit the "edit" option.  You might want to change its size, color, font style, label, etc.
+In that custom block library we hit "add" and give our block a name; something with the name of a button would make sense.   Remember, that each time you want to work on your button you will find its name on the list and hit the "edit" option.  You might want to change its size, color, font style, label, etc.
 
 After you choose add or when you choose edit you will see a screen that looks like this.  The key is to go down to the box below the Body where it says "Text Format" and select "Full HTML" from the options on the pulldown ( right now the box has Basic HTML in the picture and you need to change that). 
 
