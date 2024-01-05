@@ -57,6 +57,9 @@ You hit the "Source" button in the upper right of the Body area and this is wher
 
 The code scrolls in that window, so here you see it in three screen shots. The code itself is available right below so it can just be copied from this documentation and dropped in the 'Body' area:
 
+<img src="../theme/themeimages/oliverobuttoncss.png"  width="400">
+
+
 
 `<style type="text/css">.styled {
     transform: rotate(90deg);
