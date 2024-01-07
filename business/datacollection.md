@@ -64,7 +64,7 @@ Data collection methods are subject to a number of guidelines and legal requirem
 
 <br>
 
-[European Commission Digital Services Act](https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-services-act_en#:~:text=Digital%20Services%20Act%20(DSA)%20overview&text=Its%20main%20goal%20is%20to,and%20open%20online%20platform%20environment.)https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-services-act_en#:~:text=Digital%20Services%20Act%20(DSA)%20overview&text=Its%20main%20goal%20is%20to,and%20open%20online%20platform%20environment.
+[European Commission Digital Services Act](https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-services-act_en#:~:text=Digital%20Services%20Act%20(DSA)%20overview&text=Its%20main%20goal%20is%20to,and%20open%20online%20platform%20environment.)
 
 <br>
 <br>
