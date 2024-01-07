@@ -20,8 +20,7 @@ Regardless of technical testing methodology, the basic assumption of product tes
 
 
 ## Target Subjects
-Any product positioned against a specific market segment should, of course, be tested vs appropriate standard(s) in that segment. Using shampoo as an example, an anti-dandruff shampoo would be tested only among those who have a dandruff problem and/or use an anti-dandruff product.
-If a shampoo is targeted to teenagers, the primary evaluation should be among teenagers. In such a case, however, it is recommended that in addition to a sufficient number of teenagers to constitute a complete test in itself, the basic design would be expanded to compare performance on a broad usage group. This would serve to provide better comparisons with other brands tested and will also illustrate the potential for the product outside of a narrow market target.
+It is probably obvious, but you should logically test the products against the segment or target who would most likely buy it.  You might do some preliminary [concept testing](/business/conceptquestions.md) against a broader audience with some well developed profiling questions (e.g. demographics, list source variables, etc.) to confirm those with interest.  And you use that information as part of your [segmentation targeting profile.](/business/segmentation.md)  Even product testing might be done against a slightly enlarged potential buyer group to provide better comparisons with other brands and to illustrate the potential for the product outside of too much of a niche market target.
 
 ## Design and Analysis Consideration
 When designing or analyzing product tests the following general conceptual guidelines should be kept in mind:
