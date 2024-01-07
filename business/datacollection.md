@@ -16,6 +16,9 @@ When we seek knowledge that a very limited number of people have or that is is v
   <img src="../business/captures/expert.png"  width="300">
 </p>
 
+<img alt="Expert person" title="Optional image title"
+     src="https://username.github.io/ARMTEC/business/captures/expert.png" width="400" align=”center”/>
+
 <br>
 
 ## One-on-one interviews 
