@@ -44,7 +44,11 @@ Like the name says, respondents try two products. The products can be placed for
   - Simultaneous: Both at the same time with instructions about what order the products should be used (different respondents have alternative order rotations).<br> 
   - Sequential: They get two products to evaluate, the first product at the time of the screening and the second after the initial testing period.<br> 
 
-Note:  In a 'triangle test' methodology respondents sample three products, two of which are identical, and is then asked to select the one which is different and preferred. 
+<br>
+
+Note:  In a 'triangle test' methodology respondents sample three products, two of which are identical, and is then asked to select the one which is different and preferred.<br> 
+
+<br>
 
 #### Advantages: 
 Small differences tend to be magnified in a paired-comparison. 
