@@ -50,6 +50,11 @@ These use to be a thing.  Now days you probably need to reconsider very carefull
 
 Simple behavioral observation can take many forms.  If you are selling a retail and want to see how consumers behave at the self setting before you pay those slotting fees to that premium self location, in-store observation might be worth considering.  If you are doing product research and want to see how people actually use your product in practice, heading to the local fishing hole to watch people use your new reel may make sense. 
 
+<img src="../business/captures/shopping.png"  width="300">
+
+<br>
+
+
 ## Digital footprints
 
 Digital dropping is sort of an additional modern form of behavioral observation.  We had a client who was in the mobile advertising industry.  In that process we learned that they were collecting billions of pieces of information every day.  For context, they could track not only when you got on the commuter train every morning and at what stop, but that you opened your phone to play an online game for which they could tell your score and progress in improving that score over time.  The issue we helped with was not the collection of data but how one might reduce the raw collected data into meaningful interpretation for practical use.
