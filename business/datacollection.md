@@ -25,6 +25,10 @@ When in depth understanding is required one-on-one interviews are often a produc
 
 Everyone has experienced telephone interviews.  You know them as the things that interrupt your dinner.  Phone interviews can easily achieve broad geographic dispersion.  With good purchased list sources you can also often recruit within lots of specific subgroups.  It is also typical to use a ‘screener’ set of questions at the beginning of such an interview to further qualify respondents.  You can also do interesting pre- and post-recruitment when combined with other interview methods.  For example, you can phone recruit to obtain agreement to review material you subsequently mail to the respondent and arrange a callback for followup. Or you can mail or internet target respondents with instructions to call to and inbound phone bank for an interview.  
 
+<img src="../business/captures/callcenter.png"  width="300">
+
+<br>
+
 ## Mail interviews 
 
 Mail interviews help with some types of respondent cooperation because they can answer when they have time rather than the moment of your phone call or internet popup.  Such interviews and often be more thoughtful in terms of deeper consideration of responses.  Still, you can expect response rates to be no better than that of a typical direct mail advertisement.  So you might leverage ‘open rate’ tactics to improve response.  
