@@ -33,6 +33,10 @@ Everyone has experienced telephone interviews.  You know them as the things that
 
 Mail interviews help with some types of respondent cooperation because they can answer when they have time rather than the moment of your phone call or internet popup.  Such interviews and often be more thoughtful in terms of deeper consideration of responses.  Still, you can expect response rates to be no better than that of a typical direct mail advertisement.  So you might leverage ‘open rate’ tactics to improve response.  
 
+<img src="../business/captures/mall.png"  width="300">
+
+<br>
+
 ## Internet interviews 
 
 The internet has become a common place to carry out market research.  Caution must be used.  There remain segments of the population who don’t use the internet, have slow connections, or are legally off limits by things like age.  It is not uncommon for people to try the self-serve internet interviewing software.  Again, it has its limits.  Don’t expect too much  in terms of assuring questions are properly worded, responses are comprehensive, analytics are effective in capturing interactive influences.  Nothing is better than a very experienced Marketing Research professional to help you even if you do ultimate use the self-service tools to execute the interviews.   
