@@ -5,9 +5,17 @@
 
 Focus groups are sort of like holding a meetings with the respondents; perhaps consumers, health care professionals, or others who have appropriate knowledge. You need to think carefully about who logically has the actual knowledge you seek and recruit among that target. Good meetings are productive by using an agenda; focus group agenda's are called 'topic guides'. You need to think about the likely homogeneity or heterogeneity of your target when planning Focus groups.  It is typical to do them geographically dispersed.  But diversity of opinions may vary by things other than geography; age, gender, race, income, prior category experience, etc.  So recruit to see if opinions are consistent or diverse.  Don’t be afraid to do rolling recruitment if you happen to find lots of differences of opinion among those in your initial focus groups.  Video or audio taped your focus groups to allow more people to see the responses. <font color=yellow>DO NOT SUBSTITUTE FOCUS GROUPS FOR QUANTITATIVE RESEARCH.</font> The way you should use focus groups is to discover the target’s language and terms to subsequently phase questions and to bring focus to those factors likely to be most powerful to influence.  However, the prevalence of those influence factors, their association with specific target segments, and their quantitative impact on purchase intent points you to why focus groups are a start rather than the answer.  
 
+<img src="../business/captures/focusgroup.png"  width="300">
+
+<br>
+
 ## Expert interviews
 
 When we seek knowledge that a very limited number of people have or that is is very specialized, we may benefit from expert interviews. Recruiting for expertise rather than for geographic, income, age, etc. dispersion may be beneficial for highly technical subject and/or from those who are influence agents to many others. Still a group settings similar to focus groups can cross-fertilized, compared, and contrasted ideas. Where the length and depth of discussion require, expert interviews can take a one-on-one format.   
+
+<img src="../business/captures/expert.png"  width="300">
+
+<br>
 
 ## One-on-one interviews 
 
@@ -36,6 +44,18 @@ Simple behavioral observation can take many forms.  If you are selling a retail 
 ## Digital footprints
 
 Digital dropping is sort of an additional modern form of behavioral observation.  We had a client who was in the mobile advertising industry.  In that process we learned that they were collecting billions of pieces of information every day.  For context, they could track not only when you got on the commuter train every morning and at what stop, but that you opened your phone to play an online game for which they could tell your score and progress in improving that score over time.  The issue we helped with was not the collection of data but how one might reduce the raw collected data into meaningful interpretation for practical use.
+
+<img src="../business/captures/digitalfootprint.png"  width="300">
+
+# Legal & Ethical
+
+Data collection methods are subject to a number of guidelines and legal requirements.  Professional research organizations who are members of the [Insights Association](https://www.insightsassociation.org/) will assure these requirements are met.  If you are a 'do it yourself' type, please familiarize yourself with these key requirements.
+
+[Code of Standards](https://www.insightsassociation.org/Resources/Code-of-Standards)
+
+<br>
+
+[European Commission Digital Services Act](https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-services-act_en#:~:text=Digital%20Services%20Act%20(DSA)%20overview&text=Its%20main%20goal%20is%20to,and%20open%20online%20platform%20environment.)https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/digital-services-act_en#:~:text=Digital%20Services%20Act%20(DSA)%20overview&text=Its%20main%20goal%20is%20to,and%20open%20online%20platform%20environment.
 
 <br>
 <br>
