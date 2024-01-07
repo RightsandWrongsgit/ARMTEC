@@ -10,12 +10,16 @@ Common ways customer segments are grouped include -<br>
   -  Descriptor: Group potential buyers based on characteristics of like buyers (demographic/firm-o-graphic)<br>
   -  Needs/Process: Group potential buyers based on how and why they buy (psychological/functional/economic)<br>
 
+<br>
+
 The purpose of leveraging this segmentation is basically intent upon achieving <br>
 
   - Product = Right Product for Target<br>
   - Price = Presenting Value Consistent with their Perceived  desires to Maximize your Profits<br>
   - Promotion = Saying the right stuff to the right target<br>
   - Place/Distribution = Delivering it to them with the most effective channels<br>
+
+<br>
 
 There is a [huge body of resources on segmentation](https://guides.loc.gov/consumer-research/market-segments).  These are mostly on methods and processes.  From a practical standpoint, the two most important things you should consider if you pursue any type of segmentation research are ...<br>
 
