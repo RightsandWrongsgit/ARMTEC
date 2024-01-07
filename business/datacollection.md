@@ -17,7 +17,7 @@ When we seek knowledge that a very limited number of people have or that is is v
 </p>
 
 <img alt="Expert person" title="Optional image title"
-     src="https://username.github.io/ARMTEC/business/captures/expert.png" width="400" align=”center”/>
+     src="https://RightsandWrongsgit.github.io/ARMTEC/business/captures/expert.png" width="400" align=”center”/>
 
 <br>
 
