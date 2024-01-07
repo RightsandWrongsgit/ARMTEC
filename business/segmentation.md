@@ -27,6 +27,8 @@ There is a [huge body of resources on segmentation](https://guides.loc.gov/consu
  
   - Remember that when you collect something like a 'purchase intent', you don't need to just note the top box and top two box score your product or service achieved.  Rather, you want to take the top box people (Definitely will buy...) and find those who match them.  As long as you can <font color=yellow>use your findings to efficiently target</font> exactly those who are raising their hand for what you offer, you are likely to have a solid business.<br>
 
+<br>
+
 ## Basics
 
 If you got here as a skeptic around this crazy segmentation stuff, at least consider basic structural segmentation.  Know who the buyers are of the category you are selling into and their relative size is terms of sales impact.<br>
