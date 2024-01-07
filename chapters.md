@@ -40,6 +40,7 @@
 - [Value Ladder](business/ladder.md)
 - [Concept Development](business/concept.md)
 - [Concept Scoring](business/conceptquestions.md)
+- [Product Testing](business/producttesting.md)
 - [Purchase Intent](business/purchaseintent.md)
 - [Pricing Research](business/priceelasticity.md#pricing-research)
 - [Claims](business/claims.md)
