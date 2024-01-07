@@ -5,7 +5,7 @@
 
 Focus groups are sort of like holding a meetings with the respondents; perhaps consumers, health care professionals, or others who have appropriate knowledge. You need to think carefully about who logically has the actual knowledge you seek and recruit among that target. Good meetings are productive by using an agenda; focus group agenda's are called 'topic guides'. You need to think about the likely homogeneity or heterogeneity of your target when planning Focus groups.  It is typical to do them geographically dispersed.  But diversity of opinions may vary by things other than geography; age, gender, race, income, prior category experience, etc.  So recruit to see if opinions are consistent or diverse.  Don’t be afraid to do rolling recruitment if you happen to find lots of differences of opinion among those in your initial focus groups.  Video or audio taped your focus groups to allow more people to see the responses. <font color=yellow>DO NOT SUBSTITUTE FOCUS GROUPS FOR QUANTITATIVE RESEARCH.</font> The way you should use focus groups is to discover the target’s language and terms to subsequently phase questions and to bring focus to those factors likely to be most powerful to influence.  However, the prevalence of those influence factors, their association with specific target segments, and their quantitative impact on purchase intent points you to why focus groups are a start rather than the answer.  
 
-<img src="../business/captures/focusgroup.png"  width="300">
+<img src="../business/captures/focusgroup.png"  width="350">
 
 <br>
 
@@ -14,7 +14,7 @@ Focus groups are sort of like holding a meetings with the respondents; perhaps c
 When we seek knowledge that a very limited number of people have or that is is very specialized, we may benefit from expert interviews. Recruiting for expertise rather than for geographic, income, age, etc. dispersion may be beneficial for highly technical subject and/or from those who are influence agents to many others. Still a group settings similar to focus groups can cross-fertilized, compared, and contrasted ideas. Where the length and depth of discussion require, expert interviews can take a one-on-one format.   
 
 <p align="center" width="100%">
-  <img src="../business/captures/expert.png"  width="300">
+  <img src="../business/captures/expert.png"  width="200">
 </p>
 
 <br>
@@ -27,7 +27,7 @@ When in depth understanding is required one-on-one interviews are often a produc
 
 Everyone has experienced telephone interviews.  You know them as the things that interrupt your dinner.  Phone interviews can easily achieve broad geographic dispersion.  With good purchased list sources you can also often recruit within lots of specific subgroups.  It is also typical to use a ‘screener’ set of questions at the beginning of such an interview to further qualify respondents.  You can also do interesting pre- and post-recruitment when combined with other interview methods.  For example, you can phone recruit to obtain agreement to review material you subsequently mail to the respondent and arrange a callback for followup. Or you can mail or internet target respondents with instructions to call to and inbound phone bank for an interview.  
 
-<img src="../business/captures/callcenter.png"  width="300">
+<img src="../business/captures/callcenter.png"  width="500">
 
 <br>
 
@@ -44,7 +44,7 @@ The internet has become a common place to carry out market research.  Caution mu
 
 These use to be a thing.  Now days you probably need to reconsider very carefully who is traffic in the mall.  If your target is mall walking senior citizens or is ‘tweenagers’ you might still find the mall intercept useful.  Otherwise lets do something else.
 <p align="center" width="100%">
-  <img src="../business/captures/mall.png"  width="300">
+  <img src="../business/captures/mall.png"  width="500">
 </p>
 
 <br>
@@ -63,7 +63,7 @@ Simple behavioral observation can take many forms.  If you are selling a retail 
 Digital dropping is sort of an additional modern form of behavioral observation.  We had a client who was in the mobile advertising industry.  In that process we learned that they were collecting billions of pieces of information every day.  For context, they could track not only when you got on the commuter train every morning and at what stop, but that you opened your phone to play an online game for which they could tell your score and progress in improving that score over time.  The issue we helped with was not the collection of data but how one might reduce the raw collected data into meaningful interpretation for practical use.
 
 <p align="center" width="100%">
-  <img src="../business/captures/digitalfootprint.png"  width="300">
+  <img src="../business/captures/digitalfootprint.png"  width="500">
 </p>
 
 <br>
