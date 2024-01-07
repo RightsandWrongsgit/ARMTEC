@@ -1,6 +1,26 @@
 
 # Communications Research
 
+## Summary 
+Advertising effectiveness can be increased by a research program where:<br>
+
+  - The creative is based on sound strategy and target audience consistent with market learnings. 
+  - Clear and appropriate objectives and action standards are set prior to testing. 
+  - The target audience commercial evaluation base is defined by campaign objectives. 
+  - The research recognizes that different advertising works differently, and where action standards are adjusted accordingly. 
+  - Early evaluation takes place to allow for refinement based on the test finding. 
+  - Multiple measures are used which: 
+    - reflect objectives; 
+    - acknowledge complexity of the communication process; 
+    - synergistically support each other.
+<br>   
+    
+ Marketing and marketing research recognize technique limitations. 
+  - Copy research is used as input to judgment, not as replacement. 
+  - MRD personnel are involved early in the copy development process. 
+  - Ongoing campaign tracking is conducted, with early feedback mechanisms in place.
+
+<br>
 
 ### Advertising Claims:
 In the communication of benefits that a product delivers, it is often advantageous to make specific claims of performance. These may take the form of a taste preference, a dominance of use or dominance of endorsement statement, an efficacy claim, etc. Such claims must be supported. Efficacy claims are often supported with scientific evidence such as cure rates or specific symptom reduction for a pharmaceutical product. Ethically, practically, and legally, other claims must also very often be supported with a similar level of scientific rigor. As such, the exact nature of the claim is also critical to clearly delineate in advance of the supporting research design. Therefore, it is often common to first conduct research on the perceived benefit which potential purchasers attribute to a variety of potential claim statements. For example, is "9 out of 10 doctors recommend…" as powerful an endorsement as "The number one choice of doctors". To be effectively supported by research, claims must clearly define the scope of the market definition or competitive set being referenced, they must delineate precisely to who the claim is being attributed and the action that they are attributing (e.g. used by doctors and recommended by doctors are different attributions), etc. Advertising claims research is highly impacted by network television standards, by formal and informal regulation, and by case law; therefore, which the Research Standard on Advertising Claims can provide additional guidance, it is very important to involve GMIR and the Legal departments early in this area.
@@ -177,24 +197,7 @@ As a result, the marketing research staff should have input into discussion on t
   - Appropriate goals should be set and standards applied to all evaluative measures of recall, persuasion, and communication that encompass an execution's entirety. 
   - The primary purpose of copy testing is not simply to make a "go/no go" decision, but rather to ascertain how a commercial might be improved, that is, to provide guidance to commercial development and execution that will enhance the potential for success. This implies that copy testing will be conducted in a framework that permits this to occur. For example, scheduling of copy testing will allow for application of results, i.e., to improve the commercial prior to airing.
 
-## Summary 
-Advertising effectiveness can be increased by a research program where:<br>
 
-  - The creative is based on sound strategy and target audience consistent with market learnings. 
-  - Clear and appropriate objectives and action standards are set prior to testing. 
-  - The target audience commercial evaluation base is defined by campaign objectives. 
-  - The research recognizes that different advertising works differently, and where action standards are adjusted accordingly. 
-  - Early evaluation takes place to allow for refinement based on the test finding. 
-  - Multiple measures are used which: 
-    - reflect objectives; 
-    - acknowledge complexity of the communication process; 
-    - synergistically support each other.
-<br>   
-    
- Marketing and marketing research recognize technique limitations. 
-  - Copy research is used as input to judgment, not as replacement. 
-  - MRD personnel are involved early in the copy development process. 
-  - Ongoing campaign tracking is conducted, with early feedback mechanisms in place.
 
 <br>
 <br>
