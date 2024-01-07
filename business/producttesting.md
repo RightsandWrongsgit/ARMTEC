@@ -5,7 +5,7 @@
 All products should be thoroughly tested prior to distribution. Totally new to market products or those to revise formulation should be properly tested.  It also can pay dividends to periodicly retesting established products, particularly vs new competitive introductions or revised/improved competitive formulas to assure your product represents the highest quality in its category. 
 
 ## Standards of Comparison
-A 'control' product item should be built into the design of every product test for relative measurement.  THis is to recognize that consumers' stated attitudes in a research setting are not an absolute indicator of actual marketplace behavior.  Therefore a standard of comparison or control is selected for comparison to its ratio of test score to in-market performance.  Start by thinking about an appropriate control or comparison product.
+A 'control' product item should be built into the design of every product test for relative measurement.  This is to recognize that consumers' stated attitudes in a research setting are not an absolute indicator of actual marketplace behavior.  Therefore a standard of comparison or control is selected for comparison to its ratio of test score to in-market performance.  Start by thinking about an appropriate control or comparison product.
 
   - If your are testing a new product, the control should be from the anticipated competitive target; perhaps the leading competitive brand in the category.  For totally new category products there is a real challenge for a viable control.  So you might select several controls from categories with the closest characteristics you can find; similar channels of distribution, ballpark price levels, etc.
  
