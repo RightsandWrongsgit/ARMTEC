@@ -12,12 +12,10 @@ Focus groups are sort of like holding a meetings with the respondents; perhaps c
 ## Expert interviews
 
 When we seek knowledge that a very limited number of people have or that is is very specialized, we may benefit from expert interviews. Recruiting for expertise rather than for geographic, income, age, etc. dispersion may be beneficial for highly technical subject and/or from those who are influence agents to many others. Still a group settings similar to focus groups can cross-fertilized, compared, and contrasted ideas. Where the length and depth of discussion require, expert interviews can take a one-on-one format.   
+
 <p align="center" width="100%">
   <img src="../business/captures/expert.png"  width="300">
 </p>
-
-<img alt="Expert person" title="Optional image title"
-     src="https://RightsandWrongsgit.github.io/ARMTEC/business/captures/expert.png" width="400" align=”center”/>
 
 <br>
 
