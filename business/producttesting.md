@@ -29,22 +29,26 @@ Especially among inventors or founders it is pretty common to lean heavily into 
 Product tests may be conducted in a "blind" (unidentified) or "branded" (identified) fashion. Blind tests are conducted when the objective is to obtain product diagnostics in the absence Of a brand name's influence (usually for R&D purposes). Branded product tests are more typically conducted in image-oriented categories (e.g., fragrances) where a brand name may drive consumer reaction to a greater extent than would some product attributes. As a general rule, products should be tested both on a blind and identified basis.
 ### A. Monadic Product Test
 #### Description:
-Respondents are given one and only one product to try and asked to use it for a predesignated period of time (if more than one product is to be evaluated, separate samples of respondents evaluate each product). After this testing period, an interviewer recontacts the respondents and asks overall ratings, purchase interest, likes, dislikes, directional questions, etc. about the product tested.
+Respondents are given one and only one product to try and asked to use it for a predesignated period of time (for that 'control' you use separate samples to evaluate each product). Following a testing period, the interviewer contacts the respondents to ask overall rating, purchase interest, likes, dislikes, etc. 
 #### Advantages:
-It is close to "real world" in that respondents evaluate only one product.
+Having a respondent evaluate just the one product is "real world" in the sense that is how they would logically use the product in practice.
 #### Disadvantages:
-Typically, the monadic design is not sensitive enough to provide good direction on attributes, but when differences exist, they are usually real. (Only major product differences are usually translated to significant mean score differences.) "Yea-saying" inflation speaks to the need for controls. 
+You would have to be a deep pockets company to get enough sample size with the monadic design to be sensitive enough.  Check your statistic text book on confidence intervals and sample size where you will find that you really would have to have some huge spread to be 99% sure of the winner.   The good news is that major product differences translate to significant mean score differences.   You can likely use the diagnostics as well.  But give some consideration to whether you are trying to do a one and done test; is so use another method but if this is part of a series of steps you will gain some insights.
 
 ### B. Paired-Comparison Product Test
 #### Description:
-Respondents are asked to try two products usually for two sequential periods of specified length. After the testing period, an interviewer recontacts the respondents and elicits preferences. There are two ways of placing a product on a paired comparison: Simultaneous: Both products are given to the respondents at the same time with careful instructions given by the interviewer, as well as on the test products themselves, about the order in which the products should be used. Sequential: Respondents are told they will be getting two products to evaluate, but are given only the first product at the time of the screening. After the testing period for that product, respondents are given the second product. Note: A methodology variation on the paired-comparison test is the triangle test whereby the respondent samples three products, two of which are identical, and is then asked to select the one which is different. 
+Like the name says, respondents try two products. The products can be placed for paired comparison two different ways: 
+
+  - Simultaneous: Both at the same time with instructions about what order the products should be used (different respondents have alternative order rotations). 
+  - Sequential: They get two products to evaluate, the first product at the time of the screening and the second after the initial testing period. 
+
+Note:  In a 'triangle test' methodology respondents sample three products, two of which are identical, and is then asked to select the one which is different and preferred. 
 #### Advantages: 
-It helps to assess the impact of product changes/differences, since even small differences tend to be magnified in a paired-comparison setting. 
-It does not require as large a sample as the monadic study for noted differences to be statistically significant at a desired level.
+Small differences tend to be magnified in a paired-comparison. 
+Less sample size compared to the monadic study for differences to be statistically significant at a desired level.
 #### Disadvantages: 
-It is less "real world," since rarely would a consumer evaluate two products side by side. 
-It is more difficult to get directional/diagnostic information of a meaningful nature for optimization purposes since results are preference oriented. It will likely not identify weaknesses in both products. 
-It does not provide a reading on one of the products alone. 
+Less "real world," because consumers don't typically try two products side by side. 
+Because the design is preference oriented some feel the diagnostic information isn't as meaningful because it is sort of better on this given feature then that other terrible product but no indication if it still is really at the 'it sucks' level. 
 
 ### C. Sequential Protomonadic Product Test
 #### Description:
