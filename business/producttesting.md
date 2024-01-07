@@ -58,19 +58,19 @@ The approach combines the "best" of both worlds by providing both monadic readin
 #### Disadvantages:
 The fact you have to do a second callback interview increases costs a little but it should achieve the same statistical power of a paired comparison with the same sample size, so that doesn't increase cost.  
 
-### D. Concept/Product Test 
+### D. Concept/Product Hybrid Test 
 #### Description:
-Respondents are first exposed to a concept stimulus (usually in print ad format) which describes the product. They are then asked a scries of diagnostic questions about the concept. If respondents have positive purchase interest to the concept, they are given one package to try over the predesignated period of time. Product may also be placed with respondents who were neutral or negative to the concept. After using the test product in-home, respondents are recontacted and asked a series of diagnostic questions regarding product performance and concept fulfillment.
+This approach is often considered the most real world.  By introducing a [Concept](/business/concept.md) and [Concept Test](/business/conceptquestions.md) you exposed respondents to a concept stimulus (usually in print ad format) which describes the product.  Respondents are asked [purchase interest](/business/purchaseintent.md) in the concept and a series of diagnostic questions.  They are next given one product to try over the test period.  After using the test product in-home, respondents are recontacted and asked a series of diagnostic questions regarding product performance and concept fulfillment.  Some only place product in the second phase with those who answered favorably in the top boxes of purchase intent during the concept test. But other also be place product with respondents who were neutral or negative to the concept because they include additional diagnostics among those who expressed a favorable product reaction what they should have been told in the concept but hadn't heard which would have made them interested.
+Note: Concepts should be successfully tested before the initiation of concept/product testing. 
 #### Advantages:
-It is the most "real world" since product is being evaluated by those favorably disposed toward the concept, which it is believed would be those most likely to be motivated to try the product after exposure to advertising. 
-It can serve as a base for a sales wave test which is a more behavioral pre-test market design. 
-It can be used to determine whether or not the product that the consumers will purchase is consistent with their expectations as established via the concept presentation. 
-It can be modeled, along with marketing assumptions, to establish rough business value parameters. 
-If product is favorably received by those who did not have a positive response to the concept, a strengthening of the concept may be indicated to expand the potential sales base.
+"Real world" in the sense product is evaluated by those favorably disposed toward the concept; believed most likely to be motivated to try the product after exposure to advertising.  
+Helps answer if the product that the consumers would purchase is consistent with concept established expectations.  
+Good foundation inputs to be modeled, along with marketing assumptions, into rough business value. 
+If you place the product among those who were not favorably to the concept but liked the product itself you can strengthening of the concept to expand the potential sales base.
 #### Disadvantages: 
-It does not provide a "clean" evaluation of the product alone, since expectations raised by the stimulus will influence reaction to the product. This can either inflate or deflate product reaction depending on levels of expectations. Concepts should be successfully tested before the initiation of concept/product testing. 
-Both concept and product are reacted to in the absence of a competitive framework. 
-It carries the same disadvantages previously stated for monadic designs; that is, a lack of sensitivity and a "yea-saying" bias.
+Doesn't provide a "clean" evaluation of the product alone.  
+The absence of a competitive framework. 
+Same disadvantages as stated for monadic designs..
 
 <br>
 <br>
