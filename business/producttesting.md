@@ -15,6 +15,8 @@ Longitudinal control approaches are possible.  Here you compare product test res
 
 The other thing one needs to be aware of in comparison across controls measured verse in-market actual performance and that is the rest of the marketing mix beyond 'product'.  Especially important is that one product may have substantially differnt media support and thus simple awareness may drive wide differences in performance.  If the involved product category under test is one that has a relatively short purchase cycle, it may make more sense to relate your product test findings to repeat rates and to total sales performance.
 
+<img src="../business/captures/testing.png"  width="300">
+
 ## Marketplace Significance
 Regardless of technical testing methodology, the basic assumption of product testing is that repeat purchase is directly related to the consumer's reaction to the product under conditions of normal usage conditions.  But keep in mind that there are a ton of marketplace factors that influence consumer choice and purchasing; media exposures, persuasive copy, ACV distribution, shelf locations, sampling, couponing, trial sizes, pack sizes, pricing promotions, etc.  So you can't really use of product test results alone as a direct predictor of sales volumes; see more in [Volume Modeling.](/business/volume.md)   That said, consumer input via product testing provides valuable guidance for improving products. Think of product testing as a step on the path to producing products with greater consumer acceptance and, if the other elements of the marketing mix are working adequately, with greater sales and profits. Product testing itself is not precisely predictive of volume, but is a key input to combine with the other market mix factors that impact sales performance.  ARMTEC has helped organizations build [simulated test market](/business/purchaseintent.md#simulated-test-market) capabilities that allow scenario optimization in the context of their own organizational realities.
 
@@ -49,6 +51,10 @@ Less sample size compared to the monadic study for differences to be statistical
 #### Disadvantages: 
 Less "real world," because consumers don't typically try two products side by side. 
 Because the design is preference oriented some feel the diagnostic information isn't as meaningful because it is sort of better on this given feature then that other terrible product but no indication if it still is really at the 'it sucks' level. 
+
+
+<img src="../business/captures/testing2.png"  width="300">
+
 
 ### C. Sequential Protomonadic Product Test
 #### Description:
