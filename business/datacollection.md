@@ -42,8 +42,9 @@ The internet has become a common place to carry out market research.  Caution mu
 ## Mall intercept  
 
 These use to be a thing.  Now days you probably need to reconsider very carefully who is traffic in the mall.  If your target is mall walking senior citizens or is ‘tweenagers’ you might still find the mall intercept useful.  Otherwise lets do something else.
-
-<img src="../business/captures/mall.png"  width="300">
+<p align="center" width="100%">
+  <img src="../business/captures/mall.png"  width="300">
+</p>
 
 <br>
 
@@ -60,7 +61,11 @@ Simple behavioral observation can take many forms.  If you are selling a retail 
 
 Digital dropping is sort of an additional modern form of behavioral observation.  We had a client who was in the mobile advertising industry.  In that process we learned that they were collecting billions of pieces of information every day.  For context, they could track not only when you got on the commuter train every morning and at what stop, but that you opened your phone to play an online game for which they could tell your score and progress in improving that score over time.  The issue we helped with was not the collection of data but how one might reduce the raw collected data into meaningful interpretation for practical use.
 
-<img src="../business/captures/digitalfootprint.png"  width="300">
+<p align="center" width="100%">
+  <img src="../business/captures/digitalfootprint.png"  width="300">
+</p>
+
+<br>
 
 # Legal & Ethical
 
