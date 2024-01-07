@@ -7,7 +7,7 @@ All products should be thoroughly tested prior to distribution. Totally new to m
 ## Standards of Comparison
 A 'control' product item should be built into the design of every product test for relative measurement.  This is to recognize that consumers' stated attitudes in a research setting are not an absolute indicator of actual marketplace behavior.  Therefore a standard of comparison or control is selected for comparison to its ratio of test score to in-market performance.  Start by thinking about an appropriate control or comparison product.
 
-  - If your are testing a new product, the control should be from the anticipated competitive target; perhaps the leading competitive brand in the category.  For totally new category products there is a real challenge for a viable control.  So you might select several controls from categories with the closest characteristics you can find; similar channels of distribution, ballpark price levels, etc.
+  - If your are testing a new product, the control should be from the anticipated competitive target; perhaps the leading competitive brand in the category.  For totally new category products there is a real challenge for a viable control.  So you might select several controls from categories with the closest characteristics you can find; similar channels of distribution, ballpark price levels, etc.<br>
  
   - When testing a new formulation of an existing product, comparison vs the current formulation is logical. You can include additional controls if beneficial to the product evaluation.
     
@@ -41,10 +41,11 @@ You would have to be a deep pockets company to get enough sample size with the m
 #### Description:
 Like the name says, respondents try two products. The products can be placed for paired comparison two different ways: 
 
-  - Simultaneous: Both at the same time with instructions about what order the products should be used (different respondents have alternative order rotations). 
-  - Sequential: They get two products to evaluate, the first product at the time of the screening and the second after the initial testing period. 
+  - Simultaneous: Both at the same time with instructions about what order the products should be used (different respondents have alternative order rotations).<br> 
+  - Sequential: They get two products to evaluate, the first product at the time of the screening and the second after the initial testing period.<br> 
 
 Note:  In a 'triangle test' methodology respondents sample three products, two of which are identical, and is then asked to select the one which is different and preferred. 
+
 #### Advantages: 
 Small differences tend to be magnified in a paired-comparison. 
 Less sample size compared to the monadic study for differences to be statistically significant at a desired level.
