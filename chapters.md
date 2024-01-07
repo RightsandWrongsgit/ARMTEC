@@ -114,7 +114,7 @@
     - [Free Video and Images](https://coverr.co/){:target="_blank"} 
     - [Free Plus optional Paid images](https://unsplash.com/){:target="_blank"}
     - [Free Image Site List](https://www.foleon.com/blog/best-free-business-stock-photo-websites){:target="_blank"}
-    - 
+
 <br>
 
 - ##### Layout
