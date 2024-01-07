@@ -52,11 +52,11 @@ Because the design is preference oriented some feel the diagnostic information i
 
 ### C. Sequential Protomonadic Product Test
 #### Description:
-This method combines some of the features of both the monadic and the paired designs. Respondents are first given one product and asked to use it for a predesignated time. At the end of the test period, the interviewer asks the respondent a battery of questions that would be similar to those asked in a monadic study (ratings, likes, dislikes, directionals, etc.). At the end of this interview, the respondent is given a second product to use for the same length of time as the first. At the end of the second testing period, the interviewer, in the case of the sequential monadic asks monadic ratings followed by preferences between the two products. In the case of the protomonadic design, only preference is asked overall and for specific attributes. Since it is felt that respondent evaluations are being made on a comparative rather than absolute basis, this is a major reason for product rotation-to allow each prototype to be discussed monadically as well as to compensate for potential order bias.
+Think of this as doing two monadic product tests one after each other.  The two products being compared are given in different order to different respondents.  The line of questioning for ratings, likes, dislikes, etc. are done after the use of each individual product; but preference questions aren't asked until doing the complete second product and its line it questions.  Only then is the repondent ask which they prefer overall and with regard to specific attributes.  You can see that the lag:recent impact of preference could be an issue and that is why you rotate which is given first to different respondents.  
 #### Advantages:
-This method combines the "best" of both worlds in terms of getting the most out of a group of respondents. It provides both monadic readings and preferences without jeopardizing either measure.
+The approach combines the "best" of both worlds by providing both monadic readings and preferences without jeopardizing either measure.
 #### Disadvantages:
-Although it usually requires no greater sample than a paired comparison, the cost for a protomonadic test versus a paired comparison of the same sample size would be somewhat higher as a result of having to conduct two callback interviews. 
+The fact you have to do a second callback interview increases costs a little but it should achieve the same statistical power of a paired comparison with the same sample size, so that doesn't increase cost.  
 
 ### D. Concept/Product Test 
 #### Description:
