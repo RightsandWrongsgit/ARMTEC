@@ -89,8 +89,6 @@ The code itself is available right below so it can just be copied from this docu
 
 <br>
 
-this is where you place the HTML code to do stuff.  In our case, since it is a button that doesn't have a bunch of graphical interface with other elements of our website, just within the 'region' we place it, we are going to <style> the look of the button right within a leading chunk of inline CSS code.
-
 The button that makes up the code won't show up on your website until you 'place' the custom block you made.  To do that you go into "Administration/Structure/Block Layout" from tool bar and you will see all the regions you have in your site. 
 
 <img src="../theme/themeimages/oliverobuttonstructureblocklayout.png"  width="980">
