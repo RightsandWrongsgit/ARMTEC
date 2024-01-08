@@ -258,7 +258,7 @@ To bring in the database isn't hard but there is one trick you need to be aware 
 
 <img src="../cicd/captures/update50.png"  width="300">
 
-<font color=yellow>When it ask you questions, move with the space bar to the one you want,</font> in our case we want to import the "database".   And we want our mounts to be to the "/web/sites/default/files" location.<br>
+<font color=yellow>When it asks you questions, move with the space bar to the one you want,</font> in our case we want to import the "database".   And we want our mounts to be to the "/web/sites/default/files" location.<br>
 
 <img src="../cicd/captures/update51.png"  width="300">
 
