@@ -109,6 +109,7 @@ You shouldn't have to worry about this because Lando inherits the environment se
 ##### [Make UPDATES; do it in your local lando copy](updateproject.md#update-tricks-and-traps)<br>
 - Make updates... (e.g. [like to Core here](updateproject.md#drupal-core-update))
 - Run `lando rebuild`, check the updated local running project URL to confirm you got what you wanted
+- If it all passes, run `make development_project` to set all the cache's back to development mode
 - Commit/Sync the Lando 'local' copy
 - Check the project GitHub repository to confirm the 'develop' branch update<br>
 <br>
