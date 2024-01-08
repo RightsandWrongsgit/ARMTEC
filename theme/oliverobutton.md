@@ -1,5 +1,5 @@
 
-# Add Button to Olivero
+# Button for Olivero
 
 Olivero really offers a step up for out of the box Drupal.  However, unlike something like [Bootstrap](/theme/bootstrap.md) you might find the flexibility a little constraining.  You know how Bootstrap has all of those components that you can assemble, things like buttons.  Infact it has so many options it may be a step too far for the novice.  
 
