@@ -1,5 +1,15 @@
 
-# 'Add Your Own' button
+# Add Button to Olivero
+
+Olivero really offers a step up for out of the box Drupal.  However, unlike something like [Bootstrap](/theme/bootstrap.md) you might find the flexibility a little constraining.  You know how Bootstrap has all of those components that you can assemble, things like buttons.  Infact it has so many options it may be a step too far for the novice.  
+
+Here may be an interesting answer for a middle ground.  Don't forget that Drupal has [Blocks](/book/blocks.md) that are assembled into a page by placing them into things called [Regions.](https://www.drupal.org/docs/user_guide/hy/block-regions.html)  There are a ton of things you could put into a block and just as many ways you could make that block look.  So how about if we simply make a block look like a button by placing the <style> into it with its configuration box set to "Full HTML" and dropping inline CSS right in the block.   Don't worry, if that all sounds like jargon because what you will find below is exactly how to do it and even the code itself.
+
+What you will get will look like this; but you can easily change colors, words, shape, and what it invokes or calls.
+
+<img src="../theme/themeimages/addbuttonexample.png"  width="600">
+
+## 'Add Your Own' button
 
 Here is how to create the "Add Your Own" Button & place it in the Social Bar.  A Drupal site with the Olivero theme installed will look something like this.  The Social Bar is on the left side where you see the RSS Feed.
 
