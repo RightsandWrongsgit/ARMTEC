@@ -9,6 +9,9 @@ What you will get will look like this; but you can easily change colors, words, 
 
 <img src="../theme/themeimages/addbuttonexample.png"  width="600">
 
+<br>
+<br>
+
 ## 'Add Your Own' button
 
 Here is how to create the "Add Your Own" Button & place it in the Social Bar.  A Drupal site with the Olivero theme installed will look something like this.  The Social Bar is on the left side where you see the RSS Feed.
