@@ -9,7 +9,7 @@ Sometimes you will be tempted to make a promise that 'your brand is better'.  Or
 
 ## Are Claims worth making?
 
-
+The first thing you need to consider regarding any claim you want to make is its "Risk:Reward".  If you simply make a statement about your own product without category or competitive comparison, it isn't real likely you are going to see an [injunction](https://www.law.cornell.edu/wex/injunction#:~:text=An%20injunction%20is%20a%20court,cease%20doing%20a%20specific%20action.) filed against you; or at least you would probably get a [cease and desist notice](https://www.callahan-law.com/what-is-a-cease-and-desist-letter/#:~:text=If%20you%2C%20or%20anyone%20for,the%20letter%20continues%20to%20occur.) before things spin out of control.  
 
 # General Guidelines 
 
