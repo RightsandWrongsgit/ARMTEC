@@ -27,9 +27,9 @@ It helps to know the underlying principles by which your advertising may be judg
 
 The Federal Lanham Act prohibits advertisers from falsely describing their products and allows competitors, but not consumers, to sue.
 Section 45(a) of the Lanham Act prohibits falsity:
-"Any person who, or in connection with any good or services... uses in commerce any ... false or misleading description of fact, or false or misleading representation of fact, which —in commercial advertising or promotion, misrepresents the nature, characteristics, qualities, or geographic origin of his or her or another person's goods, services, or commercial activities, shall be liable in a civil action by any person who believes that be or she is or is likely to be damaged by such act".  This includes any false misrepresentations, partial truths, failures to disclose, and false impressions.  It also includes any statements that convey a false impression through innuendo, indirect intimation, or ambiguous suggestion that has a tendency to mislead or deceive the consumer.
- 
-A checklist for Interpreting the meaning of ads:
+"Any person who, or in connection with any good or services... uses in commerce any ... false or misleading description of fact, or false or misleading representation of fact, which —in commercial advertising or promotion, misrepresents the nature, characteristics, qualities, or geographic origin of his or her or another person's goods, services, or commercial activities, shall be liable in a civil action by any person who believes that be or she is or is likely to be damaged by such act".  This includes any false misrepresentations, partial truths, failures to disclose, and false impressions.  It also includes any statements that convey a false impression through innuendo, indirect intimation, or ambiguous suggestion that has a tendency to mislead or deceive the consumer.<br>
+
+A checklist for Interpreting the meaning of ads:<br>
 -       The FTC can decide the meaning itself, but it has to consider surveys and other evidence of meaning if there are any.<br>
 -       Some claims can be assessed on their face, others require a look at extrinsic proof. <br>
 -       An ad can be literally true yet imply false meanings, but the commission should avoid injecting novel meanings into ads.<br>
@@ -41,7 +41,7 @@ Comparative advertising that names a competitor's product is legal but risky. If
 
 Other points to consider include: (a) the First Amendment affords no immunity to comparative advertising that exceeds the bounds of truthful advertising, (b) state false advertising, defamation, and disparagement laws can also be applied to comparative advertising, (c) there are no strictures on the use of a competitor's trademark as long as it is used non-deceitfully.
  
-Major issues involved in determining whether comparative advertising claims are legally permissible include:
+Major issues involved in determining whether comparative advertising claims are legally permissible include:<br>
 
 -       the need to consider what the audience actually perceives when exposed to such an advertisement<br>
 -       the need for research to support explicit ad claims<br>
