@@ -9,7 +9,15 @@ Sometimes you will be tempted to make a promise that 'your brand is better'.  Or
 
 ## Are Claims worth making?
 
-The first thing you need to consider regarding any claim you want to make is its "Risk:Reward".  If you simply make a statement about your own product without category or competitive comparison, it isn't real likely you are going to see an [injunction](https://www.law.cornell.edu/wex/injunction#:~:text=An%20injunction%20is%20a%20court,cease%20doing%20a%20specific%20action.) filed against you; or at least you would probably get a [cease and desist notice](https://www.callahan-law.com/what-is-a-cease-and-desist-letter/#:~:text=If%20you%2C%20or%20anyone%20for,the%20letter%20continues%20to%20occur.) before things spin out of control.  
+The first thing you need to consider regarding any claim you want to make is its "Risk:Reward".  If you simply make a statement about your own product without category or competitive comparison, it isn't real likely you are going to see an [injunction](https://www.law.cornell.edu/wex/injunction#:~:text=An%20injunction%20is%20a%20court,cease%20doing%20a%20specific%20action.) filed against you; or at least you would probably get a [cease and desist notice](https://www.callahan-law.com/what-is-a-cease-and-desist-letter/#:~:text=If%20you%2C%20or%20anyone%20for,the%20letter%20continues%20to%20occur.) before things spin out of control.  If you make a head-to-head comparative claim versus someone else's product you better be prepared with factual evidence supporting you position.  Since attorney's fees aren't cheap and since research of a substantial quality that it provides a high enough standard of support to meet legal requirement in court is even more expensive, it is wise to know that making the claim about your product is of substantial value to your product's performance.
+
+Thus, before you even bother going down the pathway of claims support research, you really want to do research about how beneficial the claim(s) might be to revenue performance.  It is recommended that you not only investigate alternate claims that might be available to you but also different ways of stating those claims.  Think the classic "What are you going to say?" and "How are you going to say it?".  As as long as you are answering those questions you should include the third leg which is the question of "Who are you going to say it to?"  This provides you with what a researcher needs to consider in terms of who to sample or interview, and some key insights into the nature of questions they must include.  The research study design also needs to consider some end goal type of elements in the questions it includes; for example, do you expect the making of the claim to result in selling more units and/or in selling units for any premium on the price you can charge.
+
+oahjfoiaeorj
+
+
+
+
 
 # General Guidelines 
 
