@@ -53,7 +53,7 @@ When you make an advertising claim it needs to be based upon comparison of relat
 
 Pricing comparisons may raise special problems that could mislead, rather than enlighten, consumers. Many times prices are extremely volatile, determined by a third party like a regulator or distributor/retailer rather than the advertiser, and they can vary widely across geography, store types, or other factors.  For example, you might sell to the distribution channel at a 10% cheaper price than a competitor but the retailer takes the difference and marks both the same at the shelf which a consumer sees.  
 
-It is not just price that is subject to fluctuation so the substantiation for the claim will be considered valid only as long as the market conditions on which the claim is based continue to prevail.  An example might be something like 'found in more stores' and [ACV](/business/glossary.md#A) distribution changes for either or both products.  
+It is not just price that is subject to fluctuation so the substantiation for the claim will be considered valid only as long as the market conditions on which the claim is based continue to prevail.  An example might be something like 'found in more stores' and [ACV](/business/glossary.md#--a--) distribution changes for either or both products.  
 
 
 ## Trademark Laws:
