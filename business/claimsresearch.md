@@ -19,38 +19,42 @@ oahjfoiaeorj
 
 
 
-# General Guidelines 
+# Guidelines on Advertising/Claims 
 
+It helps to know the underlying principles by which your advertising may be judged.  Here are some basic background considerations.
 
-The following general guidelines should be understood and followed in all communications when stating a product claim.
-##       Falsity:
-All employees must be acquainted with the elements of the Lanham Act, section 43(a) regarding falsity. Therefore, the following key elements must be understood.
-Section 45(a) of the Lanham Act prohibits falsity:
-"Any person who, or in connection with any good or services... uses in commerce any ... false or misleading description of fact, or false or misleading representation of fact, which —in commercial advertising or promotion, misrepresents the nature, characteristics, qualities, or geographic origin of his or her or another person's goods, services, or commercial activities, shall be liable in a civil action by any person who believes that be or she is or is likely to be damaged by such act"
-It includes any false misrepresentations, partial truths, failures to disclose, and false impressions.
-It also includes any statements that convey a false impression through innuendo, indirect intimation, or ambiguous suggestion that has a tendency to mislead or deceive the consumer.
+## Falsity: The Lanham Act
+
 The Federal Lanham Act prohibits advertisers from falsely describing their products and allows competitors, but not consumers, to sue.
+Section 45(a) of the Lanham Act prohibits falsity:
+"Any person who, or in connection with any good or services... uses in commerce any ... false or misleading description of fact, or false or misleading representation of fact, which —in commercial advertising or promotion, misrepresents the nature, characteristics, qualities, or geographic origin of his or her or another person's goods, services, or commercial activities, shall be liable in a civil action by any person who believes that be or she is or is likely to be damaged by such act".  This includes any false misrepresentations, partial truths, failures to disclose, and false impressions.  It also includes any statements that convey a false impression through innuendo, indirect intimation, or ambiguous suggestion that has a tendency to mislead or deceive the consumer.
  
 A checklist for Interpreting the meaning of ads:
-a)       The FTC can decide the meaning itself, but it has to consider surveys and other evidence of meaning if there are any.
-b)       Some claims can be assessed on their face, others require a look at extrinsic proof. 
-c)       An ad can be literally true yet imply false meanings, but the commission should avoid injecting novel meanings into ads.
-d)       Ads are judged by their effect on reasonable people, but if an ad has two meanings, one true, one false, the ad may be condemned.
+-       The FTC can decide the meaning itself, but it has to consider surveys and other evidence of meaning if there are any.
+-       Some claims can be assessed on their face, others require a look at extrinsic proof. 
+-       An ad can be literally true yet imply false meanings, but the commission should avoid injecting novel meanings into ads.
+-       Ads are judged by their effect on reasonable people, but if an ad has two meanings, one true, one false, the ad may be condemned.
 
 ## Comparative Advertising Claims:
-Comparative advertising that names a competitor's product is legal but risky. If there are good business reasons for doing it, the risk may be well worth taking. Competitors shall be fairly and properly identified. The identification must be for comparison purposes and not simply to upgrade by association. However, when making such a decision, several issues should be considered. First, the FTC believes that comparative advertising, when truthful and non-deceptive, is a source of important information to consumers and assists them in making rational purchase decisions. On the other band, the FDA states that comparative claims will ordinarily not be permitted in labeling, but will be allowed in advertising. However, all promotional claims must be consistent with and not contrary to the approved labeling for the product
+
+Comparative advertising that names a competitor's product is legal but risky. If there are good business reasons for doing it, the risk may be well worth taking. Competitors shall be fairly and properly identified. The identification must be for comparison purposes and not simply to upgrade by association. However, when making such a decision, several issues should be considered. First, the FTC believes that comparative advertising, when truthful and non-deceptive, is a source of important information to consumers and assists them in making rational purchase decisions. On the other band, the FDA appears to take the position that comparative claims will ordinarily not be permitted in labeling, but will be allowed in advertising. However, all promotional claims must be consistent with and not contrary to the approved labeling for the product.
+
 Other points to consider include: (a) the First Amendment affords no immunity to comparative advertising that exceeds the bounds of truthful advertising, (b) state false advertising, defamation, and disparagement laws can also be applied to comparative advertising, (c) there are no strictures on the use of a competitor's trademark as long as it is used non-deceitfully.
  
 Major issues involved in determining whether comparative advertising claims are legally permissible include:
-a)       the need to consider what the audience actually perceives when exposed to such an advertisement
-b)       the need for research to support explicit ad claims
-c)       the need to consider bow the format, style, or layout of a particular comparative ad can affect the judgment of its legality under the Lanham Act
+
+-       the need to consider what the audience actually perceives when exposed to such an advertisement
+-       the need for research to support explicit ad claims
+-       the need to consider bow the format, style, or layout of a particular comparative ad can affect the judgment of its legality under the Lanham Act
  
-Advertisers will refrain from disparaging or unfairly attacking competitors, competing products, services or other industries through the use of misrepresentations or claims, direct or implied, that are false, deceptive, misleading or have the tendency to mislead. Therefore, speak of competitors with care.
-The advertising should compare related or similar properties of the product, dimension to dimension, feature to feature, or wherever possible by a side-by-side demonstration. The property being compared must be significant in terms of value or usefulness of the product or service to the consumer. The difference in the properties being compared must be measurable and significant. Ban dangling comparisons.
-Pricing comparisons may raise special problems that could mislead, rather than enlighten, consumers. For certain classes of products, prices may be extremely volatile, may be fixed by regulation rather than the advertiser, and may not only differ from buyer to buyer but from time to time within the same region.
-When a commercial claim involves market relationships, other than price, which are also subject to fluctuation (such as but not limited to sales position or exclusivity), the substantiation for the claim will be considered valid only as long as the market conditions on which the claim is based continue to prevail.
-As with all other advertising, whenever necessary, substantiation may be required to be updated from time to time where the need to do so is indicated as the result of a challenge or other developments.
+Advertisers can speak disparagingly or unfairly attacking competitors, competing products, services by using misrepresentations or claims that are false, deceptive, misleading.  So, you need to speak about competitors with great care.
+
+When you make an advertising claim it needs to be based upon comparison of related or similar properties of the product, dimension to dimension, feature to feature, or wherever possible by a side-by-side demonstration.   This is really important guidance in research design behind claims research as well.  It is not just independent score differences on a common scale that your product needs to win, but an actually head-on-head comparative preference.  Also, since what is being compared must be significant in terms of value or usefulness, your research should include measures of those dimensions among target consumers.  Researchers are likely to be familiar with these combination type measures in gathering things like where they see a product on a given attribute but also determining how important that attribute is to purchase intent.   Assuring proper head-to-head comparison become tricky if a nibble competitor can easily change a minor ingredient, package, etc. because you may have spent big bucks generating perfect research evidence and all they need to do is shift the basis of comparison and you can't make the claim any more.
+
+Pricing comparisons may raise special problems that could mislead, rather than enlighten, consumers. Many times prices are extremely volatile, determined by a third party like a regulator or distributor/retailer rather than the advertiser, and they can vary widely across geography, store types, or other factors.  For example, you might sell to the distribution channel at a 10% cheaper price than a competitor but the retailer takes the difference and marks both the same at the shelf which a consumer sees.  
+
+It is not just price that is subject to fluctuation so the substantiation for the claim will be considered valid only as long as the market conditions on which the claim is based continue to prevail.  An example might be something like 'found in more stores' and [ACV](/business/glossary.md#A) distribution changes for either or both products.  
+
 
 ## Trademark Laws:
 The Trademark Law Revision Act of 1988 will allow a manufacturer or publisher to sue an advertiser that misrepresents in an ad the nature or qualities of the manufacturer's product or publisher's magazine. Competitors must respect the personal and property rights of others.
