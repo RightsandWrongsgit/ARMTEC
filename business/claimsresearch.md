@@ -140,7 +140,7 @@ B.        Claims should accurately reflect the survey questionnaire.
 2. If a claim is made that "A is better than B" without reference to how or why A is better, the claim should be consistent with analysis of relevant product attributes. Relatedly, a win on one or two attributes is insufficient support for an overall preference claim.
 IV.     Guidelines Specific to Parity or Superiority Claims
 A.   Parity claims
-1. Since the absence of statistical significance is sometimes incorrectly interpreted as evidence of product parity when, in fact, that outcome is best ascribed to insensitive testing, BCBSFs MR/BA department will carefully scrutinize methodological detail.
+1. Since the absence of statistical significance is sometimes incorrectly interpreted as evidence of product parity when, in fact, that outcome is best ascribed to insensitive testing, the client's research department should carefully scrutinize methodological detail.
 2. Large sample sizes, a minimum of 500, are suggested.
 3. Side-by-side comparisons made at centrally located testing sites are preferred.
 4. Results should reflect an equal split of respondents expressing a preference between the advertiser's and competitor's products.
@@ -231,7 +231,7 @@ If significant testing is shown on tables, the table should be properly annotate
 Cells with less than 0.1% should appear differently than cells that have no answer at all. 
 All tables should show the base line used in percentaging, even if percents only were requested. 
 If a rounding algorithm is used to make percents add up to 100%, they should be footnoted accordingly. 
-When means are shown, the standard deviation and/or standard error should also be shown, unless BCBSF specifically requests otherwise. Means for grouped data should show the basis for weights within each group. 
+When means are shown, the standard deviation and/or standard error should also be shown. Means for grouped data should show the basis for weights within each group. 
 If data are weighted, weights should be fairly and consistently applied. 
 Weighting should only be done with full knowledge of the client Weighted data should carry a notation to that effect 
 J.  Data Analysis 
