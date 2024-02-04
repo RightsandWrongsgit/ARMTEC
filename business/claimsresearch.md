@@ -30,10 +30,10 @@ Section 45(a) of the Lanham Act prohibits falsity:
 "Any person who, or in connection with any good or services... uses in commerce any ... false or misleading description of fact, or false or misleading representation of fact, which —in commercial advertising or promotion, misrepresents the nature, characteristics, qualities, or geographic origin of his or her or another person's goods, services, or commercial activities, shall be liable in a civil action by any person who believes that be or she is or is likely to be damaged by such act".  This includes any false misrepresentations, partial truths, failures to disclose, and false impressions.  It also includes any statements that convey a false impression through innuendo, indirect intimation, or ambiguous suggestion that has a tendency to mislead or deceive the consumer.
  
 A checklist for Interpreting the meaning of ads:
--       The FTC can decide the meaning itself, but it has to consider surveys and other evidence of meaning if there are any.
--       Some claims can be assessed on their face, others require a look at extrinsic proof. 
--       An ad can be literally true yet imply false meanings, but the commission should avoid injecting novel meanings into ads.
--       Ads are judged by their effect on reasonable people, but if an ad has two meanings, one true, one false, the ad may be condemned.
+-       The FTC can decide the meaning itself, but it has to consider surveys and other evidence of meaning if there are any.<br>
+-       Some claims can be assessed on their face, others require a look at extrinsic proof. <br>
+-       An ad can be literally true yet imply false meanings, but the commission should avoid injecting novel meanings into ads.<br>
+-       Ads are judged by their effect on reasonable people, but if an ad has two meanings, one true, one false, the ad may be condemned.<br>
 
 ## Comparative Advertising Claims:
 
@@ -43,11 +43,11 @@ Comparative advertising that names a competitor's product is legal but risky. If
  
 Major issues involved in determining whether comparative advertising claims are legally permissible include:
 
--       the need to consider what the audience actually perceives when exposed to such an advertisement
--       the need for research to support explicit ad claims
--       the need to consider bow the format, style, or layout of a particular comparative ad can affect the judgment of its legality under the Lanham Act
- 
-Advertisers can speak disparagingly or unfairly attacking competitors, competing products, services by using misrepresentations or claims that are false, deceptive, misleading.  So, you need to speak about competitors with great care.
+-       the need to consider what the audience actually perceives when exposed to such an advertisement<br>
+-       the need for research to support explicit ad claims<br>
+-       the need to consider bow the format, style, or layout of a particular comparative ad can affect the judgment of its legality under the Lanham Act<br>
+
+Advertisers can not speak disparagingly or unfairly attack competitors, competing products, services by using misrepresentations or claims that are false, deceptive, misleading.  So, you need to speak about competitors with great care.
 
 When you make an advertising claim it needs to be based upon comparison of related or similar properties of the product, dimension to dimension, feature to feature, or wherever possible by a side-by-side demonstration.   This is really important guidance in research design behind claims research as well.  It is not just independent score differences on a common scale that your product needs to win, but an actually head-on-head comparative preference.  Also, since what is being compared must be significant in terms of value or usefulness, your research should include measures of those dimensions among target consumers.  Researchers are likely to be familiar with these combination type measures in gathering things like where they see a product on a given attribute but also determining how important that attribute is to purchase intent.   Assuring proper head-to-head comparison become tricky if a nibble competitor can easily change a minor ingredient, package, etc. because you may have spent big bucks generating perfect research evidence and all they need to do is shift the basis of comparison and you can't make the claim any more.
 
