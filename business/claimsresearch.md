@@ -39,13 +39,13 @@ A checklist for Interpreting the meaning of ads:<br>
 
 Comparative advertising that names a competitor's product is legal but risky. If there are good business reasons for doing it, the risk may be well worth taking. Competitors shall be fairly and properly identified. The identification must be for comparison purposes and not simply to upgrade by association. However, when making such a decision, several issues should be considered. First, the FTC believes that comparative advertising, when truthful and non-deceptive, is a source of important information to consumers and assists them in making rational purchase decisions. On the other band, the FDA appears to take the position that comparative claims will ordinarily not be permitted in labeling, but will be allowed in advertising. However, all promotional claims must be consistent with and not contrary to the approved labeling for the product.
 
-Other points to consider include: (a) the First Amendment affords no immunity to comparative advertising that exceeds the bounds of truthful advertising, (b) state false advertising, defamation, and disparagement laws can also be applied to comparative advertising, (c) there are no strictures on the use of a competitor's trademark as long as it is used non-deceitfully.
- 
+Other points to consider include: (a) the First Amendment affords no immunity to comparative advertising that exceeds the bounds of truthful advertising, (b) state false advertising, defamation, and disparagement laws can also be applied to comparative advertising, (c) there are no strictures on the use of a competitor's trademark as long as it is used non-deceitfully.<br>
+ 
 Major issues involved in determining whether comparative advertising claims are legally permissible include:<br>
 
 -       the need to consider what the audience actually perceives when exposed to such an advertisement<br>
 -       the need for research to support explicit ad claims<br>
--       the need to consider bow the format, style, or layout of a particular comparative ad can affect the judgment of its legality under the Lanham Act<br>
+-       the need to consider the format, style, or layout and how it can affect the judgment of its legality under the Lanham Act<br>
 
 Advertisers can not speak disparagingly or unfairly attack competitors, competing products, services by using misrepresentations or claims that are false, deceptive, misleading.  So, you need to speak about competitors with great care.
 
