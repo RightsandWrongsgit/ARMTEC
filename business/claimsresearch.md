@@ -61,7 +61,8 @@ The Trademark Law Revision Act of 1988 will allow a manufacturer or publisher to
 There are no strictures on the use of a competitor's trademark as long as it is used non-deceitfully. However, copyrights and trademarks must be carefully observed.
 
 ## Reasonable Person:
-The FTC will interpret ads from the perspective of the "reasonable" person within the target audience and provided some case-specific guidance. There remains a dearth of information about bow the FTC interprets an ad. The establishment of interpretive standards would serve the public policy goals of objectivity and consistency.
+
+It can be easy to get caught up in the fancy technical specifications behind doing legally viable claims support research.  But never get so bound up in the process to miss the most basic legal test of what you are doing.  The underlying question about what a real consumer sees and what a research respondent is show and asked about is the ["reasonable person" test.](https://www.lsd.law/define/reasonable-consumer-test)  The ad will be interpreted from the perspective of the "reasonable" person within the target audience. 
 
  
 ## Promotional Claims:
