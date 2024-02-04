@@ -1,6 +1,14 @@
 
 # Advertising Claims 
 
+## What are Claims
+
+Making statements about your product or service is simply part of advertising.  As discussed in the [Advertising and Promotion](/business/adpromo.md) section of this site you see that [Positioning](/business/positioning.md) 
+
+## Are Claims worth making?
+
+
+
 # General Guidelines 
 
 
