@@ -83,17 +83,21 @@ Curb the flow of misleading information and the flow of overlapping and unnecess
 Regardless of the intentions of the advertiser, an ad campaign for a product, service, or idea is deceptive only if the mistaken actions of purchasers or purchase influences cause injury to consumers or unfair losses to competitors. Be sure the general impression is truthful: by what the consumer thinks is said. A deceiver is an advertiser that innocently, negligently, or maliciously sponsors a deceptive advertising campaign.
 
 ## Guarantee and Warranty Offers:
-Whenever the terms "guarantee," "warranty," or similar words that constitute a promise or representation in the nature of a guarantee or warranty appear in an advertisement, certain additional information concerning material terms and conditions of such guarantee or warranty offer must be clearly and unambiguously disclosed to the consumer.
+
+When you sell something, even if you make no statement of a warranty, there is something called an implied warranty.  Since an implied warranty is already present, it make sense to simply state an express warranty where it is spelled out very clearly the nature of what the purchaser can expect of the product or service.  In many respects you can [think of a warranty like a contract between seller and buyer.](https://www.stimmel-law.com/en/articles/basics-warranties)
+
+[Guarnantees are basically verbal while warrantees are written.](https://www.stimmel-law.com/en/articles/basics-warranties)  In pretty much any case your word, as communicated in advertising as your promise, is what you could logically be held to.  Think sort of a minimum as what you are selling you promise will work as you state or claim; implied if not spelled out with explicit terms, or expressed.
+
+What material information should be spelled out so your offer is clearly and unambiguously disclosed to the consumer:<br>
  
-In general, any commercial announcement in which .a guarantee/warranty is mentioned should also disclose:
-a)       The nature and extent of the guarantee. 
-b)       The identify of the guarantor. 
-c)       The manner in which the guarantor intends to perform. 
-d)       Information concerning what a purchaser wishing to claim under the guarantee need do before the guarantor will perform pursuant to its obligations under the guarantee. 
-e)       Where applicable, whether a warranty is full or limited.
- 
-This disclosure may be made so that it will not be misunderstood by the typical viewer.
-Simultaneous disclosure in both the audio and video and print often proves to be the best and most certain method of achieving full, clear, and effective disclosure. However, a commercial announcement using only audio may constitute clear and conspicuous disclosure because of the clarity and completeness of the representation and the non-distracting manner of the presentation. Video disclosure alone may not necessarily satisfy the above criteria.
+-       The nature and extent of the guarantee. <br>
+-       The identify of the guarantor. <br>
+-       The manner in which the guarantor intends to perform. <br>
+-       Information concerning what a purchaser wishing to claim under the guarantee need do before the guarantor will perform pursuant to its obligations under the guarantee. <br>
+-       Where applicable, whether a warranty is full or limited.<br>
+
+
+You might disclosure via audio, video and print aiming to be certain of achieving full, clear, and effective disclosure. However, a commercial announcement using only audio may constitute clear and conspicuous disclosure because of the clarity and completeness of the representation and the non-distracting manner of the presentation. <br>
 
 ## Direct Sales:
 All such advertising must be in accordance with applicable federal, state, and local laws and shall be reviewed with special care. The reputation and reliability of the sponsor and the supervision exercised by the advertiser over its sales representatives are important considerations. Each proposed advertisement is evaluated on a case-by-case basis to insure its acceptability.
