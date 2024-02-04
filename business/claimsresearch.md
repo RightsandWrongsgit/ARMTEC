@@ -60,8 +60,8 @@ It is not just price that is subject to fluctuation so the substantiation for th
 If you are a small business, your head is already probably spinning about what you can say, how you can say it, what evidence you need to prove what you say, etc.  Let's go right to the Horse's Mouth and [see what the FTC has to say about advertising.](https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business)
 
 ## Trademark Laws:
-The Trademark Law Revision Act of 1988 will allow a manufacturer or publisher to sue an advertiser that misrepresents in an ad the nature or qualities of the manufacturer's product or publisher's magazine. Competitors must respect the personal and property rights of others.
-There are no strictures on the use of a competitor's trademark as long as it is used non-deceitfully. However, copyrights and trademarks must be carefully observed.
+
+Alright, so you have a advantage over a competitor, it is meaningful enough to consumer choice that the claim is worth making and defending, you have solid research to back up your claim should push come to shove; but now are you going to lose a court case for trademark infringment by including the competitor's brand mark in you comparison ad?  Probably not; the Trademark Law Revision Act and precedent cases appear to give you the right to [use a competitor's trademark as long as it is used non-deceitfully.](https://ccbjournal.com/articles/ours-works-better-use-competitors-trademark-advertising)   
 
 ## Reasonable Person:
 
