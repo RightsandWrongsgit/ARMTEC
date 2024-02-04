@@ -55,6 +55,9 @@ Pricing comparisons may raise special problems that could mislead, rather than e
 
 It is not just price that is subject to fluctuation so the substantiation for the claim will be considered valid only as long as the market conditions on which the claim is based continue to prevail.  An example might be something like 'found in more stores' and [ACV](/business/glossary.md#--a--) distribution changes for either or both products.  
 
+## From the Horse's Mouth
+
+If you are a small business, your head is already probably spinning about what you can say, how you can say it, what evidence you need to prove what you say, etc.  Let's go right to the Horse's Mouth and [see what the FTC has to say about advertising.](https://www.ftc.gov/business-guidance/resources/advertising-faqs-guide-small-business)
 
 ## Trademark Laws:
 The Trademark Law Revision Act of 1988 will allow a manufacturer or publisher to sue an advertiser that misrepresents in an ad the nature or qualities of the manufacturer's product or publisher's magazine. Competitors must respect the personal and property rights of others.
