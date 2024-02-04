@@ -130,7 +130,7 @@ A.      Face Validity Vs. Intrinsic Validity
 Because research findings are frequently judged by persons trained in other disciplines, the issue of face validity is very important Face validity refers to research which "looks" valid on the surface, particularly to those who are not trained in research methodology. Structured questions may look as though they are getting at the substance of an issue, but may in fact contain language wbich leads respondents to a particular conclusion.
 Research protocols and questionnaires should rather strive for intrinsic validity, which is the ability of a test to actually measure what it purports to measure. Evidence of intrinsic validity is not always available in survey research. Citations from professional literature, however, in which the same procedures were used by recognized experts with similar results can be helpful to demonstrate intrinsic validity.
 B.     In-house Study or Independent Supplier
-Another issue to be resolved early in the documentation process is whether to rely on internally conducted studies already on hand - possibly carried out with other objectives in mind, and before advertising claims were written — or to retain an independent research firm to design a study expressly to address the matter in contention. (In-house research is that which is designed and analyzed by BCBSF, although it may be sent to an outside supplier for field work and data processing.)
+Another issue to be resolved early in the documentation process is whether to rely on internally conducted studies already on hand - possibly carried out with other objectives in mind, and before advertising claims were written — or to retain an independent research firm to design a study expressly to address the matter in contention. 
  
 III.  Wording of Claims
 Since context can determine how a claim is interpreted, the following is intended to serve as an overview for various claim types:
@@ -203,7 +203,7 @@ F. Coding
 G. Data Entry
 For reference, each questionnaire should be numbered. 
 Paper questionnaires should be properly batched, so they can be easily referenced for cleaning. 
-Both paper and CRT questionnaires (coded responses) should be verified using different data entry operators. It is advisable to inform BCBSF as to what percent of the data have been verified. 
+Both paper and CRT questionnaires (coded responses) should be verified using different data entry operators. It is advisable to document and inform what percent of the data have been verified. 
 Data entry operators should not make decisions on codes or data entry. These decisions should have been made for them prior to data entry. 
 A way to account for "no answers" should be used. This may be by coding "no answer" or by the system automatically showing "no answer" when no item is entered. 
 H. Data Cleaning
