@@ -3,7 +3,9 @@
 
 ## What are Claims
 
-Making statements about your product or service is simply part of advertising.  As discussed in the [Advertising and Promotion](/business/adpromo.md) section of this site you see that [Positioning](/business/positioning.md) 
+Making statements about your product or service is simply part of advertising.  As discussed in the [Advertising and Promotion](/business/adpromo.md) section of this site you see that [Positioning](/business/positioning.md) is about communicating the 'Right Message' and in a mild sense this may be a claim.  It is important to be truthful in your advertising for more than legal or regulatory concerns; think of it as your advertising make your 'Brand Promise' and your 'Product or Service delivering on that Promise'.   Because repeat purchase generates revenue volume without the expense of additional promotion, keeping the brand promise is simply good business.  
+
+Sometimes you will be tempted to make a promise that 'your brand is better'.  Or you might want to say something like 'just as good as XXXXX at a lower price'.  Now you are starting to get into more directly making a claim.  If you go a step further, and want to claim your product is superior to another brand, you are squarely in claim territory.  
 
 ## Are Claims worth making?
 
