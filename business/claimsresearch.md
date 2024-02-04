@@ -89,11 +89,11 @@ When you sell something, even if you make no statement of a warranty, there is s
 [Guarnantees are basically verbal while warrantees are written.](https://www.stimmel-law.com/en/articles/basics-warranties)  In pretty much any case your word, as communicated in advertising as your promise, is what you could logically be held to.  Think sort of a minimum as what you are selling you promise will work as you state or claim; implied if not spelled out with explicit terms, or expressed.
 
 What material information should be spelled out so your offer is clearly and unambiguously disclosed to the consumer:<br>
- 
+
 -       The nature and extent of the guarantee. <br>
 -       The identify of the guarantor. <br>
 -       The manner in which the guarantor intends to perform. <br>
--       Information concerning what a purchaser wishing to claim under the guarantee need do before the guarantor will perform pursuant to its obligations under the guarantee. <br>
+-       What a purchaser wanting to make a claim needs to do before you will be obligated under the guarantee. <br>
 -       Where applicable, whether a warranty is full or limited.<br>
 
 
