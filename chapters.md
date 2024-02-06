@@ -161,7 +161,7 @@
     - [PHP Code Checker (Online)](https://extendsclass.com/php-tester.html){:target="_blank"}
     - [CDN Libraries you can call](https://cdnjs.com/libraries){:target="_blank"}
     
-    - <br>
+<br>
 
 - ##### Handy Utilities
 
