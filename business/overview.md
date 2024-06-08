@@ -1,7 +1,7 @@
 
 # The Profitable Business
 
-ARMTEC, Inc. helps organizations achieve profitable strategic performance, even non-profits. Profit is seen as a measure of efficiency, and reinvesting it can further the organization's mission.
+ARMTEC, Inc. helps organizations achieve profitable strategic performance, even non-profits. Profit is seen as a measure of efficiency, and reinvesting it can further the organization's mission.  To be clear, ARMTEC's focus is not on cost cutting.  Rather, it is on guiding the achievement of profitable GROWTH.  The logic of the optimal combination of Profitability and Growth is clearly communicated in this important [Harvard Business Review article.](https://hbr.org/2005/04/the-relative-value-of-growth) While that article mathmatically demonstrates the "WHY" behind a business leader's optimization of these two success drivers, you should turn to ARMTEC, Inc. for the details on "HOW" to achieve peak success.  
 
 ## Focus on Profit
 
