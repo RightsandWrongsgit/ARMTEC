@@ -9,3 +9,4 @@ The documentation for a Drupal CI/CD Workflow Base Project is presented here but
 
 - This separate repository also includes extensive background to support a novice user with basics; either directly, or through provided links on documentation pages.
 
+Enjoy yourself!
